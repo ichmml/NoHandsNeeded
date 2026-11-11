@@ -1,0 +1,502 @@
+# Texte der Oberfläche (it). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Le password si possono salvare solo cifrate
+Das ist keine Sicherungsdatei der Tastatur.	Questo non è un file di backup della tastiera.
+Die Sicherungsdatei ist unvollständig.	Il file di backup è incompleto.
+Daten exportieren	Esporta dati
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Metti tutto in un file, ad es. per il tuo secondo PC. Lì rileggilo con "Importa".
+Gelernte Wörter, Wortfolgen und Zahlen	Parole imparate, sequenze di parole e numeri
+Eigene Begriffe	Parole personali
+Makros	Macro
+Passwörter aus dem Tresor	Password dalla cassaforte
+Passwort für die Sicherung	Password per il backup
+Anzeigen / verbergen	Mostra / nascondi
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Con le password il file viene sempre cifrato. Questa password ti serve per importare, scrivila da qualche parte. Almeno 8 caratteri.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Senza password puoi lasciare il campo vuoto. Con una password il file viene cifrato.
+Speichern unter …	Salva con nome …
+Bitte mindestens einen Haken setzen.	Metti almeno una spunta.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Per includere le password il backup ha bisogno di una password di almeno 8 caratteri.
+Abbrechen	Annulla
+Daten importieren	Importa dati
+Sicherung vom 	Backup del 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Il backup è cifrato. Password del backup:
+Öffnen	Apri
+Datei beschädigt: 	File danneggiato: 
+Passwort falsch, nochmal versuchen.	Password sbagliata, riprova.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Cosa va ripreso? Quello che c'è resta, il nuovo si aggiunge.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Parole imparate ({0}), sequenze di parole ({1}), numeri ({2})
+Eigene Begriffe ({0})	Termini personali ({0})
+Makros ({0})	Macro ({0})
+Passwörter ({0})	Password ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Per parole uguali vale il contatore più alto. Una macro con lo stesso nome viene sostituita. Per una password con lo stesso nome e utente vince quella modificata o usata più di recente.
+Übernehmen	Applica
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Indirizzi email imparati: indirizzo<TAB>numero
+Makroleiste öffnen	Apri barra delle macro
+unbekannte Taste	tasto sconosciuto
+doppelt vergeben	assegnato due volte
+Taste gibt es im Tastaturlayout nicht	il tasto non esiste nel layout della tastiera
+schon von einem anderen Programm belegt (Fehler 1409)	già usato da un altro programma (errore 1409)
+von Windows abgelehnt	rifiutato da Windows
+Windows-Fehler 	Errore di Windows 
+Kürzel aufnehmen	Registra scorciatoia
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nPremi ora il tasto o la combinazione (ad es. sul Quadstick).
+Nochmal	Di nuovo
+Erkannt: 	Riconosciuto: 
+Kürzel testen	Prova scorciatoie
+Drück jetzt die Taste am Quadstick.\n	Premi ora il tasto sul Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Se in basso compare «Tasto ricevuto», il Quadstick invia il tasto.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Se compare anche «Scorciatoia attivata», funziona tutto.\n\n
+Aktiv: 	Attive: 
+Schließen	Chiudi
+→ Kürzel ausgelöst: 	→ Scorciatoia attivata: 
+keine Kürzel eingetragen	nessuna scorciatoia impostata
+Taste angekommen: 	Tasto ricevuto: 
+  (von Software)	  (da software)
+neu	nuova
+„{0}“ gemerkt	«{0}» memorizzata
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Ancora nessuna macro: creala con ✎ o registra con ●
+weiter  	altro  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Sposta: rilascia per posare · Esc/clic destro annulla
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Sposta: tieni fermo il mouse o clicca per posare · Esc/clic destro annulla
+Leertaste	Spazio
+■ Stopp	■ Stop
+✕ Zurück	✕ Indietro
+Verschieben abgebrochen	Spostamento annullato
+Position gespeichert	Posizione salvata
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Nessuna parola nota: questo tasto agisce sull'ultima parola scritta con questa tastiera
+Weitere Sprachen herunterladen	Scarica altre lingue
+Quelle:\n	Fonte:\n
+\nEs wird nur geladen, was du hier anklickst.	\nViene scaricato solo ciò che clicchi qui.
+Lade Übersicht …	Caricamento elenco …
+Herunterladen	Scarica
+Erneut versuchen	Riprova
+Keine Sprachpakete gefunden.	Nessun pacchetto lingua trovato.
+Sprache auswählen und "Herunterladen" klicken.	Scegli una lingua e clicca su «Scarica».
+Lade 	Caricamento: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 è installato e attivo. Cambia con il pulsante lingua in alto sulla tastiera.
+  · hinzugefügt	  · aggiunto
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Termini personali: una parola per riga, ad es. nomi e termini tecnici.
+Sie werden in allen Sprachen vorgeschlagen.	Vengono proposti in tutte le lingue.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Codice lingua non valido (ad es. fr.txt o riga di intestazione "#sprache fr Francese").
+Alle	Tutte
+   ✓ installiert	   ✓ installato
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Nessuna connessione Internet o server non raggiungibile. La tastiera continua a funzionare normalmente.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Il server non risponde (timeout). Riprova più tardi.
+Download fehlgeschlagen: 	Download non riuscito: 
+Tab ⇥	Tab ⇥
+Entf	Canc
+Enter ↵	Invio ↵
+⇧ Shift	⇧ Maiusc
+Strg	Ctrl
+Pos1	Inizio
+Ende	Fine
+Bild ↑	Pag ↑
+Bild ↓	Pag ↓
+Einfg	Ins
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Parole imparate della tastiera su schermo
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> parola <TAB> numero   e   f <TAB> parola <TAB> parola successiva <TAB> numero
+Geht erst mit der installierten, signierten Version.	Funziona solo con la versione installata e firmata.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Nel frattempo: nella schermata di blocco clicca in basso a destra sull'icona di accessibilità e usa la tastiera su schermo di Windows. Oppure configura Windows Hello (volto), così il PIN non serve.
+Die Tastatur erscheint auf dem Sperrbildschirm.	La tastiera compare nella schermata di blocco.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Pronto. Con l'interruttore la tastiera compare anche nella schermata di blocco.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Ora la tastiera compare nella schermata di blocco.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	La tastiera non compare più nella schermata di blocco.
+Hat nicht geklappt: 	Non ha funzionato: 
+Tasten	Tasti
+Warten	Attendi
+Text	Testo
+keine	nessuno
+blau	blu
+grün	verde
+rot	rosso
+orange	arancione
+lila	viola
+gelb	giallo
+grau	grigio
+Zeile 	Riga 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Usa spazi invece del tabulatore per il rientro.
+Unerwarteter Text, Einrückung prüfen.	Testo inatteso, controlla il rientro.
+Einrückung passt nicht.	Il rientro non corrisponde.
+Text nach dem schließenden ".	Testo dopo il " di chiusura.
+Hier wird ein Wert erwartet, keine Liste.	Qui è atteso un valore, non una lista.
+Unbekannte Taste "{0}".	Tasto sconosciuto "{0}".
+"{0}" muss eine Liste sein.	"{0}" deve essere una lista.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Passo sconosciuto "{0}". Consentiti: text, keys, open, wait (o text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	"{0}" non può essere una lista.
+Unbekanntes Kürzel "{0}".	Scorciatoia sconosciuta "{0}".
+Unbekannter Eintrag "{0}".	Voce sconosciuta "{0}".
+Makro ohne "name".	Macro senza "name".
+makros.yaml konnte nicht gelesen werden: 	Impossibile leggere makros.yaml: 
+Programme	Programmi
+Grüße	Saluti
+Viele Grüße	Cordiali saluti
+Datum	Data
+Heute	Oggi
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday} {date}, {time}
+Alles kopieren	Copia tutto
+Desktop	Desktop
+Browser	Browser
+Neuer Tab	Nuova scheda
+Tab zu	Chiudi scheda
+Tab zurück	Riapri scheda
+Editor	Editor
+Rechner	Calcolatrice
+Neue Mail	Nuova mail
+Hallo {cursor},\n\nViele Grüße	Ciao {cursor},\n\nCordiali saluti
+Unbekannte Taste "{0}" in Makro "{1}"	Tasto sconosciuto "{0}" nella macro "{1}"
+"{0}" ließ sich nicht öffnen: 	Impossibile aprire "{0}": 
+Makros bearbeiten	Modifica macro
+Neu	Nuovo
+Bearbeiten	Modifica
+Kopieren	Copia
+▲  Hoch	▲  Su
+▼  Runter	▼  Giù
+Löschen	Elimina
+Datei im Editor öffnen	Apri file nell'editor
+Datei neu laden	Ricarica file
+Neues Makro	Nuova macro
+ (Kopie)	 (copia)
+Makro "	Eliminare la macro «
+" löschen?	»?
+Makro bearbeiten	Modifica macro
+Name (Beschriftung des Knopfs)	Nome (testo del pulsante)
+Gruppe (leer = keine)	Gruppo (vuoto = nessuno)
+Farbe	Colore
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Solo per il programma (ad es. chrome o «chrome, msedge», vuoto = ovunque)
+Kürzel für "	Scorciatoia per «
+Kein Kürzel	Nessuna scorciatoia
+Schritte (werden der Reihe nach ausgeführt)	Passaggi (eseguiti uno dopo l'altro)
++ Text	+ Testo
++ Tasten	+ Tasti
++ Öffnen	+ Apri
++ Warten	+ Attendi
+Taste aufnehmen	Registra tasto
+Speichern	Salva
+Globales Kürzel: 	Scorciatoia globale: 
+Noch keine Schritte. Unten einen hinzufügen.	Ancora nessun passaggio. Aggiungine uno qui sotto.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Testo: più righe possibili. Segnaposto: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Separa i tasti con virgole, ad es.  Strg+A, Strg+C, Enter   oppure  Alt+Tab   oppure  Win+D.  Nomi dei tasti (in tedesco): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Programma, file, cartella o sito web, ad es.  notepad.exe   C:\Fatture   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pausa in millisecondi (1000 = 1 secondo)
+Taste für den Schritt	Tasto per il passaggio
+Bitte einen Namen eingeben.	Inserisci un nome.
+"Warten" braucht eine Zahl in Millisekunden.	«Attendi» richiede un numero in millisecondi.
+Name	Nome
+Verwerfen	Scarta
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Numeri imparati (date, numeri di telefono, CAP): scrittura<TAB>numero
+Taste 	Tasto 
+Passwort-Tresor	Cassaforte password
+Kürzel nicht aktiv	Scorciatoia non attiva
+Tastatur zeigen / verstecken	Mostra / nascondi tastiera
+Lernen fortsetzen	Riprendi apprendimento
+Lernen pausieren	Metti in pausa l'apprendimento
+Passwort-Tresor bearbeiten	Modifica cassaforte password
+Einstellungen	Impostazioni
+Anleitung öffnen	Apri manuale
+Einführung zeigen	Mostra introduzione
+☕ Kaffee spendieren	☕ Offrimi un caffè
+Beenden	Esci
+Die Anleitung wurde nicht gefunden.	Manuale non trovato.
+Anleitung	Manuale
+Die Anleitung ließ sich nicht öffnen: 	Impossibile aprire il manuale: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	La lingua di Windows è {0}, la tastiera è impostata su {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	La lingua di Windows è {0}. Puoi attivarla nelle impostazioni, sotto Lingue.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	La lingua di Windows ({0}) non è ancora integrata. Forse è disponibile da scaricare.
+Sprache herunterladen	Scarica lingua
+Sprache: 	Lingua: 
+  (für 	  (per 
+Tastatur ein-/ausblenden	Mostra/nascondi tastiera
+Sprache wechseln	Cambia lingua
+Makro 	Macro 
+Während der Aufnahme keine Makros	Niente macro durante la registrazione
+" gespeichert	» salvata
+Erst etwas tippen, dann + zum Speichern	Prima scrivi qualcosa, poi + per salvare
+Als Textbaustein speichern	Salva come blocco di testo
+Text: 	Testo: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Registrazione in corso: scrivi normalmente, poi ■ Stop
+Aufnahme verworfen	Registrazione scartata
+Nichts aufgenommen	Niente registrato
+Aufnahme 	Registrazione 
+Aufnahme speichern	Salva registrazione
+Lernen pausiert	Apprendimento in pausa
+Lernen läuft wieder	L'apprendimento riprende
+ Wörter	 parole
+Bisher gelernt: 	Imparato finora: 
+, Zahlen: 	, numeri: 
+ Dateien gelesen, 	 file letti, 
+ Wörter in 	 parole in 
+ Sätzen gelernt	 frasi imparate
+, dazu 	, inoltre 
+-mal Datum oder Telefonnummer.	 volte data o numero di telefono.
+ Dateien übersprungen.	 file saltati.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nViene salvato solo quanto spesso compaiono le parole, non i testi. Le righe con password, PIN, IBAN e simili vengono saltate.
+Aus meinen Texten lernen	Impara dai miei testi
+Der Tresor ist in den Einstellungen ausgeschaltet	La cassaforte è disattivata nelle impostazioni
+Im Tresor speichern?	Salvare nella cassaforte?
+⚿ Speichern	⚿ Salva
+Nein	No
+Tresor nicht lesbar	Cassaforte illeggibile
+🔒 Tresor entsperren	🔒 Sblocca cassaforte
+Tresor ist noch leer	La cassaforte è ancora vuota
++ Passwort hinzufügen	+ Aggiungi password
+🎲 Erzeugen und eintippen	🎲 Crea e scrivi
+✕ Ausblenden	✕ Nascondi
+Passwort "	Password «
+" eingetippt	» digitata
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Nuova password digitata. Salvala subito, altrimenti è persa!
+Passwort 	Password 
+Nicht gespeichert. "Speichern" geht noch kurz.	Non salvata. «Salva» funziona ancora per poco.
+Im Tresor gespeichert	Salvata nella cassaforte
+Tresor entsperren	Sblocca cassaforte
+PIN eingeben	Inserisci il PIN
+PIN falsch, nochmal versuchen	PIN errato, riprova
+nicht lesbar	non leggibile
+gesperrt, PIN wird abgefragt	bloccata, verrà chiesto il PIN
+{0} Wörter, {1} Zahlen	{0} parole, {1} numeri
+Sicherung speichern	Salva backup
+Tastatur-Sicherung	Backup della tastiera
+Gespeichert:\n	Salvato:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nIl file è cifrato. Senza la password del backup non si può aprire.
+Sicherung öffnen	Apri backup
+Alle Dateien	Tutti i file
+{0} neue E-Mail-Adressen	{0} nuovi indirizzi email
+{0} neue Wörter, {1} neue Zahlen	{0} parole nuove, {1} numeri nuovi
+{0} neue eigene Begriffe	{0} nuovi termini personali
+{0} neue Makros, {1} ersetzt	{0} macro nuove, {1} sostituite
+Passwörter übersprungen: 	Password saltate: 
+Passwörter übersprungen (Tresor gesperrt)	Password saltate (cassaforte bloccata)
+{0} neue Passwörter, {1} aktualisiert	{0} password nuove, {1} aggiornate
+Fertig.\n\n	Fatto.\n\n
+mit PIN	con PIN
+ohne PIN	senza PIN
+Tresor gesperrt (	Cassaforte bloccata (
+ Passwörter gespeichert, 	 password salvate, 
+Es ist keine PIN gesetzt.	Nessun PIN impostato.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN salvato. Ricordalo bene: senza PIN nessuno può accedere alle password, nemmeno tu.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN rimosso. La cassaforte resta cifrata con il tuo account Windows.
+Bildschirmtastatur: Einstellungen	Tastiera su schermo: impostazioni
+Version	Versione
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	La tastiera è gratuita. Se ti aiuta, una donazione mi farebbe piacere.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Sostienimi con una donazione (Ko-fi)
+📖 Anleitung öffnen	📖 Apri manuale
+Aussehen	Aspetto
+Deckkraft Tastatur	Opacità tastiera
+Deckkraft runder Knopf (eingeklappt)	Opacità pulsante rotondo (chiuso)
+Farbschema	Combinazione di colori
+dunkel	scuro
+hell	chiaro
+Bedienung	Uso
+Verweilklick (Taste löst nach Verweilzeit aus)	Clic a permanenza (il tasto scatta dopo un tempo)
+Verweilzeit	Tempo di permanenza
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Mostra i tasti premuti davvero (ad es. dal Quadstick, si illuminano di rosso)
+Nachleuchten	Persistenza
+aus	spento
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	La tastiera ricorda la parola iniziata per ogni finestra. Quando torni, continui semplicemente a scrivere.
+Auch nach Klick ins Fenster weiterschreiben	Continua a scrivere anche dopo un clic nella finestra
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Disattivato: si continua solo cambiando tramite barra delle applicazioni, Alt+Tab o barra del titolo. Un clic nel testo può spostare il cursore.
+Wortvorschläge	Suggerimenti di parole
+Zeilen	Righe
+1 Zeile	1 riga
+2 Zeilen	2 righe
+Vorschläge pro Zeile	Suggerimenti per riga
+Schriftgröße Vorschläge und Makros	Dimensione testo suggerimenti e macro
+Satzanfang automatisch groß	Maiuscola automatica a inizio frase
+Leerzeichen nach Vorschlag einfügen	Inserisci spazio dopo il suggerimento
+Getipptes Wort oben links zeigen (rot)	Mostra la parola digitata in alto a sinistra (rossa)
+Punkte mit 👁	Puntini con 👁
+immer nur Punkte	sempre solo puntini
+Passwörter beim Tippen	Password durante la digitazione
+Klartext automatisch ausblenden nach	Nascondi il testo in chiaro automaticamente dopo
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Nei campi password si vedono solo puntini. 👁 mostra la password in chiaro per un attimo; nel frattempo la tastiera è esclusa da screenshot e condivisione schermo.
+Sprachen	Lingue
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Spuntato = attivo. L'ordine vale per il pulsante lingua in alto sulla tastiera.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Offri misto (ad es. DE+EN) quando cambi
+Sprache pro Programm merken	Ricorda la lingua per programma
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Se cambi lingua in un programma, la tastiera lo ricorda e la prossima volta cambia automaticamente in quel programma. Ad esempio Outlook in inglese, WhatsApp in italiano.
+passend zur Sprache	in base alla lingua
+immer Deutsch (QWERTZ)	sempre tedesco (QWERTZ)
+immer Englisch (QWERTY)	sempre inglese (QWERTY)
+Tastenlayout	Layout dei tasti
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Modifica parole personali (nomi, termini tecnici)
+Sonderzeichen unten	Caratteri speciali in basso
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	I quattro tasti in basso accanto a abc/ABC. Un carattere per campo, facoltativamente un secondo per Maiusc (ad es. ".:"). Vuoto = predefinito.
+Auf Standard zurücksetzen	Ripristina predefiniti
+Lernen	Apprendimento
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	La tastiera ricorda quali parole scrivi, come le scrivi e quale parola segue spesso un'altra. Tutto resta su questo PC. Nei campi password non impara mai nulla.
+Aus meinem Schreiben lernen	Impara da ciò che scrivo
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Impara anche i numeri (date, numeri di telefono, CAP)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Impara gli indirizzi email e suggeriscili dopo 3 lettere
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	Nei campi email mostra subito gli indirizzi email
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Come le parole nuove, i numeri vengono suggeriti solo dalla seconda volta. Codici usa e getta, PIN, TAN e numeri di carta non vengono mai imparati.
+Neue Wörter vorschlagen ab	Suggerisci parole nuove dopo
+1-mal geschrieben	scritta 1 volta
+-mal geschrieben	 volte scritta
+Aus meinen Texten lernen (Ordner wählen)	Impara dai miei testi (scegli cartella)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Cartella con i tuoi testi (ad es. Obsidian, Documenti). Vengono letti .txt .md .docx .html .eml .mbox, anche nelle sottocartelle.
+Aus einzelnen Dateien lernen	Impara da singoli file
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Testi|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Tutti i file|*.*
+Gelernte Wörter ansehen und löschen	Vedi ed elimina parole imparate
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Le password sono salvate cifrate solo per il tuo account Windows su questo PC. Non compaiono mai nei normali suggerimenti e vengono digitate direttamente, mai tramite gli appunti.
+Tresor benutzen	Usa la cassaforte
+In Passwortfeldern automatisch zeigen	Mostra automaticamente nei campi password
+Nach dem Eintippen "Im Tresor speichern?" fragen	Chiedi «Salvare nella cassaforte?» dopo la digitazione
+Länge neuer Passwörter	Lunghezza nuove password
+ Zeichen	 caratteri
+Neue Passwörter mit Sonderzeichen	Nuove password con caratteri speciali
+Tresor bearbeiten	Modifica cassaforte
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Con il PIN la cassaforte è bloccata dopo l'avvio e si riblocca dopo un po' senza uso. Il PIN si inserisce con grandi tasti numerici.
+PIN festlegen oder ändern	Imposta o cambia PIN
+PIN entfernen	Rimuovi PIN
+Mit PIN automatisch sperren nach	Con PIN, blocca automaticamente dopo
+nie	mai
+ Minuten	 minuti
+Sichern und auf anderen PC übertragen	Backup e trasferimento su un altro PC
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Metti in un file le parole imparate, le sequenze di parole, i numeri, i termini personali, le macro e, se vuoi, le password. Importalo sull'altro PC e tutto viene unito.
+Daten exportieren …	Esporta dati …
+Daten importieren …	Importa dati …
+Verschieben und Größe	Spostamento e dimensione
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Spostare: trascina il tasto di spostamento in basso a destra, oppure resta a lungo su un tasto. Dimensione: trascina un bordo o l'angolo in basso a sinistra.
+Breite	Larghezza
+ % des Bildschirms	 % dello schermo
+Höhe	Altezza
+unten rechts	in basso a destra
+unten mittig	in basso al centro
+unten links	in basso a sinistra
+Standardposition (für Zurücksetzen)	Posizione predefinita (per il ripristino)
+Größe und Position zurücksetzen	Ripristina dimensione e posizione
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	La dimensione è una percentuale dello schermo. Se trascini la tastiera su un altro schermo, si adatta lì.
+Verschieben durch langes Draufbleiben	Sposta restando a lungo su un tasto
+Maustaste gedrückt halten bis Verschieben	Tieni premuto il pulsante del mouse fino allo spostamento
+Verweilen bis Verschieben	Permanenza fino allo spostamento
+automatisch (doppelte Verweilzeit)	automatico (doppio tempo di permanenza)
+Maus ruhig halten zum Absetzen	Tieni fermo il mouse per posare
+Greifzone am Rand zum Größe ändern	Zona di presa sul bordo per ridimensionare
+ Pixel	 pixel
+Globale Kürzel	Scorciatoie globali
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Funzionano anche quando è attivo un altro programma. Ideali per un tasto del Quadstick.
+Protokoll öffnen	Apri registro
+Start	Avvio
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Mostra un pulsante nella barra delle applicazioni (un clic apre la tastiera per intero)
+Mit Windows starten	Avvia con Windows
+Eingeklappt starten	Avvia chiusa
+Sonstiges	Altro
+automatisch (wie Windows)	automatico (come Windows)
+Sprache der Oberfläche	Lingua dell'interfaccia
+Einführung nochmal zeigen	Mostra di nuovo l'introduzione
+Sperrbildschirm	Schermata di blocco
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Mostra nella schermata di blocco (per inserire il PIN)
+Datenordner öffnen	Apri cartella dati
+Tastatur beenden	Chiudi la tastiera
+Makro-Kürzel nicht aktiv: 	Scorciatoia macro non attiva: 
+Entfernen	Rimuovi
+Aus Datei hinzufügen	Aggiungi da file
+Download-Quelle (nur https)	Fonte di download (solo https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Inserisci un indirizzo che inizi con https://.
+Download-Quelle	Fonte di download
+Standard wiederherstellen	Ripristina predefinito
+Mindestens eine Sprache muss aktiv sein.	Almeno una lingua deve essere attiva.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 è integrata e si può solo disattivare (togli la spunta).
+ löschen?	: eliminare?
+Sprachpaket	Pacchetto lingua
+ wurde hinzugefügt und eingeschaltet.	 è stato aggiunto e attivato.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Ecco come appare l'assegnazione nel foglio del Quadstick. Nella colonna gialla scegli l'ingresso desiderato (ad es. mp_triple_puff), poi carica la configurazione sul Quadstick.
+ausgeschaltet	disattivato
+✓ aktiv	✓ attiva
+✗ nicht aktiv	✗ non attiva
+Aufnehmen	Registra
+Aus Liste ▾	Dall'elenco ▾
+Aus	No
+Bildschirmtastatur öffnen	Apri la tastiera su schermo
+Willkommen!	Benvenuto!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Questa tastiera su schermo scrive nel programma in cui stai scrivendo e non gli toglie mai il focus. Clicca «Avanti» per scoprire le parti più importanti.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Tutto a sinistra vedi in rosso ciò che stai scrivendo. Accanto ci sono parole adatte, un clic inserisce la parola con uno spazio. La tastiera impara quali parole scrivi spesso. Una parola nuova la confermi con un clic sulla parola rossa, e viene memorizzata subito.
+Groß/Klein-Taste	Tasto maiuscole/minuscole
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	«abc ↑» mette in maiuscolo l'ultima parola, «ABC ↓» la mette in minuscolo. Funziona anche dopo, dopo uno spazio o un punto.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Tieni premuto ✥ e trascina la tastiera dove vuoi. Oppure resta su un tasto qualsiasi finché l'anello arancione si riempie: allora la tastiera segue il mouse. La dimensione si cambia su ogni bordo.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Maiusc, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Un tocco vale per il tasto successivo. Due tocchi bloccano il tasto, tre tocchi lo disattivano.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Blocchi di testo, sequenze di tasti e programmi con un clic. Con ● registri semplicemente ciò che scrivi.
+Sprache	Lingua
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Cambia la lingua dei suggerimenti e il layout dei tasti. Quali lingue sono incluse si sceglie nelle impostazioni.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Mostra le tue password salvate. Nei campi password compaiono da sole, un clic digita la password.
+Verweilklick	Clic a permanenza
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Attiva o disattiva il clic a permanenza: un tasto scatta quando resti un attimo sopra con il mouse.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Qui regoli tutto: dimensione, colori, lingue, scorciatoie e altro. Lì ritrovi anche questa introduzione.
+Einklappen	Chiudi
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Riduce la tastiera a un piccolo pulsante rotondo. Un clic sopra la riporta.
+Tray-Symbol und Kürzel	Icona nell'area di notifica e scorciatoie
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	In basso a destra nella barra delle applicazioni c'è l'icona della tastiera. Il tasto Pausa mostra e nasconde la tastiera, ideale per un tasto del Quadstick.
+Fertig!	Fatto!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Buona scrittura. Tutto il resto è nel manuale: "📖 Apri manuale" in cima alle impostazioni o nel menu dell'icona. La tastiera è gratuita. Se ti aiuta, una donazione mi farebbe piacere.
+Überspringen	Salta
+Zurück	Indietro
+Fertig	Fine
+Weiter	Avanti
+tresor.dat hat ein unbekanntes Format.	tresor.dat ha un formato sconosciuto.
+Tresor ist gesperrt.	La cassaforte è bloccata.
+Passwort	Password
+Mindestens 4 Ziffern	Almeno 4 cifre
+PIN festlegen	Imposta PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Inserisci il nuovo PIN (da 4 a 12 cifre)
+PIN zur Sicherheit wiederholen	Ripeti il PIN per conferma
+Die beiden PINs sind verschieden. Bitte nochmal.	I due PIN sono diversi. Riprova.
+Passwort-Eintrag	Voce password
+Name (so steht es in der Tresorleiste)	Nome (come appare nella barra della cassaforte)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Nome utente o e-mail (solo come promemoria, facoltativo)
+Benutzername oder E-Mail	Nome utente o email
+Sicheres Passwort erzeugen	Crea una password sicura
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Corrisponde a (parole chiave dal titolo della finestra, ad es. «gmail, google»)
+Name und Passwort dürfen nicht leer sein.	Nome e password non possono essere vuoti.
+Tresor konnte nicht gespeichert werden: 	Impossibile salvare la cassaforte: 
+" aus dem Tresor löschen?	»: eliminare dalla cassaforte?
+Gelernte Wörter	Parole imparate
+Zahlen	Numeri
+E-Mail-Adressen	Indirizzi email
+Suchen:	Cerca:
+Markierte löschen	Elimina selezionate
+Alles vergessen	Dimentica tutto
+ E-Mail-Adressen gelernt, für alle Sprachen	 indirizzi email imparati, per tutte le lingue
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 numeri imparati (date, numeri di telefono, CAP), per tutte le lingue
+ Wörter, 	 parole, 
+ Wortfolgen gelernt	 sequenze di parole imparate
+   (die ersten 3000 angezeigt)	   (mostrate le prime 3000)
+Alle gelernten E-Mail-Adressen vergessen?	Dimenticare tutti gli indirizzi email imparati?
+Alle gelernten Zahlen vergessen?	Dimenticare tutti i numeri imparati?
+Alles Gelernte für 	Dimenticare tutto ciò che è stato imparato per 
+ vergessen?	?
+Suche Dateien …	Ricerca file …
+Datei 	File 
+ von 	 di 
+Deutsch	Tedesco
+Englisch	Inglese
+Niederländisch	Olandese
+Französisch	Francese
+Dänisch	Danese
+Polnisch	Polacco
+Tschechisch	Ceco
+Italienisch	Italiano
+Spanisch	Spagnolo
+Türkisch	Turco
+Russisch	Russo
+Portugiesisch	Portoghese
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a bocca come il Quadstick, un mouse a testa o con gli occhi.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Memorizza e proponi gli IBAN (solo validi, con cifra di controllo corretta)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Numeri e IBAN vengono proposti già dopo la prima volta. PIN, TAN e numeri di carta non vengono mai imparati.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	La tua lingua di Windows ({0}) purtroppo non è ancora integrata.
+IBAN merken und vorschlagen	Memorizza e proponi gli IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Impara PIN e numeri di carta (cifrati)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	I numeri vengono proposti già dopo la prima volta. Un IBAN solo se la cifra di controllo è corretta. PIN e numeri di carta sono salvati cifrati su questo PC e finiscono solo in un backup con password.
+Leerzeichen nach . , ! ? : von selbst einfügen	Inserisci da solo uno spazio dopo . , ! ? :
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Tocca di nuovo ✕ per chiudere la tastiera
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Con la scorciatoia (es. Pausa) apri dove si trova il mouse
+Wo die Tastatur dann erscheint	Dove compare poi la tastiera
+unter der Maus, mittig	sotto il mouse, al centro
+unter der Maus, nach rechts	sotto il mouse, verso destra
+unter der Maus, nach links	sotto il mouse, verso sinistra
+über der Maus, mittig	sopra il mouse, al centro
+über der Maus, nach rechts	sopra il mouse, verso destra
+über der Maus, nach links	sopra il mouse, verso sinistra
+🔍 Suchen	🔍 Cerca
+nichts gefunden	non trovato nulla
+✕ Suche beenden	✕ Termina ricerca
+Namen tippen, die Liste wird kleiner	Scrivi un nome, la lista si accorcia

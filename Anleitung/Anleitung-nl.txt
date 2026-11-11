@@ -1,0 +1,448 @@
+NoHandsNeeded
+=============
+Schermtoetsenbord, Versie 1.01
+
+Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit
+toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een
+mondjoystick zoals de Quadstick, een hoofdmuis of met de ogen.
+
+Deze handleiding is door een AI uit het Duits vertaald. Verbeteringen van moedertaalsprekers
+zijn welkom op GitHub: https://github.com/ichmml/nohandsneeded (map Anleitung).
+
+Een schermtoetsenbord voor Windows, gemaakt voor mensen die de pc zonder handen bedienen,
+bijvoorbeeld met een mondbediening (Quadstick), hoofdmuis of oogbesturing.
+Doel: zo weinig klikken als mogelijk. Het neemt het programma waarin je typt nooit de focus af.
+
+Start
+-----
+Zet NoHandsNeeded.exe in een eigen map (bijv. C:\Tools\NoHandsNeeded) en start het.
+Niets te installeren, .NET Framework 4.8 zit al in Windows 10/11.
+Bijwerken: de oude versie via het systeemvakpictogram afsluiten en de .exe vervangen.
+Instellingen blijven behouden.
+
+Bij de eerste start meldt Windows mogelijk "Uw pc is door Windows beveiligd". Klik dan op
+"Meer informatie" en "Toch uitvoeren". Dat komt doordat het bestand niet ondertekend is.
+
+Bij de eerste start past het toetsenbord zich aan de Windows-taal aan (suggesties,
+toetsindeling en interface) en toont het een korte rondleiding om door te klikken. De
+rondleiding kun je altijd opnieuw bekijken: Instellingen → Overig → "Rondleiding opnieuw
+tonen" of het menu van het systeemvakpictogram.
+Deze handleiding opent via "Handleiding openen" helemaal bovenaan in de instellingen of in het
+menu van het systeemvakpictogram, altijd in de taal van de interface.
+
+Naast de .exe verschijnt de map "NoHandsNeeded-Daten" met einstellungen.txt, makros.yaml,
+protokoll.txt (logboek), de map "Lernen" (geleerde woorden) en tresor.dat (wachtwoorden,
+versleuteld). Is die map niet beschrijfbaar, dan komen de gegevens in %APPDATA%\NoHandsNeeded.
+
+Bovenste balk
+-------------
+  Esc       Escape-toets (Fn zit linksonder in de onderste rij)
+  midden    helemaal links in rood het woord dat je typt (zie onder), daarnaast de
+            woordsuggesties, één klik neemt het woord met spatie over
+  Macro's   opent de macrobalk (zie onder)
+  NL        taal van de woordsuggesties, één klik wisselt (zie "Talen")
+  ⚿         wachtwoordkluis tonen/verbergen (zie "Wachtwoordkluis")
+  ◷         aanwijsklik aan/uit
+  ⚙         instellingen
+  ▾         inklappen tot een kleine ronde knop (klikken of aanwijzen klapt weer uit)
+  ✕         toetsenbord sluiten: twee keer tikken (na de eerste tik wordt ✕ rood)
+
+Getypt woord (linksboven, rood)
+-------------------------------
+Het eerste vak van de suggestiebalk toont rood en vet wat je typt, letter voor letter.
+Getallen staan er helemaal met punten, een wachtende accenttoets (bijv. ´) verschijnt aan
+het eind. Lange woorden worden nooit ingekort, het vak wordt gewoon breder.
+Speciale tekens laten de weergave staan: alles sinds de laatste spatie, Enter of Tab staat
+er, bijv. "s!add" of een webadres. De suggesties ernaast horen bij het laatste woord
+("add"). Een klik op zo'n rood vak zet alleen een spatie.
+  - Kent het toetsenbord het woord nog niet, dan staat er klein "nieuw" naast. Een klik op
+    het rode woord neemt het met spatie over en onthoudt het meteen, vanaf dan wordt het
+    voorgesteld.
+  - In een wachtwoordveld staan rode puntjes en het aantal tekens, met 👁 ernaast. 👁 toont
+    het wachtwoord 10 seconden leesbaar (of tot de volgende klik). Zolang is het toetsenbord
+    uitgesloten van schermafbeeldingen en schermdeling. Wachtwoorden uit de kluis verschijnen
+    alleen als puntjes. Na Enter of bij het verlaten van het veld is alles weg.
+  - In de eigen vensters van het toetsenbord (nieuwe kluisinvoer, back-upwachtwoord) zie je
+    het wachtwoord tijdens het typen leesbaar, in het venster en bovenin het toetsenbord.
+    "Tonen / verbergen" schakelt naar puntjes. Er wordt niets geleerd, gelogd of opgenomen.
+  - Getoond wordt alleen wat met dit toetsenbord is getypt. Na een klik in het venster of
+    een echte toetsaanslag is het vak leeg.
+  - Instellingen → Woordsuggesties: aan/uit, "puntjes met 👁" of "altijd alleen puntjes",
+    tijd tot de leesbare tekst verdwijnt.
+
+Verplaatsen en grootte
+----------------------
+Verplaatsen:
+  - ✥ rechtsonder ingedrukt houden en slepen, of er kort op wijzen.
+  - Op elke toets de muisknop iets langer ingedrukt houden (standaard 0,5 seconde). Een
+    oranje ring vult zich, dan hangt het toetsenbord aan de muis. Loslaten zet het neer.
+    De toets wordt daarbij niet getypt. Kort klikken typt zoals gewoonlijk (bij loslaten).
+  - Met aanwijsklik: duidelijk langer op een toets blijven (standaard dubbele aanwijstijd).
+    Eerst wordt de toets één keer getypt, dan vult de oranje ring zich en volgt het
+    toetsenbord de muis. De muis even stilhouden of klikken zet het neer. Backspace, Delete
+    en de pijlen herhalen zich bij het aanwijzen, daarmee kun je niet slepen.
+  - Esc of rechtsklikken breekt af, het toetsenbord springt terug.
+  - Het toetsenbord blijft altijd helemaal op het scherm, ook met meerdere monitoren.
+Grootte: aan elke rand of aan de blauwe hoek linksonder met de muis slepen.
+  De grootte geldt in procent van het scherm (standaard 60 % breed, 31 % hoog, rechtsonder).
+  Instellingen → "Verplaatsen en grootte": schuifregelaars voor breedte en hoogte,
+  standaardpositie (rechtsonder, midden of links) en "Grootte en positie herstellen".
+Meerdere schermen: het toetsenbord kan naar elk scherm worden gesleept, ook als de schermen
+  verschillend geschaald zijn (bijv. 125 % en 100 %). Bij het neerzetten neemt het daar
+  dezelfde grootte in procent aan. Is een scherm bij de start weg, dan verschijnt het
+  rechtsonder op het hoofdscherm. Hetzelfde geldt voor de ronde knop.
+De suggestiebalk kan in de instellingen ook twee regels hebben, met een eigen lettergrootte.
+
+Toetsen
+-------
+Fn (linksonder): tweede laag met F1 tot F12, Home, End, Page Up/Down, speciale tekens.
+Esc zit linksboven.
+Shift, Ctrl, Alt, Win, AltGr:
+  1x tikken = geldt voor de volgende toets (blauw kader)
+  2x tikken = vast (oranje kader, "vast"), bijv. Shift vast + pijlen om te selecteren
+  3x tikken = uit
+Win werkt anders: 1x tikken geldt voor de volgende toets (bijv. Win+E voor de Verkenner), 2x
+tikken drukt de Windows-toets alleen in en opent het Startmenu.
+
+Onderste rij: Fn, Ctrl, Win, Alt, spatie, AltGr (direct rechts naast de spatiebalk),
+abc/ABC, vier speciale tekens, pijlen, ✥. De vier speciale tekens zijn standaard ! ? : -
+en kunnen in de instellingen onder "Speciale tekens onderaan" worden gewijzigd (één teken
+per veld, eventueel een tweede voor Shift, bijv. ".:"). Na een woordsuggestie schuift een
+leesteken tegen het woord aan en komt de spatie erachter ("huis ." wordt "huis. ").
+Ook verder komt na . , ! ? : ; vanzelf een spatie, behalve in getallen (1,5 of 10:30),
+webadressen, e-mailadressen en in e-mail- of IBAN-velden. Typ je zelf nog een spatie, dan
+wordt die niet dubbel. Uit te zetten in de instellingen.
+
+Hoofdlettertoets (naast de spatiebalk): verandert de schrijfwijze van het laatste woord.
+    "abc" met pijl omhoog   = woord is klein, één druk maakt de eerste letter groot
+    "ABC" met pijl omlaag   = woord heeft hoofdletters, één druk maakt het klein
+    Daarna toont hij de andere optie, je kunt dus heen en weer wisselen.
+    Werkt ook direct na een woordsuggestie of na spatie/punt.
+    Grijs "Aa" = geen woord bekend. De toets kent alleen woorden die met dit toetsenbord
+    zijn getypt en vergeet ze na een klik in het venster, een vensterwissel of Enter.
+    Woorden uit spraakinvoer (bijv. Wispr Flow) of een ander toetsenbord kent hij niet.
+    ALLES HOOFDLETTERS: Shift twee keer tikken (vast).
+
+Aan het begin van een zin (na . ! ? en spatie of na Enter) wordt de volgende letter
+automatisch een hoofdletter. Uit te zetten in de instellingen.
+
+Echte toetsaanslagen: druk je op de Quadstick (of een gewoon toetsenbord) een toets in, dan
+licht die rood op op het schermtoetsenbord zolang hij ingedrukt is en nog 1,5 seconde
+daarna. Ctrl+Shift voor Wispr Flow zie je dus zolang je vasthoudt. Wat het
+schermtoetsenbord zelf typt, licht niet op. Toetsen worden alleen getoond, niet opgeslagen
+en niet gelogd.
+Na een echte toetsaanslag vergeet het toetsenbord het begonnen woord, omdat daar nu
+geplakte of gedicteerde tekst kan staan. Shift of Ctrl alleen veranderen niets, Ctrl+Shift
+wel. De sneltoetsen (Pause, numeriek -) tellen niet.
+Instellingen → Bediening: aan/uit en hoe lang toetsen nagloeien.
+
+Eigen vensters (kluis, wachtwoordinvoer, pincode, macro's, export/import): het toetsenbord
+blijft klikbaar, je kunt in deze vensters dus gewoon typen. De vensters openen zo dat het
+toetsenbord ze niet bedekt.
+
+Woord per programma: wissel je van venster (bijv. van het mailprogramma naar de browser en
+terug), dan onthoudt het toetsenbord per venster het begonnen woord, het woord ervoor en het
+zinsbegin. Terug in het venster typ je gewoon verder.
+  - Geldt per venster: twee browservensters zijn gescheiden, tabbladen in hetzelfde venster
+    niet.
+  - Haal je het venster terug met een klik in de tekst, dan gaat het ook verder. Klik je
+    daarbij midden in de tekst, dan past de suggestie niet. Uitzetten: Instellingen →
+    Bediening → "Ook na klik in het venster verder schrijven".
+  - Hoogstens 30 vensters, hoogstens 30 minuten, alleen in het geheugen. Nooit
+    wachtwoordvelden.
+
+Bij aanwijsklik herhalen Backspace, Delete en de pijlen zich zolang je erop blijft.
+Alle andere toetsen gaan pas weer af als je de toets een keer hebt verlaten.
+
+Macro's
+-------
+Tik op "Macro's": bovenin verschijnen de macro's in plaats van de woordsuggesties.
+  - Eén klik voert de macro uit, daarna komen de woordsuggesties terug.
+  - Groepen verschijnen als "Naam ›", een klik opent ze, "‹ Naam" gaat terug.
+  - Macro's die bij het actieve programma passen, staan vooraan.
+  - Passen ze niet allemaal, dan bladert "verder ›".
+  - "✕ Terug" sluit de macrobalk.
+
+Rechts naast de macrobalk:
+  ●  Opnemen: gewoon op het toetsenbord typen, alles wordt opgenomen (tekst, Enter,
+     sneltoetsen zoals Ctrl+S). Het toetsenbord krijgt een rood kader.
+     "■ Stop" beëindigt de opname, dan de naam bevestigen en klaar.
+     ✕ verwerpt de opname.
+  +  Snel opslaan: wat je het laatst getypt hebt (sinds de laatste klik in het venster)
+     wordt als tekstblok opgeslagen. Een naam is al voorgesteld, één klik is genoeg.
+  ✎  macro-editor openen
+
+Macro-editor (✎ of Instellingen → Macro's bewerken):
+  Nieuw, Bewerken, Kopiëren, Omhoog/Omlaag, Verwijderen. In de macro zelf: naam, groep,
+  kleur, programma, globale sneltoets en willekeurig veel stappen:
+    Tekst     plaatshouders {date} {time} {weekday} {cursor}
+              (Duits werkt ook: {datum} {uhrzeit} {wochentag})
+              ({cursor} = daar staat de cursor na het invoegen)
+    Toetsen   bijv. Ctrl+A, Ctrl+C, Enter   of   Alt+Tab   of   Win+D
+              "Toets opnemen" vult een ingedrukte toets direct in
+    Openen    programma, bestand, map of webpagina
+    Wachten   pauze in milliseconden
+
+De macro's staan in NoHandsNeeded-Daten\makros.yaml en kunnen ook met de hand worden bewerkt
+(uitleg staat bovenaan in het bestand). Trefwoorden werken in het Engels (name, group, steps,
+keys, open, wait) of Duits (name, gruppe, schritte, tasten, oeffnen, warten).
+Daarna in de editor "Bestand opnieuw laden". Heeft het bestand een fout, dan toont het
+toetsenbord de regel in plaats van vast te lopen. Bij opslaan blijft de vorige versie als
+makros.yaml.bak bewaard.
+
+Macro's typen via toetsenbordsimulatie, nooit via het klembord. Ze komen niet in de
+woordsuggesties terecht. Wachtwoorden horen niet in macro's, daarvoor is de kluis.
+
+Talen
+-----
+Ingebouwd, zonder internet: Duits, Engels, Nederlands, Frans, Deens, Pools, Tsjechisch,
+Italiaans, Spaans, Turks en Russisch.
+De taalknop bovenin wisselt rond door de ingeschakelde talen, plus gemengd (bijv. NL+EN,
+naar frequentie). Gemengd kan worden uitgezet.
+
+Bij de allereerste start neemt het toetsenbord de Windows-taal en Engels erbij. Staat Windows
+op Nederlands, dan start het met Nederlands en de Nederlandse indeling.
+
+Suggesties zonder accenten: "zolw" geeft "żółw", "cafe" geeft "café", "nino" geeft "niño".
+Je hoeft speciale tekens dus niet te zoeken. Dat geldt ook voor geleerde woorden.
+
+Toetsindeling: past zich aan de taal aan (bij gemengd de eerste taal).
+  Duits QWERTZ, Engels en Nederlands QWERTY, Frans AZERTY, Deens met æ ø å, Pools met
+  ą ć ę ł ń ó ś ź ż via AltGr, Tsjechisch met ě š č ř ž ý á í é in de cijferrij,
+  Italiaans, Spaans met ñ ¿ ¡, Turks Q met ı ğ ü ş ö ç, Russisch ЙЦУКЕН.
+  Russisch heeft een toets "ABC/АБВ" voor Latijnse letters (mailadressen, links).
+  Accenttoetsen zoals in Windows (dode toetsen): in Frans, Spaans, Deens, Tsjechisch en
+  Nederlands eerst ´ ` ^ ¨ indrukken, dan de letter (´ + e = é). Met de spatiebalk erna
+  komt het teken alleen. Duits heeft geen dode toetsen nodig.
+  Het toetsenbord typt Unicode, de Windows-indeling hoeft daarvoor niet te worden aangepast.
+  Instellingen → Talen → Toetsindeling: passend bij de taal, altijd Duits of altijd Engels.
+
+Instellingen → Talen:
+  - Een vinkje zet een taal aan, ▲/▼ verandert de volgorde bij het wisselen.
+  - "Taal per programma onthouden": wissel je in een programma de taal, dan onthoudt het
+    toetsenbord dat en schakelt het de volgende keer in dat programma automatisch om.
+    Bijvoorbeeld Outlook Engels, WhatsApp Nederlands.
+  - "Eigen begrippen bewerken": namen en vaktermen die in alle talen worden voorgesteld.
+    Bestand: NoHandsNeeded-Daten\eigene_woerter.txt
+  - "Uit bestand toevoegen": een woordenlijst zonder internet overnemen (woord, tab,
+    frequentie; bestandsnaam = taalcode, bijv. pt.txt).
+  - "Verwijderen": verwijdert een zelf toegevoegde taal (ingebouwde kun je alleen
+    uitzetten).
+Zelf toegevoegde talen staan in NoHandsNeeded-Daten\Sprachen.
+Optioneel is er een globale sneltoets "Taal wisselen".
+
+Taal van de interface
+---------------------
+Instellingen, menu's, meldingen, toetslabels, de rondleiding en deze handleiding zijn er in
+het Duits, Engels, Nederlands, Frans, Deens, Pools, Tsjechisch, Italiaans, Spaans, Turks en
+Russisch. Standaard is de Windows-taal, anders Engels.
+Wijzigen: Instellingen → Overig → "Taal van de interface" → Toepassen.
+De vertalingen zijn door een AI gemaakt. Verbeteringen van moedertaalsprekers zijn welkom op
+GitHub: https://github.com/ichmml/nohandsneeded (interface: map Resources/Texte,
+handleiding: map Anleitung). Ontbreekt een tekst in een taal, dan verschijnt hij in het Engels.
+
+Leren
+-----
+Het toetsenbord leert mee tijdens het schrijven:
+  - nieuwe woorden (namen, vaktermen). Ze worden voorgesteld zodra je ze 2 keer hebt
+    geschreven (instelbaar van 1 tot 5).
+  - hoe vaak je welk woord gebruikt. Vaak gebruikte schuiven naar voren.
+  - welk woord vaak op welk volgt. Na een spatie staan dan direct passende volgende woorden
+    bovenin (bijv. na "mijn" het woord dat je daarna meestal schrijft).
+  - de schrijfwijze: wie met de hoofdlettertoets van "iphone" "iPhone" maakt, krijgt de
+    volgende keer meteen "iPhone" voorgesteld.
+Wis je een woord direct weer met ⌫, dan wordt het ook weer vergeten.
+
+Getallen: datums (10-09-1991), telefoonnummers (06 12345678, +31 20 1234567) en postcodes
+voor een plaatsnaam leert het ook, en ook lange nummers vanaf 9 cijfers, zoals klant- of
+contractnummers. Ze worden al na de eerste keer voorgesteld. Typ je cijfers, dan staan
+passende getallen bovenin. Scheidingstekens tellen niet mee, "1009" geeft dus "10-09-1991".
+Het getal wordt in de geleerde schrijfwijze ingevoegd.
+Pincodes (4 tot 8 cijfers zonder scheidingstekens) en kaartnummers worden ook geleerd, maar
+versleuteld in een apart bestand (zahlen_geheim.dat). In een back-up komen ze alleen met
+wachtwoord. Uit te zetten bij de instellingen voor leren ("Pincodes en kaartnummers leren
+(versleuteld)"). Nooit geleerd: losse getallen en hoeveelheden, tijden, alles in
+wachtwoordvelden en niets wat op een wachtwoord lijkt (cijfers gemengd met letters, heel
+lange woorden). Uit eigen teksten worden pincodes en kaartnummers nooit overgenomen.
+IBAN: een geldige IBAN (met juist controlegetal) wordt onthouden, met of zonder spaties
+getypt. De volgende keer zijn de landcode en het eerste cijfer ("NL9") genoeg: hij staat
+groen met 🏦 bovenin en één klik typt hem helemaal. In velden die IBAN heten en na "IBAN:"
+staat hij er meteen. Uit te zetten bij de instellingen voor leren.
+Getallen gelden in alle talen, bestand: NoHandsNeeded-Daten\Lernen\zahlen.txt. Uit te zetten
+onder Instellingen → Leren, bekijken en wissen onder "Geleerde woorden" → keuze "Getallen".
+
+Instellingen → Leren:
+  - "Leren van mijn teksten": een map kiezen (bijv. notities of documenten). Gelezen worden
+    .txt, .md, .docx, .html, .eml en .mbox, ook in submappen. Mappen met een punt vooraan
+    (.obsidian, .git) worden overgeslagen.
+    Opgeslagen wordt alleen de statistiek, welke woorden hoe vaak en in welke volgorde
+    voorkomen, niet de teksten. Regels met wachtwoord, pincode, IBAN, login, token en
+    dergelijke worden overgeslagen, net als links, mailadressen, codeblokken en geciteerde
+    mails. Bij meerdere talen komt elke alinea in de taal waar hij bij past.
+  - "Geleerde woorden bekijken en wissen": zoeken, losse woorden wissen, alles vergeten.
+  - Systeemvakpictogram → "Leren pauzeren", bijv. als iemand anders typt.
+Geleerde gegevens staan in NoHandsNeeded-Daten\Lernen\nl.txt (één bestand per taal) en worden
+elke 2 minuten en bij het afsluiten opgeslagen.
+
+Wachtwoordkluis
+---------------
+Zodat je lange wachtwoorden niet elke keer teken voor teken hoeft te typen.
+  - Klik je in een wachtwoordveld, dan verschijnen bovenin de opgeslagen wachtwoorden in
+    plaats van de woordsuggesties (geel, met ⚿). Het wachtwoord dat bij het venster past,
+    staat vooraan. Eén klik typt het wachtwoord in het veld. Dan Enter.
+  - Heb je een wachtwoord zelf getypt, dan vraagt het toetsenbord na Enter of bij het
+    verlaten van het veld: "In de kluis opslaan?". "Opslaan" opent een venster met een
+    voorgestelde naam, die je bevestigt. "Nee" of gewoon doorgaan verwerpt het.
+  - "+ Wachtwoord toevoegen" opent een venster voor een nieuwe invoer. De naam is al voorgesteld
+    op basis van de webpagina of het programma, het wachtwoord zie je tijdens het typen leesbaar,
+    "Veilig wachtwoord maken" vult het desgewenst in. "Opslaan" bewaart het, het staat meteen in
+    de balk.
+  - Passen niet alle wachtwoorden in de balk, dan bladert "meer ›" naar de volgende pagina,
+    de passende voor de open pagina staan vooraan. "🔍 Zoeken": typ een paar letters, dan
+    toont de balk alleen de passende items (naam, gebruiker of programma). De letters gaan
+    daarbij niet naar het programma. Backspace wist, Esc, Enter of "✕ Zoeken stoppen" stopt
+    het zoeken.
+  - Heb je net op een pagina een wachtwoord getypt, dan staat het al in dit venster, net als
+    een e-mailadres dat je kort ervoor in hetzelfde venster typte. De cursor staat meteen in
+    het volgende lege veld. In naam en e-mail typ je gewoon, daar wordt niets geleerd.
+  - "🎲 Maken en intypen" (alleen in een wachtwoordveld) maakt een veilig
+    wachtwoord (standaard 16 tekens), typt het in het veld en biedt meteen opslaan aan.
+    Zeker opslaan, anders is het weg.
+  - In het kluisvenster staat het wachtwoord altijd leesbaar, ook bij het bewerken van een
+    bestaande invoer, zodat je ziet of je het goed typt. "Tonen / verbergen" verbergt het
+    als dat nodig is.
+  - ⚿ rechtsboven toont de kluis ook buiten wachtwoordvelden, "✕ Verbergen" verbergt hem.
+Veiligheid:
+  - tresor.dat is met Windows (DPAPI) versleuteld en alleen met jouw Windows-account op deze
+    pc leesbaar. Elders naartoe gekopieerd is het bestand waardeloos. Om over te zetten is er
+    "Back-up maken en naar andere pc overzetten" (zie onder).
+  - Optioneel een pincode (Instellingen → Wachtwoordkluis). Dan is de kluis na elke start
+    vergrendeld en vergrendelt hij zich na 15 minuten zonder gebruik weer (instelbaar). De
+    pincode typ je met grote cijfertoetsen. Zonder pincode komt niemand bij de wachtwoorden,
+    ook jij niet. Dus goed onthouden.
+  - Wachtwoorden verschijnen nooit in de gewone woordsuggesties, worden nooit geleerd, niet
+    in macro-opnames overgenomen en nooit via het klembord ingevoegd.
+  - Wachtwoordvelden herkent het toetsenbord aan de Windows-markering voor beveiligde velden.
+    Dat werkt in Windows-programma's en de gangbare browsers. Herkent het een veld niet, dan
+    helpt ⚿ om de kluis te tonen.
+Bewerken: Instellingen → Wachtwoordkluis → "Kluis bewerken" (of systeemvakpictogram).
+Daar stel je naam, gebruikersnaam, wachtwoord (met tonen-knop) en trefwoorden voor de
+venstertitel in ("gmail, google"), zodat het juiste wachtwoord vooraan staat.
+
+E-mailadressen: typ je een e-mailadres, dan onthoudt het toetsenbord het als een nieuw woord
+(niet in wachtwoordvelden). Vanaf dan staat het bovenaan in blauw met ✉ zodra je de eerste
+3 letters hebt getypt, één klik vult het hele adres in. Klik je in een veld voor e-mail of
+gebruikersnaam, dan staan de adressen meteen bovenaan, zonder een letter te typen. Het
+toetsenbord herkent zo'n veld aan zijn label, dat werkt op de meeste inlogpagina's.
+Uitzetten: Instellingen → Leren. Bekijken en wissen: "Geleerde woorden" → "E-mailadressen".
+
+Globale sneltoetsen en Quadstick
+--------------------------------
+Deze sneltoetsen werken ook als een ander programma vooraan staat:
+  Pause            toetsenbord tonen/verbergen
+  numeriek -       macrobalk openen (heet in het toetsenbord "NumMinus")
+Daarnaast kan elke macro een eigen sneltoets krijgen (in de macro-editor).
+In de instellingen staat bij elke sneltoets of hij actief is (groen vinkje) of niet (rood,
+met reden).
+
+Open je het toetsenbord met de sneltoets, dan verschijnt het waar de muisaanwijzer is:
+gecentreerd net eronder, zodat de plek zichtbaar blijft, bij te weinig ruimte erboven. Via
+de taakbalk, het systeemvak of de ronde knop blijft het op de gewone plek. Uit te zetten in
+de instellingen ("Bij de sneltoets (bijv. Pause) openen waar de muis is").
+Daaronder stel je in waar precies: onder of boven de muis, in het midden, naar rechts of
+naar links. Past het aan de gekozen kant niet, dan neemt het de andere.
+
+Wijzigen: Instellingen → Globale sneltoetsen → "Opnemen". Er opent een venster, druk dan de
+toets op de Quadstick in. De herkende toets staat groot in het venster, bevestigen met
+"Toepassen". Of klik op "Uit lijst".
+
+Werkt een sneltoets niet: Instellingen → "Sneltoetsen testen" en de Quadstick-toets
+indrukken.
+  - Er verschijnt niets: de toets komt helemaal niet bij de pc aan. De Quadstick verstuurt
+    hem niet, bijv. omdat hij F13 tot F24 niet kan. Neem een andere toets, bijv. Pause of een
+    rekenteken van het numerieke blok.
+  - "Toets ontvangen" verschijnt, maar geen "Sneltoets geactiveerd": de toets komt aan,
+    maar de sneltoets is niet actief of anders ingesteld. Controleer de rode melding in de
+    instellingen.
+  - Beide verschijnen: alles in orde.
+In protokoll.txt (Instellingen → "Logboek openen") staat welke sneltoetsen geregistreerd
+zijn, welke niet (met Windows-foutcode) en welke geactiveerd werden.
+
+Quadstick-toets toewijzen:
+  In het Quadstick-configuratieblad (Google-spreadsheet) per sneltoets één regel, voorbeeld:
+      kb_pause          normal    <ingang>
+      kb_keypad_minus   normal    <ingang>
+  1. In de gele kolom de gewenste ingang kiezen (bijv. mp_triple_puff).
+  2. De configuratie zoals gewoonlijk op de Quadstick laden.
+  3. Met "Sneltoetsen testen" controleren.
+  F13 tot F24 en Scroll Lock kan de Quadstick niet versturen. Geschikt zijn Pause en de
+  rekentekens van het numerieke blok (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). Niet gebruiken: kb_keypad_enter (wordt als Enter behandeld) en de cijfers
+  van het numerieke blok (hangen af van Num Lock).
+
+Systeemvakpictogram: linksklikken toont/verbergt het toetsenbord. Rechtsklikken: macro's
+bewerken, leren pauzeren, wachtwoordkluis bewerken, instellingen, handleiding openen,
+rondleiding tonen, doneren, afsluiten.
+
+Taakbalk: zolang het toetsenbord draait, heeft het een eigen knop met het
+toetsenbordpictogram in de taakbalk. Eén klik opent het toetsenbord altijd helemaal, ook als
+het verborgen of tot de ronde knop ingeklapt is (een open toetsenbord blijft open), daarna
+staat de focus meteen weer in het programma waarin je schreef. Uitzetten: Instellingen →
+Starten.
+
+Back-up maken en naar een tweede pc overzetten
+----------------------------------------------
+Instellingen → "Back-up maken en naar andere pc overzetten".
+  - "Gegevens exporteren …": vink aan wat mee moet (geleerde woorden, woordreeksen en
+    getallen, eigen begrippen, macro's, wachtwoorden uit de kluis). Kies dan een map. Er
+    ontstaat een bestand als "NoHandsNeeded 2026-11-08.nohands".
+  - Zitten er wachtwoorden bij, dan heeft de back-up een eigen wachtwoord nodig (minstens
+    8 tekens). Het bestand is dan versleuteld (AES-256), zonder dit wachtwoord komt niemand
+    erin, ook jij niet. Zonder wachtwoorden mag het veld leeg blijven.
+  - Op de andere pc: "Gegevens importeren …", bestand kiezen, zo nodig het wachtwoord
+    invoeren, vinkjes controleren, "Overnemen".
+  - Niets wordt overschreven, alles wordt samengevoegd: bij dezelfde woorden telt de hoogste
+    teller (hetzelfde bestand twee keer importeren telt dus niet dubbel). Een macro met
+    dezelfde naam wordt vervangen. Bij een wachtwoord met dezelfde naam en gebruiker wint
+    het laatst gewijzigde of gebruikte.
+  - De laatst gebruikte map wordt onthouden. Handig is een map die beide pc's zien
+    (USB-stick, cloudmap).
+  - Grootte en positie worden niet overgezet, die verschillen toch per pc.
+
+Steunen
+-------
+Het toetsenbord is gratis en open source. Als het je helpt, ben ik blij met een donatie:
+https://ko-fi.com/MDM3D
+De knop staat helemaal bovenaan in de instellingen en in het menu van het
+systeemvakpictogram. De link opent alleen als je erop klikt. Het toetsenbord vraagt er nooit
+om.
+
+Vergrendelscherm
+----------------
+Om de Windows-pincode met dit toetsenbord te typen, moet het op het vergrendelscherm
+verschijnen. Windows staat dat alleen toe als alles hiervan klopt:
+  - het toetsenbord is ondertekend met een codecertificaat,
+  - het is met het installatieprogramma in "C:\Program Files\NoHandsNeeded"
+    geïnstalleerd,
+  - het is bij Windows als hulpmiddel aangemeld (doet het installatieprogramma),
+  - het heeft de uiAccess-machtiging (de variant NoHandsNeededAT.exe uit build.cmd).
+De draagbare NoHandsNeeded.exe kan dat niet. Instellingen → Overig → Vergrendelscherm toont wat
+ontbreekt. Is alles er, dan staat daar de schakelaar "Op het vergrendelscherm tonen".
+Op het vergrendelscherm werkt alleen typen: geen kluis, geen macro's, geen leren, geen
+woordsuggesties, geen instellingen. Zo ziet niemand bij de vergrendelde pc iets persoonlijks.
+Tot die tijd: op het vergrendelscherm rechtsonder het toegankelijkheidspictogram aanklikken en
+het Windows-schermtoetsenbord gebruiken. Of Windows Hello (gezicht) instellen, dan is er geen
+pincode nodig.
+
+Bekende beperkingen
+-------------------
+In programma's die als administrator draaien (Taakbeheer, sommige installatieprogramma's) kan
+het toetsenbord niet typen. Dat is een Windows-beveiligingsregel. Oplossing: NoHandsNeeded.exe met
+rechtsklikken "Als administrator uitvoeren", of de ondertekende, geïnstalleerde versie
+(zie "Vergrendelscherm").
+
+De hoofdlettertoets werkt op het laatste woord dat met het toetsenbord is geschreven.
+Geselecteerde tekst in andere programma's kan hij nog niet omzetten.
+
+Woordenlijsten: 11 ingebouwde talen met elk ca. 27.000 tot 74.000 woorden. Frequenties uit
+wordfreq (gegevens onder CC BY-SA 4.0), spelling gecontroleerd met hunspell-woordenboeken.

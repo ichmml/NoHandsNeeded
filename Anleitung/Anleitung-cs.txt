@@ -1,0 +1,425 @@
+NoHandsNeeded
+=============
+Klávesnice na obrazovce, Verze 1.01
+
+Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato
+klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním
+joystickem jako Quadstick, hlavovou myší nebo očima.
+
+Tento návod přeložila z němčiny AI. Opravy od rodilých mluvčích jsou vítány na GitHubu:
+https://github.com/ichmml/nohandsneeded (složka Anleitung).
+
+Klávesnice na obrazovce pro Windows, vytvořená pro lidi, kteří ovládají počítač bez rukou,
+například ústním ovladačem (Quadstick), hlavovou myší nebo očním ovládáním.
+Cíl: co nejméně kliknutí. Nikdy nebere fokus programu, do kterého píšeš.
+
+Spuštění
+--------
+Dej NoHandsNeeded.exe do vlastní složky (např. C:\Tools\NoHandsNeeded) a spusť ji.
+Nic se neinstaluje, .NET Framework 4.8 je ve Windows 10/11 už obsažen.
+Aktualizace: starou verzi ukonči přes ikonu v oznamovací oblasti a soubor .exe jednoduše
+nahraď. Nastavení zůstanou zachována.
+
+Při prvním spuštění může Windows hlásit „Systém Windows ochránil váš počítač“. Klikni pak na
+„Další informace“ a „Přesto spustit“. Je to proto, že soubor není podepsaný.
+
+Při prvním spuštění se klávesnice přizpůsobí jazyku Windows (návrhy, rozložení kláves a
+rozhraní) a ukáže krátký úvod k proklikání. Úvod lze kdykoli zobrazit znovu: Nastavení →
+Ostatní → „Zobrazit úvod znovu“ nebo menu ikony.
+Tento návod se otevírá přes „Otevřít návod“ úplně nahoře v nastavení nebo v menu ikony,
+vždy v jazyce rozhraní.
+
+Vedle souboru .exe vznikne složka „NoHandsNeeded-Daten“ s einstellungen.txt, makros.yaml,
+protokoll.txt (protokol), složkou „Lernen“ (naučená slova) a tresor.dat (hesla, šifrovaná).
+Pokud do složky nelze zapisovat, data se ukládají do %APPDATA%\NoHandsNeeded.
+
+Horní lišta
+-----------
+  Esc       klávesa Escape (Fn je vlevo dole v nejspodnější řadě)
+  střed     úplně vlevo červeně právě psané slovo (viz níže), vedle návrhy slov, jedno
+            kliknutí vloží slovo i s mezerou
+  Makra     otevře lištu maker (viz níže)
+  CS        jazyk návrhů, jedno kliknutí přepne (viz „Jazyky“)
+  ⚿         zobrazit/skrýt trezor hesel (viz „Trezor hesel“)
+  ◷         klik setrváním zap./vyp.
+  ⚙         nastavení
+  ▾         sbalit na malé kulaté tlačítko (kliknutí nebo setrvání ho opět rozbalí)
+  ✕         zavřít klávesnici: klepnout dvakrát (po prvním klepnutí je ✕ červený)
+
+Psané slovo (vlevo nahoře, červeně)
+-----------------------------------
+První pole lišty návrhů ukazuje červeně a tučně, co právě píšeš, písmeno po písmenu. Čísla
+jsou vidět celá i s tečkami, čekající klávesa akcentu (např. ´) se objeví na konci. Dlouhá
+slova se nikdy nezkracují, pole se prostě rozšíří.
+Speciální znaky zobrazení nesmažou: je vidět vše od poslední mezery, Enteru nebo Tabu, např.
+„s!add“ nebo webová adresa. Návrhy vedle patří k poslednímu slovu („add“). Kliknutí na
+takové červené pole přidá jen mezeru.
+  - Pokud klávesnice slovo ještě nezná, je vedle malé „nové“. Kliknutí na červené slovo ho
+    vloží s mezerou a hned si ho zapamatuje, od té doby se nabízí.
+  - V poli hesla jsou červené tečky a počet znaků, vedle 👁. 👁 ukáže heslo čitelně na
+    10 sekund (nebo do dalšího kliknutí). Po tu dobu je klávesnice vyloučena ze snímků
+    obrazovky a sdílení obrazovky. Hesla z trezoru se objevují jen jako tečky. Po Enteru nebo
+    opuštění pole je vše pryč.
+  - Ve vlastních oknech klávesnice (nová položka trezoru, heslo zálohy) je heslo při psaní
+    vidět čitelně, v okně i nahoře v klávesnici. „Zobrazit / skrýt“ přepne na tečky. Nic se
+    přitom neučí, nezapisuje do protokolu ani nenahrává.
+  - Ukazuje se jen to, co bylo napsáno touto klávesnicí. Po kliknutí do okna nebo skutečném
+    stisku klávesy je pole prázdné.
+  - Nastavení → Návrhy slov: zap./vyp., „tečky s 👁“ nebo „vždy jen tečky“, doba do skrytí
+    čitelného textu.
+
+Přesouvání a velikost
+---------------------
+Přesouvání:
+  - Podrž ✥ vpravo dole a táhni, nebo na něm krátce setrvej.
+  - Na libovolné klávese podrž tlačítko myši o něco déle (výchozí 0,5 sekundy). Naplní se
+    oranžový kruh, pak klávesnice visí na myši. Puštění ji položí. Klávesa se přitom nenapíše.
+    Krátké kliknutí píše jako obvykle (při puštění).
+  - S klikem setrváním: setrvej na klávese výrazně déle (výchozí dvojnásobek doby
+    setrvání). Nejdřív se klávesa jednou napíše, pak se naplní oranžový kruh a klávesnice
+    sleduje myš. Chvíli nehýbat myší nebo kliknout ji položí. Backspace, Delete a šipky se při
+    setrvání opakují, proto s nimi táhnout nejde.
+  - Esc nebo pravé tlačítko zruší, klávesnice skočí zpět.
+  - Klávesnice zůstane vždy celá na obrazovce, i s více monitory.
+Velikost: táhni myší za libovolný okraj nebo za modrý roh vlevo dole.
+  Velikost se udává v procentech obrazovky (výchozí 60 % šířky, 31 % výšky, vpravo dole).
+  Nastavení → „Přesouvání a velikost“: posuvníky šířky a výšky, výchozí poloha (vpravo dole,
+  uprostřed nebo vlevo) a „Obnovit velikost a polohu“.
+Více obrazovek: klávesnici lze přetáhnout na každou obrazovku, i když mají obrazovky různé
+  měřítko (např. 125 % a 100 %). Po položení tam převezme stejnou velikost v procentech.
+  Pokud obrazovka při spuštění chybí, objeví se vpravo dole na hlavní obrazovce. Totéž platí
+  pro kulaté tlačítko.
+V nastavení může mít lišta návrhů i dva řádky s vlastní velikostí písma.
+
+Klávesy
+-------
+Fn (vlevo dole): druhá vrstva s F1 až F12, Home, End, Page Up/Down, speciálními znaky.
+Esc je vlevo nahoře.
+Shift, Ctrl, Alt, Win, AltGr:
+  1x ťuknout = platí pro další klávesu (modrý rámeček)
+  2x ťuknout = zamčeno (oranžový rámeček, „zamč.“), např. Shift zamčený + šipky k označení
+  3x ťuknout = vyp.
+Win funguje jinak: 1 klepnutí platí pro další klávesu (např. Win+E pro Průzkumníka), 2
+klepnutí stisknou samotnou klávesu Windows a otevřou nabídku Start.
+
+Nejspodnější řada: Fn, Ctrl, Win, Alt, mezera, AltGr (hned vpravo od mezerníku), abc/ABC,
+čtyři speciální znaky, šipky, ✥. Čtyři speciální znaky jsou ve výchozím stavu ! ? : - a dají
+se změnit v nastavení v „Speciální znaky dole“ (jeden znak na pole, volitelně druhý pro
+Shift, např. „.:“). Po návrhu slova se interpunkční znaménko přisune ke slovu a mezera
+přijde za něj („dům .“ se změní na „dům. “).
+I jinak se za . , ! ? : ; vloží mezera sama, kromě čísel (1,5 nebo 10:30), webových adres,
+e-mailových adres a polí pro e-mail nebo IBAN. Když napíšeš mezeru ještě sám, nebude
+dvojitá. Dá se vypnout v nastavení.
+
+Klávesa velikosti písmen (vedle mezerníku): mění zápis posledního slova.
+    „abc“ se šipkou nahoru  = slovo je malými písmeny, jeden stisk udělá první písmeno velké
+    „ABC“ se šipkou dolů    = slovo má velká písmena, jeden stisk ho udělá malým
+    Pak ukáže tu druhou možnost, dá se tedy přepínat sem a tam.
+    Funguje i hned po návrhu slova nebo po mezeře/tečce.
+    Šedé „Aa“ = žádné známé slovo. Klávesa zná jen slova napsaná touto klávesnicí a zapomene
+    je po kliknutí do okna, přepnutí okna nebo Enteru. Nezná slova z hlasového zadávání
+    (např. Wispr Flow) ani z jiné klávesnice.
+    VŠE VELKÝMI: ťuknout dvakrát na Shift (zamčeno).
+
+Na začátku věty (po . ! ? a mezeře nebo po Enteru) bude další písmeno automaticky velké.
+Lze vypnout v nastavení.
+
+Skutečné stisky kláves: když stiskneš klávesu na Quadsticku (nebo běžné klávesnici), rozsvítí
+se na klávesnici na obrazovce červeně, dokud je dole, a ještě 1,5 sekundy potom. Ctrl+Shift
+pro Wispr Flow tedy vidíš, dokud držíš. To, co klávesnice na obrazovce píše sama, nesvítí.
+Klávesy se jen zobrazují, neukládají se ani nezapisují do protokolu.
+Po skutečném stisku klávesy klávesnice zapomene rozepsané slovo, protože tam teď může být
+vložený nebo nadiktovaný text. Samotný Shift nebo Ctrl nic nemění, Ctrl+Shift ano. Klávesy
+zkratek (Pause, numerická -) se nepočítají.
+Nastavení → Ovládání: zap./vyp. a jak dlouho klávesy dosvěcují.
+
+Vlastní okna (trezor, položka hesla, PIN, makra, export/import): klávesnice zůstává
+klikatelná, takže v těchto oknech můžeš normálně psát. Okna se otevírají tam, kde je
+klávesnice nezakrývá.
+
+Slovo podle programu: když přepneš okno (např. z poštovního programu do prohlížeče a zpět),
+klávesnice si pro každé okno zapamatuje rozepsané slovo, slovo před ním a začátek věty. Po
+návratu do okna prostě píšeš dál.
+  - Platí pro okno: dvě okna prohlížeče jsou oddělená, karty ve stejném okně ne.
+  - Pokud okno vrátíš kliknutím do textu, pokračuje se také. Když klikneš doprostřed textu,
+    návrh nebude sedět. Vypnutí: Nastavení → Ovládání → „Psát dál i po kliknutí do okna“.
+  - Nejvýš 30 oken, nejvýš 30 minut, jen v paměti. Nikdy pole hesel.
+
+S klikem setrváním se Backspace, Delete a šipky opakují, dokud na nich zůstáváš. Všechny
+ostatní klávesy se spustí znovu, až když klávesu jednou opustíš.
+
+Makra
+-----
+Ťukni na „Makra“: nahoře se místo návrhů slov objeví makra.
+  - Jedno kliknutí makro spustí, pak se vrátí návrhy slov.
+  - Skupiny se zobrazují jako „Název ›“, kliknutí je otevře, „‹ Název“ jde zpět.
+  - Makra odpovídající aktivnímu programu jsou na začátku.
+  - Pokud se všechna nevejdou, „dále ›“ listuje.
+  - „✕ Zpět“ zavře lištu maker.
+
+Vpravo od lišty maker:
+  ●  Nahrávání: prostě normálně piš na klávesnici, vše se zaznamená (text, Enter, zkratky
+     jako Ctrl+S). Klávesnice dostane červený rámeček.
+     „■ Stop“ nahrávání ukončí, pak potvrdit název a hotovo.
+     ✕ nahrávku zahodí.
+  +  Rychlé uložení: naposledy napsaný text (od posledního kliknutí do okna) se uloží jako
+     textový blok. Název je už navržený, stačí jedno kliknutí.
+  ✎  otevřít editor maker
+
+Editor maker (✎ nebo Nastavení → Upravit makra):
+  Nové, Upravit, Kopírovat, Nahoru/Dolů, Smazat. V samotném makru: název, skupina, barva,
+  program, globální zkratka a libovolně mnoho kroků:
+    Text       zástupné znaky {date} {time} {weekday} {cursor}
+               (fungují i německé: {datum} {uhrzeit} {wochentag})
+               ({cursor} = tam bude kurzor po vložení)
+    Klávesy    např. Ctrl+A, Ctrl+C, Enter   nebo   Alt+Tab   nebo   Win+D
+               „Nahrát klávesu“ zapíše stisknutou klávesu přímo
+    Otevřít    program, soubor, složka nebo webová stránka
+    Čekat      pauza v milisekundách
+
+Makra jsou v NoHandsNeeded-Daten\makros.yaml a dají se upravovat i ručně (popis je na začátku
+souboru). Klíčová slova fungují anglicky (name, group, steps, keys, open, wait) nebo německy
+(name, gruppe, schritte, tasten, oeffnen, warten).
+Pak v editoru „Znovu načíst soubor“. Pokud je v souboru chyba, klávesnice ukáže řádek
+místo pádu. Při ukládání zůstane předchozí verze jako makros.yaml.bak.
+
+Makra píšou simulací klávesnice, nikdy přes schránku. Nedostávají se do návrhů slov. Hesla
+do maker nepatří, k tomu je trezor.
+
+Jazyky
+------
+Vestavěné, bez internetu: němčina, angličtina, nizozemština, francouzština, dánština,
+polština, čeština, italština, španělština, turečtina a ruština.
+Tlačítko jazyka nahoře přepíná postupně zapnuté jazyky, k tomu smíšený režim (např. CS+EN,
+podle četnosti). Smíšený režim lze vypnout.
+
+Při úplně prvním spuštění vezme klávesnice jazyk Windows a přidá angličtinu. Pokud je
+Windows česky, spustí se česky s českým rozložením.
+
+Návrhy bez diakritiky: „zolw“ dá „żółw“, „cafe“ dá „café“, „nino“ dá „niño“. Speciální znaky
+tedy nemusíš hledat. Platí to i pro naučená slova.
+
+Rozložení kláves: řídí se jazykem (ve smíšeném režimu prvním jazykem).
+  Němčina QWERTZ, angličtina a nizozemština QWERTY, francouzština AZERTY, dánština s æ ø å,
+  polština s ą ć ę ł ń ó ś ź ż přes AltGr, čeština s ě š č ř ž ý á í é v řadě číslic,
+  italština, španělština s ñ ¿ ¡, turečtina Q s ı ğ ü ş ö ç, ruština ЙЦУКЕН.
+  Ruština má klávesu „ABC/АБВ“ pro latinská písmena (e-mailové adresy, odkazy).
+  Klávesy akcentů jako ve Windows (mrtvé klávesy): ve francouzštině, španělštině, dánštině,
+  češtině a nizozemštině nejdřív ´ ` ^ ¨, pak písmeno (´ + e = é). S mezerou potom vznikne
+  samotný znak. Němčina mrtvé klávesy nemá.
+  Klávesnice píše Unicode, rozložení Windows se kvůli tomu nemusí měnit.
+  Nastavení → Jazyky → Rozložení kláves: podle jazyka, vždy německé nebo vždy anglické.
+
+Nastavení → Jazyky:
+  - Zaškrtnutí zapne jazyk, ▲/▼ mění pořadí při přepínání.
+  - „Pamatovat jazyk pro program“: když v programu přepneš jazyk, klávesnice si to
+    zapamatuje a příště v tom programu přepne automaticky. Například Outlook anglicky,
+    WhatsApp česky.
+  - „Upravit vlastní pojmy“: jména a odborné výrazy, které se nabízejí ve všech jazycích.
+    Soubor: NoHandsNeeded-Daten\eigene_woerter.txt
+  - „Přidat ze souboru“: převzít seznam slov bez internetu (slovo, tabulátor, četnost; název
+    souboru = kód jazyka, např. pt.txt).
+  - „Odebrat“: smaže jazyk, který sis přidal sám (zabudované jde jen vypnout).
+Jazyky, které sis přidal sám, leží v NoHandsNeeded-Daten\Sprachen.
+Volitelně je k dispozici globální zkratka „Přepnout jazyk“.
+
+Jazyk rozhraní
+--------------
+Nastavení, nabídky, hlášení, popisky kláves, úvod a tento návod jsou v němčině, angličtině,
+nizozemštině, francouzštině, dánštině, polštině, češtině, italštině, španělštině, turečtině
+a ruštině. Výchozí je jazyk Windows, jinak angličtina.
+Změna: Nastavení → Ostatní → „Jazyk rozhraní“ → Použít.
+Překlady vytvořila AI. Opravy od rodilých mluvčích jsou vítány na GitHubu:
+https://github.com/ichmml/nohandsneeded (rozhraní: složka Resources/Texte, návod:
+složka Anleitung). Pokud v některém jazyce text chybí, objeví se anglicky.
+
+Učení
+-----
+Klávesnice se učí při psaní:
+  - nová slova (jména, odborné výrazy). Nabízejí se, jakmile je napíšeš 2krát (nastavitelné
+    od 1 do 5).
+  - jak často které slovo používáš. Častá slova se posouvají dopředu.
+  - které slovo často následuje po kterém. Po mezeře jsou hned nahoře vhodná další slova
+    (např. po „můj“ slovo, které potom píšeš nejčastěji).
+  - způsob zápisu: kdo klávesou velikosti písmen udělá z „iphone“ „iPhone“, dostane příště
+    hned „iPhone“.
+Pokud slovo hned smažeš klávesou ⌫, je také zapomenuto.
+
+Čísla: data (10.09.1991), telefonní čísla (777 123 456, +420 222 123 456) a PSČ před názvem
+obce se také učí, stejně jako dlouhá čísla od 9 číslic, třeba zákaznická nebo smluvní čísla.
+Nabízejí se už po prvním zadání. Když píšeš číslice, nahoře jsou vhodná čísla. Oddělovače se
+nepočítají, „1009“ tedy dá „10.09.1991“. Číslo se vloží v naučeném zápisu.
+PIN (4 až 8 číslic bez oddělovačů) a čísla karet se učí také, ale šifrovaně v samostatném
+souboru (zahlen_geheim.dat). Do zálohy se dostanou jen s heslem. Dá se vypnout v nastavení
+učení („Učit se PIN a čísla karet (šifrovaně)“). Nikdy se neučí: jednotlivá čísla a
+množství, časy, nic v polích hesel a nic, co vypadá jako heslo (číslice smíchané s písmeny,
+velmi dlouhá slova). Z vlastních textů se PIN a čísla karet nikdy nepřebírají.
+IBAN: platný IBAN (správná kontrolní číslice) si pamatuje, ať je napsaný s mezerami, nebo
+bez. Příště stačí kód země a první číslice („CZ6“): nahoře je zeleně s 🏦 a jedno kliknutí ho
+napíše celý. V polích s názvem IBAN a po „IBAN:“ je tam hned. Dá se vypnout v nastavení
+učení.
+Čísla platí ve všech jazycích, soubor: NoHandsNeeded-Daten\Lernen\zahlen.txt. Vypnutí v Nastavení
+→ Učení, zobrazení a mazání v „Naučená slova“ → výběr „Čísla“.
+
+Nastavení → Učení:
+  - „Učit se z mých textů“: vyber složku (např. poznámky nebo dokumenty). Čtou se .txt, .md,
+    .docx, .html, .eml a .mbox, i v podsložkách. Složky s tečkou na začátku (.obsidian,
+    .git) se přeskakují.
+    Ukládá se jen statistika, která slova se vyskytují jak často a v jakém pořadí, nikdy
+    texty. Řádky s heslem, PIN, IBAN, loginem, tokenem a podobně se vynechávají, stejně jako
+    odkazy, e-mailové adresy, bloky kódu a citované e-maily.
+    Při více jazycích jde každý odstavec do jazyka, ke kterému patří.
+  - „Zobrazit a smazat naučená slova“: hledat, mazat jednotlivá slova, zapomenout vše.
+  - Ikona v oznamovací oblasti → „Pozastavit učení“, např. když píše někdo jiný.
+Naučená data jsou v NoHandsNeeded-Daten\Lernen\cs.txt (jeden soubor na jazyk) a ukládají se
+každé 2 minuty a při ukončení.
+
+Trezor hesel
+------------
+Aby nebylo nutné psát dlouhá hesla pokaždé znak po znaku.
+  - Když klikneš do pole hesla, objeví se nahoře místo návrhů uložená hesla (žlutě, s ⚿).
+    Heslo odpovídající oknu je na začátku. Jedno kliknutí napíše heslo do pole. Pak Enter.
+  - Pokud jsi heslo napsal sám, klávesnice se po Enteru nebo při opuštění pole zeptá:
+    „Uložit do trezoru?“. „Uložit“ otevře okno s navrženým názvem, který potvrdíš. „Ne“ nebo
+    prostě pokračovat ho zahodí.
+  - „+ Přidat heslo“ otevře okno pro novou položku. Název je už navržený podle webové stránky
+    nebo programu, heslo je při psaní vidět čitelně, „Vytvořit bezpečné heslo“ ho podle přání
+    vyplní. „Uložit“ ho uloží a hned se objeví na liště.
+  - Když se do lišty nevejdou všechna hesla, „další ›“ listuje na další stránku, hesla k
+    otevřené stránce jsou vpředu. „🔍 Hledat“: napiš pár písmen a lišta ukáže jen
+    odpovídající položky (název, uživatel nebo program). Písmena přitom nejdou do programu.
+    Backspace maže, Esc, Enter nebo „✕ Ukončit hledání“ hledání ukončí.
+  - Pokud jsi právě na stránce napsal heslo, je už v okně vyplněné, stejně jako e-mailová
+    adresa napsaná krátce předtím ve stejném okně. Kurzor stojí hned v dalším prázdném poli.
+    Do jména a e-mailu píšeš normálně, nic se tam neučí.
+  - „🎲 Vytvořit a napsat“ (jen v poli hesla) vytvoří bezpečné heslo (výchozí
+    16 znaků), napíše ho do pole a hned nabídne uložení. Určitě ho ulož, jinak je pryč.
+  - V okně trezoru je heslo vždy vidět čitelně, i při úpravě existující položky, abys viděl,
+    jestli píšeš správně. „Zobrazit / skrýt“ ho v případě potřeby skryje.
+  - ⚿ vpravo nahoře ukáže trezor i mimo pole hesel, „✕ Skrýt“ ho skryje.
+Bezpečnost:
+  - tresor.dat je šifrovaný přes Windows (DPAPI) a čitelný jen s tvým účtem Windows na tomto
+    počítači. Zkopírovaný jinam je soubor bezcenný. K přenosu slouží „Zálohovat a přenést na
+    jiný počítač“ (viz níže).
+  - Volitelně PIN (Nastavení → Trezor hesel). Pak je trezor po každém spuštění zamčený a
+    znovu se zamkne po 15 minutách bez použití (nastavitelné). PIN se píše velkými
+    číselnými klávesami. Bez PINu se k heslům nikdo nedostane, ani ty. Tak si ho dobře
+    zapamatuj.
+  - Hesla se nikdy neobjevují v běžných návrzích slov, nikdy se neučí, nedostanou se do
+    nahrávek maker a nikdy se nevkládají přes schránku.
+  - Pole hesel klávesnice pozná podle označení Windows pro chráněná pole. Funguje to v
+    programech Windows a běžných prohlížečích. Pokud pole nepozná, pomůže ⚿.
+Úpravy: Nastavení → Trezor hesel → „Upravit trezor“ (nebo ikona v oznamovací oblasti).
+Tam nastavíš název, uživatelské jméno, heslo (s tlačítkem zobrazení) a klíčová slova pro
+titulek okna („gmail, google“), aby bylo správné heslo na začátku.
+
+E-mailové adresy: když napíšeš e-mailovou adresu, klávesnice si ji zapamatuje jako nové slovo
+(ne v polích hesel). Od příště se objeví nahoře modře s ✉, jakmile napíšeš první 3 písmena,
+jedno kliknutí vloží celou adresu. Když klikneš do pole pro e-mail nebo uživatelské jméno, jsou
+adresy hned nahoře, bez psaní jediného písmene. Klávesnice pozná takové pole podle popisku, to
+funguje na většině přihlašovacích stránek. Vypnutí: Nastavení → Učení. Zobrazení a mazání:
+„Naučená slova“ → „E-mailové adresy“.
+
+Globální zkratky a Quadstick
+----------------------------
+Tyto zkratky fungují, i když je vepředu jiný program:
+  Pause            zobrazit/skrýt klávesnici
+  numerická -      otevřít lištu maker (v klávesnici se jmenuje „NumMinus“)
+Navíc může každé makro dostat vlastní zkratku (v editoru maker).
+V nastavení je u každé zkratky vidět, zda je aktivní (zelené zaškrtnutí), nebo ne (červeně,
+s důvodem).
+
+Když klávesnici otevřeš zkratkou, objeví se tam, kde je kurzor myši: uprostřed těsně pod
+ním, aby místo zůstalo vidět, a když není dost místa, nad ním. Z hlavního panelu, oznamovací
+oblasti nebo kulatého tlačítka zůstane na obvyklém místě. Dá se vypnout v nastavení („Při
+zkratce (např. Pause) otevřít tam, kde je myš“).
+Pod tím nastavíš, kde přesně: pod myší nebo nad ní, uprostřed, doprava nebo doleva. Když se
+na zvolenou stranu nevejde, vezme druhou.
+
+Změna: Nastavení → Globální zkratky → „Nahrát“. Otevře se okno, pak stiskni klávesu na
+Quadsticku. Rozpoznaná klávesa je v okně velká, potvrď tlačítkem „Použít“. Nebo klikni na
+„Ze seznamu“.
+
+Pokud zkratka nefunguje: Nastavení → „Otestovat zkratky“ a stiskni klávesu Quadsticku.
+  - Nic se neobjeví: klávesa do počítače vůbec nedorazí. Quadstick ji neposílá, např.
+    protože neumí F13 až F24. Použij jinou klávesu, např. Pause nebo znaménko z numerické
+    klávesnice.
+  - Objeví se „Klávesa přijata“, ale ne „Zkratka spuštěna“: klávesa dorazí, ale zkratka není
+    aktivní nebo je nastavená jinak. Zkontroluj červené hlášení v nastavení.
+  - Objeví se obojí: vše v pořádku.
+V protokoll.txt (Nastavení → „Otevřít protokol“) je vidět, které zkratky byly
+zaregistrovány, které ne (s chybovým kódem Windows) a které byly spuštěny.
+
+Přiřazení klávesy Quadsticku:
+  V konfiguračním listu Quadsticku (tabulka Google) jeden řádek na zkratku, příklad:
+      kb_pause          normal    <vstup>
+      kb_keypad_minus   normal    <vstup>
+  1. Ve žlutém sloupci vyber požadovaný vstup (např. mp_triple_puff).
+  2. Nahraj konfiguraci do Quadsticku jako obvykle.
+  3. Ověř pomocí „Otestovat zkratky“.
+  F13 až F24 a Scroll Lock Quadstick poslat neumí. Vhodné jsou Pause a znaménka z numerické
+  klávesnice (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus, kb_keypad_plus).
+  Nepoužívej kb_keypad_enter (chová se jako Enter) ani číslice numerické klávesnice (závisí
+  na Num Lock).
+
+Ikona v oznamovací oblasti: levé tlačítko zobrazí/skryje klávesnici. Pravé tlačítko: upravit
+makra, pozastavit učení, upravit trezor hesel, nastavení, otevřít návod, zobrazit úvod,
+přispět, ukončit.
+
+Hlavní panel: dokud klávesnice běží, má na hlavním panelu vlastní tlačítko s ikonou
+klávesnice. Jedno kliknutí ji vždy otevře celou, i když je skrytá nebo sbalená na kulaté
+tlačítko (otevřená klávesnice zůstane otevřená), pak je fokus hned zpět v programu, ve
+kterém jsi psal. Vypnutí: Nastavení → Start.
+
+Zálohovat a přenést na druhý počítač
+------------------------------------
+Nastavení → „Zálohovat a přenést na jiný počítač“.
+  - „Exportovat data …“: zaškrtni, co má být zahrnuto (naučená slova, sledy slov a čísla,
+    vlastní pojmy, makra, hesla z trezoru). Pak vyber složku. Vznikne soubor jako
+    „NoHandsNeeded 2026-11-08.nohands“.
+  - Pokud jsou v něm hesla, potřebuje záloha vlastní heslo (nejméně 8 znaků). Soubor je pak
+    šifrovaný (AES-256), bez tohoto hesla se k němu nikdo nedostane, ani ty. Bez hesel může
+    pole zůstat prázdné.
+  - Na druhém počítači: „Importovat data …“, vyber soubor, případně zadej heslo, zkontroluj
+    zaškrtnutí, „Převzít“.
+  - Nic se nepřepisuje, vše se spojuje: u stejných slov platí vyšší počet (dvojí import téhož
+    souboru se tedy nepočítá dvakrát). Makro se stejným názvem se nahradí. U hesla se stejným
+    názvem a uživatelem vyhraje to naposledy změněné nebo použité.
+  - Naposledy použitá složka se pamatuje. Praktická je složka, kterou vidí oba počítače
+    (USB flash disk, cloudová složka).
+  - Velikost a poloha se nepřenášejí, na každém počítači se stejně liší.
+
+Podpora
+-------
+Klávesnice je zdarma a open source. Pokud ti pomáhá, potěší mě příspěvek:
+https://ko-fi.com/MDM3D
+Tlačítko je úplně nahoře v nastavení a v menu ikony. Odkaz se otevře, jen když na něj
+klikneš. Klávesnice o něj nikdy nežádá.
+
+Zamykací obrazovka
+------------------
+Aby šel touto klávesnicí zadat PIN Windows, musí se objevit na zamykací obrazovce. Windows to
+dovolí jen tehdy, když platí všechno z následujícího:
+  - klávesnice je podepsaná certifikátem pro podpis kódu,
+  - je nainstalovaná instalátorem do „C:\Program Files\NoHandsNeeded“,
+  - je ve Windows registrovaná jako pomůcka usnadnění (to udělá instalátor),
+  - má oprávnění uiAccess (varianta NoHandsNeededAT.exe z build.cmd).
+Přenosná NoHandsNeeded.exe to neumí. Nastavení → Ostatní → Zamykací obrazovka ukáže, co chybí.
+Když je vše hotové, je tam přepínač „Zobrazit na zamykací obrazovce“.
+Na zamykací obrazovce funguje jen psaní: žádný trezor, žádná makra, žádné učení, žádné
+návrhy, žádné nastavení. Na zamčeném počítači tak nikdo neuvidí nic osobního.
+Do té doby: na zamykací obrazovce vpravo dole klikni na ikonu usnadnění přístupu a použij
+klávesnici na obrazovce od Windows. Nebo nastav Windows Hello (obličej), pak PIN není
+potřeba.
+
+Známá omezení
+-------------
+Do programů spuštěných jako správce (Správce úloh, některé instalátory) klávesnice psát
+nemůže. Je to bezpečnostní pravidlo Windows. Řešení: pravé tlačítko na NoHandsNeeded.exe →
+„Spustit jako správce“, nebo podepsaná, nainstalovaná verze (viz „Zamykací obrazovka“).
+
+Klávesa velikosti písmen působí na poslední slovo napsané touto klávesnicí. Označený text v
+jiných programech zatím převést neumí.
+
+Seznamy slov: 11 vestavěných jazyků, každý s asi 27 000 až 74 000 slovy. Četnosti z wordfreq
+(data pod licencí CC BY-SA 4.0), pravopis zkontrolován slovníky hunspell.

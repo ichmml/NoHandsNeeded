@@ -1,0 +1,431 @@
+NoHandsNeeded
+=============
+Skærmtastatur, Version 1.01
+
+Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det,
+tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et
+mundjoystick som Quadstick, en hovedmus eller med øjnene.
+
+Denne vejledning er oversat fra tysk af en AI. Rettelser fra modersmålstalende er velkomne
+på GitHub: https://github.com/ichmml/nohandsneeded (mappen Anleitung).
+
+Et skærmtastatur til Windows, lavet til mennesker, der bruger pc'en uden hænder, for
+eksempel med en mundstyring (Quadstick), hovedmus eller øjenstyring.
+Mål: så få klik som muligt. Det tager aldrig fokus fra det program, du skriver i.
+
+Start
+-----
+Læg NoHandsNeeded.exe i sin egen mappe (f.eks. C:\Tools\NoHandsNeeded) og start den.
+Intet skal installeres, .NET Framework 4.8 er allerede en del af Windows 10/11.
+Opdatering: afslut den gamle version via ikonet i meddelelsesområdet og erstat .exe-filen.
+Indstillingerne bevares.
+
+Ved første start viser Windows måske "Windows beskyttede din pc". Klik så på "Flere
+oplysninger" og "Kør alligevel". Det skyldes, at filen ikke er signeret.
+
+Ved første start tilpasser tastaturet sig Windows-sproget (forslag, tastaturlayout og
+brugerflade) og viser en kort introduktion at klikke sig igennem. Introduktionen kan altid
+vises igen: Indstillinger → Andet → "Vis introduktion igen" eller ikonets menu.
+Denne vejledning åbnes via "Åbn vejledning" helt øverst i indstillingerne eller i ikonets
+menu, altid på brugerfladens sprog.
+
+Ved siden af .exe-filen oprettes mappen "NoHandsNeeded-Daten" med einstellungen.txt, makros.yaml,
+protokoll.txt (log), mappen "Lernen" (lærte ord) og tresor.dat (adgangskoder, krypteret).
+Kan der ikke skrives i mappen, havner dataene i %APPDATA%\NoHandsNeeded.
+
+Øverste bjælke
+--------------
+  Esc       Escape-tast (Fn sidder nederst til venstre i nederste række)
+  midten    helt til venstre med rødt det ord, du skriver (se nedenfor), ved siden af
+            ordforslagene, ét klik indsætter ordet med mellemrum
+  Makroer   åbner makrobjælken (se nedenfor)
+  DA        forslagenes sprog, ét klik skifter (se "Sprog")
+  ⚿         vis/skjul adgangskodeboksen (se "Adgangskodeboks")
+  ◷         dvæleklik til/fra
+  ⚙         indstillinger
+  ▾         fold sammen til en lille rund knap (klik eller dvæl folder ud igen)
+  ✕         luk tastaturet: tryk to gange (efter første tryk bliver ✕ rød)
+
+Skrevet ord (øverst til venstre, rødt)
+--------------------------------------
+Det første felt i forslagsbjælken viser med rød fed skrift, hvad du skriver, bogstav for
+bogstav. Tal vises helt med punktummer, en ventende accenttast (f.eks. ´) vises til sidst.
+Lange ord forkortes aldrig, feltet bliver bare bredere.
+Specialtegn bevarer visningen: alt siden det sidste mellemrum, Enter eller Tab vises, f.eks.
+"s!add" eller en webadresse. Forslagene ved siden af hører til det sidste ord ("add"). Et
+klik på et sådant rødt felt sætter kun et mellemrum.
+  - Kender tastaturet ikke ordet endnu, står der et lille "ny" ved siden af. Et klik på det
+    røde ord indsætter det med mellemrum og husker det med det samme, derefter foreslås det.
+  - I et adgangskodefelt vises røde prikker og antallet af tegn, med 👁 ved siden af. 👁
+    viser adgangskoden i klartekst i 10 sekunder (eller til næste klik). Imens er tastaturet
+    udelukket fra skærmbilleder og skærmdeling. Adgangskoder fra boksen vises kun som prikker.
+    Efter Enter eller når du forlader feltet, er alt væk.
+  - I tastaturets egne vinduer (ny post i boksen, adgangskode til sikkerhedskopi) vises
+    adgangskoden i klartekst, mens du skriver, i vinduet og øverst i tastaturet.
+    "Vis / skjul" skifter til prikker. Der læres, logges eller optages intet.
+  - Kun det, der er skrevet med dette tastatur, vises. Efter et klik i vinduet eller et
+    rigtigt tastetryk er feltet tomt.
+  - Indstillinger → Ordforslag: til/fra, "prikker med 👁" eller "altid kun prikker", tid
+    før klarteksten skjules.
+
+Flytning og størrelse
+---------------------
+Flyt:
+  - Hold ✥ nederst til højre nede og træk, eller dvæl kort på den.
+  - Hold museknappen nede lidt længere på en vilkårlig tast (standard 0,5 sekunder). En
+    orange ring fyldes op, så hænger tastaturet ved musen. Slip sætter det ned. Tasten
+    skrives ikke. Et kort klik skriver som normalt (ved slip).
+  - Med dvæleklik: dvæl tydeligt længere på en tast (standard dobbelt dvæletid). Først
+    skrives tasten én gang, så fyldes den orange ring, og tastaturet følger musen. Hold
+    musen stille et øjeblik eller klik for at sætte det ned. Backspace, Delete og pilene
+    gentages ved dvæl, så de kan ikke bruges til at trække.
+  - Esc eller højreklik annullerer, tastaturet springer tilbage.
+  - Tastaturet bliver altid helt på skærmen, også med flere skærme.
+Størrelse: træk i en kant eller i det blå hjørne nederst til venstre med musen.
+  Størrelsen er i procent af skærmen (standard 60 % bred, 31 % høj, nederst til højre).
+  Indstillinger → "Flytning og størrelse": skydere for bredde og højde, standardposition
+  (nederst til højre, midt eller venstre) og "Nulstil størrelse og position".
+Flere skærme: tastaturet kan trækkes til enhver skærm, også når skærmene er skaleret
+  forskelligt (f.eks. 125 % og 100 %). Når det sættes ned, får det samme procentstørrelse
+  der. Mangler en skærm ved start, vises det nederst til højre på hovedskærmen. Det samme
+  gælder den runde knap.
+I indstillingerne kan forslagsbjælken også have to linjer med egen skriftstørrelse.
+
+Taster
+------
+Fn (nederst til venstre): andet niveau med F1 til F12, Home, End, Page Up/Down, specialtegn.
+Esc sidder øverst til venstre.
+Shift, Ctrl, Alt, Win, AltGr:
+  1 tryk  = gælder for næste tast (blå ramme)
+  2 tryk  = låst (orange ramme, "låst"), f.eks. Shift låst + pile for at markere
+  3 tryk  = fra
+Win virker anderledes: 1 tryk gælder for den næste tast (f.eks. Win+E til Stifinder), 2 tryk
+trykker Windows-tasten alene og åbner menuen Start.
+
+Nederste række: Fn, Ctrl, Win, Alt, mellemrum, AltGr (lige til højre for mellemrumstasten),
+abc/ABC, fire specialtegn, pile, ✥. De fire specialtegn er som standard ! ? : - og kan ændres
+i indstillingerne under "Specialtegn nederst" (ét tegn pr. felt, evt. et andet til Shift,
+f.eks. ".:"). Efter et ordforslag rykker et tegn ind til ordet, og mellemrummet kommer bagefter
+("hus ." bliver "hus. ").
+Også ellers kommer der automatisk et mellemrum efter . , ! ? : ; undtagen i tal (1,5 eller
+10:30), webadresser, e-mailadresser og i e-mail- eller IBAN-felter. Skriver du selv et
+mellemrum, bliver det ikke dobbelt. Kan slås fra i indstillingerne.
+
+Store/små-tast (ved siden af mellemrumstasten): ændrer skrivemåden af det sidste ord.
+    "abc" med pil op     = ordet er med små bogstaver, ét tryk gør første bogstav stort
+    "ABC" med pil ned    = ordet har store bogstaver, ét tryk gør det småt
+    Bagefter viser den den anden mulighed, så man kan skifte frem og tilbage.
+    Virker også lige efter et ordforslag eller efter mellemrum/punktum.
+    Gråt "Aa" = intet ord kendt. Tasten kender kun ord, der er skrevet med dette tastatur, og
+    glemmer dem efter et klik i vinduet, et vinduesskift eller Enter. Den kender ikke ord fra
+    taleindtastning (f.eks. Wispr Flow) eller et andet tastatur.
+    KUN STORE BOGSTAVER: tryk to gange på Shift (låst).
+
+I starten af en sætning (efter . ! ? og mellemrum eller efter Enter) bliver næste bogstav
+automatisk stort. Kan slås fra i indstillingerne.
+
+Rigtige tastetryk: trykker du på en tast på Quadsticken (eller et almindeligt tastatur),
+lyser den rødt på skærmtastaturet, så længe den holdes nede, og 1,5 sekunder bagefter.
+Ctrl+Shift til Wispr Flow kan du altså se, så længe du holder. Det, skærmtastaturet selv
+skriver, lyser ikke. Taster vises kun, de gemmes og logges ikke.
+Efter et rigtigt tastetryk glemmer tastaturet det påbegyndte ord, fordi der nu kan stå
+indsat eller dikteret tekst. Shift eller Ctrl alene ændrer intet, Ctrl+Shift gør. Genvejs-
+tasterne (Pause, numerisk -) tæller ikke.
+Indstillinger → Betjening: til/fra og hvor længe tasterne efterlyser.
+
+Egne vinduer (boks, adgangskodepost, PIN, makroer, eksport/import): tastaturet forbliver
+klikbart, så du kan skrive helt normalt i disse vinduer. Vinduerne åbner der, hvor
+tastaturet ikke dækker dem.
+
+Ord pr. program: skifter du vindue (f.eks. fra mailprogrammet til browseren og tilbage),
+husker tastaturet for hvert vindue det påbegyndte ord, ordet før og sætningsstarten.
+Tilbage i vinduet skriver du bare videre.
+  - Gælder pr. vindue: to browservinduer er adskilt, faner i samme vindue er ikke.
+  - Henter du vinduet tilbage med et klik i teksten, fortsætter det også. Klikker du midt i
+    teksten, passer forslaget ikke. Slå fra: Indstillinger → Betjening → "Skriv videre også
+    efter klik i vinduet".
+  - Højst 30 vinduer, højst 30 minutter, kun i hukommelsen. Aldrig adgangskodefelter.
+
+Med dvæleklik gentages Backspace, Delete og pilene, så længe du bliver på dem. Alle andre
+taster udløses først igen, når du har forladt tasten én gang.
+
+Makroer
+-------
+Tryk på "Makroer": øverst vises makroerne i stedet for ordforslagene.
+  - Ét klik kører makroen, derefter kommer ordforslagene tilbage.
+  - Grupper vises som "Navn ›", et klik åbner dem, "‹ Navn" går tilbage.
+  - Makroer, der passer til det aktive program, står forrest.
+  - Er der ikke plads til alle, blader "videre ›".
+  - "✕ Tilbage" lukker makrobjælken.
+
+Til højre for makrobjælken:
+  ●  Optag: skriv bare som normalt på tastaturet, alt optages (tekst, Enter, genveje som
+     Ctrl+S). Tastaturet får en rød ramme.
+     "■ Stop" afslutter optagelsen, bekræft så navnet, og du er færdig.
+     ✕ kasserer optagelsen.
+  +  Hurtig gem: det sidst skrevne (siden sidste klik i vinduet) gemmes som tekstblok. Et
+     navn er allerede foreslået, ét klik er nok.
+  ✎  åbn makroeditoren
+
+Makroeditor (✎ eller Indstillinger → Rediger makroer):
+  Ny, Rediger, Kopiér, Op/Ned, Slet. I selve makroen: navn, gruppe, farve, program, global
+  genvej og vilkårligt mange trin:
+    Tekst     pladsholdere {date} {time} {weekday} {cursor}
+              (tysk virker også: {datum} {uhrzeit} {wochentag})
+              ({cursor} = her står markøren efter indsættelse)
+    Taster    f.eks. Ctrl+A, Ctrl+C, Enter   eller   Alt+Tab   eller   Win+D
+              "Optag tast" indsætter en trykket tast direkte
+    Åbn       program, fil, mappe eller webside
+    Vent      pause i millisekunder
+
+Makroerne ligger i NoHandsNeeded-Daten\makros.yaml og kan også redigeres i hånden (en
+beskrivelse står øverst i filen). Nøgleord virker på engelsk (name, group, steps, keys,
+open, wait) eller tysk (name, gruppe, schritte, tasten, oeffnen, warten).
+Klik derefter på "Genindlæs fil" i editoren. Har filen en fejl, viser tastaturet linjen i
+stedet for at gå ned. Ved gem beholdes den forrige version som makros.yaml.bak.
+
+Makroer skriver via tastatursimulering, aldrig via udklipsholderen. De indgår ikke i
+ordforslagene. Adgangskoder hører ikke hjemme i makroer, dertil er boksen.
+
+Sprog
+-----
+Indbygget, uden internet: tysk, engelsk, hollandsk, fransk, dansk, polsk, tjekkisk,
+italiensk, spansk, tyrkisk og russisk.
+Sprogknappen øverst skifter rundt mellem de aktiverede sprog, plus blandet (f.eks. DA+EN,
+efter hyppighed). Blandet kan slås fra.
+
+Ved allerførste start tager tastaturet Windows-sproget og engelsk med. Står Windows på
+dansk, starter det med dansk og dansk layout.
+
+Forslag uden accenter: "zolw" giver "żółw", "cafe" giver "café", "nino" giver "niño".
+Du behøver altså ikke lede efter specialtegn. Det gælder også lærte ord.
+
+Tastaturlayout: følger sproget (ved blandet det første sprog).
+  Tysk QWERTZ, engelsk og hollandsk QWERTY, fransk AZERTY, dansk med æ ø å, polsk med
+  ą ć ę ł ń ó ś ź ż via AltGr, tjekkisk med ě š č ř ž ý á í é i talrækken, italiensk,
+  spansk med ñ ¿ ¡, tyrkisk Q med ı ğ ü ş ö ç, russisk ЙЦУКЕН.
+  Russisk har en tast "ABC/АБВ" til latinske bogstaver (mailadresser, links).
+  Accenttaster som i Windows (døde taster): på fransk, spansk, dansk, tjekkisk og hollandsk
+  trykkes først ´ ` ^ ¨, så bogstavet (´ + e = é). Med mellemrum bagefter kommer tegnet
+  alene. Tysk har ingen døde taster.
+  Tastaturet skriver Unicode, Windows-layoutet behøver ikke ændres.
+  Indstillinger → Sprog → Tastaturlayout: efter sproget, altid tysk eller altid engelsk.
+
+Indstillinger → Sprog:
+  - Et flueben aktiverer et sprog, ▲/▼ ændrer rækkefølgen ved skift.
+  - "Husk sprog pr. program": skifter du sprog i et program, husker tastaturet det og
+    skifter automatisk næste gang i det program. For eksempel Outlook engelsk, WhatsApp dansk.
+  - "Rediger egne begreber": navne og fagord, der foreslås på alle sprog.
+    Fil: NoHandsNeeded-Daten\eigene_woerter.txt
+  - "Tilføj fra fil": brug en ordliste uden internet (ord, tabulator, hyppighed; filnavn =
+    sprogkode, f.eks. pt.txt).
+  - "Fjern": sletter et sprog, du selv har tilføjet (indbyggede kan kun slås fra).
+Sprog, du selv har tilføjet, ligger i NoHandsNeeded-Daten\Sprachen.
+Som tilvalg findes en global genvej "Skift sprog".
+
+Brugerfladens sprog
+-------------------
+Indstillinger, menuer, beskeder, tastemærker, introduktionen og denne vejledning findes på
+tysk, engelsk, hollandsk, fransk, dansk, polsk, tjekkisk, italiensk, spansk, tyrkisk og
+russisk. Standard er Windows-sproget, ellers engelsk.
+Skift: Indstillinger → Andet → "Brugerfladens sprog" → Anvend.
+Oversættelserne er lavet af en AI. Rettelser fra modersmålstalende er velkomne på GitHub:
+https://github.com/ichmml/nohandsneeded (brugerflade: mappen Resources/Texte,
+vejledning: mappen Anleitung). Mangler en tekst på et sprog, vises den på engelsk.
+
+Læring
+------
+Tastaturet lærer, mens du skriver:
+  - nye ord (navne, fagord). De foreslås, så snart du har skrevet dem 2 gange (kan
+    indstilles fra 1 til 5).
+  - hvor ofte du bruger hvilket ord. Hyppige ord rykker frem.
+  - hvilket ord der ofte følger efter hvilket. Efter et mellemrum står passende næste ord
+    straks øverst (f.eks. efter "min" det ord, du oftest skriver derefter).
+  - skrivemåden: hvis du med store/små-tasten gør "iphone" til "iPhone", får du "iPhone"
+    foreslået næste gang.
+Sletter du et ord med det samme med ⌫, glemmes det også igen.
+
+Tal: datoer (10.09.1991), telefonnumre (12 34 56 78, +45 12 34 56 78) og postnumre foran et
+bynavn lærer det også, og også lange numre fra 9 cifre, f.eks. kunde- eller kontraktnumre.
+De foreslås allerede efter første gang. Skriver du cifre, står passende tal øverst.
+Skilletegn tæller ikke, "1009" giver altså "10.09.1991". Tallet indsættes i den lærte
+skrivemåde.
+PIN-koder (4 til 8 cifre uden skilletegn) og kortnumre læres også, men krypteret i en
+separat fil (zahlen_geheim.dat). I en sikkerhedskopi kommer de kun med adgangskode. Kan slås
+fra under indstillingerne for læring ("Lær PIN-koder og kortnumre (krypteret)"). Aldrig
+lært: enkelte tal og mængder, klokkeslæt, alt i adgangskodefelter og intet, der ligner en
+adgangskode (cifre blandet med bogstaver, meget lange ord). Fra egne tekster overtages PIN-
+koder og kortnumre aldrig.
+IBAN: Et gyldigt IBAN (korrekt kontrolciffer) huskes, skrevet med eller uden mellemrum.
+Næste gang er landekoden og første ciffer ("DK5") nok: det står grønt med 🏦 øverst, og ét
+klik skriver det hele. I felter, der hedder IBAN, og efter "IBAN:" står det der med det
+samme. Kan slås fra under indstillingerne for læring.
+Tal gælder på alle sprog, fil: NoHandsNeeded-Daten\Lernen\zahlen.txt. Kan slås fra under
+Indstillinger → Læring, ses og slettes under "Lærte ord" → valget "Tal".
+
+Indstillinger → Læring:
+  - "Lær af mine tekster": vælg en mappe (f.eks. noter eller dokumenter). Der læses .txt, .md,
+    .docx, .html, .eml og .mbox, også i undermapper. Mapper med punktum foran (.obsidian,
+    .git) springes over.
+    Kun statistikken gemmes, hvilke ord der forekommer hvor ofte og i hvilken rækkefølge,
+    aldrig teksterne. Linjer med adgangskode, PIN, IBAN, login, token og lignende springes
+    over, ligesom links, mailadresser, kodeblokke og citerede mails.
+    Ved flere sprog havner hvert afsnit i det sprog, det passer til.
+  - "Se og slet lærte ord": søg, slet enkelte ord, glem alt.
+  - Ikonet → "Sæt læring på pause", f.eks. når en anden skriver.
+Det lærte ligger i NoHandsNeeded-Daten\Lernen\da.txt (én fil pr. sprog) og gemmes hvert
+2. minut og ved afslutning.
+
+Adgangskodeboks
+---------------
+Så du ikke hver gang skal skrive lange adgangskoder tegn for tegn.
+  - Klikker du i et adgangskodefelt, vises dine gemte adgangskoder øverst i stedet for
+    ordforslagene (gule, med ⚿). Den, der passer til vinduet, står forrest. Ét klik skriver
+    adgangskoden i feltet. Derefter Enter.
+  - Har du selv skrevet en adgangskode, spørger tastaturet efter Enter eller når du forlader
+    feltet: "Gem i boksen?". "Gem" åbner et vindue med et foreslået navn, som du bekræfter.
+    "Nej" eller bare fortsætte kasserer den.
+  - "+ Tilføj adgangskode" åbner et vindue til en ny post. Navnet er allerede foreslået ud fra
+    websiden eller programmet, adgangskoden vises i klartekst, mens du skriver, "Lav en sikker
+    adgangskode" udfylder den, hvis du vil. "Gem" lægger den i boksen, den står straks i bjælken.
+  - Er der ikke plads til alle adgangskoder i bjælken, blader "mere ›" til næste side, de
+    der passer til den åbne side står forrest. "🔍 Søg": skriv et par bogstaver, så viser
+    bjælken kun de passende poster (navn, bruger eller program). Bogstaverne går ikke ind i
+    programmet. Tilbage sletter, Esc, Enter eller "✕ Afslut søgning" afslutter søgningen.
+  - Har du lige skrevet en adgangskode på en side, står den allerede i vinduet, og det samme
+    gør en e-mailadresse, du skrev kort før i samme vindue. Markøren står straks i det næste
+    tomme felt. I navn og e-mail skriver du helt normalt, der læres intet.
+  - "🎲 Lav og skriv" (kun i et adgangskodefelt) laver en sikker
+    adgangskode (standard 16 tegn), skriver den i feltet og tilbyder straks at gemme. Gem
+    den endelig, ellers er den væk.
+  - I boksens vindue vises adgangskoden altid i klartekst, også når du redigerer en
+    eksisterende post, så du kan se, om du skriver rigtigt. "Vis / skjul" skjuler den efter
+    behov.
+  - ⚿ øverst til højre viser boksen også uden for adgangskodefelter, "✕ Skjul" skjuler den.
+Sikkerhed:
+  - tresor.dat er krypteret med Windows (DPAPI) og kan kun læses med din Windows-konto på
+    denne pc. Kopieret et andet sted hen er filen værdiløs. Til overførsel findes
+    "Sikkerhedskopiér og overfør til en anden pc" (se nedenfor).
+  - Som tilvalg en PIN (Indstillinger → Adgangskodeboks). Så er boksen låst efter hver start
+    og låser sig igen efter 15 minutter uden brug (kan indstilles). PIN skrives med store
+    taltaster. Uden PIN kommer ingen til adgangskoderne, heller ikke dig. Så husk den godt.
+  - Adgangskoder vises aldrig i de normale ordforslag, læres aldrig, tages ikke med i
+    makrooptagelser og indsættes aldrig via udklipsholderen.
+  - Tastaturet genkender adgangskodefelter på Windows' markering for beskyttede felter. Det
+    virker i Windows-programmer og de almindelige browsere. Genkender det ikke et felt,
+    hjælper ⚿ med at vise boksen.
+Rediger: Indstillinger → Adgangskodeboks → "Rediger boks" (eller ikonet).
+Der angiver du navn, brugernavn, adgangskode (med vis-knap) og nøgleord til vinduestitlen
+("gmail, google"), så den rigtige adgangskode står forrest.
+
+E-mailadresser: skriver du en e-mailadresse, husker tastaturet den som et nyt ord (ikke i
+adgangskodefelter). Derefter står den øverst med blåt og ✉, så snart du har skrevet de første
+3 bogstaver, ét klik indsætter hele adressen. Klikker du i et felt til e-mail eller brugernavn,
+står adresserne straks øverst, uden at du skriver et bogstav. Tastaturet genkender feltet på
+dets etiket, det virker på de fleste login-sider. Slå fra: Indstillinger → Læring. Se og
+slet: "Lærte ord" → "E-mailadresser".
+
+Globale genveje og Quadstick
+----------------------------
+Disse genveje virker også, når et andet program er forrest:
+  Pause            vis/skjul tastaturet
+  numerisk -       åbn makrobjælken (hedder "NumMinus" i tastaturet)
+Derudover kan hver makro få sin egen genvej (i makroeditoren).
+I indstillingerne står der ved hver genvej, om den er aktiv (grønt flueben) eller ej (rød,
+med årsag).
+
+Åbner du tastaturet med genvejen, dukker det op, hvor musemarkøren er: centreret lige under
+den, så stedet forbliver synligt, og over den, hvis der er for lidt plads. Fra proceslinjen,
+systembakken eller den runde knap bliver det på sin vante plads. Kan slås fra i
+indstillingerne ("Ved genvejen (f.eks. Pause) åbn der, hvor musen er").
+Lige under vælger du, hvor præcist: under eller over musen, midt, mod højre eller mod
+venstre. Passer det ikke på den valgte side, bruges den anden.
+
+Skift: Indstillinger → Globale genveje → "Optag". Et vindue åbner, tryk så på tasten på
+Quadsticken. Den genkendte tast vises stort i vinduet, bekræft med "Anvend". Eller klik på
+"Fra liste".
+
+Virker en genvej ikke: Indstillinger → "Test genveje" og tryk på Quadstick-tasten.
+  - Intet vises: tasten når slet ikke frem til pc'en. Quadsticken sender den ikke, f.eks.
+    fordi den ikke kan F13 til F24. Brug en anden tast, f.eks. Pause eller et regnetegn fra
+    det numeriske tastatur.
+  - "Tast modtaget" vises, men ikke "Genvej udløst": tasten kommer frem, men genvejen er
+    ikke aktiv eller indstillet anderledes. Tjek den røde besked i indstillingerne.
+  - Begge vises: alt er i orden.
+protokoll.txt (Indstillinger → "Åbn log") viser, hvilke genveje der blev registreret,
+hvilke ikke (med Windows-fejlkode) og hvilke der blev udløst.
+
+Tildel en Quadstick-tast:
+  I Quadsticks konfigurationsark (Google-regneark) én linje pr. genvej, eksempel:
+      kb_pause          normal    <indgang>
+      kb_keypad_minus   normal    <indgang>
+  1. Vælg den ønskede indgang i den gule kolonne (f.eks. mp_triple_puff).
+  2. Indlæs konfigurationen på Quadsticken som sædvanlig.
+  3. Tjek med "Test genveje".
+  F13 til F24 og Scroll Lock kan Quadsticken ikke sende. Velegnede er Pause og regnetegnene
+  fra det numeriske tastatur (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). Brug ikke kb_keypad_enter (behandles som Enter) eller cifrene fra det
+  numeriske tastatur (afhænger af Num Lock).
+
+Ikonet i meddelelsesområdet: venstreklik viser/skjuler tastaturet. Højreklik: rediger
+makroer, sæt læring på pause, rediger adgangskodeboks, indstillinger, åbn vejledning, vis
+introduktion, donér, afslut.
+
+Proceslinje: så længe tastaturet kører, har det sin egen knap med tastaturikonet på
+proceslinjen. Ét klik åbner altid tastaturet helt, også når det er skjult eller foldet
+sammen til den runde knap (et åbent tastatur forbliver åbent), bagefter er fokus straks
+tilbage i det program, du skrev i. Slå fra: Indstillinger → Start.
+
+Sikkerhedskopiér og overfør til en anden pc
+-------------------------------------------
+Indstillinger → "Sikkerhedskopiér og overfør til en anden pc".
+  - "Eksportér data …": sæt flueben ved det, der skal med (lærte ord, ordfølger og tal, egne
+    begreber, makroer, adgangskoder fra boksen). Vælg så en mappe. Der oprettes en fil som
+    "NoHandsNeeded 2026-11-08.nohands".
+  - Er der adgangskoder med, skal sikkerhedskopien have sin egen adgangskode (mindst
+    8 tegn). Filen er så krypteret (AES-256), uden denne adgangskode kommer ingen ind,
+    heller ikke dig. Uden adgangskoder må feltet være tomt.
+  - På den anden pc: "Importér data …", vælg filen, indtast adgangskoden om nødvendigt, tjek
+    fluebenene, "Overtag".
+  - Intet overskrives, alt lægges sammen: ved ens ord gælder den højeste tæller (at
+    importere samme fil to gange tæller altså ikke dobbelt). En makro med samme navn
+    erstattes. Ved en adgangskode med samme navn og bruger vinder den, der senest er ændret
+    eller brugt.
+  - Den sidst brugte mappe huskes. Praktisk er en mappe, som begge pc'er kan se (USB-stik,
+    skymappe).
+  - Størrelse og position overføres ikke, de passer jo forskelligt fra pc til pc.
+
+Støt
+----
+Tastaturet er gratis og open source. Hvis det hjælper dig, bliver jeg glad for en donation:
+https://ko-fi.com/MDM3D
+Knappen sidder helt øverst i indstillingerne og i ikonets menu. Linket åbner kun, når du
+klikker på det. Tastaturet spørger aldrig om det.
+
+Låseskærm
+---------
+For at skrive Windows-PIN'en med dette tastatur skal det vises på låseskærmen. Det tillader
+Windows kun, hvis alt følgende gælder:
+  - tastaturet er signeret med et kodesigneringscertifikat,
+  - det er installeret med installationsprogrammet i "C:\Program Files\NoHandsNeeded",
+  - det er registreret i Windows som hjælpemiddel (det gør installationsprogrammet),
+  - det har tilladelsen uiAccess (varianten NoHandsNeededAT.exe fra build.cmd).
+Den bærbare NoHandsNeeded.exe kan ikke det. Indstillinger → Andet → Låseskærm viser, hvad der
+mangler. Er alt på plads, findes der kontakten "Vis på låseskærmen".
+På låseskærmen virker kun skrivning: ingen boks, ingen makroer, ingen læring, ingen
+ordforslag, ingen indstillinger. Så ser ingen noget personligt på den låste pc.
+Indtil da: klik på hjælpemiddelikonet nederst til højre på låseskærmen og brug Windows'
+skærmtastatur. Eller opsæt Windows Hello (ansigt), så skal der ingen PIN til.
+
+Kendte begrænsninger
+--------------------
+I programmer, der kører som administrator (Jobliste, nogle installationsprogrammer), kan
+tastaturet ikke skrive. Det er en sikkerhedsregel i Windows. Løsning: højreklik på
+NoHandsNeeded.exe → "Kør som administrator", eller brug den signerede, installerede version (se
+"Låseskærm").
+
+Store/små-tasten virker på det sidste ord, der er skrevet med tastaturet. Markeret tekst i
+andre programmer kan den endnu ikke ændre.
+
+Ordlister: 11 indbyggede sprog med hver ca. 27.000 til 74.000 ord. Hyppigheder fra wordfreq
+(data under CC BY-SA 4.0), stavning kontrolleret med hunspell-ordbøger.

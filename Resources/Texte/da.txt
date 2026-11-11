@@ -1,0 +1,502 @@
+# Texte der Oberfläche (da). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Adgangskoder kan kun sikkerhedskopieres krypteret
+Das ist keine Sicherungsdatei der Tastatur.	Dette er ikke en sikkerhedskopi fra tastaturet.
+Die Sicherungsdatei ist unvollständig.	Sikkerhedskopien er ufuldstændig.
+Daten exportieren	Eksportér data
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Pak det hele i én fil, f.eks. til din anden pc. Indlæs den der med "Importér".
+Gelernte Wörter, Wortfolgen und Zahlen	Lærte ord, ordfølger og tal
+Eigene Begriffe	Egne ord
+Makros	Makroer
+Passwörter aus dem Tresor	Adgangskoder fra boksen
+Passwort für die Sicherung	Adgangskode til sikkerhedskopien
+Anzeigen / verbergen	Vis / skjul
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Med adgangskoder bliver filen altid krypteret. Du skal bruge denne adgangskode ved import, så skriv den ned. Mindst 8 tegn.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Uden adgangskoder må feltet være tomt. Med en adgangskode bliver filen krypteret.
+Speichern unter …	Gem som …
+Bitte mindestens einen Haken setzen.	Sæt mindst ét flueben.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	For at tage adgangskoder med skal sikkerhedskopien have en adgangskode på mindst 8 tegn.
+Abbrechen	Annuller
+Daten importieren	Importér data
+Sicherung vom 	Sikkerhedskopi fra 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Sikkerhedskopien er krypteret. Adgangskode til sikkerhedskopien:
+Öffnen	Åbn
+Datei beschädigt: 	Filen er beskadiget: 
+Passwort falsch, nochmal versuchen.	Forkert adgangskode, prøv igen.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Hvad skal overtages? Det eksisterende bliver, det nye kommer til.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Lærte ord ({0}), ordfølger ({1}), tal ({2})
+Eigene Begriffe ({0})	Egne begreber ({0})
+Makros ({0})	Makroer ({0})
+Passwörter ({0})	Adgangskoder ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Ved ens ord gælder den højeste tæller. En makro med samme navn bliver erstattet. Ved en adgangskode med samme navn og bruger vinder den, der senest er ændret eller brugt.
+Übernehmen	Anvend
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Lærte e-mailadresser: adresse<TAB>antal
+Makroleiste öffnen	Åbn makrolinje
+unbekannte Taste	ukendt tast
+doppelt vergeben	tildelt to gange
+Taste gibt es im Tastaturlayout nicht	tasten findes ikke i tastaturlayoutet
+schon von einem anderen Programm belegt (Fehler 1409)	bruges allerede af et andet program (fejl 1409)
+von Windows abgelehnt	afvist af Windows
+Windows-Fehler 	Windows-fejl 
+Kürzel aufnehmen	Optag genvej
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nTryk nu på tasten eller tastekombinationen (f.eks. på Quadstick).
+Nochmal	Igen
+Erkannt: 	Genkendt: 
+Kürzel testen	Test genveje
+Drück jetzt die Taste am Quadstick.\n	Tryk nu på tasten på Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Hvis "Tast modtaget" vises nederst, sender Quadstick tasten.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Hvis "Genvej udløst" også vises, virker alt.\n\n
+Aktiv: 	Aktive: 
+Schließen	Luk
+→ Kürzel ausgelöst: 	→ Genvej udløst: 
+keine Kürzel eingetragen	ingen genveje angivet
+Taste angekommen: 	Tast modtaget: 
+  (von Software)	  (fra software)
+neu	ny
+„{0}“ gemerkt	"{0}" husket
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Ingen makroer endnu: opret med ✎ eller optag med ●
+weiter  	mere  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Flyt: slip for at placere · Esc/højreklik annullerer
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Flyt: hold musen stille eller klik for at placere · Esc/højreklik annullerer
+Leertaste	Mellemrum
+■ Stopp	■ Stop
+✕ Zurück	✕ Tilbage
+Verschieben abgebrochen	Flytning annulleret
+Position gespeichert	Position gemt
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Intet ord kendt: tasten virker på det sidste ord, der blev skrevet med dette tastatur
+Weitere Sprachen herunterladen	Hent flere sprog
+Quelle:\n	Kilde:\n
+\nEs wird nur geladen, was du hier anklickst.	\nKun det, du klikker på her, bliver hentet.
+Lade Übersicht …	Henter oversigt …
+Herunterladen	Hent
+Erneut versuchen	Prøv igen
+Keine Sprachpakete gefunden.	Ingen sprogpakker fundet.
+Sprache auswählen und "Herunterladen" klicken.	Vælg et sprog og klik på "Hent".
+Lade 	Henter: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 er installeret og slået til. Skift med sprogknappen øverst på tastaturet.
+  · hinzugefügt	  · tilføjet
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Egne begreber: ét ord pr. linje, f.eks. navne og fagord.
+Sie werden in allen Sprachen vorgeschlagen.	De foreslås på alle sprog.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Ikke en gyldig sprogkode (f.eks. fr.txt eller overskriftslinje "#sprache fr Fransk").
+Alle	Alle
+   ✓ installiert	   ✓ installeret
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Ingen internetforbindelse eller serveren kan ikke nås. Tastaturet kører videre som normalt.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Serveren svarer ikke (timeout). Prøv igen senere.
+Download fehlgeschlagen: 	Hentning mislykkedes: 
+Tab ⇥	Tab ⇥
+Entf	Delete
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Insert
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Lærte ord fra skærmtastaturet
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> ord <TAB> antal   og   f <TAB> ord <TAB> næste ord <TAB> antal
+Geht erst mit der installierten, signierten Version.	Virker kun med den installerede, signerede version.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Indtil da: Klik på tilgængelighedsikonet nederst til højre på låseskærmen, og brug Windows' skærmtastatur. Eller opsæt Windows Hello (ansigt), så skal der ikke bruges pinkode.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Tastaturet vises på låseskærmen.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Klar. Med kontakten vises tastaturet også på låseskærmen.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Tastaturet vises nu på låseskærmen.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Tastaturet vises ikke længere på låseskærmen.
+Hat nicht geklappt: 	Det lykkedes ikke: 
+Tasten	Taster
+Warten	Vent
+Text	Tekst
+keine	ingen
+blau	blå
+grün	grøn
+rot	rød
+orange	orange
+lila	lilla
+gelb	gul
+grau	grå
+Zeile 	Linje 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Brug mellemrum i stedet for tabulator til indrykning.
+Unerwarteter Text, Einrückung prüfen.	Uventet tekst, tjek indrykningen.
+Einrückung passt nicht.	Indrykningen passer ikke.
+Text nach dem schließenden ".	Tekst efter det afsluttende ".
+Hier wird ein Wert erwartet, keine Liste.	Her forventes en værdi, ikke en liste.
+Unbekannte Taste "{0}".	Ukendt tast "{0}".
+"{0}" muss eine Liste sein.	"{0}" skal være en liste.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Ukendt trin "{0}". Tilladt: text, keys, open, wait (eller text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	"{0}" må ikke være en liste.
+Unbekanntes Kürzel "{0}".	Ukendt genvej "{0}".
+Unbekannter Eintrag "{0}".	Ukendt post "{0}".
+Makro ohne "name".	Makro uden "name".
+makros.yaml konnte nicht gelesen werden: 	makros.yaml kunne ikke læses: 
+Programme	Programmer
+Grüße	Hilsen
+Viele Grüße	Venlig hilsen
+Datum	Dato
+Heute	I dag
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday} {date}, {time}
+Alles kopieren	Kopiér alt
+Desktop	Skrivebord
+Browser	Browser
+Neuer Tab	Ny fane
+Tab zu	Luk fane
+Tab zurück	Genåbn fane
+Editor	Editor
+Rechner	Lommeregner
+Neue Mail	Ny mail
+Hallo {cursor},\n\nViele Grüße	Hej {cursor},\n\nVenlig hilsen
+Unbekannte Taste "{0}" in Makro "{1}"	Ukendt tast "{0}" i makro "{1}"
+"{0}" ließ sich nicht öffnen: 	"{0}" kunne ikke åbnes: 
+Makros bearbeiten	Rediger makroer
+Neu	Ny
+Bearbeiten	Rediger
+Kopieren	Kopiér
+▲  Hoch	▲  Op
+▼  Runter	▼  Ned
+Löschen	Slet
+Datei im Editor öffnen	Åbn fil i editor
+Datei neu laden	Genindlæs fil
+Neues Makro	Ny makro
+ (Kopie)	 (kopi)
+Makro "	Slet makroen "
+" löschen?	"?
+Makro bearbeiten	Rediger makro
+Name (Beschriftung des Knopfs)	Navn (tekst på knappen)
+Gruppe (leer = keine)	Gruppe (tom = ingen)
+Farbe	Farve
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Kun for program (f.eks. chrome eller "chrome, msedge", tom = overalt)
+Kürzel für "	Genvej til "
+Kein Kürzel	Ingen genvej
+Schritte (werden der Reihe nach ausgeführt)	Trin (udføres efter hinanden)
++ Text	+ Tekst
++ Tasten	+ Taster
++ Öffnen	+ Åbn
++ Warten	+ Vent
+Taste aufnehmen	Optag tast
+Speichern	Gem
+Globales Kürzel: 	Global genvej: 
+Noch keine Schritte. Unten einen hinzufügen.	Ingen trin endnu. Tilføj et nedenfor.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Tekst: flere linjer mulige. Pladsholdere: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Adskil tasterne med komma, f.eks.  Strg+A, Strg+C, Enter   eller  Alt+Tab   eller  Win+D.  Tastenavne (tysk): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Program, fil, mappe eller hjemmeside, f.eks.  notepad.exe   C:\Fakturaer   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pause i millisekunder (1000 = 1 sekund)
+Taste für den Schritt	Tast til trinnet
+Bitte einen Namen eingeben.	Angiv et navn.
+"Warten" braucht eine Zahl in Millisekunden.	"Vent" kræver et tal i millisekunder.
+Name	Navn
+Verwerfen	Kassér
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Lærte tal (datoer, telefonnumre, postnumre): skrivemåde<TAB>antal
+Taste 	Tast 
+Passwort-Tresor	Adgangskodeboks
+Kürzel nicht aktiv	Genvej ikke aktiv
+Tastatur zeigen / verstecken	Vis / skjul tastatur
+Lernen fortsetzen	Fortsæt læring
+Lernen pausieren	Sæt læring på pause
+Passwort-Tresor bearbeiten	Rediger adgangskodeboks
+Einstellungen	Indstillinger
+Anleitung öffnen	Åbn vejledning
+Einführung zeigen	Vis introduktion
+☕ Kaffee spendieren	☕ Giv en kop kaffe
+Beenden	Afslut
+Die Anleitung wurde nicht gefunden.	Vejledningen blev ikke fundet.
+Anleitung	Vejledning
+Die Anleitung ließ sich nicht öffnen: 	Vejledningen kunne ikke åbnes: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Dit Windows-sprog er {0}, tastaturet er sat til {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Dit Windows-sprog er {0}. Du kan slå det til i indstillingerne under Sprog.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Dit Windows-sprog ({0}) er endnu ikke indbygget. Måske kan det hentes.
+Sprache herunterladen	Hent sprog
+Sprache: 	Sprog: 
+  (für 	  (for 
+Tastatur ein-/ausblenden	Vis/skjul tastatur
+Sprache wechseln	Skift sprog
+Makro 	Makro 
+Während der Aufnahme keine Makros	Ingen makroer under optagelse
+" gespeichert	" gemt
+Erst etwas tippen, dann + zum Speichern	Skriv noget først, derefter + for at gemme
+Als Textbaustein speichern	Gem som tekstblok
+Text: 	Tekst: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Optager: skriv bare, derefter ■ Stop
+Aufnahme verworfen	Optagelse kasseret
+Nichts aufgenommen	Intet optaget
+Aufnahme 	Optagelse 
+Aufnahme speichern	Gem optagelse
+Lernen pausiert	Læring sat på pause
+Lernen läuft wieder	Læring kører igen
+ Wörter	 ord
+Bisher gelernt: 	Lært indtil nu: 
+, Zahlen: 	, tal: 
+ Dateien gelesen, 	 filer læst, 
+ Wörter in 	 ord i 
+ Sätzen gelernt	 sætninger lært
+, dazu 	, desuden 
+-mal Datum oder Telefonnummer.	 gange dato eller telefonnummer.
+ Dateien übersprungen.	 filer sprunget over.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nDer gemmes kun, hvor ofte ord forekommer, ikke selve teksterne. Linjer med adgangskode, pinkode, IBAN og lignende springes over.
+Aus meinen Texten lernen	Lær af mine tekster
+Der Tresor ist in den Einstellungen ausgeschaltet	Boksen er slået fra i indstillingerne
+Im Tresor speichern?	Gem i boksen?
+⚿ Speichern	⚿ Gem
+Nein	Nej
+Tresor nicht lesbar	Boksen kan ikke læses
+🔒 Tresor entsperren	🔒 Lås boksen op
+Tresor ist noch leer	Boksen er stadig tom
++ Passwort hinzufügen	+ Tilføj adgangskode
+🎲 Erzeugen und eintippen	🎲 Lav og skriv
+✕ Ausblenden	✕ Skjul
+Passwort "	Adgangskode "
+" eingetippt	" indtastet
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Ny adgangskode indtastet. Gem den nu, ellers er den væk!
+Passwort 	Adgangskode 
+Nicht gespeichert. "Speichern" geht noch kurz.	Ikke gemt. "Gem" virker stadig et øjeblik.
+Im Tresor gespeichert	Gemt i boksen
+Tresor entsperren	Lås boksen op
+PIN eingeben	Indtast pinkode
+PIN falsch, nochmal versuchen	Forkert pinkode, prøv igen
+nicht lesbar	kan ikke læses
+gesperrt, PIN wird abgefragt	låst, der spørges om PIN
+{0} Wörter, {1} Zahlen	{0} ord, {1} tal
+Sicherung speichern	Gem sikkerhedskopi
+Tastatur-Sicherung	Tastatur-sikkerhedskopi
+Gespeichert:\n	Gemt:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nFilen er krypteret. Uden adgangskoden til sikkerhedskopien kan den ikke åbnes.
+Sicherung öffnen	Åbn sikkerhedskopi
+Alle Dateien	Alle filer
+{0} neue E-Mail-Adressen	{0} nye e-mailadresser
+{0} neue Wörter, {1} neue Zahlen	{0} nye ord, {1} nye tal
+{0} neue eigene Begriffe	{0} nye egne begreber
+{0} neue Makros, {1} ersetzt	{0} nye makroer, {1} erstattet
+Passwörter übersprungen: 	Adgangskoder sprunget over: 
+Passwörter übersprungen (Tresor gesperrt)	Adgangskoder sprunget over (boksen er låst)
+{0} neue Passwörter, {1} aktualisiert	{0} nye adgangskoder, {1} opdateret
+Fertig.\n\n	Færdig.\n\n
+mit PIN	med pinkode
+ohne PIN	uden pinkode
+Tresor gesperrt (	Boksen er låst (
+ Passwörter gespeichert, 	 adgangskoder gemt, 
+Es ist keine PIN gesetzt.	Der er ikke angivet nogen pinkode.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	Pinkode gemt. Husk den godt: uden pinkode kan ingen komme til adgangskoderne, heller ikke dig.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	Pinkode fjernet. Boksen er stadig krypteret med din Windows-konto.
+Bildschirmtastatur: Einstellungen	Skærmtastatur: indstillinger
+Version	Version
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Tastaturet er gratis. Hvis det hjælper dig, bliver jeg glad for en donation.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Støt mig med en donation (Ko-fi)
+📖 Anleitung öffnen	📖 Åbn vejledning
+Aussehen	Udseende
+Deckkraft Tastatur	Tastaturets gennemsigtighed
+Deckkraft runder Knopf (eingeklappt)	Rund knaps gennemsigtighed (foldet sammen)
+Farbschema	Farveskema
+dunkel	mørk
+hell	lys
+Bedienung	Betjening
+Verweilklick (Taste löst nach Verweilzeit aus)	Dvæleklik (tasten udløses efter dvæletid)
+Verweilzeit	Dvæletid
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Vis rigtige tastetryk (f.eks. fra Quadstick, de lyser rødt)
+Nachleuchten	Efterglød
+aus	fra
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Tastaturet husker det påbegyndte ord for hvert vindue. Når du skifter tilbage, skriver du bare videre.
+Auch nach Klick ins Fenster weiterschreiben	Skriv også videre efter klik i vinduet
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Fra: Det fortsætter kun ved skift via proceslinjen, Alt+Tab eller titellinjen. Et klik i teksten kan flytte markøren.
+Wortvorschläge	Ordforslag
+Zeilen	Rækker
+1 Zeile	1 række
+2 Zeilen	2 rækker
+Vorschläge pro Zeile	Forslag pr. række
+Schriftgröße Vorschläge und Makros	Skriftstørrelse for forslag og makroer
+Satzanfang automatisch groß	Stort begyndelsesbogstav automatisk
+Leerzeichen nach Vorschlag einfügen	Indsæt mellemrum efter forslag
+Getipptes Wort oben links zeigen (rot)	Vis det skrevne ord øverst til venstre (rødt)
+Punkte mit 👁	Prikker med 👁
+immer nur Punkte	kun prikker
+Passwörter beim Tippen	Adgangskoder under indtastning
+Klartext automatisch ausblenden nach	Skjul klartekst automatisk efter
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	I adgangskodefelter vises kun prikker. 👁 viser adgangskoden i klartekst et øjeblik; imens er tastaturet udelukket fra skærmbilleder og skærmdeling.
+Sprachen	Sprog
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Flueben = aktiv. Rækkefølgen gælder for sprogknappen øverst på tastaturet.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Tilbyd blandet (f.eks. DE+EN) ved skift
+Sprache pro Programm merken	Husk sprog pr. program
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Skifter du sprog i et program, husker tastaturet det og skifter automatisk næste gang i det program. For eksempel Outlook engelsk, WhatsApp dansk.
+passend zur Sprache	efter sproget
+immer Deutsch (QWERTZ)	altid tysk (QWERTZ)
+immer Englisch (QWERTY)	altid engelsk (QWERTY)
+Tastenlayout	Tastaturlayout
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Rediger egne ord (navne, fagudtryk)
+Sonderzeichen unten	Specialtegn nederst
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	De fire taster nederst ved siden af abc/ABC. Ét tegn pr. felt, evt. et andet til Shift (f.eks. ".:"). Tomt = standard.
+Auf Standard zurücksetzen	Nulstil til standard
+Lernen	Læring
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Tastaturet husker, hvilke ord du skriver, hvordan du staver dem, og hvilket ord der ofte følger hvilket. Alt bliver på denne pc. I adgangskodefelter læres der aldrig noget.
+Aus meinem Schreiben lernen	Lær af det, jeg skriver
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Lær også tal (dato, telefonnumre, postnumre)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Lær e-mailadresser og foreslå dem efter 3 bogstaver
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	Vis e-mailadresserne med det samme i e-mailfelter
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Ligesom nye ord foreslås tal først fra anden gang. Engangskoder, pinkoder, TAN og kortnumre læres aldrig.
+Neue Wörter vorschlagen ab	Foreslå nye ord fra
+1-mal geschrieben	skrevet 1 gang
+-mal geschrieben	 gange skrevet
+Aus meinen Texten lernen (Ordner wählen)	Lær af mine tekster (vælg mappe)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Mappe med dine tekster (f.eks. Obsidian, Dokumenter). Der læses .txt .md .docx .html .eml .mbox, også i undermapper.
+Aus einzelnen Dateien lernen	Lær af enkelte filer
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Tekster|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle filer|*.*
+Gelernte Wörter ansehen und löschen	Se og slet lærte ord
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Adgangskoder gemmes krypteret kun for din Windows-konto på denne pc. De vises aldrig i de normale ordforslag og skrives direkte, aldrig via udklipsholderen.
+Tresor benutzen	Brug boksen
+In Passwortfeldern automatisch zeigen	Vis automatisk i adgangskodefelter
+Nach dem Eintippen "Im Tresor speichern?" fragen	Spørg "Gem i boksen?" efter indtastning
+Länge neuer Passwörter	Længde på nye adgangskoder
+ Zeichen	 tegn
+Neue Passwörter mit Sonderzeichen	Nye adgangskoder med specialtegn
+Tresor bearbeiten	Rediger boksen
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Med pinkode er boksen låst efter start og låses igen efter et stykke tid uden brug. Pinkoden indtastes med store taltaster.
+PIN festlegen oder ändern	Angiv eller skift pinkode
+PIN entfernen	Fjern pinkode
+Mit PIN automatisch sperren nach	Med pinkode lås automatisk efter
+nie	aldrig
+ Minuten	 minutter
+Sichern und auf anderen PC übertragen	Sikkerhedskopiér og overfør til en anden pc
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Pak lærte ord, ordfølger, tal, egne begreber, makroer og efter ønske adgangskoderne i én fil. Importér den på den anden pc, så bliver det hele lagt sammen.
+Daten exportieren …	Eksportér data …
+Daten importieren …	Importér data …
+Verschieben und Größe	Flytning og størrelse
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Flyt: træk flyttetasten nederst til højre, eller bliv længe på en tast. Størrelse: træk i en kant eller i hjørnet nederst til venstre.
+Breite	Bredde
+ % des Bildschirms	 % af skærmen
+Höhe	Højde
+unten rechts	nederst til højre
+unten mittig	nederst i midten
+unten links	nederst til venstre
+Standardposition (für Zurücksetzen)	Standardposition (til nulstilling)
+Größe und Position zurücksetzen	Nulstil størrelse og position
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	Størrelsen gælder i procent af skærmen. Trækker du tastaturet til en anden skærm, tilpasser det sig der.
+Verschieben durch langes Draufbleiben	Flyt ved at blive længe på en tast
+Maustaste gedrückt halten bis Verschieben	Hold museknappen nede indtil flytning
+Verweilen bis Verschieben	Dvæl indtil flytning
+automatisch (doppelte Verweilzeit)	automatisk (dobbelt dvæletid)
+Maus ruhig halten zum Absetzen	Hold musen stille for at placere
+Greifzone am Rand zum Größe ändern	Gribezone ved kanten til ændring af størrelse
+ Pixel	 pixel
+Globale Kürzel	Globale genveje
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Virker også, når et andet program er aktivt. Ideelt til en Quadstick-tast.
+Protokoll öffnen	Åbn log
+Start	Start
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Vis en knap på proceslinjen (klik åbner tastaturet helt)
+Mit Windows starten	Start med Windows
+Eingeklappt starten	Start sammenfoldet
+Sonstiges	Andet
+automatisch (wie Windows)	automatisk (som Windows)
+Sprache der Oberfläche	Sprog i brugerfladen
+Einführung nochmal zeigen	Vis introduktionen igen
+Sperrbildschirm	Låseskærm
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Vis på låseskærmen (til at indtaste pinkoden)
+Datenordner öffnen	Åbn datamappe
+Tastatur beenden	Afslut tastaturet
+Makro-Kürzel nicht aktiv: 	Makrogenvej ikke aktiv: 
+Entfernen	Fjern
+Aus Datei hinzufügen	Tilføj fra fil
+Download-Quelle (nur https)	Downloadkilde (kun https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Angiv en adresse, der begynder med https://.
+Download-Quelle	Downloadkilde
+Standard wiederherstellen	Gendan standard
+Mindestens eine Sprache muss aktiv sein.	Mindst ét sprog skal være aktivt.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 er indbygget og kan kun slås fra (fjern fluebenet).
+ löschen?	: slet?
+Sprachpaket	Sprogpakke
+ wurde hinzugefügt und eingeschaltet.	 er tilføjet og slået til.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Sådan ser tildelingen ud i Quadstick-arket. Vælg den ønskede indgang i den gule kolonne (f.eks. mp_triple_puff), og indlæs derefter konfigurationen på Quadstick.
+ausgeschaltet	slået fra
+✓ aktiv	✓ aktiv
+✗ nicht aktiv	✗ ikke aktiv
+Aufnehmen	Optag
+Aus Liste ▾	Fra liste ▾
+Aus	Fra
+Bildschirmtastatur öffnen	Åbn skærmtastatur
+Willkommen!	Velkommen!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Dette skærmtastatur skriver i det program, du skriver i, og tager aldrig fokus fra det. Klik dig igennem de vigtigste dele med "Næste".
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Helt til venstre står med rødt, hvad du skriver. Ved siden af står passende ord, et klik indsætter ordet med mellemrum. Tastaturet lærer, hvilke ord du ofte skriver. Et nyt ord tager du med et klik på det røde ord, så husker tastaturet det med det samme.
+Groß/Klein-Taste	Store/små-tast
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	"abc ↑" giver det sidste ord stort begyndelsesbogstav, "ABC ↓" gør det småt. Det virker også bagefter, efter mellemrum eller punktum.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Hold ✥ nede og træk tastaturet, hvorhen du vil. Eller bliv på en vilkårlig tast, indtil den orange ring er fyldt: Så følger tastaturet musen. Størrelsen ændrer du ved hver kant.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Ét tryk gælder for den næste tast. To tryk låser tasten, tre tryk slår den fra igen.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Tekstblokke, tastesekvenser og programmer med ét klik. Med ● optager du bare det, du skriver.
+Sprache	Sprog
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Skifter sprog for forslagene og tastaturlayoutet. Hvilke sprog der er med, vælger du i indstillingerne.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Viser dine gemte adgangskoder. I adgangskodefelter vises de af sig selv, et klik skriver adgangskoden.
+Verweilklick	Dvæleklik
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Slår dvæleklik til eller fra: En tast udløses, når du bliver et øjeblik på den med musen.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Her tilpasser du alt: størrelse, farver, sprog, genveje og mere. Du finder også denne introduktion igen der.
+Einklappen	Fold sammen
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Folder tastaturet sammen til en lille rund knap. Et klik på den henter det tilbage.
+Tray-Symbol und Kürzel	Ikon i meddelelsesområdet og genveje
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Nederst til højre på proceslinjen sidder tastaturets ikon. Tasten Pause viser og skjuler tastaturet, ideelt til en tast på Quadstick.
+Fertig!	Færdig!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	God fornøjelse med at skrive. Alt andet står i vejledningen: "📖 Åbn vejledning" helt øverst i indstillingerne eller i ikonets menu. Tastaturet er gratis. Hvis det hjælper dig, bliver jeg glad for en donation.
+Überspringen	Spring over
+Zurück	Tilbage
+Fertig	Færdig
+Weiter	Næste
+tresor.dat hat ein unbekanntes Format.	tresor.dat har et ukendt format.
+Tresor ist gesperrt.	Boksen er låst.
+Passwort	Adgangskode
+Mindestens 4 Ziffern	Mindst 4 cifre
+PIN festlegen	Angiv pinkode
+Neue PIN eingeben (4 bis 12 Ziffern)	Indtast ny pinkode (4 til 12 cifre)
+PIN zur Sicherheit wiederholen	Gentag pinkoden for en sikkerheds skyld
+Die beiden PINs sind verschieden. Bitte nochmal.	De to pinkoder er forskellige. Prøv igen.
+Passwort-Eintrag	Adgangskodepost
+Name (so steht es in der Tresorleiste)	Navn (som det står i bokslinjen)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Brugernavn eller e-mail (kun som påmindelse, valgfrit)
+Benutzername oder E-Mail	Brugernavn eller e-mail
+Sicheres Passwort erzeugen	Lav en sikker adgangskode
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Passer til (nøgleord fra vinduets titel, f.eks. "gmail, google")
+Name und Passwort dürfen nicht leer sein.	Navn og adgangskode må ikke være tomme.
+Tresor konnte nicht gespeichert werden: 	Boksen kunne ikke gemmes: 
+" aus dem Tresor löschen?	": slet fra boksen?
+Gelernte Wörter	Lærte ord
+Zahlen	Tal
+E-Mail-Adressen	E-mailadresser
+Suchen:	Søg:
+Markierte löschen	Slet markerede
+Alles vergessen	Glem alt
+ E-Mail-Adressen gelernt, für alle Sprachen	 e-mailadresser lært, for alle sprog
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 tal lært (dato, telefonnumre, postnumre), for alle sprog
+ Wörter, 	 ord, 
+ Wortfolgen gelernt	 ordfølger lært
+   (die ersten 3000 angezeigt)	   (de første 3000 vist)
+Alle gelernten E-Mail-Adressen vergessen?	Glem alle lærte e-mailadresser?
+Alle gelernten Zahlen vergessen?	Glem alle lærte tal?
+Alles Gelernte für 	Glem alt lært for 
+ vergessen?	?
+Suche Dateien …	Søger filer …
+Datei 	Fil 
+ von 	 af 
+Deutsch	Tysk
+Englisch	Engelsk
+Niederländisch	Hollandsk
+Französisch	Fransk
+Dänisch	Dansk
+Polnisch	Polsk
+Tschechisch	Tjekkisk
+Italienisch	Italiensk
+Spanisch	Spansk
+Türkisch	Tyrkisk
+Russisch	Russisk
+Portugiesisch	Portugisisk
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det, tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et mundjoystick som Quadstick, en hovedmus eller med øjnene.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Husk og foreslå IBAN (kun gyldige med korrekt kontrolciffer)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Tal og IBAN foreslås allerede efter første gang. PIN, TAN og kortnumre læres aldrig.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Dit Windows-sprog ({0}) er desværre ikke indbygget endnu.
+IBAN merken und vorschlagen	Husk og foreslå IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Lær PIN-koder og kortnumre (krypteret)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Tal foreslås allerede efter første gang. Et IBAN kun, hvis kontrolcifret er korrekt. PIN-koder og kortnumre gemmes krypteret på denne pc og kommer kun med i en sikkerhedskopi med adgangskode.
+Leerzeichen nach . , ! ? : von selbst einfügen	Indsæt automatisk mellemrum efter . , ! ? :
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Tryk på ✕ igen for at lukke tastaturet
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Ved genvejen (f.eks. Pause) åbn der, hvor musen er
+Wo die Tastatur dann erscheint	Hvor tastaturet så vises
+unter der Maus, mittig	under musen, midt
+unter der Maus, nach rechts	under musen, mod højre
+unter der Maus, nach links	under musen, mod venstre
+über der Maus, mittig	over musen, midt
+über der Maus, nach rechts	over musen, mod højre
+über der Maus, nach links	over musen, mod venstre
+🔍 Suchen	🔍 Søg
+nichts gefunden	intet fundet
+✕ Suche beenden	✕ Afslut søgning
+Namen tippen, die Liste wird kleiner	Skriv et navn, listen bliver kortere

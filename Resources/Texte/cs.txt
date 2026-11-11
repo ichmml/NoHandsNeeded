@@ -1,0 +1,502 @@
+# Texte der Oberfläche (cs). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Hesla lze zálohovat jen zašifrovaná
+Das ist keine Sicherungsdatei der Tastatur.	Toto není záložní soubor klávesnice.
+Die Sicherungsdatei ist unvollständig.	Záložní soubor je neúplný.
+Daten exportieren	Exportovat data
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Zabal všechno do jednoho souboru, např. pro druhý počítač. Tam ho načti přes „Importovat“.
+Gelernte Wörter, Wortfolgen und Zahlen	Naučená slova, sledy slov a čísla
+Eigene Begriffe	Vlastní slova
+Makros	Makra
+Passwörter aus dem Tresor	Hesla z trezoru
+Passwort für die Sicherung	Heslo pro zálohu
+Anzeigen / verbergen	Zobrazit / skrýt
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	S hesly je soubor vždy zašifrovaný. Toto heslo budeš potřebovat při importu, zapiš si ho. Nejméně 8 znaků.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Bez hesel můžeš pole nechat prázdné. S heslem bude soubor zašifrovaný.
+Speichern unter …	Uložit jako …
+Bitte mindestens einen Haken setzen.	Zaškrtni prosím alespoň jedno pole.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Aby záloha obsahovala hesla, potřebuje heslo s nejméně 8 znaky.
+Abbrechen	Zrušit
+Daten importieren	Importovat data
+Sicherung vom 	Záloha z 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Záloha je zašifrovaná. Heslo zálohy:
+Öffnen	Otevřít
+Datei beschädigt: 	Soubor je poškozený: 
+Passwort falsch, nochmal versuchen.	Špatné heslo, zkus to znovu.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Co se má převzít? Stávající zůstane, nové se přidá.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Naučená slova ({0}), sledy slov ({1}), čísla ({2})
+Eigene Begriffe ({0})	Vlastní pojmy ({0})
+Makros ({0})	Makra ({0})
+Passwörter ({0})	Hesla ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	U stejných slov platí vyšší počet. Makro se stejným názvem se nahradí. U hesla se stejným názvem a uživatelem vyhraje to naposledy změněné nebo použité.
+Übernehmen	Použít
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Naučené e-mailové adresy: adresa<TAB>počet
+Makroleiste öffnen	Otevřít lištu maker
+unbekannte Taste	neznámá klávesa
+doppelt vergeben	přiřazeno dvakrát
+Taste gibt es im Tastaturlayout nicht	klávesa v rozložení klávesnice neexistuje
+schon von einem anderen Programm belegt (Fehler 1409)	už ji používá jiný program (chyba 1409)
+von Windows abgelehnt	odmítnuto systémem Windows
+Windows-Fehler 	Chyba Windows 
+Kürzel aufnehmen	Nahrát zkratku
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nTeď stiskni klávesu nebo kombinaci (např. na Quadsticku).
+Nochmal	Znovu
+Erkannt: 	Rozpoznáno: 
+Kürzel testen	Vyzkoušet zkratky
+Drück jetzt die Taste am Quadstick.\n	Teď stiskni klávesu na Quadsticku.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Když se dole objeví „Klávesa přijata“, Quadstick klávesu posílá.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Když se objeví i „Zkratka spuštěna“, vše funguje.\n\n
+Aktiv: 	Aktivní: 
+Schließen	Zavřít
+→ Kürzel ausgelöst: 	→ Zkratka spuštěna: 
+keine Kürzel eingetragen	žádné zkratky nejsou nastaveny
+Taste angekommen: 	Klávesa přijata: 
+  (von Software)	  (ze softwaru)
+neu	nové
+„{0}“ gemerkt	„{0}“ zapamatováno
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Zatím žádná makra: vytvoř přes ✎ nebo nahraj přes ●
+weiter  	další  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Přesun: pusť pro položení · Esc/pravé tlačítko ruší
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Přesun: drž myš v klidu nebo klikni pro položení · Esc/pravé tlačítko ruší
+Leertaste	Mezera
+■ Stopp	■ Stop
+✕ Zurück	✕ Zpět
+Verschieben abgebrochen	Přesun zrušen
+Position gespeichert	Pozice uložena
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Žádné známé slovo: klávesa působí na poslední slovo napsané touto klávesnicí
+Weitere Sprachen herunterladen	Stáhnout další jazyky
+Quelle:\n	Zdroj:\n
+\nEs wird nur geladen, was du hier anklickst.	\nStáhne se jen to, na co tady klikneš.
+Lade Übersicht …	Načítám přehled …
+Herunterladen	Stáhnout
+Erneut versuchen	Zkusit znovu
+Keine Sprachpakete gefunden.	Nenalezeny žádné jazykové balíčky.
+Sprache auswählen und "Herunterladen" klicken.	Vyber jazyk a klikni na „Stáhnout“.
+Lade 	Načítám: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 je nainstalovaný a zapnutý. Přepínej tlačítkem jazyka nahoře na klávesnici.
+  · hinzugefügt	  · přidáno
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Vlastní pojmy: jedno slovo na řádek, např. jména a odborné výrazy.
+Sie werden in allen Sprachen vorgeschlagen.	Nabízejí se ve všech jazycích.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Neplatný kód jazyka (např. fr.txt nebo hlavička „#sprache fr Francouzština“).
+Alle	Všechny
+   ✓ installiert	   ✓ nainstalováno
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Žádné připojení k internetu nebo server není dostupný. Klávesnice běží normálně dál.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Server neodpovídá (vypršel čas). Zkus to později.
+Download fehlgeschlagen: 	Stahování selhalo: 
+Tab ⇥	Tab ⇥
+Entf	Delete
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Insert
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Naučená slova klávesnice na obrazovce
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> slovo <TAB> počet   a   f <TAB> slovo <TAB> další slovo <TAB> počet
+Geht erst mit der installierten, signierten Version.	Funguje jen s nainstalovanou, podepsanou verzí.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Do té doby: na zamykací obrazovce klikni vpravo dole na ikonu usnadnění přístupu a použij klávesnici na obrazovce od Windows. Nebo nastav Windows Hello (obličej), pak PIN není potřeba.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Klávesnice se zobrazuje na zamykací obrazovce.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Připraveno. Přepínačem se klávesnice zobrazí i na zamykací obrazovce.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Klávesnice se teď zobrazuje na zamykací obrazovce.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Klávesnice se už nezobrazuje na zamykací obrazovce.
+Hat nicht geklappt: 	Nepovedlo se: 
+Tasten	Klávesy
+Warten	Čekat
+Text	Text
+keine	žádná
+blau	modrá
+grün	zelená
+rot	červená
+orange	oranžová
+lila	fialová
+gelb	žlutá
+grau	šedá
+Zeile 	Řádek 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Pro odsazení používej mezery místo tabulátoru.
+Unerwarteter Text, Einrückung prüfen.	Neočekávaný text, zkontroluj odsazení.
+Einrückung passt nicht.	Odsazení nesedí.
+Text nach dem schließenden ".	Text za uzavírací ".
+Hier wird ein Wert erwartet, keine Liste.	Zde se očekává hodnota, ne seznam.
+Unbekannte Taste "{0}".	Neznámá klávesa „{0}“.
+"{0}" muss eine Liste sein.	„{0}“ musí být seznam.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Neznámý krok „{0}“. Povoleno: text, keys, open, wait (nebo text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	„{0}“ nesmí být seznam.
+Unbekanntes Kürzel "{0}".	Neznámá zkratka „{0}“.
+Unbekannter Eintrag "{0}".	Neznámá položka „{0}“.
+Makro ohne "name".	Makro bez „name“.
+makros.yaml konnte nicht gelesen werden: 	makros.yaml nelze přečíst: 
+Programme	Programy
+Grüße	Pozdrav
+Viele Grüße	S pozdravem
+Datum	Datum
+Heute	Dnes
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday} {date}, {time}
+Alles kopieren	Kopírovat vše
+Desktop	Plocha
+Browser	Prohlížeč
+Neuer Tab	Nová karta
+Tab zu	Zavřít kartu
+Tab zurück	Obnovit kartu
+Editor	Editor
+Rechner	Kalkulačka
+Neue Mail	Nový e-mail
+Hallo {cursor},\n\nViele Grüße	Ahoj {cursor},\n\nS pozdravem
+Unbekannte Taste "{0}" in Makro "{1}"	Neznámá klávesa „{0}“ v makru „{1}“
+"{0}" ließ sich nicht öffnen: 	„{0}“ nelze otevřít: 
+Makros bearbeiten	Upravit makra
+Neu	Nové
+Bearbeiten	Upravit
+Kopieren	Kopírovat
+▲  Hoch	▲  Nahoru
+▼  Runter	▼  Dolů
+Löschen	Smazat
+Datei im Editor öffnen	Otevřít soubor v editoru
+Datei neu laden	Znovu načíst soubor
+Neues Makro	Nové makro
+ (Kopie)	 (kopie)
+Makro "	Smazat makro „
+" löschen?	“?
+Makro bearbeiten	Upravit makro
+Name (Beschriftung des Knopfs)	Název (popisek tlačítka)
+Gruppe (leer = keine)	Skupina (prázdné = žádná)
+Farbe	Barva
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Jen pro program (např. chrome nebo „chrome, msedge“, prázdné = všude)
+Kürzel für "	Zkratka pro „
+Kein Kürzel	Bez zkratky
+Schritte (werden der Reihe nach ausgeführt)	Kroky (provádějí se postupně)
++ Text	+ Text
++ Tasten	+ Klávesy
++ Öffnen	+ Otevřít
++ Warten	+ Čekat
+Taste aufnehmen	Nahrát klávesu
+Speichern	Uložit
+Globales Kürzel: 	Globální zkratka: 
+Noch keine Schritte. Unten einen hinzufügen.	Zatím žádné kroky. Přidej jeden níže.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Text: možné víc řádků. Zástupné znaky: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Klávesy odděl čárkou, např.  Strg+A, Strg+C, Enter   nebo  Alt+Tab   nebo  Win+D.  Názvy kláves (německy): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Program, soubor, složka nebo web, např.  notepad.exe   C:\Faktury   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pauza v milisekundách (1000 = 1 sekunda)
+Taste für den Schritt	Klávesa pro krok
+Bitte einen Namen eingeben.	Zadej název.
+"Warten" braucht eine Zahl in Millisekunden.	„Čekat“ potřebuje číslo v milisekundách.
+Name	Název
+Verwerfen	Zahodit
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Naučená čísla (data, telefonní čísla, PSČ): zápis<TAB>počet
+Taste 	Klávesa 
+Passwort-Tresor	Trezor hesel
+Kürzel nicht aktiv	Zkratka není aktivní
+Tastatur zeigen / verstecken	Zobrazit / skrýt klávesnici
+Lernen fortsetzen	Pokračovat v učení
+Lernen pausieren	Pozastavit učení
+Passwort-Tresor bearbeiten	Upravit trezor hesel
+Einstellungen	Nastavení
+Anleitung öffnen	Otevřít návod
+Einführung zeigen	Zobrazit úvod
+☕ Kaffee spendieren	☕ Pozvat na kávu
+Beenden	Ukončit
+Die Anleitung wurde nicht gefunden.	Návod nebyl nalezen.
+Anleitung	Návod
+Die Anleitung ließ sich nicht öffnen: 	Návod nelze otevřít: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Jazyk Windows je {0}, klávesnice je nastavená na {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Jazyk Windows je {0}. Můžeš ho zapnout v nastavení v části Jazyky.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Jazyk Windows ({0}) zatím není vestavěný. Možná je ke stažení.
+Sprache herunterladen	Stáhnout jazyk
+Sprache: 	Jazyk: 
+  (für 	  (pro 
+Tastatur ein-/ausblenden	Zobrazit/skrýt klávesnici
+Sprache wechseln	Změnit jazyk
+Makro 	Makro 
+Während der Aufnahme keine Makros	Během nahrávání žádná makra
+" gespeichert	“ uloženo
+Erst etwas tippen, dann + zum Speichern	Nejdřív něco napiš, pak + pro uložení
+Als Textbaustein speichern	Uložit jako textový blok
+Text: 	Text: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Nahrávání běží: prostě piš, pak ■ Stop
+Aufnahme verworfen	Nahrávka zahozena
+Nichts aufgenommen	Nic nenahráno
+Aufnahme 	Nahrávka 
+Aufnahme speichern	Uložit nahrávku
+Lernen pausiert	Učení pozastaveno
+Lernen läuft wieder	Učení zase běží
+ Wörter	 slov
+Bisher gelernt: 	Zatím naučeno: 
+, Zahlen: 	, čísla: 
+ Dateien gelesen, 	 souborů přečteno, 
+ Wörter in 	 slov v 
+ Sätzen gelernt	 větách naučeno
+, dazu 	, navíc 
+-mal Datum oder Telefonnummer.	 krát datum nebo telefonní číslo.
+ Dateien übersprungen.	 souborů přeskočeno.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nUkládá se jen, jak často se slova vyskytují, ne samotné texty. Řádky s heslem, PINem, IBANem a podobně se přeskakují.
+Aus meinen Texten lernen	Učit se z mých textů
+Der Tresor ist in den Einstellungen ausgeschaltet	Trezor je v nastavení vypnutý
+Im Tresor speichern?	Uložit do trezoru?
+⚿ Speichern	⚿ Uložit
+Nein	Ne
+Tresor nicht lesbar	Trezor nelze přečíst
+🔒 Tresor entsperren	🔒 Odemknout trezor
+Tresor ist noch leer	Trezor je zatím prázdný
++ Passwort hinzufügen	+ Přidat heslo
+🎲 Erzeugen und eintippen	🎲 Vytvořit a napsat
+✕ Ausblenden	✕ Skrýt
+Passwort "	Heslo „
+" eingetippt	“ napsáno
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Nové heslo napsáno. Ulož ho hned, jinak bude pryč!
+Passwort 	Heslo 
+Nicht gespeichert. "Speichern" geht noch kurz.	Neuloženo. „Uložit“ ještě chvíli funguje.
+Im Tresor gespeichert	Uloženo do trezoru
+Tresor entsperren	Odemknout trezor
+PIN eingeben	Zadej PIN
+PIN falsch, nochmal versuchen	Špatný PIN, zkus to znovu
+nicht lesbar	nelze přečíst
+gesperrt, PIN wird abgefragt	zamčeno, zeptá se na PIN
+{0} Wörter, {1} Zahlen	{0} slov, {1} čísel
+Sicherung speichern	Uložit zálohu
+Tastatur-Sicherung	Záloha klávesnice
+Gespeichert:\n	Uloženo:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nSoubor je zašifrovaný. Bez hesla zálohy ho nelze otevřít.
+Sicherung öffnen	Otevřít zálohu
+Alle Dateien	Všechny soubory
+{0} neue E-Mail-Adressen	{0} nových e-mailových adres
+{0} neue Wörter, {1} neue Zahlen	{0} nových slov, {1} nových čísel
+{0} neue eigene Begriffe	{0} nových vlastních pojmů
+{0} neue Makros, {1} ersetzt	{0} nových maker, {1} nahrazeno
+Passwörter übersprungen: 	Hesla přeskočena: 
+Passwörter übersprungen (Tresor gesperrt)	Hesla přeskočena (trezor zamčen)
+{0} neue Passwörter, {1} aktualisiert	{0} nových hesel, {1} aktualizováno
+Fertig.\n\n	Hotovo.\n\n
+mit PIN	s PINem
+ohne PIN	bez PINu
+Tresor gesperrt (	Trezor zamčen (
+ Passwörter gespeichert, 	 hesel uloženo, 
+Es ist keine PIN gesetzt.	Není nastaven žádný PIN.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN uložen. Dobře si ho zapamatuj: bez PINu se k heslům nikdo nedostane, ani ty.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN odstraněn. Trezor je dál šifrovaný tvým účtem Windows.
+Bildschirmtastatur: Einstellungen	Klávesnice na obrazovce: nastavení
+Version	Verze
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Klávesnice je zdarma. Pokud ti pomáhá, potěší mě příspěvek.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Podpoř mě příspěvkem (Ko-fi)
+📖 Anleitung öffnen	📖 Otevřít návod
+Aussehen	Vzhled
+Deckkraft Tastatur	Krytí klávesnice
+Deckkraft runder Knopf (eingeklappt)	Krytí kulatého tlačítka (sbaleno)
+Farbschema	Barevné schéma
+dunkel	tmavé
+hell	světlé
+Bedienung	Ovládání
+Verweilklick (Taste löst nach Verweilzeit aus)	Klik setrváním (klávesa se spustí po době setrvání)
+Verweilzeit	Doba setrvání
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Zobrazovat skutečná stisknutí (např. z Quadsticku, svítí červeně)
+Nachleuchten	Dosvit
+aus	vyp.
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Klávesnice si pro každé okno pamatuje rozepsané slovo. Když se vrátíš, prostě píšeš dál.
+Auch nach Klick ins Fenster weiterschreiben	Psát dál i po kliknutí do okna
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Vypnuto: pokračuje se jen při přepnutí přes hlavní panel, Alt+Tab nebo titulek okna. Kliknutí do textu může posunout kurzor.
+Wortvorschläge	Návrhy slov
+Zeilen	Řádky
+1 Zeile	1 řádek
+2 Zeilen	2 řádky
+Vorschläge pro Zeile	Návrhy na řádek
+Schriftgröße Vorschläge und Makros	Velikost písma návrhů a maker
+Satzanfang automatisch groß	Velké písmeno na začátku věty
+Leerzeichen nach Vorschlag einfügen	Vložit mezeru po návrhu
+Getipptes Wort oben links zeigen (rot)	Zobrazit psané slovo vlevo nahoře (červeně)
+Punkte mit 👁	Tečky s 👁
+immer nur Punkte	vždy jen tečky
+Passwörter beim Tippen	Hesla při psaní
+Klartext automatisch ausblenden nach	Prostý text automaticky skrýt po
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	V polích pro heslo jsou vidět jen tečky. 👁 na chvíli ukáže heslo v prostém textu; po tu dobu je klávesnice vyjmuta ze snímků obrazovky a sdílení obrazovky.
+Sprachen	Jazyky
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Zaškrtnuto = aktivní. Pořadí platí pro tlačítko jazyka nahoře na klávesnici.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Nabízet smíšený (např. DE+EN) při přepínání
+Sprache pro Programm merken	Pamatovat jazyk pro program
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Když v programu změníš jazyk, klávesnice si to zapamatuje a příště v tom programu přepne automaticky. Například Outlook anglicky, WhatsApp česky.
+passend zur Sprache	podle jazyka
+immer Deutsch (QWERTZ)	vždy německy (QWERTZ)
+immer Englisch (QWERTY)	vždy anglicky (QWERTY)
+Tastenlayout	Rozložení kláves
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Upravit vlastní slova (jména, odborné výrazy)
+Sonderzeichen unten	Speciální znaky dole
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Čtyři klávesy dole vedle abc/ABC. Jeden znak na pole, volitelně druhý pro Shift (např. „.:“). Prázdné = výchozí.
+Auf Standard zurücksetzen	Obnovit výchozí
+Lernen	Učení
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Klávesnice si pamatuje, jaká slova píšeš, jak je píšeš a které slovo často následuje po kterém. Vše zůstává na tomto počítači. V polích pro heslo se nikdy nic neučí.
+Aus meinem Schreiben lernen	Učit se z toho, co píšu
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Učit se i čísla (data, telefonní čísla, PSČ)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Učit se e-mailové adresy a nabízet je po 3 písmenech
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	V polích pro e-mail hned zobrazit e-mailové adresy
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Stejně jako nová slova se čísla navrhují až od druhého napsání. Jednorázové kódy, PINy, TANy a čísla karet se nikdy neučí.
+Neue Wörter vorschlagen ab	Navrhovat nová slova od
+1-mal geschrieben	napsáno 1×
+-mal geschrieben	× napsáno
+Aus meinen Texten lernen (Ordner wählen)	Učit se z mých textů (vybrat složku)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Složka s tvými texty (např. Obsidian, Dokumenty). Čtou se .txt .md .docx .html .eml .mbox, i v podsložkách.
+Aus einzelnen Dateien lernen	Učit se z jednotlivých souborů
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Texty|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Všechny soubory|*.*
+Gelernte Wörter ansehen und löschen	Zobrazit a smazat naučená slova
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Hesla se ukládají šifrovaně jen pro tvůj účet Windows na tomto počítači. Nikdy se neobjeví v běžných návrzích slov a píšou se přímo, nikdy přes schránku.
+Tresor benutzen	Používat trezor
+In Passwortfeldern automatisch zeigen	Automaticky zobrazit v polích pro heslo
+Nach dem Eintippen "Im Tresor speichern?" fragen	Po napsání se zeptat „Uložit do trezoru?“
+Länge neuer Passwörter	Délka nových hesel
+ Zeichen	 znaků
+Neue Passwörter mit Sonderzeichen	Nová hesla se speciálními znaky
+Tresor bearbeiten	Upravit trezor
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	S PINem je trezor po spuštění zamčený a po chvíli bez používání se znovu zamkne. PIN zadáváš velkými číselnými klávesami.
+PIN festlegen oder ändern	Nastavit nebo změnit PIN
+PIN entfernen	Odstranit PIN
+Mit PIN automatisch sperren nach	S PINem automaticky zamknout po
+nie	nikdy
+ Minuten	 minutách
+Sichern und auf anderen PC übertragen	Zálohovat a přenést na jiný počítač
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Zabal naučená slova, sledy slov, čísla, vlastní pojmy, makra a podle potřeby hesla do jednoho souboru. Na druhém počítači ho importuj a vše se spojí.
+Daten exportieren …	Exportovat data …
+Daten importieren …	Importovat data …
+Verschieben und Größe	Přesun a velikost
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Přesun: táhni klávesu přesunu vpravo dole, nebo zůstaň dlouho na nějaké klávese. Velikost: táhni za libovolný okraj nebo za levý dolní roh.
+Breite	Šířka
+ % des Bildschirms	 % obrazovky
+Höhe	Výška
+unten rechts	vpravo dole
+unten mittig	dole uprostřed
+unten links	vlevo dole
+Standardposition (für Zurücksetzen)	Výchozí pozice (pro obnovení)
+Größe und Position zurücksetzen	Obnovit velikost a pozici
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	Velikost je v procentech obrazovky. Když klávesnici přetáhneš na jinou obrazovku, přizpůsobí se tam.
+Verschieben durch langes Draufbleiben	Přesun dlouhým setrváním na klávese
+Maustaste gedrückt halten bis Verschieben	Držet tlačítko myši do přesunu
+Verweilen bis Verschieben	Setrvání do přesunu
+automatisch (doppelte Verweilzeit)	automaticky (dvojnásobná doba setrvání)
+Maus ruhig halten zum Absetzen	Držet myš v klidu pro položení
+Greifzone am Rand zum Größe ändern	Úchopová zóna na okraji pro změnu velikosti
+ Pixel	 pixelů
+Globale Kürzel	Globální zkratky
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Fungují i tehdy, když je aktivní jiný program. Ideální pro klávesu Quadsticku.
+Protokoll öffnen	Otevřít protokol
+Start	Start
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Zobrazit tlačítko na hlavním panelu (kliknutí otevře celou klávesnici)
+Mit Windows starten	Spouštět s Windows
+Eingeklappt starten	Spouštět sbaleně
+Sonstiges	Ostatní
+automatisch (wie Windows)	automaticky (jako Windows)
+Sprache der Oberfläche	Jazyk rozhraní
+Einführung nochmal zeigen	Zobrazit úvod znovu
+Sperrbildschirm	Zamykací obrazovka
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Zobrazit na zamykací obrazovce (pro zadání PINu)
+Datenordner öffnen	Otevřít složku s daty
+Tastatur beenden	Ukončit klávesnici
+Makro-Kürzel nicht aktiv: 	Zkratka makra není aktivní: 
+Entfernen	Odebrat
+Aus Datei hinzufügen	Přidat ze souboru
+Download-Quelle (nur https)	Zdroj stahování (jen https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Zadej adresu začínající https://.
+Download-Quelle	Zdroj stahování
+Standard wiederherstellen	Obnovit výchozí
+Mindestens eine Sprache muss aktiv sein.	Aspoň jeden jazyk musí být aktivní.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 je vestavěný a dá se jen vypnout (odškrtnout).
+ löschen?	: smazat?
+Sprachpaket	Jazykový balíček
+ wurde hinzugefügt und eingeschaltet.	 byl přidán a zapnut.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Takto vypadá přiřazení v tabulce Quadsticku. Ve žlutém sloupci vyber požadovaný vstup (např. mp_triple_puff) a pak nahraj konfiguraci do Quadsticku.
+ausgeschaltet	vypnuto
+✓ aktiv	✓ aktivní
+✗ nicht aktiv	✗ neaktivní
+Aufnehmen	Nahrát
+Aus Liste ▾	Ze seznamu ▾
+Aus	Vyp.
+Bildschirmtastatur öffnen	Otevřít klávesnici na obrazovce
+Willkommen!	Vítej!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Tato klávesnice na obrazovce píše do programu, ve kterém právě píšeš, a nikdy mu nebere fokus. Klikáním na „Další“ projdeš nejdůležitější místa.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Úplně vlevo je červeně, co právě píšeš. Vedle jsou vhodná slova, jedno kliknutí vloží slovo i s mezerou. Klávesnice se učí, která slova často píšeš. Nové slovo převezmeš kliknutím na červené slovo, klávesnice si ho hned zapamatuje.
+Groß/Klein-Taste	Klávesa velká/malá písmena
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	„abc ↑“ dá poslednímu slovu velké písmeno, „ABC ↓“ ho změní na malá. Jde to i dodatečně, po mezeře nebo tečce.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Drž ✥ a táhni klávesnici, kam chceš. Nebo zůstaň na libovolné klávese, dokud se oranžový kruh nezaplní: pak klávesnice visí na myši. Velikost měníš na každém okraji.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Jedno klepnutí platí pro další klávesu. Dvě klepnutí klávesu zamknou, tři ji zase vypnou.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Textové bloky, sekvence kláves a programy jedním kliknutím. Přes ● prostě nahraješ, co píšeš.
+Sprache	Jazyk
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Mění jazyk návrhů a rozložení kláves. Které jazyky jsou zapojené, nastavíš v nastavení.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Ukazuje tvoje uložená hesla. V polích pro heslo se objeví samy, jedno kliknutí heslo napíše.
+Verweilklick	Klik setrváním
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Zapíná nebo vypíná klik setrváním: klávesa se spustí, když na ní chvíli zůstaneš myší.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Tady nastavíš vše: velikost, barvy, jazyky, zkratky a další. Najdeš tam i tento úvod.
+Einklappen	Sbalit
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Sbalí klávesnici do malého kulatého tlačítka. Kliknutím na něj se vrátí.
+Tray-Symbol und Kürzel	Ikona v oznamovací oblasti a zkratky
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Vpravo dole na hlavním panelu je ikona klávesnice. Klávesa Pause zobrazuje a skrývá klávesnici, ideální pro klávesu na Quadsticku.
+Fertig!	Hotovo!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Ať se ti dobře píše. Vše ostatní je v návodu: „📖 Otevřít návod“ úplně nahoře v nastavení nebo v menu ikony. Klávesnice je zdarma. Pokud ti pomáhá, potěší mě příspěvek.
+Überspringen	Přeskočit
+Zurück	Zpět
+Fertig	Hotovo
+Weiter	Další
+tresor.dat hat ein unbekanntes Format.	tresor.dat má neznámý formát.
+Tresor ist gesperrt.	Trezor je zamčený.
+Passwort	Heslo
+Mindestens 4 Ziffern	Aspoň 4 číslice
+PIN festlegen	Nastavit PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Zadej nový PIN (4 až 12 číslic)
+PIN zur Sicherheit wiederholen	Pro jistotu zopakuj PIN
+Die beiden PINs sind verschieden. Bitte nochmal.	Oba PINy jsou různé. Zkus to znovu.
+Passwort-Eintrag	Položka hesla
+Name (so steht es in der Tresorleiste)	Název (jak je v liště trezoru)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Uživatelské jméno nebo e-mail (jen pro připomenutí, volitelné)
+Benutzername oder E-Mail	Uživatelské jméno nebo e-mail
+Sicheres Passwort erzeugen	Vytvořit bezpečné heslo
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Odpovídá (klíčová slova z titulku okna, např. „gmail, google“)
+Name und Passwort dürfen nicht leer sein.	Název a heslo nesmí být prázdné.
+Tresor konnte nicht gespeichert werden: 	Trezor nešlo uložit: 
+" aus dem Tresor löschen?	“: smazat z trezoru?
+Gelernte Wörter	Naučená slova
+Zahlen	Čísla
+E-Mail-Adressen	E-mailové adresy
+Suchen:	Hledat:
+Markierte löschen	Smazat označené
+Alles vergessen	Zapomenout vše
+ E-Mail-Adressen gelernt, für alle Sprachen	 naučených e-mailových adres, pro všechny jazyky
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 čísel naučeno (data, telefonní čísla, PSČ), pro všechny jazyky
+ Wörter, 	 slov, 
+ Wortfolgen gelernt	 slovních sledů naučeno
+   (die ersten 3000 angezeigt)	   (zobrazeno prvních 3000)
+Alle gelernten E-Mail-Adressen vergessen?	Zapomenout všechny naučené e-mailové adresy?
+Alle gelernten Zahlen vergessen?	Zapomenout všechna naučená čísla?
+Alles Gelernte für 	Zapomenout vše naučené pro 
+ vergessen?	?
+Suche Dateien …	Hledám soubory …
+Datei 	Soubor 
+ von 	 z 
+Deutsch	Němčina
+Englisch	Angličtina
+Niederländisch	Nizozemština
+Französisch	Francouzština
+Dänisch	Dánština
+Polnisch	Polština
+Tschechisch	Čeština
+Italienisch	Italština
+Spanisch	Španělština
+Türkisch	Turečtina
+Russisch	Ruština
+Portugiesisch	Portugalština
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním joystickem jako Quadstick, hlavovou myší nebo očima.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Pamatovat si a nabízet IBAN (jen platné se správnou kontrolní číslicí)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Čísla a IBAN se nabízejí už po prvním zadání. PIN, TAN a čísla karet se nikdy neučí.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Tvůj jazyk Windows ({0}) bohužel ještě není zabudovaný.
+IBAN merken und vorschlagen	Pamatovat si a nabízet IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Učit se PIN a čísla karet (šifrovaně)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Čísla se nabízejí už po prvním zadání. IBAN jen tehdy, když sedí kontrolní číslice. PIN a čísla karet jsou na tomto počítači uložená šifrovaně a do zálohy se dostanou jen s heslem.
+Leerzeichen nach . , ! ? : von selbst einfügen	Za . , ! ? : vložit mezeru automaticky
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Klepni na ✕ ještě jednou a klávesnice se zavře
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Při zkratce (např. Pause) otevřít tam, kde je myš
+Wo die Tastatur dann erscheint	Kde se klávesnice pak objeví
+unter der Maus, mittig	pod myší, uprostřed
+unter der Maus, nach rechts	pod myší, doprava
+unter der Maus, nach links	pod myší, doleva
+über der Maus, mittig	nad myší, uprostřed
+über der Maus, nach rechts	nad myší, doprava
+über der Maus, nach links	nad myší, doleva
+🔍 Suchen	🔍 Hledat
+nichts gefunden	nic nenalezeno
+✕ Suche beenden	✕ Ukončit hledání
+Namen tippen, die Liste wird kleiner	Napiš název, seznam se zkrátí

@@ -1,0 +1,502 @@
+# Texte der Oberfläche (tr). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Parolalar yalnızca şifreli olarak yedeklenebilir
+Das ist keine Sicherungsdatei der Tastatur.	Bu, klavyenin yedek dosyası değil.
+Die Sicherungsdatei ist unvollständig.	Yedek dosyası eksik.
+Daten exportieren	Verileri dışa aktar
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Her şeyi tek bir dosyaya koy, örneğin ikinci bilgisayarın için. Orada "İçe aktar" ile tekrar oku.
+Gelernte Wörter, Wortfolgen und Zahlen	Öğrenilen kelimeler, kelime dizileri ve sayılar
+Eigene Begriffe	Kendi kelimelerim
+Makros	Makrolar
+Passwörter aus dem Tresor	Kasadaki parolalar
+Passwort für die Sicherung	Yedek için parola
+Anzeigen / verbergen	Göster / gizle
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Parolalarla birlikte dosya her zaman şifrelenir. İçe aktarırken bu parolaya ihtiyacın olacak, bir yere yaz. En az 8 karakter.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Parolalar olmadan alanı boş bırakabilirsin. Parolayla dosya şifrelenir.
+Speichern unter …	Farklı kaydet …
+Bitte mindestens einen Haken setzen.	Lütfen en az bir kutuyu işaretle.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Parolaları eklemek için yedeğin en az 8 karakterlik bir parolası olmalı.
+Abbrechen	İptal
+Daten importieren	Verileri içe aktar
+Sicherung vom 	Yedek tarihi: 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Yedek şifreli. Yedeğin parolası:
+Öffnen	Aç
+Datei beschädigt: 	Dosya bozuk: 
+Passwort falsch, nochmal versuchen.	Parola yanlış, tekrar dene.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Ne alınsın? Mevcut olan kalır, yeni olan eklenir.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Öğrenilen kelimeler ({0}), kelime dizileri ({1}), sayılar ({2})
+Eigene Begriffe ({0})	Kendi terimlerin ({0})
+Makros ({0})	Makrolar ({0})
+Passwörter ({0})	Parolalar ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Aynı kelimelerde yüksek sayaç geçerlidir. Aynı adlı makro değiştirilir. Aynı ad ve kullanıcıya sahip bir parolada en son değiştirilen veya kullanılan kazanır.
+Übernehmen	Uygula
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Öğrenilen e-posta adresleri: adres<TAB>sayı
+Makroleiste öffnen	Makro çubuğunu aç
+unbekannte Taste	bilinmeyen tuş
+doppelt vergeben	iki kez atanmış
+Taste gibt es im Tastaturlayout nicht	bu tuş klavye düzeninde yok
+schon von einem anderen Programm belegt (Fehler 1409)	başka bir program tarafından kullanılıyor (hata 1409)
+von Windows abgelehnt	Windows tarafından reddedildi
+Windows-Fehler 	Windows hatası 
+Kürzel aufnehmen	Kısayol kaydet
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nŞimdi tuşa veya tuş kombinasyonuna bas (ör. Quadstick üzerinde).
+Nochmal	Tekrar
+Erkannt: 	Algılandı: 
+Kürzel testen	Kısayolları test et
+Drück jetzt die Taste am Quadstick.\n	Şimdi Quadstick üzerindeki tuşa bas.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Aşağıda "Tuş alındı" görünürse Quadstick tuşu gönderiyor.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Ayrıca "Kısayol tetiklendi" görünürse her şey çalışıyor.\n\n
+Aktiv: 	Etkin: 
+Schließen	Kapat
+→ Kürzel ausgelöst: 	→ Kısayol tetiklendi: 
+keine Kürzel eingetragen	ayarlanmış kısayol yok
+Taste angekommen: 	Tuş alındı: 
+  (von Software)	  (yazılımdan)
+neu	yeni
+„{0}“ gemerkt	"{0}" hatırlandı
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Henüz makro yok: ✎ ile oluştur veya ● ile kaydet
+weiter  	devamı  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Taşı: bırakmak için bırak · Esc/sağ tık iptal eder
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Taşı: bırakmak için fareyi sabit tut veya tıkla · Esc/sağ tık iptal eder
+Leertaste	Boşluk
+■ Stopp	■ Durdur
+✕ Zurück	✕ Geri
+Verschieben abgebrochen	Taşıma iptal edildi
+Position gespeichert	Konum kaydedildi
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Bilinen kelime yok: bu tuş bu klavyeyle yazılan son kelimeye etki eder
+Weitere Sprachen herunterladen	Daha fazla dil indir
+Quelle:\n	Kaynak:\n
+\nEs wird nur geladen, was du hier anklickst.	\nSadece burada tıkladığın şey indirilir.
+Lade Übersicht …	Liste yükleniyor …
+Herunterladen	İndir
+Erneut versuchen	Tekrar dene
+Keine Sprachpakete gefunden.	Dil paketi bulunamadı.
+Sprache auswählen und "Herunterladen" klicken.	Bir dil seç ve "İndir"e tıkla.
+Lade 	Yükleniyor: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 yüklendi ve açıldı. Klavyenin üstündeki dil düğmesiyle geçiş yap.
+  · hinzugefügt	  · eklendi
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Kendi terimlerin: her satıra bir kelime, ör. isimler ve teknik terimler.
+Sie werden in allen Sprachen vorgeschlagen.	Tüm dillerde önerilirler.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Geçerli bir dil kodu değil (ör. fr.txt veya başlık satırı "#sprache fr Fransızca").
+Alle	Tümü
+   ✓ installiert	   ✓ yüklü
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	İnternet bağlantısı yok veya sunucuya ulaşılamıyor. Klavye normal çalışmaya devam ediyor.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Sunucu yanıt vermiyor (zaman aşımı). Daha sonra tekrar dene.
+Download fehlgeschlagen: 	İndirme başarısız: 
+Tab ⇥	Tab ⇥
+Entf	Del
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Ins
+Menü	Menü
+Gelernte Wörter der Bildschirmtastatur	Ekran klavyesinin öğrendiği kelimeler
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> kelime <TAB> sayı   ve   f <TAB> kelime <TAB> sonraki kelime <TAB> sayı
+Geht erst mit der installierten, signierten Version.	Sadece kurulu ve imzalı sürümle çalışır.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	O zamana kadar: kilit ekranında sağ alttaki erişilebilirlik simgesine tıkla ve Windows ekran klavyesini kullan. Ya da Windows Hello'yu (yüz) kur, o zaman PIN gerekmez.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Klavye kilit ekranında görünüyor.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Hazır. Anahtarla klavye kilit ekranında da görünür.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Klavye artık kilit ekranında görünüyor.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Klavye artık kilit ekranında görünmüyor.
+Hat nicht geklappt: 	Olmadı: 
+Tasten	Tuşlar
+Warten	Bekle
+Text	Metin
+keine	yok
+blau	mavi
+grün	yeşil
+rot	kırmızı
+orange	turuncu
+lila	mor
+gelb	sarı
+grau	gri
+Zeile 	Satır 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Girinti için sekme yerine boşluk kullan.
+Unerwarteter Text, Einrückung prüfen.	Beklenmeyen metin, girintiyi kontrol et.
+Einrückung passt nicht.	Girinti uymuyor.
+Text nach dem schließenden ".	Kapanış " işaretinden sonra metin var.
+Hier wird ein Wert erwartet, keine Liste.	Burada liste değil, bir değer bekleniyor.
+Unbekannte Taste "{0}".	Bilinmeyen tuş "{0}".
+"{0}" muss eine Liste sein.	"{0}" bir liste olmalı.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Bilinmeyen adım "{0}". İzin verilenler: text, keys, open, wait (veya text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	"{0}" liste olamaz.
+Unbekanntes Kürzel "{0}".	Bilinmeyen kısayol "{0}".
+Unbekannter Eintrag "{0}".	Bilinmeyen giriş "{0}".
+Makro ohne "name".	"name" olmayan makro.
+makros.yaml konnte nicht gelesen werden: 	makros.yaml okunamadı: 
+Programme	Programlar
+Grüße	Selam
+Viele Grüße	Saygılarımla
+Datum	Tarih
+Heute	Bugün
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday}, {date}, {time}
+Alles kopieren	Tümünü kopyala
+Desktop	Masaüstü
+Browser	Tarayıcı
+Neuer Tab	Yeni sekme
+Tab zu	Sekmeyi kapat
+Tab zurück	Sekmeyi geri aç
+Editor	Düzenleyici
+Rechner	Hesap makinesi
+Neue Mail	Yeni e-posta
+Hallo {cursor},\n\nViele Grüße	Merhaba {cursor},\n\nSaygılarımla
+Unbekannte Taste "{0}" in Makro "{1}"	"{1}" makrosunda bilinmeyen tuş "{0}"
+"{0}" ließ sich nicht öffnen: 	"{0}" açılamadı: 
+Makros bearbeiten	Makroları düzenle
+Neu	Yeni
+Bearbeiten	Düzenle
+Kopieren	Kopyala
+▲  Hoch	▲  Yukarı
+▼  Runter	▼  Aşağı
+Löschen	Sil
+Datei im Editor öffnen	Dosyayı düzenleyicide aç
+Datei neu laden	Dosyayı yeniden yükle
+Neues Makro	Yeni makro
+ (Kopie)	 (kopya)
+Makro "	"
+" löschen?	" makrosu silinsin mi?
+Makro bearbeiten	Makroyu düzenle
+Name (Beschriftung des Knopfs)	Ad (düğme yazısı)
+Gruppe (leer = keine)	Grup (boş = yok)
+Farbe	Renk
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Sadece bu program için (ör. chrome veya "chrome, msedge", boş = her yerde)
+Kürzel für "	Kısayol: "
+Kein Kürzel	Kısayol yok
+Schritte (werden der Reihe nach ausgeführt)	Adımlar (sırayla çalıştırılır)
++ Text	+ Metin
++ Tasten	+ Tuşlar
++ Öffnen	+ Aç
++ Warten	+ Bekle
+Taste aufnehmen	Tuş kaydet
+Speichern	Kaydet
+Globales Kürzel: 	Genel kısayol: 
+Noch keine Schritte. Unten einen hinzufügen.	Henüz adım yok. Aşağıdan bir tane ekle.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Metin: birden fazla satır olabilir. Yer tutucular: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Tuşları virgülle ayır, ör.  Strg+A, Strg+C, Enter   veya  Alt+Tab   veya  Win+D.  Tuş adları (Almanca): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Program, dosya, klasör veya web sitesi, ör.  notepad.exe   C:\Faturalar   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Milisaniye cinsinden bekleme (1000 = 1 saniye)
+Taste für den Schritt	Adım için tuş
+Bitte einen Namen eingeben.	Lütfen bir ad gir.
+"Warten" braucht eine Zahl in Millisekunden.	"Bekle" milisaniye cinsinden bir sayı gerektirir.
+Name	Ad
+Verwerfen	Vazgeç
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Öğrenilen sayılar (tarihler, telefon numaraları, posta kodları): yazılış<TAB>sayı
+Taste 	Tuş 
+Passwort-Tresor	Parola kasası
+Kürzel nicht aktiv	Kısayol etkin değil
+Tastatur zeigen / verstecken	Klavyeyi göster / gizle
+Lernen fortsetzen	Öğrenmeye devam et
+Lernen pausieren	Öğrenmeyi duraklat
+Passwort-Tresor bearbeiten	Parola kasasını düzenle
+Einstellungen	Ayarlar
+Anleitung öffnen	Kılavuzu aç
+Einführung zeigen	Tanıtımı göster
+☕ Kaffee spendieren	☕ Bir kahve ısmarla
+Beenden	Çıkış
+Die Anleitung wurde nicht gefunden.	Kılavuz bulunamadı.
+Anleitung	Kılavuz
+Die Anleitung ließ sich nicht öffnen: 	Kılavuz açılamadı: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Windows dilin {0}, klavye {0} olarak ayarlandı.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Windows dilin {0}. Ayarlarda Diller bölümünden açabilirsin.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Windows dilin ({0}) henüz yerleşik değil. Belki indirilebilir.
+Sprache herunterladen	Dili indir
+Sprache: 	Dil: 
+  (für 	  (şunun için: 
+Tastatur ein-/ausblenden	Klavyeyi göster/gizle
+Sprache wechseln	Dili değiştir
+Makro 	Makro 
+Während der Aufnahme keine Makros	Kayıt sırasında makro yok
+" gespeichert	" kaydedildi
+Erst etwas tippen, dann + zum Speichern	Önce bir şey yaz, sonra kaydetmek için +
+Als Textbaustein speichern	Metin bloğu olarak kaydet
+Text: 	Metin: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Kayıt sürüyor: normal yaz, sonra ■ Durdur
+Aufnahme verworfen	Kayıt atıldı
+Nichts aufgenommen	Hiçbir şey kaydedilmedi
+Aufnahme 	Kayıt 
+Aufnahme speichern	Kaydı kaydet
+Lernen pausiert	Öğrenme duraklatıldı
+Lernen läuft wieder	Öğrenme yeniden çalışıyor
+ Wörter	 kelime
+Bisher gelernt: 	Şimdiye kadar öğrenilen: 
+, Zahlen: 	, sayılar: 
+ Dateien gelesen, 	 dosya okundu, 
+ Wörter in 	 kelime, 
+ Sätzen gelernt	 cümlede öğrenildi
+, dazu 	, ayrıca 
+-mal Datum oder Telefonnummer.	 kez tarih veya telefon numarası.
+ Dateien übersprungen.	 dosya atlandı.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nSadece kelimelerin ne sıklıkla geçtiği kaydedilir, metinlerin kendisi değil. Parola, PIN, IBAN ve benzerlerini içeren satırlar atlanır.
+Aus meinen Texten lernen	Metinlerimden öğren
+Der Tresor ist in den Einstellungen ausgeschaltet	Kasa ayarlarda kapalı
+Im Tresor speichern?	Kasaya kaydedilsin mi?
+⚿ Speichern	⚿ Kaydet
+Nein	Hayır
+Tresor nicht lesbar	Kasa okunamıyor
+🔒 Tresor entsperren	🔒 Kasanın kilidini aç
+Tresor ist noch leer	Kasa henüz boş
++ Passwort hinzufügen	+ Parola ekle
+🎲 Erzeugen und eintippen	🎲 Oluştur ve yaz
+✕ Ausblenden	✕ Gizle
+Passwort "	Parola "
+" eingetippt	" yazıldı
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Yeni parola yazıldı. Şimdi kaydet, yoksa kaybolur!
+Passwort 	Parola 
+Nicht gespeichert. "Speichern" geht noch kurz.	Kaydedilmedi. "Kaydet" bir süre daha çalışır.
+Im Tresor gespeichert	Kasaya kaydedildi
+Tresor entsperren	Kasanın kilidini aç
+PIN eingeben	PIN gir
+PIN falsch, nochmal versuchen	Yanlış PIN, tekrar dene
+nicht lesbar	okunamıyor
+gesperrt, PIN wird abgefragt	kilitli, PIN sorulacak
+{0} Wörter, {1} Zahlen	{0} kelime, {1} sayı
+Sicherung speichern	Yedeği kaydet
+Tastatur-Sicherung	Klavye yedeği
+Gespeichert:\n	Kaydedildi:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nDosya şifreli. Yedek parolası olmadan açılamaz.
+Sicherung öffnen	Yedeği aç
+Alle Dateien	Tüm dosyalar
+{0} neue E-Mail-Adressen	{0} yeni e-posta adresi
+{0} neue Wörter, {1} neue Zahlen	{0} yeni kelime, {1} yeni sayı
+{0} neue eigene Begriffe	{0} yeni kendi terimi
+{0} neue Makros, {1} ersetzt	{0} yeni makro, {1} değiştirildi
+Passwörter übersprungen: 	Parolalar atlandı: 
+Passwörter übersprungen (Tresor gesperrt)	Parolalar atlandı (kasa kilitli)
+{0} neue Passwörter, {1} aktualisiert	{0} yeni parola, {1} güncellendi
+Fertig.\n\n	Bitti.\n\n
+mit PIN	PIN ile
+ohne PIN	PIN olmadan
+Tresor gesperrt (	Kasa kilitli (
+ Passwörter gespeichert, 	 parola kayıtlı, 
+Es ist keine PIN gesetzt.	PIN ayarlanmamış.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN kaydedildi. İyi hatırla: PIN olmadan kimse parolalara ulaşamaz, sen de.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN kaldırıldı. Kasa Windows hesabınla şifreli kalmaya devam ediyor.
+Bildschirmtastatur: Einstellungen	Ekran klavyesi: ayarlar
+Version	Sürüm
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Klavye ücretsiz. İşine yarıyorsa bir bağışa sevinirim.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Beni bir bağışla destekle (Ko-fi)
+📖 Anleitung öffnen	📖 Kılavuzu aç
+Aussehen	Görünüm
+Deckkraft Tastatur	Klavye opaklığı
+Deckkraft runder Knopf (eingeklappt)	Yuvarlak düğme opaklığı (katlanmış)
+Farbschema	Renk şeması
+dunkel	koyu
+hell	açık
+Bedienung	Kullanım
+Verweilklick (Taste löst nach Verweilzeit aus)	Bekleme tıklaması (tuş bekleme süresinden sonra tetiklenir)
+Verweilzeit	Bekleme süresi
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Gerçek tuş basımlarını göster (ör. Quadstick'ten, kırmızı yanar)
+Nachleuchten	Ardıl ışıma
+aus	kapalı
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Klavye her pencere için yarım kalan kelimeyi hatırlar. Geri döndüğünde yazmaya devam edersin.
+Auch nach Klick ins Fenster weiterschreiben	Pencereye tıkladıktan sonra da yazmaya devam et
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Kapalı: sadece görev çubuğu, Alt+Tab veya başlık çubuğu ile geçişte devam eder. Metne tıklamak imleci kaydırabilir.
+Wortvorschläge	Kelime önerileri
+Zeilen	Satırlar
+1 Zeile	1 satır
+2 Zeilen	2 satır
+Vorschläge pro Zeile	Satır başına öneri
+Schriftgröße Vorschläge und Makros	Öneri ve makro yazı boyutu
+Satzanfang automatisch groß	Cümle başını otomatik büyük harf yap
+Leerzeichen nach Vorschlag einfügen	Öneriden sonra boşluk ekle
+Getipptes Wort oben links zeigen (rot)	Yazılan kelimeyi sol üstte göster (kırmızı)
+Punkte mit 👁	👁 ile noktalar
+immer nur Punkte	her zaman sadece noktalar
+Passwörter beim Tippen	Yazarken parolalar
+Klartext automatisch ausblenden nach	Açık metni otomatik gizle:
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Parola alanlarında sadece noktalar görünür. 👁 parolayı kısa bir süre açık metin olarak gösterir; bu sırada klavye ekran görüntülerinden ve ekran paylaşımından hariç tutulur.
+Sprachen	Diller
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	İşaretli = etkin. Sıralama, klavyenin üstündeki dil düğmesi için geçerlidir.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Geçişte karışık (ör. DE+EN) sun
+Sprache pro Programm merken	Dili program başına hatırla
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Bir programda dili değiştirirsen klavye bunu hatırlar ve bir dahaki sefere o programda otomatik geçiş yapar. Örneğin Outlook İngilizce, WhatsApp Türkçe.
+passend zur Sprache	dile göre
+immer Deutsch (QWERTZ)	her zaman Almanca (QWERTZ)
+immer Englisch (QWERTY)	her zaman İngilizce (QWERTY)
+Tastenlayout	Tuş düzeni
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Kendi kelimelerimi düzenle (adlar, terimler)
+Sonderzeichen unten	Alttaki özel karakterler
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Alttaki abc/ABC yanındaki dört tuş. Her alana bir karakter, isteğe bağlı olarak Shift için ikinci bir karakter (ör. ".:"). Boş = varsayılan.
+Auf Standard zurücksetzen	Varsayılana sıfırla
+Lernen	Öğrenme
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Klavye hangi kelimeleri yazdığını, nasıl yazdığını ve hangi kelimenin sık sık hangisini izlediğini hatırlar. Her şey bu bilgisayarda kalır. Parola alanlarında asla bir şey öğrenilmez.
+Aus meinem Schreiben lernen	Yazdıklarımdan öğren
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Sayıları da öğren (tarih, telefon numaraları, posta kodları)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	E-posta adreslerini öğren ve 3 harften sonra öner
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	E-posta alanlarında adresleri hemen göster
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Yeni kelimeler gibi sayılar da ancak ikinci seferden itibaren önerilir. Tek kullanımlık kodlar, PIN'ler, TAN'lar ve kart numaraları asla öğrenilmez.
+Neue Wörter vorschlagen ab	Yeni kelimeleri öner:
+1-mal geschrieben	1 kez yazınca
+-mal geschrieben	 kez yazınca
+Aus meinen Texten lernen (Ordner wählen)	Metinlerimden öğren (klasör seç)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Metinlerinin olduğu klasör (ör. Obsidian, Belgeler). Alt klasörler dahil .txt .md .docx .html .eml .mbox okunur.
+Aus einzelnen Dateien lernen	Tek tek dosyalardan öğren
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Metinler|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Tüm dosyalar|*.*
+Gelernte Wörter ansehen und löschen	Öğrenilen kelimeleri gör ve sil
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Parolalar yalnızca bu bilgisayardaki Windows hesabın için şifreli saklanır. Normal kelime önerilerinde asla görünmez ve doğrudan yazılır, asla pano üzerinden değil.
+Tresor benutzen	Kasayı kullan
+In Passwortfeldern automatisch zeigen	Parola alanlarında otomatik göster
+Nach dem Eintippen "Im Tresor speichern?" fragen	Yazdıktan sonra "Kasaya kaydedilsin mi?" diye sor
+Länge neuer Passwörter	Yeni parolaların uzunluğu
+ Zeichen	 karakter
+Neue Passwörter mit Sonderzeichen	Yeni parolalar özel karakterli
+Tresor bearbeiten	Kasayı düzenle
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	PIN ile kasa açılıştan sonra kilitlidir ve bir süre kullanılmazsa yeniden kilitlenir. PIN'i büyük rakam tuşlarıyla girersin.
+PIN festlegen oder ändern	PIN ayarla veya değiştir
+PIN entfernen	PIN'i kaldır
+Mit PIN automatisch sperren nach	PIN ile otomatik kilitle:
+nie	asla
+ Minuten	 dakika sonra
+Sichern und auf anderen PC übertragen	Yedekle ve başka bilgisayara aktar
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Öğrenilen kelimeleri, kelime dizilerini, sayıları, kendi terimlerini, makroları ve istersen parolaları tek bir dosyaya koy. Diğer bilgisayarda içe aktar, her şey birleştirilir.
+Daten exportieren …	Verileri dışa aktar …
+Daten importieren …	Verileri içe aktar …
+Verschieben und Größe	Taşıma ve boyut
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Taşı: sağ alttaki taşıma tuşunu sürükle veya bir tuşun üzerinde uzun süre kal. Boyut: herhangi bir kenarı veya sol alt köşeyi sürükle.
+Breite	Genişlik
+ % des Bildschirms	 % ekran
+Höhe	Yükseklik
+unten rechts	sağ alt
+unten mittig	alt orta
+unten links	sol alt
+Standardposition (für Zurücksetzen)	Varsayılan konum (sıfırlama için)
+Größe und Position zurücksetzen	Boyutu ve konumu sıfırla
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	Boyut ekranın yüzdesi olarak geçerlidir. Klavyeyi başka bir ekrana sürüklersen oraya uyum sağlar.
+Verschieben durch langes Draufbleiben	Bir tuşta uzun kalarak taşı
+Maustaste gedrückt halten bis Verschieben	Taşımaya kadar fare düğmesini basılı tut
+Verweilen bis Verschieben	Taşımaya kadar bekle
+automatisch (doppelte Verweilzeit)	otomatik (iki kat bekleme süresi)
+Maus ruhig halten zum Absetzen	Bırakmak için fareyi sabit tut
+Greifzone am Rand zum Größe ändern	Boyut değiştirmek için kenardaki tutma alanı
+ Pixel	 piksel
+Globale Kürzel	Genel kısayollar
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Başka bir program etkinken de çalışır. Quadstick tuşu için ideal.
+Protokoll öffnen	Günlüğü aç
+Start	Başlangıç
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Görev çubuğunda düğme göster (tıklama klavyeyi tamamen açar)
+Mit Windows starten	Windows ile başlat
+Eingeklappt starten	Katlanmış başlat
+Sonstiges	Diğer
+automatisch (wie Windows)	otomatik (Windows gibi)
+Sprache der Oberfläche	Arayüz dili
+Einführung nochmal zeigen	Tanıtımı yeniden göster
+Sperrbildschirm	Kilit ekranı
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Kilit ekranında göster (PIN girmek için)
+Datenordner öffnen	Veri klasörünü aç
+Tastatur beenden	Klavyeyi kapat
+Makro-Kürzel nicht aktiv: 	Makro kısayolu etkin değil: 
+Entfernen	Kaldır
+Aus Datei hinzufügen	Dosyadan ekle
+Download-Quelle (nur https)	İndirme kaynağı (sadece https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	https:// ile başlayan bir adres gir.
+Download-Quelle	İndirme kaynağı
+Standard wiederherstellen	Varsayılanı geri yükle
+Mindestens eine Sprache muss aktiv sein.	En az bir dil etkin olmalı.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 yerleşiktir ve sadece kapatılabilir (işareti kaldır).
+ löschen?	: silinsin mi?
+Sprachpaket	Dil paketi
+ wurde hinzugefügt und eingeschaltet.	 eklendi ve açıldı.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Quadstick tablosunda atama böyle görünür. Sarı sütunda istediğin girişi seç (ör. mp_triple_puff), sonra yapılandırmayı Quadstick'e yükle.
+ausgeschaltet	kapatıldı
+✓ aktiv	✓ etkin
+✗ nicht aktiv	✗ etkin değil
+Aufnehmen	Kaydet
+Aus Liste ▾	Listeden ▾
+Aus	Kapalı
+Bildschirmtastatur öffnen	Ekran klavyesini aç
+Willkommen!	Hoş geldin!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Bu ekran klavyesi, o an yazdığın programa yazar ve odağı ondan asla almaz. En önemli yerleri görmek için "İleri"ye tıkla.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	En solda kırmızıyla o an yazdığını görürsün. Yanında uygun kelimeler var, bir tık kelimeyi boşlukla birlikte ekler. Klavye sık yazdığın kelimeleri öğrenir. Yeni bir kelimeyi kırmızı kelimeye tıklayarak alırsın, klavye onu hemen hatırlar.
+Groß/Klein-Taste	Büyük/küçük harf tuşu
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	"abc ↑" son kelimenin ilk harfini büyütür, "ABC ↓" küçültür. Bu sonradan da olur, boşluk veya noktadan sonra.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	✥ tuşunu basılı tut ve klavyeyi istediğin yere sürükle. Ya da turuncu halka dolana kadar herhangi bir tuşta kal: o zaman klavye fareyi takip eder. Boyutu her kenardan değiştirirsin.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Bir kez dokunmak bir sonraki tuş için geçerlidir. İki kez dokunmak tuşu kilitler, üç kez dokunmak kapatır.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Metin blokları, tuş dizileri ve programlar tek tıkla. ● ile yazdığını kaydedersin.
+Sprache	Dil
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Önerilerin dilini ve tuş düzenini değiştirir. Hangi dillerin dahil olduğunu ayarlardan seçersin.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Kayıtlı parolalarını gösterir. Parola alanlarında kendiliğinden görünürler, bir tık parolayı yazar.
+Verweilklick	Bekleme tıklaması
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Bekleme tıklamasını açar veya kapatır: fareyle bir an üzerinde kaldığında tuş tetiklenir.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Burada her şeyi ayarlarsın: boyut, renkler, diller, kısayollar ve daha fazlası. Bu tanıtımı da orada bulursun.
+Einklappen	Katla
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Klavyeyi küçük yuvarlak bir düğmeye katlar. Üzerine bir tık onu geri getirir.
+Tray-Symbol und Kürzel	Bildirim simgesi ve kısayollar
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Görev çubuğunun sağ altında klavyenin simgesi var. Pause tuşu klavyeyi gösterir ve gizler, Quadstick tuşu için ideal.
+Fertig!	Tamamlandı!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	İyi yazmalar. Geri kalan her şey kılavuzda: ayarların en üstünde veya simgenin menüsünde "📖 Kılavuzu aç". Klavye ücretsiz. İşine yarıyorsa bir bağışa sevinirim.
+Überspringen	Atla
+Zurück	Geri
+Fertig	Bitti
+Weiter	İleri
+tresor.dat hat ein unbekanntes Format.	tresor.dat bilinmeyen bir biçimde.
+Tresor ist gesperrt.	Kasa kilitli.
+Passwort	Parola
+Mindestens 4 Ziffern	En az 4 rakam
+PIN festlegen	PIN ayarla
+Neue PIN eingeben (4 bis 12 Ziffern)	Yeni PIN gir (4 ila 12 rakam)
+PIN zur Sicherheit wiederholen	Onay için PIN'i tekrarla
+Die beiden PINs sind verschieden. Bitte nochmal.	İki PIN farklı. Tekrar dene.
+Passwort-Eintrag	Parola kaydı
+Name (so steht es in der Tresorleiste)	Ad (kasa çubuğunda böyle görünür)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Kullanıcı adı veya e-posta (sadece hatırlatma, isteğe bağlı)
+Benutzername oder E-Mail	Kullanıcı adı veya e-posta
+Sicheres Passwort erzeugen	Güvenli parola oluştur
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Eşleşir (pencere başlığından anahtar kelimeler, ör. "gmail, google")
+Name und Passwort dürfen nicht leer sein.	Ad ve parola boş olamaz.
+Tresor konnte nicht gespeichert werden: 	Kasa kaydedilemedi: 
+" aus dem Tresor löschen?	" kasadan silinsin mi?
+Gelernte Wörter	Öğrenilen kelimeler
+Zahlen	Sayılar
+E-Mail-Adressen	E-posta adresleri
+Suchen:	Ara:
+Markierte löschen	Seçilenleri sil
+Alles vergessen	Her şeyi unut
+ E-Mail-Adressen gelernt, für alle Sprachen	 e-posta adresi öğrenildi, tüm diller için
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 sayı öğrenildi (tarih, telefon numaraları, posta kodları), tüm diller için
+ Wörter, 	 kelime, 
+ Wortfolgen gelernt	 kelime dizisi öğrenildi
+   (die ersten 3000 angezeigt)	   (ilk 3000 gösteriliyor)
+Alle gelernten E-Mail-Adressen vergessen?	Öğrenilen tüm e-posta adresleri unutulsun mu?
+Alle gelernten Zahlen vergessen?	Öğrenilen tüm sayılar unutulsun mu?
+Alles Gelernte für 	Şunun için öğrenilen her şey unutulsun mu: 
+ vergessen?	?
+Suche Dateien …	Dosyalar aranıyor …
+Datei 	Dosya 
+ von 	 / 
+Deutsch	Almanca
+Englisch	İngilizce
+Niederländisch	Felemenkçe
+Französisch	Fransızca
+Dänisch	Danca
+Polnisch	Lehçe
+Tschechisch	Çekçe
+Italienisch	İtalyanca
+Spanisch	İspanyolca
+Türkisch	Türkçe
+Russisch	Rusça
+Portugiesisch	Portekizce
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız joystick'i, bir kafa faresi ya da gözlerle.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	IBAN'ları hatırla ve öner (yalnızca kontrol hanesi doğru olanlar)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Sayılar ve IBAN'lar ilk seferden sonra hemen önerilir. PIN, TAN ve kart numaraları asla öğrenilmez.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Windows dilin ({0}) maalesef henüz yerleşik değil.
+IBAN merken und vorschlagen	IBAN'ları hatırla ve öner
+PINs und Kartennummern lernen (verschlüsselt)	PIN ve kart numaralarını öğren (şifreli)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Sayılar ilk seferden sonra hemen önerilir. IBAN yalnızca kontrol hanesi doğruysa. PIN ve kart numaraları bu bilgisayarda şifreli saklanır ve yalnızca parolalı bir yedeğe girer.
+Leerzeichen nach . , ! ? : von selbst einfügen	. , ! ? : sonrasına otomatik boşluk ekle
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Klavyeyi kapatmak için ✕ simgesine tekrar dokun
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Kısayolla (ör. Pause) farenin olduğu yerde aç
+Wo die Tastatur dann erscheint	Klavye o zaman nerede görünsün
+unter der Maus, mittig	farenin altında, ortada
+unter der Maus, nach rechts	farenin altında, sağa doğru
+unter der Maus, nach links	farenin altında, sola doğru
+über der Maus, mittig	farenin üstünde, ortada
+über der Maus, nach rechts	farenin üstünde, sağa doğru
+über der Maus, nach links	farenin üstünde, sola doğru
+🔍 Suchen	🔍 Ara
+nichts gefunden	hiçbir şey bulunamadı
+✕ Suche beenden	✕ Aramayı bitir
+Namen tippen, die Liste wird kleiner	Bir ad yaz, liste kısalır

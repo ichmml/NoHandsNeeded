@@ -1,0 +1,528 @@
+# Texte der Oberfläche (en). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Passwords can only be backed up encrypted
+Das ist keine Sicherungsdatei der Tastatur.	This is not a backup file of the keyboard.
+Die Sicherungsdatei ist unvollständig.	The backup file is incomplete.
+Daten exportieren	Export data
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Pack everything into one file, e.g. for your second PC. Read it in there with "Import".
+Gelernte Wörter, Wortfolgen und Zahlen	Learned words, word sequences and numbers
+Eigene Begriffe	Custom words
+Makros	Macros
+Passwörter aus dem Tresor	Passwords from the vault
+Passwort für die Sicherung	Password for the backup
+Anzeigen / verbergen	Show / hide
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	With passwords the file is always encrypted. You need this password to import, so write it down. At least 8 characters.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Without passwords you can leave this empty. With a password the file is encrypted.
+Speichern unter …	Save as …
+Bitte mindestens einen Haken setzen.	Please tick at least one box.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	To include passwords the backup needs a password with at least 8 characters.
+Abbrechen	Cancel
+Daten importieren	Import data
+Sicherung vom 	Backup from 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	The backup is encrypted. Password of the backup:
+Öffnen	Open
+Datei beschädigt: 	File damaged: 
+Passwort falsch, nochmal versuchen.	Wrong password, try again.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	What should be taken over? Existing data stays, new data is added.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Learned words ({0}), word sequences ({1}), numbers ({2})
+Eigene Begriffe ({0})	Custom terms ({0})
+Makros ({0})	Macros ({0})
+Passwörter ({0})	Passwords ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	For identical words the higher count wins. A macro with the same name is replaced. For a password with the same name and user, the one changed or used most recently wins.
+Übernehmen	Apply
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Learned e-mail addresses: address<TAB>count
+Makroleiste öffnen	Open macro bar
+unbekannte Taste	unknown key
+interne Nummer doppelt	internal number used twice
+doppelt vergeben	assigned twice
+Taste gibt es im Tastaturlayout nicht	key does not exist in the keyboard layout
+schon von einem anderen Programm belegt (Fehler 1409)	already used by another program (error 1409)
+von Windows abgelehnt	rejected by Windows
+Windows-Fehler 	Windows error 
+Kürzel aufnehmen	Record shortcut
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nPress the key or key combination now (e.g. on the Quadstick).
+Nochmal	Again
+Tastatur-Hook fehlt, siehe protokoll.txt	Keyboard hook missing, see protokoll.txt
+Erkannt: 	Detected: 
+Kürzel testen	Test shortcuts
+Drück jetzt die Taste am Quadstick.\n	Press the key on the Quadstick now.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	If "Key received" appears below, the Quadstick sends the key.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	If "Shortcut triggered" appears as well, everything works.\n\n
+Aktiv: 	Active: 
+Schließen	Close
+→ Kürzel ausgelöst: 	→ Shortcut triggered: 
+keine Kürzel eingetragen	no shortcuts set
+Taste angekommen: 	Key received: 
+  (von Software)	  (from software)
+Tastatur-Hook konnte nicht gesetzt werden	Keyboard hook could not be installed
+neu	new
+„{0}“ gemerkt	“{0}” remembered
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	No macros yet: create with ✎ or record with ●
+weiter  	more  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Moving: release to drop · Esc/right-click cancels
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Moving: keep the mouse still or click to drop · Esc/right-click cancels
+Leertaste	Space
+■ Stopp	■ Stop
+✕ Zurück	✕ Back
+Verschieben abgebrochen	Moving cancelled
+Position gespeichert	Position saved
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	No word known: this key works on the last word typed with this keyboard
+Weitere Sprachen herunterladen	Download more languages
+Quelle:\n	Source:\n
+\nEs wird nur geladen, was du hier anklickst.	\nOnly what you click here is downloaded.
+Lade Übersicht …	Loading list …
+Herunterladen	Download
+Erneut versuchen	Try again
+Keine Sprachpakete gefunden.	No language packs found.
+Sprache auswählen und "Herunterladen" klicken.	Select a language and click "Download".
+Lade 	Loading 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 is installed and switched on. Switch with the language button at the top of the keyboard.
+  · hinzugefügt	  · added
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Custom terms: one word per line, e.g. names and technical terms.
+Sie werden in allen Sprachen vorgeschlagen.	They are suggested in all languages.
+Datei nicht lesbar: 	File not readable: 
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Not a valid language code (e.g. fr.txt or header line "#sprache fr French").
+Zu wenige Wörter (	Too few words (
+). Format: Wort, Tabulator, Häufigkeit, eine Zeile pro Wort.	). Format: word, tab, frequency, one line per word.
+ ist schon fest eingebaut.	 is already built in.
+Alle	All
+   ✓ installiert	   ✓ installed
+Unter dieser Adresse liegen noch keine Sprachpakete. Sprachen lassen sich über "Aus Datei hinzufügen" auch ohne Internet installieren.	There are no language packs at this address yet. Languages can also be installed without internet via "Add from file".
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	No internet connection or server not reachable. The keyboard keeps working normally.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	The server is not responding (timeout). Please try again later.
+Der Server meldet einen Fehler (	The server reports an error (
+). Die Tastatur läuft normal weiter.	). The keyboard keeps working normally.
+Download fehlgeschlagen: 	Download failed: 
+Datei unvollständig (	File incomplete (
+ statt 	 instead of 
+ Bytes).	 bytes).
+Prüfsumme stimmt nicht, Datei wurde verworfen.	Checksum does not match, file was discarded.
+Tab ⇥	Tab ⇥
+Entf	Del
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Ins
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Learned words of the on-screen keyboard
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> word <TAB> count   and   f <TAB> word <TAB> next word <TAB> count
+nicht mit dem Installer unter "Programme" installiert	not installed with the installer under "Program Files"
+nicht signiert	not signed
+nicht als Hilfsmittel bei Windows angemeldet	not registered with Windows as an assistive technology
+Geht erst mit der installierten, signierten Version.	Only works with the installed, signed version.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Until then: on the lock screen, click the accessibility icon at the bottom right and use the Windows on-screen keyboard. Or set up Windows Hello (face), then no PIN is needed.
+Die Tastatur erscheint auf dem Sperrbildschirm.	The keyboard appears on the lock screen.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Ready. With the switch, the keyboard also appears on the lock screen.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	The keyboard now appears on the lock screen.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	The keyboard no longer appears on the lock screen.
+Hat nicht geklappt: 	Did not work: 
+Tasten	Keys
+Warten	Wait
+Text	Text
+keine	none
+blau	blue
+grün	green
+rot	red
+orange	orange
+lila	purple
+gelb	yellow
+grau	gray
+Zeile 	Line 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Please use spaces instead of tabs for indentation.
+Unerwarteter Text, Einrückung prüfen.	Unexpected text, check the indentation.
+Einrückung passt nicht.	Indentation does not match.
+Text nach dem schließenden ".	Text after the closing ".
+Hier wird ein Wert erwartet, keine Liste.	A value is expected here, not a list.
+Unbekannte Taste "{0}".	Unknown key "{0}".
+"{0}" muss eine Liste sein.	"{0}" must be a list.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Unknown step "{0}". Allowed: text, keys, open, wait (or text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	"{0}" must not be a list.
+Unbekanntes Kürzel "{0}".	Unknown shortcut "{0}".
+Unbekannter Eintrag "{0}".	Unknown entry "{0}".
+Makro ohne "name".	Macro without "name".
+makros.yaml konnte nicht gelesen werden: 	makros.yaml could not be read: 
+Programme	Programs
+Grüße	Greeting
+Viele Grüße	Best regards
+Datum	Date
+Heute	Today
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday}, {date}, {time}
+Alles kopieren	Copy all
+Desktop	Desktop
+Browser	Browser
+Neuer Tab	New tab
+Tab zu	Close tab
+Tab zurück	Reopen tab
+Editor	Editor
+Rechner	Calculator
+Neue Mail	New mail
+Hallo {cursor},\n\nViele Grüße	Hello {cursor},\n\nBest regards
+Unbekannte Taste "{0}" in Makro "{1}"	Unknown key "{0}" in macro "{1}"
+"{0}" ließ sich nicht öffnen: 	"{0}" could not be opened: 
+Makros bearbeiten	Edit macros
+Neu	New
+Bearbeiten	Edit
+Kopieren	Copy
+▲  Hoch	▲  Up
+▼  Runter	▼  Down
+Löschen	Delete
+Datei im Editor öffnen	Open file in editor
+Datei neu laden	Reload file
+\nSpeichern hier überschreibt die fehlerhafte Datei (eine Sicherung bleibt als makros.yaml.bak).	\nSaving here overwrites the faulty file (a backup stays as makros.yaml.bak).
+Neues Makro	New macro
+ (Kopie)	 (copy)
+Makro "	Delete macro "
+" löschen?	"?
+Makro bearbeiten	Edit macro
+Name (Beschriftung des Knopfs)	Name (button label)
+Gruppe (leer = keine)	Group (empty = none)
+Farbe	Colour
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Only for program (e.g. chrome or "chrome, msedge", empty = everywhere)
+Kürzel für "	Shortcut for "
+Kein Kürzel	No shortcut
+Schritte (werden der Reihe nach ausgeführt)	Steps (run one after the other)
++ Text	+ Text
++ Tasten	+ Keys
++ Öffnen	+ Open
++ Warten	+ Wait
+Taste aufnehmen	Record key
+Speichern	Save
+Globales Kürzel: 	Global shortcut: 
+Noch keine Schritte. Unten einen hinzufügen.	No steps yet. Add one below.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Text: several lines possible. Placeholders: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Separate keys with commas, e.g.  Strg+A, Strg+C, Enter   or  Alt+Tab   or  Win+D.  Key names (German): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Program, file, folder or website, e.g.  notepad.exe   C:\Invoices   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pause in milliseconds (1000 = 1 second)
+Taste für den Schritt	Key for this step
+Bitte einen Namen eingeben.	Please enter a name.
+Unbekannte Taste "	Unknown key "
+" im Schritt: 	" in step: 
+"Warten" braucht eine Zahl in Millisekunden.	"Wait" needs a number in milliseconds.
+Name	Name
+Verwerfen	Discard
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Learned numbers (dates, phone numbers, postcodes): spelling<TAB>count
+Taste 	Key 
+Passwort-Tresor	Password vault
+Kürzel nicht aktiv	Shortcut not active
+Tastatur zeigen / verstecken	Show / hide keyboard
+Lernen fortsetzen	Resume learning
+Lernen pausieren	Pause learning
+Passwort-Tresor bearbeiten	Edit password vault
+Einstellungen	Settings
+Anleitung öffnen	Open manual
+Einführung zeigen	Show introduction
+☕ Kaffee spendieren	☕ Buy me a coffee
+Beenden	Exit
+Die Anleitung wurde nicht gefunden.	The manual was not found.
+Anleitung	manual
+Die Anleitung ließ sich nicht öffnen: 	The manual could not be opened: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Your Windows language is {0}, the keyboard is set to {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Your Windows language is {0}. You can switch it on in the settings under Languages.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Your Windows language ({0}) is not built in yet. It may be available for download.
+Sprache herunterladen	Download language
+Sprache: 	Language: 
+  (für 	  (for 
+Tastatur ein-/ausblenden	Show / hide keyboard
+Sprache wechseln	Switch language
+Makro 	Macro 
+makros.yaml konnte nicht gespeichert werden:\n	makros.yaml could not be saved:\n
+Während der Aufnahme keine Makros	No macros while recording
+makros.yaml hat einen Fehler, bitte erst reparieren	makros.yaml has an error, please fix it first
+" gespeichert	" saved
+Erst etwas tippen, dann + zum Speichern	Type something first, then + to save
+Als Textbaustein speichern	Save as text snippet
+Text: 	Text: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Recording: just type, then ■ Stop
+Aufnahme verworfen	Recording discarded
+Nichts aufgenommen	Nothing recorded
+Aufnahme 	Recording 
+Aufnahme speichern	Save recording
+Lernen pausiert	Learning paused
+Lernen läuft wieder	Learning resumed
+ Wörter	 words
+Bisher gelernt: 	Learned so far: 
+, Zahlen: 	, numbers: 
+ Dateien gelesen, 	 files read, 
+ Wörter in 	 words in 
+ Sätzen gelernt	 sentences learned
+, dazu 	, plus 
+-mal Datum oder Telefonnummer.	 dates or phone numbers.
+ Dateien übersprungen.	 files skipped.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nOnly how often words occur is stored, not the texts themselves. Lines with password, PIN, IBAN and the like are skipped.
+Aus meinen Texten lernen	Learn from my texts
+Der Tresor ist in den Einstellungen ausgeschaltet	The vault is switched off in the settings
+Im Tresor speichern?	Save in vault?
+⚿ Speichern	⚿ Save
+Nein	No
+Tresor nicht lesbar	Vault not readable
+🔒 Tresor entsperren	🔒 Unlock vault
+Tresor ist noch leer	Vault is still empty
++ Passwort hinzufügen	+ Add password
+🎲 Erzeugen und eintippen	🎲 Create and type
+✕ Ausblenden	✕ Hide
+Passwort "	Password "
+" eingetippt	" typed
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	New password typed. Save it now, otherwise it is gone!
+Passwort 	Password 
+Nicht gespeichert. "Speichern" geht noch kurz.	Not saved. "Save" still works for a moment.
+Im Tresor gespeichert	Saved in vault
+Tresor konnte nicht gespeichert werden:\n	Vault could not be saved:\n
+Tresor entsperren	Unlock vault
+PIN eingeben	Enter PIN
+PIN falsch, nochmal versuchen	Wrong PIN, try again
+nicht lesbar	not readable
+gesperrt, PIN wird abgefragt	locked, PIN will be asked
+{0} Wörter, {1} Zahlen	{0} words, {1} numbers
+Sicherung speichern	Save backup
+Tastatur-Sicherung	Keyboard backup
+Gespeichert:\n	Saved:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nThe file is encrypted. It cannot be opened without the backup password.
+Sicherung öffnen	Open backup
+Alle Dateien	All files
+{0} neue E-Mail-Adressen	{0} new e-mail addresses
+{0} neue Wörter, {1} neue Zahlen	{0} new words, {1} new numbers
+{0} neue eigene Begriffe	{0} new custom terms
+{0} neue Makros, {1} ersetzt	{0} new macros, {1} replaced
+Passwörter übersprungen: 	Passwords skipped: 
+Passwörter übersprungen (Tresor gesperrt)	Passwords skipped (vault locked)
+{0} neue Passwörter, {1} aktualisiert	{0} new passwords, {1} updated
+Fertig.\n\n	Done.\n\n
+\n\nDie Datei tresor.dat im Datenordner prüfen oder eine Sicherung (tresor.dat.bak) zurückholen.	\n\nCheck the file tresor.dat in the data folder or restore a backup (tresor.dat.bak).
+mit PIN	with PIN
+ohne PIN	without PIN
+Tresor gesperrt (	Vault locked (
+ Passwörter gespeichert, 	 passwords saved, 
+Es ist keine PIN gesetzt.	No PIN is set.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN saved. Remember it well: without the PIN nobody can get to the passwords, not even you.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN removed. The vault is still encrypted with your Windows account.
+Bildschirmtastatur: Einstellungen	On-screen keyboard: Settings
+Version	Version
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	The keyboard is free. If it helps you, I'd be happy about a donation.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Support me with a donation (Ko-fi)
+📖 Anleitung öffnen	📖 Open manual
+Aussehen	Appearance
+Deckkraft Tastatur	Keyboard opacity
+Deckkraft runder Knopf (eingeklappt)	Round button opacity (collapsed)
+Farbschema	Colour scheme
+dunkel	dark
+hell	light
+Bedienung	Operation
+Verweilklick (Taste löst nach Verweilzeit aus)	Dwell click (key triggers after dwell time)
+Verweilzeit	Dwell time
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Show real key presses (e.g. from the Quadstick, they light up red)
+Nachleuchten	Afterglow
+aus	off
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	The keyboard remembers the started word for each window. When you switch back, you simply keep writing.
+Auch nach Klick ins Fenster weiterschreiben	Keep writing after clicking into the window too
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Off: it only continues when switching via taskbar, Alt+Tab or title bar. A click into the text can move the cursor.
+Wortvorschläge	Word suggestions
+Zeilen	Rows
+1 Zeile	1 row
+2 Zeilen	2 rows
+Vorschläge pro Zeile	Suggestions per row
+Schriftgröße Vorschläge und Makros	Font size of suggestions and macros
+Satzanfang automatisch groß	Capitalize sentence start automatically
+Leerzeichen nach Vorschlag einfügen	Insert space after suggestion
+Getipptes Wort oben links zeigen (rot)	Show the typed word at the top left (red)
+Punkte mit 👁	Dots with 👁
+immer nur Punkte	dots only
+Passwörter beim Tippen	Passwords while typing
+Klartext automatisch ausblenden nach	Hide plain text automatically after
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	In password fields only dots are shown. 👁 shows the password in plain text for a moment; meanwhile the keyboard is excluded from screenshots and screen sharing.
+Sprachen	Languages
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Checked = active. The order applies to the language button at the top of the keyboard.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Offer mixed (e.g. DE+EN) when switching
+Sprache pro Programm merken	Remember language per program
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	If you switch the language in a program, the keyboard remembers it and switches automatically next time in that program. For example Outlook English, WhatsApp German.
+passend zur Sprache	matching the language
+immer Deutsch (QWERTZ)	always German (QWERTZ)
+immer Englisch (QWERTY)	always English (QWERTY)
+Tastenlayout	Key layout
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Edit custom words (names, technical terms)
+Sonderzeichen unten	Special characters at the bottom
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	The four keys at the bottom next to abc/ABC. One character per field, optionally a second one for Shift (e.g. ".:"). Empty = default.
+Auf Standard zurücksetzen	Reset to default
+Lernen	Learning
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	The keyboard remembers which words you write, how you spell them and which word often follows which. Everything stays on this PC. Nothing is ever learned in password fields.
+Aus meinem Schreiben lernen	Learn from my writing
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Also learn numbers (dates, phone numbers, postcodes)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Learn e-mail addresses and suggest them after 3 letters
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	Show the e-mail addresses right away in e-mail fields
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Like new words, numbers are only suggested from the second time on. One-off codes, PINs, TANs and card numbers are never learned.
+Neue Wörter vorschlagen ab	Suggest new words after
+1-mal geschrieben	written once
+-mal geschrieben	 times written
+Aus meinen Texten lernen (Ordner wählen)	Learn from my texts (choose folder)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Folder with your texts (e.g. Obsidian, Documents). Reads .txt .md .docx .html .eml .mbox, including subfolders.
+Aus einzelnen Dateien lernen	Learn from individual files
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Texts|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|All files|*.*
+Gelernte Wörter ansehen und löschen	View and delete learned words
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Passwords are stored encrypted for your Windows account on this PC only. They never appear in the normal word suggestions and are typed directly, never via the clipboard.
+Tresor benutzen	Use vault
+In Passwortfeldern automatisch zeigen	Show automatically in password fields
+Nach dem Eintippen "Im Tresor speichern?" fragen	Ask "Save in vault?" after typing
+Länge neuer Passwörter	Length of new passwords
+ Zeichen	 characters
+Neue Passwörter mit Sonderzeichen	New passwords with special characters
+Tresor bearbeiten	Edit vault
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	With a PIN the vault is locked after starting and locks again after a while without use. You enter the PIN with large number keys.
+PIN festlegen oder ändern	Set or change PIN
+PIN entfernen	Remove PIN
+Mit PIN automatisch sperren nach	With PIN, lock automatically after
+nie	never
+ Minuten	 minutes
+Sichern und auf anderen PC übertragen	Back up and transfer to another PC
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Pack learned words, word sequences, numbers, custom terms, macros and, if you like, the passwords into one file. Import it on the other PC and everything is merged.
+Daten exportieren …	Export data …
+Daten importieren …	Import data …
+Verschieben und Größe	Moving and size
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Moving: drag the move key at the bottom right, or stay on any key for a long time. Size: drag any edge or the corner at the bottom left.
+Breite	Width
+ % des Bildschirms	 % of the screen
+Höhe	Height
+unten rechts	bottom right
+unten mittig	bottom centre
+unten links	bottom left
+Standardposition (für Zurücksetzen)	Default position (for reset)
+Größe und Position zurücksetzen	Reset size and position
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	The size is a percentage of the screen. If you drag the keyboard to another screen, it adapts there.
+Verschieben durch langes Draufbleiben	Move by staying on a key
+Maustaste gedrückt halten bis Verschieben	Hold mouse button until moving
+Verweilen bis Verschieben	Dwell until moving
+automatisch (doppelte Verweilzeit)	automatic (double dwell time)
+Maus ruhig halten zum Absetzen	Keep mouse still to drop
+Greifzone am Rand zum Größe ändern	Grab zone at the edge for resizing
+ Pixel	 pixels
+Globale Kürzel	Global shortcuts
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Work even when another program is active. Ideal for a Quadstick key.
+Protokoll öffnen	Open log
+Start	Start
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Show a button in the taskbar (click opens the keyboard fully)
+Mit Windows starten	Start with Windows
+Eingeklappt starten	Start collapsed
+Sonstiges	Other
+automatisch (wie Windows)	automatic (like Windows)
+Sprache der Oberfläche	Interface language
+Einführung nochmal zeigen	Show introduction again
+Sperrbildschirm	Lock screen
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Show on the lock screen (to enter the PIN)
+Datenordner öffnen	Open data folder
+Tastatur beenden	Exit keyboard
+Makro-Kürzel nicht aktiv: 	Macro shortcut not active: 
+Entfernen	Remove
+Aus Datei hinzufügen	Add from file
+Download-Quelle (nur https)	Download source (https only)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Please enter an address starting with https://.
+Download-Quelle	Download source
+Standard wiederherstellen	Restore default
+Mindestens eine Sprache muss aktiv sein.	At least one language must be active.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 is built in and can only be switched off (untick it).
+ löschen?	: delete?
+Wortliste auswählen (Wort, Tabulator, Häufigkeit)	Choose word list (word, tab, frequency)
+Wortliste (*.txt)|*.txt|Alle Dateien|*.*	Word list (*.txt)|*.txt|All files|*.*
+Sprachpaket	Language pack
+ wurde hinzugefügt und eingeschaltet.	 was added and switched on.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	This is how the assignment looks in the Quadstick sheet. Choose the input you want in the yellow column (e.g. mp_triple_puff), then load the configuration onto the Quadstick.
+ausgeschaltet	switched off
+✓ aktiv	✓ active
+✗ nicht aktiv	✗ not active
+Aufnehmen	Record
+Aus Liste ▾	From list ▾
+Aus	Off
+Bildschirmtastatur öffnen	Open on-screen keyboard
+Willkommen!	Welcome!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	This on-screen keyboard types into the program you are writing in and never takes the focus away from it. Click "Next" to go through the most important parts.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	On the far left you see in red what you are typing. Next to it are matching words, one click takes the word including a space. The keyboard learns which words you write often. To take a new word, click the red word and it is remembered right away.
+Groß/Klein-Taste	Case key
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	"abc ↑" capitalizes the last word, "ABC ↓" makes it lower case. This also works afterwards, after a space or full stop.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Hold ✥ and drag the keyboard wherever you want. Or stay on any key until the orange ring fills up: then the keyboard follows the mouse. You change the size at any edge.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Tap once to apply to the next key. Tap twice to lock the key, tap three times to switch it off again.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Text snippets, key sequences and programs with one click. With ● you simply record what you type.
+Sprache	Language
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Switches the language of the suggestions and the key layout. You choose which languages are included in the settings.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Shows your saved passwords. In password fields they appear by themselves, one click types the password.
+Verweilklick	Dwell click
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Switches dwell click on or off: a key triggers when you stay on it with the mouse for a moment.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Adjust everything here: size, colours, languages, shortcuts and more. You'll also find this introduction there again.
+Einklappen	Collapse
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Collapses the keyboard into a small round button. One click on it brings it back.
+Tray-Symbol und Kürzel	Tray icon and shortcuts
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	The keyboard's icon sits at the bottom right of the taskbar. The Pause key shows and hides the keyboard, ideal for a key on the Quadstick.
+Fertig!	Done!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Have fun writing. Everything else is in the manual: "📖 Open manual" at the very top of the settings or in the tray menu. The keyboard is free. If it helps you, I'd be happy about a donation.
+Überspringen	Skip
+Zurück	Back
+Fertig	Done
+Weiter	Next
+tresor.dat hat ein unbekanntes Format.	tresor.dat has an unknown format.
+Tresor ist gesperrt.	The vault is locked.
+Passwort	Password
+Mindestens 4 Ziffern	At least 4 digits
+PIN festlegen	Set PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Enter new PIN (4 to 12 digits)
+PIN zur Sicherheit wiederholen	Repeat PIN to confirm
+Die beiden PINs sind verschieden. Bitte nochmal.	The two PINs are different. Please try again.
+Passwort-Eintrag	Password entry
+Name (so steht es in der Tresorleiste)	Name (as shown in the vault bar)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	User name or e-mail (just as a reminder, optional)
+Benutzername oder E-Mail	User name or e-mail
+Sicheres Passwort erzeugen	Create a secure password
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Matches (keywords from the window title, e.g. "gmail, google")
+Name und Passwort dürfen nicht leer sein.	Name and password must not be empty.
+Tresor konnte nicht gespeichert werden: 	Vault could not be saved: 
+" aus dem Tresor löschen?	": delete from vault?
+Gelernte Wörter	Learned words
+Zahlen	Numbers
+E-Mail-Adressen	E-mail addresses
+Suchen:	Search:
+Markierte löschen	Delete selected
+Alles vergessen	Forget everything
+ E-Mail-Adressen gelernt, für alle Sprachen	 e-mail addresses learned, for all languages
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 numbers learned (dates, phone numbers, postcodes), for all languages
+ Wörter, 	 words, 
+ Wortfolgen gelernt	 word sequences learned
+   (die ersten 3000 angezeigt)	   (first 3000 shown)
+Alle gelernten E-Mail-Adressen vergessen?	Forget all learned e-mail addresses?
+Alle gelernten Zahlen vergessen?	Forget all learned numbers?
+Alles Gelernte für 	Forget everything learned for 
+ vergessen?	?
+Suche Dateien …	Searching files …
+Datei 	File 
+ von 	 of 
+Deutsch	German
+Englisch	English
+Niederländisch	Dutch
+Französisch	French
+Dänisch	Danish
+Polnisch	Polish
+Tschechisch	Czech
+Italienisch	Italian
+Spanisch	Spanish
+Türkisch	Turkish
+Russisch	Russian
+Portugiesisch	Portuguese
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC without your hands, for example with a mouth joystick like the Quadstick, a head mouse or your eyes.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Remember and suggest IBANs (only valid ones with a correct check digit)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Numbers and IBANs are suggested right after the first time. PINs, TANs and card numbers are never learned.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Your Windows language ({0}) is not built in yet, unfortunately.
+IBAN merken und vorschlagen	Remember and suggest IBANs
+PINs und Kartennummern lernen (verschlüsselt)	Learn PINs and card numbers (encrypted)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Numbers are suggested right after the first time. An IBAN only if its check digit is correct. PINs and card numbers are stored encrypted on this PC and only go into a backup with a password.
+Leerzeichen nach . , ! ? : von selbst einfügen	Insert a space after . , ! ? : automatically
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Tap ✕ again to close the keyboard
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Open where the mouse is when using the shortcut (e.g. Pause)
+Wo die Tastatur dann erscheint	Where the keyboard then appears
+unter der Maus, mittig	below the mouse, centred
+unter der Maus, nach rechts	below the mouse, to the right
+unter der Maus, nach links	below the mouse, to the left
+über der Maus, mittig	above the mouse, centred
+über der Maus, nach rechts	above the mouse, to the right
+über der Maus, nach links	above the mouse, to the left
+🔍 Suchen	🔍 Search
+nichts gefunden	nothing found
+✕ Suche beenden	✕ End search
+Namen tippen, die Liste wird kleiner	Type a name, the list gets shorter

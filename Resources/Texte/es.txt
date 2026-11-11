@@ -1,0 +1,502 @@
+# Texte der Oberfläche (es). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Las contraseñas solo se pueden guardar cifradas
+Das ist keine Sicherungsdatei der Tastatur.	Esto no es un archivo de copia de seguridad del teclado.
+Die Sicherungsdatei ist unvollständig.	El archivo de copia de seguridad está incompleto.
+Daten exportieren	Exportar datos
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Meter todo en un archivo, p. ej. para tu segundo PC. Allí léelo de nuevo con "Importar".
+Gelernte Wörter, Wortfolgen und Zahlen	Palabras aprendidas, secuencias de palabras y números
+Eigene Begriffe	Palabras propias
+Makros	Macros
+Passwörter aus dem Tresor	Contraseñas de la caja fuerte
+Passwort für die Sicherung	Contraseña para la copia
+Anzeigen / verbergen	Mostrar / ocultar
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Con contraseñas el archivo siempre se cifra. Necesitarás esta contraseña al importar, apúntala. Al menos 8 caracteres.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Sin contraseñas puedes dejar el campo vacío. Con contraseña el archivo se cifra.
+Speichern unter …	Guardar como …
+Bitte mindestens einen Haken setzen.	Marca al menos una casilla.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Para incluir contraseñas, la copia necesita una contraseña de al menos 8 caracteres.
+Abbrechen	Cancelar
+Daten importieren	Importar datos
+Sicherung vom 	Copia del 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	La copia está cifrada. Contraseña de la copia:
+Öffnen	Abrir
+Datei beschädigt: 	Archivo dañado: 
+Passwort falsch, nochmal versuchen.	Contraseña incorrecta, inténtalo de nuevo.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	¿Qué quieres recuperar? Lo que ya hay se queda, lo nuevo se añade.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Palabras aprendidas ({0}), secuencias de palabras ({1}), números ({2})
+Eigene Begriffe ({0})	Términos propios ({0})
+Makros ({0})	Macros ({0})
+Passwörter ({0})	Contraseñas ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Con palabras iguales cuenta el contador más alto. Una macro con el mismo nombre se sustituye. En una contraseña con el mismo nombre y usuario gana la cambiada o usada más recientemente.
+Übernehmen	Aplicar
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Direcciones de correo aprendidas: dirección<TAB>cantidad
+Makroleiste öffnen	Abrir barra de macros
+unbekannte Taste	tecla desconocida
+doppelt vergeben	asignado dos veces
+Taste gibt es im Tastaturlayout nicht	la tecla no existe en la distribución del teclado
+schon von einem anderen Programm belegt (Fehler 1409)	ya lo usa otro programa (error 1409)
+von Windows abgelehnt	rechazado por Windows
+Windows-Fehler 	Error de Windows 
+Kürzel aufnehmen	Grabar atajo
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nPulsa ahora la tecla o combinación (p. ej. en el Quadstick).
+Nochmal	Otra vez
+Erkannt: 	Reconocido: 
+Kürzel testen	Probar atajos
+Drück jetzt die Taste am Quadstick.\n	Pulsa ahora la tecla en el Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Si abajo aparece «Tecla recibida», el Quadstick envía la tecla.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Si además aparece «Atajo activado», todo funciona.\n\n
+Aktiv: 	Activos: 
+Schließen	Cerrar
+→ Kürzel ausgelöst: 	→ Atajo activado: 
+keine Kürzel eingetragen	no hay atajos configurados
+Taste angekommen: 	Tecla recibida: 
+  (von Software)	  (por software)
+neu	nueva
+„{0}“ gemerkt	«{0}» recordada
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Aún no hay macros: crea una con ✎ o graba con ●
+weiter  	más  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Mover: suelta para colocar · Esc/clic derecho cancela
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Mover: deja el ratón quieto o haz clic para colocar · Esc/clic derecho cancela
+Leertaste	Espacio
+■ Stopp	■ Parar
+✕ Zurück	✕ Volver
+Verschieben abgebrochen	Movimiento cancelado
+Position gespeichert	Posición guardada
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	No se conoce ninguna palabra: esta tecla actúa sobre la última palabra escrita con este teclado
+Weitere Sprachen herunterladen	Descargar más idiomas
+Quelle:\n	Fuente:\n
+\nEs wird nur geladen, was du hier anklickst.	\nSolo se descarga lo que pulses aquí.
+Lade Übersicht …	Cargando lista …
+Herunterladen	Descargar
+Erneut versuchen	Reintentar
+Keine Sprachpakete gefunden.	No se encontraron paquetes de idioma.
+Sprache auswählen und "Herunterladen" klicken.	Elige un idioma y pulsa «Descargar».
+Lade 	Cargando: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 está instalado y activado. Cambia con el botón de idioma arriba en el teclado.
+  · hinzugefügt	  · añadido
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Términos propios: una palabra por línea, p. ej. nombres y términos técnicos.
+Sie werden in allen Sprachen vorgeschlagen.	Se proponen en todos los idiomas.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Código de idioma no válido (p. ej. fr.txt o línea de cabecera "#sprache fr Francés").
+Alle	Todos
+   ✓ installiert	   ✓ instalado
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Sin conexión a Internet o servidor no accesible. El teclado sigue funcionando normalmente.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	El servidor no responde (tiempo agotado). Inténtalo más tarde.
+Download fehlgeschlagen: 	Descarga fallida: 
+Tab ⇥	Tab ⇥
+Entf	Supr
+Enter ↵	Intro ↵
+⇧ Shift	⇧ Mayús
+Strg	Ctrl
+Pos1	Inicio
+Ende	Fin
+Bild ↑	RePág
+Bild ↓	AvPág
+Einfg	Insert
+Menü	Menú
+Gelernte Wörter der Bildschirmtastatur	Palabras aprendidas del teclado en pantalla
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> palabra <TAB> cantidad   y   f <TAB> palabra <TAB> palabra siguiente <TAB> cantidad
+Geht erst mit der installierten, signierten Version.	Solo funciona con la versión instalada y firmada.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Mientras tanto: en la pantalla de bloqueo, pulsa abajo a la derecha el icono de accesibilidad y usa el teclado en pantalla de Windows. O configura Windows Hello (cara), así no hace falta PIN.
+Die Tastatur erscheint auf dem Sperrbildschirm.	El teclado aparece en la pantalla de bloqueo.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Listo. Con el interruptor, el teclado también aparece en la pantalla de bloqueo.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	El teclado aparece ahora en la pantalla de bloqueo.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	El teclado ya no aparece en la pantalla de bloqueo.
+Hat nicht geklappt: 	No ha funcionado: 
+Tasten	Teclas
+Warten	Esperar
+Text	Texto
+keine	ninguno
+blau	azul
+grün	verde
+rot	rojo
+orange	naranja
+lila	morado
+gelb	amarillo
+grau	gris
+Zeile 	Línea 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Usa espacios en lugar de tabuladores para sangrar.
+Unerwarteter Text, Einrückung prüfen.	Texto inesperado, revisa la sangría.
+Einrückung passt nicht.	La sangría no coincide.
+Text nach dem schließenden ".	Texto después de las " de cierre.
+Hier wird ein Wert erwartet, keine Liste.	Aquí se espera un valor, no una lista.
+Unbekannte Taste "{0}".	Tecla desconocida "{0}".
+"{0}" muss eine Liste sein.	"{0}" debe ser una lista.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Paso desconocido "{0}". Permitido: text, keys, open, wait (o text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	"{0}" no puede ser una lista.
+Unbekanntes Kürzel "{0}".	Atajo desconocido "{0}".
+Unbekannter Eintrag "{0}".	Entrada desconocida "{0}".
+Makro ohne "name".	Macro sin "name".
+makros.yaml konnte nicht gelesen werden: 	No se pudo leer makros.yaml: 
+Programme	Programas
+Grüße	Saludo
+Viele Grüße	Un saludo
+Datum	Fecha
+Heute	Hoy
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday}, {date}, {time}
+Alles kopieren	Copiar todo
+Desktop	Escritorio
+Browser	Navegador
+Neuer Tab	Nueva pestaña
+Tab zu	Cerrar pestaña
+Tab zurück	Reabrir pestaña
+Editor	Editor
+Rechner	Calculadora
+Neue Mail	Nuevo correo
+Hallo {cursor},\n\nViele Grüße	Hola {cursor}:\n\nUn saludo
+Unbekannte Taste "{0}" in Makro "{1}"	Tecla desconocida "{0}" en la macro "{1}"
+"{0}" ließ sich nicht öffnen: 	No se pudo abrir "{0}": 
+Makros bearbeiten	Editar macros
+Neu	Nuevo
+Bearbeiten	Editar
+Kopieren	Copiar
+▲  Hoch	▲  Subir
+▼  Runter	▼  Bajar
+Löschen	Borrar
+Datei im Editor öffnen	Abrir archivo en el editor
+Datei neu laden	Recargar archivo
+Neues Makro	Nueva macro
+ (Kopie)	 (copia)
+Makro "	¿Borrar la macro «
+" löschen?	»?
+Makro bearbeiten	Editar macro
+Name (Beschriftung des Knopfs)	Nombre (texto del botón)
+Gruppe (leer = keine)	Grupo (vacío = ninguno)
+Farbe	Color
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Solo para el programa (p. ej. chrome o «chrome, msedge», vacío = en todas partes)
+Kürzel für "	Atajo para «
+Kein Kürzel	Sin atajo
+Schritte (werden der Reihe nach ausgeführt)	Pasos (se ejecutan uno tras otro)
++ Text	+ Texto
++ Tasten	+ Teclas
++ Öffnen	+ Abrir
++ Warten	+ Esperar
+Taste aufnehmen	Grabar tecla
+Speichern	Guardar
+Globales Kürzel: 	Atajo global: 
+Noch keine Schritte. Unten einen hinzufügen.	Aún no hay pasos. Añade uno abajo.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Texto: se permiten varias líneas. Marcadores: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Separa las teclas con comas, p. ej.  Strg+A, Strg+C, Enter   o  Alt+Tab   o  Win+D.  Nombres de teclas (en alemán): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Programa, archivo, carpeta o web, p. ej.  notepad.exe   C:\Facturas   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pausa en milisegundos (1000 = 1 segundo)
+Taste für den Schritt	Tecla para el paso
+Bitte einen Namen eingeben.	Introduce un nombre.
+"Warten" braucht eine Zahl in Millisekunden.	«Esperar» necesita un número en milisegundos.
+Name	Nombre
+Verwerfen	Descartar
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Números aprendidos (fechas, teléfonos, códigos postales): escritura<TAB>cantidad
+Taste 	Tecla 
+Passwort-Tresor	Caja fuerte de contraseñas
+Kürzel nicht aktiv	Atajo no activo
+Tastatur zeigen / verstecken	Mostrar / ocultar teclado
+Lernen fortsetzen	Reanudar aprendizaje
+Lernen pausieren	Pausar aprendizaje
+Passwort-Tresor bearbeiten	Editar caja fuerte
+Einstellungen	Ajustes
+Anleitung öffnen	Abrir manual
+Einführung zeigen	Mostrar introducción
+☕ Kaffee spendieren	☕ Invítame a un café
+Beenden	Salir
+Die Anleitung wurde nicht gefunden.	No se encontró el manual.
+Anleitung	Manual
+Die Anleitung ließ sich nicht öffnen: 	No se pudo abrir el manual: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	El idioma de Windows es {0}, el teclado está en {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	El idioma de Windows es {0}. Puedes activarlo en los ajustes, en Idiomas.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	El idioma de Windows ({0}) aún no está integrado. Quizá se pueda descargar.
+Sprache herunterladen	Descargar idioma
+Sprache: 	Idioma: 
+  (für 	  (para 
+Tastatur ein-/ausblenden	Mostrar/ocultar teclado
+Sprache wechseln	Cambiar idioma
+Makro 	Macro 
+Während der Aufnahme keine Makros	No hay macros durante la grabación
+" gespeichert	» guardada
+Erst etwas tippen, dann + zum Speichern	Escribe algo primero, luego + para guardar
+Als Textbaustein speichern	Guardar como bloque de texto
+Text: 	Texto: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Grabando: escribe con normalidad, luego ■ Parar
+Aufnahme verworfen	Grabación descartada
+Nichts aufgenommen	No se grabó nada
+Aufnahme 	Grabación 
+Aufnahme speichern	Guardar grabación
+Lernen pausiert	Aprendizaje en pausa
+Lernen läuft wieder	El aprendizaje continúa
+ Wörter	 palabras
+Bisher gelernt: 	Aprendido hasta ahora: 
+, Zahlen: 	, números: 
+ Dateien gelesen, 	 archivos leídos, 
+ Wörter in 	 palabras en 
+ Sätzen gelernt	 frases aprendidas
+, dazu 	, además 
+-mal Datum oder Telefonnummer.	 veces fecha o número de teléfono.
+ Dateien übersprungen.	 archivos omitidos.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nSolo se guarda con qué frecuencia aparecen las palabras, no los textos. Las líneas con contraseña, PIN, IBAN y similares se omiten.
+Aus meinen Texten lernen	Aprender de mis textos
+Der Tresor ist in den Einstellungen ausgeschaltet	La caja fuerte está desactivada en los ajustes
+Im Tresor speichern?	¿Guardar en la caja fuerte?
+⚿ Speichern	⚿ Guardar
+Nein	No
+Tresor nicht lesbar	Caja fuerte ilegible
+🔒 Tresor entsperren	🔒 Desbloquear caja fuerte
+Tresor ist noch leer	La caja fuerte aún está vacía
++ Passwort hinzufügen	+ Añadir contraseña
+🎲 Erzeugen und eintippen	🎲 Crear y escribir
+✕ Ausblenden	✕ Ocultar
+Passwort "	Contraseña «
+" eingetippt	» escrita
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Nueva contraseña escrita. ¡Guárdala ahora, si no se pierde!
+Passwort 	Contraseña 
+Nicht gespeichert. "Speichern" geht noch kurz.	No guardada. «Guardar» aún funciona un momento.
+Im Tresor gespeichert	Guardada en la caja fuerte
+Tresor entsperren	Desbloquear caja fuerte
+PIN eingeben	Introduce el PIN
+PIN falsch, nochmal versuchen	PIN incorrecto, inténtalo de nuevo
+nicht lesbar	no legible
+gesperrt, PIN wird abgefragt	bloqueada, se pedirá el PIN
+{0} Wörter, {1} Zahlen	{0} palabras, {1} números
+Sicherung speichern	Guardar copia
+Tastatur-Sicherung	Copia del teclado
+Gespeichert:\n	Guardado:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nEl archivo está cifrado. Sin la contraseña de la copia no se puede abrir.
+Sicherung öffnen	Abrir copia
+Alle Dateien	Todos los archivos
+{0} neue E-Mail-Adressen	{0} direcciones de correo nuevas
+{0} neue Wörter, {1} neue Zahlen	{0} palabras nuevas, {1} números nuevos
+{0} neue eigene Begriffe	{0} términos propios nuevos
+{0} neue Makros, {1} ersetzt	{0} macros nuevas, {1} sustituidas
+Passwörter übersprungen: 	Contraseñas omitidas: 
+Passwörter übersprungen (Tresor gesperrt)	Contraseñas omitidas (caja fuerte bloqueada)
+{0} neue Passwörter, {1} aktualisiert	{0} contraseñas nuevas, {1} actualizadas
+Fertig.\n\n	Listo.\n\n
+mit PIN	con PIN
+ohne PIN	sin PIN
+Tresor gesperrt (	Caja fuerte bloqueada (
+ Passwörter gespeichert, 	 contraseñas guardadas, 
+Es ist keine PIN gesetzt.	No hay ningún PIN configurado.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN guardado. Recuérdalo bien: sin PIN nadie puede acceder a las contraseñas, ni siquiera tú.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN eliminado. La caja fuerte sigue cifrada con tu cuenta de Windows.
+Bildschirmtastatur: Einstellungen	Teclado en pantalla: ajustes
+Version	Versión
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	El teclado es gratis. Si te ayuda, me alegraría una donación.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Apóyame con una donación (Ko-fi)
+📖 Anleitung öffnen	📖 Abrir manual
+Aussehen	Apariencia
+Deckkraft Tastatur	Opacidad del teclado
+Deckkraft runder Knopf (eingeklappt)	Opacidad del botón redondo (plegado)
+Farbschema	Esquema de colores
+dunkel	oscuro
+hell	claro
+Bedienung	Manejo
+Verweilklick (Taste löst nach Verweilzeit aus)	Clic por permanencia (la tecla se activa tras un tiempo)
+Verweilzeit	Tiempo de permanencia
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Mostrar pulsaciones reales (p. ej. del Quadstick, se iluminan en rojo)
+Nachleuchten	Brillo posterior
+aus	apagado
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	El teclado recuerda la palabra empezada en cada ventana. Al volver, simplemente sigues escribiendo.
+Auch nach Klick ins Fenster weiterschreiben	Seguir escribiendo también tras hacer clic en la ventana
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Desactivado: solo continúa al cambiar por la barra de tareas, Alt+Tab o la barra de título. Un clic en el texto puede mover el cursor.
+Wortvorschläge	Sugerencias de palabras
+Zeilen	Filas
+1 Zeile	1 fila
+2 Zeilen	2 filas
+Vorschläge pro Zeile	Sugerencias por fila
+Schriftgröße Vorschläge und Makros	Tamaño de letra de sugerencias y macros
+Satzanfang automatisch groß	Mayúscula automática al inicio de frase
+Leerzeichen nach Vorschlag einfügen	Insertar espacio tras una sugerencia
+Getipptes Wort oben links zeigen (rot)	Mostrar la palabra escrita arriba a la izquierda (en rojo)
+Punkte mit 👁	Puntos con 👁
+immer nur Punkte	siempre solo puntos
+Passwörter beim Tippen	Contraseñas al escribir
+Klartext automatisch ausblenden nach	Ocultar el texto visible automáticamente tras
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	En los campos de contraseña solo se ven puntos. 👁 muestra la contraseña un momento en texto visible; mientras tanto el teclado queda excluido de capturas de pantalla y de compartir pantalla.
+Sprachen	Idiomas
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Marcado = activo. El orden vale para el botón de idioma arriba en el teclado.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Ofrecer mezcla (p. ej. DE+EN) al cambiar
+Sprache pro Programm merken	Recordar idioma por programa
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Si cambias el idioma en un programa, el teclado lo recuerda y la próxima vez cambia automáticamente en ese programa. Por ejemplo Outlook en inglés, WhatsApp en español.
+passend zur Sprache	según el idioma
+immer Deutsch (QWERTZ)	siempre alemán (QWERTZ)
+immer Englisch (QWERTY)	siempre inglés (QWERTY)
+Tastenlayout	Distribución de teclas
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Editar palabras propias (nombres, términos técnicos)
+Sonderzeichen unten	Caracteres especiales abajo
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Las cuatro teclas de abajo junto a abc/ABC. Un carácter por campo, opcionalmente un segundo para Mayús (p. ej. ".:"). Vacío = predeterminado.
+Auf Standard zurücksetzen	Restablecer predeterminados
+Lernen	Aprendizaje
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	El teclado recuerda qué palabras escribes, cómo las escribes y qué palabra suele seguir a otra. Todo se queda en este PC. En campos de contraseña nunca se aprende nada.
+Aus meinem Schreiben lernen	Aprender de lo que escribo
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Aprender también números (fechas, teléfonos, códigos postales)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Aprender direcciones de correo y sugerirlas tras 3 letras
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	En los campos de correo mostrar enseguida las direcciones
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Como las palabras nuevas, los números solo se sugieren a partir de la segunda vez. Los códigos únicos, PIN, TAN y números de tarjeta nunca se aprenden.
+Neue Wörter vorschlagen ab	Sugerir palabras nuevas a partir de
+1-mal geschrieben	escrita 1 vez
+-mal geschrieben	 veces escrita
+Aus meinen Texten lernen (Ordner wählen)	Aprender de mis textos (elegir carpeta)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Carpeta con tus textos (p. ej. Obsidian, Documentos). Se leen .txt .md .docx .html .eml .mbox, también en subcarpetas.
+Aus einzelnen Dateien lernen	Aprender de archivos sueltos
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Textos|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Todos los archivos|*.*
+Gelernte Wörter ansehen und löschen	Ver y borrar palabras aprendidas
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Las contraseñas se guardan cifradas solo para tu cuenta de Windows en este PC. Nunca aparecen en las sugerencias normales y se escriben directamente, nunca por el portapapeles.
+Tresor benutzen	Usar la caja fuerte
+In Passwortfeldern automatisch zeigen	Mostrar automáticamente en campos de contraseña
+Nach dem Eintippen "Im Tresor speichern?" fragen	Preguntar «¿Guardar en la caja fuerte?» tras escribir
+Länge neuer Passwörter	Longitud de las contraseñas nuevas
+ Zeichen	 caracteres
+Neue Passwörter mit Sonderzeichen	Contraseñas nuevas con caracteres especiales
+Tresor bearbeiten	Editar caja fuerte
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Con PIN, la caja fuerte queda bloqueada al iniciar y se vuelve a bloquear tras un tiempo sin uso. El PIN se introduce con teclas numéricas grandes.
+PIN festlegen oder ändern	Configurar o cambiar PIN
+PIN entfernen	Quitar PIN
+Mit PIN automatisch sperren nach	Con PIN, bloquear automáticamente tras
+nie	nunca
+ Minuten	 minutos
+Sichern und auf anderen PC übertragen	Copia de seguridad y paso a otro PC
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Meter en un archivo las palabras aprendidas, secuencias de palabras, números, términos propios, macros y, si quieres, las contraseñas. Impórtalo en el otro PC y todo se combina.
+Daten exportieren …	Exportar datos …
+Daten importieren …	Importar datos …
+Verschieben und Größe	Mover y tamaño
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Mover: arrastra la tecla de mover abajo a la derecha, o quédate un rato en una tecla. Tamaño: tira de cualquier borde o de la esquina inferior izquierda.
+Breite	Ancho
+ % des Bildschirms	 % de la pantalla
+Höhe	Alto
+unten rechts	abajo a la derecha
+unten mittig	abajo al centro
+unten links	abajo a la izquierda
+Standardposition (für Zurücksetzen)	Posición predeterminada (para restablecer)
+Größe und Position zurücksetzen	Restablecer tamaño y posición
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	El tamaño es un porcentaje de la pantalla. Si arrastras el teclado a otra pantalla, se adapta allí.
+Verschieben durch langes Draufbleiben	Mover quedándose en una tecla
+Maustaste gedrückt halten bis Verschieben	Mantener el botón del ratón hasta mover
+Verweilen bis Verschieben	Permanencia hasta mover
+automatisch (doppelte Verweilzeit)	automático (doble tiempo de permanencia)
+Maus ruhig halten zum Absetzen	Dejar el ratón quieto para colocar
+Greifzone am Rand zum Größe ändern	Zona de agarre en el borde para cambiar el tamaño
+ Pixel	 píxeles
+Globale Kürzel	Atajos globales
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Funcionan aunque otro programa esté activo. Ideal para una tecla del Quadstick.
+Protokoll öffnen	Abrir registro
+Start	Inicio
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Mostrar un botón en la barra de tareas (un clic abre el teclado entero)
+Mit Windows starten	Iniciar con Windows
+Eingeklappt starten	Iniciar plegado
+Sonstiges	Otros
+automatisch (wie Windows)	automático (como Windows)
+Sprache der Oberfläche	Idioma de la interfaz
+Einführung nochmal zeigen	Mostrar de nuevo la introducción
+Sperrbildschirm	Pantalla de bloqueo
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Mostrar en la pantalla de bloqueo (para introducir el PIN)
+Datenordner öffnen	Abrir carpeta de datos
+Tastatur beenden	Cerrar el teclado
+Makro-Kürzel nicht aktiv: 	Atajo de macro no activo: 
+Entfernen	Quitar
+Aus Datei hinzufügen	Añadir desde archivo
+Download-Quelle (nur https)	Fuente de descarga (solo https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Introduce una dirección que empiece por https://.
+Download-Quelle	Fuente de descarga
+Standard wiederherstellen	Restaurar predeterminado
+Mindestens eine Sprache muss aktiv sein.	Al menos un idioma tiene que estar activo.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 está integrado y solo se puede desactivar (quitar la marca).
+ löschen?	: ¿borrar?
+Sprachpaket	Paquete de idioma
+ wurde hinzugefügt und eingeschaltet.	 se ha añadido y activado.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Así se ve la asignación en la hoja del Quadstick. Elige la entrada deseada en la columna amarilla (p. ej. mp_triple_puff) y carga la configuración en el Quadstick.
+ausgeschaltet	desactivado
+✓ aktiv	✓ activo
+✗ nicht aktiv	✗ no activo
+Aufnehmen	Grabar
+Aus Liste ▾	De la lista ▾
+Aus	No
+Bildschirmtastatur öffnen	Abrir el teclado en pantalla
+Willkommen!	¡Bienvenido!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Este teclado en pantalla escribe en el programa en el que estás escribiendo y nunca le quita el foco. Pulsa «Siguiente» para ver lo más importante.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	A la izquierda ves en rojo lo que estás escribiendo. Al lado hay palabras adecuadas, un clic inserta la palabra con un espacio. El teclado aprende qué palabras escribes a menudo. Una palabra nueva la tomas con un clic en la palabra roja y se recuerda al instante.
+Groß/Klein-Taste	Tecla mayúsculas/minúsculas
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	«abc ↑» pone en mayúscula la última palabra, «ABC ↓» la pone en minúsculas. También funciona después, tras un espacio o un punto.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Mantén ✥ y arrastra el teclado adonde quieras. O quédate en cualquier tecla hasta que se llene el anillo naranja: entonces el teclado sigue al ratón. El tamaño se cambia en cualquier borde.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Mayús, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Un toque vale para la siguiente tecla. Dos toques fijan la tecla, tres toques la desactivan.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Bloques de texto, secuencias de teclas y programas con un clic. Con ● grabas simplemente lo que escribes.
+Sprache	Idioma
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Cambia el idioma de las sugerencias y la distribución de teclas. Qué idiomas se incluyen se elige en los ajustes.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Muestra tus contraseñas guardadas. En los campos de contraseña aparecen solas, un clic escribe la contraseña.
+Verweilklick	Clic por permanencia
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Activa o desactiva el clic por permanencia: una tecla se activa si te quedas un momento sobre ella con el ratón.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Aquí ajustas todo: tamaño, colores, idiomas, atajos y más. Allí también encontrarás esta introducción.
+Einklappen	Plegar
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Pliega el teclado en un pequeño botón redondo. Un clic en él lo trae de vuelta.
+Tray-Symbol und Kürzel	Icono de la bandeja y atajos
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Abajo a la derecha en la barra de tareas está el icono del teclado. La tecla Pausa muestra y oculta el teclado, ideal para una tecla del Quadstick.
+Fertig!	¡Listo!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Que disfrutes escribiendo. Todo lo demás está en el manual: "📖 Abrir manual" arriba del todo en los ajustes o en el menú del icono. El teclado es gratis. Si te ayuda, me alegraría una donación.
+Überspringen	Saltar
+Zurück	Atrás
+Fertig	Listo
+Weiter	Siguiente
+tresor.dat hat ein unbekanntes Format.	tresor.dat tiene un formato desconocido.
+Tresor ist gesperrt.	La caja fuerte está bloqueada.
+Passwort	Contraseña
+Mindestens 4 Ziffern	Al menos 4 cifras
+PIN festlegen	Configurar PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Introduce el nuevo PIN (de 4 a 12 cifras)
+PIN zur Sicherheit wiederholen	Repite el PIN para confirmar
+Die beiden PINs sind verschieden. Bitte nochmal.	Los dos PIN son distintos. Inténtalo de nuevo.
+Passwort-Eintrag	Entrada de contraseña
+Name (so steht es in der Tresorleiste)	Nombre (como aparece en la barra de la caja fuerte)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Usuario o correo (solo como recordatorio, opcional)
+Benutzername oder E-Mail	Usuario o correo
+Sicheres Passwort erzeugen	Crear una contraseña segura
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Coincide con (palabras del título de la ventana, p. ej. «gmail, google»)
+Name und Passwort dürfen nicht leer sein.	El nombre y la contraseña no pueden estar vacíos.
+Tresor konnte nicht gespeichert werden: 	No se pudo guardar la caja fuerte: 
+" aus dem Tresor löschen?	»: ¿borrar de la caja fuerte?
+Gelernte Wörter	Palabras aprendidas
+Zahlen	Números
+E-Mail-Adressen	Direcciones de correo
+Suchen:	Buscar:
+Markierte löschen	Borrar seleccionadas
+Alles vergessen	Olvidar todo
+ E-Mail-Adressen gelernt, für alle Sprachen	 direcciones de correo aprendidas, para todos los idiomas
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 números aprendidos (fechas, teléfonos, códigos postales), para todos los idiomas
+ Wörter, 	 palabras, 
+ Wortfolgen gelernt	 secuencias de palabras aprendidas
+   (die ersten 3000 angezeigt)	   (se muestran las primeras 3000)
+Alle gelernten E-Mail-Adressen vergessen?	¿Olvidar todas las direcciones de correo aprendidas?
+Alle gelernten Zahlen vergessen?	¿Olvidar todos los números aprendidos?
+Alles Gelernte für 	¿Olvidar todo lo aprendido para 
+ vergessen?	?
+Suche Dateien …	Buscando archivos …
+Datei 	Archivo 
+ von 	 de 
+Deutsch	Alemán
+Englisch	Inglés
+Niederländisch	Neerlandés
+Französisch	Francés
+Dänisch	Danés
+Polnisch	Polaco
+Tschechisch	Checo
+Italienisch	Italiano
+Spanisch	Español
+Türkisch	Turco
+Russisch	Ruso
+Portugiesisch	Portugués
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick bucal como el Quadstick, un ratón de cabeza o con la mirada.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Recordar y proponer IBAN (solo válidos, con dígito de control correcto)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Los números y los IBAN se proponen ya después de la primera vez. Los PIN, TAN y números de tarjeta nunca se aprenden.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Tu idioma de Windows ({0}) aún no está integrado, lo siento.
+IBAN merken und vorschlagen	Recordar y proponer IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Aprender PIN y números de tarjeta (cifrados)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Los números se proponen ya después de la primera vez. Un IBAN solo si el dígito de control es correcto. Los PIN y números de tarjeta se guardan cifrados en este PC y solo van a una copia de seguridad con contraseña.
+Leerzeichen nach . , ! ? : von selbst einfügen	Insertar un espacio automáticamente después de . , ! ? :
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Toca ✕ otra vez para cerrar el teclado
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Con el atajo (p. ej. Pausa), abrir donde está el ratón
+Wo die Tastatur dann erscheint	Dónde aparece entonces el teclado
+unter der Maus, mittig	debajo del ratón, centrado
+unter der Maus, nach rechts	debajo del ratón, hacia la derecha
+unter der Maus, nach links	debajo del ratón, hacia la izquierda
+über der Maus, mittig	encima del ratón, centrado
+über der Maus, nach rechts	encima del ratón, hacia la derecha
+über der Maus, nach links	encima del ratón, hacia la izquierda
+🔍 Suchen	🔍 Buscar
+nichts gefunden	no se encontró nada
+✕ Suche beenden	✕ Terminar búsqueda
+Namen tippen, die Liste wird kleiner	Escribe un nombre, la lista se acorta

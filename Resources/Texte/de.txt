@@ -1,0 +1,528 @@
+# Texte der Oberfläche: deutscher Text<TAB>Übersetzung. Diese Datei listet alle Schlüssel.
+Passwörter nur verschlüsselt sichern	Passwörter nur verschlüsselt sichern
+Das ist keine Sicherungsdatei der Tastatur.	Das ist keine Sicherungsdatei der Tastatur.
+Die Sicherungsdatei ist unvollständig.	Die Sicherungsdatei ist unvollständig.
+Daten exportieren	Daten exportieren
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.
+Gelernte Wörter, Wortfolgen und Zahlen	Gelernte Wörter, Wortfolgen und Zahlen
+Eigene Begriffe	Eigene Begriffe
+Makros	Makros
+Passwörter aus dem Tresor	Passwörter aus dem Tresor
+Passwort für die Sicherung	Passwort für die Sicherung
+Anzeigen / verbergen	Anzeigen / verbergen
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.
+Speichern unter …	Speichern unter …
+Bitte mindestens einen Haken setzen.	Bitte mindestens einen Haken setzen.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.
+Abbrechen	Abbrechen
+Daten importieren	Daten importieren
+Sicherung vom 	Sicherung vom 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Die Sicherung ist verschlüsselt. Passwort der Sicherung:
+Öffnen	Öffnen
+Datei beschädigt: 	Datei beschädigt: 
+Passwort falsch, nochmal versuchen.	Passwort falsch, nochmal versuchen.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})
+Eigene Begriffe ({0})	Eigene Begriffe ({0})
+Makros ({0})	Makros ({0})
+Passwörter ({0})	Passwörter ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.
+Übernehmen	Übernehmen
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl
+Makroleiste öffnen	Makroleiste öffnen
+unbekannte Taste	unbekannte Taste
+interne Nummer doppelt	interne Nummer doppelt
+doppelt vergeben	doppelt vergeben
+Taste gibt es im Tastaturlayout nicht	Taste gibt es im Tastaturlayout nicht
+schon von einem anderen Programm belegt (Fehler 1409)	schon von einem anderen Programm belegt (Fehler 1409)
+von Windows abgelehnt	von Windows abgelehnt
+Windows-Fehler 	Windows-Fehler 
+Kürzel aufnehmen	Kürzel aufnehmen
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).
+Nochmal	Nochmal
+Tastatur-Hook fehlt, siehe protokoll.txt	Tastatur-Hook fehlt, siehe protokoll.txt
+Erkannt: 	Erkannt: 
+Kürzel testen	Kürzel testen
+Drück jetzt die Taste am Quadstick.\n	Drück jetzt die Taste am Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n
+Aktiv: 	Aktiv: 
+Schließen	Schließen
+→ Kürzel ausgelöst: 	→ Kürzel ausgelöst: 
+keine Kürzel eingetragen	keine Kürzel eingetragen
+Taste angekommen: 	Taste angekommen: 
+  (von Software)	  (von Software)
+Tastatur-Hook konnte nicht gesetzt werden	Tastatur-Hook konnte nicht gesetzt werden
+neu	neu
+„{0}“ gemerkt	„{0}“ gemerkt
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Noch keine Makros: ✎ anlegen oder ● aufnehmen
+weiter  	weiter  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab
+Leertaste	Leertaste
+■ Stopp	■ Stopp
+✕ Zurück	✕ Zurück
+Verschieben abgebrochen	Verschieben abgebrochen
+Position gespeichert	Position gespeichert
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde
+Weitere Sprachen herunterladen	Weitere Sprachen herunterladen
+Quelle:\n	Quelle:\n
+\nEs wird nur geladen, was du hier anklickst.	\nEs wird nur geladen, was du hier anklickst.
+Lade Übersicht …	Lade Übersicht …
+Herunterladen	Herunterladen
+Erneut versuchen	Erneut versuchen
+Keine Sprachpakete gefunden.	Keine Sprachpakete gefunden.
+Sprache auswählen und "Herunterladen" klicken.	Sprache auswählen und "Herunterladen" klicken.
+Lade 	Lade 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.
+  · hinzugefügt	  · hinzugefügt
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.
+Sie werden in allen Sprachen vorgeschlagen.	Sie werden in allen Sprachen vorgeschlagen.
+Datei nicht lesbar: 	Datei nicht lesbar: 
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").
+Zu wenige Wörter (	Zu wenige Wörter (
+). Format: Wort, Tabulator, Häufigkeit, eine Zeile pro Wort.	). Format: Wort, Tabulator, Häufigkeit, eine Zeile pro Wort.
+ ist schon fest eingebaut.	 ist schon fest eingebaut.
+Alle	Alle
+   ✓ installiert	   ✓ installiert
+Unter dieser Adresse liegen noch keine Sprachpakete. Sprachen lassen sich über "Aus Datei hinzufügen" auch ohne Internet installieren.	Unter dieser Adresse liegen noch keine Sprachpakete. Sprachen lassen sich über "Aus Datei hinzufügen" auch ohne Internet installieren.
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.
+Der Server meldet einen Fehler (	Der Server meldet einen Fehler (
+). Die Tastatur läuft normal weiter.	). Die Tastatur läuft normal weiter.
+Download fehlgeschlagen: 	Download fehlgeschlagen: 
+Datei unvollständig (	Datei unvollständig (
+ statt 	 statt 
+ Bytes).	 Bytes).
+Prüfsumme stimmt nicht, Datei wurde verworfen.	Prüfsumme stimmt nicht, Datei wurde verworfen.
+Tab ⇥	Tab ⇥
+Entf	Entf
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Strg
+Pos1	Pos1
+Ende	Ende
+Bild ↑	Bild ↑
+Bild ↓	Bild ↓
+Einfg	Einfg
+Menü	Menü
+Gelernte Wörter der Bildschirmtastatur	Gelernte Wörter der Bildschirmtastatur
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl
+nicht mit dem Installer unter "Programme" installiert	nicht mit dem Installer unter "Programme" installiert
+nicht signiert	nicht signiert
+nicht als Hilfsmittel bei Windows angemeldet	nicht als Hilfsmittel bei Windows angemeldet
+Geht erst mit der installierten, signierten Version.	Geht erst mit der installierten, signierten Version.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Die Tastatur erscheint auf dem Sperrbildschirm.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Die Tastatur erscheint jetzt auf dem Sperrbildschirm.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.
+Hat nicht geklappt: 	Hat nicht geklappt: 
+Tasten	Tasten
+Warten	Warten
+Text	Text
+keine	keine
+blau	blau
+grün	grün
+rot	rot
+orange	orange
+lila	lila
+gelb	gelb
+grau	grau
+Zeile 	Zeile 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.
+Unerwarteter Text, Einrückung prüfen.	Unerwarteter Text, Einrückung prüfen.
+Einrückung passt nicht.	Einrückung passt nicht.
+Text nach dem schließenden ".	Text nach dem schließenden ".
+Hier wird ein Wert erwartet, keine Liste.	Hier wird ein Wert erwartet, keine Liste.
+Unbekannte Taste "{0}".	Unbekannte Taste "{0}".
+"{0}" muss eine Liste sein.	"{0}" muss eine Liste sein.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)
+"{0}" darf keine Liste sein.	"{0}" darf keine Liste sein.
+Unbekanntes Kürzel "{0}".	Unbekanntes Kürzel "{0}".
+Unbekannter Eintrag "{0}".	Unbekannter Eintrag "{0}".
+Makro ohne "name".	Makro ohne "name".
+makros.yaml konnte nicht gelesen werden: 	makros.yaml konnte nicht gelesen werden: 
+Programme	Programme
+Grüße	Grüße
+Viele Grüße	Viele Grüße
+Datum	Datum
+Heute	Heute
+{wochentag}, {datum}, {uhrzeit} Uhr	{wochentag}, {datum}, {uhrzeit} Uhr
+Alles kopieren	Alles kopieren
+Desktop	Desktop
+Browser	Browser
+Neuer Tab	Neuer Tab
+Tab zu	Tab zu
+Tab zurück	Tab zurück
+Editor	Editor
+Rechner	Rechner
+Neue Mail	Neue Mail
+Hallo {cursor},\n\nViele Grüße	Hallo {cursor},\n\nViele Grüße
+Unbekannte Taste "{0}" in Makro "{1}"	Unbekannte Taste "{0}" in Makro "{1}"
+"{0}" ließ sich nicht öffnen: 	"{0}" ließ sich nicht öffnen: 
+Makros bearbeiten	Makros bearbeiten
+Neu	Neu
+Bearbeiten	Bearbeiten
+Kopieren	Kopieren
+▲  Hoch	▲  Hoch
+▼  Runter	▼  Runter
+Löschen	Löschen
+Datei im Editor öffnen	Datei im Editor öffnen
+Datei neu laden	Datei neu laden
+\nSpeichern hier überschreibt die fehlerhafte Datei (eine Sicherung bleibt als makros.yaml.bak).	\nSpeichern hier überschreibt die fehlerhafte Datei (eine Sicherung bleibt als makros.yaml.bak).
+Neues Makro	Neues Makro
+ (Kopie)	 (Kopie)
+Makro "	Makro "
+" löschen?	" löschen?
+Makro bearbeiten	Makro bearbeiten
+Name (Beschriftung des Knopfs)	Name (Beschriftung des Knopfs)
+Gruppe (leer = keine)	Gruppe (leer = keine)
+Farbe	Farbe
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)
+Kürzel für "	Kürzel für "
+Kein Kürzel	Kein Kürzel
+Schritte (werden der Reihe nach ausgeführt)	Schritte (werden der Reihe nach ausgeführt)
++ Text	+ Text
++ Tasten	+ Tasten
++ Öffnen	+ Öffnen
++ Warten	+ Warten
+Taste aufnehmen	Taste aufnehmen
+Speichern	Speichern
+Globales Kürzel: 	Globales Kürzel: 
+Noch keine Schritte. Unten einen hinzufügen.	Noch keine Schritte. Unten einen hinzufügen.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pause in Millisekunden (1000 = 1 Sekunde)
+Taste für den Schritt	Taste für den Schritt
+Bitte einen Namen eingeben.	Bitte einen Namen eingeben.
+Unbekannte Taste "	Unbekannte Taste "
+" im Schritt: 	" im Schritt: 
+"Warten" braucht eine Zahl in Millisekunden.	"Warten" braucht eine Zahl in Millisekunden.
+Name	Name
+Verwerfen	Verwerfen
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl
+Taste 	Taste 
+Passwort-Tresor	Passwort-Tresor
+Kürzel nicht aktiv	Kürzel nicht aktiv
+Tastatur zeigen / verstecken	Tastatur zeigen / verstecken
+Lernen fortsetzen	Lernen fortsetzen
+Lernen pausieren	Lernen pausieren
+Passwort-Tresor bearbeiten	Passwort-Tresor bearbeiten
+Einstellungen	Einstellungen
+Anleitung öffnen	Anleitung öffnen
+Einführung zeigen	Einführung zeigen
+☕ Kaffee spendieren	☕ Kaffee spendieren
+Beenden	Beenden
+Die Anleitung wurde nicht gefunden.	Die Anleitung wurde nicht gefunden.
+Anleitung	Anleitung
+Die Anleitung ließ sich nicht öffnen: 	Die Anleitung ließ sich nicht öffnen: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.
+Sprache herunterladen	Sprache herunterladen
+Sprache: 	Sprache: 
+  (für 	  (für 
+Tastatur ein-/ausblenden	Tastatur ein-/ausblenden
+Sprache wechseln	Sprache wechseln
+Makro 	Makro 
+makros.yaml konnte nicht gespeichert werden:\n	makros.yaml konnte nicht gespeichert werden:\n
+Während der Aufnahme keine Makros	Während der Aufnahme keine Makros
+makros.yaml hat einen Fehler, bitte erst reparieren	makros.yaml hat einen Fehler, bitte erst reparieren
+" gespeichert	" gespeichert
+Erst etwas tippen, dann + zum Speichern	Erst etwas tippen, dann + zum Speichern
+Als Textbaustein speichern	Als Textbaustein speichern
+Text: 	Text: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Aufnahme läuft: einfach tippen, dann ■ Stopp
+Aufnahme verworfen	Aufnahme verworfen
+Nichts aufgenommen	Nichts aufgenommen
+Aufnahme 	Aufnahme 
+Aufnahme speichern	Aufnahme speichern
+Lernen pausiert	Lernen pausiert
+Lernen läuft wieder	Lernen läuft wieder
+ Wörter	 Wörter
+Bisher gelernt: 	Bisher gelernt: 
+, Zahlen: 	, Zahlen: 
+ Dateien gelesen, 	 Dateien gelesen, 
+ Wörter in 	 Wörter in 
+ Sätzen gelernt	 Sätzen gelernt
+, dazu 	, dazu 
+-mal Datum oder Telefonnummer.	-mal Datum oder Telefonnummer.
+ Dateien übersprungen.	 Dateien übersprungen.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.
+Aus meinen Texten lernen	Aus meinen Texten lernen
+Der Tresor ist in den Einstellungen ausgeschaltet	Der Tresor ist in den Einstellungen ausgeschaltet
+Im Tresor speichern?	Im Tresor speichern?
+⚿ Speichern	⚿ Speichern
+Nein	Nein
+Tresor nicht lesbar	Tresor nicht lesbar
+🔒 Tresor entsperren	🔒 Tresor entsperren
+Tresor ist noch leer	Tresor ist noch leer
++ Passwort hinzufügen	+ Passwort hinzufügen
+🎲 Erzeugen und eintippen	🎲 Erzeugen und eintippen
+✕ Ausblenden	✕ Ausblenden
+Passwort "	Passwort "
+" eingetippt	" eingetippt
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!
+Passwort 	Passwort 
+Nicht gespeichert. "Speichern" geht noch kurz.	Nicht gespeichert. "Speichern" geht noch kurz.
+Im Tresor gespeichert	Im Tresor gespeichert
+Tresor konnte nicht gespeichert werden:\n	Tresor konnte nicht gespeichert werden:\n
+Tresor entsperren	Tresor entsperren
+PIN eingeben	PIN eingeben
+PIN falsch, nochmal versuchen	PIN falsch, nochmal versuchen
+nicht lesbar	nicht lesbar
+gesperrt, PIN wird abgefragt	gesperrt, PIN wird abgefragt
+{0} Wörter, {1} Zahlen	{0} Wörter, {1} Zahlen
+Sicherung speichern	Sicherung speichern
+Tastatur-Sicherung	Tastatur-Sicherung
+Gespeichert:\n	Gespeichert:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.
+Sicherung öffnen	Sicherung öffnen
+Alle Dateien	Alle Dateien
+{0} neue E-Mail-Adressen	{0} neue E-Mail-Adressen
+{0} neue Wörter, {1} neue Zahlen	{0} neue Wörter, {1} neue Zahlen
+{0} neue eigene Begriffe	{0} neue eigene Begriffe
+{0} neue Makros, {1} ersetzt	{0} neue Makros, {1} ersetzt
+Passwörter übersprungen: 	Passwörter übersprungen: 
+Passwörter übersprungen (Tresor gesperrt)	Passwörter übersprungen (Tresor gesperrt)
+{0} neue Passwörter, {1} aktualisiert	{0} neue Passwörter, {1} aktualisiert
+Fertig.\n\n	Fertig.\n\n
+\n\nDie Datei tresor.dat im Datenordner prüfen oder eine Sicherung (tresor.dat.bak) zurückholen.	\n\nDie Datei tresor.dat im Datenordner prüfen oder eine Sicherung (tresor.dat.bak) zurückholen.
+mit PIN	mit PIN
+ohne PIN	ohne PIN
+Tresor gesperrt (	Tresor gesperrt (
+ Passwörter gespeichert, 	 Passwörter gespeichert, 
+Es ist keine PIN gesetzt.	Es ist keine PIN gesetzt.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.
+Bildschirmtastatur: Einstellungen	Bildschirmtastatur: Einstellungen
+Version	Version
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Unterstütze mich mit einer Spende (Ko-fi)
+📖 Anleitung öffnen	📖 Anleitung öffnen
+Aussehen	Aussehen
+Deckkraft Tastatur	Deckkraft Tastatur
+Deckkraft runder Knopf (eingeklappt)	Deckkraft runder Knopf (eingeklappt)
+Farbschema	Farbschema
+dunkel	dunkel
+hell	hell
+Bedienung	Bedienung
+Verweilklick (Taste löst nach Verweilzeit aus)	Verweilklick (Taste löst nach Verweilzeit aus)
+Verweilzeit	Verweilzeit
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)
+Nachleuchten	Nachleuchten
+aus	aus
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.
+Auch nach Klick ins Fenster weiterschreiben	Auch nach Klick ins Fenster weiterschreiben
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.
+Wortvorschläge	Wortvorschläge
+Zeilen	Zeilen
+1 Zeile	1 Zeile
+2 Zeilen	2 Zeilen
+Vorschläge pro Zeile	Vorschläge pro Zeile
+Schriftgröße Vorschläge und Makros	Schriftgröße Vorschläge und Makros
+Satzanfang automatisch groß	Satzanfang automatisch groß
+Leerzeichen nach Vorschlag einfügen	Leerzeichen nach Vorschlag einfügen
+Getipptes Wort oben links zeigen (rot)	Getipptes Wort oben links zeigen (rot)
+Punkte mit 👁	Punkte mit 👁
+immer nur Punkte	immer nur Punkte
+Passwörter beim Tippen	Passwörter beim Tippen
+Klartext automatisch ausblenden nach	Klartext automatisch ausblenden nach
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.
+Sprachen	Sprachen
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Gemischt (z. B. DE+EN) beim Umschalten anbieten
+Sprache pro Programm merken	Sprache pro Programm merken
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.
+passend zur Sprache	passend zur Sprache
+immer Deutsch (QWERTZ)	immer Deutsch (QWERTZ)
+immer Englisch (QWERTY)	immer Englisch (QWERTY)
+Tastenlayout	Tastenlayout
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Eigene Begriffe bearbeiten (Namen, Fachwörter)
+Sonderzeichen unten	Sonderzeichen unten
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.
+Auf Standard zurücksetzen	Auf Standard zurücksetzen
+Lernen	Lernen
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.
+Aus meinem Schreiben lernen	Aus meinem Schreiben lernen
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	In E-Mail-Feldern gleich die E-Mail-Adressen zeigen
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.
+Neue Wörter vorschlagen ab	Neue Wörter vorschlagen ab
+1-mal geschrieben	1-mal geschrieben
+-mal geschrieben	-mal geschrieben
+Aus meinen Texten lernen (Ordner wählen)	Aus meinen Texten lernen (Ordner wählen)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.
+Aus einzelnen Dateien lernen	Aus einzelnen Dateien lernen
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*
+Gelernte Wörter ansehen und löschen	Gelernte Wörter ansehen und löschen
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.
+Tresor benutzen	Tresor benutzen
+In Passwortfeldern automatisch zeigen	In Passwortfeldern automatisch zeigen
+Nach dem Eintippen "Im Tresor speichern?" fragen	Nach dem Eintippen "Im Tresor speichern?" fragen
+Länge neuer Passwörter	Länge neuer Passwörter
+ Zeichen	 Zeichen
+Neue Passwörter mit Sonderzeichen	Neue Passwörter mit Sonderzeichen
+Tresor bearbeiten	Tresor bearbeiten
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.
+PIN festlegen oder ändern	PIN festlegen oder ändern
+PIN entfernen	PIN entfernen
+Mit PIN automatisch sperren nach	Mit PIN automatisch sperren nach
+nie	nie
+ Minuten	 Minuten
+Sichern und auf anderen PC übertragen	Sichern und auf anderen PC übertragen
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.
+Daten exportieren …	Daten exportieren …
+Daten importieren …	Daten importieren …
+Verschieben und Größe	Verschieben und Größe
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.
+Breite	Breite
+ % des Bildschirms	 % des Bildschirms
+Höhe	Höhe
+unten rechts	unten rechts
+unten mittig	unten mittig
+unten links	unten links
+Standardposition (für Zurücksetzen)	Standardposition (für Zurücksetzen)
+Größe und Position zurücksetzen	Größe und Position zurücksetzen
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.
+Verschieben durch langes Draufbleiben	Verschieben durch langes Draufbleiben
+Maustaste gedrückt halten bis Verschieben	Maustaste gedrückt halten bis Verschieben
+Verweilen bis Verschieben	Verweilen bis Verschieben
+automatisch (doppelte Verweilzeit)	automatisch (doppelte Verweilzeit)
+Maus ruhig halten zum Absetzen	Maus ruhig halten zum Absetzen
+Greifzone am Rand zum Größe ändern	Greifzone am Rand zum Größe ändern
+ Pixel	 Pixel
+Globale Kürzel	Globale Kürzel
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.
+Protokoll öffnen	Protokoll öffnen
+Start	Start
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)
+Mit Windows starten	Mit Windows starten
+Eingeklappt starten	Eingeklappt starten
+Sonstiges	Sonstiges
+automatisch (wie Windows)	automatisch (wie Windows)
+Sprache der Oberfläche	Sprache der Oberfläche
+Einführung nochmal zeigen	Einführung nochmal zeigen
+Sperrbildschirm	Sperrbildschirm
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)
+Datenordner öffnen	Datenordner öffnen
+Tastatur beenden	Tastatur beenden
+Makro-Kürzel nicht aktiv: 	Makro-Kürzel nicht aktiv: 
+Entfernen	Entfernen
+Aus Datei hinzufügen	Aus Datei hinzufügen
+Download-Quelle (nur https)	Download-Quelle (nur https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Bitte eine Adresse eingeben, die mit https:// beginnt.
+Download-Quelle	Download-Quelle
+Standard wiederherstellen	Standard wiederherstellen
+Mindestens eine Sprache muss aktiv sein.	Mindestens eine Sprache muss aktiv sein.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).
+ löschen?	 löschen?
+Wortliste auswählen (Wort, Tabulator, Häufigkeit)	Wortliste auswählen (Wort, Tabulator, Häufigkeit)
+Wortliste (*.txt)|*.txt|Alle Dateien|*.*	Wortliste (*.txt)|*.txt|Alle Dateien|*.*
+Sprachpaket	Sprachpaket
+ wurde hinzugefügt und eingeschaltet.	 wurde hinzugefügt und eingeschaltet.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.
+ausgeschaltet	ausgeschaltet
+✓ aktiv	✓ aktiv
+✗ nicht aktiv	✗ nicht aktiv
+Aufnehmen	Aufnehmen
+Aus Liste ▾	Aus Liste ▾
+Aus	Aus
+Bildschirmtastatur öffnen	Bildschirmtastatur öffnen
+Willkommen!	Willkommen!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.
+Groß/Klein-Taste	Groß/Klein-Taste
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.
+Strg, Shift, Alt, Win, AltGr	Strg, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.
+Sprache	Sprache
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.
+Verweilklick	Verweilklick
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.
+Einklappen	Einklappen
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.
+Tray-Symbol und Kürzel	Tray-Symbol und Kürzel
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.
+Fertig!	Fertig!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.
+Überspringen	Überspringen
+Zurück	Zurück
+Fertig	Fertig
+Weiter	Weiter
+tresor.dat hat ein unbekanntes Format.	tresor.dat hat ein unbekanntes Format.
+Tresor ist gesperrt.	Tresor ist gesperrt.
+Passwort	Passwort
+Mindestens 4 Ziffern	Mindestens 4 Ziffern
+PIN festlegen	PIN festlegen
+Neue PIN eingeben (4 bis 12 Ziffern)	Neue PIN eingeben (4 bis 12 Ziffern)
+PIN zur Sicherheit wiederholen	PIN zur Sicherheit wiederholen
+Die beiden PINs sind verschieden. Bitte nochmal.	Die beiden PINs sind verschieden. Bitte nochmal.
+Passwort-Eintrag	Passwort-Eintrag
+Name (so steht es in der Tresorleiste)	Name (so steht es in der Tresorleiste)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Benutzername oder E-Mail (nur zur Erinnerung, optional)
+Benutzername oder E-Mail	Benutzername oder E-Mail
+Sicheres Passwort erzeugen	Sicheres Passwort erzeugen
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")
+Name und Passwort dürfen nicht leer sein.	Name und Passwort dürfen nicht leer sein.
+Tresor konnte nicht gespeichert werden: 	Tresor konnte nicht gespeichert werden: 
+" aus dem Tresor löschen?	" aus dem Tresor löschen?
+Gelernte Wörter	Gelernte Wörter
+Zahlen	Zahlen
+E-Mail-Adressen	E-Mail-Adressen
+Suchen:	Suchen:
+Markierte löschen	Markierte löschen
+Alles vergessen	Alles vergessen
+ E-Mail-Adressen gelernt, für alle Sprachen	 E-Mail-Adressen gelernt, für alle Sprachen
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen
+ Wörter, 	 Wörter, 
+ Wortfolgen gelernt	 Wortfolgen gelernt
+   (die ersten 3000 angezeigt)	   (die ersten 3000 angezeigt)
+Alle gelernten E-Mail-Adressen vergessen?	Alle gelernten E-Mail-Adressen vergessen?
+Alle gelernten Zahlen vergessen?	Alle gelernten Zahlen vergessen?
+Alles Gelernte für 	Alles Gelernte für 
+ vergessen?	 vergessen?
+Suche Dateien …	Suche Dateien …
+Datei 	Datei 
+ von 	 von 
+Deutsch	Deutsch
+Englisch	Englisch
+Niederländisch	Niederländisch
+Französisch	Französisch
+Dänisch	Dänisch
+Polnisch	Polnisch
+Tschechisch	Tschechisch
+Italienisch	Italienisch
+Spanisch	Spanisch
+Türkisch	Türkisch
+Russisch	Russisch
+Portugiesisch	Portugiesisch
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.
+IBAN merken und vorschlagen	IBAN merken und vorschlagen
+PINs und Kartennummern lernen (verschlüsselt)	PINs und Kartennummern lernen (verschlüsselt)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.
+Leerzeichen nach . , ! ? : von selbst einfügen	Leerzeichen nach . , ! ? : von selbst einfügen
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Nochmal ✕ tippen, dann wird die Tastatur beendet
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist
+Wo die Tastatur dann erscheint	Wo die Tastatur dann erscheint
+unter der Maus, mittig	unter der Maus, mittig
+unter der Maus, nach rechts	unter der Maus, nach rechts
+unter der Maus, nach links	unter der Maus, nach links
+über der Maus, mittig	über der Maus, mittig
+über der Maus, nach rechts	über der Maus, nach rechts
+über der Maus, nach links	über der Maus, nach links
+🔍 Suchen	🔍 Suchen
+nichts gefunden	nichts gefunden
+✕ Suche beenden	✕ Suche beenden
+Namen tippen, die Liste wird kleiner	Namen tippen, die Liste wird kleiner

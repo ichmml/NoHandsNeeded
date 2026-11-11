@@ -1,0 +1,445 @@
+NoHandsNeeded
+=============
+Bildschirmtastatur, Version 1.01
+
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
+die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
+Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.
+
+Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
+zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.
+Ziel: so wenig Klicks wie möglich. Sie nimmt dem Programm, in das man tippt, nie den Fokus weg.
+
+Start
+-----
+NoHandsNeeded.exe in einen eigenen Ordner legen (z. B. C:\Tools\NoHandsNeeded) und starten.
+Nichts installieren nötig, .NET Framework 4.8 ist in Windows 10/11 schon drin.
+Eine ältere Version vorher über das Tray-Symbol beenden und die .exe einfach ersetzen.
+Einstellungen bleiben erhalten.
+
+Beim ersten Start meldet Windows evtl. "Der Computer wurde durch Windows geschützt".
+Dann auf "Weitere Informationen" und "Trotzdem ausführen" klicken. Das kommt, weil die
+Datei nicht signiert ist.
+
+Beim ersten Start stellt sich die Tastatur auf die Windows-Sprache ein (Vorschläge, Tasten-
+layout und Oberfläche) und zeigt eine kurze Einführung zum Durchklicken. Die Einführung gibt
+es jederzeit wieder: Einstellungen → Sonstiges → "Einführung nochmal zeigen" oder Tray-Menü.
+Diese Anleitung öffnet sich über "Anleitung öffnen" ganz oben in den Einstellungen oder im
+Tray-Menü, immer in der Sprache der Oberfläche.
+
+Neben der .exe entsteht der Ordner "NoHandsNeeded-Daten" mit einstellungen.txt, makros.yaml,
+protokoll.txt, dem Ordner "Lernen" (gelernte Wörter) und tresor.dat (Passwörter, verschlüsselt).
+Ist der Ordner nicht beschreibbar, landen die Daten in %APPDATA%\NoHandsNeeded.
+
+Obere Leiste
+------------
+  Esc      Escape-Taste (Fn sitzt unten links in der untersten Reihe)
+  Mitte    ganz links rot das gerade getippte Wort (siehe unten), daneben die
+           Wortvorschläge, ein Klick übernimmt das Wort samt Leerzeichen
+  Makros   öffnet die Makroleiste (siehe unten)
+  DE       Sprache der Wortvorschläge, ein Klick wechselt (siehe "Sprachen")
+  ⚿        Passwort-Tresor zeigen/ausblenden (siehe "Passwort-Tresor")
+  ◷        Verweilklick an/aus
+  ⚙        Einstellungen
+  ▾        einklappen zum kleinen runden Knopf (Klick oder Verweilen klappt wieder auf)
+  ✕        Tastatur beenden: zweimal tippen (nach dem ersten Tipp ist ✕ rot)
+
+Getipptes Wort (oben links, rot)
+--------------------------------
+Das erste Feld der Vorschlagsleiste zeigt rot und fett, was man gerade tippt, Buchstabe
+für Buchstabe. Bei Zahlen steht die ganze Zahl samt Punkten da, eine wartende Akzent-Taste
+(z. B. ´) erscheint am Ende. Lange Wörter werden nie gekürzt, das Feld wird einfach breiter.
+Sonderzeichen lassen die Anzeige stehen: Es steht alles seit dem letzten Leerzeichen, Enter
+oder Tab da, also z. B. "s!add" oder eine Internetadresse. Die Vorschläge daneben gehören
+zum letzten Wort ("add"). Ein Klick auf so ein rotes Feld setzt nur ein Leerzeichen.
+  - Kennt die Tastatur das Wort noch nicht, steht klein "neu" daneben. Ein Klick auf das
+    rote Wort übernimmt es mit Leerzeichen und merkt es sich sofort, es wird ab dann
+    vorgeschlagen.
+  - Im Passwortfeld stehen rote Punkte und die Anzahl der Zeichen, daneben 👁. 👁 zeigt das
+    Passwort 10 Sekunden im Klartext (oder bis zum nächsten Klick). Solange ist die
+    Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen. Passwörter aus dem
+    Tresor erscheinen nur als Punkte. Nach Enter oder beim Verlassen des Felds ist alles weg.
+  - In den eigenen Fenstern der Tastatur (neuer Tresor-Eintrag, Sicherungspasswort) sieht
+    man das Passwort beim Tippen im Klartext, im Fenster und oben in der Tastatur.
+    "Anzeigen / verbergen" schaltet auf Punkte. Gelernt, protokolliert oder aufgenommen
+    wird dabei nichts.
+  - Gezeigt wird nur, was über diese Tastatur getippt wurde. Nach einem Klick ins Fenster
+    oder einem echten Tastendruck ist das Feld leer.
+  - Einstellungen → Wortvorschläge: an/aus, "Punkte mit 👁" oder "immer nur Punkte",
+    Zeit bis zum Ausblenden des Klartexts.
+
+Verschieben und Größe
+---------------------
+Verschieben:
+  - ✥ ganz rechts unten gedrückt halten und ziehen, oder kurz darauf verweilen.
+  - Auf jeder Taste mit gedrückter Maustaste länger draufbleiben (Standard 0,5 Sekunden).
+    Ein oranger Ring füllt sich, dann hängt die Tastatur an der Maus. Loslassen setzt ab.
+    Die Taste wird dabei nicht getippt. Kurz klicken tippt wie gewohnt (beim Loslassen).
+  - Mit Verweilklick: auf einer Taste deutlich länger verweilen (Standard doppelte
+    Verweilzeit). Erst wird die Taste einmal getippt, dann füllt sich der orange Ring und
+    die Tastatur folgt der Maus. Maus kurz ruhig halten oder klicken setzt sie ab.
+    Löschen, Entf und Pfeile wiederholen sich beim Verweilen, damit kann man nicht ziehen.
+  - Esc oder Rechtsklick bricht ab, die Tastatur springt zurück.
+  - Die Tastatur bleibt immer ganz auf dem Bildschirm, auch mit mehreren Monitoren.
+Größe: an jedem Rand oder an der blauen Ecke unten links mit der Maus ziehen.
+  Die Größe gilt in Prozent des Bildschirms (Standard 60 % breit, 31 % hoch, unten rechts).
+  Einstellungen → "Verschieben und Größe": Regler für Breite und Höhe, Standardposition
+  (unten rechts, mittig oder links) und "Größe und Position zurücksetzen".
+Mehrere Bildschirme: Die Tastatur lässt sich auf jeden Bildschirm ziehen, auch wenn die
+  Bildschirme unterschiedlich skaliert sind (z. B. 125 % und 100 %). Beim Absetzen nimmt sie
+  dort dieselbe Größe in Prozent an. Ist ein Bildschirm beim Start nicht mehr da, erscheint
+  sie unten rechts auf dem Hauptbildschirm. Gleiches gilt für den runden Knopf.
+Die Vorschlagsleiste kann in den Einstellungen auch zweizeilig sein, mit eigener Schriftgröße.
+
+Tasten
+------
+Fn (unten links): zweite Ebene mit F1 bis F12, Pos1, Ende, Bild auf/ab, Sonderzeichen.
+Esc sitzt oben links.
+Shift, Strg, Alt, Win, AltGr:
+  1x tippen = gilt für die nächste Taste (blauer Rahmen)
+  2x tippen = fest (oranger Rahmen, "fest"), z. B. Shift fest + Pfeile zum Markieren
+  3x tippen = aus
+Win ist anders: 1x tippen gilt für die nächste Taste (z. B. Win+E für den Explorer), 2x
+tippen drückt die Windows-Taste allein und öffnet das Startmenü.
+
+Unterste Reihe: Fn, Strg, Win, Alt, Leertaste, AltGr (direkt rechts neben der Leertaste),
+abc/ABC, vier Sonderzeichen, Pfeile, ✥. Die vier Sonderzeichen sind von Haus aus ! ? : -
+und lassen sich in den Einstellungen unter "Sonderzeichen unten" ändern (ein Zeichen pro Feld,
+optional ein zweites für Shift, z. B. ".:"). Nach einem Wortvorschlag rückt ein Satzzeichen
+ans Wort und das Leerzeichen dahinter ("Haus ." wird "Haus. ").
+Auch sonst setzt sie nach . , ! ? : ; von selbst ein Leerzeichen, außer in Zahlen (1,5 oder
+10:30), Webadressen, E-Mail-Adressen und in E-Mail- oder IBAN-Feldern. Tippt man selbst noch
+ein Leerzeichen, wird es nicht doppelt. Abschaltbar in den Einstellungen.
+
+Groß/Klein-Taste (neben der Leertaste): ändert die Schreibweise des letzten Worts.
+    "abc" mit Pfeil nach oben   = Wort ist klein, ein Druck macht den ersten Buchstaben groß
+    "ABC" mit Pfeil nach unten  = Wort hat Großbuchstaben, ein Druck macht es klein
+    Danach zeigt sie das jeweils andere, man kann also hin und her wechseln.
+    Geht auch direkt nach einem Wortvorschlag oder nach Leerzeichen/Punkt.
+    Graues "Aa" = kein Wort bekannt. Die Taste kennt nur Wörter, die mit dieser Tastatur
+    getippt wurden, und vergisst sie nach einem Klick ins Fenster, einem Fensterwechsel
+    oder Enter. Wörter aus Spracheingabe (z. B. Wispr Flow) oder einer anderen Tastatur
+    kennt sie nicht.
+    GANZ GROSS geht über Shift zweimal tippen (fest).
+
+Am Satzanfang (nach . ! ? und Leerzeichen oder nach Enter) wird der nächste Buchstabe
+automatisch groß. Abschaltbar in den Einstellungen.
+
+Echte Tastendrücke: Drückt man am Quadstick (oder an einer normalen Tastatur) eine Taste,
+leuchtet sie auf der Bildschirmtastatur rot, solange sie unten ist, und noch 1,5 Sekunden
+danach. Strg+Shift für Wispr Flow sieht man also, solange man hält. Was die
+Bildschirmtastatur selbst tippt, leuchtet nicht. Die Tasten werden nur angezeigt, nicht
+gespeichert und nicht protokolliert.
+Nach einem echten Tastendruck vergisst die Tastatur das angefangene Wort, weil dort jetzt
+eingefügter oder diktierter Text stehen kann. Shift oder Strg allein ändern nichts, Strg+Shift
+schon. Die Kürzel-Tasten (Pause, Ziffernblock -) zählen nicht.
+Einstellungen → Bedienung: an/aus und Dauer des Nachleuchtens.
+
+Eigene Fenster (Tresor, Passwort-Eintrag, PIN, Makros, Export/Import): Die Tastatur bleibt
+dabei klickbar, man kann also in diesen Fenstern ganz normal tippen. Die Fenster gehen so auf,
+dass die Tastatur sie nicht verdeckt.
+
+Wort pro Programm: Wechselt man das Fenster (z. B. vom Mailprogramm zum Browser und zurück),
+merkt sich die Tastatur für jedes Fenster das angefangene Wort, das Wort davor und den
+Satzanfang. Zurück im Fenster schreibt man einfach weiter.
+  - Gilt pro Fenster: Zwei Browserfenster sind getrennt, Tabs im selben Fenster nicht.
+  - Holt man das Fenster mit einem Klick in den Text zurück, geht es auch weiter. Klickt man
+    dabei mitten in den Text, passt der Vorschlag nicht. Abschalten: Einstellungen →
+    Bedienung → "Auch nach Klick ins Fenster weiterschreiben".
+  - Höchstens 30 Fenster, höchstens 30 Minuten, nur im Arbeitsspeicher. Passwortfelder nie.
+
+Beim Verweilklick wiederholen sich Löschen, Entf und die Pfeile, solange man drauf bleibt.
+Alle anderen Tasten lösen erst wieder aus, wenn man die Taste einmal verlassen hat.
+
+Makros
+------
+"Makros" antippen: oben erscheinen die Makros statt der Wortvorschläge.
+  - Ein Klick führt das Makro aus, danach kommen die Wortvorschläge zurück.
+  - Gruppen erscheinen als "Name ›", ein Klick öffnet sie, "‹ Name" geht zurück.
+  - Makros, die zum gerade aktiven Programm passen, stehen ganz vorne.
+  - Passen nicht alle hin, blättert "weiter ›".
+  - "✕ Zurück" schließt die Makroleiste.
+
+Rechts neben der Makroleiste:
+  ●  Aufnahme: einfach normal auf der Tastatur tippen, alles wird mitgeschrieben
+     (Text, Enter, Kürzel wie Strg+S). Die Tastatur bekommt einen roten Rahmen.
+     "■ Stopp" beendet die Aufnahme, dann Namen bestätigen und fertig.
+     ✕ verwirft die Aufnahme.
+  +  Schnell-Speichern: das zuletzt Getippte (seit dem letzten Klick ins Fenster)
+     wird als Textbaustein gespeichert. Name ist schon vorgeschlagen, ein Klick reicht.
+  ✎  Makro-Editor öffnen
+
+Makro-Editor (✎ oder Einstellungen → Makros bearbeiten):
+  Neu, Bearbeiten, Kopieren, Hoch/Runter, Löschen. Im Makro selbst: Name, Gruppe, Farbe,
+  Programm, globales Kürzel und beliebig viele Schritte:
+    Text     Platzhalter {datum} {uhrzeit} {wochentag} {cursor}
+             (auch englisch: {date} {time} {weekday})
+             ({cursor} = dort steht der Cursor nach dem Einfügen)
+    Tasten   z. B. Strg+A, Strg+C, Enter   oder   Alt+Tab   oder   Win+D
+             "Taste aufnehmen" trägt eine gedrückte Taste direkt ein
+    Öffnen   Programm, Datei, Ordner oder Webseite
+    Warten   Pause in Millisekunden
+
+Die Makros stehen in NoHandsNeeded-Daten\makros.yaml und lassen sich auch von Hand bearbeiten
+(Beschreibung steht oben in der Datei). Die Schlüsselwörter gehen deutsch (name, gruppe,
+schritte, tasten, oeffnen, warten) oder englisch (name, group, steps, keys, open, wait).
+Danach im Editor "Datei neu laden". Hat die Datei einen Fehler, zeigt die Tastatur die Zeile
+an statt abzustürzen. Beim Speichern bleibt die vorige Version als makros.yaml.bak erhalten.
+
+Makros tippen per Tastatur-Simulation, nie über die Zwischenablage. Sie fließen nicht in
+die Wortvorschläge ein. Passwörter gehören nicht in Makros, dafür gibt es den Tresor.
+
+Sprachen
+--------
+Fest eingebaut, ohne Internet: Deutsch, Englisch, Niederländisch, Französisch, Dänisch,
+Polnisch, Tschechisch, Italienisch, Spanisch, Türkisch und Russisch.
+Der Sprachknopf oben wechselt reihum durch die eingeschalteten Sprachen, dazu gemischt
+(z. B. DE+EN, nach Häufigkeit). Gemischt lässt sich abschalten.
+
+Beim allerersten Start nimmt die Tastatur die Windows-Sprache und Englisch dazu. Steht Windows
+auf Niederländisch, startet sie mit Niederländisch und niederländischem Layout.
+
+Vorschläge ohne Akzente: "zolw" bringt "żółw", "cafe" bringt "café", "nino" bringt "niño".
+Man muss Sonderzeichen also nicht suchen. Das gilt auch für gelernte Wörter.
+
+Tastenlayout: passt sich der Sprache an (bei gemischt die erste Sprache).
+  Deutsch QWERTZ, Englisch und Niederländisch QWERTY, Französisch AZERTY, Dänisch mit æ ø å,
+  Polnisch mit ą ć ę ł ń ó ś ź ż über AltGr, Tschechisch mit ě š č ř ž ý á í é in der
+  Zahlenreihe, Italienisch, Spanisch mit ñ ¿ ¡, Türkisch Q mit ı ğ ü ş ö ç, Russisch ЙЦУКЕН.
+  Russisch hat eine Taste "ABC/АБВ" für lateinische Buchstaben (Mailadressen, Links).
+  Akzent-Tasten wie in Windows (Tottasten): in Französisch, Spanisch, Dänisch, Tschechisch
+  und Niederländisch erst ´ ` ^ ¨ drücken, dann den Buchstaben (´ + e = é). Mit Leertaste
+  danach kommt das Zeichen allein. Deutsch kommt ohne Tottasten aus.
+  Die Tastatur tippt Unicode, das Windows-Layout muss dafür nicht umgestellt werden.
+  Einstellungen → Sprachen → Tastenlayout: passend zur Sprache, immer Deutsch oder immer
+  Englisch.
+
+Einstellungen → Sprachen:
+  - Haken setzt eine Sprache aktiv, ▲/▼ ändert die Reihenfolge beim Umschalten.
+  - "Sprache pro Programm merken": Wechselt man in einem Programm die Sprache, merkt sich die
+    Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel
+    Outlook Englisch, WhatsApp Deutsch.
+  - "Eigene Begriffe bearbeiten": Namen und Fachwörter, die in allen Sprachen vorgeschlagen
+    werden. Datei: NoHandsNeeded-Daten\eigene_woerter.txt
+  - "Aus Datei hinzufügen": eine Wortliste ohne Internet übernehmen (Wort, Tabulator,
+    Häufigkeit; Dateiname = Sprachkürzel, z. B. pt.txt).
+  - "Entfernen": löscht eine selbst hinzugefügte Sprache (eingebaute kann man nur
+    abschalten).
+Selbst hinzugefügte Sprachen liegen in NoHandsNeeded-Daten\Sprachen.
+Optional gibt es ein globales Kürzel "Sprache wechseln".
+
+Sprache der Oberfläche
+----------------------
+Einstellungen, Menüs, Meldungen, Tastenbeschriftungen, die Einführung und diese Anleitung
+gibt es auf Deutsch, Englisch, Niederländisch, Französisch, Dänisch, Polnisch, Tschechisch,
+Italienisch, Spanisch, Türkisch und Russisch. Standard ist die Windows-Sprache, sonst Englisch.
+Ändern: Einstellungen → Sonstiges → "Sprache der Oberfläche" → Übernehmen.
+Die Übersetzungen hat eine KI erstellt. Korrekturen von Muttersprachlern sind auf GitHub
+willkommen: https://github.com/ichmml/nohandsneeded (Oberfläche: Ordner Resources/Texte,
+Anleitung: Ordner Anleitung). Fehlt ein Text in einer Sprache, erscheint er auf Englisch.
+
+Lernen
+------
+Die Tastatur lernt beim Schreiben mit:
+  - neue Wörter (Namen, Fachbegriffe). Vorgeschlagen werden sie, sobald man sie
+    2-mal geschrieben hat (einstellbar 1 bis 5).
+  - wie oft man welches Wort benutzt. Häufig benutzte rutschen nach vorne.
+  - welches Wort oft auf welches folgt. Nach einem Leerzeichen stehen dann direkt passende
+    nächste Wörter oben (z. B. nach "mein" das Wort, das man danach meistens schreibt).
+  - die Schreibweise: Wer mit der Groß/Klein-Taste aus "iphone" "iPhone" macht, bekommt
+    beim nächsten Mal gleich "iPhone" vorgeschlagen.
+Löscht man ein Wort direkt wieder mit ⌫, wird es auch wieder vergessen.
+
+Zahlen: Datum (10.09.1991), Telefonnummern (0170 1234567, +49 30 123456) und Postleitzahlen
+vor einem Ort (10115 Berlin) lernt sie ebenfalls und dazu lange Nummern ab 9 Ziffern wie
+Kunden- oder Vertragsnummern. Vorgeschlagen werden sie schon nach dem ersten Mal. Tippt man
+Ziffern, stehen passende Zahlen oben. Trennzeichen zählen dabei nicht, "1009" bringt also
+"10.09.1991". Übernommen wird die Zahl in der gelernten Schreibweise.
+PINs (4 bis 8 Ziffern ohne Trennzeichen) und Kartennummern lernt sie auch, aber
+verschlüsselt in einer eigenen Datei (zahlen_geheim.dat). In eine Sicherung kommen sie nur
+mit Passwort. Abschaltbar in den Einstellungen zum Lernen ("PINs und Kartennummern lernen
+(verschlüsselt)"). Nie gelernt: einzelne Zahlen und Mengen, Uhrzeiten, alles in
+Passwortfeldern und nichts, was nach Passwort aussieht (Ziffern mit Buchstaben gemischt,
+sehr lange Wörter). Aus eigenen Texten übernimmt sie PINs und Kartennummern nie.
+IBAN: Eine gültige IBAN (mit richtiger Prüfziffer) merkt sie sich, egal ob mit oder ohne
+Leerzeichen getippt. Beim nächsten Mal reichen Ländercode und erste Ziffer ("DE8"), dann
+steht sie grün mit 🏦 oben, ein Klick tippt sie ganz. In Feldern, die IBAN heißen, und nach
+"IBAN:" steht sie sofort da. Abschaltbar in den Einstellungen zum Lernen.
+Zahlen gelten in allen Sprachen, Datei: NoHandsNeeded-Daten\Lernen\zahlen.txt. Abschaltbar unter
+Einstellungen → Lernen, ansehen und löschen unter "Gelernte Wörter" → Auswahl "Zahlen".
+
+Einstellungen → Lernen:
+  - "Aus meinen Texten lernen": einen Ordner wählen (z. B. Notizen oder Dokumente).
+    Gelesen werden .txt, .md, .docx, .html, .eml und .mbox, auch in Unterordnern. Ordner mit
+    Punkt vorne (.obsidian, .git) werden übersprungen.
+    Gespeichert wird nur die Statistik, welche Wörter wie oft und in welcher Reihenfolge
+    vorkommen, nicht die Texte. Zeilen mit Passwort, PIN, IBAN, Login, Token und Ähnlichem
+    werden ausgelassen, ebenso Links, Mailadressen, Codeblöcke und zitierte Mails.
+    Bei mehreren Sprachen landet jeder Absatz in der Sprache, zu der er passt.
+  - "Gelernte Wörter ansehen und löschen": suchen, einzelne Wörter löschen, alles vergessen.
+  - Tray-Symbol → "Lernen pausieren", z. B. wenn jemand anderes tippt.
+Gelerntes liegt in NoHandsNeeded-Daten\Lernen\de.txt (je Sprache eine Datei), wird alle
+2 Minuten und beim Beenden gespeichert.
+
+Passwort-Tresor
+---------------
+Damit man lange Passwörter nicht jedes Mal Zeichen für Zeichen tippen muss.
+  - Klickt man in ein Passwortfeld, erscheinen oben statt der Wortvorschläge die
+    gespeicherten Passwörter (gelb, mit ⚿). Das zum Fenster passende steht vorne.
+    Ein Klick tippt das Passwort ins Feld. Dann Enter.
+  - Hat man ein Passwort selbst eingetippt, fragt die Tastatur nach Enter oder beim
+    Verlassen des Felds: "Im Tresor speichern?". "Speichern" öffnet ein Fenster mit
+    vorgeschlagenem Namen, das bestätigt man. "Nein" oder einfach weitermachen verwirft.
+  - "+ Passwort hinzufügen" öffnet ein Fenster für einen neuen Eintrag. Der Name ist nach der
+    Webseite oder dem Programm schon vorgeschlagen, das Passwort sieht man beim Tippen im
+    Klartext, "Sicheres Passwort erzeugen" füllt es auf Wunsch aus. "Speichern" legt es ab, es
+    steht sofort in der Leiste.
+  - Passen nicht alle Passwörter in die Leiste, blättert "weiter ›" zur nächsten Seite, die
+    zur offenen Seite passenden stehen vorne. "🔍 Suchen": ein paar Buchstaben tippen, dann
+    zeigt die Leiste nur noch die passenden Einträge (Name, Benutzer oder Programm). Die
+    Buchstaben gehen dabei nicht ins Programm. Rücktaste löscht, Esc, Enter oder "✕ Suche
+    beenden" beendet die Suche.
+  - Hat man gerade auf einer Seite ein Passwort getippt, steht es in diesem Fenster schon
+    drin, eine kurz vorher im selben Fenster getippte E-Mail-Adresse ebenfalls. Der Cursor
+    steht gleich im nächsten leeren Feld. In Name und E-Mail tippt man ganz normal, gelernt
+    wird dort nichts.
+  - "🎲 Erzeugen und eintippen" (nur in einem Passwortfeld) erzeugt ein
+    sicheres Passwort (Standard 16 Zeichen), tippt es ins Feld und bietet sofort das
+    Speichern an. Unbedingt speichern, sonst ist es weg.
+  - Im Tresor-Fenster steht das Passwort immer im Klartext da, auch beim Bearbeiten eines
+    bestehenden Eintrags, damit man sieht, ob man richtig tippt. "Anzeigen / verbergen"
+    blendet es bei Bedarf aus.
+  - ⚿ oben rechts zeigt den Tresor auch außerhalb von Passwortfeldern, "✕ Ausblenden"
+    blendet ihn aus.
+Sicherheit:
+  - tresor.dat ist mit Windows (DPAPI) verschlüsselt und nur mit deinem Windows-Konto auf
+    diesem PC lesbar. Kopiert man die Datei woanders hin, ist sie wertlos. Zum Übertragen
+    gibt es "Sichern und auf anderen PC übertragen" (siehe unten).
+  - Optional eine PIN (Einstellungen → Passwort-Tresor). Dann ist der Tresor nach jedem
+    Start gesperrt und sperrt sich nach 15 Minuten ohne Benutzung wieder (einstellbar).
+    Die PIN tippt man über große Zifferntasten. Ohne PIN kommt niemand an die Passwörter,
+    auch du nicht. Also gut merken.
+  - Passwörter erscheinen nie in den normalen Wortvorschlägen, werden nie gelernt, nicht
+    in Makro-Aufnahmen übernommen und nie über die Zwischenablage eingefügt.
+  - Passwortfelder erkennt die Tastatur an der Windows-Kennung für geschützte Felder. Das
+    klappt in Windows-Programmen und den gängigen Browsern. Erkennt sie ein Feld nicht,
+    hilft ⚿ zum Einblenden.
+Bearbeiten: Einstellungen → Passwort-Tresor → "Tresor bearbeiten" (oder Tray-Symbol).
+Dort Name, Benutzername, Passwort (mit Anzeigen-Knopf) und Stichwörter für den
+Fenstertitel ("gmail, google"), damit das richtige Passwort vorne steht.
+
+E-Mail-Adressen: Tippt man eine E-Mail-Adresse, merkt sich die Tastatur sie wie ein neues Wort
+(nicht in Passwortfeldern). Ab dem nächsten Mal steht sie oben in Blau mit ✉, sobald man die
+ersten 3 Buchstaben getippt hat, ein Klick setzt die ganze Adresse ein. Klickt man in ein Feld
+für E-Mail oder Benutzername, stehen die Adressen sofort oben, ohne einen Buchstaben zu tippen.
+Das Feld erkennt die Tastatur an seiner Beschriftung, auf den meisten Anmeldeseiten klappt das.
+Abschalten: Einstellungen → Lernen. Ansehen und löschen: "Gelernte Wörter" → "E-Mail-Adressen".
+
+Globale Kürzel und Quadstick
+----------------------------
+Diese Kürzel funktionieren auch, wenn ein anderes Programm vorne ist:
+  Pause            Tastatur ein-/ausblenden
+  Ziffernblock -   Makroleiste öffnen (heißt in der Tastatur "NumMinus")
+Zusätzlich kann jedes Makro ein eigenes Kürzel bekommen (im Makro-Editor).
+In den Einstellungen steht bei jedem Kürzel, ob es aktiv ist (grüner Haken) oder nicht
+(rot, mit Grund).
+
+Öffnet man die Tastatur mit dem Kürzel, erscheint sie dort, wo gerade der Mauszeiger ist:
+mittig knapp darunter, damit die Stelle sichtbar bleibt, bei zu wenig Platz darüber. Über
+Taskleiste, Tray oder den runden Knopf bleibt sie am gewohnten Platz. Abschaltbar in den
+Einstellungen ("Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist").
+Wo genau, stellst du darunter ein: unter oder über der Maus, mittig, nach rechts oder nach
+links. Passt es auf der gewählten Seite nicht, nimmt sie die andere.
+
+Ändern: Einstellungen → Globale Kürzel → "Aufnehmen". Es öffnet sich ein Fenster, dann
+die Taste am Quadstick drücken. Die erkannte Taste steht groß im Fenster, mit
+"Übernehmen" bestätigen. Oder "Aus Liste" anklicken.
+
+Funktioniert ein Kürzel nicht: Einstellungen → "Kürzel testen" und die Quadstick-Taste
+drücken.
+  - Erscheint nichts: Die Taste kommt gar nicht am PC an. Der Quadstick sendet sie nicht,
+    z. B. weil er F13 bis F24 nicht kann. Eine andere Taste nehmen, z. B. Pause oder ein
+    Rechenzeichen vom Ziffernblock.
+  - Erscheint "Taste angekommen", aber kein "Kürzel ausgelöst": Die Taste kommt an, das
+    Kürzel ist aber nicht aktiv oder anders eingestellt. Rote Meldung in den Einstellungen
+    prüfen.
+  - Erscheint beides: Alles in Ordnung.
+In protokoll.txt (Einstellungen → "Protokoll öffnen") steht, welche Kürzel registriert
+wurden, welche nicht (mit Windows-Fehlercode) und welche ausgelöst wurden.
+
+Quadstick-Taste belegen:
+  Im Quadstick-Konfigurationsblatt (Google-Tabelle) je Kürzel eine Zeile, Beispiel:
+      kb_pause          normal    <Eingang>
+      kb_keypad_minus   normal    <Eingang>
+  1. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff).
+  2. Konfiguration wie gewohnt auf den Quadstick laden.
+  3. Mit "Kürzel testen" prüfen.
+  F13 bis F24 und Scroll Lock kann der Quadstick nicht senden. Gut geeignet sind Pause und
+  die Rechenzeichen vom Ziffernblock (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). Nicht nehmen: kb_keypad_enter (wird wie Enter behandelt) und die Ziffern
+  vom Ziffernblock (hängen von Num Lock ab).
+
+Tray-Symbol: Linksklick zeigt/versteckt die Tastatur. Rechtsklick: Makros bearbeiten,
+Lernen pausieren, Passwort-Tresor bearbeiten, Einstellungen, Anleitung öffnen, Einführung
+zeigen, Kaffee spendieren, Beenden.
+
+Taskleiste: Solange die Tastatur läuft, hat sie unten in der Taskleiste einen eigenen Knopf
+mit dem Tastatur-Symbol. Ein Klick darauf öffnet die Tastatur immer ganz, auch wenn sie
+ausgeblendet oder zum runden Knopf eingeklappt ist (eine offene Tastatur bleibt offen),
+danach ist der Fokus sofort wieder in dem Programm, in dem du geschrieben hast. Abschalten:
+Einstellungen → Start.
+
+Sichern und auf den zweiten PC übertragen
+-----------------------------------------
+Einstellungen → "Sichern und auf anderen PC übertragen".
+  - "Daten exportieren …": Haken setzen, was mit soll (gelernte Wörter, Wortfolgen und
+    Zahlen, eigene Begriffe, Makros, Passwörter aus dem Tresor). Dann einen Ordner wählen.
+    Es entsteht eine Datei wie "NoHandsNeeded 2026-11-08.nohands".
+  - Sind Passwörter dabei, braucht die Sicherung ein eigenes Passwort (mindestens 8 Zeichen).
+    Die Datei ist dann verschlüsselt (AES-256), ohne dieses Passwort kommt niemand ran, auch
+    du nicht. Ohne Passwörter darf das Feld leer bleiben.
+  - Auf dem anderen PC: "Daten importieren …", Datei wählen, bei Bedarf das Passwort
+    eingeben, Haken prüfen, "Übernehmen".
+  - Nichts wird überschrieben, alles wird zusammengeführt: Bei gleichen Wörtern zählt der
+    höhere Zähler (zweimal dieselbe Datei importieren zählt also nicht doppelt). Ein Makro
+    mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer
+    gewinnt das, das zuletzt geändert oder benutzt wurde.
+  - Der zuletzt benutzte Ordner wird gemerkt. Praktisch ist ein Ordner, den beide PCs sehen
+    (USB-Stick, Cloud-Ordner).
+  - Größe und Position werden nicht übertragen, die passen ja je PC anders.
+
+Unterstützen
+------------
+Die Tastatur ist kostenlos und Open Source. Wenn sie dir hilft, freue ich mich über eine
+Spende: https://ko-fi.com/MDM3D
+Den Knopf gibt es ganz oben in den Einstellungen und im Tray-Menü. Der Link öffnet sich nur,
+wenn man darauf klickt. Die Tastatur fragt nie danach.
+
+Sperrbildschirm
+---------------
+Damit man die Windows-PIN mit dieser Tastatur eingeben kann, muss sie auf dem Sperrbildschirm
+erscheinen. Das erlaubt Windows nur, wenn alles davon zutrifft:
+  - die Tastatur ist mit einem Code-Zertifikat signiert,
+  - sie ist mit dem Installer nach "C:\Program Files\NoHandsNeeded" installiert,
+  - sie ist bei Windows als Hilfsmittel angemeldet (macht der Installer),
+  - sie hat die Berechtigung uiAccess (die Variante NoHandsNeededAT.exe aus build.cmd).
+Die portable NoHandsNeeded.exe kann das nicht. Einstellungen → Sonstiges → Sperrbildschirm zeigt,
+was fehlt. Ist alles da, gibt es dort den Schalter "Auf dem Sperrbildschirm anzeigen".
+Auf dem Sperrbildschirm läuft nur das Tippen: kein Tresor, keine Makros, kein Lernen, keine
+Wortvorschläge, keine Einstellungen. So sieht niemand am gesperrten PC etwas Persönliches.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die
+Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es
+keine PIN.
+
+Bekannte Grenzen
+----------------
+In Programme, die als Administrator laufen (Task-Manager, manche Installer), kann die
+Tastatur nicht tippen. Das ist eine Windows-Sicherheitsregel. Abhilfe: NoHandsNeeded.exe per
+Rechtsklick "Als Administrator ausführen", oder die signierte, installierte Version
+(siehe "Sperrbildschirm").
+
+Die Groß/Klein-Taste wirkt auf das letzte Wort, das über die Tastatur geschrieben wurde.
+Markierten Text in anderen Programmen kann sie noch nicht umwandeln.
+
+Wortlisten: 11 eingebaute Sprachen mit je ca. 27.000 bis 74.000 Wörtern. Häufigkeiten aus
+wordfreq (Daten unter CC BY-SA 4.0), Schreibweise geprüft mit hunspell-Wörterbüchern.

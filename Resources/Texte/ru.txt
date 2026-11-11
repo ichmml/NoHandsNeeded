@@ -1,0 +1,502 @@
+# Texte der Oberfläche (ru). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Пароли можно сохранять только в зашифрованном виде
+Das ist keine Sicherungsdatei der Tastatur.	Это не файл резервной копии клавиатуры.
+Die Sicherungsdatei ist unvollständig.	Файл резервной копии неполный.
+Daten exportieren	Экспорт данных
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Сложить всё в один файл, например для второго компьютера. Там прочитать его через «Импорт».
+Gelernte Wörter, Wortfolgen und Zahlen	Выученные слова, последовательности слов и числа
+Eigene Begriffe	Свои слова
+Makros	Макросы
+Passwörter aus dem Tresor	Пароли из сейфа
+Passwort für die Sicherung	Пароль для резервной копии
+Anzeigen / verbergen	Показать / скрыть
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	С паролями файл всегда шифруется. Этот пароль понадобится при импорте, запиши его. Не менее 8 символов.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Без паролей поле можно оставить пустым. С паролем файл будет зашифрован.
+Speichern unter …	Сохранить как …
+Bitte mindestens einen Haken setzen.	Отметь хотя бы один пункт.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Чтобы включить пароли, резервной копии нужен пароль не короче 8 символов.
+Abbrechen	Отмена
+Daten importieren	Импорт данных
+Sicherung vom 	Резервная копия от 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Резервная копия зашифрована. Пароль копии:
+Öffnen	Открыть
+Datei beschädigt: 	Файл повреждён: 
+Passwort falsch, nochmal versuchen.	Неверный пароль, попробуй ещё раз.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Что перенести? Имеющееся остаётся, новое добавляется.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Выученные слова ({0}), последовательности слов ({1}), числа ({2})
+Eigene Begriffe ({0})	Свои термины ({0})
+Makros ({0})	Макросы ({0})
+Passwörter ({0})	Пароли ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Для одинаковых слов побеждает больший счётчик. Макрос с тем же именем заменяется. Для пароля с тем же именем и пользователем побеждает последний изменённый или использованный.
+Übernehmen	Применить
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Выученные адреса e-mail: адрес<TAB>количество
+Makroleiste öffnen	Открыть панель макросов
+unbekannte Taste	неизвестная клавиша
+doppelt vergeben	назначено дважды
+Taste gibt es im Tastaturlayout nicht	такой клавиши нет в раскладке
+schon von einem anderen Programm belegt (Fehler 1409)	уже занято другой программой (ошибка 1409)
+von Windows abgelehnt	отклонено Windows
+Windows-Fehler 	Ошибка Windows 
+Kürzel aufnehmen	Записать сочетание
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nНажми сейчас клавишу или сочетание (например, на Quadstick).
+Nochmal	Ещё раз
+Erkannt: 	Распознано: 
+Kürzel testen	Проверить сочетания
+Drück jetzt die Taste am Quadstick.\n	Нажми сейчас клавишу на Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Если внизу появится «Клавиша получена», Quadstick отправляет клавишу.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Если появится ещё и «Сочетание сработало», всё работает.\n\n
+Aktiv: 	Активны: 
+Schließen	Закрыть
+→ Kürzel ausgelöst: 	→ Сочетание сработало: 
+keine Kürzel eingetragen	сочетания не заданы
+Taste angekommen: 	Клавиша получена: 
+  (von Software)	  (от программы)
+neu	новое
+„{0}“ gemerkt	«{0}» запомнено
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Макросов пока нет: создай через ✎ или запиши через ●
+weiter  	ещё  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Перемещение: отпусти, чтобы поставить · Esc/правый клик отменяет
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Перемещение: держи мышь неподвижно или щёлкни, чтобы поставить · Esc/правый клик отменяет
+Leertaste	Пробел
+■ Stopp	■ Стоп
+✕ Zurück	✕ Назад
+Verschieben abgebrochen	Перемещение отменено
+Position gespeichert	Положение сохранено
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Слово неизвестно: клавиша действует на последнее слово, набранное этой клавиатурой
+Weitere Sprachen herunterladen	Загрузить другие языки
+Quelle:\n	Источник:\n
+\nEs wird nur geladen, was du hier anklickst.	\nЗагружается только то, что ты здесь выберешь.
+Lade Übersicht …	Загрузка списка …
+Herunterladen	Загрузить
+Erneut versuchen	Повторить
+Keine Sprachpakete gefunden.	Языковые пакеты не найдены.
+Sprache auswählen und "Herunterladen" klicken.	Выбери язык и нажми «Загрузить».
+Lade 	Загрузка: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 установлен и включён. Переключай кнопкой языка вверху клавиатуры.
+  · hinzugefügt	  · добавлено
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Свои термины: одно слово в строке, например имена и специальные термины.
+Sie werden in allen Sprachen vorgeschlagen.	Они предлагаются на всех языках.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Неверный код языка (например, fr.txt или строка заголовка «#sprache fr Французский»).
+Alle	Все
+   ✓ installiert	   ✓ установлен
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Нет подключения к интернету или сервер недоступен. Клавиатура продолжает работать.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Сервер не отвечает (тайм-аут). Попробуй позже.
+Download fehlgeschlagen: 	Загрузка не удалась: 
+Tab ⇥	Tab ⇥
+Entf	Del
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Ins
+Menü	Меню
+Gelernte Wörter der Bildschirmtastatur	Выученные слова экранной клавиатуры
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> слово <TAB> количество   и   f <TAB> слово <TAB> следующее слово <TAB> количество
+Geht erst mit der installierten, signierten Version.	Работает только с установленной подписанной версией.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	А пока: на экране блокировки нажми справа внизу значок специальных возможностей и используй экранную клавиатуру Windows. Или настрой Windows Hello (лицо), тогда PIN не нужен.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Клавиатура появляется на экране блокировки.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Готово. С переключателем клавиатура появится и на экране блокировки.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Теперь клавиатура появляется на экране блокировки.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Клавиатура больше не появляется на экране блокировки.
+Hat nicht geklappt: 	Не получилось: 
+Tasten	Клавиши
+Warten	Ждать
+Text	Текст
+keine	нет
+blau	синий
+grün	зелёный
+rot	красный
+orange	оранжевый
+lila	фиолетовый
+gelb	жёлтый
+grau	серый
+Zeile 	Строка 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Используй пробелы вместо табуляции для отступов.
+Unerwarteter Text, Einrückung prüfen.	Неожиданный текст, проверь отступы.
+Einrückung passt nicht.	Отступ не совпадает.
+Text nach dem schließenden ".	Текст после закрывающей ".
+Hier wird ein Wert erwartet, keine Liste.	Здесь ожидается значение, а не список.
+Unbekannte Taste "{0}".	Неизвестная клавиша «{0}».
+"{0}" muss eine Liste sein.	«{0}» должно быть списком.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Неизвестный шаг «{0}». Разрешено: text, keys, open, wait (или text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	«{0}» не может быть списком.
+Unbekanntes Kürzel "{0}".	Неизвестное сочетание «{0}».
+Unbekannter Eintrag "{0}".	Неизвестная запись «{0}».
+Makro ohne "name".	Макрос без «name».
+makros.yaml konnte nicht gelesen werden: 	Не удалось прочитать makros.yaml: 
+Programme	Программы
+Grüße	Приветствие
+Viele Grüße	С уважением
+Datum	Дата
+Heute	Сегодня
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday}, {date}, {time}
+Alles kopieren	Копировать всё
+Desktop	Рабочий стол
+Browser	Браузер
+Neuer Tab	Новая вкладка
+Tab zu	Закрыть вкладку
+Tab zurück	Вернуть вкладку
+Editor	Блокнот
+Rechner	Калькулятор
+Neue Mail	Новое письмо
+Hallo {cursor},\n\nViele Grüße	Здравствуйте, {cursor}\n\nС уважением
+Unbekannte Taste "{0}" in Makro "{1}"	Неизвестная клавиша «{0}» в макросе «{1}»
+"{0}" ließ sich nicht öffnen: 	Не удалось открыть «{0}»: 
+Makros bearbeiten	Редактировать макросы
+Neu	Новый
+Bearbeiten	Изменить
+Kopieren	Копировать
+▲  Hoch	▲  Вверх
+▼  Runter	▼  Вниз
+Löschen	Удалить
+Datei im Editor öffnen	Открыть файл в редакторе
+Datei neu laden	Перезагрузить файл
+Neues Makro	Новый макрос
+ (Kopie)	 (копия)
+Makro "	Удалить макрос «
+" löschen?	»?
+Makro bearbeiten	Изменить макрос
+Name (Beschriftung des Knopfs)	Имя (надпись на кнопке)
+Gruppe (leer = keine)	Группа (пусто = нет)
+Farbe	Цвет
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Только для программы (например, chrome или «chrome, msedge», пусто = везде)
+Kürzel für "	Сочетание для «
+Kein Kürzel	Без сочетания
+Schritte (werden der Reihe nach ausgeführt)	Шаги (выполняются по очереди)
++ Text	+ Текст
++ Tasten	+ Клавиши
++ Öffnen	+ Открыть
++ Warten	+ Ждать
+Taste aufnehmen	Записать клавишу
+Speichern	Сохранить
+Globales Kürzel: 	Глобальное сочетание: 
+Noch keine Schritte. Unten einen hinzufügen.	Шагов пока нет. Добавь шаг ниже.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Текст: можно несколько строк. Подстановки: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Клавиши разделяй запятыми, например  Strg+A, Strg+C, Enter   или  Alt+Tab   или  Win+D.  Названия клавиш (по-немецки): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Программа, файл, папка или сайт, например  notepad.exe   C:\Счета   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Пауза в миллисекундах (1000 = 1 секунда)
+Taste für den Schritt	Клавиша для шага
+Bitte einen Namen eingeben.	Введи имя.
+"Warten" braucht eine Zahl in Millisekunden.	«Ждать» требует число в миллисекундах.
+Name	Имя
+Verwerfen	Отбросить
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Выученные числа (даты, номера телефонов, индексы): написание<TAB>количество
+Taste 	Клавиша 
+Passwort-Tresor	Сейф паролей
+Kürzel nicht aktiv	Сочетание не активно
+Tastatur zeigen / verstecken	Показать / скрыть клавиатуру
+Lernen fortsetzen	Продолжить обучение
+Lernen pausieren	Приостановить обучение
+Passwort-Tresor bearbeiten	Редактировать сейф паролей
+Einstellungen	Настройки
+Anleitung öffnen	Открыть руководство
+Einführung zeigen	Показать введение
+☕ Kaffee spendieren	☕ Угостить кофе
+Beenden	Выход
+Die Anleitung wurde nicht gefunden.	Руководство не найдено.
+Anleitung	Руководство
+Die Anleitung ließ sich nicht öffnen: 	Не удалось открыть руководство: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Язык Windows: {0}, клавиатура настроена на {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Язык Windows: {0}. Его можно включить в настройках в разделе «Языки».
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Язык Windows ({0}) пока не встроен. Возможно, его можно загрузить.
+Sprache herunterladen	Загрузить язык
+Sprache: 	Язык: 
+  (für 	  (для 
+Tastatur ein-/ausblenden	Показать/скрыть клавиатуру
+Sprache wechseln	Сменить язык
+Makro 	Макрос 
+Während der Aufnahme keine Makros	Во время записи макросы недоступны
+" gespeichert	» сохранён
+Erst etwas tippen, dann + zum Speichern	Сначала что-нибудь набери, затем + для сохранения
+Als Textbaustein speichern	Сохранить как текстовый блок
+Text: 	Текст: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Идёт запись: просто печатай, затем ■ Стоп
+Aufnahme verworfen	Запись отброшена
+Nichts aufgenommen	Ничего не записано
+Aufnahme 	Запись 
+Aufnahme speichern	Сохранить запись
+Lernen pausiert	Обучение приостановлено
+Lernen läuft wieder	Обучение снова идёт
+ Wörter	 слов
+Bisher gelernt: 	Выучено пока: 
+, Zahlen: 	, чисел: 
+ Dateien gelesen, 	 файлов прочитано, 
+ Wörter in 	 слов в 
+ Sätzen gelernt	 предложениях выучено
+, dazu 	, а также 
+-mal Datum oder Telefonnummer.	 раз дата или номер телефона.
+ Dateien übersprungen.	 файлов пропущено.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nСохраняется только частота слов, а не сами тексты. Строки с паролем, PIN, IBAN и подобным пропускаются.
+Aus meinen Texten lernen	Учиться на моих текстах
+Der Tresor ist in den Einstellungen ausgeschaltet	Сейф выключен в настройках
+Im Tresor speichern?	Сохранить в сейф?
+⚿ Speichern	⚿ Сохранить
+Nein	Нет
+Tresor nicht lesbar	Сейф не читается
+🔒 Tresor entsperren	🔒 Открыть сейф
+Tresor ist noch leer	Сейф пока пуст
++ Passwort hinzufügen	+ Добавить пароль
+🎲 Erzeugen und eintippen	🎲 Создать и напечатать
+✕ Ausblenden	✕ Скрыть
+Passwort "	Пароль «
+" eingetippt	» введён
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Новый пароль введён. Сохрани его сейчас, иначе он пропадёт!
+Passwort 	Пароль 
+Nicht gespeichert. "Speichern" geht noch kurz.	Не сохранено. «Сохранить» ещё недолго работает.
+Im Tresor gespeichert	Сохранено в сейф
+Tresor entsperren	Открыть сейф
+PIN eingeben	Введи PIN
+PIN falsch, nochmal versuchen	Неверный PIN, попробуй ещё раз
+nicht lesbar	не читается
+gesperrt, PIN wird abgefragt	заблокирован, будет запрошен PIN
+{0} Wörter, {1} Zahlen	{0} слов, {1} чисел
+Sicherung speichern	Сохранить резервную копию
+Tastatur-Sicherung	Резервная копия клавиатуры
+Gespeichert:\n	Сохранено:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nФайл зашифрован. Без пароля резервной копии его не открыть.
+Sicherung öffnen	Открыть резервную копию
+Alle Dateien	Все файлы
+{0} neue E-Mail-Adressen	{0} новых адресов e-mail
+{0} neue Wörter, {1} neue Zahlen	{0} новых слов, {1} новых чисел
+{0} neue eigene Begriffe	{0} новых своих терминов
+{0} neue Makros, {1} ersetzt	{0} новых макросов, {1} заменено
+Passwörter übersprungen: 	Пароли пропущены: 
+Passwörter übersprungen (Tresor gesperrt)	Пароли пропущены (сейф заблокирован)
+{0} neue Passwörter, {1} aktualisiert	{0} новых паролей, {1} обновлено
+Fertig.\n\n	Готово.\n\n
+mit PIN	с PIN
+ohne PIN	без PIN
+Tresor gesperrt (	Сейф заблокирован (
+ Passwörter gespeichert, 	 паролей сохранено, 
+Es ist keine PIN gesetzt.	PIN не задан.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN сохранён. Запомни его хорошо: без PIN никто не доберётся до паролей, даже ты.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN удалён. Сейф по-прежнему зашифрован твоей учётной записью Windows.
+Bildschirmtastatur: Einstellungen	Экранная клавиатура: настройки
+Version	Версия
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Клавиатура бесплатная. Если она тебе помогает, буду рад пожертвованию.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Поддержи меня пожертвованием (Ko-fi)
+📖 Anleitung öffnen	📖 Открыть руководство
+Aussehen	Внешний вид
+Deckkraft Tastatur	Непрозрачность клавиатуры
+Deckkraft runder Knopf (eingeklappt)	Непрозрачность круглой кнопки (свёрнуто)
+Farbschema	Цветовая схема
+dunkel	тёмная
+hell	светлая
+Bedienung	Управление
+Verweilklick (Taste löst nach Verweilzeit aus)	Клик задержкой (клавиша срабатывает после задержки)
+Verweilzeit	Время задержки
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Показывать реальные нажатия (например, с Quadstick, светятся красным)
+Nachleuchten	Послесвечение
+aus	выкл.
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Клавиатура помнит начатое слово для каждого окна. Когда вернёшься, просто продолжай писать.
+Auch nach Klick ins Fenster weiterschreiben	Продолжать и после щелчка в окне
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Выкл.: продолжение только при переключении через панель задач, Alt+Tab или заголовок окна. Щелчок в тексте может сдвинуть курсор.
+Wortvorschläge	Подсказки слов
+Zeilen	Строки
+1 Zeile	1 строка
+2 Zeilen	2 строки
+Vorschläge pro Zeile	Подсказок в строке
+Schriftgröße Vorschläge und Makros	Размер шрифта подсказок и макросов
+Satzanfang automatisch groß	Заглавная буква в начале предложения
+Leerzeichen nach Vorschlag einfügen	Вставлять пробел после подсказки
+Getipptes Wort oben links zeigen (rot)	Показывать набираемое слово слева вверху (красным)
+Punkte mit 👁	Точки с 👁
+immer nur Punkte	всегда только точки
+Passwörter beim Tippen	Пароли при вводе
+Klartext automatisch ausblenden nach	Скрывать открытый текст автоматически через
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	В полях паролей видны только точки. 👁 ненадолго показывает пароль открытым текстом; в это время клавиатура исключена из снимков экрана и демонстрации экрана.
+Sprachen	Языки
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Галочка = активен. Порядок действует для кнопки языка вверху клавиатуры.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Предлагать смешанный режим (например, DE+EN) при переключении
+Sprache pro Programm merken	Запоминать язык для программы
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Если сменить язык в программе, клавиатура запомнит это и в следующий раз переключится в этой программе сама. Например, Outlook на английском, WhatsApp на русском.
+passend zur Sprache	по языку
+immer Deutsch (QWERTZ)	всегда немецкая (QWERTZ)
+immer Englisch (QWERTY)	всегда английская (QWERTY)
+Tastenlayout	Раскладка клавиш
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Редактировать свои слова (имена, термины)
+Sonderzeichen unten	Спецсимволы внизу
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Четыре клавиши внизу рядом с abc/ABC. Один символ на поле, по желанию второй для Shift (например, «.:»). Пусто = по умолчанию.
+Auf Standard zurücksetzen	Сбросить по умолчанию
+Lernen	Обучение
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Клавиатура запоминает, какие слова ты пишешь, как их пишешь и какое слово часто идёт за каким. Всё остаётся на этом ПК. В полях паролей обучения нет никогда.
+Aus meinem Schreiben lernen	Учиться на том, что я пишу
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Учить и числа (даты, номера телефонов, индексы)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Запоминать адреса e-mail и подсказывать после 3 букв
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	В полях e-mail сразу показывать адреса
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Как и новые слова, числа предлагаются только со второго раза. Одноразовые коды, PIN, TAN и номера карт никогда не запоминаются.
+Neue Wörter vorschlagen ab	Предлагать новые слова после
+1-mal geschrieben	1 раза
+-mal geschrieben	 раз
+Aus meinen Texten lernen (Ordner wählen)	Учиться на моих текстах (выбрать папку)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Папка с твоими текстами (например, Obsidian, Документы). Читаются .txt .md .docx .html .eml .mbox, включая подпапки.
+Aus einzelnen Dateien lernen	Учиться на отдельных файлах
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Тексты|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Все файлы|*.*
+Gelernte Wörter ansehen und löschen	Посмотреть и удалить выученные слова
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Пароли хранятся в зашифрованном виде только для твоей учётной записи Windows на этом ПК. Они никогда не появляются в обычных подсказках и вводятся напрямую, никогда через буфер обмена.
+Tresor benutzen	Использовать сейф
+In Passwortfeldern automatisch zeigen	Показывать автоматически в полях паролей
+Nach dem Eintippen "Im Tresor speichern?" fragen	Спрашивать «Сохранить в сейф?» после ввода
+Länge neuer Passwörter	Длина новых паролей
+ Zeichen	 символов
+Neue Passwörter mit Sonderzeichen	Новые пароли со спецсимволами
+Tresor bearbeiten	Редактировать сейф
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	С PIN сейф после запуска заблокирован и снова блокируется после некоторого простоя. PIN вводится крупными цифровыми клавишами.
+PIN festlegen oder ändern	Задать или изменить PIN
+PIN entfernen	Удалить PIN
+Mit PIN automatisch sperren nach	С PIN блокировать автоматически через
+nie	никогда
+ Minuten	 минут
+Sichern und auf anderen PC übertragen	Резервная копия и перенос на другой компьютер
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Сложить выученные слова, последовательности слов, числа, свои термины, макросы и по желанию пароли в один файл. Импортировать на другом компьютере, и всё объединится.
+Daten exportieren …	Экспорт данных …
+Daten importieren …	Импорт данных …
+Verschieben und Größe	Перемещение и размер
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Перемещение: тяни клавишу перемещения справа внизу или задержись на любой клавише. Размер: тяни за любой край или за левый нижний угол.
+Breite	Ширина
+ % des Bildschirms	 % экрана
+Höhe	Высота
+unten rechts	снизу справа
+unten mittig	снизу по центру
+unten links	снизу слева
+Standardposition (für Zurücksetzen)	Положение по умолчанию (для сброса)
+Größe und Position zurücksetzen	Сбросить размер и положение
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	Размер задаётся в процентах экрана. Если перетащить клавиатуру на другой экран, она подстроится под него.
+Verschieben durch langes Draufbleiben	Перемещать долгим удержанием на клавише
+Maustaste gedrückt halten bis Verschieben	Держать кнопку мыши до перемещения
+Verweilen bis Verschieben	Задержка до перемещения
+automatisch (doppelte Verweilzeit)	автоматически (двойное время задержки)
+Maus ruhig halten zum Absetzen	Держать мышь неподвижно, чтобы поставить
+Greifzone am Rand zum Größe ändern	Зона захвата у края для изменения размера
+ Pixel	 пикселей
+Globale Kürzel	Глобальные сочетания
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Работают, даже когда активна другая программа. Идеально для клавиши Quadstick.
+Protokoll öffnen	Открыть журнал
+Start	Запуск
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Показывать кнопку на панели задач (клик открывает клавиатуру целиком)
+Mit Windows starten	Запускать вместе с Windows
+Eingeklappt starten	Запускать свёрнутой
+Sonstiges	Прочее
+automatisch (wie Windows)	автоматически (как в Windows)
+Sprache der Oberfläche	Язык интерфейса
+Einführung nochmal zeigen	Показать введение снова
+Sperrbildschirm	Экран блокировки
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Показывать на экране блокировки (для ввода PIN)
+Datenordner öffnen	Открыть папку с данными
+Tastatur beenden	Закрыть клавиатуру
+Makro-Kürzel nicht aktiv: 	Сочетание макроса не активно: 
+Entfernen	Убрать
+Aus Datei hinzufügen	Добавить из файла
+Download-Quelle (nur https)	Источник загрузки (только https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Введи адрес, начинающийся с https://.
+Download-Quelle	Источник загрузки
+Standard wiederherstellen	Вернуть по умолчанию
+Mindestens eine Sprache muss aktiv sein.	Должен быть активен хотя бы один язык.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 встроен, его можно только выключить (снять галочку).
+ löschen?	: удалить?
+Sprachpaket	Языковой пакет
+ wurde hinzugefügt und eingeschaltet.	 добавлен и включён.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Так назначение выглядит в таблице Quadstick. В жёлтом столбце выбери нужный вход (например, mp_triple_puff), затем загрузи конфигурацию в Quadstick.
+ausgeschaltet	выключено
+✓ aktiv	✓ активно
+✗ nicht aktiv	✗ не активно
+Aufnehmen	Записать
+Aus Liste ▾	Из списка ▾
+Aus	Выкл.
+Bildschirmtastatur öffnen	Открыть экранную клавиатуру
+Willkommen!	Добро пожаловать!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Эта экранная клавиатура печатает в программу, в которой ты пишешь, и никогда не забирает у неё фокус. Нажимай «Далее», чтобы пройти по главным местам.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Слева красным видно, что ты сейчас печатаешь. Рядом подходящие слова, один щелчок вставляет слово с пробелом. Клавиатура учится, какие слова ты пишешь часто. Новое слово принимается щелчком по красному слову, и клавиатура сразу его запоминает.
+Groß/Klein-Taste	Клавиша регистра
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	«abc ↑» делает первую букву последнего слова заглавной, «ABC ↓» делает слово строчным. Это работает и потом, после пробела или точки.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Удерживай ✥ и тащи клавиатуру куда хочешь. Или задержись на любой клавише, пока не заполнится оранжевое кольцо: тогда клавиатура следует за мышью. Размер меняется за любой край.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Одно нажатие действует на следующую клавишу. Два нажатия фиксируют клавишу, три снова выключают её.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Текстовые блоки, последовательности клавиш и программы одним щелчком. С ● ты просто записываешь то, что печатаешь.
+Sprache	Язык
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Меняет язык подсказок и раскладку клавиш. Какие языки участвуют, выбирается в настройках.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Показывает сохранённые пароли. В полях паролей они появляются сами, один щелчок вводит пароль.
+Verweilklick	Клик задержкой
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Включает или выключает клик задержкой: клавиша срабатывает, если немного задержать на ней мышь.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Здесь настраивается всё: размер, цвета, языки, сочетания и многое другое. Там же снова найдёшь это введение.
+Einklappen	Свернуть
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Сворачивает клавиатуру в маленькую круглую кнопку. Щелчок по ней возвращает клавиатуру.
+Tray-Symbol und Kürzel	Значок в трее и сочетания
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Справа внизу на панели задач находится значок клавиатуры. Клавиша Pause показывает и скрывает клавиатуру, идеально для клавиши на Quadstick.
+Fertig!	Готово!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Приятного письма. Всё остальное есть в руководстве: «📖 Открыть руководство» в самом верху настроек или в меню значка. Клавиатура бесплатная. Если она тебе помогает, буду рад пожертвованию.
+Überspringen	Пропустить
+Zurück	Назад
+Fertig	Готово
+Weiter	Далее
+tresor.dat hat ein unbekanntes Format.	tresor.dat имеет неизвестный формат.
+Tresor ist gesperrt.	Сейф заблокирован.
+Passwort	Пароль
+Mindestens 4 Ziffern	Минимум 4 цифры
+PIN festlegen	Задать PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Введи новый PIN (от 4 до 12 цифр)
+PIN zur Sicherheit wiederholen	Повтори PIN для проверки
+Die beiden PINs sind verschieden. Bitte nochmal.	Два PIN не совпадают. Попробуй ещё раз.
+Passwort-Eintrag	Запись пароля
+Name (so steht es in der Tresorleiste)	Имя (так оно отображается в панели сейфа)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Имя пользователя или e-mail (только для памяти, необязательно)
+Benutzername oder E-Mail	Имя пользователя или e-mail
+Sicheres Passwort erzeugen	Создать надёжный пароль
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Подходит к (слова из заголовка окна, например «gmail, google»)
+Name und Passwort dürfen nicht leer sein.	Имя и пароль не могут быть пустыми.
+Tresor konnte nicht gespeichert werden: 	Не удалось сохранить сейф: 
+" aus dem Tresor löschen?	»: удалить из сейфа?
+Gelernte Wörter	Выученные слова
+Zahlen	Числа
+E-Mail-Adressen	Адреса e-mail
+Suchen:	Поиск:
+Markierte löschen	Удалить выбранные
+Alles vergessen	Забыть всё
+ E-Mail-Adressen gelernt, für alle Sprachen	 адресов e-mail выучено, для всех языков
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 чисел выучено (даты, номера телефонов, индексы), для всех языков
+ Wörter, 	 слов, 
+ Wortfolgen gelernt	 последовательностей слов выучено
+   (die ersten 3000 angezeigt)	   (показаны первые 3000)
+Alle gelernten E-Mail-Adressen vergessen?	Забыть все выученные адреса e-mail?
+Alle gelernten Zahlen vergessen?	Забыть все выученные числа?
+Alles Gelernte für 	Забыть всё выученное для 
+ vergessen?	?
+Suche Dateien …	Поиск файлов …
+Datei 	Файл 
+ von 	 из 
+Deutsch	Немецкий
+Englisch	Английский
+Niederländisch	Нидерландский
+Französisch	Французский
+Dänisch	Датский
+Polnisch	Польский
+Tschechisch	Чешский
+Italienisch	Итальянский
+Spanisch	Испанский
+Türkisch	Турецкий
+Russisch	Русский
+Portugiesisch	Португальский
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Почему NoHandsNeeded? По-английски это значит «руки не нужны». Именно для этого и сделана эта клавиатура: для всех, кто управляет компьютером без рук, например ротовым джойстиком вроде Quadstick, головной мышью или взглядом.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Запоминать и предлагать IBAN (только действительные, с верной контрольной суммой)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Числа и IBAN предлагаются уже после первого раза. PIN, TAN и номера карт никогда не запоминаются.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Твой язык Windows ({0}), к сожалению, пока не встроен.
+IBAN merken und vorschlagen	Запоминать и предлагать IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Запоминать PIN и номера карт (зашифрованно)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Числа предлагаются уже после первого раза. IBAN только при верной контрольной сумме. PIN и номера карт хранятся на этом компьютере в зашифрованном виде и попадают только в резервную копию с паролем.
+Leerzeichen nach . , ! ? : von selbst einfügen	Автоматически ставить пробел после . , ! ? :
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Нажми ✕ ещё раз, чтобы закрыть клавиатуру
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	По сочетанию клавиш (например, Pause) открывать там, где находится мышь
+Wo die Tastatur dann erscheint	Где тогда появляется клавиатура
+unter der Maus, mittig	под мышью, по центру
+unter der Maus, nach rechts	под мышью, вправо
+unter der Maus, nach links	под мышью, влево
+über der Maus, mittig	над мышью, по центру
+über der Maus, nach rechts	над мышью, вправо
+über der Maus, nach links	над мышью, влево
+🔍 Suchen	🔍 Поиск
+nichts gefunden	ничего не найдено
+✕ Suche beenden	✕ Закончить поиск
+Namen tippen, die Liste wird kleiner	Набери название, список станет короче

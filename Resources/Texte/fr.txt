@@ -1,0 +1,502 @@
+# Texte der Oberfläche (fr). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Les mots de passe ne peuvent être sauvegardés que chiffrés
+Das ist keine Sicherungsdatei der Tastatur.	Ce n'est pas un fichier de sauvegarde du clavier.
+Die Sicherungsdatei ist unvollständig.	Le fichier de sauvegarde est incomplet.
+Daten exportieren	Exporter les données
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Tout mettre dans un fichier, par ex. pour ton deuxième PC. Là-bas, le relire avec « Importer ».
+Gelernte Wörter, Wortfolgen und Zahlen	Mots appris, suites de mots et nombres
+Eigene Begriffe	Mots personnels
+Makros	Macros
+Passwörter aus dem Tresor	Mots de passe du coffre
+Passwort für die Sicherung	Mot de passe de la sauvegarde
+Anzeigen / verbergen	Afficher / masquer
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Avec des mots de passe, le fichier est toujours chiffré. Tu auras besoin de ce mot de passe pour importer, note-le. Au moins 8 caractères.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Sans mots de passe, tu peux laisser le champ vide. Avec un mot de passe, le fichier est chiffré.
+Speichern unter …	Enregistrer sous …
+Bitte mindestens einen Haken setzen.	Coche au moins une case.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Pour inclure les mots de passe, la sauvegarde a besoin d'un mot de passe d'au moins 8 caractères.
+Abbrechen	Annuler
+Daten importieren	Importer les données
+Sicherung vom 	Sauvegarde du 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	La sauvegarde est chiffrée. Mot de passe de la sauvegarde :
+Öffnen	Ouvrir
+Datei beschädigt: 	Fichier endommagé : 
+Passwort falsch, nochmal versuchen.	Mot de passe incorrect, réessaie.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Que faut-il reprendre ? L'existant reste, le nouveau s'ajoute.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Mots appris ({0}), suites de mots ({1}), nombres ({2})
+Eigene Begriffe ({0})	Termes personnels ({0})
+Makros ({0})	Macros ({0})
+Passwörter ({0})	Mots de passe ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Pour les mêmes mots, le compteur le plus élevé l'emporte. Une macro du même nom est remplacée. Pour un mot de passe avec le même nom et utilisateur, celui modifié ou utilisé le plus récemment l'emporte.
+Übernehmen	Appliquer
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Adresses e-mail apprises : adresse<TAB>nombre
+Makroleiste öffnen	Ouvrir la barre de macros
+unbekannte Taste	touche inconnue
+doppelt vergeben	attribué deux fois
+Taste gibt es im Tastaturlayout nicht	cette touche n'existe pas dans la disposition du clavier
+schon von einem anderen Programm belegt (Fehler 1409)	déjà utilisé par un autre programme (erreur 1409)
+von Windows abgelehnt	refusé par Windows
+Windows-Fehler 	Erreur Windows 
+Kürzel aufnehmen	Enregistrer un raccourci
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nAppuie maintenant sur la touche ou la combinaison (p. ex. sur le Quadstick).
+Nochmal	Encore
+Erkannt: 	Reconnu : 
+Kürzel testen	Tester les raccourcis
+Drück jetzt die Taste am Quadstick.\n	Appuie maintenant sur la touche du Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Si « Touche reçue » apparaît en bas, le Quadstick envoie la touche.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Si « Raccourci déclenché » apparaît aussi, tout fonctionne.\n\n
+Aktiv: 	Actifs : 
+Schließen	Fermer
+→ Kürzel ausgelöst: 	→ Raccourci déclenché : 
+keine Kürzel eingetragen	aucun raccourci défini
+Taste angekommen: 	Touche reçue : 
+  (von Software)	  (par un logiciel)
+neu	nouveau
+„{0}“ gemerkt	« {0} » retenu
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Pas encore de macros : créer avec ✎ ou enregistrer avec ●
+weiter  	suite  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Déplacer : relâcher pour poser · Échap/clic droit annule
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Déplacer : garder la souris immobile ou cliquer pour poser · Échap/clic droit annule
+Leertaste	Espace
+■ Stopp	■ Stop
+✕ Zurück	✕ Retour
+Verschieben abgebrochen	Déplacement annulé
+Position gespeichert	Position enregistrée
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Aucun mot connu : cette touche agit sur le dernier mot tapé avec ce clavier
+Weitere Sprachen herunterladen	Télécharger d'autres langues
+Quelle:\n	Source :\n
+\nEs wird nur geladen, was du hier anklickst.	\nSeul ce que tu cliques ici est téléchargé.
+Lade Übersicht …	Chargement de la liste …
+Herunterladen	Télécharger
+Erneut versuchen	Réessayer
+Keine Sprachpakete gefunden.	Aucun pack de langue trouvé.
+Sprache auswählen und "Herunterladen" klicken.	Choisis une langue et clique sur « Télécharger ».
+Lade 	Chargement : 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 est installé et activé. Change avec le bouton de langue en haut du clavier.
+  · hinzugefügt	  · ajouté
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Termes personnels : un mot par ligne, par ex. noms et termes techniques.
+Sie werden in allen Sprachen vorgeschlagen.	Ils sont proposés dans toutes les langues.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Code de langue invalide (par ex. fr.txt ou ligne d'en-tête « #sprache fr Français »).
+Alle	Toutes
+   ✓ installiert	   ✓ installé
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Pas de connexion Internet ou serveur injoignable. Le clavier continue de fonctionner normalement.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Le serveur ne répond pas (délai dépassé). Réessaie plus tard.
+Download fehlgeschlagen: 	Échec du téléchargement : 
+Tab ⇥	Tab ⇥
+Entf	Suppr
+Enter ↵	Entrée ↵
+⇧ Shift	⇧ Maj
+Strg	Ctrl
+Pos1	Début
+Ende	Fin
+Bild ↑	Page ↑
+Bild ↓	Page ↓
+Einfg	Inser
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Mots appris du clavier virtuel
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> mot <TAB> nombre   et   f <TAB> mot <TAB> mot suivant <TAB> nombre
+Geht erst mit der installierten, signierten Version.	Fonctionne seulement avec la version installée et signée.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	En attendant : sur l'écran de verrouillage, clique en bas à droite sur l'icône d'accessibilité et utilise le clavier visuel de Windows. Ou configure Windows Hello (visage), il n'y a alors plus besoin de code PIN.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Le clavier apparaît sur l'écran de verrouillage.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Prêt. Avec l'interrupteur, le clavier apparaît aussi sur l'écran de verrouillage.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Le clavier apparaît maintenant sur l'écran de verrouillage.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Le clavier n'apparaît plus sur l'écran de verrouillage.
+Hat nicht geklappt: 	Ça n'a pas marché : 
+Tasten	Touches
+Warten	Attendre
+Text	Texte
+keine	aucune
+blau	bleu
+grün	vert
+rot	rouge
+orange	orange
+lila	violet
+gelb	jaune
+grau	gris
+Zeile 	Ligne 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Utilise des espaces au lieu de tabulations pour l'indentation.
+Unerwarteter Text, Einrückung prüfen.	Texte inattendu, vérifie l'indentation.
+Einrückung passt nicht.	L'indentation ne correspond pas.
+Text nach dem schließenden ".	Texte après le " fermant.
+Hier wird ein Wert erwartet, keine Liste.	Une valeur est attendue ici, pas une liste.
+Unbekannte Taste "{0}".	Touche inconnue « {0} ».
+"{0}" muss eine Liste sein.	« {0} » doit être une liste.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Étape inconnue « {0} ». Autorisé : text, keys, open, wait (ou text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	« {0} » ne doit pas être une liste.
+Unbekanntes Kürzel "{0}".	Raccourci inconnu « {0} ».
+Unbekannter Eintrag "{0}".	Entrée inconnue « {0} ».
+Makro ohne "name".	Macro sans « name ».
+makros.yaml konnte nicht gelesen werden: 	makros.yaml n'a pas pu être lu : 
+Programme	Programmes
+Grüße	Salutations
+Viele Grüße	Cordialement
+Datum	Date
+Heute	Aujourd'hui
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday} {date}, {time}
+Alles kopieren	Tout copier
+Desktop	Bureau
+Browser	Navigateur
+Neuer Tab	Nouvel onglet
+Tab zu	Fermer l'onglet
+Tab zurück	Rouvrir l'onglet
+Editor	Éditeur
+Rechner	Calculatrice
+Neue Mail	Nouveau mail
+Hallo {cursor},\n\nViele Grüße	Bonjour {cursor},\n\nCordialement
+Unbekannte Taste "{0}" in Makro "{1}"	Touche inconnue « {0} » dans la macro « {1} »
+"{0}" ließ sich nicht öffnen: 	« {0} » n'a pas pu être ouvert : 
+Makros bearbeiten	Modifier les macros
+Neu	Nouveau
+Bearbeiten	Modifier
+Kopieren	Copier
+▲  Hoch	▲  Monter
+▼  Runter	▼  Descendre
+Löschen	Supprimer
+Datei im Editor öffnen	Ouvrir le fichier dans l'éditeur
+Datei neu laden	Recharger le fichier
+Neues Makro	Nouvelle macro
+ (Kopie)	 (copie)
+Makro "	Supprimer la macro «
+" löschen?	 » ?
+Makro bearbeiten	Modifier la macro
+Name (Beschriftung des Knopfs)	Nom (texte du bouton)
+Gruppe (leer = keine)	Groupe (vide = aucun)
+Farbe	Couleur
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Seulement pour le programme (p. ex. chrome ou « chrome, msedge », vide = partout)
+Kürzel für "	Raccourci pour «
+Kein Kürzel	Pas de raccourci
+Schritte (werden der Reihe nach ausgeführt)	Étapes (exécutées l'une après l'autre)
++ Text	+ Texte
++ Tasten	+ Touches
++ Öffnen	+ Ouvrir
++ Warten	+ Attendre
+Taste aufnehmen	Enregistrer une touche
+Speichern	Enregistrer
+Globales Kürzel: 	Raccourci global : 
+Noch keine Schritte. Unten einen hinzufügen.	Pas encore d'étapes. Ajoutes-en une ci-dessous.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Texte : plusieurs lignes possibles. Variables : {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Sépare les touches par des virgules, p. ex.  Strg+A, Strg+C, Enter   ou  Alt+Tab   ou  Win+D.  Noms des touches (allemand) : Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Programme, fichier, dossier ou site web, p. ex.  notepad.exe   C:\Factures   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pause en millisecondes (1000 = 1 seconde)
+Taste für den Schritt	Touche pour l'étape
+Bitte einen Namen eingeben.	Saisis un nom.
+"Warten" braucht eine Zahl in Millisekunden.	« Attendre » a besoin d'un nombre en millisecondes.
+Name	Nom
+Verwerfen	Abandonner
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Nombres appris (dates, numéros de téléphone, codes postaux) : écriture<TAB>nombre
+Taste 	Touche 
+Passwort-Tresor	Coffre-fort de mots de passe
+Kürzel nicht aktiv	Raccourci inactif
+Tastatur zeigen / verstecken	Afficher / masquer le clavier
+Lernen fortsetzen	Reprendre l'apprentissage
+Lernen pausieren	Mettre l'apprentissage en pause
+Passwort-Tresor bearbeiten	Modifier le coffre-fort
+Einstellungen	Paramètres
+Anleitung öffnen	Ouvrir le manuel
+Einführung zeigen	Afficher l'introduction
+☕ Kaffee spendieren	☕ Offrir un café
+Beenden	Quitter
+Die Anleitung wurde nicht gefunden.	Le manuel est introuvable.
+Anleitung	Manuel
+Die Anleitung ließ sich nicht öffnen: 	Le manuel n'a pas pu être ouvert : 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	La langue de Windows est {0}, le clavier est réglé sur {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	La langue de Windows est {0}. Tu peux l'activer dans les paramètres sous Langues.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	La langue de Windows ({0}) n'est pas encore intégrée. Elle est peut-être disponible au téléchargement.
+Sprache herunterladen	Télécharger la langue
+Sprache: 	Langue : 
+  (für 	  (pour 
+Tastatur ein-/ausblenden	Afficher/masquer le clavier
+Sprache wechseln	Changer de langue
+Makro 	Macro 
+Während der Aufnahme keine Makros	Pas de macros pendant l'enregistrement
+" gespeichert	 » enregistrée
+Erst etwas tippen, dann + zum Speichern	Tape d'abord quelque chose, puis + pour enregistrer
+Als Textbaustein speichern	Enregistrer comme bloc de texte
+Text: 	Texte : 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Enregistrement en cours : tape simplement, puis ■ Stop
+Aufnahme verworfen	Enregistrement abandonné
+Nichts aufgenommen	Rien enregistré
+Aufnahme 	Enregistrement 
+Aufnahme speichern	Enregistrer l'enregistrement
+Lernen pausiert	Apprentissage en pause
+Lernen läuft wieder	L'apprentissage reprend
+ Wörter	 mots
+Bisher gelernt: 	Appris jusqu'ici : 
+, Zahlen: 	, nombres : 
+ Dateien gelesen, 	 fichiers lus, 
+ Wörter in 	 mots dans 
+ Sätzen gelernt	 phrases appris
+, dazu 	, plus 
+-mal Datum oder Telefonnummer.	 fois une date ou un numéro de téléphone.
+ Dateien übersprungen.	 fichiers ignorés.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nSeule la fréquence des mots est enregistrée, pas les textes eux-mêmes. Les lignes avec mot de passe, code PIN, IBAN et autres sont ignorées.
+Aus meinen Texten lernen	Apprendre de mes textes
+Der Tresor ist in den Einstellungen ausgeschaltet	Le coffre-fort est désactivé dans les paramètres
+Im Tresor speichern?	Enregistrer dans le coffre-fort ?
+⚿ Speichern	⚿ Enregistrer
+Nein	Non
+Tresor nicht lesbar	Coffre-fort illisible
+🔒 Tresor entsperren	🔒 Déverrouiller le coffre-fort
+Tresor ist noch leer	Le coffre-fort est encore vide
++ Passwort hinzufügen	+ Ajouter un mot de passe
+🎲 Erzeugen und eintippen	🎲 Créer et taper
+✕ Ausblenden	✕ Masquer
+Passwort "	Mot de passe «
+" eingetippt	 » tapé
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Nouveau mot de passe tapé. Enregistre-le maintenant, sinon il est perdu !
+Passwort 	Mot de passe 
+Nicht gespeichert. "Speichern" geht noch kurz.	Pas enregistré. « Enregistrer » marche encore un instant.
+Im Tresor gespeichert	Enregistré dans le coffre-fort
+Tresor entsperren	Déverrouiller le coffre-fort
+PIN eingeben	Saisir le code PIN
+PIN falsch, nochmal versuchen	Code PIN incorrect, réessaie
+nicht lesbar	illisible
+gesperrt, PIN wird abgefragt	verrouillé, le code PIN sera demandé
+{0} Wörter, {1} Zahlen	{0} mots, {1} nombres
+Sicherung speichern	Enregistrer la sauvegarde
+Tastatur-Sicherung	Sauvegarde du clavier
+Gespeichert:\n	Enregistré :\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nLe fichier est chiffré. Sans le mot de passe de la sauvegarde, il ne peut pas être ouvert.
+Sicherung öffnen	Ouvrir une sauvegarde
+Alle Dateien	Tous les fichiers
+{0} neue E-Mail-Adressen	{0} nouvelles adresses e-mail
+{0} neue Wörter, {1} neue Zahlen	{0} nouveaux mots, {1} nouveaux nombres
+{0} neue eigene Begriffe	{0} nouveaux termes personnels
+{0} neue Makros, {1} ersetzt	{0} nouvelles macros, {1} remplacées
+Passwörter übersprungen: 	Mots de passe ignorés : 
+Passwörter übersprungen (Tresor gesperrt)	Mots de passe ignorés (coffre verrouillé)
+{0} neue Passwörter, {1} aktualisiert	{0} nouveaux mots de passe, {1} mis à jour
+Fertig.\n\n	Terminé.\n\n
+mit PIN	avec code PIN
+ohne PIN	sans code PIN
+Tresor gesperrt (	Coffre-fort verrouillé (
+ Passwörter gespeichert, 	 mots de passe enregistrés, 
+Es ist keine PIN gesetzt.	Aucun code PIN n'est défini.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	Code PIN enregistré. Retiens-le bien : sans code PIN, personne ne peut plus accéder aux mots de passe, toi non plus.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	Code PIN supprimé. Le coffre-fort reste chiffré avec ton compte Windows.
+Bildschirmtastatur: Einstellungen	Clavier visuel : paramètres
+Version	Version
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Le clavier est gratuit. S'il t'aide, un don me ferait plaisir.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Soutiens-moi avec un don (Ko-fi)
+📖 Anleitung öffnen	📖 Ouvrir le manuel
+Aussehen	Apparence
+Deckkraft Tastatur	Opacité du clavier
+Deckkraft runder Knopf (eingeklappt)	Opacité du bouton rond (replié)
+Farbschema	Thème de couleurs
+dunkel	sombre
+hell	clair
+Bedienung	Utilisation
+Verweilklick (Taste löst nach Verweilzeit aus)	Clic par survol (la touche se déclenche après un temps)
+Verweilzeit	Temps de survol
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Afficher les vraies frappes (p. ex. du Quadstick, elles s'allument en rouge)
+Nachleuchten	Rémanence
+aus	désactivé
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Le clavier retient le mot commencé pour chaque fenêtre. Quand tu y reviens, tu continues simplement à écrire.
+Auch nach Klick ins Fenster weiterschreiben	Continuer aussi après un clic dans la fenêtre
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Désactivé : on ne continue qu'en changeant via la barre des tâches, Alt+Tab ou la barre de titre. Un clic dans le texte peut déplacer le curseur.
+Wortvorschläge	Suggestions de mots
+Zeilen	Lignes
+1 Zeile	1 ligne
+2 Zeilen	2 lignes
+Vorschläge pro Zeile	Suggestions par ligne
+Schriftgröße Vorschläge und Makros	Taille de police des suggestions et macros
+Satzanfang automatisch groß	Majuscule automatique en début de phrase
+Leerzeichen nach Vorschlag einfügen	Insérer un espace après une suggestion
+Getipptes Wort oben links zeigen (rot)	Afficher le mot tapé en haut à gauche (rouge)
+Punkte mit 👁	Points avec 👁
+immer nur Punkte	toujours des points
+Passwörter beim Tippen	Mots de passe pendant la saisie
+Klartext automatisch ausblenden nach	Masquer le texte en clair automatiquement après
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Dans les champs de mot de passe, seuls des points s'affichent. 👁 montre le mot de passe en clair un instant ; pendant ce temps, le clavier est exclu des captures d'écran et du partage d'écran.
+Sprachen	Langues
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Coché = actif. L'ordre vaut pour le bouton de langue en haut du clavier.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Proposer le mélange (p. ex. DE+EN) en changeant
+Sprache pro Programm merken	Retenir la langue par programme
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Si tu changes de langue dans un programme, le clavier s'en souvient et change automatiquement la prochaine fois dans ce programme. Par exemple Outlook en anglais, WhatsApp en français.
+passend zur Sprache	selon la langue
+immer Deutsch (QWERTZ)	toujours allemand (QWERTZ)
+immer Englisch (QWERTY)	toujours anglais (QWERTY)
+Tastenlayout	Disposition des touches
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Modifier les mots personnels (noms, termes techniques)
+Sonderzeichen unten	Caractères spéciaux en bas
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Les quatre touches en bas à côté de abc/ABC. Un caractère par champ, éventuellement un deuxième pour Maj (par ex. « .: »). Vide = par défaut.
+Auf Standard zurücksetzen	Rétablir par défaut
+Lernen	Apprentissage
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Le clavier retient les mots que tu écris, leur orthographe et quel mot suit souvent quel autre. Tout reste sur ce PC. Rien n'est jamais appris dans les champs de mot de passe.
+Aus meinem Schreiben lernen	Apprendre de ce que j'écris
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Apprendre aussi les nombres (dates, numéros de téléphone, codes postaux)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Apprendre les adresses e-mail et les proposer après 3 lettres
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	Afficher tout de suite les adresses e-mail dans les champs e-mail
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Comme les nouveaux mots, les nombres ne sont proposés qu'à partir de la deuxième fois. Les codes uniques, codes PIN, TAN et numéros de carte ne sont jamais appris.
+Neue Wörter vorschlagen ab	Proposer les nouveaux mots à partir de
+1-mal geschrieben	écrit 1 fois
+-mal geschrieben	 fois écrit
+Aus meinen Texten lernen (Ordner wählen)	Apprendre de mes textes (choisir un dossier)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Dossier avec tes textes (p. ex. Obsidian, Documents). Sont lus les .txt .md .docx .html .eml .mbox, aussi dans les sous-dossiers.
+Aus einzelnen Dateien lernen	Apprendre de fichiers isolés
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Textes|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Tous les fichiers|*.*
+Gelernte Wörter ansehen und löschen	Voir et supprimer les mots appris
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Les mots de passe sont stockés chiffrés pour ton compte Windows, uniquement sur ce PC. Ils n'apparaissent jamais dans les suggestions normales et sont tapés directement, jamais via le presse-papiers.
+Tresor benutzen	Utiliser le coffre-fort
+In Passwortfeldern automatisch zeigen	Afficher automatiquement dans les champs de mot de passe
+Nach dem Eintippen "Im Tresor speichern?" fragen	Demander « Enregistrer dans le coffre-fort ? » après la saisie
+Länge neuer Passwörter	Longueur des nouveaux mots de passe
+ Zeichen	 caractères
+Neue Passwörter mit Sonderzeichen	Nouveaux mots de passe avec caractères spéciaux
+Tresor bearbeiten	Modifier le coffre-fort
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Avec un code PIN, le coffre-fort est verrouillé après le démarrage et se reverrouille après un moment sans utilisation. Tu saisis le code PIN avec de grandes touches numériques.
+PIN festlegen oder ändern	Définir ou changer le code PIN
+PIN entfernen	Supprimer le code PIN
+Mit PIN automatisch sperren nach	Avec code PIN, verrouiller automatiquement après
+nie	jamais
+ Minuten	 minutes
+Sichern und auf anderen PC übertragen	Sauvegarder et transférer vers un autre PC
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Mettre dans un fichier les mots appris, les suites de mots, les nombres, les termes personnels, les macros et, si tu veux, les mots de passe. L'importer sur l'autre PC, et tout est fusionné.
+Daten exportieren …	Exporter les données …
+Daten importieren …	Importer les données …
+Verschieben und Größe	Déplacement et taille
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Déplacer : faire glisser la touche de déplacement en bas à droite, ou rester longtemps sur une touche. Taille : tirer sur un bord ou sur le coin en bas à gauche.
+Breite	Largeur
+ % des Bildschirms	 % de l'écran
+Höhe	Hauteur
+unten rechts	en bas à droite
+unten mittig	en bas au centre
+unten links	en bas à gauche
+Standardposition (für Zurücksetzen)	Position par défaut (pour réinitialiser)
+Größe und Position zurücksetzen	Réinitialiser la taille et la position
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	La taille est un pourcentage de l'écran. Si tu fais glisser le clavier sur un autre écran, il s'y adapte.
+Verschieben durch langes Draufbleiben	Déplacer en restant longtemps sur une touche
+Maustaste gedrückt halten bis Verschieben	Maintenir le bouton de la souris jusqu'au déplacement
+Verweilen bis Verschieben	Survol jusqu'au déplacement
+automatisch (doppelte Verweilzeit)	automatique (double temps de survol)
+Maus ruhig halten zum Absetzen	Garder la souris immobile pour poser
+Greifzone am Rand zum Größe ändern	Zone de saisie au bord pour changer la taille
+ Pixel	 pixels
+Globale Kürzel	Raccourcis globaux
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Fonctionnent aussi quand un autre programme est actif. Idéal pour une touche du Quadstick.
+Protokoll öffnen	Ouvrir le journal
+Start	Démarrage
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Afficher un bouton dans la barre des tâches (un clic ouvre le clavier en entier)
+Mit Windows starten	Démarrer avec Windows
+Eingeklappt starten	Démarrer replié
+Sonstiges	Divers
+automatisch (wie Windows)	automatique (comme Windows)
+Sprache der Oberfläche	Langue de l'interface
+Einführung nochmal zeigen	Revoir l'introduction
+Sperrbildschirm	Écran de verrouillage
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Afficher sur l'écran de verrouillage (pour saisir le code PIN)
+Datenordner öffnen	Ouvrir le dossier de données
+Tastatur beenden	Quitter le clavier
+Makro-Kürzel nicht aktiv: 	Raccourci de macro inactif : 
+Entfernen	Retirer
+Aus Datei hinzufügen	Ajouter depuis un fichier
+Download-Quelle (nur https)	Source de téléchargement (https uniquement)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Saisis une adresse qui commence par https://.
+Download-Quelle	Source de téléchargement
+Standard wiederherstellen	Rétablir par défaut
+Mindestens eine Sprache muss aktiv sein.	Au moins une langue doit être active.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 est intégré et peut seulement être désactivé (décocher).
+ löschen?	 : supprimer ?
+Sprachpaket	Pack de langue
+ wurde hinzugefügt und eingeschaltet.	 a été ajouté et activé.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Voici l'affectation dans la feuille du Quadstick. Choisis l'entrée voulue dans la colonne jaune (p. ex. mp_triple_puff), puis charge la configuration sur le Quadstick.
+ausgeschaltet	désactivé
+✓ aktiv	✓ actif
+✗ nicht aktiv	✗ inactif
+Aufnehmen	Enregistrer
+Aus Liste ▾	Depuis la liste ▾
+Aus	Désactivé
+Bildschirmtastatur öffnen	Ouvrir le clavier virtuel
+Willkommen!	Bienvenue !
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Ce clavier visuel tape dans le programme où tu écris et ne lui prend jamais le focus. Clique sur « Suivant » pour découvrir les points importants.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Tout à gauche, tu vois en rouge ce que tu tapes. À côté se trouvent des mots adaptés, un clic insère le mot avec un espace. Le clavier apprend les mots que tu écris souvent. Pour un nouveau mot, clique sur le mot rouge, il est retenu tout de suite.
+Groß/Klein-Taste	Touche majuscule/minuscule
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	« abc ↑ » met le dernier mot en majuscule, « ABC ↓ » le met en minuscules. Ça marche aussi après coup, après un espace ou un point.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Maintiens ✥ et fais glisser le clavier où tu veux. Ou reste sur n'importe quelle touche jusqu'à ce que l'anneau orange soit plein : le clavier suit alors la souris. La taille se change sur chaque bord.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Maj, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Une pression vaut pour la touche suivante. Deux pressions bloquent la touche, trois pressions la désactivent.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Blocs de texte, suites de touches et programmes en un clic. Avec ● tu enregistres simplement ce que tu tapes.
+Sprache	Langue
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Change la langue des suggestions et la disposition des touches. Les langues incluses se règlent dans les paramètres.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Affiche tes mots de passe enregistrés. Dans les champs de mot de passe, ils apparaissent tout seuls, un clic tape le mot de passe.
+Verweilklick	Clic par survol
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Active ou désactive le clic par survol : une touche se déclenche quand tu restes un instant dessus avec la souris.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Tout se règle ici : taille, couleurs, langues, raccourcis et plus. Tu y retrouveras aussi cette introduction.
+Einklappen	Replier
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Replie le clavier en un petit bouton rond. Un clic dessus le fait revenir.
+Tray-Symbol und Kürzel	Icône de notification et raccourcis
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	En bas à droite dans la barre des tâches se trouve l'icône du clavier. La touche Pause affiche et masque le clavier, idéal pour une touche du Quadstick.
+Fertig!	Terminé !
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Bonne écriture. Tout le reste est dans le manuel : « 📖 Ouvrir le manuel » tout en haut des paramètres ou dans le menu de l'icône. Le clavier est gratuit. S'il t'aide, un don me ferait plaisir.
+Überspringen	Passer
+Zurück	Retour
+Fertig	Terminé
+Weiter	Suivant
+tresor.dat hat ein unbekanntes Format.	tresor.dat a un format inconnu.
+Tresor ist gesperrt.	Le coffre est verrouillé.
+Passwort	Mot de passe
+Mindestens 4 Ziffern	Au moins 4 chiffres
+PIN festlegen	Définir le code PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Saisir le nouveau code PIN (4 à 12 chiffres)
+PIN zur Sicherheit wiederholen	Répéter le code PIN pour confirmer
+Die beiden PINs sind verschieden. Bitte nochmal.	Les deux codes PIN sont différents. Réessaie.
+Passwort-Eintrag	Entrée de mot de passe
+Name (so steht es in der Tresorleiste)	Nom (tel qu'il apparaît dans la barre du coffre-fort)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Nom d'utilisateur ou e-mail (simple rappel, facultatif)
+Benutzername oder E-Mail	Nom d'utilisateur ou e-mail
+Sicheres Passwort erzeugen	Créer un mot de passe sûr
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Correspond à (mots-clés du titre de la fenêtre, p. ex. « gmail, google »)
+Name und Passwort dürfen nicht leer sein.	Le nom et le mot de passe ne peuvent pas être vides.
+Tresor konnte nicht gespeichert werden: 	Le coffre-fort n'a pas pu être enregistré : 
+" aus dem Tresor löschen?	 » : supprimer du coffre-fort ?
+Gelernte Wörter	Mots appris
+Zahlen	Nombres
+E-Mail-Adressen	Adresses e-mail
+Suchen:	Rechercher :
+Markierte löschen	Supprimer la sélection
+Alles vergessen	Tout oublier
+ E-Mail-Adressen gelernt, für alle Sprachen	 adresses e-mail apprises, pour toutes les langues
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 nombres appris (dates, numéros de téléphone, codes postaux), pour toutes les langues
+ Wörter, 	 mots, 
+ Wortfolgen gelernt	 suites de mots apprises
+   (die ersten 3000 angezeigt)	   (les 3000 premiers affichés)
+Alle gelernten E-Mail-Adressen vergessen?	Oublier toutes les adresses e-mail apprises ?
+Alle gelernten Zahlen vergessen?	Oublier tous les nombres appris ?
+Alles Gelernte für 	Oublier tout ce qui a été appris pour 
+ vergessen?	 ?
+Suche Dateien …	Recherche de fichiers …
+Datei 	Fichier 
+ von 	 sur 
+Deutsch	Allemand
+Englisch	Anglais
+Niederländisch	Néerlandais
+Französisch	Français
+Dänisch	Danois
+Polnisch	Polonais
+Tschechisch	Tchèque
+Italienisch	Italien
+Spanisch	Espagnol
+Türkisch	Turc
+Russisch	Russe
+Portugiesisch	Portugais
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent le PC sans les mains, par exemple avec un joystick buccal comme le Quadstick, une souris de tête ou avec les yeux.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Mémoriser et proposer les IBAN (seulement valides, avec clé de contrôle correcte)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Les nombres et les IBAN sont proposés dès la première fois. Les codes PIN, TAN et numéros de carte ne sont jamais appris.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Ta langue Windows ({0}) n'est malheureusement pas encore intégrée.
+IBAN merken und vorschlagen	Mémoriser et proposer les IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Apprendre les codes PIN et numéros de carte (chiffrés)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Les nombres sont proposés dès la première fois. Un IBAN seulement si la clé de contrôle est correcte. Les codes PIN et numéros de carte sont stockés chiffrés sur ce PC et ne vont que dans une sauvegarde avec mot de passe.
+Leerzeichen nach . , ! ? : von selbst einfügen	Insérer automatiquement une espace après . , ! ? :
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Touche encore ✕ pour fermer le clavier
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Avec le raccourci (p. ex. Pause), ouvrir là où se trouve la souris
+Wo die Tastatur dann erscheint	Où le clavier apparaît alors
+unter der Maus, mittig	sous la souris, centré
+unter der Maus, nach rechts	sous la souris, vers la droite
+unter der Maus, nach links	sous la souris, vers la gauche
+über der Maus, mittig	au-dessus de la souris, centré
+über der Maus, nach rechts	au-dessus de la souris, vers la droite
+über der Maus, nach links	au-dessus de la souris, vers la gauche
+🔍 Suchen	🔍 Chercher
+nichts gefunden	rien trouvé
+✕ Suche beenden	✕ Arrêter la recherche
+Namen tippen, die Liste wird kleiner	Tape un nom, la liste se réduit

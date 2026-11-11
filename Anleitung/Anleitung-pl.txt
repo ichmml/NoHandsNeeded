@@ -1,0 +1,441 @@
+NoHandsNeeded
+=============
+Klawiatura ekranowa, Wersja 1.01
+
+Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego
+powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład
+joystickiem ustnym takim jak Quadstick, myszą sterowaną głową albo wzrokiem.
+
+Ta instrukcja została przetłumaczona z niemieckiego przez AI. Poprawki od rodzimych
+użytkowników języka są mile widziane na GitHubie: https://github.com/ichmml/nohandsneeded
+(folder Anleitung).
+
+Klawiatura ekranowa dla Windows, stworzona dla osób, które obsługują komputer bez rąk, na
+przykład za pomocą sterowania ustami (Quadstick), myszy głowowej lub sterowania wzrokiem.
+Cel: jak najmniej kliknięć. Nigdy nie zabiera fokusu programowi, w którym piszesz.
+
+Start
+-----
+Umieść NoHandsNeeded.exe we własnym folderze (np. C:\Tools\NoHandsNeeded) i uruchom.
+Nic nie trzeba instalować, .NET Framework 4.8 jest już w Windows 10/11.
+Aktualizacja: zamknij starą wersję przez ikonę w zasobniku i po prostu zastąp plik .exe.
+Ustawienia zostają zachowane.
+
+Przy pierwszym uruchomieniu Windows może pokazać „System Windows ochronił ten komputer”.
+Kliknij wtedy „Więcej informacji” i „Uruchom mimo to”. Dzieje się tak, bo plik nie jest
+podpisany.
+
+Przy pierwszym uruchomieniu klawiatura dopasowuje się do języka Windows (podpowiedzi, układ
+klawiszy i interfejs) i pokazuje krótkie wprowadzenie do przeklikania. Wprowadzenie można
+zawsze pokazać ponownie: Ustawienia → Inne → „Pokaż wprowadzenie ponownie” lub menu ikony.
+Ta instrukcja otwiera się przez „Otwórz instrukcję” na samej górze ustawień lub w menu ikony,
+zawsze w języku interfejsu.
+
+Obok pliku .exe powstaje folder „NoHandsNeeded-Daten” z einstellungen.txt, makros.yaml,
+protokoll.txt (dziennik), folderem „Lernen” (nauczone słowa) i tresor.dat (hasła,
+zaszyfrowane). Jeśli do folderu nie można zapisywać, dane trafiają do %APPDATA%\NoHandsNeeded.
+
+Górny pasek
+-----------
+  Esc       klawisz Escape (Fn jest na dole po lewej w najniższym rzędzie)
+  środek    na samym lewo na czerwono wpisywane słowo (patrz niżej), obok podpowiedzi,
+            jedno kliknięcie wstawia słowo ze spacją
+  Makra     otwiera pasek makr (patrz niżej)
+  PL        język podpowiedzi, jedno kliknięcie przełącza (patrz „Języki”)
+  ⚿         pokaż/ukryj sejf haseł (patrz „Sejf haseł”)
+  ◷         kliknięcie przez zatrzymanie wł./wył.
+  ⚙         ustawienia
+  ▾         zwiń do małego okrągłego przycisku (kliknięcie lub zatrzymanie rozwija)
+  ✕         zamknij klawiaturę: dotknij dwa razy (po pierwszym dotknięciu ✕ robi się czerwony)
+
+Wpisywane słowo (u góry po lewej, czerwone)
+-------------------------------------------
+Pierwsze pole paska podpowiedzi pokazuje na czerwono i pogrubione to, co właśnie piszesz,
+litera po literze. Liczby widać w całości z kropkami, oczekujący klawisz akcentu (np. ´)
+pojawia się na końcu. Długie słowa nigdy nie są skracane, pole po prostu się poszerza.
+Znaki specjalne nie czyszczą pola: widać wszystko od ostatniej spacji, Enter lub Tab, np.
+„s!add” albo adres strony. Podpowiedzi obok dotyczą ostatniego słowa („add”). Kliknięcie
+takiego czerwonego pola dodaje tylko spację.
+  - Jeśli klawiatura nie zna jeszcze słowa, obok pojawia się małe „nowe”. Kliknięcie
+    czerwonego słowa wstawia je ze spacją i od razu zapamiętuje, odtąd jest podpowiadane.
+  - W polu hasła widać czerwone kropki i liczbę znaków, obok 👁. 👁 pokazuje hasło jawnie
+    przez 10 sekund (albo do następnego kliknięcia). W tym czasie klawiatura jest wyłączona ze
+    zrzutów ekranu i udostępniania ekranu. Hasła z sejfu pojawiają się tylko jako kropki. Po
+    Enter lub po opuszczeniu pola wszystko znika.
+  - We własnych oknach klawiatury (nowy wpis w sejfie, hasło kopii zapasowej) hasło jest
+    podczas pisania widoczne jawnie, w oknie i u góry klawiatury. „Pokaż / ukryj” przełącza
+    na kropki. Nic nie jest uczone, zapisywane w dzienniku ani nagrywane.
+  - Pokazywane jest tylko to, co wpisano tą klawiaturą. Po kliknięciu w okno lub prawdziwym
+    naciśnięciu klawisza pole jest puste.
+  - Ustawienia → Podpowiedzi słów: wł./wył., „kropki z 👁” lub „zawsze tylko kropki”, czas
+    do ukrycia jawnego tekstu.
+
+Przesuwanie i rozmiar
+---------------------
+Przesuwanie:
+  - Przytrzymaj ✥ na dole po prawej i przeciągnij albo krótko się na nim zatrzymaj.
+  - Na dowolnym klawiszu przytrzymaj przycisk myszy trochę dłużej (domyślnie 0,5 sekundy).
+    Wypełnia się pomarańczowy pierścień, potem klawiatura podąża za myszą. Puszczenie ją
+    odkłada. Klawisz nie jest wtedy wpisywany. Krótkie kliknięcie pisze jak zwykle (przy
+    puszczeniu).
+  - Z kliknięciem przez zatrzymanie: zatrzymaj się na klawiszu wyraźnie dłużej (domyślnie
+    podwójny czas zatrzymania). Najpierw klawisz zostaje wpisany raz, potem wypełnia się
+    pomarańczowy pierścień i klawiatura podąża za myszą. Chwila bez ruchu myszy lub
+    kliknięcie ją odkłada. Backspace, Delete i strzałki powtarzają się przy zatrzymaniu,
+    dlatego nie można nimi przeciągać.
+  - Esc lub prawy przycisk przerywa, klawiatura wraca na miejsce.
+  - Klawiatura zawsze pozostaje w całości na ekranie, także przy kilku monitorach.
+Rozmiar: przeciągnij myszą dowolną krawędź lub niebieski róg na dole po lewej.
+  Rozmiar jest w procentach ekranu (domyślnie 60 % szerokości, 31 % wysokości, na dole po
+  prawej). Ustawienia → „Przesuwanie i rozmiar”: suwaki szerokości i wysokości, pozycja
+  domyślna (na dole po prawej, na środku lub po lewej) i „Resetuj rozmiar i pozycję”.
+Kilka ekranów: klawiaturę można przeciągnąć na każdy ekran, także gdy ekrany mają różne
+  skalowanie (np. 125 % i 100 %). Po odłożeniu przyjmuje tam ten sam rozmiar w procentach.
+  Jeśli przy starcie brakuje ekranu, pojawia się na dole po prawej na ekranie głównym. To
+  samo dotyczy okrągłego przycisku.
+W ustawieniach pasek podpowiedzi może mieć też dwa wiersze, z własnym rozmiarem czcionki.
+
+Klawisze
+--------
+Fn (na dole po lewej): druga warstwa z F1 do F12, Home, End, Page Up/Down, znaki specjalne.
+Esc jest u góry po lewej.
+Shift, Ctrl, Alt, Win, AltGr:
+  1x dotknąć = działa dla następnego klawisza (niebieska ramka)
+  2x dotknąć = zablokowany (pomarańczowa ramka, „blok.”), np. Shift zablokowany + strzałki
+               do zaznaczania
+  3x dotknąć = wył.
+Win działa inaczej: 1 dotknięcie dotyczy następnego klawisza (np. Win+E dla Eksploratora), 2
+dotknięcia naciskają sam klawisz Windows i otwierają menu Start.
+
+Najniższy rząd: Fn, Ctrl, Win, Alt, spacja, AltGr (zaraz po prawej od spacji), abc/ABC,
+cztery znaki specjalne, strzałki, ✥. Cztery znaki specjalne to domyślnie ! ? : - i można je
+zmienić w ustawieniach w „Znaki specjalne na dole” (jeden znak na pole, opcjonalnie drugi dla
+Shift, np. „.:”). Po podpowiedzi słowa znak interpunkcyjny przysuwa się do słowa, a spacja
+przechodzi za niego („dom .” staje się „dom. ”).
+Także poza tym po . , ! ? : ; spacja pojawia się sama, z wyjątkiem liczb (1,5 lub 10:30),
+adresów stron, adresów e-mail oraz pól e-mail lub IBAN. Jeśli sam wpiszesz jeszcze spację,
+nie będzie podwójna. Można to wyłączyć w ustawieniach.
+
+Klawisz wielkości liter (obok spacji): zmienia pisownię ostatniego słowa.
+    „abc” ze strzałką w górę  = słowo małymi literami, jedno naciśnięcie robi pierwszą
+                                literę wielką
+    „ABC” ze strzałką w dół   = słowo ma wielkie litery, jedno naciśnięcie robi je małymi
+    Potem pokazuje drugą opcję, można więc przełączać tam i z powrotem.
+    Działa też zaraz po podpowiedzi słowa albo po spacji/kropce.
+    Szare „Aa” = brak znanego słowa. Klawisz zna tylko słowa wpisane tą klawiaturą i
+    zapomina je po kliknięciu w okno, zmianie okna lub Enter. Nie zna słów z wprowadzania
+    głosowego (np. Wispr Flow) ani z innej klawiatury.
+    WSZYSTKO WIELKIMI: dwa razy dotknąć Shift (zablokowany).
+
+Na początku zdania (po . ! ? i spacji albo po Enter) następna litera robi się automatycznie
+wielka. Można to wyłączyć w ustawieniach.
+
+Prawdziwe naciśnięcia klawiszy: gdy naciśniesz klawisz na Quadsticku (lub zwykłej
+klawiaturze), świeci się on na czerwono na klawiaturze ekranowej, dopóki jest wciśnięty, i
+jeszcze 1,5 sekundy potem. Ctrl+Shift dla Wispr Flow widać więc, dopóki trzymasz. To, co
+pisze sama klawiatura ekranowa, się nie świeci. Klawisze są tylko pokazywane, nie zapisywane
+ani nie logowane.
+Po prawdziwym naciśnięciu klawisza klawiatura zapomina zaczęte słowo, bo może tam być
+wklejony lub podyktowany tekst. Sam Shift lub Ctrl nic nie zmienia, Ctrl+Shift tak. Klawisze
+skrótów (Pause, klawiatura numeryczna -) się nie liczą.
+Ustawienia → Obsługa: wł./wył. i jak długo klawisze się świecą.
+
+Własne okna (sejf, wpis hasła, PIN, makra, eksport/import): klawiatura pozostaje klikalna,
+więc można w tych oknach normalnie pisać. Okna otwierają się tam, gdzie klawiatura ich nie
+zasłania.
+
+Słowo na program: gdy zmieniasz okno (np. z programu pocztowego do przeglądarki i z
+powrotem), klawiatura zapamiętuje dla każdego okna zaczęte słowo, słowo przed nim i początek
+zdania. Po powrocie do okna po prostu piszesz dalej.
+  - Dotyczy okna: dwa okna przeglądarki są oddzielne, karty w tym samym oknie nie.
+  - Jeśli przywołasz okno kliknięciem w tekst, też działa dalej. Kliknięcie w środek tekstu
+    sprawi, że podpowiedź nie będzie pasować. Wyłączenie: Ustawienia → Obsługa → „Pisz dalej
+    także po kliknięciu w okno”.
+  - Najwyżej 30 okien, najwyżej 30 minut, tylko w pamięci. Nigdy pola haseł.
+
+Przy kliknięciu przez zatrzymanie Backspace, Delete i strzałki powtarzają się, dopóki na
+nich zostajesz. Wszystkie inne klawisze działają ponownie dopiero po opuszczeniu klawisza.
+
+Makra
+-----
+Dotknij „Makra”: u góry zamiast podpowiedzi pojawiają się makra.
+  - Jedno kliknięcie wykonuje makro, potem wracają podpowiedzi.
+  - Grupy wyglądają jak „Nazwa ›”, kliknięcie je otwiera, „‹ Nazwa” wraca.
+  - Makra pasujące do aktywnego programu są na początku.
+  - Jeśli nie wszystkie się mieszczą, „dalej ›” przewija.
+  - „✕ Wstecz” zamyka pasek makr.
+
+Po prawej od paska makr:
+  ●  Nagrywanie: po prostu pisz normalnie na klawiaturze, wszystko jest zapisywane (tekst,
+     Enter, skróty jak Ctrl+S). Klawiatura dostaje czerwoną ramkę.
+     „■ Stop” kończy nagrywanie, potem potwierdź nazwę i gotowe.
+     ✕ odrzuca nagranie.
+  +  Szybki zapis: ostatnio wpisany tekst (od ostatniego kliknięcia w okno) zostaje zapisany
+     jako blok tekstu. Nazwa jest już zaproponowana, wystarczy jedno kliknięcie.
+  ✎  otwórz edytor makr
+
+Edytor makr (✎ lub Ustawienia → Edytuj makra):
+  Nowe, Edytuj, Kopiuj, W górę/W dół, Usuń. W samym makrze: nazwa, grupa, kolor, program,
+  globalny skrót i dowolnie wiele kroków:
+    Tekst       symbole zastępcze {date} {time} {weekday} {cursor}
+                (niemieckie też działają: {datum} {uhrzeit} {wochentag})
+                ({cursor} = tam stoi kursor po wstawieniu)
+    Klawisze    np. Ctrl+A, Ctrl+C, Enter   lub   Alt+Tab   lub   Win+D
+                „Nagraj klawisz” wpisuje naciśnięty klawisz bezpośrednio
+    Otwórz      program, plik, folder lub strona internetowa
+    Czekaj      przerwa w milisekundach
+
+Makra są w NoHandsNeeded-Daten\makros.yaml i można je też edytować ręcznie (opis jest na górze
+pliku). Słowa kluczowe działają po angielsku (name, group, steps, keys, open, wait) lub po
+niemiecku (name, gruppe, schritte, tasten, oeffnen, warten).
+Potem w edytorze „Wczytaj plik ponownie”. Jeśli plik ma błąd, klawiatura pokazuje wiersz
+zamiast się zawiesić. Przy zapisie poprzednia wersja zostaje jako makros.yaml.bak.
+
+Makra piszą przez symulację klawiatury, nigdy przez schowek. Nie trafiają do podpowiedzi.
+Hasła nie należą do makr, od tego jest sejf.
+
+Języki
+------
+Wbudowane, bez internetu: niemiecki, angielski, niderlandzki, francuski, duński, polski,
+czeski, włoski, hiszpański, turecki i rosyjski.
+Przycisk języka u góry przełącza po kolei włączone języki, do tego tryb mieszany (np.
+PL+EN, według częstości). Tryb mieszany można wyłączyć.
+
+Przy pierwszym uruchomieniu klawiatura bierze język Windows i dodaje angielski. Jeśli Windows
+jest po polsku, startuje po polsku z polskim układem.
+
+Podpowiedzi bez znaków diakrytycznych: „zolw” daje „żółw”, „cafe” daje „café”, „nino” daje
+„niño”. Nie trzeba więc szukać znaków specjalnych. Dotyczy to też nauczonych słów.
+
+Układ klawiszy: dopasowuje się do języka (w trybie mieszanym do pierwszego języka).
+  Niemiecki QWERTZ, angielski i niderlandzki QWERTY, francuski AZERTY, duński z æ ø å,
+  polski z ą ć ę ł ń ó ś ź ż przez AltGr, czeski z ě š č ř ž ý á í é w rzędzie cyfr, włoski,
+  hiszpański z ñ ¿ ¡, turecki Q z ı ğ ü ş ö ç, rosyjski ЙЦУКЕН.
+  Rosyjski ma klawisz „ABC/АБВ” dla liter łacińskich (adresy mailowe, linki).
+  Klawisze akcentów jak w Windows (martwe klawisze): we francuskim, hiszpańskim, duńskim,
+  czeskim i niderlandzkim najpierw ´ ` ^ ¨, potem litera (´ + e = é). Ze spacją potem
+  pojawia się sam znak. Niemiecki nie ma martwych klawiszy.
+  Klawiatura pisze w Unicode, układu Windows nie trzeba zmieniać.
+  Ustawienia → Języki → Układ klawiszy: zgodnie z językiem, zawsze niemiecki lub zawsze
+  angielski.
+
+Ustawienia → Języki:
+  - Zaznaczenie włącza język, ▲/▼ zmienia kolejność przy przełączaniu.
+  - „Zapamiętaj język dla programu”: gdy zmienisz język w programie, klawiatura to
+    zapamięta i następnym razem w tym programie przełączy automatycznie. Na przykład Outlook
+    po angielsku, WhatsApp po polsku.
+  - „Edytuj własne pojęcia”: nazwy i terminy fachowe podpowiadane we wszystkich językach.
+    Plik: NoHandsNeeded-Daten\eigene_woerter.txt
+  - „Dodaj z pliku”: użyj listy słów bez internetu (słowo, tabulator, częstość; nazwa pliku
+    = kod języka, np. pt.txt).
+  - „Usuń”: usuwa samodzielnie dodany język (wbudowane można tylko wyłączyć).
+Samodzielnie dodane języki leżą w NoHandsNeeded-Daten\Sprachen.
+Opcjonalnie jest globalny skrót „Zmień język”.
+
+Język interfejsu
+----------------
+Ustawienia, menu, komunikaty, opisy klawiszy, wprowadzenie i ta instrukcja są po niemiecku,
+angielsku, niderlandzku, francusku, duńsku, polsku, czesku, włosku, hiszpańsku, turecku i
+rosyjsku. Domyślnie jest język Windows, w przeciwnym razie angielski.
+Zmiana: Ustawienia → Inne → „Język interfejsu” → Zastosuj.
+Tłumaczenia wykonała AI. Poprawki od rodzimych użytkowników są mile widziane na GitHubie:
+https://github.com/ichmml/nohandsneeded (interfejs: folder Resources/Texte, instrukcja:
+folder Anleitung). Jeśli w danym języku brakuje tekstu, pojawia się po angielsku.
+
+Nauka
+-----
+Klawiatura uczy się podczas pisania:
+  - nowych słów (nazwy, terminy fachowe). Są podpowiadane, gdy napiszesz je 2 razy
+    (ustawialne od 1 do 5).
+  - jak często używasz którego słowa. Częste przesuwają się do przodu.
+  - które słowo często następuje po którym. Po spacji od razu u góry stoją pasujące
+    następne słowa (np. po „mój” słowo, które zwykle piszesz potem).
+  - pisowni: jeśli klawiszem wielkości liter zrobisz z „iphone” „iPhone”, następnym razem
+    od razu dostaniesz „iPhone”.
+Jeśli od razu usuniesz słowo przez ⌫, zostaje też zapomniane.
+
+Liczby: daty (10.09.1991), numery telefonów (512 345 678, +48 22 123 45 67) i kody pocztowe
+przed nazwą miejscowości też są uczone, podobnie jak długie numery od 9 cyfr, np. numery
+klienta lub umowy. Są proponowane już po pierwszym razie. Gdy piszesz cyfry, u góry stoją
+pasujące liczby. Separatory się nie liczą, „1009” daje więc „10.09.1991”. Liczba jest
+wstawiana w nauczonej pisowni.
+PIN-y (4 do 8 cyfr bez separatorów) i numery kart też są zapamiętywane, ale zaszyfrowane w
+osobnym pliku (zahlen_geheim.dat). Do kopii zapasowej trafiają tylko z hasłem. Można to
+wyłączyć w ustawieniach uczenia („Ucz się PIN-ów i numerów kart (zaszyfrowane)”). Nigdy nie
+uczone: pojedyncze liczby i ilości, godziny, wszystko w polach haseł i nic, co wygląda jak
+hasło (cyfry z literami, bardzo długie słowa). Z własnych tekstów PIN-y i numery kart nigdy
+nie są przejmowane.
+IBAN: poprawny IBAN (właściwa cyfra kontrolna) jest zapamiętywany, wpisany ze spacjami lub
+bez. Następnym razem wystarczy kod kraju i pierwsza cyfra („PL6”): pojawia się na zielono z
+🏦 u góry, a jedno kliknięcie wpisuje go w całości. W polach o nazwie IBAN i po „IBAN:”
+pojawia się od razu. Można to wyłączyć w ustawieniach uczenia.
+Liczby obowiązują we wszystkich językach, plik: NoHandsNeeded-Daten\Lernen\zahlen.txt. Wyłączanie
+w Ustawienia → Nauka, podgląd i usuwanie w „Nauczone słowa” → wybór „Liczby”.
+
+Ustawienia → Nauka:
+  - „Ucz się z moich tekstów”: wybierz folder (np. notatki lub dokumenty). Czytane są .txt,
+    .md, .docx, .html, .eml i .mbox, także w podfolderach. Foldery z kropką na początku
+    (.obsidian, .git) są pomijane.
+    Zapisywana jest tylko statystyka, które słowa występują jak często i w jakiej kolejności,
+    nigdy teksty. Wiersze z hasłem, PIN, IBAN, loginem, tokenem i podobnymi są pomijane, tak
+    samo linki, adresy mailowe, bloki kodu i cytowane maile.
+    Przy kilku językach każdy akapit trafia do języka, do którego pasuje.
+  - „Pokaż i usuń nauczone słowa”: szukaj, usuwaj pojedyncze słowa, zapomnij wszystko.
+  - Ikona w zasobniku → „Wstrzymaj naukę”, np. gdy pisze ktoś inny.
+Nauczone dane są w NoHandsNeeded-Daten\Lernen\pl.txt (jeden plik na język) i są zapisywane co
+2 minuty oraz przy zamknięciu.
+
+Sejf haseł
+----------
+Żeby nie trzeba było za każdym razem wpisywać długich haseł znak po znaku.
+  - Gdy klikniesz w pole hasła, u góry zamiast podpowiedzi pojawiają się zapisane hasła
+    (żółte, z ⚿). Pasujące do okna stoi na początku. Jedno kliknięcie wpisuje hasło w pole.
+    Potem Enter.
+  - Jeśli sam wpisałeś hasło, klawiatura pyta po Enter lub po opuszczeniu pola: „Zapisać w
+    sejfie?”. „Zapisz” otwiera okno z proponowaną nazwą, którą potwierdzasz. „Nie” lub
+    po prostu dalsza praca odrzuca.
+  - „+ Dodaj hasło” otwiera okno dla nowego wpisu. Nazwa jest już zaproponowana na podstawie
+    strony lub programu, hasło podczas pisania widać jawnie, „Utwórz bezpieczne hasło” wypełnia je
+    na życzenie. „Zapisz” zapisuje je i od razu pojawia się na pasku.
+  - Jeśli nie wszystkie hasła mieszczą się w pasku, „dalej ›” przechodzi na następną stronę,
+    pasujące do otwartej strony są na początku. „🔍 Szukaj”: wpisz kilka liter, a pasek
+    pokaże tylko pasujące wpisy (nazwa, użytkownik lub program). Litery nie trafiają przy
+    tym do programu. Backspace kasuje, Esc, Enter lub „✕ Zakończ wyszukiwanie” kończy
+    wyszukiwanie.
+  - Jeśli przed chwilą wpisano hasło na stronie, jest już wpisane w tym oknie, podobnie jak
+    adres e-mail wpisany chwilę wcześniej w tym samym oknie. Kursor od razu stoi w następnym
+    pustym polu. W nazwie i e-mailu piszesz normalnie, nic nie jest tam zapamiętywane.
+  - „🎲 Utwórz i wpisz” (tylko w polu hasła) tworzy bezpieczne hasło (domyślnie
+    16 znaków), wpisuje je w pole i od razu proponuje zapis. Koniecznie zapisz, inaczej
+    przepadnie.
+  - W oknie sejfu hasło jest zawsze widoczne jawnie, także przy edycji istniejącego wpisu,
+    żeby było widać, czy piszesz poprawnie. „Pokaż / ukryj” w razie potrzeby je ukrywa.
+  - ⚿ u góry po prawej pokazuje sejf także poza polami haseł, „✕ Ukryj” go ukrywa.
+Bezpieczeństwo:
+  - tresor.dat jest szyfrowany przez Windows (DPAPI) i czytelny tylko z twoim kontem Windows
+    na tym komputerze. Skopiowany gdzie indziej plik jest bezużyteczny. Do przenoszenia służy
+    „Kopia zapasowa i przeniesienie na inny komputer” (patrz niżej).
+  - Opcjonalnie PIN (Ustawienia → Sejf haseł). Wtedy sejf jest zablokowany po każdym
+    uruchomieniu i blokuje się ponownie po 15 minutach bez użycia (ustawialne). PIN wpisuje
+    się dużymi klawiszami cyfr. Bez PIN-u nikt nie dostanie się do haseł, ty też nie. Więc
+    dobrze go zapamiętaj.
+  - Hasła nigdy nie pojawiają się w zwykłych podpowiedziach, nigdy nie są uczone, nie trafiają
+    do nagrań makr i nigdy nie są wstawiane przez schowek.
+  - Pola haseł klawiatura rozpoznaje po oznaczeniu Windows dla pól chronionych. Działa to w
+    programach Windows i popularnych przeglądarkach. Jeśli nie rozpozna pola, pomoże ⚿.
+Edycja: Ustawienia → Sejf haseł → „Edytuj sejf” (lub ikona w zasobniku).
+Tam ustawiasz nazwę, użytkownika, hasło (z przyciskiem pokazania) i słowa kluczowe dla tytułu
+okna („gmail, google”), żeby właściwe hasło stało na początku.
+
+Adresy e-mail: gdy wpiszesz adres e-mail, klawiatura zapamięta go jak nowe słowo (nie w polach
+haseł). Od następnego razu pojawia się u góry na niebiesko z ✉, gdy tylko wpiszesz pierwsze
+3 litery, jedno kliknięcie wstawia cały adres. Gdy klikniesz w pole na e-mail lub nazwę
+użytkownika, adresy od razu stoją u góry, bez wpisywania litery. Klawiatura rozpoznaje takie
+pole po jego opisie, działa to na większości stron logowania. Wyłączanie: Ustawienia → Nauka.
+Podgląd i usuwanie: „Nauczone słowa” → „Adresy e-mail”.
+
+Skróty globalne i Quadstick
+---------------------------
+Te skróty działają też, gdy na pierwszym planie jest inny program:
+  Pause                 pokaż/ukryj klawiaturę
+  klaw. numeryczna -    otwórz pasek makr (w klawiaturze nazywa się „NumMinus”)
+Dodatkowo każde makro może mieć własny skrót (w edytorze makr).
+W ustawieniach przy każdym skrócie widać, czy jest aktywny (zielony znaczek), czy nie
+(czerwony, z powodem).
+
+Gdy otwierasz klawiaturę skrótem, pojawia się tam, gdzie jest kursor myszy: wyśrodkowana tuż
+pod nim, żeby miejsce było widoczne, a gdy brakuje miejsca, nad nim. Z paska zadań,
+zasobnika lub okrągłego przycisku zostaje na zwykłym miejscu. Można to wyłączyć w
+ustawieniach („Przy skrócie (np. Pause) otwieraj tam, gdzie jest mysz”).
+Poniżej ustawiasz, gdzie dokładnie: pod myszą lub nad nią, na środku, w prawo albo w lewo.
+Jeśli po wybranej stronie się nie mieści, bierze drugą.
+
+Zmiana: Ustawienia → Skróty globalne → „Nagraj”. Otwiera się okno, naciśnij wtedy klawisz na
+Quadsticku. Rozpoznany klawisz widać duży w oknie, potwierdź przez „Zastosuj”. Albo kliknij
+„Z listy”.
+
+Jeśli skrót nie działa: Ustawienia → „Testuj skróty” i naciśnij klawisz Quadsticka.
+  - Nic się nie pojawia: klawisz w ogóle nie dociera do komputera. Quadstick go nie wysyła,
+    np. bo nie umie F13 do F24. Weź inny klawisz, np. Pause albo znak działania z klawiatury
+    numerycznej.
+  - Pojawia się „Klawisz odebrany”, ale nie „Skrót wywołany”: klawisz dociera, ale skrót nie
+    jest aktywny lub jest inaczej ustawiony. Sprawdź czerwony komunikat w ustawieniach.
+  - Pojawia się jedno i drugie: wszystko w porządku.
+W protokoll.txt (Ustawienia → „Otwórz dziennik”) widać, które skróty zostały
+zarejestrowane, które nie (z kodem błędu Windows) i które zostały wywołane.
+
+Przypisanie klawisza Quadsticka:
+  W arkuszu konfiguracji Quadsticka (arkusz Google) jeden wiersz na skrót, przykład:
+      kb_pause          normal    <wejście>
+      kb_keypad_minus   normal    <wejście>
+  1. W żółtej kolumnie wybierz wejście (np. mp_triple_puff).
+  2. Załaduj konfigurację na Quadsticka jak zwykle.
+  3. Sprawdź przez „Testuj skróty”.
+  F13 do F24 i Scroll Lock Quadstick nie wyśle. Dobrze nadają się Pause i znaki działań z
+  klawiatury numerycznej (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). Nie używaj kb_keypad_enter (działa jak Enter) ani cyfr z klawiatury
+  numerycznej (zależą od Num Lock).
+
+Ikona w zasobniku: lewy przycisk pokazuje/ukrywa klawiaturę. Prawy przycisk: edytuj makra,
+wstrzymaj naukę, edytuj sejf haseł, ustawienia, otwórz instrukcję, pokaż wprowadzenie,
+wesprzyj, zakończ.
+
+Pasek zadań: dopóki klawiatura działa, ma na pasku zadań własny przycisk z ikoną klawiatury.
+Jedno kliknięcie zawsze otwiera klawiaturę w całości, także gdy jest ukryta lub zwinięta do
+okrągłego przycisku (otwarta klawiatura zostaje otwarta), potem fokus od razu wraca do
+programu, w którym pisałeś. Wyłączanie: Ustawienia → Start.
+
+Kopia zapasowa i przeniesienie na drugi komputer
+------------------------------------------------
+Ustawienia → „Kopia zapasowa i przeniesienie na inny komputer”.
+  - „Eksportuj dane …”: zaznacz, co ma być w środku (nauczone słowa, ciągi słów i liczby,
+    własne pojęcia, makra, hasła z sejfu). Potem wybierz folder. Powstaje plik w rodzaju
+    „NoHandsNeeded 2026-11-08.nohands”.
+  - Jeśli są w nim hasła, kopia potrzebuje własnego hasła (co najmniej 8 znaków). Plik jest
+    wtedy szyfrowany (AES-256), bez tego hasła nikt się nie dostanie, ty też nie. Bez haseł
+    pole może zostać puste.
+  - Na drugim komputerze: „Importuj dane …”, wybierz plik, w razie potrzeby wpisz hasło,
+    sprawdź zaznaczenia, „Przejmij”.
+  - Nic nie jest nadpisywane, wszystko jest łączone: przy takich samych słowach liczy się
+    wyższy licznik (dwukrotny import tego samego pliku nie liczy się więc podwójnie). Makro o
+    tej samej nazwie zostaje zastąpione. Przy haśle o tej samej nazwie i użytkowniku wygrywa
+    to ostatnio zmienione lub użyte.
+  - Ostatnio użyty folder jest zapamiętywany. Wygodny jest folder widoczny dla obu
+    komputerów (pendrive, folder w chmurze).
+  - Rozmiar i pozycja nie są przenoszone, i tak różnią się na każdym komputerze.
+
+Wsparcie
+--------
+Klawiatura jest darmowa i open source. Jeśli ci pomaga, ucieszę się z darowizny:
+https://ko-fi.com/MDM3D
+Przycisk jest na samej górze ustawień i w menu ikony. Link otwiera się tylko po kliknięciu.
+Klawiatura nigdy o to nie prosi.
+
+Ekran blokady
+-------------
+Aby wpisać PIN Windows tą klawiaturą, musi ona pojawić się na ekranie blokady. Windows
+pozwala na to tylko, gdy spełnione jest wszystko poniżej:
+  - klawiatura jest podpisana certyfikatem podpisywania kodu,
+  - jest zainstalowana instalatorem w „C:\Program Files\NoHandsNeeded”,
+  - jest zarejestrowana w Windows jako technologia ułatwień dostępu (robi to instalator),
+  - ma uprawnienie uiAccess (wariant NoHandsNeededAT.exe z build.cmd).
+Przenośny NoHandsNeeded.exe tego nie potrafi. Ustawienia → Inne → Ekran blokady pokazuje, czego
+brakuje. Gdy wszystko jest gotowe, jest tam przełącznik „Pokazuj na ekranie blokady”.
+Na ekranie blokady działa tylko pisanie: bez sejfu, makr, nauki, podpowiedzi i ustawień.
+Dzięki temu nikt nie zobaczy niczego osobistego na zablokowanym komputerze.
+Do tego czasu: na ekranie blokady kliknij ikonę ułatwień dostępu na dole po prawej i użyj
+klawiatury ekranowej Windows. Albo skonfiguruj Windows Hello (twarz), wtedy PIN nie jest
+potrzebny.
+
+Znane ograniczenia
+------------------
+Klawiatura nie może pisać w programach uruchomionych jako administrator (Menedżer zadań,
+niektóre instalatory). To zasada bezpieczeństwa Windows. Rozwiązanie: prawy przycisk na
+NoHandsNeeded.exe → „Uruchom jako administrator” albo podpisana, zainstalowana wersja (patrz
+„Ekran blokady”).
+
+Klawisz wielkości liter działa na ostatnie słowo wpisane tą klawiaturą. Zaznaczonego tekstu
+w innych programach jeszcze nie zamienia.
+
+Listy słów: 11 wbudowanych języków, każdy z ok. 27 000 do 74 000 słów. Częstości z wordfreq
+(dane na licencji CC BY-SA 4.0), pisownia sprawdzona słownikami hunspell.

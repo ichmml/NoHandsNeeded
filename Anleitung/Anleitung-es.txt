@@ -1,0 +1,459 @@
+NoHandsNeeded
+=============
+Teclado en pantalla, Versión 1.01
+
+¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está
+hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick
+bucal como el Quadstick, un ratón de cabeza o con la mirada.
+
+Este manual lo ha traducido del alemán una IA. Las correcciones de hablantes nativos son
+bienvenidas en GitHub: https://github.com/ichmml/nohandsneeded (carpeta Anleitung).
+
+Un teclado en pantalla para Windows, hecho para personas que usan el PC sin las manos, por
+ejemplo con un control por boca (Quadstick), un ratón de cabeza o seguimiento ocular.
+Objetivo: el menor número posible de clics. Nunca le quita el foco al programa en el que
+escribes.
+
+Inicio
+------
+Pon NoHandsNeeded.exe en su propia carpeta (p. ej. C:\Tools\NoHandsNeeded) y ábrelo.
+No hay nada que instalar, .NET Framework 4.8 ya viene con Windows 10/11.
+Para actualizar: cierra la versión antigua desde el icono del área de notificación y
+sustituye el .exe. Los ajustes se conservan.
+
+En el primer inicio, Windows puede mostrar "Windows protegió su PC". Haz clic en "Más
+información" y luego en "Ejecutar de todas formas". Ocurre porque el archivo no está
+firmado.
+
+En el primer inicio, el teclado se adapta al idioma de Windows (sugerencias, distribución de
+teclas e interfaz) y muestra una breve introducción para ir haciendo clic. Puedes verla de
+nuevo cuando quieras: Ajustes → Otros → "Mostrar la introducción otra vez" o el menú del
+icono.
+Este manual se abre con "Abrir manual" arriba del todo en los ajustes o en el menú del icono,
+siempre en el idioma de la interfaz.
+
+Junto al .exe se crea la carpeta "NoHandsNeeded-Daten" con einstellungen.txt, makros.yaml,
+protokoll.txt (registro), la carpeta "Lernen" (palabras aprendidas) y tresor.dat
+(contraseñas, cifradas). Si en esa carpeta no se puede escribir, los datos van a
+%APPDATA%\NoHandsNeeded.
+
+Barra superior
+--------------
+  Esc       tecla Escape (Fn está abajo a la izquierda en la última fila)
+  centro    a la izquierda del todo, en rojo, la palabra que escribes (ver abajo), al
+            lado las sugerencias, un clic inserta la palabra con espacio
+  Macros    abre la barra de macros (ver abajo)
+  ES        idioma de las sugerencias, un clic cambia (ver "Idiomas")
+  ⚿         mostrar/ocultar la caja fuerte de contraseñas (ver "Caja fuerte de contraseñas")
+  ◷         clic por permanencia activado/desactivado
+  ⚙         ajustes
+  ▾         plegar en un pequeño botón redondo (un clic o la permanencia lo vuelve a abrir)
+  ✕         cerrar el teclado: tocar dos veces (tras el primer toque ✕ se pone rojo)
+
+Palabra escrita (arriba a la izquierda, en rojo)
+------------------------------------------------
+El primer campo de la barra de sugerencias muestra en rojo y negrita lo que estás
+escribiendo, letra a letra. Los números aparecen completos con sus puntos, una tecla de
+acento en espera (p. ej. ´) aparece al final. Las palabras largas nunca se acortan,
+el campo simplemente se ensancha.
+Los caracteres especiales mantienen la vista: se ve todo desde el último espacio, Intro o
+Tab, p. ej. "s!add" o una dirección web. Las sugerencias de al lado corresponden a la última
+palabra ("add"). Un clic en ese campo rojo solo añade un espacio.
+  - Si el teclado todavía no conoce la palabra, al lado aparece un pequeño "nueva". Un clic
+    en la palabra roja la inserta con espacio y la recuerda enseguida, desde entonces se
+    sugiere.
+  - En un campo de contraseña aparecen puntos rojos y el número de caracteres, con 👁 al
+    lado. 👁 muestra la contraseña en claro durante 10 segundos (o hasta el siguiente clic).
+    Mientras tanto, el teclado queda excluido de capturas y de compartir pantalla. Las
+    contraseñas de la caja fuerte solo aparecen como puntos. Tras Intro o al salir del campo,
+    todo desaparece.
+  - En las ventanas propias del teclado (nueva entrada de la caja fuerte, contraseña de la
+    copia) la contraseña se ve en claro mientras escribes, en la ventana y arriba en el
+    teclado. "Mostrar / ocultar" cambia a puntos. No se aprende, registra ni graba nada.
+  - Solo se muestra lo que se ha escrito con este teclado. Tras un clic en la ventana o una
+    pulsación real de tecla, el campo queda vacío.
+  - Ajustes → Sugerencias de palabras: activado/desactivado, "puntos con 👁" o "siempre solo
+    puntos", tiempo hasta ocultar el texto en claro.
+
+Mover y tamaño
+--------------
+Mover:
+  - Mantén pulsado ✥ abajo a la derecha y arrastra, o detente un momento sobre él.
+  - Mantén el botón del ratón un poco más en cualquier tecla (por defecto 0,5 segundos). Se
+    llena un anillo naranja y luego el teclado sigue al ratón. Al soltar se coloca. La tecla
+    no se escribe. Un clic corto escribe como siempre (al soltar).
+  - Con clic por permanencia: quédate en una tecla bastante más tiempo (por defecto el doble
+    del tiempo de permanencia). Primero se escribe la tecla una vez, luego se llena el anillo
+    naranja y el teclado sigue al ratón. Dejar el ratón quieto un momento o hacer clic lo
+    coloca. Retroceso, Supr y las flechas se repiten con la permanencia, así que con ellas no
+    se puede arrastrar.
+  - Esc o clic derecho cancela, el teclado vuelve a su sitio.
+  - El teclado siempre queda entero en la pantalla, también con varios monitores.
+Tamaño: arrastra con el ratón cualquier borde o la esquina azul de abajo a la izquierda.
+  El tamaño es un porcentaje de la pantalla (por defecto 60 % de ancho, 31 % de alto, abajo a
+  la derecha). Ajustes → "Mover y tamaño": controles para ancho y alto, posición por defecto
+  (abajo a la derecha, centro o izquierda) y "Restablecer tamaño y posición".
+Varias pantallas: el teclado se puede arrastrar a cualquier pantalla, también si tienen
+  escalado distinto (p. ej. 125 % y 100 %). Al soltarlo, adopta allí el mismo tamaño en
+  porcentaje. Si al iniciar falta una pantalla, aparece abajo a la derecha en la pantalla
+  principal. Lo mismo vale para el botón redondo.
+En los ajustes, la barra de sugerencias también puede tener dos filas, con su propio tamaño
+de letra.
+
+Teclas
+------
+Fn (abajo a la izquierda): segundo nivel con F1 a F12, Inicio, Fin, Re Pág/Av Pág, caracteres
+especiales. Esc está arriba a la izquierda.
+Mayús, Ctrl, Alt, Win, AltGr:
+  1 toque   = vale para la tecla siguiente (marco azul)
+  2 toques  = bloqueada (marco naranja, "bloq."), p. ej. Mayús bloqueada + flechas para
+              seleccionar
+  3 toques  = desactivada
+Win funciona distinto: 1 toque vale para la siguiente tecla (p. ej. Win+E para el
+Explorador), 2 toques pulsan solo la tecla Windows y abren el menú Inicio.
+
+Última fila: Fn, Ctrl, Win, Alt, espacio, AltGr (justo a la derecha de la barra
+espaciadora), abc/ABC, cuatro caracteres especiales, flechas, ✥. Los cuatro caracteres
+especiales son por defecto ! ? : - y se pueden cambiar en los ajustes, en "Caracteres
+especiales abajo" (un carácter por campo, opcionalmente un segundo para Mayús, p. ej. ".:").
+Tras una sugerencia de palabra, el signo de puntuación se pega a la palabra y el espacio pasa
+detrás ("casa ." se convierte en "casa. ").
+También en los demás casos se añade solo un espacio después de . , ! ? : ; excepto en
+números (1,5 o 10:30), direcciones web, direcciones de correo y en campos de correo o IBAN.
+Si escribes tú otro espacio, no queda doble. Se puede desactivar en los ajustes.
+
+Tecla mayúsculas/minúsculas (junto a la barra espaciadora): cambia la escritura de la última
+palabra.
+    "abc" con flecha arriba  = palabra en minúsculas, una pulsación pone la primera letra en
+                               mayúscula
+    "ABC" con flecha abajo   = palabra con mayúsculas, una pulsación la pasa a minúsculas
+    Después muestra la otra opción, así que se puede alternar.
+    Funciona también justo después de una sugerencia o tras espacio/punto.
+    "Aa" gris = ninguna palabra conocida. La tecla solo conoce palabras escritas con este
+    teclado y las olvida tras un clic en la ventana, un cambio de ventana o Intro. No conoce
+    palabras del dictado (p. ej. Wispr Flow) ni de otro teclado.
+    TODO MAYÚSCULAS: tocar Mayús dos veces (bloqueada).
+
+Al principio de una frase (tras . ! ? y espacio, o tras Intro) la siguiente letra pasa
+automáticamente a mayúscula. Se puede desactivar en los ajustes.
+
+Pulsaciones reales: si pulsas una tecla en el Quadstick (o en un teclado normal), se ilumina
+en rojo en el teclado en pantalla mientras está pulsada y 1,5 segundos más. Así ves Ctrl+Mayús
+para Wispr Flow mientras lo mantienes. Lo que escribe el propio teclado en pantalla no se
+ilumina. Las teclas solo se muestran, nunca se guardan ni se registran.
+Tras una pulsación real, el teclado olvida la palabra empezada, porque ahí puede haber texto
+pegado o dictado. Mayús o Ctrl solos no cambian nada, Ctrl+Mayús sí. Las teclas de atajo
+(Pausa, teclado numérico -) no cuentan.
+Ajustes → Manejo: activado/desactivado y cuánto dura el brillo.
+
+Ventanas propias (caja fuerte, entrada de contraseña, PIN, macros, exportar/importar): el
+teclado sigue siendo clicable, así que puedes escribir con normalidad en esas ventanas. Las
+ventanas se abren donde el teclado no las tapa.
+
+Palabra por programa: si cambias de ventana (p. ej. del programa de correo al navegador y de
+vuelta), el teclado recuerda para cada ventana la palabra empezada, la palabra anterior y el
+inicio de frase. Al volver a la ventana sigues escribiendo sin más.
+  - Por ventana: dos ventanas del navegador van por separado, las pestañas de la misma
+    ventana no.
+  - Si recuperas la ventana con un clic en el texto, también continúa. Si haces clic en
+    medio del texto, la sugerencia no encajará. Desactivar: Ajustes → Manejo → "Seguir
+    escribiendo también tras un clic en la ventana".
+  - Como máximo 30 ventanas, como máximo 30 minutos, solo en memoria. Nunca los campos de
+    contraseña.
+
+Con el clic por permanencia, Retroceso, Supr y las flechas se repiten mientras sigues
+encima. Todas las demás teclas solo vuelven a activarse tras salir una vez de la tecla.
+
+Macros
+------
+Toca "Macros": arriba aparecen las macros en lugar de las sugerencias.
+  - Un clic ejecuta la macro, luego vuelven las sugerencias.
+  - Los grupos aparecen como "Nombre ›", un clic los abre, "‹ Nombre" vuelve.
+  - Las macros que encajan con el programa activo van primero.
+  - Si no caben todas, "más ›" pasa página.
+  - "✕ Atrás" cierra la barra de macros.
+
+A la derecha de la barra de macros:
+  ●  Grabar: escribe normalmente en el teclado, todo se graba (texto, Intro, atajos como
+     Ctrl+S). El teclado recibe un marco rojo.
+     "■ Detener" termina la grabación, luego confirma el nombre y listo.
+     ✕ descarta la grabación.
+  +  Guardado rápido: lo último que escribiste (desde el último clic en la ventana) se guarda
+     como bloque de texto. El nombre ya viene propuesto, basta un clic.
+  ✎  abrir el editor de macros
+
+Editor de macros (✎ o Ajustes → Editar macros):
+  Nueva, Editar, Copiar, Subir/Bajar, Eliminar. En la macro: nombre, grupo, color, programa,
+  atajo global y tantos pasos como quieras:
+    Texto      marcadores {date} {time} {weekday} {cursor}
+               (en alemán también: {datum} {uhrzeit} {wochentag})
+               ({cursor} = ahí queda el cursor tras insertar)
+    Teclas     p. ej. Ctrl+A, Ctrl+C, Enter   o   Alt+Tab   o   Win+D
+               "Grabar tecla" introduce directamente una tecla pulsada
+    Abrir      programa, archivo, carpeta o página web
+    Esperar    pausa en milisegundos
+
+Las macros están en NoHandsNeeded-Daten\makros.yaml y también se pueden editar a mano (hay una
+descripción arriba en el archivo). Las palabras clave funcionan en inglés (name, group,
+steps, keys, open, wait) o en alemán (name, gruppe, schritte, tasten, oeffnen, warten).
+Después, en el editor, "Volver a cargar archivo". Si el archivo tiene un error, el teclado
+muestra la línea en vez de colgarse. Al guardar, la versión anterior se conserva como
+makros.yaml.bak.
+
+Las macros escriben simulando el teclado, nunca por el portapapeles. No pasan a las
+sugerencias. Las contraseñas no van en macros, para eso está la caja fuerte.
+
+Idiomas
+-------
+Integrados, sin internet: alemán, inglés, neerlandés, francés, danés, polaco, checo,
+italiano, español, turco y ruso.
+El botón de idioma de arriba recorre los idiomas activados, más el modo mixto (p. ej. ES+EN,
+según frecuencia). El modo mixto se puede desactivar.
+
+En el primerísimo inicio, el teclado toma el idioma de Windows y añade el inglés. Si Windows
+está en español, arranca en español con la distribución española.
+
+Sugerencias sin acentos: "zolw" da "żółw", "cafe" da "café", "nino" da "niño". Así no hace
+falta buscar caracteres especiales. También vale para las palabras aprendidas.
+
+Distribución de teclas: sigue al idioma (en modo mixto, al primer idioma).
+  Alemán QWERTZ, inglés y neerlandés QWERTY, francés AZERTY, danés con æ ø å, polaco con
+  ą ć ę ł ń ó ś ź ż mediante AltGr, checo con ě š č ř ž ý á í é en la fila de números,
+  italiano, español con ñ ¿ ¡, turco Q con ı ğ ü ş ö ç, ruso ЙЦУКЕН.
+  El ruso tiene una tecla "ABC/АБВ" para letras latinas (correos, enlaces).
+  Teclas de acento como en Windows (teclas muertas): en francés, español, danés, checo y
+  neerlandés primero ´ ` ^ ¨, luego la letra (´ + e = é). Con la barra espaciadora después
+  sale el carácter solo. El alemán no tiene teclas muertas.
+  El teclado escribe Unicode, no hace falta cambiar la distribución de Windows.
+  Ajustes → Idiomas → Distribución de teclas: según el idioma, siempre alemán o siempre
+  inglés.
+
+Ajustes → Idiomas:
+  - Una marca activa un idioma, ▲/▼ cambia el orden al alternar.
+  - "Recordar el idioma por programa": si cambias el idioma en un programa, el teclado lo
+    recuerda y la próxima vez en ese programa cambia solo. Por ejemplo Outlook en inglés,
+    WhatsApp en español.
+  - "Editar términos propios": nombres y términos técnicos que se sugieren en todos los
+    idiomas. Archivo: NoHandsNeeded-Daten\eigene_woerter.txt
+  - "Añadir desde archivo": usar una lista de palabras sin internet (palabra, tabulador,
+    frecuencia; nombre de archivo = código de idioma, p. ej. pt.txt).
+  - "Quitar": borra un idioma que has añadido tú (los integrados solo se pueden desactivar).
+Los idiomas que has añadido tú están en NoHandsNeeded-Daten\Sprachen.
+Opcionalmente hay un atajo global "Cambiar idioma".
+
+Idioma de la interfaz
+---------------------
+Ajustes, menús, avisos, rótulos de teclas, la introducción y este manual están en alemán,
+inglés, neerlandés, francés, danés, polaco, checo, italiano, español, turco y ruso. Por
+defecto se usa el idioma de Windows, si no, el inglés.
+Cambiar: Ajustes → Otros → "Idioma de la interfaz" → Aplicar.
+Las traducciones las hizo una IA. Las correcciones de hablantes nativos son bienvenidas en
+GitHub: https://github.com/ichmml/nohandsneeded (interfaz: carpeta Resources/Texte,
+manual: carpeta Anleitung). Si falta un texto en un idioma, aparece en inglés.
+
+Aprendizaje
+-----------
+El teclado aprende mientras escribes:
+  - palabras nuevas (nombres, términos técnicos). Se sugieren en cuanto las has escrito
+    2 veces (ajustable de 1 a 5).
+  - con qué frecuencia usas cada palabra. Las frecuentes pasan delante.
+  - qué palabra suele seguir a cuál. Tras un espacio aparecen arriba enseguida las
+    siguientes palabras adecuadas (p. ej. tras "mi" la palabra que sueles escribir después).
+  - la escritura: si con la tecla mayúsculas/minúsculas conviertes "iphone" en "iPhone", la
+    próxima vez se te sugiere "iPhone" directamente.
+Si borras una palabra enseguida con ⌫, también se olvida.
+
+Números: fechas (10/09/1991), teléfonos (612 345 678, +34 91 123 45 67) y códigos postales
+delante de un lugar también se aprenden, igual que los números largos de 9 cifras o más
+(número de cliente o de contrato). Se proponen ya después de la primera vez. Al teclear
+cifras, arriba aparecen los números adecuados. Los separadores no cuentan, así que "1009" da
+"10/09/1991". El número se inserta con la escritura aprendida.
+Los PIN (de 4 a 8 cifras sin separadores) y los números de tarjeta también se aprenden, pero
+cifrados en un archivo aparte (zahlen_geheim.dat). Solo van a una copia de seguridad con
+contraseña. Se puede desactivar en los ajustes de aprendizaje ("Aprender PIN y números de
+tarjeta (cifrados)"). Nunca se aprenden: números sueltos y cantidades, horas, nada en campos
+de contraseña y nada que parezca una contraseña (cifras mezcladas con letras, palabras muy
+largas). Los PIN y números de tarjeta nunca se toman de tus propios textos.
+IBAN: un IBAN válido (dígito de control correcto) se recuerda, escrito con o sin espacios.
+La próxima vez bastan el código del país y la primera cifra ("ES9"): aparece en verde con 🏦
+arriba y un clic lo escribe entero. En campos llamados IBAN y después de "IBAN:" aparece
+enseguida. Se puede desactivar en los ajustes de aprendizaje.
+Los números valen para todos los idiomas, archivo: NoHandsNeeded-Daten\Lernen\zahlen.txt. Se
+desactivan en Ajustes → Aprendizaje, se ven y borran en "Palabras aprendidas" → opción
+"Números".
+
+Ajustes → Aprendizaje:
+  - "Aprender de mis textos": elige una carpeta (p. ej. notas o documentos). Se leen .txt,
+    .md, .docx, .html, .eml y .mbox, también en subcarpetas. Las carpetas que empiezan por
+    punto (.obsidian, .git) se omiten.
+    Solo se guarda la estadística, qué palabras aparecen cuántas veces y en qué orden, nunca
+    los textos. Se omiten las líneas con contraseña, PIN, IBAN, login, token y similares, así
+    como enlaces, direcciones de correo, bloques de código y correos citados.
+    Con varios idiomas, cada párrafo va al idioma que le corresponde.
+  - "Ver y borrar palabras aprendidas": buscar, borrar palabras sueltas, olvidarlo todo.
+  - Icono del área de notificación → "Pausar aprendizaje", p. ej. cuando escribe otra
+    persona.
+Lo aprendido está en NoHandsNeeded-Daten\Lernen\es.txt (un archivo por idioma) y se guarda cada
+2 minutos y al cerrar.
+
+Caja fuerte de contraseñas
+--------------------------
+Para no tener que escribir cada vez contraseñas largas carácter a carácter.
+  - Al hacer clic en un campo de contraseña, arriba aparecen las contraseñas guardadas en vez
+    de las sugerencias (en amarillo, con ⚿). La que encaja con la ventana va primero. Un clic
+    escribe la contraseña en el campo. Luego Intro.
+  - Si escribiste tú una contraseña, el teclado pregunta tras Intro o al salir del campo:
+    "¿Guardar en la caja fuerte?". "Guardar" abre una ventana con un nombre propuesto, que
+    confirmas. "No" o simplemente seguir la descarta.
+  - "+ Añadir contraseña" abre una ventana para una entrada nueva. El nombre ya viene propuesto
+    según la página web o el programa, la contraseña se ve en claro mientras escribes, "Crear una
+    contraseña segura" la rellena si quieres. "Guardar" la guarda y aparece enseguida en la barra.
+  - Si no caben todas las contraseñas en la barra, "más ›" pasa a la página siguiente, las
+    que coinciden con la página abierta van primero. "🔍 Buscar": escribe unas letras y la
+    barra solo muestra las entradas que coinciden (nombre, usuario o programa). Las letras
+    no van al programa. Retroceso borra, Esc, Intro o "✕ Terminar búsqueda" termina la
+    búsqueda.
+  - Si acabas de escribir una contraseña en una página, ya aparece rellenada, igual que una
+    dirección de correo escrita poco antes en la misma ventana. El cursor va directamente al
+    siguiente campo vacío. En el nombre y el correo escribes con normalidad, ahí no se
+    aprende nada.
+  - "🎲 Crear y escribir" (solo en un campo de contraseña) crea una
+    contraseña segura (por defecto 16 caracteres), la escribe en el campo y ofrece guardarla
+    enseguida. Guárdala sin falta, o se pierde.
+  - En la ventana de la caja fuerte la contraseña se ve siempre en claro, también al editar
+    una entrada existente, para que veas si la escribes bien. "Mostrar / ocultar" la oculta
+    si hace falta.
+  - ⚿ arriba a la derecha muestra la caja fuerte también fuera de los campos de contraseña,
+    "✕ Ocultar" la oculta.
+Seguridad:
+  - tresor.dat está cifrado con Windows (DPAPI) y solo se puede leer con tu cuenta de Windows
+    en este PC. Copiado a otro sitio, el archivo no sirve. Para pasarlo está "Copia de
+    seguridad y paso a otro PC" (ver abajo).
+  - Opcionalmente un PIN (Ajustes → Caja fuerte de contraseñas). Entonces la caja fuerte
+    queda bloqueada tras cada inicio y se vuelve a bloquear tras 15 minutos sin uso
+    (ajustable). El PIN se teclea con grandes teclas numéricas. Sin el PIN nadie llega a las
+    contraseñas, ni siquiera tú. Así que recuérdalo bien.
+  - Las contraseñas nunca aparecen en las sugerencias normales, nunca se aprenden, no pasan
+    a las grabaciones de macros y nunca se insertan por el portapapeles.
+  - El teclado reconoce los campos de contraseña por la marca de Windows para campos
+    protegidos. Funciona en programas de Windows y en los navegadores habituales. Si no
+    reconoce un campo, ⚿ ayuda a mostrar la caja fuerte.
+Editar: Ajustes → Caja fuerte de contraseñas → "Editar caja fuerte" (o el icono).
+Ahí se ajustan nombre, usuario, contraseña (con botón para mostrarla) y palabras clave del
+título de la ventana ("gmail, google"), para que la contraseña correcta vaya primero.
+
+Direcciones de correo: cuando escribes una dirección de correo, el teclado la recuerda como una
+palabra nueva (no en campos de contraseña). Desde entonces aparece arriba en azul con ✉ en
+cuanto escribes las 3 primeras letras, un clic inserta la dirección completa. Si haces clic en
+un campo de correo o usuario, las direcciones aparecen arriba enseguida, sin escribir ninguna
+letra. El teclado reconoce el campo por su etiqueta, lo que funciona en la mayoría de páginas de
+inicio de sesión. Desactivar: Ajustes → Aprendizaje. Ver y borrar: "Palabras aprendidas" →
+"Direcciones de correo".
+
+Atajos globales y Quadstick
+---------------------------
+Estos atajos funcionan aunque otro programa esté delante:
+  Pausa               mostrar/ocultar el teclado
+  teclado numérico -  abrir la barra de macros (en el teclado se llama "NumMinus")
+Además, cada macro puede tener su propio atajo (en el editor de macros).
+En los ajustes, cada atajo indica si está activo (marca verde) o no (rojo, con el motivo).
+
+Si abres el teclado con el atajo, aparece donde está el puntero del ratón: centrado justo
+debajo para que el sitio siga visible, encima si no hay espacio suficiente. Desde la barra
+de tareas, la bandeja o el botón redondo se queda en su sitio habitual. Se puede desactivar
+en los ajustes ("Con el atajo (p. ej. Pausa), abrir donde está el ratón").
+Justo debajo eliges dónde exactamente: debajo o encima del ratón, centrado, hacia la derecha
+o hacia la izquierda. Si no cabe en el lado elegido, usa el otro.
+
+Cambiar: Ajustes → Atajos globales → "Grabar". Se abre una ventana, entonces pulsa la tecla
+en el Quadstick. La tecla reconocida aparece grande en la ventana, confirma con "Aplicar". O
+haz clic en "De la lista".
+
+Si un atajo no funciona: Ajustes → "Probar atajos" y pulsa la tecla del Quadstick.
+  - No aparece nada: la tecla ni siquiera llega al PC. El Quadstick no la envía, p. ej.
+    porque no puede enviar F13 a F24. Usa otra tecla, p. ej. Pausa o un operador del teclado
+    numérico.
+  - Aparece "Tecla recibida" pero no "Atajo activado": la tecla llega, pero el atajo no está
+    activo o está configurado de otra forma. Revisa el aviso rojo en los ajustes.
+  - Aparecen ambos: todo en orden.
+En protokoll.txt (Ajustes → "Abrir registro") se ve qué atajos se registraron, cuáles no
+(con el código de error de Windows) y cuáles se activaron.
+
+Asignar una tecla del Quadstick:
+  En la hoja de configuración del Quadstick (hoja de cálculo de Google) una fila por atajo,
+  ejemplo:
+      kb_pause          normal    <entrada>
+      kb_keypad_minus   normal    <entrada>
+  1. En la columna amarilla elige la entrada deseada (p. ej. mp_triple_puff).
+  2. Carga la configuración en el Quadstick como siempre.
+  3. Compruébalo con "Probar atajos".
+  El Quadstick no puede enviar F13 a F24 ni Bloq Despl. Funcionan bien Pausa y los operadores
+  del teclado numérico (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). No uses kb_keypad_enter (se trata como Intro) ni las cifras del teclado
+  numérico (dependen de Bloq Num).
+
+Icono del área de notificación: clic izquierdo muestra/oculta el teclado. Clic derecho:
+editar macros, pausar aprendizaje, editar caja fuerte, ajustes, abrir manual, mostrar
+introducción, donar, salir.
+
+Barra de tareas: mientras el teclado está en marcha, tiene su propio botón con el icono del
+teclado en la barra de tareas. Un clic abre siempre el teclado entero, también si está
+oculto o plegado en el botón redondo (un teclado abierto sigue abierto), después el foco
+vuelve en seguida al programa en el que escribías. Desactivar: Ajustes → Inicio.
+
+Copia de seguridad y paso a un segundo PC
+-----------------------------------------
+Ajustes → "Copia de seguridad y paso a otro PC".
+  - "Exportar datos …": marca lo que debe incluirse (palabras aprendidas, secuencias de
+    palabras y números, términos propios, macros, contraseñas de la caja fuerte). Luego elige
+    una carpeta. Se crea un archivo como "NoHandsNeeded 2026-11-08.nohands".
+  - Si incluye contraseñas, la copia necesita su propia contraseña (al menos 8 caracteres).
+    El archivo queda cifrado (AES-256), sin esa contraseña nadie entra, ni siquiera tú. Sin
+    contraseñas, el campo puede quedar vacío.
+  - En el otro PC: "Importar datos …", elige el archivo, escribe la contraseña si hace falta,
+    revisa las marcas, "Aplicar".
+  - No se sobrescribe nada, todo se combina: con palabras iguales cuenta el contador más alto
+    (importar dos veces el mismo archivo no cuenta doble). Una macro con el mismo nombre se
+    sustituye. En una contraseña con el mismo nombre y usuario gana la cambiada o usada más
+    recientemente.
+  - Se recuerda la última carpeta usada. Es práctica una carpeta que vean ambos PC (memoria
+    USB, carpeta en la nube).
+  - El tamaño y la posición no se transfieren, de todos modos cambian de un PC a otro.
+
+Apoyo
+-----
+El teclado es gratis y de código abierto. Si te ayuda, me alegraría una donación:
+https://ko-fi.com/MDM3D
+El botón está arriba del todo en los ajustes y en el menú del icono. El enlace solo se abre
+si haces clic. El teclado nunca lo pide.
+
+Pantalla de bloqueo
+-------------------
+Para escribir el PIN de Windows con este teclado, tiene que aparecer en la pantalla de
+bloqueo. Windows solo lo permite si se cumple todo lo siguiente:
+  - el teclado está firmado con un certificado de firma de código,
+  - está instalado con el instalador en "C:\Program Files\NoHandsNeeded",
+  - está registrado en Windows como tecnología de asistencia (lo hace el instalador),
+  - tiene el permiso uiAccess (la variante NoHandsNeededAT.exe de build.cmd).
+El NoHandsNeeded.exe portátil no puede hacerlo. Ajustes → Otros → Pantalla de bloqueo muestra lo
+que falta. Cuando todo está listo, ahí aparece el interruptor "Mostrar en la pantalla de
+bloqueo".
+En la pantalla de bloqueo solo funciona escribir: sin caja fuerte, macros, aprendizaje,
+sugerencias ni ajustes. Así nadie ve nada personal en el PC bloqueado.
+Mientras tanto: en la pantalla de bloqueo haz clic en el icono de accesibilidad abajo a la
+derecha y usa el teclado en pantalla de Windows. O configura Windows Hello (rostro), y así no
+hace falta PIN.
+
+Límites conocidos
+-----------------
+El teclado no puede escribir en programas que se ejecutan como administrador (Administrador
+de tareas, algunos instaladores). Es una regla de seguridad de Windows. Solución: clic derecho
+en NoHandsNeeded.exe → "Ejecutar como administrador", o la versión firmada e instalada (ver
+"Pantalla de bloqueo").
+
+La tecla mayúsculas/minúsculas actúa sobre la última palabra escrita con el teclado. Todavía
+no puede convertir texto seleccionado en otros programas.
+
+Listas de palabras: 11 idiomas integrados con unas 27.000 a 74.000 palabras cada uno.
+Frecuencias de wordfreq (datos bajo CC BY-SA 4.0), ortografía comprobada con diccionarios
+hunspell.

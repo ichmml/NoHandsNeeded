@@ -1,0 +1,8 @@
+NoHandsNeeded.exe
+Tastatur.exe
+bin/
+obj/
+NoHandsNeeded-Daten/
+Tastatur-Daten/
+*.neu
+*.bak

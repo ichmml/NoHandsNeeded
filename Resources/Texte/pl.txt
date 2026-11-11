@@ -1,0 +1,502 @@
+# Texte der Oberfläche (pl). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Hasła można zapisać tylko zaszyfrowane
+Das ist keine Sicherungsdatei der Tastatur.	To nie jest plik kopii zapasowej klawiatury.
+Die Sicherungsdatei ist unvollständig.	Plik kopii zapasowej jest niekompletny.
+Daten exportieren	Eksportuj dane
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Spakuj wszystko do jednego pliku, np. na drugi komputer. Tam wczytaj go przez „Importuj”.
+Gelernte Wörter, Wortfolgen und Zahlen	Nauczone słowa, ciągi słów i liczby
+Eigene Begriffe	Własne słowa
+Makros	Makra
+Passwörter aus dem Tresor	Hasła z sejfu
+Passwort für die Sicherung	Hasło do kopii zapasowej
+Anzeigen / verbergen	Pokaż / ukryj
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Z hasłami plik jest zawsze szyfrowany. To hasło będzie potrzebne przy imporcie, zapisz je. Co najmniej 8 znaków.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Bez haseł możesz zostawić pole puste. Z hasłem plik zostanie zaszyfrowany.
+Speichern unter …	Zapisz jako …
+Bitte mindestens einen Haken setzen.	Zaznacz co najmniej jedno pole.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Aby dołączyć hasła, kopia zapasowa potrzebuje hasła o długości co najmniej 8 znaków.
+Abbrechen	Anuluj
+Daten importieren	Importuj dane
+Sicherung vom 	Kopia zapasowa z 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	Kopia zapasowa jest zaszyfrowana. Hasło do kopii:
+Öffnen	Otwórz
+Datei beschädigt: 	Plik uszkodzony: 
+Passwort falsch, nochmal versuchen.	Złe hasło, spróbuj ponownie.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Co ma zostać przejęte? Istniejące zostaje, nowe dochodzi.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Nauczone słowa ({0}), ciągi słów ({1}), liczby ({2})
+Eigene Begriffe ({0})	Własne pojęcia ({0})
+Makros ({0})	Makra ({0})
+Passwörter ({0})	Hasła ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Przy takich samych słowach liczy się wyższy licznik. Makro o tej samej nazwie zostaje zastąpione. Przy haśle o tej samej nazwie i użytkowniku wygrywa to ostatnio zmienione lub użyte.
+Übernehmen	Zastosuj
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Nauczone adresy e-mail: adres<TAB>liczba
+Makroleiste öffnen	Otwórz pasek makr
+unbekannte Taste	nieznany klawisz
+doppelt vergeben	przypisany dwa razy
+Taste gibt es im Tastaturlayout nicht	tego klawisza nie ma w układzie klawiatury
+schon von einem anderen Programm belegt (Fehler 1409)	już używany przez inny program (błąd 1409)
+von Windows abgelehnt	odrzucony przez Windows
+Windows-Fehler 	Błąd Windows 
+Kürzel aufnehmen	Nagraj skrót
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nNaciśnij teraz klawisz lub kombinację (np. na Quadsticku).
+Nochmal	Jeszcze raz
+Erkannt: 	Rozpoznano: 
+Kürzel testen	Testuj skróty
+Drück jetzt die Taste am Quadstick.\n	Naciśnij teraz klawisz na Quadsticku.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Jeśli na dole pojawi się „Klawisz odebrany”, Quadstick wysyła klawisz.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Jeśli pojawi się też „Skrót wywołany”, wszystko działa.\n\n
+Aktiv: 	Aktywne: 
+Schließen	Zamknij
+→ Kürzel ausgelöst: 	→ Skrót wywołany: 
+keine Kürzel eingetragen	brak ustawionych skrótów
+Taste angekommen: 	Klawisz odebrany: 
+  (von Software)	  (z programu)
+neu	nowe
+„{0}“ gemerkt	Zapamiętano „{0}”
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Brak makr: utwórz przez ✎ lub nagraj przez ●
+weiter  	dalej  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Przesuwanie: puść, aby odłożyć · Esc/prawy klik anuluje
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Przesuwanie: przytrzymaj mysz nieruchomo lub kliknij, aby odłożyć · Esc/prawy klik anuluje
+Leertaste	Spacja
+■ Stopp	■ Stop
+✕ Zurück	✕ Wróć
+Verschieben abgebrochen	Przesuwanie anulowane
+Position gespeichert	Pozycja zapisana
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Brak znanego słowa: ten klawisz działa na ostatnie słowo napisane tą klawiaturą
+Weitere Sprachen herunterladen	Pobierz więcej języków
+Quelle:\n	Źródło:\n
+\nEs wird nur geladen, was du hier anklickst.	\nPobierane jest tylko to, co tu klikniesz.
+Lade Übersicht …	Ładowanie listy …
+Herunterladen	Pobierz
+Erneut versuchen	Spróbuj ponownie
+Keine Sprachpakete gefunden.	Nie znaleziono pakietów językowych.
+Sprache auswählen und "Herunterladen" klicken.	Wybierz język i kliknij „Pobierz”.
+Lade 	Ładowanie: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 jest zainstalowany i włączony. Przełączaj przyciskiem języka u góry klawiatury.
+  · hinzugefügt	  · dodany
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Własne pojęcia: jedno słowo w wierszu, np. nazwy i terminy fachowe.
+Sie werden in allen Sprachen vorgeschlagen.	Są proponowane we wszystkich językach.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Nieprawidłowy kod języka (np. fr.txt lub nagłówek „#sprache fr Francuski”).
+Alle	Wszystkie
+   ✓ installiert	   ✓ zainstalowany
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Brak połączenia z internetem lub serwer jest nieosiągalny. Klawiatura działa dalej normalnie.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	Serwer nie odpowiada (przekroczony czas). Spróbuj później.
+Download fehlgeschlagen: 	Pobieranie nie powiodło się: 
+Tab ⇥	Tab ⇥
+Entf	Del
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Ins
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Nauczone słowa klawiatury ekranowej
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> słowo <TAB> liczba   oraz   f <TAB> słowo <TAB> następne słowo <TAB> liczba
+Geht erst mit der installierten, signierten Version.	Działa tylko z zainstalowaną, podpisaną wersją.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Do tego czasu: na ekranie blokady kliknij w prawym dolnym rogu ikonę ułatwień dostępu i użyj klawiatury ekranowej Windows. Albo skonfiguruj Windows Hello (twarz), wtedy PIN nie jest potrzebny.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Klawiatura pojawia się na ekranie blokady.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Gotowe. Przełącznikiem klawiatura pojawi się też na ekranie blokady.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Klawiatura pojawia się teraz na ekranie blokady.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Klawiatura nie pojawia się już na ekranie blokady.
+Hat nicht geklappt: 	Nie udało się: 
+Tasten	Klawisze
+Warten	Czekaj
+Text	Tekst
+keine	brak
+blau	niebieski
+grün	zielony
+rot	czerwony
+orange	pomarańczowy
+lila	fioletowy
+gelb	żółty
+grau	szary
+Zeile 	Wiersz 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Do wcięć używaj spacji zamiast tabulatora.
+Unerwarteter Text, Einrückung prüfen.	Nieoczekiwany tekst, sprawdź wcięcia.
+Einrückung passt nicht.	Wcięcie się nie zgadza.
+Text nach dem schließenden ".	Tekst po zamykającym ".
+Hier wird ein Wert erwartet, keine Liste.	Tutaj oczekiwana jest wartość, a nie lista.
+Unbekannte Taste "{0}".	Nieznany klawisz „{0}”.
+"{0}" muss eine Liste sein.	„{0}” musi być listą.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Nieznany krok „{0}”. Dozwolone: text, keys, open, wait (lub text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	„{0}” nie może być listą.
+Unbekanntes Kürzel "{0}".	Nieznany skrót „{0}”.
+Unbekannter Eintrag "{0}".	Nieznany wpis „{0}”.
+Makro ohne "name".	Makro bez „name”.
+makros.yaml konnte nicht gelesen werden: 	Nie udało się odczytać makros.yaml: 
+Programme	Programy
+Grüße	Pozdrowienia
+Viele Grüße	Pozdrawiam
+Datum	Data
+Heute	Dziś
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday}, {date}, {time}
+Alles kopieren	Kopiuj wszystko
+Desktop	Pulpit
+Browser	Przeglądarka
+Neuer Tab	Nowa karta
+Tab zu	Zamknij kartę
+Tab zurück	Przywróć kartę
+Editor	Edytor
+Rechner	Kalkulator
+Neue Mail	Nowa wiadomość
+Hallo {cursor},\n\nViele Grüße	Cześć {cursor},\n\nPozdrawiam
+Unbekannte Taste "{0}" in Makro "{1}"	Nieznany klawisz „{0}” w makrze „{1}”
+"{0}" ließ sich nicht öffnen: 	Nie udało się otworzyć „{0}”: 
+Makros bearbeiten	Edytuj makra
+Neu	Nowe
+Bearbeiten	Edytuj
+Kopieren	Kopiuj
+▲  Hoch	▲  W górę
+▼  Runter	▼  W dół
+Löschen	Usuń
+Datei im Editor öffnen	Otwórz plik w edytorze
+Datei neu laden	Wczytaj plik ponownie
+Neues Makro	Nowe makro
+ (Kopie)	 (kopia)
+Makro "	Usunąć makro „
+" löschen?	”?
+Makro bearbeiten	Edytuj makro
+Name (Beschriftung des Knopfs)	Nazwa (napis na przycisku)
+Gruppe (leer = keine)	Grupa (puste = brak)
+Farbe	Kolor
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Tylko dla programu (np. chrome lub „chrome, msedge”, puste = wszędzie)
+Kürzel für "	Skrót dla „
+Kein Kürzel	Brak skrótu
+Schritte (werden der Reihe nach ausgeführt)	Kroki (wykonywane po kolei)
++ Text	+ Tekst
++ Tasten	+ Klawisze
++ Öffnen	+ Otwórz
++ Warten	+ Czekaj
+Taste aufnehmen	Nagraj klawisz
+Speichern	Zapisz
+Globales Kürzel: 	Skrót globalny: 
+Noch keine Schritte. Unten einen hinzufügen.	Brak kroków. Dodaj jeden poniżej.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Tekst: możliwe kilka wierszy. Symbole: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Oddziel klawisze przecinkami, np.  Strg+A, Strg+C, Enter   lub  Alt+Tab   lub  Win+D.  Nazwy klawiszy (po niemiecku): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Program, plik, folder lub strona, np.  notepad.exe   C:\Faktury   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pauza w milisekundach (1000 = 1 sekunda)
+Taste für den Schritt	Klawisz dla kroku
+Bitte einen Namen eingeben.	Podaj nazwę.
+"Warten" braucht eine Zahl in Millisekunden.	„Czekaj” wymaga liczby w milisekundach.
+Name	Nazwa
+Verwerfen	Odrzuć
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Nauczone liczby (daty, numery telefonów, kody pocztowe): zapis<TAB>liczba
+Taste 	Klawisz 
+Passwort-Tresor	Sejf haseł
+Kürzel nicht aktiv	Skrót nieaktywny
+Tastatur zeigen / verstecken	Pokaż / ukryj klawiaturę
+Lernen fortsetzen	Wznów naukę
+Lernen pausieren	Wstrzymaj naukę
+Passwort-Tresor bearbeiten	Edytuj sejf haseł
+Einstellungen	Ustawienia
+Anleitung öffnen	Otwórz instrukcję
+Einführung zeigen	Pokaż wprowadzenie
+☕ Kaffee spendieren	☕ Postaw kawę
+Beenden	Zakończ
+Die Anleitung wurde nicht gefunden.	Nie znaleziono instrukcji.
+Anleitung	Instrukcja
+Die Anleitung ließ sich nicht öffnen: 	Nie udało się otworzyć instrukcji: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Język Windows to {0}, klawiatura jest ustawiona na {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Język Windows to {0}. Możesz go włączyć w ustawieniach w sekcji Języki.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Język Windows ({0}) nie jest jeszcze wbudowany. Może da się go pobrać.
+Sprache herunterladen	Pobierz język
+Sprache: 	Język: 
+  (für 	  (dla 
+Tastatur ein-/ausblenden	Pokaż/ukryj klawiaturę
+Sprache wechseln	Zmień język
+Makro 	Makro 
+Während der Aufnahme keine Makros	Brak makr podczas nagrywania
+" gespeichert	” zapisane
+Erst etwas tippen, dann + zum Speichern	Najpierw coś napisz, potem + aby zapisać
+Als Textbaustein speichern	Zapisz jako blok tekstu
+Text: 	Tekst: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Nagrywanie: po prostu pisz, potem ■ Stop
+Aufnahme verworfen	Nagranie odrzucone
+Nichts aufgenommen	Nic nie nagrano
+Aufnahme 	Nagranie 
+Aufnahme speichern	Zapisz nagranie
+Lernen pausiert	Nauka wstrzymana
+Lernen läuft wieder	Nauka działa znowu
+ Wörter	 słów
+Bisher gelernt: 	Nauczone dotąd: 
+, Zahlen: 	, liczby: 
+ Dateien gelesen, 	 plików przeczytanych, 
+ Wörter in 	 słów w 
+ Sätzen gelernt	 zdaniach nauczonych
+, dazu 	, do tego 
+-mal Datum oder Telefonnummer.	 razy data lub numer telefonu.
+ Dateien übersprungen.	 plików pominiętych.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nZapisywane jest tylko, jak często występują słowa, nie same teksty. Wiersze z hasłem, PIN-em, IBAN-em i podobnymi są pomijane.
+Aus meinen Texten lernen	Ucz się z moich tekstów
+Der Tresor ist in den Einstellungen ausgeschaltet	Sejf jest wyłączony w ustawieniach
+Im Tresor speichern?	Zapisać w sejfie?
+⚿ Speichern	⚿ Zapisz
+Nein	Nie
+Tresor nicht lesbar	Sejf nieczytelny
+🔒 Tresor entsperren	🔒 Odblokuj sejf
+Tresor ist noch leer	Sejf jest jeszcze pusty
++ Passwort hinzufügen	+ Dodaj hasło
+🎲 Erzeugen und eintippen	🎲 Utwórz i wpisz
+✕ Ausblenden	✕ Ukryj
+Passwort "	Hasło „
+" eingetippt	” wpisane
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Nowe hasło wpisane. Zapisz je teraz, inaczej przepadnie!
+Passwort 	Hasło 
+Nicht gespeichert. "Speichern" geht noch kurz.	Nie zapisano. „Zapisz” działa jeszcze przez chwilę.
+Im Tresor gespeichert	Zapisano w sejfie
+Tresor entsperren	Odblokuj sejf
+PIN eingeben	Wpisz PIN
+PIN falsch, nochmal versuchen	Zły PIN, spróbuj ponownie
+nicht lesbar	nieczytelny
+gesperrt, PIN wird abgefragt	zablokowany, zostanie zapytany PIN
+{0} Wörter, {1} Zahlen	{0} słów, {1} liczb
+Sicherung speichern	Zapisz kopię zapasową
+Tastatur-Sicherung	Kopia zapasowa klawiatury
+Gespeichert:\n	Zapisano:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nPlik jest zaszyfrowany. Bez hasła do kopii nie da się go otworzyć.
+Sicherung öffnen	Otwórz kopię zapasową
+Alle Dateien	Wszystkie pliki
+{0} neue E-Mail-Adressen	{0} nowych adresów e-mail
+{0} neue Wörter, {1} neue Zahlen	{0} nowych słów, {1} nowych liczb
+{0} neue eigene Begriffe	{0} nowych własnych pojęć
+{0} neue Makros, {1} ersetzt	{0} nowych makr, {1} zastąpionych
+Passwörter übersprungen: 	Hasła pominięte: 
+Passwörter übersprungen (Tresor gesperrt)	Hasła pominięte (sejf zablokowany)
+{0} neue Passwörter, {1} aktualisiert	{0} nowych haseł, {1} zaktualizowanych
+Fertig.\n\n	Gotowe.\n\n
+mit PIN	z PIN-em
+ohne PIN	bez PIN-u
+Tresor gesperrt (	Sejf zablokowany (
+ Passwörter gespeichert, 	 haseł zapisanych, 
+Es ist keine PIN gesetzt.	Nie ustawiono PIN-u.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	PIN zapisany. Zapamiętaj go dobrze: bez PIN-u nikt nie dostanie się do haseł, ty też nie.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	PIN usunięty. Sejf jest nadal zaszyfrowany twoim kontem Windows.
+Bildschirmtastatur: Einstellungen	Klawiatura ekranowa: ustawienia
+Version	Wersja
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Klawiatura jest darmowa. Jeśli ci pomaga, ucieszę się z darowizny.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Wesprzyj mnie darowizną (Ko-fi)
+📖 Anleitung öffnen	📖 Otwórz instrukcję
+Aussehen	Wygląd
+Deckkraft Tastatur	Krycie klawiatury
+Deckkraft runder Knopf (eingeklappt)	Krycie okrągłego przycisku (zwiniętego)
+Farbschema	Schemat kolorów
+dunkel	ciemny
+hell	jasny
+Bedienung	Obsługa
+Verweilklick (Taste löst nach Verweilzeit aus)	Kliknięcie przez zatrzymanie (klawisz działa po czasie)
+Verweilzeit	Czas zatrzymania
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Pokazuj prawdziwe naciśnięcia (np. z Quadsticka, świecą na czerwono)
+Nachleuchten	Poświata
+aus	wył.
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Klawiatura pamięta zaczęte słowo dla każdego okna. Gdy wrócisz, po prostu piszesz dalej.
+Auch nach Klick ins Fenster weiterschreiben	Pisz dalej także po kliknięciu w okno
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Wyłączone: kontynuacja tylko przy zmianie przez pasek zadań, Alt+Tab lub pasek tytułu. Kliknięcie w tekst może przesunąć kursor.
+Wortvorschläge	Podpowiedzi słów
+Zeilen	Wiersze
+1 Zeile	1 wiersz
+2 Zeilen	2 wiersze
+Vorschläge pro Zeile	Podpowiedzi na wiersz
+Schriftgröße Vorschläge und Makros	Rozmiar czcionki podpowiedzi i makr
+Satzanfang automatisch groß	Wielka litera na początku zdania
+Leerzeichen nach Vorschlag einfügen	Wstaw spację po podpowiedzi
+Getipptes Wort oben links zeigen (rot)	Pokazuj pisane słowo w lewym górnym rogu (na czerwono)
+Punkte mit 👁	Kropki z 👁
+immer nur Punkte	zawsze tylko kropki
+Passwörter beim Tippen	Hasła podczas pisania
+Klartext automatisch ausblenden nach	Ukryj tekst jawny automatycznie po
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	W polach haseł widać tylko kropki. 👁 pokazuje hasło na chwilę jawnie; w tym czasie klawiatura jest wyłączona ze zrzutów ekranu i udostępniania ekranu.
+Sprachen	Języki
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Zaznaczone = aktywne. Kolejność dotyczy przycisku języka u góry klawiatury.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Proponuj mieszany (np. DE+EN) przy przełączaniu
+Sprache pro Programm merken	Zapamiętaj język dla programu
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Gdy zmienisz język w programie, klawiatura to zapamięta i następnym razem w tym programie przełączy automatycznie. Na przykład Outlook po angielsku, WhatsApp po polsku.
+passend zur Sprache	zgodnie z językiem
+immer Deutsch (QWERTZ)	zawsze niemiecki (QWERTZ)
+immer Englisch (QWERTY)	zawsze angielski (QWERTY)
+Tastenlayout	Układ klawiszy
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Edytuj własne słowa (imiona, terminy)
+Sonderzeichen unten	Znaki specjalne na dole
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	Cztery klawisze na dole obok abc/ABC. Jeden znak na pole, opcjonalnie drugi dla Shift (np. „.:”). Puste = domyślne.
+Auf Standard zurücksetzen	Przywróć domyślne
+Lernen	Nauka
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Klawiatura zapamiętuje, jakie słowa piszesz, jak je piszesz i jakie słowo często następuje po jakim. Wszystko zostaje na tym komputerze. W polach haseł nigdy niczego się nie uczy.
+Aus meinem Schreiben lernen	Ucz się z tego, co piszę
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Ucz się też liczb (daty, numery telefonów, kody pocztowe)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	Ucz się adresów e-mail i podpowiadaj je po 3 literach
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	W polach e-mail od razu pokazuj adresy e-mail
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Jak nowe słowa, liczby są proponowane dopiero od drugiego razu. Jednorazowe kody, PIN-y, TAN-y i numery kart nigdy nie są zapamiętywane.
+Neue Wörter vorschlagen ab	Proponuj nowe słowa od
+1-mal geschrieben	napisane 1 raz
+-mal geschrieben	 razy napisane
+Aus meinen Texten lernen (Ordner wählen)	Ucz się z moich tekstów (wybierz folder)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Folder z twoimi tekstami (np. Obsidian, Dokumenty). Czytane są .txt .md .docx .html .eml .mbox, także w podfolderach.
+Aus einzelnen Dateien lernen	Ucz się z pojedynczych plików
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Teksty|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Wszystkie pliki|*.*
+Gelernte Wörter ansehen und löschen	Zobacz i usuń nauczone słowa
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Hasła są przechowywane zaszyfrowane tylko dla twojego konta Windows na tym komputerze. Nigdy nie pojawiają się w zwykłych podpowiedziach i są wpisywane bezpośrednio, nigdy przez schowek.
+Tresor benutzen	Używaj sejfu
+In Passwortfeldern automatisch zeigen	Pokazuj automatycznie w polach haseł
+Nach dem Eintippen "Im Tresor speichern?" fragen	Pytaj „Zapisać w sejfie?” po wpisaniu
+Länge neuer Passwörter	Długość nowych haseł
+ Zeichen	 znaków
+Neue Passwörter mit Sonderzeichen	Nowe hasła ze znakami specjalnymi
+Tresor bearbeiten	Edytuj sejf
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Z PIN-em sejf jest zablokowany po starcie i blokuje się znowu po pewnym czasie bez używania. PIN wpisujesz dużymi klawiszami cyfr.
+PIN festlegen oder ändern	Ustaw lub zmień PIN
+PIN entfernen	Usuń PIN
+Mit PIN automatisch sperren nach	Z PIN-em blokuj automatycznie po
+nie	nigdy
+ Minuten	 minutach
+Sichern und auf anderen PC übertragen	Kopia zapasowa i przeniesienie na inny komputer
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Spakuj nauczone słowa, ciągi słów, liczby, własne pojęcia, makra i w razie potrzeby hasła do jednego pliku. Zaimportuj go na drugim komputerze, a wszystko zostanie połączone.
+Daten exportieren …	Eksportuj dane …
+Daten importieren …	Importuj dane …
+Verschieben und Größe	Przesuwanie i rozmiar
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Przesuwanie: przeciągnij klawisz przesuwania w prawym dolnym rogu albo przytrzymaj dłużej dowolny klawisz. Rozmiar: przeciągnij dowolną krawędź lub lewy dolny róg.
+Breite	Szerokość
+ % des Bildschirms	 % ekranu
+Höhe	Wysokość
+unten rechts	na dole po prawej
+unten mittig	na dole na środku
+unten links	na dole po lewej
+Standardposition (für Zurücksetzen)	Pozycja domyślna (do resetu)
+Größe und Position zurücksetzen	Resetuj rozmiar i pozycję
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	Rozmiar jest procentem ekranu. Gdy przeciągniesz klawiaturę na inny ekran, dopasuje się tam.
+Verschieben durch langes Draufbleiben	Przesuwanie przez dłuższe przytrzymanie klawisza
+Maustaste gedrückt halten bis Verschieben	Trzymaj przycisk myszy do przesuwania
+Verweilen bis Verschieben	Zatrzymanie do przesuwania
+automatisch (doppelte Verweilzeit)	automatycznie (podwójny czas zatrzymania)
+Maus ruhig halten zum Absetzen	Trzymaj mysz nieruchomo, aby odłożyć
+Greifzone am Rand zum Größe ändern	Strefa chwytu przy krawędzi do zmiany rozmiaru
+ Pixel	 pikseli
+Globale Kürzel	Skróty globalne
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Działają też, gdy aktywny jest inny program. Idealne dla klawisza Quadsticka.
+Protokoll öffnen	Otwórz dziennik
+Start	Start
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Pokaż przycisk na pasku zadań (kliknięcie otwiera całą klawiaturę)
+Mit Windows starten	Uruchamiaj z Windows
+Eingeklappt starten	Uruchamiaj zwinięta
+Sonstiges	Inne
+automatisch (wie Windows)	automatycznie (jak Windows)
+Sprache der Oberfläche	Język interfejsu
+Einführung nochmal zeigen	Pokaż wprowadzenie ponownie
+Sperrbildschirm	Ekran blokady
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Pokazuj na ekranie blokady (do wpisania PIN-u)
+Datenordner öffnen	Otwórz folder danych
+Tastatur beenden	Zamknij klawiaturę
+Makro-Kürzel nicht aktiv: 	Skrót makra nieaktywny: 
+Entfernen	Usuń
+Aus Datei hinzufügen	Dodaj z pliku
+Download-Quelle (nur https)	Źródło pobierania (tylko https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Podaj adres zaczynający się od https://.
+Download-Quelle	Źródło pobierania
+Standard wiederherstellen	Przywróć domyślne
+Mindestens eine Sprache muss aktiv sein.	Co najmniej jeden język musi być aktywny.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 jest wbudowany i można go tylko wyłączyć (odznacz).
+ löschen?	: usunąć?
+Sprachpaket	Pakiet językowy
+ wurde hinzugefügt und eingeschaltet.	 został dodany i włączony.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Tak wygląda przypisanie w arkuszu Quadsticka. W żółtej kolumnie wybierz wejście (np. mp_triple_puff), potem wgraj konfigurację na Quadstick.
+ausgeschaltet	wyłączone
+✓ aktiv	✓ aktywny
+✗ nicht aktiv	✗ nieaktywny
+Aufnehmen	Nagraj
+Aus Liste ▾	Z listy ▾
+Aus	Wył.
+Bildschirmtastatur öffnen	Otwórz klawiaturę ekranową
+Willkommen!	Witaj!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Ta klawiatura ekranowa pisze w programie, w którym właśnie piszesz, i nigdy nie zabiera mu fokusu. Kliknij „Dalej”, aby poznać najważniejsze miejsca.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Po lewej na czerwono widać, co właśnie piszesz. Obok są pasujące słowa, jedno kliknięcie wstawia słowo ze spacją. Klawiatura uczy się, jakie słowa często piszesz. Nowe słowo zatwierdzasz kliknięciem czerwonego słowa, wtedy od razu je zapamięta.
+Groß/Klein-Taste	Klawisz wielkości liter
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	„abc ↑” zmienia ostatnie słowo na wielką literę, „ABC ↓” na małe. Działa też później, po spacji lub kropce.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Przytrzymaj ✥ i przeciągnij klawiaturę, gdzie chcesz. Albo zostań na dowolnym klawiszu, aż wypełni się pomarańczowy pierścień: wtedy klawiatura podąża za myszą. Rozmiar zmieniasz na każdej krawędzi.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Jedno dotknięcie działa na następny klawisz. Dwa dotknięcia blokują klawisz, trzy go wyłączają.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Bloki tekstu, sekwencje klawiszy i programy jednym kliknięciem. Przez ● po prostu nagrywasz to, co piszesz.
+Sprache	Język
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Zmienia język podpowiedzi i układ klawiszy. Które języki są dostępne, ustawiasz w ustawieniach.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Pokazuje zapisane hasła. W polach haseł pojawiają się same, jedno kliknięcie wpisuje hasło.
+Verweilklick	Kliknięcie przez zatrzymanie
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Włącza lub wyłącza kliknięcie przez zatrzymanie: klawisz działa, gdy chwilę zatrzymasz na nim mysz.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Tu dostosujesz wszystko: rozmiar, kolory, języki, skróty i więcej. Tam znajdziesz też to wprowadzenie.
+Einklappen	Zwiń
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Zwija klawiaturę do małego okrągłego przycisku. Kliknięcie go przywraca.
+Tray-Symbol und Kürzel	Ikona w zasobniku i skróty
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	W prawym dolnym rogu paska zadań jest ikona klawiatury. Klawisz Pause pokazuje i ukrywa klawiaturę, idealny dla klawisza Quadsticka.
+Fertig!	Gotowe!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Miłego pisania. Wszystko inne jest w instrukcji: „📖 Otwórz instrukcję” na samej górze ustawień lub w menu ikony. Klawiatura jest darmowa. Jeśli ci pomaga, ucieszę się z darowizny.
+Überspringen	Pomiń
+Zurück	Wstecz
+Fertig	Gotowe
+Weiter	Dalej
+tresor.dat hat ein unbekanntes Format.	tresor.dat ma nieznany format.
+Tresor ist gesperrt.	Sejf jest zablokowany.
+Passwort	Hasło
+Mindestens 4 Ziffern	Co najmniej 4 cyfry
+PIN festlegen	Ustaw PIN
+Neue PIN eingeben (4 bis 12 Ziffern)	Wpisz nowy PIN (od 4 do 12 cyfr)
+PIN zur Sicherheit wiederholen	Powtórz PIN dla pewności
+Die beiden PINs sind verschieden. Bitte nochmal.	Te dwa PIN-y są różne. Spróbuj jeszcze raz.
+Passwort-Eintrag	Wpis hasła
+Name (so steht es in der Tresorleiste)	Nazwa (tak jak w pasku sejfu)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Nazwa użytkownika lub e-mail (tylko jako przypomnienie, opcjonalnie)
+Benutzername oder E-Mail	Nazwa użytkownika lub e-mail
+Sicheres Passwort erzeugen	Utwórz bezpieczne hasło
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Pasuje do (słowa z tytułu okna, np. „gmail, google”)
+Name und Passwort dürfen nicht leer sein.	Nazwa i hasło nie mogą być puste.
+Tresor konnte nicht gespeichert werden: 	Nie udało się zapisać sejfu: 
+" aus dem Tresor löschen?	”: usunąć z sejfu?
+Gelernte Wörter	Nauczone słowa
+Zahlen	Liczby
+E-Mail-Adressen	Adresy e-mail
+Suchen:	Szukaj:
+Markierte löschen	Usuń zaznaczone
+Alles vergessen	Zapomnij wszystko
+ E-Mail-Adressen gelernt, für alle Sprachen	 nauczonych adresów e-mail, dla wszystkich języków
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 liczb nauczonych (daty, numery telefonów, kody pocztowe), dla wszystkich języków
+ Wörter, 	 słów, 
+ Wortfolgen gelernt	 sekwencji słów nauczonych
+   (die ersten 3000 angezeigt)	   (pokazano pierwsze 3000)
+Alle gelernten E-Mail-Adressen vergessen?	Zapomnieć wszystkie nauczone adresy e-mail?
+Alle gelernten Zahlen vergessen?	Zapomnieć wszystkie nauczone liczby?
+Alles Gelernte für 	Zapomnieć wszystko nauczone dla 
+ vergessen?	?
+Suche Dateien …	Szukanie plików …
+Datei 	Plik 
+ von 	 z 
+Deutsch	Niemiecki
+Englisch	Angielski
+Niederländisch	Niderlandzki
+Französisch	Francuski
+Dänisch	Duński
+Polnisch	Polski
+Tschechisch	Czeski
+Italienisch	Włoski
+Spanisch	Hiszpański
+Türkisch	Turecki
+Russisch	Rosyjski
+Portugiesisch	Portugalski
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład joystickiem ustnym takim jak Quadstick, myszą sterowaną głową albo wzrokiem.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	Zapamiętuj i proponuj numery IBAN (tylko poprawne, z właściwą cyfrą kontrolną)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Liczby i numery IBAN są proponowane już po pierwszym razie. PIN-y, TAN-y i numery kart nigdy nie są zapamiętywane.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Twój język Windows ({0}) nie jest niestety jeszcze wbudowany.
+IBAN merken und vorschlagen	Zapamiętuj i proponuj numery IBAN
+PINs und Kartennummern lernen (verschlüsselt)	Ucz się PIN-ów i numerów kart (zaszyfrowane)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Liczby są proponowane już po pierwszym razie. IBAN tylko wtedy, gdy zgadza się cyfra kontrolna. PIN-y i numery kart są przechowywane w postaci zaszyfrowanej na tym komputerze i trafiają tylko do kopii zapasowej z hasłem.
+Leerzeichen nach . , ! ? : von selbst einfügen	Automatycznie wstawiaj spację po . , ! ? :
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Dotknij ✕ jeszcze raz, aby zamknąć klawiaturę
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Przy skrócie (np. Pause) otwieraj tam, gdzie jest mysz
+Wo die Tastatur dann erscheint	Gdzie wtedy pojawia się klawiatura
+unter der Maus, mittig	pod myszą, na środku
+unter der Maus, nach rechts	pod myszą, w prawo
+unter der Maus, nach links	pod myszą, w lewo
+über der Maus, mittig	nad myszą, na środku
+über der Maus, nach rechts	nad myszą, w prawo
+über der Maus, nach links	nad myszą, w lewo
+🔍 Suchen	🔍 Szukaj
+nichts gefunden	nic nie znaleziono
+✕ Suche beenden	✕ Zakończ wyszukiwanie
+Namen tippen, die Liste wird kleiner	Wpisz nazwę, lista się skróci

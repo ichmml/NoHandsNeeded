@@ -1,0 +1,477 @@
+NoHandsNeeded
+=============
+Clavier virtuel, Version 1.01
+
+Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est
+exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent
+le PC sans les mains, par exemple avec un joystick buccal comme le Quadstick, une souris
+de tête ou avec les yeux.
+
+Ce manuel a été traduit de l'allemand par une IA. Les corrections de locuteurs natifs sont
+les bienvenues sur GitHub : https://github.com/ichmml/nohandsneeded (dossier Anleitung).
+
+Un clavier virtuel pour Windows, conçu pour les personnes qui utilisent le PC sans les mains,
+par exemple avec une commande buccale (Quadstick), une souris de tête ou un suivi oculaire.
+Objectif : le moins de clics possible. Il ne prend jamais le focus au programme dans lequel
+tu écris.
+
+Démarrage
+---------
+Place NoHandsNeeded.exe dans son propre dossier (par ex. C:\Tools\NoHandsNeeded) et lance-le.
+Rien à installer, .NET Framework 4.8 fait déjà partie de Windows 10/11.
+Pour mettre à jour : quitte l'ancienne version via l'icône de la barre des tâches et remplace
+simplement le .exe. Les paramètres sont conservés.
+
+Au premier démarrage, Windows affiche peut-être « Windows a protégé votre ordinateur ».
+Clique alors sur « Informations complémentaires » puis « Exécuter quand même ». Cela vient du
+fait que le fichier n'est pas signé.
+
+Au premier démarrage, le clavier s'adapte à la langue de Windows (suggestions, disposition
+des touches et interface) et affiche une courte introduction à parcourir. Tu peux la revoir à
+tout moment : Paramètres → Divers → « Revoir l'introduction », ou le menu de l'icône.
+Ce manuel s'ouvre via « Ouvrir le manuel » tout en haut des paramètres ou dans le menu de
+l'icône, toujours dans la langue de l'interface.
+
+À côté du .exe se crée le dossier « NoHandsNeeded-Daten » avec einstellungen.txt, makros.yaml,
+protokoll.txt (journal), le dossier « Lernen » (mots appris) et tresor.dat (mots de passe,
+chiffrés). Si ce dossier n'est pas accessible en écriture, les données vont dans
+%APPDATA%\NoHandsNeeded.
+
+Barre du haut
+-------------
+  Esc       touche Échap (Fn se trouve en bas à gauche de la rangée du bas)
+  milieu    tout à gauche en rouge le mot en cours de saisie (voir plus bas), à côté les
+            suggestions de mots, un clic insère le mot avec un espace
+  Macros    ouvre la barre des macros (voir plus bas)
+  FR        langue des suggestions, un clic change (voir « Langues »)
+  ⚿         afficher/masquer le coffre à mots de passe (voir « Coffre à mots de passe »)
+  ◷         clic par survol activé/désactivé
+  ⚙         paramètres
+  ▾         réduire en un petit bouton rond (un clic ou un survol le rouvre)
+  ✕         fermer le clavier : toucher deux fois (après la première fois, ✕ devient rouge)
+
+Mot saisi (en haut à gauche, en rouge)
+--------------------------------------
+La première case de la barre de suggestions montre en rouge et en gras ce que tu tapes,
+lettre par lettre. Les nombres apparaissent en entier avec leurs points, une touche
+d'accent en attente (par ex. ´) apparaît à la fin. Les mots longs ne sont jamais raccourcis,
+la case s'élargit simplement.
+Les caractères spéciaux gardent l'affichage : tout ce qui suit le dernier espace, Entrée ou
+Tab s'affiche, par ex. « s!add » ou une adresse web. Les suggestions à côté se rapportent au
+dernier mot (« add »). Un clic sur une telle case rouge ajoute seulement un espace.
+  - Si le clavier ne connaît pas encore le mot, un petit « nouveau » s'affiche à côté. Un
+    clic sur le mot rouge l'insère avec un espace et le retient tout de suite, il sera
+    proposé ensuite.
+  - Dans un champ de mot de passe apparaissent des points rouges et le nombre de caractères,
+    avec 👁 à côté. 👁 montre le mot de passe en clair pendant 10 secondes (ou jusqu'au
+    prochain clic). Pendant ce temps, le clavier est exclu des captures et du partage
+    d'écran. Les mots de passe du coffre n'apparaissent que sous forme de points. Après
+    Entrée ou en quittant le champ, tout disparaît.
+  - Dans les fenêtres propres au clavier (nouvelle entrée du coffre, mot de passe de
+    sauvegarde), le mot de passe s'affiche en clair pendant la saisie, dans la fenêtre et en
+    haut du clavier. « Afficher / masquer » passe aux points. Rien n'y est appris, journalisé
+    ni enregistré.
+  - Seul ce qui a été tapé avec ce clavier est affiché. Après un clic dans la fenêtre ou une
+    vraie frappe, la case est vide.
+  - Paramètres → Suggestions de mots : activé/désactivé, « points avec 👁 » ou « toujours
+    des points », délai avant de masquer le texte en clair.
+
+Déplacement et taille
+---------------------
+Déplacer :
+  - Maintenir ✥ en bas à droite et glisser, ou le survoler brièvement.
+  - Rester un peu plus longtemps sur n'importe quelle touche, bouton de la souris enfoncé
+    (par défaut 0,5 seconde). Un anneau orange se remplit, puis le clavier suit la souris.
+    Relâcher le pose. La touche n'est pas tapée. Un clic court tape normalement (au relâché).
+  - Avec le clic par survol : rester nettement plus longtemps sur une touche (par défaut le
+    double du temps de survol). La touche est d'abord tapée une fois, puis l'anneau orange se
+    remplit et le clavier suit la souris. Garder la souris immobile un instant ou cliquer le
+    pose. Retour arrière, Suppr et les flèches se répètent au survol, on ne peut donc pas les
+    utiliser pour déplacer.
+  - Échap ou clic droit annule, le clavier revient à sa place.
+  - Le clavier reste toujours entièrement à l'écran, même avec plusieurs moniteurs.
+Taille : faire glisser un bord ou le coin bleu en bas à gauche avec la souris.
+  La taille est en pourcentage de l'écran (par défaut 60 % de large, 31 % de haut, en bas à
+  droite). Paramètres → « Déplacement et taille » : curseurs pour la largeur et la hauteur,
+  position par défaut (en bas à droite, au centre ou à gauche) et « Réinitialiser taille et
+  position ».
+Plusieurs écrans : le clavier peut être déplacé sur n'importe quel écran, même si les écrans
+  ont une mise à l'échelle différente (par ex. 125 % et 100 %). Une fois posé, il y prend la
+  même taille en pourcentage. Si un écran manque au démarrage, il apparaît en bas à droite de
+  l'écran principal. Il en va de même pour le bouton rond.
+Dans les paramètres, la barre de suggestions peut aussi avoir deux lignes, avec sa propre
+taille de police.
+
+Touches
+-------
+Fn (en bas à gauche) : deuxième niveau avec F1 à F12, Début, Fin, Page préc./suiv.,
+caractères spéciaux. Échap se trouve en haut à gauche.
+Maj, Ctrl, Alt, Win, AltGr :
+  1 appui  = vaut pour la touche suivante (cadre bleu)
+  2 appuis = verrouillé (cadre orange, « verr. »), par ex. Maj verrouillée + flèches pour
+             sélectionner
+  3 appuis = désactivé
+Win fonctionne autrement : 1 appui vaut pour la touche suivante (par ex. Win+E pour
+l'Explorateur), 2 appuis appuient sur la touche Windows seule et ouvrent le menu Démarrer.
+Sinon aussi, une espace est ajoutée automatiquement après . , ! ? : ; sauf dans les nombres
+(1,5 ou 10:30), les adresses web, les adresses e-mail et dans les champs e-mail ou IBAN. Si
+tu tapes encore une espace toi-même, elle n'est pas doublée. Désactivable dans les réglages.
+
+Rangée du bas : Fn, Ctrl, Win, Alt, espace, AltGr (juste à droite de la barre d'espace),
+abc/ABC, quatre caractères spéciaux, flèches, ✥. Les quatre caractères spéciaux sont par
+défaut ! ? : - et se modifient dans les paramètres sous « Caractères spéciaux en bas » (un
+caractère par champ, éventuellement un second pour Maj, par ex. « .: »). Après une
+suggestion de mot, un signe de ponctuation se colle au mot et l'espace passe derrière
+(« maison . » devient « maison. »).
+
+Touche majuscule/minuscule (à côté de la barre d'espace) : change la casse du dernier mot.
+    « abc » avec flèche vers le haut  = mot en minuscules, un appui met la première lettre
+                                        en majuscule
+    « ABC » avec flèche vers le bas   = mot avec majuscules, un appui le met en minuscules
+    Ensuite elle propose l'autre option, on peut donc alterner.
+    Fonctionne aussi juste après une suggestion de mot ou après un espace ou un point.
+    « Aa » gris = aucun mot connu. La touche ne connaît que les mots tapés avec ce clavier et
+    les oublie après un clic dans la fenêtre, un changement de fenêtre ou Entrée. Elle ne
+    connaît pas les mots issus de la saisie vocale (par ex. Wispr Flow) ou d'un autre clavier.
+    TOUT EN MAJUSCULES : appuyer deux fois sur Maj (verrouillé).
+
+En début de phrase (après . ! ? et un espace, ou après Entrée), la lettre suivante passe
+automatiquement en majuscule. Désactivable dans les paramètres.
+
+Vraies frappes : si tu appuies sur une touche du Quadstick (ou d'un clavier normal), elle
+s'allume en rouge sur le clavier virtuel tant qu'elle est enfoncée et encore 1,5 seconde
+après. Ctrl+Maj pour Wispr Flow se voit donc tant que tu maintiens. Ce que le clavier virtuel
+tape lui-même ne s'allume pas. Les touches sont seulement affichées, jamais enregistrées ni
+journalisées.
+Après une vraie frappe, le clavier oublie le mot commencé, car du texte collé ou dicté peut
+s'y trouver. Maj ou Ctrl seuls ne changent rien, Ctrl+Maj si. Les touches de raccourci
+(Pause, pavé numérique -) ne comptent pas.
+Paramètres → Utilisation : activé/désactivé et durée de la lueur.
+
+Fenêtres propres (coffre, entrée de mot de passe, code PIN, macros, export/import) : le
+clavier reste cliquable, tu peux donc taper normalement dans ces fenêtres. Les fenêtres
+s'ouvrent là où le clavier ne les cache pas.
+
+Mot par programme : si tu changes de fenêtre (par ex. du logiciel de messagerie au navigateur
+et retour), le clavier retient pour chaque fenêtre le mot commencé, le mot précédent et le
+début de phrase. De retour dans la fenêtre, tu continues simplement à écrire.
+  - Par fenêtre : deux fenêtres de navigateur sont séparées, les onglets d'une même fenêtre
+    non.
+  - Si tu ramènes la fenêtre par un clic dans le texte, ça continue aussi. Si tu cliques au
+    milieu du texte, la suggestion ne conviendra pas. Désactiver : Paramètres → Utilisation →
+    « Continuer à écrire après un clic dans la fenêtre ».
+  - Au maximum 30 fenêtres, au maximum 30 minutes, seulement en mémoire. Jamais les champs
+    de mot de passe.
+
+Avec le clic par survol, Retour arrière, Suppr et les flèches se répètent tant qu'on reste
+dessus. Toutes les autres touches ne se déclenchent de nouveau qu'après avoir quitté la
+touche une fois.
+
+Macros
+------
+Appuie sur « Macros » : les macros apparaissent en haut à la place des suggestions de mots.
+  - Un clic exécute la macro, puis les suggestions reviennent.
+  - Les groupes apparaissent comme « Nom › », un clic les ouvre, « ‹ Nom » revient.
+  - Les macros qui correspondent au programme actif sont en premier.
+  - Si tout ne tient pas, « suite › » fait défiler.
+  - « ✕ Retour » ferme la barre des macros.
+
+À droite de la barre des macros :
+  ●  Enregistrer : tape simplement sur le clavier, tout est enregistré (texte, Entrée,
+     raccourcis comme Ctrl+S). Le clavier reçoit un cadre rouge.
+     « ■ Stop » termine l'enregistrement, puis confirme le nom et c'est fini.
+     ✕ annule l'enregistrement.
+  +  Enregistrement rapide : ce que tu as tapé en dernier (depuis le dernier clic dans la
+     fenêtre) est enregistré comme bloc de texte. Un nom est déjà proposé, un clic suffit.
+  ✎  ouvrir l'éditeur de macros
+
+Éditeur de macros (✎ ou Paramètres → Modifier les macros) :
+  Nouveau, Modifier, Copier, Monter/Descendre, Supprimer. Dans la macro : nom, groupe,
+  couleur, programme, raccourci global et autant d'étapes que tu veux :
+    Texte      espaces réservés {date} {time} {weekday} {cursor}
+               (l'allemand fonctionne aussi : {datum} {uhrzeit} {wochentag})
+               ({cursor} = le curseur s'y place après l'insertion)
+    Touches    par ex. Ctrl+A, Ctrl+C, Enter   ou   Alt+Tab   ou   Win+D
+               « Enregistrer une touche » inscrit directement une touche pressée
+    Ouvrir     programme, fichier, dossier ou page web
+    Attendre   pause en millisecondes
+
+Les macros sont dans NoHandsNeeded-Daten\makros.yaml et peuvent aussi être modifiées à la main
+(une explication se trouve en haut du fichier). Les mots-clés fonctionnent en anglais (name,
+group, steps, keys, open, wait) ou en allemand (name, gruppe, schritte, tasten, oeffnen,
+warten). Ensuite, dans l'éditeur, « Recharger le fichier ». Si le fichier contient une
+erreur, le clavier affiche la ligne au lieu de planter. À l'enregistrement, la version
+précédente est conservée sous makros.yaml.bak.
+
+Les macros tapent par simulation du clavier, jamais via le presse-papiers. Elles n'entrent
+pas dans les suggestions de mots. Les mots de passe n'ont rien à faire dans les macros, c'est
+le rôle du coffre.
+
+Langues
+-------
+Intégrées, sans internet : allemand, anglais, néerlandais, français, danois, polonais,
+tchèque, italien, espagnol, turc et russe.
+Le bouton de langue en haut passe à tour de rôle par les langues activées, plus le mode
+mélangé (par ex. FR+EN, selon la fréquence). Le mode mélangé peut être désactivé.
+
+Au tout premier démarrage, le clavier prend la langue de Windows et ajoute l'anglais. Si
+Windows est en français, il démarre en français avec la disposition AZERTY.
+
+Suggestions sans accents : « zolw » donne « żółw », « cafe » donne « café », « nino » donne
+« niño ». Pas besoin de chercher les caractères spéciaux. Cela vaut aussi pour les mots
+appris.
+
+Disposition des touches : suit la langue (en mode mélangé, la première langue).
+  Allemand QWERTZ, anglais et néerlandais QWERTY, français AZERTY, danois avec æ ø å, polonais
+  avec ą ć ę ł ń ó ś ź ż via AltGr, tchèque avec ě š č ř ž ý á í é dans la rangée des
+  chiffres, italien, espagnol avec ñ ¿ ¡, turc Q avec ı ğ ü ş ö ç, russe ЙЦУКЕН.
+  Le russe a une touche « ABC/АБВ » pour les lettres latines (adresses mail, liens).
+  Touches d'accent comme dans Windows (touches mortes) : en français, espagnol, danois,
+  tchèque et néerlandais, appuyer d'abord sur ´ ` ^ ¨, puis sur la lettre (´ + e = é). Avec
+  la barre d'espace ensuite, on obtient le caractère seul. L'allemand n'a pas de touches
+  mortes.
+  Le clavier tape de l'Unicode, il n'est pas nécessaire de changer la disposition Windows.
+  Paramètres → Langues → Disposition des touches : selon la langue, toujours allemand ou
+  toujours anglais.
+
+Paramètres → Langues :
+  - Une coche active une langue, ▲/▼ change l'ordre lors du changement.
+  - « Retenir la langue par programme » : si tu changes de langue dans un programme, le
+    clavier le retient et bascule automatiquement la prochaine fois dans ce programme. Par
+    exemple Outlook en anglais, WhatsApp en français.
+  - « Modifier les termes personnels » : noms et termes techniques proposés dans toutes les
+    langues. Fichier : NoHandsNeeded-Daten\eigene_woerter.txt
+  - « Ajouter depuis un fichier » : reprendre une liste de mots sans internet (mot,
+    tabulation, fréquence ; nom du fichier = code de langue, par ex. pt.txt).
+  - « Retirer » : supprime une langue que tu as ajoutée (les langues intégrées peuvent
+    seulement être désactivées).
+Les langues que tu as ajoutées sont dans NoHandsNeeded-Daten\Sprachen.
+Un raccourci global « Changer de langue » est disponible en option.
+
+Langue de l'interface
+---------------------
+Paramètres, menus, messages, libellés des touches, l'introduction et ce manuel existent en
+allemand, anglais, néerlandais, français, danois, polonais, tchèque, italien, espagnol, turc
+et russe. Par défaut, c'est la langue de Windows, sinon l'anglais.
+Changer : Paramètres → Divers → « Langue de l'interface » → Appliquer.
+Les traductions ont été faites par une IA. Les corrections de locuteurs natifs sont les
+bienvenues sur GitHub : https://github.com/ichmml/nohandsneeded (interface : dossier
+Resources/Texte, manuel : dossier Anleitung). S'il manque un texte dans une langue, il
+apparaît en anglais.
+
+Apprentissage
+-------------
+Le clavier apprend pendant que tu écris :
+  - de nouveaux mots (noms, termes techniques). Ils sont proposés dès que tu les as écrits
+    2 fois (réglable de 1 à 5).
+  - à quelle fréquence tu utilises chaque mot. Les mots fréquents passent devant.
+  - quel mot suit souvent quel autre. Après un espace, les mots suivants adaptés
+    apparaissent directement en haut (par ex. après « mon » le mot que tu écris le plus
+    souvent ensuite).
+  - l'orthographe : si tu transformes « iphone » en « iPhone » avec la touche
+    majuscule/minuscule, « iPhone » te sera proposé la fois suivante.
+Si tu effaces un mot tout de suite avec ⌫, il est aussi oublié.
+
+Nombres : les dates (10/09/1991), numéros de téléphone (06 12 34 56 78, +33 1 23 45 67 89)
+et codes postaux devant un nom de ville sont aussi appris, tout comme les longs numéros à
+partir de 9 chiffres (numéro client ou de contrat). Ils sont proposés dès la première fois.
+Quand tu tapes des chiffres, les nombres correspondants apparaissent en haut. Les
+séparateurs ne comptent pas, « 1009 » donne donc « 10/09/1991 ». Le nombre est inséré dans
+l'écriture apprise.
+Les codes PIN (4 à 8 chiffres sans séparateur) et les numéros de carte sont aussi appris,
+mais chiffrés dans un fichier à part (zahlen_geheim.dat). Ils ne vont dans une sauvegarde
+qu'avec un mot de passe. Désactivable dans les réglages d'apprentissage (« Apprendre les
+codes PIN et numéros de carte (chiffrés) »). Jamais appris : les nombres isolés et
+quantités, les heures, tout ce qui est dans un champ de mot de passe et rien qui ressemble à
+un mot de passe (chiffres mêlés de lettres, mots très longs). Les codes PIN et numéros de
+carte ne sont jamais repris de tes propres textes.
+IBAN : un IBAN valide (clé de contrôle correcte) est mémorisé, tapé avec ou sans espaces. La
+fois suivante, le code pays et le premier chiffre (« FR7 ») suffisent : il apparaît en vert
+avec 🏦 en haut et un clic le tape en entier. Dans les champs nommés IBAN et après « IBAN: »,
+il apparaît tout de suite. Désactivable dans les réglages d'apprentissage.
+Les nombres valent pour toutes les langues, fichier : NoHandsNeeded-Daten\Lernen\zahlen.txt.
+Désactivable sous Paramètres → Apprentissage, à consulter et supprimer sous « Mots appris »
+→ choix « Nombres ».
+
+Paramètres → Apprentissage :
+  - « Apprendre de mes textes » : choisir un dossier (par ex. notes ou documents). Sont lus
+    .txt, .md, .docx, .html, .eml et .mbox, y compris dans les sous-dossiers. Les dossiers
+    commençant par un point (.obsidian, .git) sont ignorés.
+    Seules les statistiques sont enregistrées, quels mots apparaissent combien de fois et
+    dans quel ordre, jamais les textes. Les lignes avec mot de passe, PIN, IBAN, login, token
+    et similaires sont ignorées, de même que les liens, adresses mail, blocs de code et mails
+    cités. Avec plusieurs langues, chaque paragraphe va dans la langue qui lui correspond.
+  - « Voir et supprimer les mots appris » : chercher, supprimer des mots, tout oublier.
+  - Icône de la barre des tâches → « Mettre l'apprentissage en pause », par ex. quand
+    quelqu'un d'autre tape.
+Les données apprises sont dans NoHandsNeeded-Daten\Lernen\fr.txt (un fichier par langue),
+enregistrées toutes les 2 minutes et à la fermeture.
+
+Coffre à mots de passe
+----------------------
+Pour ne pas avoir à taper chaque fois les longs mots de passe caractère par caractère.
+  - Quand tu cliques dans un champ de mot de passe, tes mots de passe enregistrés
+    apparaissent en haut à la place des suggestions (en jaune, avec ⚿). Celui qui correspond
+    à la fenêtre est en premier. Un clic tape le mot de passe dans le champ. Puis Entrée.
+  - Si tu as tapé un mot de passe toi-même, le clavier demande après Entrée ou en quittant
+    le champ : « Enregistrer dans le coffre ? ». « Enregistrer » ouvre une fenêtre avec un
+    nom proposé, que tu confirmes. « Non » ou simplement continuer l'abandonne.
+  - « + Ajouter un mot de passe » ouvre une fenêtre pour une nouvelle entrée. Le nom est déjà
+    proposé d'après la page web ou le programme, le mot de passe s'affiche en clair pendant la
+    saisie, « Créer un mot de passe sûr » le remplit si tu veux. « Enregistrer » le range, il
+    apparaît tout de suite dans la barre.
+  - Si tous les mots de passe ne tiennent pas dans la barre, « suite › » passe à la page
+    suivante, ceux qui correspondent à la page ouverte sont en tête. « 🔍 Chercher » : tape
+    quelques lettres et la barre n'affiche plus que les entrées correspondantes (nom,
+    utilisateur ou programme). Les lettres ne vont pas dans le programme. Retour arrière
+    efface, Échap, Entrée ou « ✕ Arrêter la recherche » termine la recherche.
+  - Si tu viens de taper un mot de passe sur une page, il est déjà rempli, tout comme une
+    adresse e-mail tapée juste avant dans la même fenêtre. Le curseur va directement dans le
+    champ vide suivant. Dans le nom et l'e-mail, tu tapes normalement, rien n'y est appris.
+  - « 🎲 Créer et taper » (seulement dans un champ de mot de
+    passe) crée un mot de passe sûr (par défaut 16 caractères), le tape dans le champ et
+    propose tout de suite de l'enregistrer. Enregistre-le absolument, sinon il est perdu.
+  - Dans la fenêtre du coffre, le mot de passe s'affiche toujours en clair, même quand tu
+    modifies une entrée existante, pour que tu voies si tu le tapes correctement. « Afficher
+    / masquer » le cache si besoin.
+  - ⚿ en haut à droite affiche le coffre aussi en dehors des champs de mot de passe,
+    « ✕ Masquer » le masque.
+Sécurité :
+  - tresor.dat est chiffré par Windows (DPAPI) et lisible seulement avec ton compte Windows
+    sur ce PC. Copié ailleurs, le fichier est inutilisable. Pour le transférer, utilise
+    « Sauvegarder et transférer vers un autre PC » (voir plus bas).
+  - En option un code PIN (Paramètres → Coffre à mots de passe). Le coffre est alors
+    verrouillé après chaque démarrage et se reverrouille après 15 minutes sans utilisation
+    (réglable). Le PIN se tape avec de grandes touches numériques. Sans le PIN, personne
+    n'accède aux mots de passe, pas même toi. Retiens-le bien.
+  - Les mots de passe n'apparaissent jamais dans les suggestions normales, ne sont jamais
+    appris, jamais repris dans les enregistrements de macros et jamais insérés via le
+    presse-papiers.
+  - Le clavier reconnaît les champs de mot de passe grâce à l'indicateur Windows des champs
+    protégés. Cela fonctionne dans les programmes Windows et les navigateurs courants. S'il
+    ne reconnaît pas un champ, ⚿ permet d'afficher le coffre.
+Modifier : Paramètres → Coffre à mots de passe → « Modifier le coffre » (ou icône de la barre
+des tâches). On y règle le nom, l'utilisateur, le mot de passe (avec bouton d'affichage) et
+des mots-clés pour le titre de la fenêtre (« gmail, google »), afin que le bon mot de passe
+soit en premier.
+
+Adresses e-mail : quand tu tapes une adresse e-mail, le clavier la retient comme un nouveau
+mot (pas dans les champs de mot de passe). Ensuite elle apparaît en haut en bleu avec ✉ dès
+que tu as tapé les 3 premières lettres, un clic insère l'adresse entière. Si tu cliques dans un
+champ pour e-mail ou nom d'utilisateur, les adresses apparaissent tout de suite, sans taper de
+lettre. Le clavier reconnaît ce champ à son libellé, ce qui marche sur la plupart des pages de
+connexion. Désactiver : Paramètres → Apprentissage. Voir et supprimer : « Mots appris » →
+« Adresses e-mail ».
+
+Raccourcis globaux et Quadstick
+-------------------------------
+Ces raccourcis fonctionnent même quand un autre programme est au premier plan :
+  Pause                afficher/masquer le clavier
+  pavé numérique -     ouvrir la barre des macros (appelé « NumMinus » dans le clavier)
+De plus, chaque macro peut avoir son propre raccourci (dans l'éditeur de macros).
+Dans les paramètres, chaque raccourci indique s'il est actif (coche verte) ou non (rouge,
+avec la raison).
+
+Si tu ouvres le clavier avec le raccourci, il apparaît là où se trouve le pointeur de la
+souris : centré juste en dessous pour que l'endroit reste visible, au-dessus s'il n'y a pas
+assez de place. Depuis la barre des tâches, la zone de notification ou le bouton rond, il
+reste à sa place habituelle. Désactivable dans les réglages (« Avec le raccourci (p. ex.
+Pause), ouvrir là où se trouve la souris »).
+Juste en dessous, tu choisis où exactement : sous ou au-dessus de la souris, centré, vers la
+droite ou vers la gauche. Si ça ne rentre pas du côté choisi, il prend l'autre.
+
+Changer : Paramètres → Raccourcis globaux → « Enregistrer ». Une fenêtre s'ouvre, appuie
+alors sur la touche du Quadstick. La touche reconnue s'affiche en grand, confirme avec
+« Appliquer ». Ou clique sur « Depuis la liste ».
+
+Si un raccourci ne fonctionne pas : Paramètres → « Tester les raccourcis » et appuie sur la
+touche du Quadstick.
+  - Rien n'apparaît : la touche n'arrive pas du tout au PC. Le Quadstick ne l'envoie pas,
+    par ex. parce qu'il ne sait pas envoyer F13 à F24. Prends une autre touche, par ex. Pause
+    ou un signe d'opération du pavé numérique.
+  - « Touche reçue » apparaît, mais pas « Raccourci déclenché » : la touche arrive, mais le
+    raccourci n'est pas actif ou réglé autrement. Vérifie le message rouge dans les
+    paramètres.
+  - Les deux apparaissent : tout va bien.
+protokoll.txt (Paramètres → « Ouvrir le journal ») indique quels raccourcis ont été
+enregistrés, lesquels non (avec le code d'erreur Windows) et lesquels ont été déclenchés.
+
+Affecter une touche du Quadstick :
+  Dans la feuille de configuration du Quadstick (tableur Google), une ligne par raccourci,
+  exemple :
+      kb_pause          normal    <entrée>
+      kb_keypad_minus   normal    <entrée>
+  1. Dans la colonne jaune, choisir l'entrée voulue (par ex. mp_triple_puff).
+  2. Charger la configuration sur le Quadstick comme d'habitude.
+  3. Vérifier avec « Tester les raccourcis ».
+  Le Quadstick ne peut pas envoyer F13 à F24 ni Arrêt défil. Pause et les signes d'opération
+  du pavé numérique conviennent bien (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). À éviter : kb_keypad_enter (traité comme Entrée) et les chiffres du pavé
+  numérique (dépendent de Verr. num.).
+
+Icône de la barre des tâches : clic gauche affiche/masque le clavier. Clic droit : modifier
+les macros, mettre l'apprentissage en pause, modifier le coffre, paramètres, ouvrir le
+manuel, afficher l'introduction, faire un don, quitter.
+
+Barre des tâches : tant que le clavier tourne, il a son propre bouton avec l'icône du
+clavier dans la barre des tâches. Un clic ouvre toujours le clavier en entier, même s'il est
+masqué ou réduit au bouton rond (un clavier ouvert reste ouvert), ensuite le focus revient
+aussitôt au programme dans lequel tu écrivais. Désactiver : Paramètres → Démarrage.
+
+Sauvegarder et transférer vers un deuxième PC
+---------------------------------------------
+Paramètres → « Sauvegarder et transférer vers un autre PC ».
+  - « Exporter les données … » : coche ce qui doit être inclus (mots appris, suites de mots
+    et nombres, termes personnels, macros, mots de passe du coffre). Choisis ensuite un
+    dossier. Un fichier comme « NoHandsNeeded 2026-11-08.nohands » est créé.
+  - Si des mots de passe sont inclus, la sauvegarde a besoin de son propre mot de passe (au
+    moins 8 caractères). Le fichier est alors chiffré (AES-256), sans ce mot de passe
+    personne n'y accède, pas même toi. Sans mots de passe, le champ peut rester vide.
+  - Sur l'autre PC : « Importer les données … », choisir le fichier, saisir le mot de passe
+    si besoin, vérifier les coches, « Appliquer ».
+  - Rien n'est écrasé, tout est fusionné : pour les mêmes mots, le compteur le plus élevé
+    l'emporte (importer deux fois le même fichier ne compte donc pas double). Une macro du
+    même nom est remplacée. Pour un mot de passe avec le même nom et utilisateur, celui
+    modifié ou utilisé le plus récemment l'emporte.
+  - Le dernier dossier utilisé est retenu. Un dossier visible par les deux PC est pratique
+    (clé USB, dossier cloud).
+  - La taille et la position ne sont pas transférées, elles diffèrent d'un PC à l'autre.
+
+Soutenir
+--------
+Le clavier est gratuit et open source. S'il t'aide, un don me ferait plaisir :
+https://ko-fi.com/MDM3D
+Le bouton se trouve tout en haut des paramètres et dans le menu de l'icône. Le lien ne
+s'ouvre que si tu cliques dessus. Le clavier ne le demande jamais.
+
+Écran de verrouillage
+---------------------
+Pour taper le code PIN de Windows avec ce clavier, il doit apparaître sur l'écran de
+verrouillage. Windows ne l'autorise que si tout ce qui suit est vrai :
+  - le clavier est signé avec un certificat de signature de code,
+  - il est installé avec l'installateur dans « C:\Program Files\NoHandsNeeded »,
+  - il est déclaré à Windows comme technologie d'assistance (l'installateur s'en charge),
+  - il a l'autorisation uiAccess (la variante NoHandsNeededAT.exe de build.cmd).
+Le NoHandsNeeded.exe portable ne le peut pas. Paramètres → Divers → Écran de verrouillage montre
+ce qui manque. Quand tout est là, un interrupteur « Afficher sur l'écran de verrouillage »
+apparaît.
+Sur l'écran de verrouillage, seule la saisie fonctionne : pas de coffre, pas de macros, pas
+d'apprentissage, pas de suggestions, pas de paramètres. Ainsi personne ne voit rien de
+personnel sur le PC verrouillé.
+En attendant : clique sur l'icône d'accessibilité en bas à droite de l'écran de verrouillage
+et utilise le clavier visuel de Windows. Ou configure Windows Hello (visage), il n'y a alors
+plus besoin de PIN.
+
+Limites connues
+---------------
+Le clavier ne peut pas taper dans les programmes exécutés en tant qu'administrateur
+(Gestionnaire des tâches, certains installateurs). C'est une règle de sécurité de Windows.
+Solution : clic droit sur NoHandsNeeded.exe → « Exécuter en tant qu'administrateur », ou la
+version signée et installée (voir « Écran de verrouillage »).
+
+La touche majuscule/minuscule agit sur le dernier mot tapé avec le clavier. Elle ne peut pas
+encore convertir un texte sélectionné dans d'autres programmes.
+
+Listes de mots : 11 langues intégrées avec chacune environ 27 000 à 74 000 mots. Fréquences
+issues de wordfreq (données sous CC BY-SA 4.0), orthographe vérifiée avec les dictionnaires
+hunspell.

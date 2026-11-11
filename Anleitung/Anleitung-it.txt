@@ -1,0 +1,461 @@
+NoHandsNeeded
+=============
+Tastiera su schermo, Versione 1.01
+
+Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che
+è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a
+bocca come il Quadstick, un mouse a testa o con gli occhi.
+
+Questo manuale è stato tradotto dal tedesco da un'IA. Le correzioni di madrelingua sono
+benvenute su GitHub: https://github.com/ichmml/nohandsneeded (cartella Anleitung).
+
+Una tastiera su schermo per Windows, pensata per chi usa il PC senza le mani, per esempio
+con un controller a bocca (Quadstick), un mouse a testa o il tracciamento oculare.
+Obiettivo: il minor numero possibile di clic. Non toglie mai il focus al programma in cui
+scrivi.
+
+Avvio
+-----
+Metti NoHandsNeeded.exe in una cartella propria (ad es. C:\Tools\NoHandsNeeded) e avvialo.
+Niente da installare, .NET Framework 4.8 è già incluso in Windows 10/11.
+Per aggiornare: chiudi la vecchia versione dall'icona nell'area di notifica e sostituisci
+semplicemente il file .exe. Le impostazioni restano.
+
+Al primo avvio Windows può mostrare "PC protetto da Windows". Fai clic su "Ulteriori
+informazioni" e poi "Esegui comunque". Succede perché il file non è firmato.
+
+Al primo avvio la tastiera si adatta alla lingua di Windows (suggerimenti, layout dei tasti e
+interfaccia) e mostra una breve introduzione da scorrere. Puoi rivederla in qualsiasi
+momento: Impostazioni → Altro → "Mostra di nuovo l'introduzione" o il menu dell'icona.
+Questo manuale si apre con "Apri manuale" in cima alle impostazioni o nel menu dell'icona,
+sempre nella lingua dell'interfaccia.
+
+Accanto al file .exe si crea la cartella "NoHandsNeeded-Daten" con einstellungen.txt,
+makros.yaml, protokoll.txt (registro), la cartella "Lernen" (parole imparate) e tresor.dat
+(password, cifrate). Se la cartella non è scrivibile, i dati finiscono in %APPDATA%\NoHandsNeeded.
+
+Barra superiore
+---------------
+  Esc       tasto Esc (Fn è in basso a sinistra nell'ultima riga)
+  centro    tutto a sinistra in rosso la parola che stai scrivendo (vedi sotto), accanto i
+            suggerimenti, un clic inserisce la parola con lo spazio
+  Macro     apre la barra delle macro (vedi sotto)
+  IT        lingua dei suggerimenti, un clic cambia (vedi "Lingue")
+  ⚿         mostra/nascondi la cassaforte delle password (vedi "Cassaforte delle password")
+  ◷         clic a sosta attivo/disattivo
+  ⚙         impostazioni
+  ▾         riduci a un piccolo pulsante rotondo (un clic o una sosta lo riapre)
+  ✕         chiudi la tastiera: tocca due volte (dopo il primo tocco ✕ diventa rossa)
+
+Parola digitata (in alto a sinistra, in rosso)
+----------------------------------------------
+Il primo campo della barra dei suggerimenti mostra in rosso e in grassetto ciò che stai
+scrivendo, lettera per lettera. I numeri appaiono interi con i punti, un tasto accento in
+attesa (ad es. ´) appare alla fine. Le parole lunghe non vengono mai accorciate,
+il campo diventa semplicemente più largo.
+I caratteri speciali non cancellano la visualizzazione: compare tutto dall'ultimo spazio,
+Invio o Tab, ad es. "s!add" o un indirizzo web. I suggerimenti accanto riguardano l'ultima
+parola ("add"). Un clic su questo campo rosso aggiunge solo uno spazio.
+  - Se la tastiera non conosce ancora la parola, accanto compare un piccolo "nuova". Un clic
+    sulla parola rossa la inserisce con lo spazio e la memorizza subito, da allora viene
+    suggerita.
+  - In un campo password compaiono punti rossi e il numero di caratteri, accanto 👁. 👁
+    mostra la password in chiaro per 10 secondi (o fino al clic successivo). Nel frattempo
+    la tastiera è esclusa da screenshot e condivisione dello schermo. Le password della
+    cassaforte appaiono solo come punti. Dopo Invio o uscendo dal campo, tutto sparisce.
+  - Nelle finestre proprie della tastiera (nuova voce della cassaforte, password del
+    backup) la password si vede in chiaro mentre scrivi, nella finestra e in cima alla
+    tastiera. "Mostra / nascondi" passa ai punti. Nulla viene imparato, registrato o
+    memorizzato.
+  - Viene mostrato solo ciò che è stato scritto con questa tastiera. Dopo un clic nella
+    finestra o una vera pressione di tasto il campo è vuoto.
+  - Impostazioni → Suggerimenti di parole: attivo/disattivo, "punti con 👁" o "sempre solo
+    punti", tempo prima di nascondere il testo in chiaro.
+
+Spostamento e dimensioni
+------------------------
+Spostare:
+  - Tieni premuto ✥ in basso a destra e trascina, o soffermati brevemente su di esso.
+  - Tieni premuto il pulsante del mouse un po' più a lungo su un tasto qualsiasi
+    (predefinito 0,5 secondi). Un anello arancione si riempie, poi la tastiera segue il
+    mouse. Rilasciando la posi. Il tasto non viene digitato. Un clic breve scrive come al
+    solito (al rilascio).
+  - Con il clic a sosta: soffermati su un tasto molto più a lungo (predefinito il doppio del
+    tempo di sosta). Prima il tasto viene digitato una volta, poi l'anello arancione si
+    riempie e la tastiera segue il mouse. Tenere fermo il mouse un attimo o fare clic la
+    posa. Backspace, Canc e le frecce si ripetono durante la sosta, quindi non servono per
+    trascinare.
+  - Esc o clic destro annulla, la tastiera torna al suo posto.
+  - La tastiera resta sempre interamente sullo schermo, anche con più monitor.
+Dimensioni: trascina con il mouse un bordo qualsiasi o l'angolo blu in basso a sinistra.
+  Le dimensioni sono in percentuale dello schermo (predefinito 60 % di larghezza, 31 % di
+  altezza, in basso a destra). Impostazioni → "Spostamento e dimensioni": cursori per
+  larghezza e altezza, posizione predefinita (in basso a destra, al centro o a sinistra) e
+  "Ripristina dimensioni e posizione".
+Più schermi: la tastiera si può trascinare su qualsiasi schermo, anche se gli schermi hanno
+  un ridimensionamento diverso (ad es. 125 % e 100 %). Quando la posi, lì prende la stessa
+  dimensione in percentuale. Se all'avvio manca uno schermo, compare in basso a destra sullo
+  schermo principale. Lo stesso vale per il pulsante rotondo.
+Nelle impostazioni la barra dei suggerimenti può avere anche due righe, con una propria
+dimensione del carattere.
+
+Tasti
+-----
+Fn (in basso a sinistra): secondo livello con F1-F12, Home, Fine, Pag su/giù, caratteri
+speciali. Esc è in alto a sinistra.
+Maiusc, Ctrl, Alt, Win, AltGr:
+  1 tocco  = vale per il tasto successivo (cornice blu)
+  2 tocchi = bloccato (cornice arancione, "bloc."), ad es. Maiusc bloccato + frecce per
+             selezionare
+  3 tocchi = disattivo
+Win funziona diversamente: 1 tocco vale per il tasto successivo (ad es. Win+E per Esplora
+file), 2 tocchi premono il solo tasto Windows e aprono il menu Start.
+
+Ultima riga: Fn, Ctrl, Win, Alt, spazio, AltGr (subito a destra della barra spaziatrice),
+abc/ABC, quattro caratteri speciali, frecce, ✥. I quattro caratteri speciali sono per
+impostazione ! ? : - e si possono cambiare nelle impostazioni in "Caratteri speciali in
+basso" (un carattere per campo, facoltativamente un secondo per Maiusc, ad es. ".:"). Dopo un
+suggerimento di parola, il segno di punteggiatura si attacca alla parola e lo spazio va dopo
+("casa ." diventa "casa. ").
+Anche negli altri casi dopo . , ! ? : ; arriva da solo uno spazio, tranne nei numeri (1,5 o
+10:30), negli indirizzi web, negli indirizzi e-mail e nei campi e-mail o IBAN. Se scrivi tu
+un altro spazio, non diventa doppio. Si può disattivare nelle impostazioni.
+
+Tasto maiuscole/minuscole (accanto alla barra spaziatrice): cambia la scrittura dell'ultima
+parola.
+    "abc" con freccia in su   = parola minuscola, una pressione rende maiuscola la prima
+                                lettera
+    "ABC" con freccia in giù  = parola con maiuscole, una pressione la rende minuscola
+    Poi mostra l'altra opzione, quindi si può passare avanti e indietro.
+    Funziona anche subito dopo un suggerimento o dopo spazio/punto.
+    "Aa" grigio = nessuna parola nota. Il tasto conosce solo le parole scritte con questa
+    tastiera e le dimentica dopo un clic nella finestra, un cambio di finestra o Invio. Non
+    conosce le parole dalla dettatura (ad es. Wispr Flow) o da un'altra tastiera.
+    TUTTO MAIUSCOLO: toccare due volte Maiusc (bloccato).
+
+A inizio frase (dopo . ! ? e spazio, o dopo Invio) la lettera successiva diventa
+automaticamente maiuscola. Disattivabile nelle impostazioni.
+
+Pressioni reali dei tasti: se premi un tasto sul Quadstick (o su una tastiera normale), si
+illumina di rosso sulla tastiera su schermo finché è premuto e ancora 1,5 secondi dopo.
+Ctrl+Maiusc per Wispr Flow si vede quindi finché tieni premuto. Ciò che la tastiera su
+schermo scrive da sola non si illumina. I tasti vengono solo mostrati, mai salvati né
+registrati.
+Dopo una vera pressione di tasto la tastiera dimentica la parola iniziata, perché lì ora può
+esserci testo incollato o dettato. Maiusc o Ctrl da soli non cambiano nulla, Ctrl+Maiusc sì.
+I tasti di scelta rapida (Pausa, tastierino -) non contano.
+Impostazioni → Uso: attivo/disattivo e durata dell'illuminazione.
+
+Finestre proprie (cassaforte, voce password, PIN, macro, esporta/importa): la tastiera resta
+cliccabile, quindi puoi scrivere normalmente in queste finestre. Le finestre si aprono dove
+la tastiera non le copre.
+
+Parola per programma: se cambi finestra (ad es. dal programma di posta al browser e
+ritorno), la tastiera ricorda per ogni finestra la parola iniziata, quella precedente e
+l'inizio della frase. Tornato nella finestra, continui semplicemente a scrivere.
+  - Vale per finestra: due finestre del browser sono separate, le schede nella stessa
+    finestra no.
+  - Se riporti la finestra con un clic nel testo, si continua lo stesso. Se clicchi in
+    mezzo al testo, il suggerimento non sarà adatto. Disattivare: Impostazioni → Uso →
+    "Continua a scrivere anche dopo un clic nella finestra".
+  - Al massimo 30 finestre, al massimo 30 minuti, solo in memoria. Mai i campi password.
+
+Con il clic a sosta, Backspace, Canc e le frecce si ripetono finché ci resti sopra. Tutti gli
+altri tasti si attivano di nuovo solo dopo aver lasciato il tasto una volta.
+
+Macro
+-----
+Tocca "Macro": in alto compaiono le macro al posto dei suggerimenti.
+  - Un clic esegue la macro, poi tornano i suggerimenti.
+  - I gruppi appaiono come "Nome ›", un clic li apre, "‹ Nome" torna indietro.
+  - Le macro adatte al programma attivo stanno davanti.
+  - Se non entrano tutte, "avanti ›" scorre.
+  - "✕ Indietro" chiude la barra delle macro.
+
+A destra della barra delle macro:
+  ●  Registra: scrivi normalmente sulla tastiera, tutto viene registrato (testo, Invio,
+     scorciatoie come Ctrl+S). La tastiera riceve una cornice rossa.
+     "■ Stop" termina la registrazione, poi conferma il nome e hai finito.
+     ✕ scarta la registrazione.
+  +  Salvataggio rapido: ciò che hai scritto per ultimo (dall'ultimo clic nella finestra)
+     viene salvato come blocco di testo. Il nome è già proposto, basta un clic.
+  ✎  apri l'editor delle macro
+
+Editor delle macro (✎ o Impostazioni → Modifica macro):
+  Nuova, Modifica, Copia, Su/Giù, Elimina. Nella macro: nome, gruppo, colore, programma,
+  scorciatoia globale e un numero qualsiasi di passi:
+    Testo      segnaposto {date} {time} {weekday} {cursor}
+               (funziona anche il tedesco: {datum} {uhrzeit} {wochentag})
+               ({cursor} = lì si trova il cursore dopo l'inserimento)
+    Tasti      ad es. Ctrl+A, Ctrl+C, Enter   oppure   Alt+Tab   oppure   Win+D
+               "Registra tasto" inserisce direttamente un tasto premuto
+    Apri       programma, file, cartella o pagina web
+    Attendi    pausa in millisecondi
+
+Le macro sono in NoHandsNeeded-Daten\makros.yaml e si possono modificare anche a mano (c'è una
+descrizione in cima al file). Le parole chiave funzionano in inglese (name, group, steps,
+keys, open, wait) o in tedesco (name, gruppe, schritte, tasten, oeffnen, warten).
+Poi nell'editor "Ricarica file". Se il file ha un errore, la tastiera mostra la riga invece
+di bloccarsi. Al salvataggio la versione precedente resta come makros.yaml.bak.
+
+Le macro scrivono simulando la tastiera, mai tramite gli appunti. Non entrano nei
+suggerimenti. Le password non vanno nelle macro, per quello c'è la cassaforte.
+
+Lingue
+------
+Integrate, senza internet: tedesco, inglese, olandese, francese, danese, polacco, ceco,
+italiano, spagnolo, turco e russo.
+Il pulsante della lingua in alto passa a rotazione tra le lingue attive, più il modo misto
+(ad es. IT+EN, per frequenza). Il modo misto si può disattivare.
+
+Al primissimo avvio la tastiera prende la lingua di Windows e aggiunge l'inglese. Se Windows
+è in italiano, parte in italiano con il layout italiano.
+
+Suggerimenti senza accenti: "zolw" dà "żółw", "cafe" dà "café", "nino" dà "niño". Non devi
+quindi cercare i caratteri speciali. Vale anche per le parole imparate.
+
+Layout dei tasti: segue la lingua (nel modo misto la prima lingua).
+  Tedesco QWERTZ, inglese e olandese QWERTY, francese AZERTY, danese con æ ø å, polacco con
+  ą ć ę ł ń ó ś ź ż tramite AltGr, ceco con ě š č ř ž ý á í é nella riga dei numeri,
+  italiano, spagnolo con ñ ¿ ¡, turco Q con ı ğ ü ş ö ç, russo ЙЦУКЕН.
+  Il russo ha un tasto "ABC/АБВ" per le lettere latine (indirizzi email, link).
+  Tasti accento come in Windows (tasti morti): in francese, spagnolo, danese, ceco e olandese
+  premi prima ´ ` ^ ¨, poi la lettera (´ + e = é). Con la barra spaziatrice dopo si ottiene
+  il carattere da solo. Il tedesco non ha tasti morti.
+  La tastiera scrive in Unicode, non serve cambiare il layout di Windows.
+  Impostazioni → Lingue → Layout dei tasti: in base alla lingua, sempre tedesco o sempre
+  inglese.
+
+Impostazioni → Lingue:
+  - Una spunta attiva una lingua, ▲/▼ cambia l'ordine nel passaggio.
+  - "Ricorda la lingua per programma": se cambi lingua in un programma, la tastiera lo
+    ricorda e la volta successiva in quel programma cambia automaticamente. Per esempio
+    Outlook in inglese, WhatsApp in italiano.
+  - "Modifica termini personali": nomi e termini tecnici suggeriti in tutte le lingue.
+    File: NoHandsNeeded-Daten\eigene_woerter.txt
+  - "Aggiungi da file": usa un elenco di parole senza internet (parola, tabulazione,
+    frequenza; nome del file = codice lingua, ad es. pt.txt).
+  - "Rimuovi": elimina una lingua aggiunta da te (quelle integrate si possono solo
+    disattivare).
+Le lingue aggiunte da te si trovano in NoHandsNeeded-Daten\Sprachen.
+Facoltativamente c'è una scorciatoia globale "Cambia lingua".
+
+Lingua dell'interfaccia
+-----------------------
+Impostazioni, menu, messaggi, etichette dei tasti, l'introduzione e questo manuale sono
+disponibili in tedesco, inglese, olandese, francese, danese, polacco, ceco, italiano,
+spagnolo, turco e russo. Predefinita è la lingua di Windows, altrimenti l'inglese.
+Cambiare: Impostazioni → Altro → "Lingua dell'interfaccia" → Applica.
+Le traduzioni sono state fatte da un'IA. Le correzioni di madrelingua sono benvenute su
+GitHub: https://github.com/ichmml/nohandsneeded (interfaccia: cartella Resources/Texte,
+manuale: cartella Anleitung). Se in una lingua manca un testo, appare in inglese.
+
+Apprendimento
+-------------
+La tastiera impara mentre scrivi:
+  - parole nuove (nomi, termini tecnici). Vengono suggerite appena le hai scritte 2 volte
+    (regolabile da 1 a 5).
+  - quanto spesso usi ogni parola. Quelle frequenti vanno avanti.
+  - quale parola segue spesso un'altra. Dopo uno spazio in alto compaiono subito le parole
+    successive adatte (ad es. dopo "mio" la parola che scrivi più spesso dopo).
+  - la scrittura: se con il tasto maiuscole/minuscole trasformi "iphone" in "iPhone", la
+    volta dopo ti viene suggerito subito "iPhone".
+Se cancelli subito una parola con ⌫, viene anche dimenticata.
+
+Numeri: date (10/09/1991), numeri di telefono (333 1234567, +39 06 1234567) e CAP prima di
+un nome di località vengono imparati anch'essi, come pure i numeri lunghi da 9 cifre in su
+(numero cliente o di contratto). Vengono proposti già dopo la prima volta. Quando digiti
+cifre, in alto compaiono i numeri adatti. I separatori non contano, quindi "1009" dà
+"10/09/1991". Il numero viene inserito nella scrittura imparata.
+Anche PIN (da 4 a 8 cifre senza separatori) e numeri di carta vengono imparati, ma cifrati
+in un file a parte (zahlen_geheim.dat). Finiscono in un backup solo con password. Si può
+disattivare nelle impostazioni di apprendimento ("Impara PIN e numeri di carta (cifrati)").
+Mai imparati: numeri singoli e quantità, orari, tutto nei campi password e niente che sembri
+una password (cifre miste a lettere, parole molto lunghe). PIN e numeri di carta non vengono
+mai presi dai tuoi testi.
+IBAN: un IBAN valido (cifra di controllo corretta) viene memorizzato, scritto con o senza
+spazi. La volta dopo bastano il codice del paese e la prima cifra ("IT6"): compare in verde
+con 🏦 in alto e un clic lo scrive tutto. Nei campi che si chiamano IBAN e dopo "IBAN:"
+compare subito. Si può disattivare nelle impostazioni di apprendimento.
+I numeri valgono per tutte le lingue, file: NoHandsNeeded-Daten\Lernen\zahlen.txt. Disattivabile
+in Impostazioni → Apprendimento, si vedono ed eliminano in "Parole imparate" → scelta
+"Numeri".
+
+Impostazioni → Apprendimento:
+  - "Impara dai miei testi": scegli una cartella (ad es. note o documenti). Vengono letti
+    .txt, .md, .docx, .html, .eml e .mbox, anche nelle sottocartelle. Le cartelle che
+    iniziano con un punto (.obsidian, .git) vengono saltate.
+    Si salva solo la statistica, quali parole compaiono quanto spesso e in che ordine, mai i
+    testi. Le righe con password, PIN, IBAN, login, token e simili vengono saltate, così come
+    link, indirizzi email, blocchi di codice ed email citate.
+    Con più lingue ogni paragrafo va nella lingua a cui corrisponde.
+  - "Visualizza ed elimina parole imparate": cerca, elimina singole parole, dimentica tutto.
+  - Icona nell'area di notifica → "Metti in pausa l'apprendimento", ad es. quando scrive
+    qualcun altro.
+I dati imparati sono in NoHandsNeeded-Daten\Lernen\it.txt (un file per lingua) e vengono salvati
+ogni 2 minuti e alla chiusura.
+
+Cassaforte delle password
+-------------------------
+Per non dover digitare ogni volta password lunghe carattere per carattere.
+  - Quando fai clic in un campo password, in alto compaiono le password salvate al posto dei
+    suggerimenti (in giallo, con ⚿). Quella adatta alla finestra è davanti. Un clic scrive la
+    password nel campo. Poi Invio.
+  - Se hai digitato tu una password, la tastiera chiede dopo Invio o uscendo dal campo:
+    "Salvare nella cassaforte?". "Salva" apre una finestra con un nome proposto, che
+    confermi. "No" o semplicemente continuare la scarta.
+  - "+ Aggiungi password" apre una finestra per una nuova voce. Il nome è già proposto in base
+    alla pagina web o al programma, la password si vede in chiaro mentre scrivi, "Crea una
+    password sicura" la compila se vuoi. "Salva" la memorizza e compare subito nella barra.
+  - Se non tutte le password entrano nella barra, "altro ›" passa alla pagina successiva,
+    quelle adatte alla pagina aperta stanno davanti. "🔍 Cerca": scrivi qualche lettera e la
+    barra mostra solo le voci corrispondenti (nome, utente o programma). Le lettere non
+    vanno nel programma. Backspace cancella, Esc, Invio o "✕ Termina ricerca" termina la
+    ricerca.
+  - Se hai appena scritto una password su una pagina, è già inserita, come pure un indirizzo
+    e-mail scritto poco prima nella stessa finestra. Il cursore va subito nel campo vuoto
+    successivo. In nome ed e-mail scrivi normalmente, lì non viene imparato niente.
+  - "🎲 Crea e scrivi" (solo in un campo password) crea una password
+    sicura (predefinito 16 caratteri), la scrive nel campo e propone subito di salvarla.
+    Salvala assolutamente, altrimenti è persa.
+  - Nella finestra della cassaforte la password si vede sempre in chiaro, anche quando
+    modifichi una voce esistente, così vedi se la scrivi giusta. "Mostra / nascondi" la
+    nasconde se serve.
+  - ⚿ in alto a destra mostra la cassaforte anche fuori dai campi password, "✕ Nascondi" la
+    nasconde.
+Sicurezza:
+  - tresor.dat è cifrato con Windows (DPAPI) e leggibile solo con il tuo account Windows su
+    questo PC. Copiato altrove, il file è inutile. Per trasferirlo c'è "Backup e
+    trasferimento su un altro PC" (vedi sotto).
+  - Facoltativamente un PIN (Impostazioni → Cassaforte delle password). Allora la cassaforte
+    è bloccata dopo ogni avvio e si blocca di nuovo dopo 15 minuti di inattività
+    (regolabile). Il PIN si digita con grandi tasti numerici. Senza PIN nessuno arriva alle
+    password, nemmeno tu. Quindi ricordalo bene.
+  - Le password non compaiono mai nei suggerimenti normali, non vengono mai imparate, non
+    finiscono nelle registrazioni di macro e non vengono mai inserite tramite gli appunti.
+  - La tastiera riconosce i campi password dal contrassegno di Windows per i campi
+    protetti. Funziona nei programmi Windows e nei browser più diffusi. Se non riconosce un
+    campo, ⚿ aiuta a mostrare la cassaforte.
+Modificare: Impostazioni → Cassaforte delle password → "Modifica cassaforte" (o icona).
+Lì imposti nome, utente, password (con pulsante per mostrarla) e parole chiave per il titolo
+della finestra ("gmail, google"), così la password giusta sta davanti.
+
+Indirizzi email: quando scrivi un indirizzo email, la tastiera lo ricorda come una parola nuova
+(non nei campi password). Dalla volta successiva compare in alto in blu con ✉ appena hai
+scritto le prime 3 lettere, un clic inserisce l'indirizzo intero. Se fai clic in un campo per
+email o nome utente, gli indirizzi compaiono subito in alto, senza scrivere una lettera. La
+tastiera riconosce il campo dalla sua etichetta, funziona nella maggior parte delle pagine di
+accesso. Disattivare: Impostazioni → Apprendimento. Vedere ed eliminare: "Parole imparate" →
+"Indirizzi email".
+
+Scorciatoie globali e Quadstick
+-------------------------------
+Queste scorciatoie funzionano anche quando un altro programma è in primo piano:
+  Pausa            mostra/nascondi la tastiera
+  tastierino -     apri la barra delle macro (nella tastiera si chiama "NumMinus")
+Inoltre ogni macro può avere una propria scorciatoia (nell'editor delle macro).
+Nelle impostazioni accanto a ogni scorciatoia si vede se è attiva (spunta verde) o no
+(rosso, con motivo).
+
+Se apri la tastiera con la scorciatoia, compare dove si trova il puntatore del mouse:
+centrata appena sotto, così il punto resta visibile, sopra se non c'è abbastanza spazio.
+Dalla barra delle applicazioni, dall'area di notifica o dal pulsante rotondo resta al solito
+posto. Si può disattivare nelle impostazioni ("Con la scorciatoia (es. Pausa) apri dove si
+trova il mouse").
+Subito sotto scegli dove esattamente: sotto o sopra il mouse, al centro, verso destra o
+verso sinistra. Se dal lato scelto non c'è posto, usa l'altro.
+
+Cambiare: Impostazioni → Scorciatoie globali → "Registra". Si apre una finestra, poi premi il
+tasto sul Quadstick. Il tasto riconosciuto appare grande nella finestra, conferma con
+"Applica". Oppure fai clic su "Dall'elenco".
+
+Se una scorciatoia non funziona: Impostazioni → "Prova scorciatoie" e premi il tasto del
+Quadstick.
+  - Non compare nulla: il tasto non arriva proprio al PC. Il Quadstick non lo invia, ad es.
+    perché non sa inviare F13-F24. Usa un altro tasto, ad es. Pausa o un operatore del
+    tastierino numerico.
+  - Compare "Tasto ricevuto" ma non "Scorciatoia attivata": il tasto arriva, ma la
+    scorciatoia non è attiva o è impostata diversamente. Controlla il messaggio rosso nelle
+    impostazioni.
+  - Compaiono entrambi: tutto a posto.
+In protokoll.txt (Impostazioni → "Apri registro") si vede quali scorciatoie sono state
+registrate, quali no (con codice di errore Windows) e quali sono state attivate.
+
+Assegnare un tasto del Quadstick:
+  Nel foglio di configurazione del Quadstick (foglio Google) una riga per scorciatoia,
+  esempio:
+      kb_pause          normal    <ingresso>
+      kb_keypad_minus   normal    <ingresso>
+  1. Nella colonna gialla scegli l'ingresso desiderato (ad es. mp_triple_puff).
+  2. Carica la configurazione sul Quadstick come al solito.
+  3. Verifica con "Prova scorciatoie".
+  Il Quadstick non può inviare F13-F24 e Bloc Scorr. Vanno bene Pausa e gli operatori del
+  tastierino numerico (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). Da evitare: kb_keypad_enter (trattato come Invio) e le cifre del
+  tastierino (dipendono da Bloc Num).
+
+Icona nell'area di notifica: clic sinistro mostra/nasconde la tastiera. Clic destro: modifica
+macro, metti in pausa l'apprendimento, modifica cassaforte, impostazioni, apri manuale,
+mostra introduzione, fai una donazione, esci.
+
+Barra delle applicazioni: finché la tastiera è in esecuzione, ha un proprio pulsante con
+l'icona della tastiera nella barra delle applicazioni. Un clic apre sempre la tastiera per
+intero, anche se è nascosta o ridotta al pulsante rotondo (una tastiera aperta resta
+aperta), poi il focus torna subito al programma in cui stavi scrivendo. Disattivare:
+Impostazioni → Avvio.
+
+Backup e trasferimento su un secondo PC
+---------------------------------------
+Impostazioni → "Backup e trasferimento su un altro PC".
+  - "Esporta dati …": spunta cosa includere (parole imparate, sequenze di parole e numeri,
+    termini personali, macro, password della cassaforte). Poi scegli una cartella. Si crea un
+    file come "NoHandsNeeded 2026-11-08.nohands".
+  - Se ci sono password, il backup ha bisogno di una propria password (almeno 8 caratteri).
+    Il file è allora cifrato (AES-256), senza questa password nessuno entra, nemmeno tu.
+    Senza password il campo può restare vuoto.
+  - Sull'altro PC: "Importa dati …", scegli il file, inserisci la password se serve,
+    controlla le spunte, "Applica".
+  - Nulla viene sovrascritto, tutto viene unito: per parole uguali vale il contatore più alto
+    (importare due volte lo stesso file non conta doppio). Una macro con lo stesso nome viene
+    sostituita. Per una password con lo stesso nome e utente vince quella modificata o usata
+    più di recente.
+  - L'ultima cartella usata viene ricordata. Comoda è una cartella visibile da entrambi i PC
+    (chiavetta USB, cartella cloud).
+  - Dimensioni e posizione non vengono trasferite, tanto sono diverse da PC a PC.
+
+Sostegno
+--------
+La tastiera è gratuita e open source. Se ti aiuta, una donazione mi farebbe piacere:
+https://ko-fi.com/MDM3D
+Il pulsante è in cima alle impostazioni e nel menu dell'icona. Il link si apre solo se ci
+fai clic. La tastiera non lo chiede mai.
+
+Schermata di blocco
+-------------------
+Per digitare il PIN di Windows con questa tastiera, essa deve comparire sulla schermata di
+blocco. Windows lo permette solo se vale tutto quanto segue:
+  - la tastiera è firmata con un certificato di firma del codice,
+  - è installata con il programma di installazione in "C:\Program Files\NoHandsNeeded",
+  - è registrata in Windows come tecnologia di assistenza (lo fa l'installazione),
+  - ha l'autorizzazione uiAccess (la variante NoHandsNeededAT.exe di build.cmd).
+La NoHandsNeeded.exe portatile non può farlo. Impostazioni → Altro → Schermata di blocco mostra
+cosa manca. Quando è tutto pronto, lì c'è l'interruttore "Mostra sulla schermata di blocco".
+Sulla schermata di blocco funziona solo la scrittura: niente cassaforte, macro,
+apprendimento, suggerimenti o impostazioni. Così nessuno vede nulla di personale sul PC
+bloccato.
+Nel frattempo: sulla schermata di blocco fai clic sull'icona di accessibilità in basso a
+destra e usa la tastiera su schermo di Windows. Oppure configura Windows Hello (volto), così
+il PIN non serve.
+
+Limiti noti
+-----------
+La tastiera non può scrivere in programmi eseguiti come amministratore (Gestione attività,
+alcuni programmi di installazione). È una regola di sicurezza di Windows. Soluzione: clic
+destro su NoHandsNeeded.exe → "Esegui come amministratore", oppure la versione firmata e
+installata (vedi "Schermata di blocco").
+
+Il tasto maiuscole/minuscole agisce sull'ultima parola scritta con la tastiera. Non può
+ancora convertire testo selezionato in altri programmi.
+
+Elenchi di parole: 11 lingue integrate, ciascuna con circa 27.000-74.000 parole. Frequenze da
+wordfreq (dati con licenza CC BY-SA 4.0), ortografia verificata con i dizionari hunspell.

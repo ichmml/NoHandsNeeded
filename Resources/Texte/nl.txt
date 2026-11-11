@@ -1,0 +1,502 @@
+# Texte der Oberfläche (nl). Korrekturen gern auf GitHub vorschlagen.
+Passwörter nur verschlüsselt sichern	Wachtwoorden kunnen alleen versleuteld worden opgeslagen
+Das ist keine Sicherungsdatei der Tastatur.	Dit is geen back-upbestand van het toetsenbord.
+Die Sicherungsdatei ist unvollständig.	Het back-upbestand is onvolledig.
+Daten exportieren	Gegevens exporteren
+Alles in eine Datei packen, z. B. für den zweiten PC. Dort über "Importieren" wieder einlesen.	Alles in één bestand stoppen, bijv. voor je tweede pc. Daar met "Importeren" weer inlezen.
+Gelernte Wörter, Wortfolgen und Zahlen	Geleerde woorden, woordreeksen en getallen
+Eigene Begriffe	Eigen woorden
+Makros	Macro's
+Passwörter aus dem Tresor	Wachtwoorden uit de kluis
+Passwort für die Sicherung	Wachtwoord voor de back-up
+Anzeigen / verbergen	Tonen / verbergen
+Mit Passwörtern wird die Datei immer verschlüsselt. Das Passwort brauchst du beim Importieren, schreib es dir auf. Mindestens 8 Zeichen.	Met wachtwoorden wordt het bestand altijd versleuteld. Dit wachtwoord heb je nodig bij het importeren, schrijf het op. Minstens 8 tekens.
+Ohne Passwörter darfst du das Feld leer lassen. Mit Passwort wird die Datei verschlüsselt.	Zonder wachtwoorden mag je het veld leeg laten. Met wachtwoord wordt het bestand versleuteld.
+Speichern unter …	Opslaan als …
+Bitte mindestens einen Haken setzen.	Zet minstens één vinkje.
+Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.	Voor wachtwoorden heeft de back-up een wachtwoord van minstens 8 tekens nodig.
+Abbrechen	Annuleren
+Daten importieren	Gegevens importeren
+Sicherung vom 	Back-up van 
+Die Sicherung ist verschlüsselt. Passwort der Sicherung:	De back-up is versleuteld. Wachtwoord van de back-up:
+Öffnen	Openen
+Datei beschädigt: 	Bestand beschadigd: 
+Passwort falsch, nochmal versuchen.	Wachtwoord fout, probeer opnieuw.
+Was soll übernommen werden? Vorhandenes bleibt, Neues kommt dazu.	Wat moet worden overgenomen? Bestaande gegevens blijven, nieuwe komen erbij.
+Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Geleerde woorden ({0}), woordreeksen ({1}), getallen ({2})
+Eigene Begriffe ({0})	Eigen begrippen ({0})
+Makros ({0})	Macro's ({0})
+Passwörter ({0})	Wachtwoorden ({0})
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Bij dezelfde woorden telt de hoogste teller. Een macro met dezelfde naam wordt vervangen. Bij een wachtwoord met dezelfde naam en gebruiker wint het laatst gewijzigde of gebruikte.
+Übernehmen	Toepassen
+Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Geleerde e-mailadressen: adres<TAB>aantal
+Makroleiste öffnen	Macrobalk openen
+unbekannte Taste	onbekende toets
+doppelt vergeben	dubbel toegewezen
+Taste gibt es im Tastaturlayout nicht	toets bestaat niet in de toetsenbordindeling
+schon von einem anderen Programm belegt (Fehler 1409)	al in gebruik door een ander programma (fout 1409)
+von Windows abgelehnt	door Windows geweigerd
+Windows-Fehler 	Windows-fout 
+Kürzel aufnehmen	Sneltoets opnemen
+\nDrück jetzt die Taste oder Tastenkombination (z. B. am Quadstick).	\nDruk nu op de toets of toetscombinatie (bijv. op de Quadstick).
+Nochmal	Opnieuw
+Erkannt: 	Herkend: 
+Kürzel testen	Sneltoetsen testen
+Drück jetzt die Taste am Quadstick.\n	Druk nu op de toets op de Quadstick.\n
+Erscheint unten "Taste angekommen", sendet der Quadstick die Taste.\n	Verschijnt onderaan "Toets ontvangen", dan stuurt de Quadstick de toets.\n
+Erscheint zusätzlich "Kürzel ausgelöst", funktioniert alles.\n\n	Verschijnt ook "Sneltoets uitgevoerd", dan werkt alles.\n\n
+Aktiv: 	Actief: 
+Schließen	Sluiten
+→ Kürzel ausgelöst: 	→ Sneltoets uitgevoerd: 
+keine Kürzel eingetragen	geen sneltoetsen ingesteld
+Taste angekommen: 	Toets ontvangen: 
+  (von Software)	  (van software)
+neu	nieuw
+„{0}“ gemerkt	„{0}” onthouden
+Noch keine Makros: ✎ anlegen oder ● aufnehmen	Nog geen macro's: maak er een met ✎ of neem op met ●
+weiter  	meer  
+✥ Verschieben: loslassen zum Absetzen · Esc/Rechtsklick bricht ab	✥ Verplaatsen: loslaten om neer te zetten · Esc/rechtsklik annuleert
+✥ Verschieben: Maus ruhig halten oder klicken zum Absetzen · Esc/Rechtsklick bricht ab	✥ Verplaatsen: muis stil houden of klikken om neer te zetten · Esc/rechtsklik annuleert
+Leertaste	Spatie
+■ Stopp	■ Stop
+✕ Zurück	✕ Terug
+Verschieben abgebrochen	Verplaatsen geannuleerd
+Position gespeichert	Positie opgeslagen
+Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde	Geen woord bekend: deze toets werkt op het laatste woord dat met dit toetsenbord is getypt
+Weitere Sprachen herunterladen	Meer talen downloaden
+Quelle:\n	Bron:\n
+\nEs wird nur geladen, was du hier anklickst.	\nAlleen wat je hier aanklikt wordt gedownload.
+Lade Übersicht …	Overzicht laden …
+Herunterladen	Downloaden
+Erneut versuchen	Opnieuw proberen
+Keine Sprachpakete gefunden.	Geen taalpakketten gevonden.
+Sprache auswählen und "Herunterladen" klicken.	Kies een taal en klik op "Downloaden".
+Lade 	Laden: 
+ ist installiert und eingeschaltet. Umschalten mit dem Sprach-Knopf oben in der Tastatur.	 is geïnstalleerd en ingeschakeld. Wisselen met de taalknop bovenaan het toetsenbord.
+  · hinzugefügt	  · toegevoegd
+Eigene Begriffe: ein Wort pro Zeile, z. B. Namen und Fachwörter.	Eigen begrippen: één woord per regel, bijv. namen en vaktermen.
+Sie werden in allen Sprachen vorgeschlagen.	Ze worden in alle talen voorgesteld.
+Kein gültiges Sprachkürzel (z. B. fr.txt oder Kopfzeile "#sprache fr Französisch").	Geen geldige taalcode (bijv. fr.txt of kopregel "#sprache fr Frans").
+Alle	Alle
+   ✓ installiert	   ✓ geïnstalleerd
+Keine Internetverbindung oder Server nicht erreichbar. Die Tastatur läuft normal weiter.	Geen internetverbinding of server niet bereikbaar. Het toetsenbord werkt gewoon door.
+Der Server antwortet nicht (Zeitüberschreitung). Später nochmal versuchen.	De server reageert niet (time-out). Probeer het later opnieuw.
+Download fehlgeschlagen: 	Downloaden mislukt: 
+Tab ⇥	Tab ⇥
+Entf	Del
+Enter ↵	Enter ↵
+⇧ Shift	⇧ Shift
+Strg	Ctrl
+Pos1	Home
+Ende	End
+Bild ↑	PgUp
+Bild ↓	PgDn
+Einfg	Ins
+Menü	Menu
+Gelernte Wörter der Bildschirmtastatur	Geleerde woorden van het schermtoetsenbord
+w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl	w <TAB> woord <TAB> aantal   en   f <TAB> woord <TAB> volgend woord <TAB> aantal
+Geht erst mit der installierten, signierten Version.	Werkt pas met de geïnstalleerde, ondertekende versie.
+Bis dahin: Auf dem Sperrbildschirm unten rechts das Barrierefreiheit-Symbol anklicken und die Windows-Bildschirmtastatur nehmen. Oder Windows Hello (Gesicht) einrichten, dann braucht es keine PIN.	Tot die tijd: klik op het vergrendelscherm rechtsonder op het toegankelijkheidspictogram en gebruik het schermtoetsenbord van Windows. Of stel Windows Hello (gezicht) in, dan is geen pincode nodig.
+Die Tastatur erscheint auf dem Sperrbildschirm.	Het toetsenbord verschijnt op het vergrendelscherm.
+Bereit. Mit dem Schalter erscheint die Tastatur auch auf dem Sperrbildschirm.	Klaar. Met de schakelaar verschijnt het toetsenbord ook op het vergrendelscherm.
+Die Tastatur erscheint jetzt auf dem Sperrbildschirm.	Het toetsenbord verschijnt nu op het vergrendelscherm.
+Die Tastatur erscheint nicht mehr auf dem Sperrbildschirm.	Het toetsenbord verschijnt niet meer op het vergrendelscherm.
+Hat nicht geklappt: 	Is niet gelukt: 
+Tasten	Toetsen
+Warten	Wachten
+Text	Tekst
+keine	geen
+blau	blauw
+grün	groen
+rot	rood
+orange	oranje
+lila	paars
+gelb	geel
+grau	grijs
+Zeile 	Regel 
+Bitte Leerzeichen statt Tabulator zum Einrücken verwenden.	Gebruik spaties in plaats van tabs om in te springen.
+Unerwarteter Text, Einrückung prüfen.	Onverwachte tekst, controleer het inspringen.
+Einrückung passt nicht.	Inspringing klopt niet.
+Text nach dem schließenden ".	Tekst na de afsluitende ".
+Hier wird ein Wert erwartet, keine Liste.	Hier wordt een waarde verwacht, geen lijst.
+Unbekannte Taste "{0}".	Onbekende toets "{0}".
+"{0}" muss eine Liste sein.	"{0}" moet een lijst zijn.
+Unbekannter Schritt "{0}". Erlaubt: text, tasten, oeffnen, warten (oder text, keys, open, wait)	Onbekende stap "{0}". Toegestaan: text, keys, open, wait (of text, tasten, oeffnen, warten)
+"{0}" darf keine Liste sein.	"{0}" mag geen lijst zijn.
+Unbekanntes Kürzel "{0}".	Onbekende sneltoets "{0}".
+Unbekannter Eintrag "{0}".	Onbekend item "{0}".
+Makro ohne "name".	Macro zonder "name".
+makros.yaml konnte nicht gelesen werden: 	makros.yaml kon niet worden gelezen: 
+Programme	Programma's
+Grüße	Groet
+Viele Grüße	Met vriendelijke groet
+Datum	Datum
+Heute	Vandaag
+{wochentag}, {datum}, {uhrzeit} Uhr	{weekday}, {date}, {time}
+Alles kopieren	Alles kopiëren
+Desktop	Bureaublad
+Browser	Browser
+Neuer Tab	Nieuw tabblad
+Tab zu	Tabblad sluiten
+Tab zurück	Tabblad terug
+Editor	Kladblok
+Rechner	Rekenmachine
+Neue Mail	Nieuwe mail
+Hallo {cursor},\n\nViele Grüße	Hallo {cursor},\n\nMet vriendelijke groet
+Unbekannte Taste "{0}" in Makro "{1}"	Onbekende toets "{0}" in macro "{1}"
+"{0}" ließ sich nicht öffnen: 	"{0}" kon niet worden geopend: 
+Makros bearbeiten	Macro's bewerken
+Neu	Nieuw
+Bearbeiten	Bewerken
+Kopieren	Kopiëren
+▲  Hoch	▲  Omhoog
+▼  Runter	▼  Omlaag
+Löschen	Verwijderen
+Datei im Editor öffnen	Bestand in editor openen
+Datei neu laden	Bestand opnieuw laden
+Neues Makro	Nieuwe macro
+ (Kopie)	 (kopie)
+Makro "	Macro "
+" löschen?	" verwijderen?
+Makro bearbeiten	Macro bewerken
+Name (Beschriftung des Knopfs)	Naam (tekst op de knop)
+Gruppe (leer = keine)	Groep (leeg = geen)
+Farbe	Kleur
+Nur für Programm (z. B. chrome oder "chrome, msedge", leer = überall)	Alleen voor programma (bijv. chrome of "chrome, msedge", leeg = overal)
+Kürzel für "	Sneltoets voor "
+Kein Kürzel	Geen sneltoets
+Schritte (werden der Reihe nach ausgeführt)	Stappen (worden na elkaar uitgevoerd)
++ Text	+ Tekst
++ Tasten	+ Toetsen
++ Öffnen	+ Openen
++ Warten	+ Wachten
+Taste aufnehmen	Toets opnemen
+Speichern	Opslaan
+Globales Kürzel: 	Globale sneltoets: 
+Noch keine Schritte. Unten einen hinzufügen.	Nog geen stappen. Voeg er hieronder een toe.
+Text: mehrere Zeilen möglich. Platzhalter: {datum} {uhrzeit} {wochentag} {cursor}	Tekst: meerdere regels mogelijk. Plaatshouders: {datum} {uhrzeit} {wochentag} {cursor}
+Tasten mit Komma trennen, z. B.  Strg+A, Strg+C, Enter   oder  Alt+Tab   oder  Win+D.  Namen: Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24	Toetsen met komma scheiden, bijv.  Strg+A, Strg+C, Enter   of  Alt+Tab   of  Win+D.  Toetsnamen (Duits): Enter Tab Esc Leertaste Rück Entf Pos1 Ende BildAuf BildAb Links Rechts Hoch Runter F1…F24
+Programm, Datei, Ordner oder Webseite, z. B.  notepad.exe   C:\Rechnungen   https://udaption.com	Programma, bestand, map of website, bijv.  notepad.exe   C:\Facturen   https://udaption.com
+Pause in Millisekunden (1000 = 1 Sekunde)	Pauze in milliseconden (1000 = 1 seconde)
+Taste für den Schritt	Toets voor de stap
+Bitte einen Namen eingeben.	Voer een naam in.
+"Warten" braucht eine Zahl in Millisekunden.	"Wachten" heeft een getal in milliseconden nodig.
+Name	Naam
+Verwerfen	Weggooien
+Gelernte Zahlen (Datum, Telefonnummern, Postleitzahlen): Schreibweise<TAB>Anzahl	Geleerde getallen (datums, telefoonnummers, postcodes): schrijfwijze<TAB>aantal
+Taste 	Toets 
+Passwort-Tresor	Wachtwoordkluis
+Kürzel nicht aktiv	Sneltoets niet actief
+Tastatur zeigen / verstecken	Toetsenbord tonen / verbergen
+Lernen fortsetzen	Leren hervatten
+Lernen pausieren	Leren pauzeren
+Passwort-Tresor bearbeiten	Wachtwoordkluis bewerken
+Einstellungen	Instellingen
+Anleitung öffnen	Handleiding openen
+Einführung zeigen	Introductie tonen
+☕ Kaffee spendieren	☕ Trakteer op koffie
+Beenden	Afsluiten
+Die Anleitung wurde nicht gefunden.	De handleiding is niet gevonden.
+Anleitung	Handleiding
+Die Anleitung ließ sich nicht öffnen: 	De handleiding kon niet worden geopend: 
+Deine Windows-Sprache ist {0}, die Tastatur ist auf {0} gestellt.	Je Windows-taal is {0}, het toetsenbord staat op {0}.
+Deine Windows-Sprache ist {0}. Du kannst sie in den Einstellungen unter Sprachen einschalten.	Je Windows-taal is {0}. Je kunt die in de instellingen onder Talen inschakelen.
+Deine Windows-Sprache ({0}) ist noch nicht eingebaut. Vielleicht gibt es sie zum Herunterladen.	Je Windows-taal ({0}) is nog niet ingebouwd. Misschien is die te downloaden.
+Sprache herunterladen	Taal downloaden
+Sprache: 	Taal: 
+  (für 	  (voor 
+Tastatur ein-/ausblenden	Toetsenbord tonen/verbergen
+Sprache wechseln	Taal wisselen
+Makro 	Macro 
+Während der Aufnahme keine Makros	Geen macro's tijdens het opnemen
+" gespeichert	" opgeslagen
+Erst etwas tippen, dann + zum Speichern	Typ eerst iets, dan + om op te slaan
+Als Textbaustein speichern	Als tekstblok opslaan
+Text: 	Tekst: 
+Aufnahme läuft: einfach tippen, dann ■ Stopp	Opname loopt: gewoon typen, dan ■ Stop
+Aufnahme verworfen	Opname weggegooid
+Nichts aufgenommen	Niets opgenomen
+Aufnahme 	Opname 
+Aufnahme speichern	Opname opslaan
+Lernen pausiert	Leren gepauzeerd
+Lernen läuft wieder	Leren gaat weer verder
+ Wörter	 woorden
+Bisher gelernt: 	Tot nu toe geleerd: 
+, Zahlen: 	, getallen: 
+ Dateien gelesen, 	 bestanden gelezen, 
+ Wörter in 	 woorden in 
+ Sätzen gelernt	 zinnen geleerd
+, dazu 	, plus 
+-mal Datum oder Telefonnummer.	 keer datum of telefoonnummer.
+ Dateien übersprungen.	 bestanden overgeslagen.
+\n\nGespeichert wird nur, welche Wörter wie oft vorkommen, nicht die Texte selbst. Zeilen mit Passwort, PIN, IBAN und Ähnlichem werden übersprungen.	\n\nAlleen hoe vaak woorden voorkomen wordt opgeslagen, niet de teksten zelf. Regels met wachtwoord, pincode, IBAN en dergelijke worden overgeslagen.
+Aus meinen Texten lernen	Leren van mijn teksten
+Der Tresor ist in den Einstellungen ausgeschaltet	De kluis is in de instellingen uitgeschakeld
+Im Tresor speichern?	In kluis opslaan?
+⚿ Speichern	⚿ Opslaan
+Nein	Nee
+Tresor nicht lesbar	Kluis niet leesbaar
+🔒 Tresor entsperren	🔒 Kluis ontgrendelen
+Tresor ist noch leer	Kluis is nog leeg
++ Passwort hinzufügen	+ Wachtwoord toevoegen
+🎲 Erzeugen und eintippen	🎲 Maken en intypen
+✕ Ausblenden	✕ Verbergen
+Passwort "	Wachtwoord "
+" eingetippt	" getypt
+Neues Passwort eingetippt. Jetzt speichern, sonst ist es weg!	Nieuw wachtwoord getypt. Sla het nu op, anders is het weg!
+Passwort 	Wachtwoord 
+Nicht gespeichert. "Speichern" geht noch kurz.	Niet opgeslagen. "Opslaan" werkt nog even.
+Im Tresor gespeichert	Opgeslagen in kluis
+Tresor entsperren	Kluis ontgrendelen
+PIN eingeben	Pincode invoeren
+PIN falsch, nochmal versuchen	Verkeerde pincode, probeer opnieuw
+nicht lesbar	niet leesbaar
+gesperrt, PIN wird abgefragt	vergrendeld, pincode wordt gevraagd
+{0} Wörter, {1} Zahlen	{0} woorden, {1} getallen
+Sicherung speichern	Back-up opslaan
+Tastatur-Sicherung	Toetsenbord-back-up
+Gespeichert:\n	Opgeslagen:\n
+\n\nDie Datei ist verschlüsselt. Ohne das Sicherungspasswort lässt sie sich nicht öffnen.	\n\nHet bestand is versleuteld. Zonder het back-upwachtwoord kan het niet worden geopend.
+Sicherung öffnen	Back-up openen
+Alle Dateien	Alle bestanden
+{0} neue E-Mail-Adressen	{0} nieuwe e-mailadressen
+{0} neue Wörter, {1} neue Zahlen	{0} nieuwe woorden, {1} nieuwe getallen
+{0} neue eigene Begriffe	{0} nieuwe eigen begrippen
+{0} neue Makros, {1} ersetzt	{0} nieuwe macro's, {1} vervangen
+Passwörter übersprungen: 	Wachtwoorden overgeslagen: 
+Passwörter übersprungen (Tresor gesperrt)	Wachtwoorden overgeslagen (kluis vergrendeld)
+{0} neue Passwörter, {1} aktualisiert	{0} nieuwe wachtwoorden, {1} bijgewerkt
+Fertig.\n\n	Klaar.\n\n
+mit PIN	met pincode
+ohne PIN	zonder pincode
+Tresor gesperrt (	Kluis vergrendeld (
+ Passwörter gespeichert, 	 wachtwoorden opgeslagen, 
+Es ist keine PIN gesetzt.	Er is geen pincode ingesteld.
+PIN gespeichert. Merk sie dir gut: ohne PIN kommt niemand mehr an die Passwörter, auch du nicht.	Pincode opgeslagen. Onthoud hem goed: zonder pincode kan niemand meer bij de wachtwoorden, jij ook niet.
+PIN entfernt. Der Tresor ist weiter mit deinem Windows-Konto verschlüsselt.	Pincode verwijderd. De kluis blijft versleuteld met je Windows-account.
+Bildschirmtastatur: Einstellungen	Schermtoetsenbord: instellingen
+Version	Versie
+Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Het toetsenbord is gratis. Als het je helpt, ben ik blij met een donatie.
+☕ Unterstütze mich mit einer Spende (Ko-fi)	☕ Steun me met een donatie (Ko-fi)
+📖 Anleitung öffnen	📖 Handleiding openen
+Aussehen	Weergave
+Deckkraft Tastatur	Dekking toetsenbord
+Deckkraft runder Knopf (eingeklappt)	Dekking ronde knop (ingeklapt)
+Farbschema	Kleurenschema
+dunkel	donker
+hell	licht
+Bedienung	Bediening
+Verweilklick (Taste löst nach Verweilzeit aus)	Hoverklik (toets reageert na wachttijd)
+Verweilzeit	Wachttijd
+Echte Tastendrücke anzeigen (z. B. vom Quadstick, leuchten rot)	Echte toetsaanslagen tonen (bijv. van de Quadstick, lichten rood op)
+Nachleuchten	Nagloeien
+aus	uit
+Die Tastatur merkt sich pro Fenster das angefangene Wort. Wechselst du zurück, schreibst du einfach weiter.	Het toetsenbord onthoudt per venster het begonnen woord. Ga je terug, dan typ je gewoon verder.
+Auch nach Klick ins Fenster weiterschreiben	Ook na klikken in het venster verder typen
+Aus: Nur beim Wechsel über Taskleiste, Alt+Tab oder Titelleiste geht es weiter. Ein Klick in den Text kann den Cursor versetzen.	Uit: alleen bij wisselen via taakbalk, Alt+Tab of titelbalk gaat het verder. Een klik in de tekst kan de cursor verplaatsen.
+Wortvorschläge	Woordsuggesties
+Zeilen	Regels
+1 Zeile	1 regel
+2 Zeilen	2 regels
+Vorschläge pro Zeile	Suggesties per regel
+Schriftgröße Vorschläge und Makros	Lettergrootte suggesties en macro's
+Satzanfang automatisch groß	Zin automatisch met hoofdletter beginnen
+Leerzeichen nach Vorschlag einfügen	Spatie na suggestie invoegen
+Getipptes Wort oben links zeigen (rot)	Getypt woord linksboven tonen (rood)
+Punkte mit 👁	Puntjes met 👁
+immer nur Punkte	alleen puntjes
+Passwörter beim Tippen	Wachtwoorden tijdens het typen
+Klartext automatisch ausblenden nach	Platte tekst automatisch verbergen na
+Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	In wachtwoordvelden staan alleen puntjes. 👁 toont het wachtwoord even als platte tekst; zolang is het toetsenbord uitgesloten van schermafbeeldingen en scherm delen.
+Sprachen	Talen
+Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Vinkje = actief. De volgorde geldt voor de taalknop bovenaan het toetsenbord.
+Gemischt (z. B. DE+EN) beim Umschalten anbieten	Gemengd (bijv. DE+EN) aanbieden bij wisselen
+Sprache pro Programm merken	Taal per programma onthouden
+Wechselst du in einem Programm die Sprache, merkt sich die Tastatur das und stellt beim nächsten Mal in diesem Programm automatisch um. Zum Beispiel Outlook Englisch, WhatsApp Deutsch.	Wissel je in een programma van taal, dan onthoudt het toetsenbord dat en schakelt het de volgende keer in dat programma automatisch om. Bijvoorbeeld Outlook Engels, WhatsApp Nederlands.
+passend zur Sprache	passend bij de taal
+immer Deutsch (QWERTZ)	altijd Duits (QWERTZ)
+immer Englisch (QWERTY)	altijd Engels (QWERTY)
+Tastenlayout	Toetsenbordindeling
+Eigene Begriffe bearbeiten (Namen, Fachwörter)	Eigen woorden bewerken (namen, vaktermen)
+Sonderzeichen unten	Speciale tekens onderaan
+Die vier Tasten unten neben abc/ABC. Pro Feld ein Zeichen, optional ein zweites für Shift (z. B. ".:"). Leer = Standard.	De vier toetsen onderaan naast abc/ABC. Eén teken per veld, eventueel een tweede voor Shift (bijv. ".:"). Leeg = standaard.
+Auf Standard zurücksetzen	Terug naar standaard
+Lernen	Leren
+Die Tastatur merkt sich, welche Wörter du schreibst, in welcher Schreibweise und welches Wort oft auf welches folgt. Alles bleibt auf diesem PC. In Passwortfeldern wird nie gelernt.	Het toetsenbord onthoudt welke woorden je schrijft, hoe je ze schrijft en welk woord vaak op welk volgt. Alles blijft op deze pc. In wachtwoordvelden wordt nooit geleerd.
+Aus meinem Schreiben lernen	Leren van wat ik schrijf
+Auch Zahlen lernen (Datum, Telefonnummern, Postleitzahlen)	Ook getallen leren (datum, telefoonnummers, postcodes)
+E-Mail-Adressen lernen und nach 3 Buchstaben vorschlagen	E-mailadressen leren en na 3 letters voorstellen
+In E-Mail-Feldern gleich die E-Mail-Adressen zeigen	In e-mailvelden meteen de e-mailadressen tonen
+Zahlen werden wie neue Wörter erst ab dem zweiten Mal vorgeschlagen. Einmalige Codes, PINs, TANs und Kartennummern werden nie gelernt.	Net als nieuwe woorden worden getallen pas vanaf de tweede keer voorgesteld. Eenmalige codes, pincodes, TAN's en kaartnummers worden nooit geleerd.
+Neue Wörter vorschlagen ab	Nieuwe woorden voorstellen vanaf
+1-mal geschrieben	1 keer geschreven
+-mal geschrieben	 keer geschreven
+Aus meinen Texten lernen (Ordner wählen)	Leren van mijn teksten (map kiezen)
+Ordner mit deinen Texten (z. B. Obsidian, Dokumente). Gelesen werden .txt .md .docx .html .eml .mbox, auch in Unterordnern.	Map met je teksten (bijv. Obsidian, Documenten). Gelezen worden .txt .md .docx .html .eml .mbox, ook in submappen.
+Aus einzelnen Dateien lernen	Leren van losse bestanden
+Texte|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle Dateien|*.*	Teksten|*.txt;*.md;*.docx;*.html;*.htm;*.eml;*.mbox|Alle bestanden|*.*
+Gelernte Wörter ansehen und löschen	Geleerde woorden bekijken en verwijderen
+Passwörter liegen verschlüsselt nur für dein Windows-Konto auf diesem PC. Sie erscheinen nie in den normalen Wortvorschlägen und werden direkt getippt, nie über die Zwischenablage.	Wachtwoorden worden versleuteld alleen voor je Windows-account op deze pc bewaard. Ze verschijnen nooit in de gewone woordsuggesties en worden direct getypt, nooit via het klembord.
+Tresor benutzen	Kluis gebruiken
+In Passwortfeldern automatisch zeigen	Automatisch tonen in wachtwoordvelden
+Nach dem Eintippen "Im Tresor speichern?" fragen	Na het typen "In kluis opslaan?" vragen
+Länge neuer Passwörter	Lengte nieuwe wachtwoorden
+ Zeichen	 tekens
+Neue Passwörter mit Sonderzeichen	Nieuwe wachtwoorden met speciale tekens
+Tresor bearbeiten	Kluis bewerken
+Mit PIN ist der Tresor nach dem Start gesperrt und wird nach einer Weile ohne Benutzung wieder gesperrt. Die PIN gibst du über große Zifferntasten ein.	Met een pincode is de kluis na het starten vergrendeld en vergrendelt hij weer na een tijd zonder gebruik. De pincode voer je in met grote cijfertoetsen.
+PIN festlegen oder ändern	Pincode instellen of wijzigen
+PIN entfernen	Pincode verwijderen
+Mit PIN automatisch sperren nach	Met pincode automatisch vergrendelen na
+nie	nooit
+ Minuten	 minuten
+Sichern und auf anderen PC übertragen	Back-up maken en naar andere pc overzetten
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Geleerde woorden, woordreeksen, getallen, eigen begrippen, macro's en desgewenst de wachtwoorden in één bestand stoppen. Op de andere pc importeren, dan wordt alles samengevoegd.
+Daten exportieren …	Gegevens exporteren …
+Daten importieren …	Gegevens importeren …
+Verschieben und Größe	Verplaatsen en grootte
+Verschieben: Verschieben-Taste unten rechts ziehen, oder auf einer Taste lange draufbleiben. Größe: an jedem Rand oder an der Ecke unten links ziehen.	Verplaatsen: verplaatstoets rechtsonder slepen, of lang op een toets blijven. Grootte: aan elke rand of aan de hoek linksonder slepen.
+Breite	Breedte
+ % des Bildschirms	 % van het scherm
+Höhe	Hoogte
+unten rechts	rechtsonder
+unten mittig	midden onder
+unten links	linksonder
+Standardposition (für Zurücksetzen)	Standaardpositie (voor resetten)
+Größe und Position zurücksetzen	Grootte en positie resetten
+Die Größe gilt in Prozent des Bildschirms. Zieht man die Tastatur auf einen anderen Bildschirm, passt sie sich dort an.	De grootte geldt in procenten van het scherm. Sleep je het toetsenbord naar een ander scherm, dan past het zich daar aan.
+Verschieben durch langes Draufbleiben	Verplaatsen door lang op een toets te blijven
+Maustaste gedrückt halten bis Verschieben	Muisknop ingedrukt houden tot verplaatsen
+Verweilen bis Verschieben	Hoveren tot verplaatsen
+automatisch (doppelte Verweilzeit)	automatisch (dubbele wachttijd)
+Maus ruhig halten zum Absetzen	Muis stil houden om neer te zetten
+Greifzone am Rand zum Größe ändern	Grijpzone aan de rand voor grootte wijzigen
+ Pixel	 pixels
+Globale Kürzel	Globale sneltoetsen
+Funktionieren auch, wenn ein anderes Programm aktiv ist. Ideal für eine Quadstick-Taste.	Werken ook als een ander programma actief is. Ideaal voor een Quadstick-toets.
+Protokoll öffnen	Logboek openen
+Start	Starten
+Knopf in der Taskleiste zeigen (Klick öffnet die Tastatur ganz)	Knop in de taakbalk tonen (klik opent het toetsenbord helemaal)
+Mit Windows starten	Met Windows starten
+Eingeklappt starten	Ingeklapt starten
+Sonstiges	Overig
+automatisch (wie Windows)	automatisch (zoals Windows)
+Sprache der Oberfläche	Taal van de interface
+Einführung nochmal zeigen	Introductie opnieuw tonen
+Sperrbildschirm	Vergrendelscherm
+Auf dem Sperrbildschirm anzeigen (zum Eingeben der PIN)	Op het vergrendelscherm tonen (om de pincode in te voeren)
+Datenordner öffnen	Gegevensmap openen
+Tastatur beenden	Toetsenbord afsluiten
+Makro-Kürzel nicht aktiv: 	Macro-sneltoets niet actief: 
+Entfernen	Verwijderen
+Aus Datei hinzufügen	Uit bestand toevoegen
+Download-Quelle (nur https)	Downloadbron (alleen https)
+Bitte eine Adresse eingeben, die mit https:// beginnt.	Voer een adres in dat met https:// begint.
+Download-Quelle	Downloadbron
+Standard wiederherstellen	Standaard herstellen
+Mindestens eine Sprache muss aktiv sein.	Er moet minstens één taal actief zijn.
+ ist fest eingebaut und kann nur abgeschaltet werden (Haken weg).	 is ingebouwd en kan alleen worden uitgeschakeld (vinkje weg).
+ löschen?	 verwijderen?
+Sprachpaket	Taalpakket
+ wurde hinzugefügt und eingeschaltet.	 is toegevoegd en ingeschakeld.
+So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden.	Zo ziet de toewijzing er in het Quadstick-blad uit. Kies in de gele kolom de gewenste ingang (bijv. mp_triple_puff) en laad de configuratie dan op de Quadstick.
+ausgeschaltet	uitgeschakeld
+✓ aktiv	✓ actief
+✗ nicht aktiv	✗ niet actief
+Aufnehmen	Opnemen
+Aus Liste ▾	Uit lijst ▾
+Aus	Uit
+Bildschirmtastatur öffnen	Schermtoetsenbord openen
+Willkommen!	Welkom!
+Diese Bildschirmtastatur tippt in das Programm, in dem du gerade schreibst, und nimmt ihm nie den Fokus weg. Klick dich mit "Weiter" durch die wichtigsten Stellen.	Dit schermtoetsenbord typt in het programma waarin je schrijft en neemt nooit de focus weg. Klik met "Volgende" door de belangrijkste onderdelen.
+Ganz links steht rot, was du gerade tippst. Daneben stehen passende Wörter, ein Klick übernimmt das Wort samt Leerzeichen. Die Tastatur lernt mit, welche Wörter du oft schreibst. Ein neues Wort übernimmst du mit einem Klick auf das rote Wort, dann merkt sie es sich sofort.	Helemaal links staat in rood wat je typt. Daarnaast staan passende woorden, één klik neemt het woord over, inclusief spatie. Het toetsenbord leert welke woorden je vaak schrijft. Een nieuw woord neem je over met een klik op het rode woord, dan onthoudt het toetsenbord het meteen.
+Groß/Klein-Taste	Hoofdletter-toets
+"abc ↑" macht das letzte Wort groß, "ABC ↓" macht es klein. Das geht auch nachträglich, nach Leerzeichen oder Punkt.	"abc ↑" zet het laatste woord in hoofdletter, "ABC ↓" maakt het klein. Dat kan ook achteraf, na een spatie of punt.
+Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.	Houd ✥ vast en sleep het toetsenbord waarheen je wilt. Of blijf op een willekeurige toets tot de oranje ring vol is: dan hangt het toetsenbord aan de muis. De grootte wijzig je aan elke rand.
+Strg, Shift, Alt, Win, AltGr	Ctrl, Shift, Alt, Win, AltGr
+Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.	Eén keer tikken geldt voor de volgende toets. Twee keer tikken zet de toets vast, drie keer tikken zet hem weer uit.
+Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.	Tekstblokken, toetsreeksen en programma's met één klik. Met ● neem je gewoon op wat je typt.
+Sprache	Taal
+Wechselt die Sprache der Vorschläge und das Tastenlayout. Welche Sprachen dabei sind, stellst du in den Einstellungen ein.	Wisselt de taal van de suggesties en de toetsenbordindeling. Welke talen meedoen, stel je in bij de instellingen in.
+Zeigt deine gespeicherten Passwörter. In Passwortfeldern erscheinen sie von selbst, ein Klick tippt das Passwort ein.	Toont je opgeslagen wachtwoorden. In wachtwoordvelden verschijnen ze vanzelf, één klik typt het wachtwoord.
+Verweilklick	Hoverklik
+Schaltet den Verweilklick an oder aus: Eine Taste löst aus, wenn du kurz mit der Maus darauf bleibst.	Zet de hoverklik aan of uit: een toets reageert als je er even met de muis op blijft.
+Hier passt du alles an: Größe, Farben, Sprachen, Kürzel und mehr. Diese Einführung findest du dort auch wieder.	Hier pas je alles aan: grootte, kleuren, talen, sneltoetsen en meer. Deze introductie vind je daar ook weer.
+Einklappen	Inklappen
+Klappt die Tastatur zu einem kleinen runden Knopf zusammen. Ein Klick darauf holt sie zurück.	Klapt het toetsenbord in tot een kleine ronde knop. Eén klik erop haalt het terug.
+Tray-Symbol und Kürzel	Systeemvakpictogram en sneltoetsen
+Unten rechts in der Taskleiste sitzt das Symbol der Tastatur. Die Taste Pause blendet die Tastatur ein und aus, ideal für eine Taste am Quadstick.	Rechtsonder in de taakbalk staat het pictogram van het toetsenbord. De toets Pause toont en verbergt het toetsenbord, ideaal voor een toets op de Quadstick.
+Fertig!	Klaar!
+Viel Spaß beim Schreiben. Alles Weitere steht in der Anleitung: "📖 Anleitung öffnen" ganz oben in den Einstellungen oder im Tray-Menü. Die Tastatur ist kostenlos. Wenn sie dir hilft, freue ich mich über eine Spende.	Veel plezier met schrijven. Al het andere staat in de handleiding: "📖 Handleiding openen" helemaal bovenaan in de instellingen of in het menu van het systeemvakpictogram. Het toetsenbord is gratis. Als het je helpt, ben ik blij met een donatie.
+Überspringen	Overslaan
+Zurück	Terug
+Fertig	Klaar
+Weiter	Volgende
+tresor.dat hat ein unbekanntes Format.	tresor.dat heeft een onbekend formaat.
+Tresor ist gesperrt.	De kluis is vergrendeld.
+Passwort	Wachtwoord
+Mindestens 4 Ziffern	Minstens 4 cijfers
+PIN festlegen	Pincode instellen
+Neue PIN eingeben (4 bis 12 Ziffern)	Nieuwe pincode invoeren (4 tot 12 cijfers)
+PIN zur Sicherheit wiederholen	Pincode ter controle herhalen
+Die beiden PINs sind verschieden. Bitte nochmal.	De twee pincodes zijn verschillend. Probeer het opnieuw.
+Passwort-Eintrag	Wachtwoordvermelding
+Name (so steht es in der Tresorleiste)	Naam (zo staat het in de kluisbalk)
+Benutzername oder E-Mail (nur zur Erinnerung, optional)	Gebruikersnaam of e-mail (alleen ter herinnering, optioneel)
+Benutzername oder E-Mail	Gebruikersnaam of e-mail
+Sicheres Passwort erzeugen	Veilig wachtwoord maken
+Passend zu (Stichwörter aus dem Fenstertitel, z. B. "gmail, google")	Past bij (trefwoorden uit de venstertitel, bijv. "gmail, google")
+Name und Passwort dürfen nicht leer sein.	Naam en wachtwoord mogen niet leeg zijn.
+Tresor konnte nicht gespeichert werden: 	Kluis kon niet worden opgeslagen: 
+" aus dem Tresor löschen?	" uit de kluis verwijderen?
+Gelernte Wörter	Geleerde woorden
+Zahlen	Getallen
+E-Mail-Adressen	E-mailadressen
+Suchen:	Zoeken:
+Markierte löschen	Geselecteerde verwijderen
+Alles vergessen	Alles vergeten
+ E-Mail-Adressen gelernt, für alle Sprachen	 e-mailadressen geleerd, voor alle talen
+ Zahlen gelernt (Datum, Telefonnummern, Postleitzahlen), für alle Sprachen	 getallen geleerd (datum, telefoonnummers, postcodes), voor alle talen
+ Wörter, 	 woorden, 
+ Wortfolgen gelernt	 woordreeksen geleerd
+   (die ersten 3000 angezeigt)	   (de eerste 3000 getoond)
+Alle gelernten E-Mail-Adressen vergessen?	Alle geleerde e-mailadressen vergeten?
+Alle gelernten Zahlen vergessen?	Alle geleerde getallen vergeten?
+Alles Gelernte für 	Alles vergeten wat geleerd is voor 
+ vergessen?	?
+Suche Dateien …	Bestanden zoeken …
+Datei 	Bestand 
+ von 	 van 
+Deutsch	Duits
+Englisch	Engels
+Niederländisch	Nederlands
+Französisch	Frans
+Dänisch	Deens
+Polnisch	Pools
+Tschechisch	Tsjechisch
+Italienisch	Italiaans
+Spanisch	Spaans
+Türkisch	Turks
+Russisch	Russisch
+Portugiesisch	Portugees
+Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem Mundjoystick wie dem Quadstick, einer Kopfmaus oder mit den Augen.	Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een mondjoystick zoals de Quadstick, een hoofdmuis of met de ogen.
+IBAN merken und vorschlagen (nur gültige mit richtiger Prüfziffer)	IBAN's onthouden en voorstellen (alleen geldige met juist controlegetal)
+Zahlen und IBANs werden schon nach dem ersten Mal vorgeschlagen. PINs, TANs und Kartennummern werden nie gelernt.	Getallen en IBAN's worden al na de eerste keer voorgesteld. Pincodes, TAN's en kaartnummers worden nooit geleerd.
+Deine Windows-Sprache ({0}) ist leider noch nicht eingebaut.	Je Windows-taal ({0}) is helaas nog niet ingebouwd.
+IBAN merken und vorschlagen	IBAN's onthouden en voorstellen
+PINs und Kartennummern lernen (verschlüsselt)	Pincodes en kaartnummers leren (versleuteld)
+Zahlen werden schon nach dem ersten Mal vorgeschlagen. Eine IBAN nur, wenn die Prüfziffer stimmt. PINs und Kartennummern liegen verschlüsselt auf diesem PC und kommen nur in eine Sicherung mit Passwort.	Getallen worden al na de eerste keer voorgesteld. Een IBAN alleen als het controlegetal klopt. Pincodes en kaartnummers staan versleuteld op deze pc en gaan alleen mee in een back-up met wachtwoord.
+Leerzeichen nach . , ! ? : von selbst einfügen	Na . , ! ? : vanzelf een spatie invoegen
+Nochmal ✕ tippen, dann wird die Tastatur beendet	Tik nogmaals op ✕ om het toetsenbord te sluiten
+Beim Kürzel (z. B. Pause) dort öffnen, wo die Maus ist	Bij de sneltoets (bijv. Pause) openen waar de muis is
+Wo die Tastatur dann erscheint	Waar het toetsenbord dan verschijnt
+unter der Maus, mittig	onder de muis, midden
+unter der Maus, nach rechts	onder de muis, naar rechts
+unter der Maus, nach links	onder de muis, naar links
+über der Maus, mittig	boven de muis, midden
+über der Maus, nach rechts	boven de muis, naar rechts
+über der Maus, nach links	boven de muis, naar links
+🔍 Suchen	🔍 Zoeken
+nichts gefunden	niets gevonden
+✕ Suche beenden	✕ Zoeken stoppen
+Namen tippen, die Liste wird kleiner	Typ een naam, de lijst wordt korter

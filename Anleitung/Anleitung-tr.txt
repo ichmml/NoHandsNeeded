@@ -1,0 +1,429 @@
+NoHandsNeeded
+=============
+Ekran klavyesi, Sürüm 1.01
+
+Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
+yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız
+joystick'i, bir kafa faresi ya da gözlerle.
+
+Bu kılavuz Almancadan bir yapay zekâ tarafından çevrildi. Anadili konuşanlardan gelecek
+düzeltmeler GitHub'da memnuniyetle karşılanır: https://github.com/ichmml/nohandsneeded
+(Anleitung klasörü).
+
+Windows için bir ekran klavyesi; bilgisayarı eller olmadan kullanan insanlar için yapıldı,
+örneğin ağızla kontrol (Quadstick), baş faresi veya göz takibiyle.
+Amaç: mümkün olduğunca az tıklama. Yazdığın programdan odağı asla almaz.
+
+Başlangıç
+---------
+NoHandsNeeded.exe'yi kendi klasörüne koy (ör. C:\Tools\NoHandsNeeded) ve başlat.
+Kurulum gerekmez, .NET Framework 4.8 Windows 10/11'de zaten var.
+Güncelleme: eski sürümü bildirim alanındaki simgeden kapat ve .exe dosyasını değiştir.
+Ayarlar korunur.
+
+İlk başlatmada Windows "Windows bilgisayarınızı korudu" diyebilir. O zaman "Daha fazla
+bilgi" ve "Yine de çalıştır"a tıkla. Bunun nedeni dosyanın imzalı olmamasıdır.
+
+İlk başlatmada klavye Windows diline uyum sağlar (öneriler, tuş düzeni ve arayüz) ve
+tıklayarak geçilen kısa bir tanıtım gösterir. Tanıtımı her zaman tekrar görebilirsin:
+Ayarlar → Diğer → "Tanıtımı yeniden göster" veya simgenin menüsü.
+Bu kılavuz ayarların en üstündeki "Kılavuzu aç" ile veya simgenin menüsünden açılır, her
+zaman arayüz dilinde.
+
+.exe'nin yanında "NoHandsNeeded-Daten" klasörü oluşur: einstellungen.txt, makros.yaml,
+protokoll.txt (günlük), "Lernen" klasörü (öğrenilen kelimeler) ve tresor.dat (parolalar,
+şifreli). Klasöre yazılamıyorsa veriler %APPDATA%\NoHandsNeeded'a gider.
+
+Üst çubuk
+---------
+  Esc       Escape tuşu (Fn en alt sırada sol altta)
+  orta      en solda kırmızıyla yazmakta olduğun kelime (aşağıya bak), yanında
+            kelime önerileri, bir tıklama kelimeyi boşlukla ekler
+  Makrolar  makro çubuğunu açar (aşağıya bak)
+  TR        önerilerin dili, bir tıklama değiştirir (bkz. "Diller")
+  ⚿         parola kasasını göster/gizle (bkz. "Parola kasası")
+  ◷         bekleyerek tıklama açık/kapalı
+  ⚙         ayarlar
+  ▾         küçük yuvarlak düğmeye küçült (tıklama veya bekleme tekrar açar)
+  ✕         klavyeyi kapat: iki kez dokun (ilk dokunuştan sonra ✕ kırmızı olur)
+
+Yazılan kelime (sol üstte, kırmızı)
+-----------------------------------
+Öneri çubuğunun ilk alanı, yazmakta olduğun şeyi kırmızı ve kalın gösterir, harf harf.
+Sayılar noktalarıyla birlikte tam görünür, bekleyen bir aksan tuşu (ör. ´) sonda belirir.
+Uzun kelimeler asla kısaltılmaz, alan sadece genişler.
+Özel karakterler görünümü silmez: son boşluk, Enter veya Tab'dan sonraki her şey görünür, ör.
+"s!add" ya da bir web adresi. Yanındaki öneriler son kelimeye aittir ("add"). Böyle kırmızı
+bir alana tıklamak yalnızca bir boşluk ekler.
+  - Klavye kelimeyi henüz tanımıyorsa yanında küçük bir "yeni" yazar. Kırmızı kelimeye
+    tıklamak onu boşlukla ekler ve hemen hatırlar, o andan itibaren önerilir.
+  - Parola alanında kırmızı noktalar ve karakter sayısı görünür, yanında 👁. 👁 parolayı
+    10 saniye açık metin olarak gösterir (veya bir sonraki tıklamaya kadar). Bu süre boyunca
+    klavye ekran görüntülerinden ve ekran paylaşımından hariç tutulur. Kasadaki parolalar
+    yalnızca nokta olarak görünür. Enter'dan sonra veya alandan çıkınca her şey silinir.
+  - Klavyenin kendi pencerelerinde (yeni kasa kaydı, yedek parolası) parola yazarken açık
+    metin olarak görünür, pencerede ve klavyenin üstünde. "Göster / gizle" noktalara geçer.
+    Bu sırada hiçbir şey öğrenilmez, günlüğe yazılmaz veya kaydedilmez.
+  - Yalnızca bu klavyeyle yazılanlar gösterilir. Pencereye bir tıklamadan veya gerçek bir
+    tuş basışından sonra alan boştur.
+  - Ayarlar → Kelime önerileri: açık/kapalı, "👁 ile noktalar" veya "her zaman yalnızca
+    noktalar", açık metnin gizlenmesine kadar geçen süre.
+
+Taşıma ve boyut
+---------------
+Taşıma:
+  - Sağ alttaki ✥'yi basılı tutup sürükle veya kısa süre üzerinde bekle.
+  - Herhangi bir tuşta fare düğmesini biraz daha uzun basılı tut (varsayılan 0,5 saniye).
+    Turuncu bir halka dolar, ardından klavye fareye yapışır. Bırakınca yerleşir. Tuş bu
+    sırada yazılmaz. Kısa tıklama her zamanki gibi yazar (bırakınca).
+  - Bekleyerek tıklama ile: bir tuşta belirgin şekilde daha uzun bekle (varsayılan iki kat
+    bekleme süresi). Önce tuş bir kez yazılır, sonra turuncu halka dolar ve klavye fareyi
+    izler. Fareyi kısa süre hareketsiz tutmak veya tıklamak yerleştirir. Geri silme, Delete
+    ve oklar beklerken tekrarlanır, bu yüzden onlarla sürüklenemez.
+  - Esc veya sağ tıklama iptal eder, klavye geri döner.
+  - Klavye birden çok monitörde bile her zaman tamamen ekranda kalır.
+Boyut: herhangi bir kenarı veya sol alttaki mavi köşeyi fareyle sürükle.
+  Boyut ekranın yüzdesi olarak geçerlidir (varsayılan %60 genişlik, %31 yükseklik, sağ
+  alt). Ayarlar → "Taşıma ve boyut": genişlik ve yükseklik kaydırıcıları, varsayılan konum
+  (sağ alt, orta veya sol) ve "Boyutu ve konumu sıfırla".
+Birden çok ekran: klavye, ölçekleri farklı olsa bile (ör. %125 ve %100) her ekrana
+  sürüklenebilir. Bırakıldığında orada aynı yüzde boyutunu alır. Başlangıçta bir ekran yoksa,
+  ana ekranın sağ altında belirir. Aynısı yuvarlak düğme için de geçerlidir.
+Ayarlarda öneri çubuğu kendi yazı boyutuyla iki satırlı da olabilir.
+
+Tuşlar
+------
+Fn (sol alt): F1-F12, Home, End, Page Up/Down ve özel karakterler içeren ikinci katman.
+Esc sol üstte.
+Shift, Ctrl, Alt, Win, AltGr:
+  1 kez dokun  = sonraki tuş için geçerli (mavi çerçeve)
+  2 kez dokun  = kilitli (turuncu çerçeve, "kilitli"), ör. Shift kilitli + oklarla seçme
+  3 kez dokun  = kapalı
+Win farklı çalışır: 1 dokunuş bir sonraki tuş için geçerlidir (ör. Gezgin için Win+E), 2
+dokunuş yalnızca Windows tuşuna basar ve Başlat menüsünü açar.
+
+En alt sıra: Fn, Ctrl, Win, Alt, boşluk, AltGr (boşluk tuşunun hemen sağında), abc/ABC, dört
+özel karakter, oklar, ✥. Dört özel karakter varsayılan olarak ! ? : - şeklindedir ve
+ayarlarda "Alttaki özel karakterler" altında değiştirilebilir (her alana bir karakter,
+isteğe bağlı olarak Shift için ikincisi, ör. ".:"). Bir kelime önerisinden sonra noktalama
+işareti kelimeye yanaşır ve boşluk arkasına geçer ("ev ." şuna dönüşür: "ev. ").
+Diğer durumlarda da . , ! ? : ; sonrasına kendiliğinden bir boşluk gelir; sayılar (1,5 veya
+10:30), web adresleri, e-posta adresleri ve e-posta ya da IBAN alanları hariç. Kendin bir
+boşluk daha yazarsan çift olmaz. Ayarlardan kapatılabilir.
+
+Büyük/küçük harf tuşu (boşluk tuşunun yanında): son kelimenin yazılışını değiştirir.
+    yukarı oklu "abc"   = kelime küçük, bir basış ilk harfi büyük yapar
+    aşağı oklu "ABC"    = kelimede büyük harf var, bir basış küçük yapar
+    Ardından diğer seçeneği gösterir, yani ileri geri geçiş yapılabilir.
+    Bir kelime önerisinden hemen sonra veya boşluk/noktadan sonra da çalışır.
+    Gri "Aa" = bilinen kelime yok. Tuş yalnızca bu klavyeyle yazılan kelimeleri bilir ve
+    pencereye bir tıklamadan, pencere değişiminden veya Enter'dan sonra unutur. Sesli
+    girişten (ör. Wispr Flow) veya başka bir klavyeden gelen kelimeleri bilmez.
+    TAMAMEN BÜYÜK HARF: Shift'e iki kez dokun (kilitli).
+
+Cümle başında (. ! ? ve boşluktan sonra veya Enter'dan sonra) sonraki harf otomatik olarak
+büyük olur. Ayarlardan kapatılabilir.
+
+Gerçek tuş basışları: Quadstick'te (veya normal bir klavyede) bir tuşa basarsan, basılı
+olduğu sürece ve sonra 1,5 saniye daha ekran klavyesinde kırmızı yanar. Wispr Flow için
+Ctrl+Shift'i tuttuğun sürece görürsün. Ekran klavyesinin kendi yazdıkları yanmaz. Tuşlar
+yalnızca gösterilir, kaydedilmez ve günlüğe yazılmaz.
+Gerçek bir tuş basışından sonra klavye başlanan kelimeyi unutur, çünkü orada artık
+yapıştırılmış veya dikte edilmiş metin olabilir. Yalnızca Shift veya Ctrl bir şey
+değiştirmez, Ctrl+Shift değiştirir. Kısayol tuşları (Pause, sayısal tuş takımı -) sayılmaz.
+Ayarlar → Kullanım: açık/kapalı ve tuşların ne kadar süre yanacağı.
+
+Kendi pencereler (kasa, parola kaydı, PIN, makrolar, dışa/içe aktarma): klavye tıklanabilir
+kalır, yani bu pencerelerde normal şekilde yazabilirsin. Pencereler, klavyenin onları
+örtmediği yerde açılır.
+
+Program başına kelime: pencere değiştirirsen (ör. e-posta programından tarayıcıya ve geri),
+klavye her pencere için başlanan kelimeyi, ondan önceki kelimeyi ve cümle başını hatırlar.
+Pencereye dönünce yazmaya devam edersin.
+  - Pencere başına geçerlidir: iki tarayıcı penceresi ayrıdır, aynı penceredeki sekmeler
+    değil.
+  - Pencereyi metne bir tıklamayla geri getirirsen de devam eder. Metnin ortasına
+    tıklarsan öneri uymaz. Kapatmak için: Ayarlar → Kullanım → "Pencereye tıkladıktan sonra
+    da yazmaya devam et".
+  - En fazla 30 pencere, en fazla 30 dakika, yalnızca bellekte. Parola alanları asla.
+
+Bekleyerek tıklamada geri silme, Delete ve oklar üzerinde kaldıkça tekrarlanır. Diğer tüm
+tuşlar ancak tuştan bir kez ayrıldıktan sonra yeniden tetiklenir.
+
+Makrolar
+--------
+"Makrolar"a dokun: üstte kelime önerileri yerine makrolar görünür.
+  - Bir tıklama makroyu çalıştırır, sonra kelime önerileri geri gelir.
+  - Gruplar "Ad ›" olarak görünür, bir tıklama açar, "‹ Ad" geri döner.
+  - Etkin programa uyan makrolar en öndedir.
+  - Hepsi sığmazsa "devam ›" sayfa çevirir.
+  - "✕ Geri" makro çubuğunu kapatır.
+
+Makro çubuğunun sağında:
+  ●  Kayıt: klavyede normal şekilde yaz, her şey kaydedilir (metin, Enter, Ctrl+S gibi
+     kısayollar). Klavye kırmızı bir çerçeve alır.
+     "■ Durdur" kaydı bitirir, sonra adı onayla ve bitti.
+     ✕ kaydı atar.
+  +  Hızlı kaydet: en son yazdığın (pencereye son tıklamadan bu yana) metin bloğu olarak
+     kaydedilir. Ad zaten önerilmiştir, bir tıklama yeter.
+  ✎  makro düzenleyicisini aç
+
+Makro düzenleyicisi (✎ veya Ayarlar → Makroları düzenle):
+  Yeni, Düzenle, Kopyala, Yukarı/Aşağı, Sil. Makronun içinde: ad, grup, renk, program, genel
+  kısayol ve istediğin kadar adım:
+    Metin      yer tutucular {date} {time} {weekday} {cursor}
+               (Almanca da çalışır: {datum} {uhrzeit} {wochentag})
+               ({cursor} = ekledikten sonra imleç orada durur)
+    Tuşlar     ör. Ctrl+A, Ctrl+C, Enter   veya   Alt+Tab   veya   Win+D
+               "Tuş kaydet" basılan bir tuşu doğrudan girer
+    Aç         program, dosya, klasör veya web sayfası
+    Bekle      milisaniye cinsinden duraklama
+
+Makrolar NoHandsNeeded-Daten\makros.yaml içindedir ve elle de düzenlenebilir (dosyanın en
+üstünde açıklama vardır). Anahtar kelimeler İngilizce (name, group, steps, keys, open, wait)
+veya Almanca (name, gruppe, schritte, tasten, oeffnen, warten) çalışır.
+Ardından düzenleyicide "Dosyayı yeniden yükle". Dosyada hata varsa, klavye çökmek yerine
+satırı gösterir. Kaydederken önceki sürüm makros.yaml.bak olarak kalır.
+
+Makrolar klavye simülasyonuyla yazar, asla panoyla değil. Kelime önerilerine girmezler.
+Parolalar makrolara konmaz, bunun için kasa var.
+
+Diller
+------
+Yerleşik, internetsiz: Almanca, İngilizce, Felemenkçe, Fransızca, Danca, Lehçe, Çekçe,
+İtalyanca, İspanyolca, Türkçe ve Rusça.
+Üstteki dil düğmesi açık diller arasında sırayla geçer, ayrıca karışık mod (ör. TR+EN,
+sıklığa göre). Karışık mod kapatılabilir.
+
+İlk başlatmada klavye Windows dilini alır ve İngilizceyi ekler. Windows Türkçeyse, Türkçe ve
+Türkçe Q düzeniyle başlar.
+
+Aksansız öneriler: "zolw" "żółw" getirir, "cafe" "café", "ucak" "uçak" getirir. Yani özel
+karakter aramana gerek yok. Bu öğrenilen kelimeler için de geçerlidir.
+
+Tuş düzeni: dile uyum sağlar (karışık modda ilk dile).
+  Almanca QWERTZ, İngilizce ve Felemenkçe QWERTY, Fransızca AZERTY, Danca æ ø å ile, Lehçe
+  AltGr üzerinden ą ć ę ł ń ó ś ź ż ile, Çekçe rakam sırasında ě š č ř ž ý á í é ile,
+  İtalyanca, İspanyolca ñ ¿ ¡ ile, Türkçe Q ı ğ ü ş ö ç ile, Rusça ЙЦУКЕН.
+  Rusçada Latin harfleri için "ABC/АБВ" tuşu vardır (e-posta adresleri, bağlantılar).
+  Windows'taki gibi aksan tuşları (ölü tuşlar): Fransızca, İspanyolca, Danca, Çekçe ve
+  Felemenkçede önce ´ ` ^ ¨, sonra harf (´ + e = é). Ardından boşlukla karakter tek başına
+  gelir. Almancada ölü tuş yoktur.
+  Klavye Unicode yazar, bunun için Windows düzenini değiştirmek gerekmez.
+  Ayarlar → Diller → Tuş düzeni: dile göre, her zaman Almanca veya her zaman İngilizce.
+
+Ayarlar → Diller:
+  - Bir işaret dili etkinleştirir, ▲/▼ geçişteki sırayı değiştirir.
+  - "Dili program başına hatırla": bir programda dili değiştirirsen klavye bunu hatırlar ve
+    o programda bir dahaki sefere otomatik geçer. Örneğin Outlook İngilizce, WhatsApp Türkçe.
+  - "Kendi terimlerini düzenle": tüm dillerde önerilen isimler ve teknik terimler.
+    Dosya: NoHandsNeeded-Daten\eigene_woerter.txt
+  - "Dosyadan ekle": internetsiz bir kelime listesi kullan (kelime, sekme, sıklık; dosya adı
+    = dil kodu, ör. pt.txt).
+  - "Kaldır": kendin eklediğin bir dili siler (yerleşik olanlar yalnızca kapatılabilir).
+Kendin eklediğin diller şurada durur: NoHandsNeeded-Daten\Sprachen.
+İsteğe bağlı olarak genel bir "Dil değiştir" kısayolu vardır.
+
+Arayüz dili
+-----------
+Ayarlar, menüler, mesajlar, tuş etiketleri, tanıtım ve bu kılavuz Almanca, İngilizce,
+Felemenkçe, Fransızca, Danca, Lehçe, Çekçe, İtalyanca, İspanyolca, Türkçe ve Rusça olarak
+mevcuttur. Varsayılan Windows dilidir, yoksa İngilizce.
+Değiştir: Ayarlar → Diğer → "Arayüz dili" → Uygula.
+Çevirileri bir yapay zekâ yaptı. Anadili konuşanlardan gelecek düzeltmeler GitHub'da
+memnuniyetle karşılanır: https://github.com/ichmml/nohandsneeded (arayüz: Resources/Texte
+klasörü, kılavuz: Anleitung klasörü). Bir dilde metin eksikse İngilizce görünür.
+
+Öğrenme
+-------
+Klavye sen yazarken öğrenir:
+  - yeni kelimeler (isimler, teknik terimler). 2 kez yazdığın anda önerilirler (1 ile 5
+    arasında ayarlanabilir).
+  - hangi kelimeyi ne sıklıkla kullandığın. Sık kullanılanlar öne geçer.
+  - hangi kelimenin sık sık hangisini izlediği. Bir boşluktan sonra uygun sonraki kelimeler
+    hemen üstte durur (ör. "benim"den sonra genellikle yazdığın kelime).
+  - yazılış: büyük/küçük harf tuşuyla "iphone"u "iPhone" yaparsan, bir dahaki sefere
+    doğrudan "iPhone" önerilir.
+Bir kelimeyi hemen ⌫ ile silersen, o da unutulur.
+
+Sayılar: tarihler (10.09.1991), telefon numaraları (0532 123 45 67, +90 212 123 45 67) ve
+bir yer adının önündeki posta kodları da öğrenilir, ayrıca müşteri veya sözleşme numarası
+gibi en az 9 haneli uzun numaralar. İlk seferden sonra hemen önerilirler. Rakam yazınca
+uygun sayılar üstte görünür. Ayraçlar sayılmaz, yani "1009" "10.09.1991" getirir. Sayı
+öğrenilen yazılışla eklenir.
+PIN'ler (ayraçsız 4 ila 8 hane) ve kart numaraları da öğrenilir, ancak ayrı bir dosyada
+şifreli olarak (zahlen_geheim.dat). Bir yedeğe yalnızca parolayla girerler. Öğrenme
+ayarlarından kapatılabilir ("PIN ve kart numaralarını öğren (şifreli)"). Asla öğrenilmez:
+tek sayılar ve miktarlar, saatler, parola alanlarındaki her şey ve parola gibi görünen
+hiçbir şey (harflerle karışık rakamlar, çok uzun kelimeler). Kendi metinlerinden PIN ve kart
+numaraları asla alınmaz.
+IBAN: Geçerli bir IBAN (kontrol hanesi doğru) boşluklu ya da boşluksuz yazılsa da
+hatırlanır. Bir dahaki sefere ülke kodu ve ilk rakam ("TR3") yeterli: üstte 🏦 ile yeşil
+görünür, tek tıklama hepsini yazar. Adı IBAN olan alanlarda ve "IBAN:" sonrasında hemen
+görünür. Öğrenme ayarlarından kapatılabilir.
+Sayılar tüm dillerde geçerlidir, dosya: NoHandsNeeded-Daten\Lernen\zahlen.txt. Ayarlar → Öğrenme
+altında kapatılabilir, "Öğrenilen kelimeler" → "Sayılar" seçimiyle görülüp silinebilir.
+
+Ayarlar → Öğrenme:
+  - "Metinlerimden öğren": bir klasör seç (ör. notlar veya belgeler). Alt klasörler dahil
+    .txt, .md, .docx, .html, .eml ve .mbox okunur. Nokta ile başlayan klasörler (.obsidian,
+    .git) atlanır.
+    Yalnızca istatistik kaydedilir, hangi kelimelerin ne sıklıkla ve hangi sırayla geçtiği,
+    asla metinler. Parola, PIN, IBAN, giriş, token ve benzerlerini içeren satırlar atlanır;
+    bağlantılar, e-posta adresleri, kod blokları ve alıntılanan e-postalar da.
+    Birden çok dilde her paragraf uyduğu dile gider.
+  - "Öğrenilen kelimeleri görüntüle ve sil": ara, tek tek sil, her şeyi unut.
+  - Bildirim alanı simgesi → "Öğrenmeyi duraklat", ör. başkası yazarken.
+Öğrenilenler NoHandsNeeded-Daten\Lernen\tr.txt içindedir (dil başına bir dosya), her 2 dakikada
+bir ve kapanışta kaydedilir.
+
+Parola kasası
+-------------
+Uzun parolaları her seferinde karakter karakter yazmak zorunda kalmamak için.
+  - Bir parola alanına tıklarsan, üstte kelime önerileri yerine kayıtlı parolaların görünür
+    (sarı, ⚿ ile). Pencereye uyan en öndedir. Bir tıklama parolayı alana yazar. Sonra Enter.
+  - Bir parolayı kendin yazdıysan, klavye Enter'dan sonra veya alandan çıkınca sorar:
+    "Kasaya kaydedilsin mi?". "Kaydet" önerilen bir adla bir pencere açar, onu onaylarsın.
+    "Hayır" veya sadece devam etmek parolayı atar.
+  - "+ Parola ekle" yeni bir kayıt için pencere açar. Ad, web sayfasına veya programa göre zaten
+    önerilmiştir, parola yazarken açık metin olarak görünür, "Güvenli parola oluştur" istersen onu
+    doldurur. "Kaydet" kaydeder, parola hemen çubukta görünür.
+  - Tüm parolalar çubuğa sığmazsa "devamı ›" bir sonraki sayfaya geçer, açık sayfaya uyanlar
+    başta durur. "🔍 Ara": birkaç harf yaz, çubuk yalnızca uyan kayıtları gösterir (ad,
+    kullanıcı veya program). Harfler programa gitmez. Geri tuşu siler, Esc, Enter veya "✕
+    Aramayı bitir" aramayı bitirir.
+  - Bir sayfada az önce parola yazdıysan, bu pencerede zaten yazılı olur; aynı pencerede
+    kısa süre önce yazdığın e-posta adresi de. İmleç doğrudan bir sonraki boş alana geçer.
+    Ad ve e-posta alanlarında normal yazarsın, orada hiçbir şey öğrenilmez.
+  - "🎲 Oluştur ve yaz" (yalnızca parola alanında) güvenli bir parola oluşturur
+    (varsayılan 16 karakter), alana yazar ve hemen kaydetmeyi önerir. Mutlaka kaydet, yoksa
+    kaybolur.
+  - Kasa penceresinde parola her zaman açık metin olarak görünür, mevcut bir kaydı
+    düzenlerken de; böylece doğru yazıp yazmadığını görürsün. "Göster / gizle" gerekirse
+    gizler.
+  - Sağ üstteki ⚿ kasayı parola alanları dışında da gösterir, "✕ Gizle" gizler.
+Güvenlik:
+  - tresor.dat Windows (DPAPI) ile şifrelidir ve yalnızca bu bilgisayardaki Windows hesabınla
+    okunabilir. Başka yere kopyalanırsa dosya işe yaramaz. Aktarmak için "Yedekle ve başka
+    bilgisayara aktar" var (aşağıya bak).
+  - İsteğe bağlı bir PIN (Ayarlar → Parola kasası). O zaman kasa her başlatmadan sonra
+    kilitlidir ve 15 dakika kullanılmayınca yeniden kilitlenir (ayarlanabilir). PIN büyük
+    rakam tuşlarıyla yazılır. PIN olmadan kimse parolalara ulaşamaz, sen de. Bu yüzden iyi
+    hatırla.
+  - Parolalar normal kelime önerilerinde asla görünmez, asla öğrenilmez, makro kayıtlarına
+    alınmaz ve asla panodan eklenmez.
+  - Klavye parola alanlarını korunan alanlar için Windows işaretinden tanır. Bu, Windows
+    programlarında ve yaygın tarayıcılarda çalışır. Bir alanı tanımazsa, ⚿ kasayı gösterir.
+Düzenle: Ayarlar → Parola kasası → "Kasayı düzenle" (veya simge).
+Orada ad, kullanıcı adı, parola (göster düğmesiyle) ve pencere başlığı için anahtar
+kelimeler ("gmail, google") ayarlanır, böylece doğru parola öne çıkar.
+
+E-posta adresleri: bir e-posta adresi yazdığında klavye onu yeni bir kelime gibi hatırlar
+(parola alanlarında değil). Bir sonraki seferden itibaren ilk 3 harfi yazar yazmaz üstte mavi
+renkte ✉ ile görünür, bir tıklama adresin tamamını ekler. E-posta veya kullanıcı adı alanına
+tıklarsan adresler tek harf yazmadan hemen üstte görünür. Klavye alanı etiketinden tanır, bu çoğu
+giriş sayfasında çalışır. Kapatmak için: Ayarlar → Öğrenme. Görüntüleme ve silme: "Öğrenilen
+kelimeler" → "E-posta adresleri".
+
+Genel kısayollar ve Quadstick
+-----------------------------
+Bu kısayollar başka bir program öndeyken de çalışır:
+  Pause                  klavyeyi göster/gizle
+  sayısal tuş takımı -   makro çubuğunu aç (klavyede "NumMinus" diye geçer)
+Ayrıca her makro kendi kısayolunu alabilir (makro düzenleyicisinde).
+Ayarlarda her kısayolun etkin olup olmadığı görünür (yeşil işaret) ya da değil (kırmızı,
+nedeniyle).
+
+Klavyeyi kısayolla açarsan, fare imlecinin olduğu yerde görünür: yer görünür kalsın diye
+hemen altında ortalanmış, yer yetmezse üstünde. Görev çubuğundan, bildirim alanından veya
+yuvarlak düğmeden açınca her zamanki yerinde kalır. Ayarlardan kapatılabilir ("Kısayolla
+(ör. Pause) farenin olduğu yerde aç").
+Hemen altında tam olarak nerede olacağını seçersin: farenin altında veya üstünde, ortada,
+sağa ya da sola doğru. Seçilen tarafa sığmazsa diğerini kullanır.
+
+Değiştir: Ayarlar → Genel kısayollar → "Kaydet". Bir pencere açılır, sonra Quadstick'teki
+tuşa bas. Tanınan tuş pencerede büyük görünür, "Uygula" ile onayla. Veya "Listeden"e tıkla.
+
+Bir kısayol çalışmıyorsa: Ayarlar → "Kısayolları test et" ve Quadstick tuşuna bas.
+  - Hiçbir şey görünmüyor: tuş bilgisayara hiç ulaşmıyor. Quadstick onu göndermiyor, ör.
+    F13-F24'ü gönderemediği için. Başka bir tuş kullan, ör. Pause veya sayısal tuş
+    takımından bir işlem işareti.
+  - "Tuş alındı" görünüyor ama "Kısayol tetiklendi" görünmüyor: tuş ulaşıyor ama kısayol
+    etkin değil veya farklı ayarlanmış. Ayarlardaki kırmızı mesajı kontrol et.
+  - İkisi de görünüyor: her şey yolunda.
+protokoll.txt (Ayarlar → "Günlüğü aç") hangi kısayolların kaydedildiğini, hangilerinin
+kaydedilmediğini (Windows hata koduyla) ve hangilerinin tetiklendiğini gösterir.
+
+Quadstick tuşu atama:
+  Quadstick yapılandırma sayfasında (Google tablosu) kısayol başına bir satır, örnek:
+      kb_pause          normal    <giriş>
+      kb_keypad_minus   normal    <giriş>
+  1. Sarı sütunda istediğin girişi seç (ör. mp_triple_puff).
+  2. Yapılandırmayı her zamanki gibi Quadstick'e yükle.
+  3. "Kısayolları test et" ile kontrol et.
+  Quadstick F13-F24 ve Scroll Lock gönderemez. Pause ve sayısal tuş takımının işlem
+  işaretleri uygundur (kb_keypad_slash, kb_keypad_asterisk, kb_keypad_minus,
+  kb_keypad_plus). Kullanma: kb_keypad_enter (Enter gibi işlenir) ve sayısal tuş takımının
+  rakamları (Num Lock'a bağlıdır).
+
+Bildirim alanı simgesi: sol tık klavyeyi gösterir/gizler. Sağ tık: makroları düzenle,
+öğrenmeyi duraklat, parola kasasını düzenle, ayarlar, kılavuzu aç, tanıtımı göster, bağış
+yap, çıkış.
+
+Görev çubuğu: klavye çalıştığı sürece görev çubuğunda klavye simgeli kendi düğmesi vardır.
+Bir tıklama, gizli veya yuvarlak düğmeye küçültülmüş olsa bile klavyeyi her zaman tamamen
+açar (açık klavye açık kalır), ardından odak hemen yazdığın programa geri döner. Kapatmak
+için: Ayarlar → Başlangıç.
+
+Yedekle ve ikinci bilgisayara aktar
+-----------------------------------
+Ayarlar → "Yedekle ve başka bilgisayara aktar".
+  - "Verileri dışa aktar …": nelerin dahil edileceğini işaretle (öğrenilen kelimeler,
+    kelime dizileri ve sayılar, kendi terimlerin, makrolar, kasadaki parolalar). Sonra bir
+    klasör seç. "NoHandsNeeded 2026-11-08.nohands" gibi bir dosya oluşur.
+  - Parolalar dahilse yedeğin kendi parolası olmalıdır (en az 8 karakter). Dosya o zaman
+    şifrelenir (AES-256), bu parola olmadan kimse giremez, sen de. Parola yoksa alan boş
+    kalabilir.
+  - Diğer bilgisayarda: "Verileri içe aktar …", dosyayı seç, gerekirse parolayı gir,
+    işaretleri kontrol et, "Uygula".
+  - Hiçbir şeyin üzerine yazılmaz, her şey birleştirilir: aynı kelimelerde yüksek sayaç
+    geçerlidir (aynı dosyayı iki kez içe aktarmak çift saymaz). Aynı adlı makro değiştirilir.
+    Aynı ad ve kullanıcıya sahip bir parolada en son değiştirilen veya kullanılan kazanır.
+  - Son kullanılan klasör hatırlanır. İki bilgisayarın da gördüğü bir klasör pratiktir (USB
+    bellek, bulut klasörü).
+  - Boyut ve konum aktarılmaz, zaten her bilgisayarda farklıdır.
+
+Destek
+------
+Klavye ücretsiz ve açık kaynaklıdır. İşine yarıyorsa bir bağışa sevinirim:
+https://ko-fi.com/MDM3D
+Düğme ayarların en üstünde ve simgenin menüsündedir. Bağlantı yalnızca tıklarsan açılır.
+Klavye bunu asla istemez.
+
+Kilit ekranı
+------------
+Windows PIN'ini bu klavyeyle yazmak için klavyenin kilit ekranında görünmesi gerekir. Windows
+buna yalnızca aşağıdakilerin hepsi geçerliyse izin verir:
+  - klavye bir kod imzalama sertifikasıyla imzalanmıştır,
+  - yükleyiciyle "C:\Program Files\NoHandsNeeded" konumuna yüklenmiştir,
+  - Windows'ta yardımcı teknoloji olarak kayıtlıdır (yükleyici yapar),
+  - uiAccess iznine sahiptir (build.cmd'deki NoHandsNeededAT.exe çeşidi).
+Taşınabilir NoHandsNeeded.exe bunu yapamaz. Ayarlar → Diğer → Kilit ekranı neyin eksik olduğunu
+gösterir. Her şey tamamsa orada "Kilit ekranında göster" anahtarı bulunur.
+Kilit ekranında yalnızca yazma çalışır: kasa, makro, öğrenme, öneri ve ayar yoktur. Böylece
+kilitli bilgisayarda kimse kişisel bir şey görmez.
+O zamana kadar: kilit ekranının sağ altındaki erişilebilirlik simgesine tıkla ve Windows
+ekran klavyesini kullan. Veya Windows Hello'yu (yüz) kur, o zaman PIN gerekmez.
+
+Bilinen sınırlar
+----------------
+Klavye yönetici olarak çalışan programlara (Görev Yöneticisi, bazı yükleyiciler) yazamaz.
+Bu bir Windows güvenlik kuralıdır. Çözüm: NoHandsNeeded.exe'ye sağ tıkla → "Yönetici olarak
+çalıştır" veya imzalı, yüklü sürüm (bkz. "Kilit ekranı").
+
+Büyük/küçük harf tuşu klavyeyle yazılan son kelimeye etki eder. Diğer programlarda seçili
+metni henüz dönüştüremez.
+
+Kelime listeleri: her biri yaklaşık 27.000 ile 74.000 kelime içeren 11 yerleşik dil.
+Sıklıklar wordfreq'ten (veriler CC BY-SA 4.0 lisanslı), yazım hunspell sözlükleriyle kontrol
+edildi.

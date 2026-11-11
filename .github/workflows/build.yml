@@ -1,0 +1,33 @@
+# Baut NoHandsNeeded.exe bei jedem neuen Versions-Tag (z. B. v1.0) und hängt sie an das Release.
+# Kann unter "Actions" auch von Hand gestartet werden.
+name: Bauen
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: NoHandsNeeded.exe bauen
+        shell: cmd
+        run: build.cmd
+
+      - name: Als Download ablegen
+        uses: actions/upload-artifact@v4
+        with:
+          name: NoHandsNeeded
+          path: NoHandsNeeded.exe
+
+      - name: An das Release hängen
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: NoHandsNeeded.exe
