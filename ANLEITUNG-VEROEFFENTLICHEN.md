@@ -27,8 +27,8 @@ und den ganzen Rest.
 ## 3. Eine Version veröffentlichen (Release)
 
 1. Im Repository rechts auf **"Releases"** → **"Create a new release"** klicken.
-2. Bei "Choose a tag" eine neue Version eintippen, z. B. **v1.01**, und "Create new tag" wählen.
-3. Titel, z. B. "Version 1.01", und darunter kurz die Neuerungen eintragen.
+2. Bei "Choose a tag" eine neue Version eintippen, z. B. **v1.02**, und "Create new tag" wählen.
+3. Titel, z. B. "Version 1.02", und darunter kurz die Neuerungen eintragen.
 4. **"Publish release"** klicken.
 
 GitHub baut die `NoHandsNeeded.exe` dann automatisch (unter "Actions" zu sehen, dauert etwa

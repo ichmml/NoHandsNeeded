@@ -4,7 +4,7 @@
 ; Bauen: ISCC.exe installer\NoHandsNeeded.iss
 
 #define AppName "NoHandsNeeded"
-#define AppVersion "1.01"
+#define AppVersion "1.02"
 #define AtKey "MDM3D_Bildschirmtastatur_v1"   ; interner Schlüssel, bleibt wegen Sperrbildschirm-Erkennung im Programm gleich
 
 [Setup]

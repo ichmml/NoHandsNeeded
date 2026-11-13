@@ -2,7 +2,7 @@
 
 **English** · [Deutsch](README.de.md)
 
-Current version: **1.01**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Current version: **1.02**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 An on-screen keyboard for Windows, built for people who use the PC without their hands,
 for example with a mouth controller (Quadstick), a head mouse or eye tracking.
