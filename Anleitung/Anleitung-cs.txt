@@ -97,8 +97,8 @@ Fn (vlevo dole): druhá vrstva s F1 až F12, Home, End, Page Up/Down, speciáln�
 Esc je vlevo nahoře.
 Shift, Ctrl, Alt, Win, AltGr:
   1x ťuknout = platí pro další klávesu (modrý rámeček)
-  2x ťuknout = zamčeno (oranžový rámeček, „zamč.“), např. Shift zamčený + šipky k označení
-  3x ťuknout = vyp.
+  2 klepnutí = zase vypnuto. Zamknutí už není. Při označování zůstane Shift zapnutý přes
+  více šipek, dokud nepřijde jiná klávesa.
 Win funguje jinak: 1 klepnutí platí pro další klávesu (např. Win+E pro Průzkumníka), 2
 klepnutí stisknou samotnou klávesu Windows a otevřou nabídku Start.
 
@@ -119,7 +119,7 @@ Klávesa velikosti písmen (vedle mezerníku): mění zápis posledního slova.
     Šedé „Aa“ = žádné známé slovo. Klávesa zná jen slova napsaná touto klávesnicí a zapomene
     je po kliknutí do okna, přepnutí okna nebo Enteru. Nezná slova z hlasového zadávání
     (např. Wispr Flow) ani z jiné klávesnice.
-    VŠE VELKÝMI: ťuknout dvakrát na Shift (zamčeno).
+    VŠE VELKÝMI: klávesou Caps Lock ⇪.
 
 Na začátku věty (po . ! ? a mezeře nebo po Enteru) bude další písmeno automaticky velké.
 Lze vypnout v nastavení.

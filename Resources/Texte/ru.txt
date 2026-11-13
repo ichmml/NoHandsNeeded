@@ -500,3 +500,4 @@ unter der Maus, nach links	под мышью, влево
 nichts gefunden	ничего не найдено
 ✕ Suche beenden	✕ Закончить поиск
 Namen tippen, die Liste wird kleiner	Набери название, список станет короче
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Одно касание действует на следующую клавишу, два касания снова её выключают.

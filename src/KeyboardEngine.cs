@@ -290,7 +290,8 @@ namespace Tastatur
 
         private static ModState Cycle(ModState s)
         {
-            return s == ModState.Off ? ModState.Once : s == ModState.Once ? ModState.Locked : ModState.Off;
+            // 1x: für die nächste Taste, 2x: wieder aus. Feststellen gibt es nicht (auf Wunsch weg, rastete zu leicht ein).
+            return s == ModState.Off ? ModState.Once : ModState.Off;
         }
 
         private Modifiers ActiveMods()
@@ -733,15 +734,30 @@ namespace Tastatur
 
         // ---------- Tasten ----------
 
+        private bool _shiftForNav;   // Shift 1x bleibt über mehrere Pfeiltasten hinweg an (Markieren)
+
+        private static bool IsNavKey(KeyDef k)
+        {
+            if (k == null || k.Kind != KeyKind.Special) return false;
+            ushort v = k.Vk;
+            return v == 0x25 || v == 0x26 || v == 0x27 || v == 0x28 || v == 0x21 || v == 0x22 || v == 0x23 || v == 0x24;   // Pfeile, Bild auf/ab, Ende, Pos1
+        }
+
         public void Press(KeyDef k)
         {
+            // Nach dem Markieren mit Shift + Pfeilen: die nächste andere Taste kommt wieder ohne Shift
+            if (_shiftForNav && !IsNavKey(k) && !(k.Kind == KeyKind.Modifier && k.Mod == Modifiers.Shift))
+            {
+                _shiftForNav = false;
+                if (Shift == ModState.Once) Shift = ModState.Off;
+            }
             if (_passwordMode && PressInPasswordField(k)) { ReleaseOnce(); Fire(); return; }
             switch (k.Kind)
             {
                 case KeyKind.Modifier:
                     switch (k.Mod)
                     {
-                        case Modifiers.Shift: Shift = Cycle(Shift); break;
+                        case Modifiers.Shift: Shift = Cycle(Shift); _shiftForNav = false; break;
                         case Modifiers.Ctrl: Ctrl = Cycle(Ctrl); break;
                         case Modifiers.Alt: Alt = Cycle(Alt); break;
                         case Modifiers.Win:
@@ -810,7 +826,9 @@ namespace Tastatur
                     PressSpecial(k.Vk);
                     break;
             }
+            bool keepShift = Shift == ModState.Once && IsNavKey(k);
             ReleaseOnce();
+            if (keepShift) { Shift = ModState.Once; _shiftForNav = true; }
             Fire();
         }
 

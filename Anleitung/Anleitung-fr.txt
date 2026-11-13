@@ -108,9 +108,8 @@ Fn (en bas à gauche) : deuxième niveau avec F1 à F12, Début, Fin, Page préc
 caractères spéciaux. Échap se trouve en haut à gauche.
 Maj, Ctrl, Alt, Win, AltGr :
   1 appui  = vaut pour la touche suivante (cadre bleu)
-  2 appuis = verrouillé (cadre orange, « verr. »), par ex. Maj verrouillée + flèches pour
-             sélectionner
-  3 appuis = désactivé
+  2 appuis = de nouveau désactivé. Le verrouillage n'existe plus. Pour sélectionner, Maj
+  reste active sur plusieurs flèches jusqu'à une autre touche.
 Win fonctionne autrement : 1 appui vaut pour la touche suivante (par ex. Win+E pour
 l'Explorateur), 2 appuis appuient sur la touche Windows seule et ouvrent le menu Démarrer.
 Sinon aussi, une espace est ajoutée automatiquement après . , ! ? : ; sauf dans les nombres
@@ -133,7 +132,7 @@ Touche majuscule/minuscule (à côté de la barre d'espace) : change la casse du
     « Aa » gris = aucun mot connu. La touche ne connaît que les mots tapés avec ce clavier et
     les oublie après un clic dans la fenêtre, un changement de fenêtre ou Entrée. Elle ne
     connaît pas les mots issus de la saisie vocale (par ex. Wispr Flow) ou d'un autre clavier.
-    TOUT EN MAJUSCULES : appuyer deux fois sur Maj (verrouillé).
+    TOUT EN MAJUSCULES : avec la touche Verr. Maj ⇪.
 
 En début de phrase (après . ! ? et un espace, ou après Entrée), la lettre suivante passe
 automatiquement en majuscule. Désactivable dans les paramètres.

@@ -97,8 +97,8 @@ Fn (sol alt): F1-F12, Home, End, Page Up/Down ve özel karakterler içeren ikinc
 Esc sol üstte.
 Shift, Ctrl, Alt, Win, AltGr:
   1 kez dokun  = sonraki tuş için geçerli (mavi çerçeve)
-  2 kez dokun  = kilitli (turuncu çerçeve, "kilitli"), ör. Shift kilitli + oklarla seçme
-  3 kez dokun  = kapalı
+  2 kez dokun = yeniden kapalı. Kilitleme artık yok. Seçerken Shift, başka bir tuş gelene
+  kadar birkaç ok tuşu boyunca açık kalır.
 Win farklı çalışır: 1 dokunuş bir sonraki tuş için geçerlidir (ör. Gezgin için Win+E), 2
 dokunuş yalnızca Windows tuşuna basar ve Başlat menüsünü açar.
 
@@ -119,7 +119,7 @@ Büyük/küçük harf tuşu (boşluk tuşunun yanında): son kelimenin yazılı�
     Gri "Aa" = bilinen kelime yok. Tuş yalnızca bu klavyeyle yazılan kelimeleri bilir ve
     pencereye bir tıklamadan, pencere değişiminden veya Enter'dan sonra unutur. Sesli
     girişten (ör. Wispr Flow) veya başka bir klavyeden gelen kelimeleri bilmez.
-    TAMAMEN BÜYÜK HARF: Shift'e iki kez dokun (kilitli).
+    TAMAMEN BÜYÜK HARF: Caps Lock tuşu ⇪ ile.
 
 Cümle başında (. ! ? ve boşluktan sonra veya Enter'dan sonra) sonraki harf otomatik olarak
 büyük olur. Ayarlardan kapatılabilir.

@@ -26,7 +26,7 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 - **Password vault:** in password fields your saved passwords appear at the top, one click types them. Newly typed passwords can be saved with one click, secure passwords can be generated. Encrypted with Windows (DPAPI), optional PIN. Never in the word suggestions, never through the clipboard.
 - **Back up and transfer:** export learned data, custom terms, macros and, if you like, the passwords as one `.nohands` file and import it on your second PC. With passwords always encrypted (AES-256), importing merges instead of overwriting.
 - **Dwell click:** a key triggers when you stay on it briefly.
-- **Sticky modifier keys:** tap Ctrl, Alt, Shift, Win or AltGr once for the next key, twice to lock. AltGr sits right next to the space bar.
+- **Sticky modifier keys:** tap Ctrl, Alt, Shift, Win or AltGr once for the next key, twice to switch it off again. Shift stays on across arrow keys for selecting. AltGr sits right next to the space bar.
 - **Editable special characters** in the bottom row: ! ? : - by default.
 - **Typed word in red at the top left**, letter by letter, also with special characters ("s!add" stays). New words are remembered with one click, passwords appear as dots (👁 shows them briefly). In the keyboard's own vault window a new password is shown in plain text while typing.
 - **Case key** (abc ↑ / ABC ↓) that capitalizes or lowercases the last word afterwards.

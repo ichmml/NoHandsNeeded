@@ -500,3 +500,4 @@ unter der Maus, nach links	pod myszą, w lewo
 nichts gefunden	nic nie znaleziono
 ✕ Suche beenden	✕ Zakończ wyszukiwanie
 Namen tippen, die Liste wird kleiner	Wpisz nazwę, lista się skróci
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Jedno dotknięcie działa na następny klawisz, dwa dotknięcia znowu go wyłączają.

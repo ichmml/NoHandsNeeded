@@ -291,7 +291,14 @@ namespace Tastatur
                 case "leerzeichen_nach_vorschlag": AutoSpaceAfterSuggestion = B(v, AutoSpaceAfterSuggestion); break;
                 case "leerzeichen_nach_satzzeichen": AutoSpaceAfterPunctuation = B(v, AutoSpaceAfterPunctuation); break;
                 case "an_maus_oeffnen": OpenAtMouse = B(v, OpenAtMouse); break;
-                case "an_maus_lage": if (Array.IndexOf(MousePlaces, v.Trim()) >= 0) MousePlace = v.Trim(); break;
+                case "an_maus_lage":
+                    {
+                        // erstes Wort (ältere Versionen schrieben einen Kommentar dahinter, der hat den Wert unlesbar gemacht)
+                        var parts = v.Trim().Split(new[] { ' ', '\t', '#' }, StringSplitOptions.RemoveEmptyEntries);
+                        string w = parts.Length > 0 ? parts[0] : "";
+                        if (Array.IndexOf(MousePlaces, w) >= 0) MousePlace = w;
+                    }
+                    break;
                 case "autostart": Autostart = B(v, Autostart); break;
                 case "eingeklappt_starten": StartCollapsed = B(v, StartCollapsed); break;
                 case "mini_x": MiniX = I(v, MiniX); break;
@@ -358,7 +365,8 @@ namespace Tastatur
             sb.AppendLine("leerzeichen_nach_vorschlag = " + Yn(AutoSpaceAfterSuggestion));
             sb.AppendLine("leerzeichen_nach_satzzeichen = " + Yn(AutoSpaceAfterPunctuation));
             sb.AppendLine("an_maus_oeffnen = " + Yn(OpenAtMouse));
-            sb.AppendLine("an_maus_lage = " + MousePlace + "   # unten-mitte, unten-rechts, unten-links, oben-mitte, oben-rechts, oben-links");
+            sb.AppendLine("# an_maus_lage: unten-mitte, unten-rechts, unten-links, oben-mitte, oben-rechts, oben-links");
+            sb.AppendLine("an_maus_lage = " + MousePlace);
             sb.AppendLine("autostart = " + Yn(Autostart));
             sb.AppendLine("eingeklappt_starten = " + Yn(StartCollapsed));
             sb.AppendLine("mini_x = " + MiniX);

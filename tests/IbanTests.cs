@@ -104,6 +104,22 @@ namespace Tastatur
             var st2 = Settings.LoadFrom(sp);
             File.WriteAllText(sp, "an_maus_lage = quatsch\n");
             Check(st2.MousePlace == "oben-links" && Settings.LoadFrom(sp).MousePlace == "unten-mitte", "Einstellung wird gelesen");
+            File.WriteAllText(sp, "an_maus_lage = unten-rechts   # unten-mitte, unten-rechts\n");
+            Check(Settings.LoadFrom(sp).MousePlace == "unten-rechts", "alte Datei mit Kommentar dahinter wird richtig gelesen");
+            var st3 = new Settings { MousePlace = "oben-rechts", OpenAtMouse = false };
+            st3.SaveTo(sp);
+            var st4 = Settings.LoadFrom(sp);
+            Check(st4.MousePlace == "oben-rechts" && !st4.OpenAtMouse, "Lage und An/Aus bleiben nach Speichern und Neustart");
+            // alle Schalter (bool) einmal umdrehen, speichern, laden: nichts darf verloren gehen
+            var flip = new Settings();
+            var lost = new List<string>();
+            foreach (var fi in typeof(Settings).GetFields())
+                if (fi.FieldType == typeof(bool) && !fi.IsStatic && fi.Name != "FirstStart") fi.SetValue(flip, !(bool)fi.GetValue(new Settings()));
+            flip.SaveTo(sp);
+            var back2 = Settings.LoadFrom(sp);
+            foreach (var fi in typeof(Settings).GetFields())
+                if (fi.FieldType == typeof(bool) && !fi.IsStatic && fi.Name != "FirstStart" && (bool)fi.GetValue(back2) != (bool)fi.GetValue(flip)) lost.Add(fi.Name);
+            Check(lost.Count == 0, "alle Schalter überleben einen Neustart" + (lost.Count > 0 ? ", verloren: " + string.Join(", ", lost) : ""));
 
             Console.WriteLine("\n--- Tresor-Suche ---");
             var vl = new List<VaultEntry> { new VaultEntry { Name = "Gmail", User = "morten@gmail.com" }, new VaultEntry { Name = "Amazon" }, new VaultEntry { Name = "udaption Admin", Match = "chrome" } };

@@ -33,7 +33,7 @@ namespace Tastatur
                 new TourStep { Target = "drag", Title = L.T("Verschieben und Größe"),
                     Text = L.T("Halte ✥ fest und zieh die Tastatur, wohin du willst. Oder bleib auf einer beliebigen Taste, bis sich der orange Ring füllt: Dann hängt die Tastatur an der Maus. Die Größe änderst du an jedem Rand.") },
                 new TourStep { Target = "mods", Title = L.T("Strg, Shift, Alt, Win, AltGr"),
-                    Text = L.T("Einmal tippen gilt für die nächste Taste. Zweimal tippen hält die Taste fest, dreimal tippen schaltet sie wieder aus.") },
+                    Text = L.T("Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.") },
                 new TourStep { Target = "macro", Title = L.T("Makros"),
                     Text = L.T("Textbausteine, Tastenfolgen und Programme mit einem Klick. Mit ● nimmst du einfach auf, was du tippst.") },
                 new TourStep { Target = "lang", Title = L.T("Sprache"),

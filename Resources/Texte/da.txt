@@ -500,3 +500,4 @@ unter der Maus, nach links	under musen, mod venstre
 nichts gefunden	intet fundet
 ✕ Suche beenden	✕ Afslut søgning
 Namen tippen, die Liste wird kleiner	Skriv et navn, listen bliver kortere
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Ét tryk gælder for den næste tast, to tryk slår den fra igen.

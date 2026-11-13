@@ -21,7 +21,7 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 - **Passwort-Tresor:** In Passwortfeldern stehen die gespeicherten Passwörter oben, ein Klick tippt sie ein. Neu getippte Passwörter kann man mit einem Klick speichern, sichere Passwörter erzeugen. Verschlüsselt mit Windows (DPAPI), optional mit PIN. Nie in den Wortvorschlägen, nie über die Zwischenablage.
 - **Sichern und übertragen:** Gelerntes, eigene Begriffe, Makros und auf Wunsch die Passwörter als eine `.nohands`-Datei exportieren und auf dem zweiten PC importieren. Mit Passwörtern immer verschlüsselt (AES-256), beim Import wird zusammengeführt statt überschrieben.
 - **Verweilklick:** Eine Taste löst aus, wenn man kurz darauf bleibt.
-- **Einrastende Sondertasten:** Strg, Alt, Shift, Win und AltGr einmal antippen gilt für die nächste Taste, zweimal antippen hält sie fest. AltGr sitzt direkt rechts neben der Leertaste.
+- **Sondertasten für die nächste Taste:** Strg, Alt, Shift, Win und AltGr einmal antippen gilt für die nächste Taste, zweimal antippen schaltet sie wieder aus. Shift bleibt zum Markieren über mehrere Pfeiltasten an. AltGr sitzt direkt rechts neben der Leertaste.
 - **Sonderzeichen unten einstellbar:** von Haus aus ! ? : -, in den Einstellungen änderbar.
 - **Getipptes Wort oben links in Rot**, Buchstabe für Buchstabe, auch mit Sonderzeichen ("s!add" bleibt stehen). Neue Wörter merkt sie sich mit einem Klick, Passwörter erscheinen als Punkte (👁 zeigt sie kurz). Im eigenen Tresor-Fenster sieht man ein neues Passwort beim Tippen im Klartext.
 - **Groß/Klein-Taste** (abc ↑ / ABC ↓), die das letzte Wort nachträglich groß- oder kleinschreibt.

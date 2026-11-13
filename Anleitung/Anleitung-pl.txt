@@ -101,9 +101,8 @@ Fn (na dole po lewej): druga warstwa z F1 do F12, Home, End, Page Up/Down, znaki
 Esc jest u góry po lewej.
 Shift, Ctrl, Alt, Win, AltGr:
   1x dotknąć = działa dla następnego klawisza (niebieska ramka)
-  2x dotknąć = zablokowany (pomarańczowa ramka, „blok.”), np. Shift zablokowany + strzałki
-               do zaznaczania
-  3x dotknąć = wył.
+  2 dotknięcia = znowu wyłączony. Blokowania już nie ma. Przy zaznaczaniu Shift zostaje
+  włączony przez kilka strzałek, aż przyjdzie inny klawisz.
 Win działa inaczej: 1 dotknięcie dotyczy następnego klawisza (np. Win+E dla Eksploratora), 2
 dotknięcia naciskają sam klawisz Windows i otwierają menu Start.
 
@@ -125,7 +124,7 @@ Klawisz wielkości liter (obok spacji): zmienia pisownię ostatniego słowa.
     Szare „Aa” = brak znanego słowa. Klawisz zna tylko słowa wpisane tą klawiaturą i
     zapomina je po kliknięciu w okno, zmianie okna lub Enter. Nie zna słów z wprowadzania
     głosowego (np. Wispr Flow) ani z innej klawiatury.
-    WSZYSTKO WIELKIMI: dwa razy dotknąć Shift (zablokowany).
+    WSZYSTKO WIELKIMI: klawiszem Caps Lock ⇪.
 
 Na początku zdania (po . ! ? i spacji albo po Enter) następna litera robi się automatycznie
 wielka. Można to wyłączyć w ustawieniach.

@@ -500,3 +500,4 @@ unter der Maus, nach links	sous la souris, vers la gauche
 nichts gefunden	rien trouvé
 ✕ Suche beenden	✕ Arrêter la recherche
 Namen tippen, die Liste wird kleiner	Tape un nom, la liste se réduit
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Un appui vaut pour la touche suivante, deux appuis la désactivent.

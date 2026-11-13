@@ -500,3 +500,4 @@ unter der Maus, nach links	debajo del ratón, hacia la izquierda
 nichts gefunden	no se encontró nada
 ✕ Suche beenden	✕ Terminar búsqueda
 Namen tippen, die Liste wird kleiner	Escribe un nombre, la lista se acorta
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Un toque vale para la siguiente tecla, dos toques la desactivan de nuevo.

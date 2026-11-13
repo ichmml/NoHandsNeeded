@@ -105,9 +105,8 @@ Fn (in basso a sinistra): secondo livello con F1-F12, Home, Fine, Pag su/giù, c
 speciali. Esc è in alto a sinistra.
 Maiusc, Ctrl, Alt, Win, AltGr:
   1 tocco  = vale per il tasto successivo (cornice blu)
-  2 tocchi = bloccato (cornice arancione, "bloc."), ad es. Maiusc bloccato + frecce per
-             selezionare
-  3 tocchi = disattivo
+  2 tocchi = di nuovo spento. Il blocco non esiste più. Per selezionare, Maiusc resta
+  attivo su più frecce finché non arriva un altro tasto.
 Win funziona diversamente: 1 tocco vale per il tasto successivo (ad es. Win+E per Esplora
 file), 2 tocchi premono il solo tasto Windows e aprono il menu Start.
 
@@ -131,7 +130,7 @@ parola.
     "Aa" grigio = nessuna parola nota. Il tasto conosce solo le parole scritte con questa
     tastiera e le dimentica dopo un clic nella finestra, un cambio di finestra o Invio. Non
     conosce le parole dalla dettatura (ad es. Wispr Flow) o da un'altra tastiera.
-    TUTTO MAIUSCOLO: toccare due volte Maiusc (bloccato).
+    TUTTO MAIUSCOLO: con il tasto Bloc Maiusc ⇪.
 
 A inizio frase (dopo . ! ? e spazio, o dopo Invio) la lettera successiva diventa
 automaticamente maiuscola. Disattivabile nelle impostazioni.

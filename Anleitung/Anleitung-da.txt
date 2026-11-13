@@ -97,8 +97,8 @@ Fn (nederst til venstre): andet niveau med F1 til F12, Home, End, Page Up/Down, 
 Esc sidder øverst til venstre.
 Shift, Ctrl, Alt, Win, AltGr:
   1 tryk  = gælder for næste tast (blå ramme)
-  2 tryk  = låst (orange ramme, "låst"), f.eks. Shift låst + pile for at markere
-  3 tryk  = fra
+  2 tryk = fra igen. Låsning findes ikke længere. Til markering forbliver Shift slået til
+  over flere piletaster, indtil en anden tast kommer.
 Win virker anderledes: 1 tryk gælder for den næste tast (f.eks. Win+E til Stifinder), 2 tryk
 trykker Windows-tasten alene og åbner menuen Start.
 
@@ -119,7 +119,7 @@ Store/små-tast (ved siden af mellemrumstasten): ændrer skrivemåden af det sid
     Gråt "Aa" = intet ord kendt. Tasten kender kun ord, der er skrevet med dette tastatur, og
     glemmer dem efter et klik i vinduet, et vinduesskift eller Enter. Den kender ikke ord fra
     taleindtastning (f.eks. Wispr Flow) eller et andet tastatur.
-    KUN STORE BOGSTAVER: tryk to gange på Shift (låst).
+    KUN STORE BOGSTAVER: med Caps Lock-tasten ⇪.
 
 I starten af en sætning (efter . ! ? og mellemrum eller efter Enter) bliver næste bogstav
 automatisk stort. Kan slås fra i indstillingerne.

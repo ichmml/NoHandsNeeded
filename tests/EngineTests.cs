@@ -97,12 +97,14 @@ namespace Tastatur
             o.Doc.Clear(); e.ResetWord(false);
             e.Press(FindLabel(L, "⇧ Shift")); type("ab");
             Check(o.Doc.ToString() == "Ab", "Shift einmal: '" + o.Doc + "'");
-            // Shift fest
+            // Shift 2x = wieder aus (kein Feststellen mehr)
             o.Doc.Clear();
-            e.Press(FindLabel(L, "⇧ Shift")); e.Press(FindLabel(L, "⇧ Shift")); type("ab");
-            Check(o.Doc.ToString() == "AB", "Shift fest: '" + o.Doc + "'");
-            e.Press(FindLabel(L, "⇧ Shift"));
-            Check(e.Shift == ModState.Off, "Shift wieder aus");
+            e.Press(FindLabel(L, "⇧ Shift")); e.Press(FindLabel(L, "⇧ Shift"));
+            Check(e.Shift == ModState.Off, "Shift 2x getippt: wieder aus, nicht fest");
+            type("ab");
+            Check(o.Doc.ToString() == "ab", "danach klein: '" + o.Doc + "'");
+            e.Press(FindLabel(L, "Strg")); e.Press(FindLabel(L, "Strg"));
+            Check(e.Ctrl == ModState.Off, "Strg 2x: aus");
 
             // Strg+C
             o.Log.Clear();
@@ -110,12 +112,13 @@ namespace Tastatur
             Check(o.Log.Last() == "KEY:c+Ctrl", "Strg+C: " + o.Log.Last());
             Check(e.Ctrl == ModState.Off, "Strg nach einem Druck wieder aus");
 
-            // Shift fest + Pfeil = Markieren
+            // Shift 1x + mehrere Pfeile = Markieren, danach wieder ohne Shift
             o.Log.Clear();
-            e.Press(FindLabel(L, "⇧ Shift")); e.Press(FindLabel(L, "⇧ Shift"));
-            e.Press(FindLabel(L, "←"));
-            Check(o.Log.Last() == "VK:25+Shift", "Shift+Pfeil: " + o.Log.Last());
             e.Press(FindLabel(L, "⇧ Shift"));
+            e.Press(FindLabel(L, "←")); e.Press(FindLabel(L, "←"));
+            Check(o.Log.Count >= 2 && o.Log[o.Log.Count - 1] == "VK:25+Shift" && o.Log[o.Log.Count - 2] == "VK:25+Shift", "Shift+Pfeil mehrfach: " + string.Join(" | ", o.Log));
+            o.Doc.Clear(); type("x");
+            Check(o.Doc.ToString() == "x" && e.Shift == ModState.Off, "nach dem Markieren wieder klein: '" + o.Doc + "'");
 
             // AltGr
             o.Doc.Clear(); e.ResetWord(false);

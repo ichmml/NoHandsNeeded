@@ -526,3 +526,4 @@ unter der Maus, nach links	unter der Maus, nach links
 nichts gefunden	nichts gefunden
 ✕ Suche beenden	✕ Suche beenden
 Namen tippen, die Liste wird kleiner	Namen tippen, die Liste wird kleiner
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.

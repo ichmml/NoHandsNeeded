@@ -106,9 +106,8 @@ Fn (abajo a la izquierda): segundo nivel con F1 a F12, Inicio, Fin, Re Pág/Av P
 especiales. Esc está arriba a la izquierda.
 Mayús, Ctrl, Alt, Win, AltGr:
   1 toque   = vale para la tecla siguiente (marco azul)
-  2 toques  = bloqueada (marco naranja, "bloq."), p. ej. Mayús bloqueada + flechas para
-              seleccionar
-  3 toques  = desactivada
+  2 toques = otra vez apagado. Ya no se puede bloquear. Para seleccionar, Mayús sigue
+  activa durante varias flechas hasta que llega otra tecla.
 Win funciona distinto: 1 toque vale para la siguiente tecla (p. ej. Win+E para el
 Explorador), 2 toques pulsan solo la tecla Windows y abren el menú Inicio.
 
@@ -132,7 +131,7 @@ palabra.
     "Aa" gris = ninguna palabra conocida. La tecla solo conoce palabras escritas con este
     teclado y las olvida tras un clic en la ventana, un cambio de ventana o Intro. No conoce
     palabras del dictado (p. ej. Wispr Flow) ni de otro teclado.
-    TODO MAYÚSCULAS: tocar Mayús dos veces (bloqueada).
+    TODO MAYÚSCULAS: con la tecla Bloq Mayús ⇪.
 
 Al principio de una frase (tras . ! ? y espacio, o tras Intro) la siguiente letra pasa
 automáticamente a mayúscula. Se puede desactivar en los ajustes.

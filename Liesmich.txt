@@ -97,8 +97,8 @@ Fn (unten links): zweite Ebene mit F1 bis F12, Pos1, Ende, Bild auf/ab, Sonderze
 Esc sitzt oben links.
 Shift, Strg, Alt, Win, AltGr:
   1x tippen = gilt für die nächste Taste (blauer Rahmen)
-  2x tippen = fest (oranger Rahmen, "fest"), z. B. Shift fest + Pfeile zum Markieren
-  3x tippen = aus
+  2x tippen = wieder aus. Feststellen gibt es nicht mehr. Zum Markieren bleibt Shift über
+  mehrere Pfeiltasten an, bis eine andere Taste kommt.
 Win ist anders: 1x tippen gilt für die nächste Taste (z. B. Win+E für den Explorer), 2x
 tippen drückt die Windows-Taste allein und öffnet das Startmenü.
 
@@ -120,7 +120,7 @@ Groß/Klein-Taste (neben der Leertaste): ändert die Schreibweise des letzten Wo
     getippt wurden, und vergisst sie nach einem Klick ins Fenster, einem Fensterwechsel
     oder Enter. Wörter aus Spracheingabe (z. B. Wispr Flow) oder einer anderen Tastatur
     kennt sie nicht.
-    GANZ GROSS geht über Shift zweimal tippen (fest).
+    GANZ GROSS geht über die Feststelltaste ⇪.
 
 Am Satzanfang (nach . ! ? und Leerzeichen oder nach Enter) wird der nächste Buchstabe
 automatisch groß. Abschaltbar in den Einstellungen.

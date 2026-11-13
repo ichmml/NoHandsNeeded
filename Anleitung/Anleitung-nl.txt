@@ -99,8 +99,8 @@ Fn (linksonder): tweede laag met F1 tot F12, Home, End, Page Up/Down, speciale t
 Esc zit linksboven.
 Shift, Ctrl, Alt, Win, AltGr:
   1x tikken = geldt voor de volgende toets (blauw kader)
-  2x tikken = vast (oranje kader, "vast"), bijv. Shift vast + pijlen om te selecteren
-  3x tikken = uit
+  2x tikken = weer uit. Vastzetten bestaat niet meer. Om te selecteren blijft Shift aan
+  over meerdere pijltoetsen, tot er een andere toets komt.
 Win werkt anders: 1x tikken geldt voor de volgende toets (bijv. Win+E voor de Verkenner), 2x
 tikken drukt de Windows-toets alleen in en opent het Startmenu.
 
@@ -121,7 +121,7 @@ Hoofdlettertoets (naast de spatiebalk): verandert de schrijfwijze van het laatst
     Grijs "Aa" = geen woord bekend. De toets kent alleen woorden die met dit toetsenbord
     zijn getypt en vergeet ze na een klik in het venster, een vensterwissel of Enter.
     Woorden uit spraakinvoer (bijv. Wispr Flow) of een ander toetsenbord kent hij niet.
-    ALLES HOOFDLETTERS: Shift twee keer tikken (vast).
+    ALLES HOOFDLETTERS: met de Caps Lock-toets ⇪.
 
 Aan het begin van een zin (na . ! ? en spatie of na Enter) wordt de volgende letter
 automatisch een hoofdletter. Uit te zetten in de instellingen.

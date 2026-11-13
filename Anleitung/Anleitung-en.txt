@@ -98,8 +98,8 @@ Fn (bottom left): second layer with F1 to F12, Home, End, Page up/down, special 
 Esc is at the top left.
 Shift, Ctrl, Alt, Win, AltGr:
   tap once   = applies to the next key (blue frame)
-  tap twice  = locked (orange frame, "locked"), e.g. Shift locked + arrows to select
-  three times = off
+  tap twice = off again. There is no locking any more. For selecting, Shift stays on
+  across several arrow keys until another key comes.
 Win works differently: tap once for the next key (e.g. Win+E for Explorer), tap twice to
 press the Windows key on its own and open the Start menu.
 
@@ -120,7 +120,7 @@ Case key (next to the space bar): changes the case of the last word.
     Grey "Aa" = no word known. The key only knows words typed with this keyboard and
     forgets them after a click into the window, a window switch or Enter. It does not know
     words from voice input (e.g. Wispr Flow) or another keyboard.
-    ALL CAPS: tap Shift twice (locked).
+    ALL CAPS: use the Caps Lock key ⇪.
 
 At the start of a sentence (after . ! ? and a space, or after Enter) the next letter is
 capitalized automatically. Can be turned off in the settings.

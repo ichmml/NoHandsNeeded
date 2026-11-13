@@ -500,3 +500,4 @@ unter der Maus, nach links	pod myší, doleva
 nichts gefunden	nic nenalezeno
 ✕ Suche beenden	✕ Ukončit hledání
 Namen tippen, die Liste wird kleiner	Napiš název, seznam se zkrátí
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Jedno klepnutí platí pro další klávesu, dvě klepnutí ji zase vypnou.

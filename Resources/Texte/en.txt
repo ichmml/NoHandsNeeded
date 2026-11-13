@@ -526,3 +526,4 @@ unter der Maus, nach links	below the mouse, to the left
 nichts gefunden	nothing found
 ✕ Suche beenden	✕ End search
 Namen tippen, die Liste wird kleiner	Type a name, the list gets shorter
+Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Tap once for the next key, tap twice to switch it off again.
