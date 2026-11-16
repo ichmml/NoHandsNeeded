@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klávesnice na obrazovce, Verze 1.02
+Klávesnice na obrazovce, Verze 1.03
 
 Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato
 klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním
@@ -198,6 +198,12 @@ Windows česky, spustí se česky s českým rozložením.
 
 Návrhy bez diakritiky: „zolw“ dá „żółw“, „cafe“ dá „café“, „nino“ dá „niño“. Speciální znaky
 tedy nemusíš hledat. Platí to i pro naučená slova.
+
+Slovní zásoba: každý jazyk má kolem 200 000 slov, včetně množného čísla, pádů a tvarů sloves.
+Napíšeš-li malým písmenem slovo, které se píše velkým, správný tvar stojí úplně vpředu: „praha“
+dá „Praha“, „evropa“ dá „Evropa“. Jedno klepnutí nahradí napsané.
+Typické dvojice slov jsou vestavěné: po „dobrý“ přijde „den“, po „s“ přijde „pozdravem“,
+po „děkuji“ přijde „moc“. Co sám často píšeš, stojí před nimi.
 
 Rozložení kláves: řídí se jazykem (ve smíšeném režimu prvním jazykem).
   Němčina QWERTZ, angličtina a nizozemština QWERTY, francouzština AZERTY, dánština s æ ø å,

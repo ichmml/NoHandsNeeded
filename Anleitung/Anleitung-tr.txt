@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Ekran klavyesi, Sürüm 1.02
+Ekran klavyesi, Sürüm 1.03
 
 Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
 yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız
@@ -200,6 +200,12 @@ Türkçe Q düzeniyle başlar.
 
 Aksansız öneriler: "zolw" "żółw" getirir, "cafe" "café", "ucak" "uçak" getirir. Yani özel
 karakter aramana gerek yok. Bu öğrenilen kelimeler için de geçerlidir.
+
+Kelime hazinesi: her dilde yaklaşık 200.000 kelime var, çoğullar ve ekli biçimler dahil.
+Büyük harfle yazılan bir kelimeyi küçük yazarsan doğru yazılış en önde durur: "türkiye"
+"Türkiye" getirir, "ankara" "Ankara" getirir. Bir tıklama yazdığının yerine geçer.
+Sık kullanılan kelime çiftleri hazır gelir: "çok" sonrası "teşekkür", "iyi" sonrası "günler",
+"geçmiş" sonrası "olsun". Kendin sık yazdıkların bunların önüne geçer.
 
 Tuş düzeni: dile uyum sağlar (karışık modda ilk dile).
   Almanca QWERTZ, İngilizce ve Felemenkçe QWERTY, Fransızca AZERTY, Danca æ ø å ile, Lehçe

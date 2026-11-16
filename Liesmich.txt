@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.02
+Bildschirmtastatur, Version 1.03
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -201,6 +201,12 @@ auf Niederländisch, startet sie mit Niederländisch und niederländischem Layou
 
 Vorschläge ohne Akzente: "zolw" bringt "żółw", "cafe" bringt "café", "nino" bringt "niño".
 Man muss Sonderzeichen also nicht suchen. Das gilt auch für gelernte Wörter.
+
+Wortschatz: Jede Sprache bringt rund 200.000 Wörter mit, auch Mehrzahl, Fälle und Verbformen.
+Tippt man ein Wort klein, das man groß schreibt, steht die richtige Schreibweise ganz vorne:
+"karton" bringt "Karton", "montag" bringt "Montag". Ein Klick ersetzt das Getippte.
+Typische Wortfolgen sind schon eingebaut: Nach "vielen" kommt "Dank", nach "freundlichen"
+kommt "Grüßen", nach "ich" kommt "habe". Was man selbst oft schreibt, steht davor.
 
 Tastenlayout: passt sich der Sprache an (bei gemischt die erste Sprache).
   Deutsch QWERTZ, Englisch und Niederländisch QWERTY, Französisch AZERTY, Dänisch mit æ ø å,

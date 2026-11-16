@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Clavier virtuel, Version 1.02
+Clavier virtuel, Version 1.03
 
 Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est
 exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent
@@ -219,6 +219,12 @@ Windows est en français, il démarre en français avec la disposition AZERTY.
 Suggestions sans accents : « zolw » donne « żółw », « cafe » donne « café », « nino » donne
 « niño ». Pas besoin de chercher les caractères spéciaux. Cela vaut aussi pour les mots
 appris.
+
+Vocabulaire : chaque langue contient environ 200 000 mots, avec pluriels et formes verbales.
+Si tu tapes en minuscules un mot qui prend une majuscule, la bonne écriture vient en premier :
+« france » donne « France », « europe » donne « Europe ». Un clic remplace ce que tu as tapé.
+Les suites de mots courantes sont intégrées : après « merci » vient « beaucoup », après
+« bonne » vient « journée », après « je » vient « suis ». Ce que tu écris souvent passe avant.
 
 Disposition des touches : suit la langue (en mode mélangé, la première langue).
   Allemand QWERTZ, anglais et néerlandais QWERTY, français AZERTY, danois avec æ ø å, polonais

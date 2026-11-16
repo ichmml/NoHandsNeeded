@@ -15,6 +15,7 @@ if not exist "%CSC%" (
 
 set "RES=/resource:Resources\quadstick_beispiel.png,quadstick_beispiel.png"
 for %%f in (Resources\wortliste_*.txt.gz) do set "RES=!RES! /resource:%%f,%%~nxf"
+for %%f in (Resources\wortfolgen_*.txt.gz) do set "RES=!RES! /resource:%%f,%%~nxf"
 for %%f in (Resources\Texte\*.txt) do set "RES=!RES! /resource:%%f,texte_%%~nxf"
 for %%f in (Anleitung\Anleitung-*.txt) do set "RES=!RES! /resource:%%f,%%~nxf"
 set "REFS=/r:System.dll /r:System.Core.dll /r:System.Drawing.dll /r:System.Windows.Forms.dll /r:Accessibility.dll /r:System.Security.dll /r:System.IO.Compression.dll /r:System.IO.Compression.FileSystem.dll"

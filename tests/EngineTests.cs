@@ -150,6 +150,7 @@ namespace Tastatur
             I18nTests.Run(args[0], Check);
             MailTests.Run(args[0], Check);
             IbanTests.Run(args[0], Check);
+            V103Tests.Run(args[0], Check);
             OwnSecretTests.Run(Check);
 
             Console.WriteLine(fails == 0 ? "\nAlle Tests bestanden." : "\n" + fails + " Fehler.");

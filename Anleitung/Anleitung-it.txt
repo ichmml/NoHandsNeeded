@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Tastiera su schermo, Versione 1.02
+Tastiera su schermo, Versione 1.03
 
 Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che
 è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a
@@ -212,6 +212,12 @@ Al primissimo avvio la tastiera prende la lingua di Windows e aggiunge l'inglese
 
 Suggerimenti senza accenti: "zolw" dà "żółw", "cafe" dà "café", "nino" dà "niño". Non devi
 quindi cercare i caratteri speciali. Vale anche per le parole imparate.
+
+Vocabolario: ogni lingua ha circa 200.000 parole, con plurali e forme verbali. Se scrivi in
+minuscolo una parola che va maiuscola, la grafia giusta compare per prima: "roma" dà "Roma",
+"italia" dà "Italia". Un clic sostituisce quello che hai scritto.
+Le coppie di parole tipiche sono già incluse: dopo "grazie" viene "mille", dopo "buona" viene
+"giornata", dopo "come" viene "stai". Quello che scrivi spesso tu viene prima.
 
 Layout dei tasti: segue la lingua (nel modo misto la prima lingua).
   Tedesco QWERTZ, inglese e olandese QWERTY, francese AZERTY, danese con æ ø å, polacco con

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Skærmtastatur, Version 1.02
+Skærmtastatur, Version 1.03
 
 Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det,
 tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et
@@ -199,6 +199,12 @@ dansk, starter det med dansk og dansk layout.
 
 Forslag uden accenter: "zolw" giver "żółw", "cafe" giver "café", "nino" giver "niño".
 Du behøver altså ikke lede efter specialtegn. Det gælder også lærte ord.
+
+Ordforråd: hvert sprog har omkring 200.000 ord, også flertal og bøjningsformer. Skriver du et
+ord med lille, som staves med stort, står den rigtige stavemåde forrest: "danmark" giver
+"Danmark", "københavn" giver "København". Et klik erstatter det, du har skrevet.
+Typiske ordpar er indbygget: efter "mange" kommer "tak", efter "venlig" kommer "hilsen",
+efter "jeg" kommer "er". Det, du selv skriver tit, står foran.
 
 Tastaturlayout: følger sproget (ved blandet det første sprog).
   Tysk QWERTZ, engelsk og hollandsk QWERTY, fransk AZERTY, dansk med æ ø å, polsk med

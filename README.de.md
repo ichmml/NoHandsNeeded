@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-Aktuelle Version: **1.02**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Aktuelle Version: **1.03**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
 zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.
@@ -14,7 +14,7 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 
 - **Klaut nie den Fokus.** Was man tippt, landet immer im richtigen Programm.
 - **Eigener Knopf in der Taskleiste** mit dem Tastatur-Symbol: Ein Klick öffnet die Tastatur immer ganz (auch aus dem eingeklappten runden Knopf), der Fokus geht sofort zurück ins Programm.
-- **11 Sprachen eingebaut:** Deutsch, Englisch, Niederländisch, Französisch, Dänisch, Polnisch, Tschechisch, Italienisch, Spanisch, Türkisch, Russisch. Tastenlayout passend zur Sprache, Vorschläge auch ohne Akzente ("cafe" findet "café").
+- **11 Sprachen eingebaut:** Deutsch, Englisch, Niederländisch, Französisch, Dänisch, Polnisch, Tschechisch, Italienisch, Spanisch, Türkisch, Russisch. Tastenlayout passend zur Sprache, Vorschläge auch ohne Akzente ("cafe" findet "café"). Rund 200.000 Wörter pro Sprache mit Mehrzahl und Verbformen, die richtige Groß/Kleinschreibung steht vorne ("karton" bringt "Karton"), typische Wortfolgen sind eingebaut ("vielen" → "Dank").
 - **Oberfläche in der Windows-Sprache** und eine Einführung zum Durchklicken beim ersten Start.
 - **Lernt mit:** neue Wörter, Lieblingswörter, typische Wortfolgen, die eigene Schreibweise und Zahlen wie Geburtsdatum, Handynummer, Kundennummer oder IBAN (nur gültige), schon nach dem ersten Mal vorgeschlagen. Auf Wunsch auch aus eigenen Texten (Ordner mit .txt, .md, .docx, Mails). Gespeichert wird nur Statistik, alles bleibt auf dem PC.
 - **Merkt sich E-Mail-Adressen:** einmal tippen, beim nächsten Mal nach 3 Buchstaben vorgeschlagen. In Feldern für E-Mail oder Benutzername stehen die Adressen sofort oben.
@@ -94,7 +94,8 @@ Die Tastatur ist kostenlos und bleibt es. Wenn sie dir hilft, freue ich mich üb
 ## Lizenz
 
 - **Programmcode:** MIT-Lizenz, siehe [LICENSE](LICENSE)
-- **Wortlisten** (in der .exe und im Ordner `sprachpakete`): abgeleitet aus
-  [wordfreq](https://github.com/rspeer/wordfreq) von Robyn Speer, Daten unter
-  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Die Wortlisten stehen
-  deshalb ebenfalls unter CC BY-SA 4.0. Details: [LIZENZEN-WORTLISTEN.md](LIZENZEN-WORTLISTEN.md)
+- **Wortlisten und Wortfolgen** (in der .exe): erstellt aus [wordfreq](https://github.com/rspeer/wordfreq)
+  (CC BY-SA 4.0), Hunspell-Wörterbüchern, Sätzen aus [Common Voice](https://github.com/common-voice/common-voice)
+  (CC0) und Baumbanken von [Universal Dependencies](https://universaldependencies.org/)
+  (CC BY-SA 4.0 / CC BY 4.0). Die Listen stehen deshalb unter CC BY-SA 4.0.
+  Details: [LIZENZEN-WORTLISTEN.md](LIZENZEN-WORTLISTEN.md)

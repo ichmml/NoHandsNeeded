@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.02
+On-screen keyboard, Version 1.03
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or
@@ -201,6 +201,12 @@ set to Dutch, it starts with Dutch and the Dutch layout.
 Suggestions without accents: "zolw" brings "żółw", "cafe" brings "café", "nino" brings
 "niño". So you do not have to search for special characters. This also applies to learned
 words.
+
+Vocabulary: every language comes with close to 200,000 words, including plurals, cases and verb
+forms. If you type a word in lower case that is written with a capital, the right spelling comes
+first: "monday" brings "Monday", "iphone" brings "iPhone". One click replaces what you typed.
+Typical word pairs are built in: after "thank" comes "you", after "kind" comes "regards",
+after "I" comes "am". What you write often yourself comes first.
 
 Key layout: follows the language (with mixed, the first language).
   German QWERTZ, English and Dutch QWERTY, French AZERTY, Danish with æ ø å, Polish with

@@ -40,11 +40,28 @@ namespace Tastatur
                 }
                 // kyrillische Buchstaben (z. B. й) bleiben, sie sind eigene Buchstaben
                 if (c >= 0x400 && c <= 0x4FF) { sb.Append(c); continue; }
-                string d = c.ToString().Normalize(NormalizationForm.FormD);
-                foreach (char x in d)
-                    if (System.Globalization.CharUnicodeInfo.GetUnicodeCategory(x) != System.Globalization.UnicodeCategory.NonSpacingMark) sb.Append(x);
+                if (c <= 0x7F) { sb.Append(c); continue; }
+                sb.Append(FoldChar(c));
             }
             return sb.ToString();
+        }
+
+        private static readonly Dictionary<char, string> _charFold = new Dictionary<char, string>();
+
+        /// <summary>Ein Zeichen ohne Akzent (é -> e). Einmal ausgerechnet, dann gemerkt.</summary>
+        private static string FoldChar(char c)
+        {
+            string r;
+            lock (_charFold)
+            {
+                if (_charFold.TryGetValue(c, out r)) return r;
+                var sb = new StringBuilder(2);
+                foreach (char x in c.ToString().Normalize(NormalizationForm.FormD))
+                    if (System.Globalization.CharUnicodeInfo.GetUnicodeCategory(x) != System.Globalization.UnicodeCategory.NonSpacingMark) sb.Append(x);
+                r = sb.ToString();
+                _charFold[c] = r;
+            }
+            return r;
         }
 
         /// <summary>Ist die Eingabe schon ohne Akzente? Nur dann wird auch akzentfrei gesucht.</summary>
@@ -75,6 +92,8 @@ namespace Tastatur
 
         public string Code = "";
         public string Name = "";
+        /// <summary>Eingebaute Wortfolgen (kann null sein).</summary>
+        public volatile Bigrams Pairs;
 
         public int Count { get { return _words == null ? 0 : _words.Length; } }
 
@@ -90,8 +109,10 @@ namespace Tastatur
         /// <summary>Laden. Zeilen mit # werden übersprungen. Liefert die Zahl der gültigen Zeilen.</summary>
         public int Load(Stream s)
         {
-            var list = new List<Tuple<string, string, int>>();
-            using (var r = new StreamReader(s, Encoding.UTF8))
+            var keys = new List<string>(1024);
+            var words = new List<string>(1024);
+            var freqs = new List<int>(1024);
+            using (var r = new StreamReader(s, Encoding.UTF8, false, 1 << 16))
             {
                 string line;
                 bool first = true;
@@ -100,42 +121,74 @@ namespace Tastatur
                     if (first)
                     {
                         first = false;
-                        var h = ReadHeader(line.TrimStart('﻿'));
+                        var h = ReadHeader(line.TrimStart('\uFEFF'));
                         if (h != null) { if (Code.Length == 0) Code = h.Item1; if (Name.Length == 0) Name = h.Item2; continue; }
                     }
-                    if (line.StartsWith("#")) continue;
+                    if (line.Length == 0 || line[0] == '#') continue;
                     int tab = line.IndexOf('\t');
                     if (tab <= 0) continue;
-                    string w = line.Substring(0, tab).Trim();
-                    if (w.Length == 0) continue;
-                    int f;
-                    if (!int.TryParse(line.Substring(tab + 1).Trim(), out f)) continue;
-                    list.Add(Tuple.Create(w.ToLowerInvariant(), w, f));
+                    int f = 0, j = tab + 1;
+                    bool num = false, neg = false;
+                    while (j < line.Length && line[j] == ' ') j++;
+                    if (j < line.Length && line[j] == '-') { neg = true; j++; }
+                    for (; j < line.Length && line[j] >= '0' && line[j] <= '9'; j++) { f = f * 10 + (line[j] - '0'); num = true; }
+                    while (j < line.Length && char.IsWhiteSpace(line[j])) j++;
+                    if (!num || j != line.Length) continue;
+                    if (neg) f = -f;
+                    string w = line.Substring(0, tab);
+                    if (w[0] == ' ' || w[w.Length - 1] == ' ') { w = w.Trim(); if (w.Length == 0) continue; }
+                    string k = w.ToLowerInvariant();
+                    if (k == w) k = w;   // gleiche Zeichenkette teilen, spart Speicher
+                    keys.Add(k); words.Add(w); freqs.Add(f);
                 }
             }
-            list.Sort((a, b) => string.CompareOrdinal(a.Item1, b.Item1));
-            _keys = new string[list.Count];
-            _words = new string[list.Count];
-            _freq = new int[list.Count];
-            for (int i = 0; i < list.Count; i++)
+            int n = keys.Count;
+            _keys = keys.ToArray();
+            var order = new int[n];
+            for (int i = 0; i < n; i++) order[i] = i;
+            bool sorted = true;   // die eingebauten Listen sind schon alphabetisch: dann nicht sortieren
+            for (int i = 1; i < n && sorted; i++) if (string.CompareOrdinal(_keys[i - 1], _keys[i]) > 0) sorted = false;
+            if (!sorted) Array.Sort(_keys, order, StringComparer.Ordinal);
+            _words = new string[n];
+            _freq = new int[n];
+            for (int i = 0; i < n; i++) { _words[i] = words[order[i]]; _freq[i] = freqs[order[i]]; }
+            words = null; keys = null; freqs = null;
+
+            // häufigste Wörter für leere Eingabe: nur die besten 200 suchen, nicht alles sortieren
+            var top = new List<int>(256);
+            int minTop = int.MinValue;
+            for (int i = 0; i < n; i++)
             {
-                _keys[i] = list[i].Item1; _words[i] = list[i].Item2; _freq[i] = list[i].Item3;
+                if (top.Count >= 200 && _freq[i] <= minTop) continue;
+                top.Add(i);
+                if (top.Count > 400)
+                {
+                    top.Sort((x, y) => _freq[y] != _freq[x] ? _freq[y].CompareTo(_freq[x]) : x.CompareTo(y));
+                    top.RemoveRange(200, top.Count - 200);
+                    minTop = _freq[top[199]];
+                }
             }
-            var idx = new int[list.Count];
-            for (int i = 0; i < idx.Length; i++) idx[i] = i;
-            Array.Sort(idx, (a, b) => _freq[b].CompareTo(_freq[a]));
-            _topByFreq = new int[Math.Min(200, idx.Length)];
-            Array.Copy(idx, _topByFreq, _topByFreq.Length);
-            var folds = new List<KeyValuePair<string, int>>();
-            for (int i = 0; i < _keys.Length; i++)
+            top.Sort((x, y) => _freq[y] != _freq[x] ? _freq[y].CompareTo(_freq[x]) : x.CompareTo(y));
+            if (top.Count > 200) top.RemoveRange(200, top.Count - 200);
+            _topByFreq = top.ToArray();
+
+            var fk = new List<string>();
+            var fi = new List<int>();
+            for (int i = 0; i < n; i++)
             {
-                string f = TextFold.Fold(_keys[i]);
-                if (f != _keys[i]) folds.Add(new KeyValuePair<string, int>(f, i));
+                string k = _keys[i];
+                bool plain = true;
+                foreach (char c in k) if (c > 0x7F) { plain = false; break; }
+                if (plain) continue;
+                string f = TextFold.Fold(k);
+                if (f != k) { fk.Add(f); fi.Add(i); }
             }
-            folds.Sort((a, b) => string.CompareOrdinal(a.Key, b.Key));
-            _foldKeys = folds.Select(x => x.Key).ToArray();
-            _foldIdx = folds.Select(x => x.Value).ToArray();
-            return list.Count;
+            var fkArr = fk.ToArray();
+            var fiArr = fi.ToArray();
+            Array.Sort(fkArr, fiArr, StringComparer.Ordinal);
+            _foldKeys = fkArr;
+            _foldIdx = fiArr;
+            return n;
         }
 
         public void LoadWords(IEnumerable<string> words, int freq)
@@ -188,6 +241,9 @@ namespace Tastatur
                     if (have.Add(_foldIdx[i])) best.Add(_foldIdx[i]);
             }
             best.Sort((a, b) => _freq[b].CompareTo(_freq[a]));
+            // gleiches Wort in anderer Schreibweise (karton -> Karton) immer mitnehmen und nach vorn
+            int same = best.FindIndex(i => _keys[i].Length == p.Length && _keys[i] == p && _words[i] != typed);
+            if (same > 0) { int v = best[same]; best.RemoveAt(same); best.Insert(0, v); }
             for (int j = 0; j < best.Count && j < max; j++) result.Add(new Scored(_words[best[j]], _freq[best[j]]));
             return result;
         }
@@ -218,13 +274,27 @@ namespace Tastatur
         {
             var result = new List<string>();
             var seen = new HashSet<string>();
+            string fix = null;   // richtige Schreibweise des Getippten (karton -> Karton, iphone -> iPhone)
             foreach (var c in cands)
             {
                 string w = Shape(c.Word, typed, capitalize);
-                if (seen.Add(w)) result.Add(w);
+                if (fix == null && IsCaseFix(w, typed)) fix = w;
+            }
+            if (fix != null) { result.Add(fix); seen.Add(fix); }
+            foreach (var c in cands)
+            {
                 if (result.Count >= max) break;
+                string w = Shape(c.Word, typed, capitalize);
+                if (w == typed) continue;
+                if (seen.Add(w)) result.Add(w);
             }
             return result;
+        }
+
+        /// <summary>Gleiches Wort, nur anders groß/klein geschrieben?</summary>
+        public static bool IsCaseFix(string word, string typed)
+        {
+            return !string.IsNullOrEmpty(typed) && word != typed && string.Equals(word, typed, StringComparison.OrdinalIgnoreCase);
         }
 
         /// <summary>Groß-/Kleinschreibung an Eingabe und Satzanfang anpassen.</summary>
@@ -243,6 +313,65 @@ namespace Tastatur
         {
             foreach (char c in s) if (char.IsLetter(c) && !char.IsUpper(c)) return false;
             return true;
+        }
+    }
+
+    /// <summary>
+    /// Eingebaute Wortfolgen einer Sprache: welche Wörter folgen oft auf ein Wort ("vielen" -> "Dank").
+    /// Datei: wort&lt;TAB&gt;folgewort&lt;TAB&gt;punkte ... (Punkte 1 bis 99 = Anteil in Prozent).
+    /// </summary>
+    internal class Bigrams
+    {
+        private readonly Dictionary<string, Scored[]> _next = new Dictionary<string, Scored[]>(StringComparer.Ordinal);
+        private readonly bool _turkish;
+        private static readonly Scored[] None = new Scored[0];
+
+        public Bigrams(string code) { _turkish = code == "tr"; }
+
+        public int Count { get { return _next.Count; } }
+
+        public string Key(string w)
+        {
+            if (string.IsNullOrEmpty(w)) return "";
+            if (_turkish) w = w.Replace('I', 'ı').Replace('İ', 'i');
+            return w.ToLowerInvariant();
+        }
+
+        public int Load(Stream s)
+        {
+            using (var r = new StreamReader(s, Encoding.UTF8))
+            {
+                string line;
+                while ((line = r.ReadLine()) != null)
+                {
+                    if (line.Length == 0 || line[0] == '#') continue;
+                    var p = line.Split('\t');
+                    if (p.Length < 3) continue;
+                    var list = new List<Scored>((p.Length - 1) / 2);
+                    for (int i = 1; i + 1 < p.Length; i += 2)
+                    {
+                        int sc;
+                        if (p[i].Length > 0 && int.TryParse(p[i + 1], out sc)) list.Add(new Scored(p[i], sc));
+                    }
+                    if (list.Count > 0) _next[Key(p[0])] = list.ToArray();
+                }
+            }
+            return _next.Count;
+        }
+
+        /// <summary>Typische Folgewörter, das häufigste zuerst. Nie null.</summary>
+        public Scored[] NextOf(string prev)
+        {
+            Scored[] r;
+            return prev != null && _next.TryGetValue(Key(prev), out r) ? r : None;
+        }
+
+        /// <summary>Punkte (1 bis 99), wenn next oft auf prev folgt, sonst 0.</summary>
+        public int Of(string prev, string next)
+        {
+            if (prev == null || next == null) return 0;
+            foreach (var x in NextOf(prev)) if (string.Equals(x.Word, next, StringComparison.OrdinalIgnoreCase)) return x.Freq;
+            return 0;
         }
     }
 }

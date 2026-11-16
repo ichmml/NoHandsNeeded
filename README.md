@@ -2,7 +2,7 @@
 
 **English** · [Deutsch](README.de.md)
 
-Current version: **1.02**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Current version: **1.03**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 An on-screen keyboard for Windows, built for people who use the PC without their hands,
 for example with a mouth controller (Quadstick), a head mouse or eye tracking.
@@ -19,7 +19,7 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 
 - **Never steals the focus.** What you type always lands in the right program.
 - **Own taskbar button** with the keyboard icon: one click always opens the keyboard fully (also from the collapsed round button), the focus goes straight back to your program.
-- **11 languages built in:** German, English, Dutch, French, Danish, Polish, Czech, Italian, Spanish, Turkish, Russian. Key layout matching the language, suggestions also without accents ("cafe" finds "café").
+- **11 languages built in:** German, English, Dutch, French, Danish, Polish, Czech, Italian, Spanish, Turkish, Russian. Key layout matching the language, suggestions also without accents ("cafe" finds "café"). About 200,000 words per language including plurals and verb forms, the right capitalization comes first ("monday" brings "Monday"), and typical word pairs are built in ("thank" → "you").
 - **Interface, introduction and manual in the Windows language**, English otherwise.
 - **Learns as you write:** new words, favourite words, typical word sequences, your own spelling and numbers such as a birth date, phone number, customer number or IBAN (only valid ones), suggested right after the first time. Optionally also from your own texts (folder with .txt, .md, .docx, mails). Only statistics are stored, everything stays on the PC.
 - **Remembers e-mail addresses:** type one once, next time it is suggested after 3 letters. In e-mail and user name fields the addresses appear right away.
@@ -101,7 +101,8 @@ The keyboard is free and will stay free. If it helps you, I'd be happy about a d
 ## License
 
 - **Program code:** MIT license, see [LICENSE](LICENSE)
-- **Word lists** (in the .exe and in the `sprachpakete` folder): derived from
-  [wordfreq](https://github.com/rspeer/wordfreq) by Robyn Speer, data under
-  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The word lists are
-  therefore also under CC BY-SA 4.0. Details: [LIZENZEN-WORTLISTEN.md](LIZENZEN-WORTLISTEN.md)
+- **Word lists and word pairs** (in the .exe): built from [wordfreq](https://github.com/rspeer/wordfreq)
+  (CC BY-SA 4.0), Hunspell dictionaries, [Common Voice](https://github.com/common-voice/common-voice)
+  sentences (CC0) and [Universal Dependencies](https://universaldependencies.org/) treebanks
+  (CC BY-SA 4.0 / CC BY 4.0). The lists are therefore under CC BY-SA 4.0.
+  Details: [LIZENZEN-WORTLISTEN.md](LIZENZEN-WORTLISTEN.md)

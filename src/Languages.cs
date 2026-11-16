@@ -113,7 +113,10 @@ namespace Tastatur
             try
             {
                 if (info.BuiltIn)
+                {
                     using (var s = OpenBuiltIn(code)) { if (s == null) return null; p.Load(s); }
+                    LoadPairs(p);
+                }
                 else
                     using (var s = File.OpenRead(info.FilePath)) p.Load(s);
             }
@@ -123,6 +126,31 @@ namespace Tastatur
         }
 
         public void Unload(string code) { _loaded.Remove(code); }
+
+        /// <summary>Eingebaute Wortfolgen dazuladen (wortfolgen_xx.txt.gz). Fehlen sie, geht es ohne.</summary>
+        private void LoadPairs(Predictor p)
+        {
+            try
+            {
+                var gz = _resource("wortfolgen_" + p.Code + ".txt.gz");
+                if (gz == null) return;
+                Action load = () =>
+                {
+                    try
+                    {
+                        var b = new Bigrams(p.Code);
+                        using (var s = new System.IO.Compression.GZipStream(gz, System.IO.Compression.CompressionMode.Decompress)) b.Load(s);
+                        p.Pairs = b;   // erst fertig geladen, dann sichtbar
+                    }
+                    catch (Exception e) { Log.Write("Wortfolgen " + p.Code + ": " + e.Message); }
+                };
+                if (PairsInBackground) Task.Run(load); else load();
+            }
+            catch (Exception e) { Log.Write("Wortfolgen " + p.Code + ": " + e.Message); }
+        }
+
+        /// <summary>Wortfolgen im Hintergrund laden, damit die Tastatur sofort da ist.</summary>
+        public bool PairsInBackground = true;
 
         // ---------- eigene Begriffe ----------
 
@@ -379,6 +407,23 @@ namespace Tastatur
 
         private static double Ln(int c) { return Math.Log(1 + Math.Max(0, c)); }
 
+        /// <summary>Bonus beim Weitertippen, wenn das Wort laut eingebauten Wortfolgen oft auf prev folgt.</summary>
+        /// <summary>
+        /// form wird auf die Schreibweise aus der Wortfolge gesetzt (freundlichen -> Grüßen, nicht grüßen),
+        /// außer der Nutzer hat eine eigene Schreibweise gelernt (keepForm).
+        /// </summary>
+        private static double BuiltInPairBonus(Predictor p, string prev, ref string form, bool keepForm)
+        {
+            if (p.Pairs == null || prev == null) return 0;
+            foreach (var x in p.Pairs.NextOf(prev))
+                if (string.Equals(x.Word, form, StringComparison.OrdinalIgnoreCase))
+                {
+                    if (!keepForm) form = x.Word;
+                    return Math.Min(250, 100 + 6 * x.Freq);
+                }
+            return 0;
+        }
+
         public List<string> Suggest(string typed, int max, bool capitalize)
         {
             return Suggest(typed, null, max, capitalize);
@@ -413,8 +458,45 @@ namespace Tastatur
                         if (lw != null) { score += 40 * Ln(lw.Count); form = lw.Form; }
                         int pc = st.PairCountOf(prev, c.Word);
                         if (pc > 0) score += 120 + 50 * Ln(pc);
+                        else if (typed.Length > 0) score += BuiltInPairBonus(p, prev, ref form, lw != null);
                     }
+                    else if (typed.Length > 0) score += BuiltInPairBonus(p, prev, ref form, false);
                     add(form, score);
+                }
+                if (typed.Length > 0 && prev != null && p.Pairs != null)
+                {
+                    // typische Folgewörter, die so anfangen, auch wenn sie seltener sind (freundlichen gr -> Grüßen)
+                    string tl = typed.ToLowerInvariant(), tf = TextFold.IsPlain(typed) ? TextFold.Fold(typed) : null;
+                    foreach (var nx in p.Pairs.NextOf(prev))
+                    {
+                        string nl = nx.Word.ToLowerInvariant();
+                        if (!nl.StartsWith(tl, StringComparison.Ordinal) && (tf == null || !TextFold.Fold(nl).StartsWith(tf, StringComparison.Ordinal))) continue;
+                        Scored baseSc;
+                        double score = p.TryGet(nx.Word, out baseSc) ? baseSc.Freq : 300;
+                        string form = nx.Word;
+                        bool own = false;
+                        if (st != null)
+                        {
+                            var lw = st.Get(nx.Word);
+                            if (lw != null) { score += 40 * Ln(lw.Count); if (lw.Count >= MinNewCount) { form = lw.Form; own = true; } }
+                            int pc = st.PairCountOf(prev, nx.Word);
+                            if (pc > 0) { score += 120 + 50 * Ln(pc); add(form, score); continue; }
+                        }
+                        string f2 = form;
+                        score += BuiltInPairBonus(p, prev, ref f2, own);
+                        add(f2, score);
+                    }
+                }
+                if (typed.Length == 0 && prev != null && p.Pairs != null)
+                {
+                    // eingebaute Wortfolgen: typische nächste Wörter, auch wenn noch nichts gelernt ist.
+                    // Gelernte Wortfolgen (900 und mehr) stehen davor.
+                    foreach (var nx in p.Pairs.NextOf(prev))
+                    {
+                        string form = nx.Word;
+                        if (st != null) { var lw = st.Get(nx.Word); if (lw != null && lw.Count >= MinNewCount) form = lw.Form; }
+                        add(form, 780 + 1.2 * nx.Freq);
+                    }
                 }
                 if (st == null) continue;
 
@@ -428,6 +510,7 @@ namespace Tastatur
                         double score = known ? baseSc.Freq + 40 * Ln(lw.Count) : Math.Min(720, 480 + 60 * Ln(lw.Count));
                         int pc = st.PairCountOf(prev, lw.Form);
                         if (pc > 0) score += 120 + 50 * Ln(pc);
+                        else { string f2 = lw.Form; score += BuiltInPairBonus(p, prev, ref f2, true); }
                         add(lw.Form, score);
                     }
                 }

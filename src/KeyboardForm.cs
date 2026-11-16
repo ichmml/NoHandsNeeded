@@ -546,7 +546,7 @@ namespace Tastatur
             {
                 // getipptes Wort steht schon vorne: nicht doppelt
                 string tw = typed[0].Label;
-                rest = rest.Where(i => !string.Equals(i.Label, tw, StringComparison.OrdinalIgnoreCase)).ToList();
+                rest = rest.Where(i => i.Label != tw).ToList();   // nur exakt gleiche weg, Karton bleibt bei karton
             }
             _band = typed.Concat(rest).ToList();
             BuildLayout();

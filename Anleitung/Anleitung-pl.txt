@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klawiatura ekranowa, Wersja 1.02
+Klawiatura ekranowa, Wersja 1.03
 
 Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego
 powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład
@@ -205,6 +205,12 @@ jest po polsku, startuje po polsku z polskim układem.
 
 Podpowiedzi bez znaków diakrytycznych: „zolw” daje „żółw”, „cafe” daje „café”, „nino” daje
 „niño”. Nie trzeba więc szukać znaków specjalnych. Dotyczy to też nauczonych słów.
+
+Słownictwo: każdy język ma około 200 000 słów, także liczbę mnogą, przypadki i formy czasowników.
+Jeśli wpiszesz małą literą słowo pisane wielką, właściwa pisownia stoi na początku: „praga”
+daje „Praga”, „niemcy” daje „Niemcy”. Jedno kliknięcie zastępuje to, co wpisano.
+Typowe pary słów są wbudowane: po „dzień” jest „dobry”, po „z” jest „poważaniem”, po „mam” jest
+„nadzieję”. To, co sam często piszesz, stoi przed nimi.
 
 Układ klawiszy: dopasowuje się do języka (w trybie mieszanym do pierwszego języka).
   Niemiecki QWERTZ, angielski i niderlandzki QWERTY, francuski AZERTY, duński z æ ø å,

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Teclado en pantalla, Versión 1.02
+Teclado en pantalla, Versión 1.03
 
 ¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está
 hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick
@@ -214,6 +214,12 @@ está en español, arranca en español con la distribución española.
 
 Sugerencias sin acentos: "zolw" da "żółw", "cafe" da "café", "nino" da "niño". Así no hace
 falta buscar caracteres especiales. También vale para las palabras aprendidas.
+
+Vocabulario: cada idioma trae unas 200.000 palabras, con plurales y formas verbales. Si escribes
+en minúscula una palabra que va con mayúscula, la forma correcta aparece primero: "madrid" da
+"Madrid", "españa" da "España". Un clic sustituye lo que has escrito.
+Los pares de palabras típicos ya vienen incluidos: después de "muchas" viene "gracias", después
+de "buenos" viene "días", después de "hasta" viene "luego". Lo que tú escribes a menudo va antes.
 
 Distribución de teclas: sigue al idioma (en modo mixto, al primer idioma).
   Alemán QWERTZ, inglés y neerlandés QWERTY, francés AZERTY, danés con æ ø å, polaco con

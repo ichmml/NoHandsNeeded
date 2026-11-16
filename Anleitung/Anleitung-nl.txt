@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Schermtoetsenbord, Versie 1.02
+Schermtoetsenbord, Versie 1.03
 
 Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit
 toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een
@@ -205,6 +205,12 @@ op Nederlands, dan start het met Nederlands en de Nederlandse indeling.
 
 Suggesties zonder accenten: "zolw" geeft "żółw", "cafe" geeft "café", "nino" geeft "niño".
 Je hoeft speciale tekens dus niet te zoeken. Dat geldt ook voor geleerde woorden.
+
+Woordenschat: elke taal heeft ongeveer 200.000 woorden, ook meervoud en werkwoordsvormen.
+Typ je een woord anders dan het geschreven wordt, dan staat de juiste schrijfwijze vooraan:
+"nederland" geeft "Nederland", "amsterdam" geeft "Amsterdam". Eén klik vervangt wat je typte.
+Veelvoorkomende woordparen zijn ingebouwd: na "hartelijk" komt "dank", na "vriendelijke" komt
+"groet", na "ik" komt "ben". Wat je zelf vaak schrijft, staat ervoor.
 
 Toetsindeling: past zich aan de taal aan (bij gemengd de eerste taal).
   Duits QWERTZ, Engels en Nederlands QWERTY, Frans AZERTY, Deens met æ ø å, Pools met
