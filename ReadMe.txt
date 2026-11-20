@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.03
+On-screen keyboard, Version 1.02.01
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or

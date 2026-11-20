@@ -7,7 +7,7 @@ Betrifft die Dateien, die in `NoHandsNeeded.exe` eingebaut sind:
 
 xx steht für de, en, nl, fr, da, pl, cs, it, es, tr, ru.
 
-## Wortlisten (ab Version 1.03)
+## Wortlisten (ab Version 1.02.01)
 
 ### Herkunft
 
@@ -50,7 +50,7 @@ Erzeugt mit `tools/make_wordlist.py`:
 
 Etwa 180.000 bis 200.000 Wörter pro Sprache.
 
-## Wortfolgen (ab Version 1.03)
+## Wortfolgen (ab Version 1.02.01)
 
 ### Herkunft
 
