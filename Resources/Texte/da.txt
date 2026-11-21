@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Skriftstørrelse for forslag og makroer
 Satzanfang automatisch groß	Stort begyndelsesbogstav automatisk
 Leerzeichen nach Vorschlag einfügen	Indsæt mellemrum efter forslag
 Getipptes Wort oben links zeigen (rot)	Vis det skrevne ord øverst til venstre (rødt)
+im Klartext	I klartekst
 Punkte mit 👁	Prikker med 👁
 immer nur Punkte	kun prikker
 Passwörter beim Tippen	Adgangskoder under indtastning
 Klartext automatisch ausblenden nach	Skjul klartekst automatisk efter
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	I adgangskodefelter vises kun prikker. 👁 viser adgangskoden i klartekst et øjeblik; imens er tastaturet udelukket fra skærmbilleder og skærmdeling.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Med klartekst ser du øverst til venstre, hvad du skriver i adgangskodefeltet. Med "Prikker med 👁" viser 👁 adgangskoden kort. Så længe klartekst er synlig, er tastaturet udelukket fra skærmbilleder og skærmdeling.
 Sprachen	Sprog
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Flueben = aktiv. Rækkefølgen gælder for sprogknappen øverst på tastaturet.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Tilbyd blandet (f.eks. DE+EN) ved skift

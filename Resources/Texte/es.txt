@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Tamaño de letra de sugerencias y macros
 Satzanfang automatisch groß	Mayúscula automática al inicio de frase
 Leerzeichen nach Vorschlag einfügen	Insertar espacio tras una sugerencia
 Getipptes Wort oben links zeigen (rot)	Mostrar la palabra escrita arriba a la izquierda (en rojo)
+im Klartext	En claro
 Punkte mit 👁	Puntos con 👁
 immer nur Punkte	siempre solo puntos
 Passwörter beim Tippen	Contraseñas al escribir
 Klartext automatisch ausblenden nach	Ocultar el texto visible automáticamente tras
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	En los campos de contraseña solo se ven puntos. 👁 muestra la contraseña un momento en texto visible; mientras tanto el teclado queda excluido de capturas de pantalla y de compartir pantalla.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	En claro ves arriba a la izquierda lo que escribes en el campo de contraseña. Con "Puntos con 👁", 👁 muestra la contraseña un momento. Mientras se ve en claro, el teclado queda excluido de capturas de pantalla y de la pantalla compartida.
 Sprachen	Idiomas
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Marcado = activo. El orden vale para el botón de idioma arriba en el teclado.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Ofrecer mezcla (p. ej. DE+EN) al cambiar

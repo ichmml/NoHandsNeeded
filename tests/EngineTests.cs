@@ -152,6 +152,7 @@ namespace Tastatur
             IbanTests.Run(args[0], Check);
             V103Tests.Run(args[0], Check);
             OwnSecretTests.Run(Check);
+            V1201Tests.Run(Check);
 
             Console.WriteLine(fails == 0 ? "\nAlle Tests bestanden." : "\n" + fails + " Fehler.");
             return fails;

@@ -20,7 +20,8 @@ namespace Tastatur
         public const string DefaultDonateLink = "https://ko-fi.com/MDM3D";
         public bool ShowInputField = true;              // Eingabefeld oben links: zeigt, was ich tippe
         public int InputFieldWidth = 2;                 // in Vorschlagsfeldern (1 bis 4)
-        public bool PasswordReveal = true;              // im Passwortfeld 👁 zum kurzen Anzeigen
+        public bool PasswordPlain = true;               // Passwort beim Tippen oben links im Klartext zeigen
+        public bool PasswordReveal = true;              // im Passwortfeld 👁 zum kurzen Anzeigen (nur ohne Klartext)
         public int RevealSeconds = 10;                  // Klartext automatisch ausblenden nach
         public bool ShowPhysicalKeys = true;            // echte Tastendrücke (Quadstick) rot anzeigen
         public int PhysicalGlowMs = 1500;               // so lange leuchten sie nach dem Loslassen
@@ -87,7 +88,7 @@ namespace Tastatur
         public int ResizeBorder = 12;                   // Greifzone am Rand in Pixel
 
         /// <summary>Version der Datei, für einmalige Umstellungen alter Werte.</summary>
-        public const int CurrentVersion = 5;
+        public const int CurrentVersion = 6;
         public int FileVersion = CurrentVersion;
 
         public int EffectiveDwellDragMs { get { return DwellDragMs > 0 ? Math.Max(DwellDragMs, DwellMs + 300) : DwellMs * 2; } }
@@ -227,6 +228,11 @@ namespace Tastatur
             {
                 if (DonateLink == "https://ko-fi.com/ichmml") DonateLink = DefaultDonateLink;
             }
+            if (FileVersion < 6)
+            {
+                // 1.2.01: Passwort beim Tippen im Klartext. Wer "immer nur Punkte" gewählt hatte, behält das.
+                PasswordPlain = PasswordReveal;
+            }
             FileVersion = CurrentVersion;
         }
 
@@ -271,6 +277,7 @@ namespace Tastatur
                 case "eingabefeld": ShowInputField = B(v, ShowInputField); break;
                 case "eingabefeld_breite": InputFieldWidth = Math.Max(1, Math.Min(4, I(v, InputFieldWidth))); break;
                 case "passwort_klartext": PasswordReveal = B(v, PasswordReveal); break;
+                case "passwort_sichtbar": PasswordPlain = B(v, PasswordPlain); break;
                 case "klartext_sekunden": RevealSeconds = Math.Max(3, Math.Min(30, I(v, RevealSeconds))); break;
                 case "tasten_anzeigen": ShowPhysicalKeys = B(v, ShowPhysicalKeys); break;
                 case "tasten_nachleuchten_ms": PhysicalGlowMs = Math.Max(0, Math.Min(5000, I(v, PhysicalGlowMs))); break;
@@ -406,6 +413,7 @@ namespace Tastatur
             sb.AppendLine("eingabefeld = " + Yn(ShowInputField));
             sb.AppendLine("eingabefeld_breite = " + InputFieldWidth);
             sb.AppendLine("passwort_klartext = " + Yn(PasswordReveal));
+            sb.AppendLine("passwort_sichtbar = " + Yn(PasswordPlain));
             sb.AppendLine("klartext_sekunden = " + RevealSeconds);
             sb.AppendLine("# Echte Tastendrücke (z. B. vom Quadstick) anzeigen");
             sb.AppendLine("tasten_anzeigen = " + Yn(ShowPhysicalKeys));

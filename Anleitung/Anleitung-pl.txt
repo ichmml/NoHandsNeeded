@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klawiatura ekranowa, Wersja 1.02.01
+Klawiatura ekranowa, Wersja 1.2.01
 
 Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego
 powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład
@@ -58,6 +58,10 @@ Znaki specjalne nie czyszczą pola: widać wszystko od ostatniej spacji, Enter l
 takiego czerwonego pola dodaje tylko spację.
   - Jeśli klawiatura nie zna jeszcze słowa, obok pojawia się małe „nowe”. Kliknięcie
     czerwonego słowa wstawia je ze spacją i od razu zapamiętuje, odtąd jest podpowiadane.
+  - W polu hasła to, co piszesz, widać czytelnie na czerwono w lewym górnym rogu, razem z
+    liczbą znaków, więc wiesz, co wpisujesz. W tym czasie klawiatura jest wyłączona ze zrzutów
+    ekranu i udostępniania ekranu. Jeśli wolisz kropki, zmień to w ustawieniach (patrz niżej).
+    Wtedy:
   - W polu hasła widać czerwone kropki i liczbę znaków, obok 👁. 👁 pokazuje hasło jawnie
     przez 10 sekund (albo do następnego kliknięcia). W tym czasie klawiatura jest wyłączona ze
     zrzutów ekranu i udostępniania ekranu. Hasła z sejfu pojawiają się tylko jako kropki. Po
@@ -67,8 +71,8 @@ takiego czerwonego pola dodaje tylko spację.
     na kropki. Nic nie jest uczone, zapisywane w dzienniku ani nagrywane.
   - Pokazywane jest tylko to, co wpisano tą klawiaturą. Po kliknięciu w okno lub prawdziwym
     naciśnięciu klawisza pole jest puste.
-  - Ustawienia → Podpowiedzi słów: wł./wył., „kropki z 👁” lub „zawsze tylko kropki”, czas
-    do ukrycia jawnego tekstu.
+  - Ustawienia → Podpowiedzi słów: wł./wył., „jawnie”, „kropki z 👁” lub „zawsze tylko kropki”,
+    czas do ukrycia jawnego tekstu.
 
 Przesuwanie i rozmiar
 ---------------------

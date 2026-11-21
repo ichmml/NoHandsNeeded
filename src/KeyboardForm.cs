@@ -157,10 +157,26 @@ namespace Tastatur
 
         public bool Revealing { get { return DateTime.UtcNow < _revealUntil; } }
 
+        /// <summary>Einstellung "im Klartext": Passwort aus einem fremden Fenster steht gerade lesbar oben links.</summary>
+        public bool PlainTyping
+        {
+            get
+            {
+                return _settings.PasswordPlain && !LockMode && VaultTypedLength == 0
+                    && _engine.PasswordMode && _engine.SecretLength > 0 && SecretField.DisplayText() == null;
+            }
+        }
+
+        /// <summary>Klartext zu sehen: Tastatur nicht in Bildschirmfotos und Bildschirmfreigaben.</summary>
+        private bool WantCaptureExclusion { get { return Revealing || PlainTyping; } }
+
+        /// <summary>👁 nur bei "Punkte mit 👁", nicht im Klartext (da steht das Passwort ja schon).</summary>
+        private bool EyeAllowed { get { return _settings.PasswordReveal && !_settings.PasswordPlain && !LockMode && VaultTypedLength == 0; } }
+
         /// <summary>👁: Klartext an (für RevealSeconds) oder wieder aus.</summary>
         public void ToggleReveal()
         {
-            if (!_settings.PasswordReveal || LockMode || VaultTypedLength > 0) return;
+            if (!EyeAllowed) return;
             _revealUntil = Revealing ? DateTime.MinValue : DateTime.UtcNow.AddSeconds(_settings.RevealSeconds);
             UpdateCaptureExclusion();
             RefreshBand();
@@ -181,7 +197,7 @@ namespace Tastatur
         /// <summary>Solange Klartext zu sehen ist: nicht in Bildschirmfotos und Bildschirmfreigaben.</summary>
         private void UpdateCaptureExclusion()
         {
-            bool want = Revealing;
+            bool want = WantCaptureExclusion;
             if (want == _captureExcluded || !IsHandleCreated) return;
             bool ok = false;
             try { ok = SetWindowDisplayAffinity(Handle, want ? 0x11u : 0u); } catch { }
@@ -201,6 +217,7 @@ namespace Tastatur
                 int n = _engine.SecretLength;
                 if (n == 0 && VaultTypedLength > 0) return new string('•', VaultTypedLength);
                 if (PlainSecret && !LockMode) return _engine.SecretText;
+                if (_settings.PasswordPlain && !LockMode && VaultTypedLength == 0) return _engine.SecretText;
                 if (Revealing && _settings.PasswordReveal && !LockMode && VaultTypedLength == 0) return _engine.SecretText;
                 return new string('•', n);
             }
@@ -229,7 +246,7 @@ namespace Tastatur
             float pad = Math.Max(4f, r.Height * 0.08f);
             var inner = new RectangleF(r.X + pad, r.Y + pad, r.Width - pad * 2, r.Height - pad * 2);
             _eyeRect = RectangleF.Empty;
-            bool eye = pw && _settings.PasswordReveal && !LockMode && VaultTypedLength == 0 && _engine.SecretLength > 0;
+            bool eye = pw && EyeAllowed && _engine.SecretLength > 0;
             if (eye)
             {
                 float ew = Math.Min(inner.Height, inner.Width * 0.35f);
@@ -238,7 +255,7 @@ namespace Tastatur
                 using (var b = new SolidBrush(Revealing ? _theme.Accent : Color.FromArgb(225, 225, 218)))
                 using (var path = Rounded(_eyeRect, 5)) g.FillPath(b, path);
                 using (var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center })
-                using (var f = new Font("Segoe UI Emoji", Math.Max(8f, _eyeRect.Height * 0.42f), FontStyle.Regular, GraphicsUnit.Pixel))
+                using (var f = new Font("Segoe UI Symbol", Math.Max(8f, _eyeRect.Height * 0.42f), FontStyle.Regular, GraphicsUnit.Pixel))
                 using (var tb = new SolidBrush(Revealing ? Color.White : fg))
                     g.DrawString("👁", f, tb, _eyeRect, sf);
             }
@@ -566,7 +583,7 @@ namespace Tastatur
             if (pw)
             {
                 list.Add(new BandItem { Label = text, TextColor = TypedRed, Bold = true, Badge = text.Length.ToString(), Do = () => { } });
-                if (_settings.PasswordReveal && !LockMode && !PlainSecret && VaultTypedLength == 0 && _engine.SecretLength > 0)
+                if (EyeAllowed && !PlainSecret && _engine.SecretLength > 0)
                     list.Add(new BandItem { Label = "👁", Color = Revealing ? _theme.Accent : (Color?)null, Do = ToggleReveal });
                 return list;
             }
@@ -891,11 +908,17 @@ namespace Tastatur
         /// <summary>Text mittig zeichnen, bei Bedarf kleiner, damit er reinpasst.</summary>
         private static readonly Dictionary<float, Font> SymbolFonts = new Dictionary<float, Font>();
 
-        /// <summary>Symbole wie ⌫ ⚙ ✎ gibt es sicher in "Segoe UI Symbol", nicht in jeder Schrift.</summary>
+        /// <summary>Symbole wie ⌫ ⚙ ✎ 👁 🔍 gibt es sicher in "Segoe UI Symbol", nicht in jeder Schrift.
+        /// Zeichen außerhalb der Grundebene (👁, 🔍, 🏦) kommen als Paar, sonst wird daraus ein leeres Kästchen.</summary>
+        internal static bool NeedsSymbolFont(string text)
+        {
+            foreach (char c in text) if ((c >= 0x2190 && c < 0x2C00) || char.IsSurrogate(c)) return true;
+            return false;
+        }
+
         private static Font ForText(Font font, string text)
         {
-            bool sym = false;
-            foreach (char c in text) if (c >= 0x2190 && c < 0x2C00) { sym = true; break; }
+            bool sym = NeedsSymbolFont(text);
             if (!sym) return font;
             Font f;
             if (!SymbolFonts.TryGetValue(font.Size, out f))
@@ -926,6 +949,7 @@ namespace Tastatur
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            UpdateCaptureExclusion();   // vor dem Zeichnen: Klartext nie in Bildschirmfotos
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
             g.TextRenderingHint = TextRenderingHint.ClearTypeGridFit;
@@ -1565,7 +1589,7 @@ namespace Tastatur
                 _blinkAt = now; _blinkOn = !_blinkOn;
                 foreach (var tt in _targets) if (tt.Key == null && tt.Tool == ToolKind.Input) { Invalidate(Rectangle.Ceiling(tt.Rect)); break; }
             }
-            if (_captureExcluded && !Revealing) { UpdateCaptureExclusion(); RefreshBand(); Invalidate(); }
+            if (_captureExcluded && !WantCaptureExclusion) { UpdateCaptureExclusion(); RefreshBand(); Invalidate(); }
 
             bool redraw = _flash != null && now >= _flashUntil;
             if (redraw) _flash = null;

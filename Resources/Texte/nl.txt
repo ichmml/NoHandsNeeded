@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Lettergrootte suggesties en macro's
 Satzanfang automatisch groß	Zin automatisch met hoofdletter beginnen
 Leerzeichen nach Vorschlag einfügen	Spatie na suggestie invoegen
 Getipptes Wort oben links zeigen (rot)	Getypt woord linksboven tonen (rood)
+im Klartext	Leesbaar
 Punkte mit 👁	Puntjes met 👁
 immer nur Punkte	alleen puntjes
 Passwörter beim Tippen	Wachtwoorden tijdens het typen
 Klartext automatisch ausblenden nach	Platte tekst automatisch verbergen na
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	In wachtwoordvelden staan alleen puntjes. 👁 toont het wachtwoord even als platte tekst; zolang is het toetsenbord uitgesloten van schermafbeeldingen en scherm delen.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Bij leesbaar zie je linksboven wat je in het wachtwoordveld typt. Bij "Puntjes met 👁" toont 👁 het wachtwoord even. Zolang het leesbaar is, is het toetsenbord uitgesloten van schermafbeeldingen en schermdeling.
 Sprachen	Talen
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Vinkje = actief. De volgorde geldt voor de taalknop bovenaan het toetsenbord.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Gemengd (bijv. DE+EN) aanbieden bij wisselen

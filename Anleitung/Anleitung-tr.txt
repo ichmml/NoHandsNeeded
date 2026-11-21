@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Ekran klavyesi, Sürüm 1.02.01
+Ekran klavyesi, Sürüm 1.2.01
 
 Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
 yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız
@@ -57,6 +57,10 @@ Uzun kelimeler asla kısaltılmaz, alan sadece genişler.
 bir alana tıklamak yalnızca bir boşluk ekler.
   - Klavye kelimeyi henüz tanımıyorsa yanında küçük bir "yeni" yazar. Kırmızı kelimeye
     tıklamak onu boşlukla ekler ve hemen hatırlar, o andan itibaren önerilir.
+  - Parola alanında yazdığın şey sol üstte kırmızı ve okunur şekilde, karakter sayısıyla
+    birlikte görünür, böylece ne yazdığını görürsün. Bu süre boyunca klavye ekran
+    görüntülerinden ve ekran paylaşımından hariç tutulur. Nokta görmek istersen bunu
+    ayarlardan değiştir (aşağıya bak). O zaman:
   - Parola alanında kırmızı noktalar ve karakter sayısı görünür, yanında 👁. 👁 parolayı
     10 saniye açık metin olarak gösterir (veya bir sonraki tıklamaya kadar). Bu süre boyunca
     klavye ekran görüntülerinden ve ekran paylaşımından hariç tutulur. Kasadaki parolalar
@@ -66,8 +70,8 @@ bir alana tıklamak yalnızca bir boşluk ekler.
     Bu sırada hiçbir şey öğrenilmez, günlüğe yazılmaz veya kaydedilmez.
   - Yalnızca bu klavyeyle yazılanlar gösterilir. Pencereye bir tıklamadan veya gerçek bir
     tuş basışından sonra alan boştur.
-  - Ayarlar → Kelime önerileri: açık/kapalı, "👁 ile noktalar" veya "her zaman yalnızca
-    noktalar", açık metnin gizlenmesine kadar geçen süre.
+  - Ayarlar → Kelime önerileri: açık/kapalı, "açık metin", "👁 ile noktalar" veya "her zaman
+    yalnızca noktalar", açık metnin gizlenmesine kadar geçen süre.
 
 Taşıma ve boyut
 ---------------

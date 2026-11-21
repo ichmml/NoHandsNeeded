@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.02.01
+On-screen keyboard, Version 1.2.01
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or
@@ -57,6 +57,10 @@ Tab, e.g. "s!add" or a web address. The suggestions next to it belong to the las
   - If the keyboard does not know the word yet, a small "new" appears next to it. Clicking
     the red word inserts it with a space and remembers it right away, from then on it is
     suggested.
+  - In a password field, what you type appears top left in red and readable, along with the
+    number of characters, so you can see what you are writing. Meanwhile the keyboard is
+    excluded from screenshots and screen sharing. If you prefer dots, change this in the
+    settings (see below). Then:
   - In a password field you see red dots and the number of characters, with 👁 next to it.
     👁 shows the password in plain text for 10 seconds (or until the next click). During that
     time the keyboard is excluded from screenshots and screen sharing. Passwords from the
@@ -66,8 +70,8 @@ Tab, e.g. "s!add" or a web address. The suggestions next to it belong to the las
     "Show / hide" switches to dots. Nothing is learned, logged or recorded there.
   - Only what was typed with this keyboard is shown. After a click into the window or a
     real key press the slot is empty.
-  - Settings → Word suggestions: on/off, "dots with 👁" or "always dots only", time until
-    the plain text is hidden.
+  - Settings → Word suggestions: on/off, "plain text", "dots with 👁" or "always dots only",
+    time until the plain text is hidden.
 
 Moving and size
 ---------------

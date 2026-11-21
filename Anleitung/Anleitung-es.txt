@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Teclado en pantalla, Versión 1.02.01
+Teclado en pantalla, Versión 1.2.01
 
 ¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está
 hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick
@@ -62,6 +62,10 @@ palabra ("add"). Un clic en ese campo rojo solo añade un espacio.
   - Si el teclado todavía no conoce la palabra, al lado aparece un pequeño "nueva". Un clic
     en la palabra roja la inserta con espacio y la recuerda enseguida, desde entonces se
     sugiere.
+  - En un campo de contraseña, lo que escribes aparece arriba a la izquierda en rojo y
+    legible, junto con el número de caracteres, para que veas lo que escribes. Mientras
+    tanto, el teclado queda excluido de las capturas de pantalla y de la pantalla compartida.
+    Si prefieres puntos, cámbialo en los ajustes (ver abajo). Entonces:
   - En un campo de contraseña aparecen puntos rojos y el número de caracteres, con 👁 al
     lado. 👁 muestra la contraseña en claro durante 10 segundos (o hasta el siguiente clic).
     Mientras tanto, el teclado queda excluido de capturas y de compartir pantalla. Las
@@ -72,8 +76,8 @@ palabra ("add"). Un clic en ese campo rojo solo añade un espacio.
     teclado. "Mostrar / ocultar" cambia a puntos. No se aprende, registra ni graba nada.
   - Solo se muestra lo que se ha escrito con este teclado. Tras un clic en la ventana o una
     pulsación real de tecla, el campo queda vacío.
-  - Ajustes → Sugerencias de palabras: activado/desactivado, "puntos con 👁" o "siempre solo
-    puntos", tiempo hasta ocultar el texto en claro.
+  - Ajustes → Sugerencias de palabras: activado/desactivado, "en claro", "puntos con 👁" o
+    "siempre solo puntos", tiempo hasta ocultar el texto en claro.
 
 Mover y tamaño
 --------------

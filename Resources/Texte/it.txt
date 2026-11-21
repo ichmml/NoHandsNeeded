@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Dimensione testo suggerimenti e macro
 Satzanfang automatisch groß	Maiuscola automatica a inizio frase
 Leerzeichen nach Vorschlag einfügen	Inserisci spazio dopo il suggerimento
 Getipptes Wort oben links zeigen (rot)	Mostra la parola digitata in alto a sinistra (rossa)
+im Klartext	In chiaro
 Punkte mit 👁	Puntini con 👁
 immer nur Punkte	sempre solo puntini
 Passwörter beim Tippen	Password durante la digitazione
 Klartext automatisch ausblenden nach	Nascondi il testo in chiaro automaticamente dopo
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Nei campi password si vedono solo puntini. 👁 mostra la password in chiaro per un attimo; nel frattempo la tastiera è esclusa da screenshot e condivisione schermo.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	In chiaro vedi in alto a sinistra quello che scrivi nel campo password. Con "Punti con 👁", 👁 mostra la password per poco. Finché è visibile in chiaro, la tastiera è esclusa da screenshot e condivisione dello schermo.
 Sprachen	Lingue
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Spuntato = attivo. L'ordine vale per il pulsante lingua in alto sulla tastiera.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Offri misto (ad es. DE+EN) quando cambi

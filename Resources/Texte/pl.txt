@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Rozmiar czcionki podpowiedzi i makr
 Satzanfang automatisch groß	Wielka litera na początku zdania
 Leerzeichen nach Vorschlag einfügen	Wstaw spację po podpowiedzi
 Getipptes Wort oben links zeigen (rot)	Pokazuj pisane słowo w lewym górnym rogu (na czerwono)
+im Klartext	Jawnie
 Punkte mit 👁	Kropki z 👁
 immer nur Punkte	zawsze tylko kropki
 Passwörter beim Tippen	Hasła podczas pisania
 Klartext automatisch ausblenden nach	Ukryj tekst jawny automatycznie po
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	W polach haseł widać tylko kropki. 👁 pokazuje hasło na chwilę jawnie; w tym czasie klawiatura jest wyłączona ze zrzutów ekranu i udostępniania ekranu.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Przy wyświetlaniu jawnym widzisz w lewym górnym rogu, co wpisujesz w polu hasła. Przy „Kropki z 👁” 👁 pokazuje hasło na chwilę. Dopóki hasło jest widoczne, klawiatura jest wyłączona ze zrzutów ekranu i udostępniania ekranu.
 Sprachen	Języki
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Zaznaczone = aktywne. Kolejność dotyczy przycisku języka u góry klawiatury.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Proponuj mieszany (np. DE+EN) przy przełączaniu

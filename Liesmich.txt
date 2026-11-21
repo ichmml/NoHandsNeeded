@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.02.01
+Bildschirmtastatur, Version 1.2.01
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -55,6 +55,10 @@ zum letzten Wort ("add"). Ein Klick auf so ein rotes Feld setzt nur ein Leerzeic
   - Kennt die Tastatur das Wort noch nicht, steht klein "neu" daneben. Ein Klick auf das
     rote Wort übernimmt es mit Leerzeichen und merkt es sich sofort, es wird ab dann
     vorgeschlagen.
+  - Im Passwortfeld steht oben links rot und lesbar, was du tippst, dazu die Anzahl der
+    Zeichen. So siehst du, was du schreibst. Solange ist die Tastatur aus Bildschirmfotos und
+    Bildschirmfreigaben ausgenommen. Wer lieber Punkte möchte, stellt das in den
+    Einstellungen um (siehe unten), dann gilt:
   - Im Passwortfeld stehen rote Punkte und die Anzahl der Zeichen, daneben 👁. 👁 zeigt das
     Passwort 10 Sekunden im Klartext (oder bis zum nächsten Klick). Solange ist die
     Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen. Passwörter aus dem
@@ -65,8 +69,8 @@ zum letzten Wort ("add"). Ein Klick auf so ein rotes Feld setzt nur ein Leerzeic
     wird dabei nichts.
   - Gezeigt wird nur, was über diese Tastatur getippt wurde. Nach einem Klick ins Fenster
     oder einem echten Tastendruck ist das Feld leer.
-  - Einstellungen → Wortvorschläge: an/aus, "Punkte mit 👁" oder "immer nur Punkte",
-    Zeit bis zum Ausblenden des Klartexts.
+  - Einstellungen → Wortvorschläge: an/aus, "im Klartext", "Punkte mit 👁" oder "immer nur
+    Punkte", Zeit bis zum Ausblenden des Klartexts.
 
 Verschieben und Größe
 ---------------------

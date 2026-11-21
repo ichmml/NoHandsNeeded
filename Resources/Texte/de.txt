@@ -327,11 +327,12 @@ Schriftgröße Vorschläge und Makros	Schriftgröße Vorschläge und Makros
 Satzanfang automatisch groß	Satzanfang automatisch groß
 Leerzeichen nach Vorschlag einfügen	Leerzeichen nach Vorschlag einfügen
 Getipptes Wort oben links zeigen (rot)	Getipptes Wort oben links zeigen (rot)
+im Klartext	im Klartext
 Punkte mit 👁	Punkte mit 👁
 immer nur Punkte	immer nur Punkte
 Passwörter beim Tippen	Passwörter beim Tippen
 Klartext automatisch ausblenden nach	Klartext automatisch ausblenden nach
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.
 Sprachen	Sprachen
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Gemischt (z. B. DE+EN) beim Umschalten anbieten

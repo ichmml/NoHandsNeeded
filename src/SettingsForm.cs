@@ -110,10 +110,11 @@ namespace Tastatur
             Check(L.T("Leerzeichen nach Vorschlag einfügen"), s.AutoSpaceAfterSuggestion, v => s.AutoSpaceAfterSuggestion = v);
             Check(L.T("Leerzeichen nach . , ! ? : von selbst einfügen"), s.AutoSpaceAfterPunctuation, v => s.AutoSpaceAfterPunctuation = v);
             Check(L.T("Getipptes Wort oben links zeigen (rot)"), s.ShowInputField, v => s.ShowInputField = v);
-            var pwOpts = new[] { L.T("Punkte mit 👁"), L.T("immer nur Punkte") };
-            Choice(L.T("Passwörter beim Tippen"), pwOpts, s.PasswordReveal ? pwOpts[0] : pwOpts[1], v => s.PasswordReveal = v == pwOpts[0]);
+            var pwOpts = new[] { L.T("im Klartext"), L.T("Punkte mit 👁"), L.T("immer nur Punkte") };
+            Choice(L.T("Passwörter beim Tippen"), pwOpts, s.PasswordPlain ? pwOpts[0] : s.PasswordReveal ? pwOpts[1] : pwOpts[2],
+                v => { s.PasswordPlain = v == pwOpts[0]; s.PasswordReveal = v != pwOpts[2]; });
             Slider(L.T("Klartext automatisch ausblenden nach"), 3, 30, 1, s.RevealSeconds, v => v + " s", v => s.RevealSeconds = v);
-            Note(L.T("Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen."));
+            Note(L.T("Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei \"Punkte mit 👁\" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen."));
 
             Heading(L.T("Sprachen"));
             Note(L.T("Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur."));

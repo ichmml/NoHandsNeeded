@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Tastiera su schermo, Versione 1.02.01
+Tastiera su schermo, Versione 1.2.01
 
 Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che
 è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a
@@ -59,6 +59,10 @@ parola ("add"). Un clic su questo campo rosso aggiunge solo uno spazio.
   - Se la tastiera non conosce ancora la parola, accanto compare un piccolo "nuova". Un clic
     sulla parola rossa la inserisce con lo spazio e la memorizza subito, da allora viene
     suggerita.
+  - In un campo password, quello che scrivi appare in alto a sinistra in rosso e
+    leggibile, insieme al numero di caratteri, così vedi cosa stai scrivendo. Nel
+    frattempo la tastiera è esclusa da screenshot e condivisione dello schermo. Se
+    preferisci i punti, cambialo nelle impostazioni (vedi sotto). Allora:
   - In un campo password compaiono punti rossi e il numero di caratteri, accanto 👁. 👁
     mostra la password in chiaro per 10 secondi (o fino al clic successivo). Nel frattempo
     la tastiera è esclusa da screenshot e condivisione dello schermo. Le password della
@@ -69,8 +73,8 @@ parola ("add"). Un clic su questo campo rosso aggiunge solo uno spazio.
     memorizzato.
   - Viene mostrato solo ciò che è stato scritto con questa tastiera. Dopo un clic nella
     finestra o una vera pressione di tasto il campo è vuoto.
-  - Impostazioni → Suggerimenti di parole: attivo/disattivo, "punti con 👁" o "sempre solo
-    punti", tempo prima di nascondere il testo in chiaro.
+  - Impostazioni → Suggerimenti di parole: attivo/disattivo, "in chiaro", "punti con 👁" o
+    "sempre solo punti", tempo prima di nascondere il testo in chiaro.
 
 Spostamento e dimensioni
 ------------------------

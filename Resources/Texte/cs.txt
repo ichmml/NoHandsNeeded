@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Velikost písma návrhů a maker
 Satzanfang automatisch groß	Velké písmeno na začátku věty
 Leerzeichen nach Vorschlag einfügen	Vložit mezeru po návrhu
 Getipptes Wort oben links zeigen (rot)	Zobrazit psané slovo vlevo nahoře (červeně)
+im Klartext	Čitelně
 Punkte mit 👁	Tečky s 👁
 immer nur Punkte	vždy jen tečky
 Passwörter beim Tippen	Hesla při psaní
 Klartext automatisch ausblenden nach	Prostý text automaticky skrýt po
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	V polích pro heslo jsou vidět jen tečky. 👁 na chvíli ukáže heslo v prostém textu; po tu dobu je klávesnice vyjmuta ze snímků obrazovky a sdílení obrazovky.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Při čitelném zobrazení vidíš vlevo nahoře, co píšeš do pole hesla. U „Tečky s 👁“ ukáže 👁 heslo krátce. Dokud je heslo čitelné, je klávesnice vyloučena ze snímků obrazovky a sdílení obrazovky.
 Sprachen	Jazyky
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Zaškrtnuto = aktivní. Pořadí platí pro tlačítko jazyka nahoře na klávesnici.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Nabízet smíšený (např. DE+EN) při přepínání

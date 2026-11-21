@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Размер шрифта подсказо
 Satzanfang automatisch groß	Заглавная буква в начале предложения
 Leerzeichen nach Vorschlag einfügen	Вставлять пробел после подсказки
 Getipptes Wort oben links zeigen (rot)	Показывать набираемое слово слева вверху (красным)
+im Klartext	Открытым текстом
 Punkte mit 👁	Точки с 👁
 immer nur Punkte	всегда только точки
 Passwörter beim Tippen	Пароли при вводе
 Klartext automatisch ausblenden nach	Скрывать открытый текст автоматически через
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	В полях паролей видны только точки. 👁 ненадолго показывает пароль открытым текстом; в это время клавиатура исключена из снимков экрана и демонстрации экрана.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Открытым текстом ты видишь слева вверху, что печатаешь в поле пароля. При «Точки с 👁» 👁 ненадолго показывает пароль. Пока пароль виден, клавиатура исключена из снимков экрана и демонстрации экрана.
 Sprachen	Языки
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Галочка = активен. Порядок действует для кнопки языка вверху клавиатуры.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Предлагать смешанный режим (например, DE+EN) при переключении

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Skærmtastatur, Version 1.02.01
+Skærmtastatur, Version 1.2.01
 
 Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det,
 tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et
@@ -56,6 +56,10 @@ Specialtegn bevarer visningen: alt siden det sidste mellemrum, Enter eller Tab v
 klik på et sådant rødt felt sætter kun et mellemrum.
   - Kender tastaturet ikke ordet endnu, står der et lille "ny" ved siden af. Et klik på det
     røde ord indsætter det med mellemrum og husker det med det samme, derefter foreslås det.
+  - I et adgangskodefelt står det, du skriver, læsbart med rødt øverst til venstre sammen med
+    antallet af tegn, så du kan se, hvad du skriver. Imens er tastaturet udelukket fra
+    skærmbilleder og skærmdeling. Foretrækker du prikker, kan du ændre det i indstillingerne
+    (se nedenfor). Så gælder:
   - I et adgangskodefelt vises røde prikker og antallet af tegn, med 👁 ved siden af. 👁
     viser adgangskoden i klartekst i 10 sekunder (eller til næste klik). Imens er tastaturet
     udelukket fra skærmbilleder og skærmdeling. Adgangskoder fra boksen vises kun som prikker.
@@ -65,8 +69,8 @@ klik på et sådant rødt felt sætter kun et mellemrum.
     "Vis / skjul" skifter til prikker. Der læres, logges eller optages intet.
   - Kun det, der er skrevet med dette tastatur, vises. Efter et klik i vinduet eller et
     rigtigt tastetryk er feltet tomt.
-  - Indstillinger → Ordforslag: til/fra, "prikker med 👁" eller "altid kun prikker", tid
-    før klarteksten skjules.
+  - Indstillinger → Ordforslag: til/fra, "i klartekst", "prikker med 👁" eller "altid kun
+    prikker", tid før klarteksten skjules.
 
 Flytning og størrelse
 ---------------------

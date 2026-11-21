@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klávesnice na obrazovce, Verze 1.02.01
+Klávesnice na obrazovce, Verze 1.2.01
 
 Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato
 klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním
@@ -56,6 +56,9 @@ Speciální znaky zobrazení nesmažou: je vidět vše od poslední mezery, Ente
 takové červené pole přidá jen mezeru.
   - Pokud klávesnice slovo ještě nezná, je vedle malé „nové“. Kliknutí na červené slovo ho
     vloží s mezerou a hned si ho zapamatuje, od té doby se nabízí.
+  - V poli hesla je vlevo nahoře červeně a čitelně vidět, co píšeš, spolu s počtem znaků.
+    Mezitím je klávesnice vyloučena ze snímků obrazovky a sdílení obrazovky. Pokud chceš
+    raději tečky, změň to v nastavení (viz níže). Pak platí:
   - V poli hesla jsou červené tečky a počet znaků, vedle 👁. 👁 ukáže heslo čitelně na
     10 sekund (nebo do dalšího kliknutí). Po tu dobu je klávesnice vyloučena ze snímků
     obrazovky a sdílení obrazovky. Hesla z trezoru se objevují jen jako tečky. Po Enteru nebo
@@ -65,8 +68,8 @@ takové červené pole přidá jen mezeru.
     přitom neučí, nezapisuje do protokolu ani nenahrává.
   - Ukazuje se jen to, co bylo napsáno touto klávesnicí. Po kliknutí do okna nebo skutečném
     stisku klávesy je pole prázdné.
-  - Nastavení → Návrhy slov: zap./vyp., „tečky s 👁“ nebo „vždy jen tečky“, doba do skrytí
-    čitelného textu.
+  - Nastavení → Návrhy slov: zap./vyp., „čitelně“, „tečky s 👁“ nebo „vždy jen tečky“, doba do
+    skrytí čitelného textu.
 
 Přesouvání a velikost
 ---------------------

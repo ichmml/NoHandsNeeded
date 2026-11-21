@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Öneri ve makro yazı boyutu
 Satzanfang automatisch groß	Cümle başını otomatik büyük harf yap
 Leerzeichen nach Vorschlag einfügen	Öneriden sonra boşluk ekle
 Getipptes Wort oben links zeigen (rot)	Yazılan kelimeyi sol üstte göster (kırmızı)
+im Klartext	Açık metin
 Punkte mit 👁	👁 ile noktalar
 immer nur Punkte	her zaman sadece noktalar
 Passwörter beim Tippen	Yazarken parolalar
 Klartext automatisch ausblenden nach	Açık metni otomatik gizle:
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Parola alanlarında sadece noktalar görünür. 👁 parolayı kısa bir süre açık metin olarak gösterir; bu sırada klavye ekran görüntülerinden ve ekran paylaşımından hariç tutulur.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Açık metinde parola alanına yazdığını sol üstte görürsün. "👁 ile noktalar" seçiliyken 👁 parolayı kısa süre gösterir. Açık metin görünürken klavye ekran görüntülerinden ve ekran paylaşımından hariç tutulur.
 Sprachen	Diller
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	İşaretli = etkin. Sıralama, klavyenin üstündeki dil düğmesi için geçerlidir.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Geçişte karışık (ör. DE+EN) sun

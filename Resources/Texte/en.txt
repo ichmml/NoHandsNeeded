@@ -327,11 +327,12 @@ Schriftgröße Vorschläge und Makros	Font size of suggestions and macros
 Satzanfang automatisch groß	Capitalize sentence start automatically
 Leerzeichen nach Vorschlag einfügen	Insert space after suggestion
 Getipptes Wort oben links zeigen (rot)	Show the typed word at the top left (red)
+im Klartext	Plain text
 Punkte mit 👁	Dots with 👁
 immer nur Punkte	dots only
 Passwörter beim Tippen	Passwords while typing
 Klartext automatisch ausblenden nach	Hide plain text automatically after
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	In password fields only dots are shown. 👁 shows the password in plain text for a moment; meanwhile the keyboard is excluded from screenshots and screen sharing.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	With plain text you see top left what you type into the password field. With "Dots with 👁", 👁 shows the password briefly. While plain text is visible, the keyboard is excluded from screenshots and screen sharing.
 Sprachen	Languages
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Checked = active. The order applies to the language button at the top of the keyboard.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Offer mixed (e.g. DE+EN) when switching

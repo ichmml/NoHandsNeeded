@@ -303,11 +303,12 @@ Schriftgröße Vorschläge und Makros	Taille de police des suggestions et macros
 Satzanfang automatisch groß	Majuscule automatique en début de phrase
 Leerzeichen nach Vorschlag einfügen	Insérer un espace après une suggestion
 Getipptes Wort oben links zeigen (rot)	Afficher le mot tapé en haut à gauche (rouge)
+im Klartext	En clair
 Punkte mit 👁	Points avec 👁
 immer nur Punkte	toujours des points
 Passwörter beim Tippen	Mots de passe pendant la saisie
 Klartext automatisch ausblenden nach	Masquer le texte en clair automatiquement après
-Im Passwortfeld stehen nur Punkte. 👁 zeigt das Passwort kurz im Klartext, solange ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	Dans les champs de mot de passe, seuls des points s'affichent. 👁 montre le mot de passe en clair un instant ; pendant ce temps, le clavier est exclu des captures d'écran et du partage d'écran.
+Im Klartext siehst du oben links, was du ins Passwortfeld tippst. Bei "Punkte mit 👁" zeigt 👁 das Passwort kurz an. Solange Klartext zu sehen ist, ist die Tastatur aus Bildschirmfotos und Bildschirmfreigaben ausgenommen.	En clair, tu vois en haut à gauche ce que tu tapes dans le champ de mot de passe. Avec « Points avec 👁 », 👁 affiche le mot de passe un court instant. Tant que le texte est visible en clair, le clavier est exclu des captures et du partage d'écran.
 Sprachen	Langues
 Haken = aktiv. Die Reihenfolge gilt für den Sprach-Knopf oben in der Tastatur.	Coché = actif. L'ordre vaut pour le bouton de langue en haut du clavier.
 Gemischt (z. B. DE+EN) beim Umschalten anbieten	Proposer le mélange (p. ex. DE+EN) en changeant

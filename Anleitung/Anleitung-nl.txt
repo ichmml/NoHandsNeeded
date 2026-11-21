@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Schermtoetsenbord, Versie 1.02.01
+Schermtoetsenbord, Versie 1.2.01
 
 Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit
 toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een
@@ -58,6 +58,10 @@ er, bijv. "s!add" of een webadres. De suggesties ernaast horen bij het laatste w
   - Kent het toetsenbord het woord nog niet, dan staat er klein "nieuw" naast. Een klik op
     het rode woord neemt het met spatie over en onthoudt het meteen, vanaf dan wordt het
     voorgesteld.
+  - In een wachtwoordveld staat linksboven rood en leesbaar wat je typt, samen met het aantal
+    tekens, zodat je ziet wat je schrijft. Zolang is het toetsenbord uitgesloten van
+    schermafbeeldingen en schermdeling. Liever puntjes? Zet dat om in de instellingen (zie
+    hieronder). Dan geldt:
   - In een wachtwoordveld staan rode puntjes en het aantal tekens, met 👁 ernaast. 👁 toont
     het wachtwoord 10 seconden leesbaar (of tot de volgende klik). Zolang is het toetsenbord
     uitgesloten van schermafbeeldingen en schermdeling. Wachtwoorden uit de kluis verschijnen
@@ -67,8 +71,8 @@ er, bijv. "s!add" of een webadres. De suggesties ernaast horen bij het laatste w
     "Tonen / verbergen" schakelt naar puntjes. Er wordt niets geleerd, gelogd of opgenomen.
   - Getoond wordt alleen wat met dit toetsenbord is getypt. Na een klik in het venster of
     een echte toetsaanslag is het vak leeg.
-  - Instellingen → Woordsuggesties: aan/uit, "puntjes met 👁" of "altijd alleen puntjes",
-    tijd tot de leesbare tekst verdwijnt.
+  - Instellingen → Woordsuggesties: aan/uit, "leesbaar", "puntjes met 👁" of "altijd alleen
+    puntjes", tijd tot de leesbare tekst verdwijnt.
 
 Verplaatsen en grootte
 ----------------------

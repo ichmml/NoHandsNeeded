@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Clavier virtuel, Version 1.02.01
+Clavier virtuel, Version 1.2.01
 
 Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est
 exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent
@@ -73,8 +73,12 @@ dernier mot (« add »). Un clic sur une telle case rouge ajoute seulement un es
     ni enregistré.
   - Seul ce qui a été tapé avec ce clavier est affiché. Après un clic dans la fenêtre ou une
     vraie frappe, la case est vide.
-  - Paramètres → Suggestions de mots : activé/désactivé, « points avec 👁 » ou « toujours
-    des points », délai avant de masquer le texte en clair.
+  - Dans un champ de mot de passe, ce que tu tapes s'affiche en haut à gauche en rouge
+    et lisible, avec le nombre de caractères, pour que tu voies ce que tu écris. Pendant
+    ce temps, le clavier est exclu des captures et du partage d'écran. Si tu préfères
+    des points, change-le dans les paramètres (voir plus bas). Alors :
+  - Paramètres → Suggestions de mots : activé/désactivé, «en clair», « points avec 👁 » ou «
+    toujours des points », délai avant de masquer le texte en clair.
 
 Déplacement et taille
 ---------------------
