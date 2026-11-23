@@ -349,6 +349,12 @@ namespace Tastatur
 
         public void SaveTo(string path)
         {
+            try { File.WriteAllText(path, ToText(), new UTF8Encoding(false)); } catch { }
+        }
+
+        /// <summary>Alle Einstellungen als Text, so wie sie in einstellungen.txt stehen (auch für die Sicherung).</summary>
+        public string ToText()
+        {
             var sb = new StringBuilder();
             sb.AppendLine("# Einstellungen von " + AppInfo.Name);
             sb.AppendLine("einstellungen_version = " + CurrentVersion);
@@ -434,7 +440,37 @@ namespace Tastatur
             sb.AppendLine("verschieben_verweilen_ms = " + DwellDragMs);
             sb.AppendLine("absetzen_ms = " + DropMs);
             sb.AppendLine("rand_greifzone = " + ResizeBorder);
-            try { File.WriteAllText(path, sb.ToString(), new UTF8Encoding(false)); } catch { }
+            return sb.ToString();
+        }
+
+        /// <summary>Einstellungen aus einem Text lesen (z. B. aus einer Sicherung). Fehlende Werte bekommen den Standard.</summary>
+        public static Settings FromText(string text)
+        {
+            var s = new Settings();
+            s.FileVersion = 1;   // ohne Versionsangabe: alte Datei
+            foreach (var raw in (text ?? "").Replace("\r", "").Split('\n'))
+            {
+                string line = raw.Trim().TrimStart('\uFEFF');
+                if (line.Length == 0 || line.StartsWith("#")) continue;
+                int eq = line.IndexOf('=');
+                if (eq < 0) continue;
+                try { s.Apply(line.Substring(0, eq).Trim(), line.Substring(eq + 1).Trim()); } catch { }
+            }
+            s.Migrate();
+            return s;
+        }
+
+        /// <summary>Diese Werte gehören zum Rechner und werden beim Importieren nicht übernommen.</summary>
+        private static readonly string[] LocalOnly = { "BackupFolder", "FirstStart", "FileVersion", "SystemLanguage" };
+
+        /// <summary>Alle Werte aus einer anderen Einstellung übernehmen (außer den rechnerbezogenen).</summary>
+        public void CopyFrom(Settings other)
+        {
+            foreach (var f in typeof(Settings).GetFields(System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public))
+            {
+                if (f.IsInitOnly || Array.IndexOf(LocalOnly, f.Name) >= 0) continue;
+                f.SetValue(this, f.GetValue(other));
+            }
         }
 
         private const string RunKey = @"Software\Microsoft\Windows\CurrentVersion\Run";

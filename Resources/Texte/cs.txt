@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Naučená slova ({0}), sl
 Eigene Begriffe ({0})	Vlastní pojmy ({0})
 Makros ({0})	Makra ({0})
 Passwörter ({0})	Hesla ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	U stejných slov platí vyšší počet. Makro se stejným názvem se nahradí. U hesla se stejným názvem a uživatelem vyhraje to naposledy změněné nebo použité.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	U stejných slov platí vyšší počet. Makro se stejným názvem se nahradí. U hesla se stejným názvem a uživatelem vyhraje to naposledy změněné nebo použité. Nastavení se převezme a platí hned. Předtím se aktuální stav automaticky zálohuje.
 Übernehmen	Použít
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Naučené e-mailové adresy: adresa<TAB>počet
 Makroleiste öffnen	Otevřít lištu maker
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	S PINem automaticky zamknout po
 nie	nikdy
  Minuten	 minutách
 Sichern und auf anderen PC übertragen	Zálohovat a přenést na jiný počítač
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Zabal naučená slova, sledy slov, čísla, vlastní pojmy, makra a podle potřeby hesla do jednoho souboru. Na druhém počítači ho importuj a vše se spojí.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Zabal naučená slova, sledy slov, čísla, vlastní pojmy, makra a podle potřeby hesla do jednoho souboru. Na druhém počítači ho importuj a vše se spojí. Nastavení se přibalí také a platí hned po importu.
 Daten exportieren …	Exportovat data …
 Daten importieren …	Importovat data …
 Verschieben und Größe	Přesun a velikost
@@ -502,3 +502,8 @@ nichts gefunden	nic nenalezeno
 ✕ Suche beenden	✕ Ukončit hledání
 Namen tippen, die Liste wird kleiner	Napiš název, seznam se zkrátí
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Jedno klepnutí platí pro další klávesu, dvě klepnutí ji zase vypnou.
+Größe, Farben, Kürzel, Sprachen …	Velikost, barvy, zkratky, jazyky …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Nastavení (velikost, barvy, zkratky, jazyky …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Upozornění: automatická záloha předtím se nepovedla.
+Einstellungen übernommen	Nastavení převzato
+Der vorherige Stand liegt hier:\n	Předchozí stav je tady:\n

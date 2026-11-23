@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Teclado en pantalla, Versión 1.2.01
+Teclado en pantalla, Versión 1.2.02
 
 ¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está
 hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick
@@ -427,7 +427,13 @@ Ajustes → "Copia de seguridad y paso a otro PC".
     recientemente.
   - Se recuerda la última carpeta usada. Es práctica una carpeta que vean ambos PC (memoria
     USB, carpeta en la nube).
-  - El tamaño y la posición no se transfieren, de todos modos cambian de un PC a otro.
+  - La configuración (tamaño, colores, tiempo de permanencia, atajos, idiomas, etc.) también
+    se incluye. Al importar se adopta y se guarda enseguida, sin reiniciar. Si la posición
+    guardada queda fuera de las pantallas del otro PC, el teclado pasa a la pantalla
+    principal.
+  - Antes de cada importación el teclado guarda automáticamente el estado actual (sin
+    contraseñas) en la carpeta de datos, en "sicherungen". Se conservan las tres últimas.
+    Para volver atrás, basta con importar ese archivo.
 
 Apoyo
 -----

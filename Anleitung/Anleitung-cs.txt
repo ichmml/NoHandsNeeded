@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klávesnice na obrazovce, Verze 1.2.01
+Klávesnice na obrazovce, Verze 1.2.02
 
 Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato
 klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním
@@ -396,7 +396,12 @@ Nastavení → „Zálohovat a přenést na jiný počítač“.
     názvem a uživatelem vyhraje to naposledy změněné nebo použité.
   - Naposledy použitá složka se pamatuje. Praktická je složka, kterou vidí oba počítače
     (USB flash disk, cloudová složka).
-  - Velikost a poloha se nepřenášejí, na každém počítači se stejně liší.
+  - Nastavení (velikost, barvy, doba setrvání, zkratky, jazyky atd.) se přenese také. Při
+    importu se hned převezme a uloží, bez restartu. Leží-li uložená poloha na druhém
+    počítači mimo obrazovky, klávesnice se přesune na hlavní obrazovku.
+  - Před každým importem klávesnice automaticky zálohuje aktuální stav (bez hesel) v datové
+    složce pod "sicherungen". Zůstávají poslední tři. Kdo se chce vrátit, importuje tento
+    soubor.
 
 Podpora
 -------

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Schermtoetsenbord, Versie 1.2.01
+Schermtoetsenbord, Versie 1.2.02
 
 Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit
 toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een
@@ -417,7 +417,13 @@ Instellingen → "Back-up maken en naar andere pc overzetten".
     het laatst gewijzigde of gebruikte.
   - De laatst gebruikte map wordt onthouden. Handig is een map die beide pc's zien
     (USB-stick, cloudmap).
-  - Grootte en positie worden niet overgezet, die verschillen toch per pc.
+  - De instellingen (grootte, kleuren, wachttijd, sneltoetsen, talen enz.) gaan ook mee. Bij
+    het importeren worden ze meteen overgenomen en opgeslagen, zonder herstart. Ligt de
+    opgeslagen positie op de andere pc buiten de schermen, dan komt het toetsenbord op het
+    hoofdscherm.
+  - Voor elke import maakt het toetsenbord automatisch een back-up van de huidige stand
+    (zonder wachtwoorden) in de gegevensmap onder "sicherungen". De laatste drie blijven
+    bewaard. Wie terug wil, importeert gewoon dat bestand.
 
 Steunen
 -------

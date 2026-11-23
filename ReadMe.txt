@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.2.01
+On-screen keyboard, Version 1.2.02
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or
@@ -405,7 +405,13 @@ Settings → "Back up and transfer to another PC".
     recently wins.
   - The last folder used is remembered. A folder both PCs can see is handy (USB stick,
     cloud folder).
-  - Size and position are not transferred, they differ from PC to PC anyway.
+  - Settings (size, colours, dwell time, shortcuts, languages etc.) are included. Importing
+    applies and saves them right away, no restart needed. Only the backup folder stays the one
+    of each PC. If the saved position lies outside the screens of the other PC, the keyboard
+    moves to the main screen.
+  - Before every import the keyboard automatically backs up the current state (without
+    passwords) in the data folder under "sicherungen". The last three are kept. To go back,
+    simply import that file.
 
 Support
 -------

@@ -203,7 +203,7 @@ namespace Tastatur
             Slider(L.T("Mit PIN automatisch sperren nach"), 0, 240, 5, s.VaultAutoLockMinutes, v => v == 0 ? L.T("nie") : v + L.T(" Minuten"), v => s.VaultAutoLockMinutes = v);
 
             Heading(L.T("Sichern und auf anderen PC übertragen"));
-            Note(L.T("Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt."));
+            Note(L.T("Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort."));
             AddButton(L.T("Daten exportieren …"), () => _host.ExportData());
             AddButton(L.T("Daten importieren …"), () => { _host.ImportData(); vaultInfo.Text = _host.VaultSummary; });
 

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Clavier virtuel, Version 1.2.01
+Clavier virtuel, Version 1.2.02
 
 Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est
 exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent
@@ -444,7 +444,13 @@ Paramètres → « Sauvegarder et transférer vers un autre PC ».
     modifié ou utilisé le plus récemment l'emporte.
   - Le dernier dossier utilisé est retenu. Un dossier visible par les deux PC est pratique
     (clé USB, dossier cloud).
-  - La taille et la position ne sont pas transférées, elles diffèrent d'un PC à l'autre.
+  - Les paramètres (taille, couleurs, temps de survol, raccourcis, langues, etc.) sont
+    inclus aussi. À l'importation, ils sont repris et enregistrés tout de suite, sans
+    redémarrage. Si la position enregistrée est hors des écrans de l'autre PC, le clavier
+    passe sur l'écran principal.
+  - Avant chaque importation, le clavier sauvegarde automatiquement l'état actuel (sans mots
+    de passe) dans le dossier de données, sous "sicherungen". Les trois dernières sont
+    conservées. Pour revenir en arrière, il suffit d'importer ce fichier.
 
 Soutenir
 --------

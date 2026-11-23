@@ -77,6 +77,12 @@ Etwa 180.000 bis 200.000 Wörter pro Sprache.
    Baumbanken mit NC-Lizenz (nicht kommerziell) oder GPL wurden bewusst nicht benutzt.
 3. **Eigene Ergänzungen**: `tools/wortfolgen_extra.txt`, typische Wortfolgen für Briefe,
    Mails und Nachrichten ("mit freundlichen Grüßen", "thank you"), selbst zusammengestellt.
+4. **Alltagssprache (nur Deutsch, ab 1.2.02)**: `tools/alltag_de_woerter.txt` (Wörter wie
+   "gehts", "naja", "Feierabend", die in wordfreq/hunspell fehlen) und
+   `tools/alltag_de_wortfolgen.txt` (rund 1.000 Wortfolgen aus Chats und Nachrichten, z. B.
+   "wie gehts", "viel Spaß"). Ausgewertet aus einem eigenen Tastatur-Wortschatz, ohne Namen,
+   Orte, Nummern und persönliche Themen, nur häufige Wörter. Eingemischt mit
+   `tools/merge_alltag.py` (nach make_wordlist.py und make_bigrams.py ausführen).
 
 ### Bearbeitung
 

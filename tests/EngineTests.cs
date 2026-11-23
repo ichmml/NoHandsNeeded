@@ -153,6 +153,7 @@ namespace Tastatur
             V103Tests.Run(args[0], Check);
             OwnSecretTests.Run(Check);
             V1201Tests.Run(Check);
+            V1202Tests.Run(args[0], Check);
 
             Console.WriteLine(fails == 0 ? "\nAlle Tests bestanden." : "\n" + fails + " Fehler.");
             return fails;

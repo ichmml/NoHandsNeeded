@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Skærmtastatur, Version 1.2.01
+Skærmtastatur, Version 1.2.02
 
 Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det,
 tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et
@@ -403,7 +403,12 @@ Indstillinger → "Sikkerhedskopiér og overfør til en anden pc".
     eller brugt.
   - Den sidst brugte mappe huskes. Praktisk er en mappe, som begge pc'er kan se (USB-stik,
     skymappe).
-  - Størrelse og position overføres ikke, de passer jo forskelligt fra pc til pc.
+  - Indstillingerne (størrelse, farver, dvæletid, genveje, sprog osv.) kommer også med. Ved
+    import overtages og gemmes de straks, uden genstart. Ligger den gemte position uden for
+    skærmene på den anden pc, flyttes tastaturet til hovedskærmen.
+  - Før hver import gemmer tastaturet automatisk den nuværende tilstand (uden adgangskoder)
+    i datamappen under "sicherungen". De sidste tre bliver liggende. Vil du tilbage,
+    importerer du bare den fil.
 
 Støt
 ----

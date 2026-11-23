@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Öğrenilen kelimeler ({0
 Eigene Begriffe ({0})	Kendi terimlerin ({0})
 Makros ({0})	Makrolar ({0})
 Passwörter ({0})	Parolalar ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Aynı kelimelerde yüksek sayaç geçerlidir. Aynı adlı makro değiştirilir. Aynı ad ve kullanıcıya sahip bir parolada en son değiştirilen veya kullanılan kazanır.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Aynı kelimelerde yüksek sayaç geçerlidir. Aynı adlı makro değiştirilir. Aynı ad ve kullanıcıya sahip bir parolada en son değiştirilen veya kullanılan kazanır. Ayarlar alınır ve hemen geçerli olur. Önce mevcut durum otomatik olarak yedeklenir.
 Übernehmen	Uygula
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Öğrenilen e-posta adresleri: adres<TAB>sayı
 Makroleiste öffnen	Makro çubuğunu aç
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	PIN ile otomatik kilitle:
 nie	asla
  Minuten	 dakika sonra
 Sichern und auf anderen PC übertragen	Yedekle ve başka bilgisayara aktar
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Öğrenilen kelimeleri, kelime dizilerini, sayıları, kendi terimlerini, makroları ve istersen parolaları tek bir dosyaya koy. Diğer bilgisayarda içe aktar, her şey birleştirilir.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Öğrenilen kelimeleri, kelime dizilerini, sayıları, kendi terimlerini, makroları ve istersen parolaları tek bir dosyaya koy. Diğer bilgisayarda içe aktar, her şey birleştirilir. Ayarlar da dahil edilir ve içe aktarmadan hemen sonra geçerli olur.
 Daten exportieren …	Verileri dışa aktar …
 Daten importieren …	Verileri içe aktar …
 Verschieben und Größe	Taşıma ve boyut
@@ -502,3 +502,8 @@ nichts gefunden	hiçbir şey bulunamadı
 ✕ Suche beenden	✕ Aramayı bitir
 Namen tippen, die Liste wird kleiner	Bir ad yaz, liste kısalır
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Bir dokunuş bir sonraki tuş için geçerlidir, iki dokunuş onu yeniden kapatır.
+Größe, Farben, Kürzel, Sprachen …	Boyut, renkler, kısayollar, diller …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Ayarlar (boyut, renkler, kısayollar, diller …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Not: Önceden otomatik yedekleme yapılamadı.
+Einstellungen übernommen	Ayarlar alındı
+Der vorherige Stand liegt hier:\n	Önceki durum burada:\n

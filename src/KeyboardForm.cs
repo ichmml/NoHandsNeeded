@@ -404,7 +404,7 @@ namespace Tastatur
             return r;
         }
 
-        private void RestoreSavedBounds()
+        public void RestoreSavedBounds()
         {
             int primary;
             var areas = WorkAreas(out primary);

@@ -26,6 +26,9 @@ namespace Tastatur
         public const string EmailsFile = "lernen/emails.txt";
         public const string CustomFile = "eigene_woerter.txt";
         public const string MacroFile = "makros.yaml";
+        public const string SettingsFile = "einstellungen.txt";
+        public const string SafetyFolder = "sicherungen";      // automatische Sicherung vor jedem Import
+        public const int SafetyKeep = 3;
 
         /// <summary>Dateiname im ZIP → Inhalt.</summary>
         public Dictionary<string, string> Files = new Dictionary<string, string>();
@@ -44,6 +47,7 @@ namespace Tastatur
         }
 
         public bool HasVault { get { return Files.ContainsKey(VaultFile); } }
+        public bool HasSettings { get { return Files.ContainsKey(SettingsFile); } }
 
         // ---------- Datei schreiben ----------
 
@@ -217,6 +221,26 @@ namespace Tastatur
             int diff = 0;
             for (int i = 0; i < a.Length; i++) diff |= a[i] ^ b[i];
             return diff == 0;
+        }
+
+        /// <summary>Dateiname der automatischen Sicherung vor einem Import.</summary>
+        public static string SafetyFileName(DateTime now)
+        {
+            return "vor-import " + now.ToString("yyyy-MM-dd HH-mm-ss", CultureInfo.InvariantCulture) + Extension;
+        }
+
+        /// <summary>Nur die neuesten automatischen Sicherungen behalten, ältere löschen. Liefert die gelöschten Pfade.</summary>
+        public static List<string> PruneSafety(string folder, int keep)
+        {
+            var removed = new List<string>();
+            if (!Directory.Exists(folder)) return removed;
+            var old = Directory.GetFiles(folder, "vor-import *" + Extension)
+                .OrderByDescending(f => Path.GetFileName(f), StringComparer.Ordinal).Skip(keep).ToList();
+            foreach (var f in old)
+            {
+                try { File.Delete(f); removed.Add(f); } catch { }
+            }
+            return removed;
         }
 
         public static string DefaultFileName(DateTime now)

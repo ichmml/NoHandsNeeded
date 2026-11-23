@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-Aktuelle Version: **1.2.01**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Aktuelle Version: **1.2.02**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
 zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.
@@ -19,7 +19,7 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 - **Lernt mit:** neue Wörter, Lieblingswörter, typische Wortfolgen, die eigene Schreibweise und Zahlen wie Geburtsdatum, Handynummer, Kundennummer oder IBAN (nur gültige), schon nach dem ersten Mal vorgeschlagen. Auf Wunsch auch aus eigenen Texten (Ordner mit .txt, .md, .docx, Mails). Gespeichert wird nur Statistik, alles bleibt auf dem PC.
 - **Merkt sich E-Mail-Adressen:** einmal tippen, beim nächsten Mal nach 3 Buchstaben vorgeschlagen. In Feldern für E-Mail oder Benutzername stehen die Adressen sofort oben.
 - **Passwort-Tresor:** In Passwortfeldern stehen die gespeicherten Passwörter oben, ein Klick tippt sie ein. Neu getippte Passwörter kann man mit einem Klick speichern, sichere Passwörter erzeugen. Verschlüsselt mit Windows (DPAPI), optional mit PIN. Nie in den Wortvorschlägen, nie über die Zwischenablage.
-- **Sichern und übertragen:** Gelerntes, eigene Begriffe, Makros und auf Wunsch die Passwörter als eine `.nohands`-Datei exportieren und auf dem zweiten PC importieren. Mit Passwörtern immer verschlüsselt (AES-256), beim Import wird zusammengeführt statt überschrieben.
+- **Sichern und übertragen:** Gelerntes, eigene Begriffe, Makros, Einstellungen und auf Wunsch die Passwörter als eine `.nohands`-Datei exportieren und auf dem zweiten PC importieren. Mit Passwörtern immer verschlüsselt (AES-256), beim Import wird zusammengeführt statt überschrieben, die Einstellungen gelten sofort. Vorher sichert die Tastatur den alten Stand automatisch.
 - **Verweilklick:** Eine Taste löst aus, wenn man kurz darauf bleibt.
 - **Sondertasten für die nächste Taste:** Strg, Alt, Shift, Win und AltGr einmal antippen gilt für die nächste Taste, zweimal antippen schaltet sie wieder aus. Shift bleibt zum Markieren über mehrere Pfeiltasten an. AltGr sitzt direkt rechts neben der Leertaste.
 - **Sonderzeichen unten einstellbar:** von Haus aus ! ? : -, in den Einstellungen änderbar.

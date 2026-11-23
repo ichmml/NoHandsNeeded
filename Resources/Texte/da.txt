@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Lærte ord ({0}), ordføl
 Eigene Begriffe ({0})	Egne begreber ({0})
 Makros ({0})	Makroer ({0})
 Passwörter ({0})	Adgangskoder ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Ved ens ord gælder den højeste tæller. En makro med samme navn bliver erstattet. Ved en adgangskode med samme navn og bruger vinder den, der senest er ændret eller brugt.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Ved ens ord gælder den højeste tæller. En makro med samme navn bliver erstattet. Ved en adgangskode med samme navn og bruger vinder den, der senest er ændret eller brugt. Indstillingerne overtages og gælder straks. Først gemmes den nuværende tilstand automatisk.
 Übernehmen	Anvend
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Lærte e-mailadresser: adresse<TAB>antal
 Makroleiste öffnen	Åbn makrolinje
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	Med pinkode lås automatisk efter
 nie	aldrig
  Minuten	 minutter
 Sichern und auf anderen PC übertragen	Sikkerhedskopiér og overfør til en anden pc
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Pak lærte ord, ordfølger, tal, egne begreber, makroer og efter ønske adgangskoderne i én fil. Importér den på den anden pc, så bliver det hele lagt sammen.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Pak lærte ord, ordfølger, tal, egne begreber, makroer og efter ønske adgangskoderne i én fil. Importér den på den anden pc, så bliver det hele lagt sammen. Indstillingerne kommer også med og gælder straks efter importen.
 Daten exportieren …	Eksportér data …
 Daten importieren …	Importér data …
 Verschieben und Größe	Flytning og størrelse
@@ -502,3 +502,8 @@ nichts gefunden	intet fundet
 ✕ Suche beenden	✕ Afslut søgning
 Namen tippen, die Liste wird kleiner	Skriv et navn, listen bliver kortere
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Ét tryk gælder for den næste tast, to tryk slår den fra igen.
+Größe, Farben, Kürzel, Sprachen …	Størrelse, farver, genveje, sprog …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Indstillinger (størrelse, farver, genveje, sprog …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Bemærk: Den automatiske sikkerhedskopi forinden lykkedes ikke.
+Einstellungen übernommen	Indstillinger overtaget
+Der vorherige Stand liegt hier:\n	Den tidligere tilstand ligger her:\n

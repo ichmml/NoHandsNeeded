@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Geleerde woorden ({0}), w
 Eigene Begriffe ({0})	Eigen begrippen ({0})
 Makros ({0})	Macro's ({0})
 Passwörter ({0})	Wachtwoorden ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Bij dezelfde woorden telt de hoogste teller. Een macro met dezelfde naam wordt vervangen. Bij een wachtwoord met dezelfde naam en gebruiker wint het laatst gewijzigde of gebruikte.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Bij dezelfde woorden telt de hoogste teller. Een macro met dezelfde naam wordt vervangen. Bij een wachtwoord met dezelfde naam en gebruiker wint het laatst gewijzigde of gebruikte. De instellingen worden overgenomen en gelden meteen. Eerst wordt de huidige stand automatisch opgeslagen.
 Übernehmen	Toepassen
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Geleerde e-mailadressen: adres<TAB>aantal
 Makroleiste öffnen	Macrobalk openen
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	Met pincode automatisch vergrendelen na
 nie	nooit
  Minuten	 minuten
 Sichern und auf anderen PC übertragen	Back-up maken en naar andere pc overzetten
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Geleerde woorden, woordreeksen, getallen, eigen begrippen, macro's en desgewenst de wachtwoorden in één bestand stoppen. Op de andere pc importeren, dan wordt alles samengevoegd.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Geleerde woorden, woordreeksen, getallen, eigen begrippen, macro's en desgewenst de wachtwoorden in één bestand stoppen. Op de andere pc importeren, dan wordt alles samengevoegd. De instellingen gaan ook mee en gelden direct na het importeren.
 Daten exportieren …	Gegevens exporteren …
 Daten importieren …	Gegevens importeren …
 Verschieben und Größe	Verplaatsen en grootte
@@ -502,3 +502,8 @@ nichts gefunden	niets gevonden
 ✕ Suche beenden	✕ Zoeken stoppen
 Namen tippen, die Liste wird kleiner	Typ een naam, de lijst wordt korter
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Eén keer tikken geldt voor de volgende toets, twee keer tikken zet hem weer uit.
+Größe, Farben, Kürzel, Sprachen …	Grootte, kleuren, sneltoetsen, talen …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Instellingen (grootte, kleuren, sneltoetsen, talen …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Let op: de automatische back-up vooraf is niet gelukt.
+Einstellungen übernommen	Instellingen overgenomen
+Der vorherige Stand liegt hier:\n	De vorige stand staat hier:\n

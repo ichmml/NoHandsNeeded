@@ -12,10 +12,11 @@ namespace Tastatur
         public bool Words { get { return _words.Checked; } }
         public bool Custom { get { return _custom.Checked; } }
         public bool Macros { get { return _macros.Checked; } }
+        public bool SettingsIncluded { get { return _settings.Checked; } }
         public bool VaultIncluded { get { return _vault.Checked; } }
         public string Password { get { return _pw.Text; } }
 
-        private readonly CheckBox _words, _custom, _macros, _vault;
+        private readonly CheckBox _words, _custom, _macros, _settings, _vault;
         private readonly TextBox _pw;
         private readonly Label _hint;
 
@@ -41,6 +42,7 @@ namespace Tastatur
             _words = box(L.T("Gelernte Wörter, Wortfolgen und Zahlen"), wordsInfo, true);
             _custom = box(L.T("Eigene Begriffe"), customInfo, true);
             _macros = box(L.T("Makros"), macroInfo, true);
+            _settings = box(L.T("Einstellungen"), L.T("Größe, Farben, Kürzel, Sprachen …"), true);
             _vault = box(L.T("Passwörter aus dem Tresor"), vaultInfo, vaultUsable);
             _vault.Enabled = vaultUsable;
 
@@ -62,7 +64,7 @@ namespace Tastatur
             var bottom = new FlowLayoutPanel { AutoSize = true, WrapContents = false, Margin = new Padding(0, 14, 0, 0) };
             bottom.Controls.Add(Ui.Btn(L.T("Speichern unter …"), () =>
             {
-                if (!Words && !Custom && !Macros && !VaultIncluded) { MessageBox.Show(this, L.T("Bitte mindestens einen Haken setzen.")); return; }
+                if (!Words && !Custom && !Macros && !SettingsIncluded && !VaultIncluded) { MessageBox.Show(this, L.T("Bitte mindestens einen Haken setzen.")); return; }
                 if (VaultIncluded && _pw.Text.Length < 8) { MessageBox.Show(this, L.T("Für Passwörter braucht die Sicherung ein Passwort mit mindestens 8 Zeichen.")); _pw.Focus(); return; }
                 DialogResult = DialogResult.OK; Close();
             }, 240));
@@ -78,13 +80,14 @@ namespace Tastatur
         public bool Words { get { return _words != null && _words.Checked; } }
         public bool Custom { get { return _custom != null && _custom.Checked; } }
         public bool Macros { get { return _macros != null && _macros.Checked; } }
+        public bool SettingsIncluded { get { return _settings != null && _settings.Checked; } }
         public bool VaultIncluded { get { return _vault != null && _vault.Checked; } }
 
         private readonly Backup.Header _header;
         private readonly FlowLayoutPanel _root;
         private TextBox _pw;
         private Label _pwHint;
-        private CheckBox _words, _custom, _macros, _vault;
+        private CheckBox _words, _custom, _macros, _settings, _vault;
         private int _tries;
 
         public ImportForm2(Backup.Header header)
@@ -163,9 +166,10 @@ namespace Tastatur
             int macros = 0;
             if (b.Files.ContainsKey(Backup.MacroFile)) { try { macros = MacroStore.Parse(b.Files[Backup.MacroFile]).Count; } catch { } }
             _macros = box(L.F("Makros ({0})", macros), macros > 0);
+            _settings = box(L.T("Einstellungen (Größe, Farben, Kürzel, Sprachen …)"), b.HasSettings);
             int pws = b.HasVault ? Vault.Deserialize(b.Files[Backup.VaultFile]).Count : 0;
             _vault = box(L.F("Passwörter ({0})", pws), pws > 0);
-            _root.Controls.Add(new Label { Text = L.T("Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte."), AutoSize = true, MaximumSize = new Size(700, 0), ForeColor = SystemColors.GrayText, Margin = new Padding(4, 10, 4, 4) });
+            _root.Controls.Add(new Label { Text = L.T("Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert."), AutoSize = true, MaximumSize = new Size(700, 0), ForeColor = SystemColors.GrayText, Margin = new Padding(4, 10, 4, 4) });
             var row = new FlowLayoutPanel { AutoSize = true, WrapContents = false, Margin = new Padding(0, 14, 0, 0) };
             row.Controls.Add(Ui.Btn(L.T("Übernehmen"), () => { DialogResult = DialogResult.OK; Close(); }, 220));
             row.Controls.Add(Ui.Btn(L.T("Abbrechen"), () => { Result = null; DialogResult = DialogResult.Cancel; Close(); }, 200));

@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Learned words ({0}), word
 Eigene Begriffe ({0})	Custom terms ({0})
 Makros ({0})	Macros ({0})
 Passwörter ({0})	Passwords ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	For identical words the higher count wins. A macro with the same name is replaced. For a password with the same name and user, the one changed or used most recently wins.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	For identical words the higher count wins. A macro with the same name is replaced. For a password with the same name and user, the one changed or used most recently wins. Settings are taken over and apply immediately. Your current state is backed up automatically first.
 Übernehmen	Apply
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Learned e-mail addresses: address<TAB>count
 Makroleiste öffnen	Open macro bar
@@ -376,7 +376,7 @@ Mit PIN automatisch sperren nach	With PIN, lock automatically after
 nie	never
  Minuten	 minutes
 Sichern und auf anderen PC übertragen	Back up and transfer to another PC
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Pack learned words, word sequences, numbers, custom terms, macros and, if you like, the passwords into one file. Import it on the other PC and everything is merged.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Pack learned words, word sequences, numbers, custom terms, macros and, if you like, the passwords into one file. Import it on the other PC and everything is merged. Settings are included too and apply right after importing.
 Daten exportieren …	Export data …
 Daten importieren …	Import data …
 Verschieben und Größe	Moving and size
@@ -528,3 +528,8 @@ nichts gefunden	nothing found
 ✕ Suche beenden	✕ End search
 Namen tippen, die Liste wird kleiner	Type a name, the list gets shorter
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Tap once for the next key, tap twice to switch it off again.
+Größe, Farben, Kürzel, Sprachen …	Size, colours, shortcuts, languages …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Settings (size, colours, shortcuts, languages …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Note: the automatic backup beforehand did not work.
+Einstellungen übernommen	Settings applied
+Der vorherige Stand liegt hier:\n	Your previous state is here:\n

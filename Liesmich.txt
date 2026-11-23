@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.2.01
+Bildschirmtastatur, Version 1.2.02
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -403,7 +403,8 @@ Sichern und auf den zweiten PC übertragen
 -----------------------------------------
 Einstellungen → "Sichern und auf anderen PC übertragen".
   - "Daten exportieren …": Haken setzen, was mit soll (gelernte Wörter, Wortfolgen und
-    Zahlen, eigene Begriffe, Makros, Passwörter aus dem Tresor). Dann einen Ordner wählen.
+    Zahlen, eigene Begriffe, Makros, Einstellungen, Passwörter aus dem Tresor). Dann einen
+    Ordner wählen.
     Es entsteht eine Datei wie "NoHandsNeeded 2026-11-08.nohands".
   - Sind Passwörter dabei, braucht die Sicherung ein eigenes Passwort (mindestens 8 Zeichen).
     Die Datei ist dann verschlüsselt (AES-256), ohne dieses Passwort kommt niemand ran, auch
@@ -416,7 +417,13 @@ Einstellungen → "Sichern und auf anderen PC übertragen".
     gewinnt das, das zuletzt geändert oder benutzt wurde.
   - Der zuletzt benutzte Ordner wird gemerkt. Praktisch ist ein Ordner, den beide PCs sehen
     (USB-Stick, Cloud-Ordner).
-  - Größe und Position werden nicht übertragen, die passen ja je PC anders.
+  - Die Einstellungen (Größe, Farben, Verweilzeit, Kürzel, Sprachen usw.) werden beim Import
+    sofort übernommen und gespeichert, ohne Neustart. Nur der Sicherungsordner bleibt der des
+    jeweiligen PCs. Liegt die gespeicherte Position auf dem anderen PC außerhalb der Bildschirme,
+    kommt die Tastatur auf den Hauptbildschirm.
+  - Vor jedem Import sichert die Tastatur den jetzigen Stand automatisch (ohne Passwörter) im
+    Datenordner unter "sicherungen", z. B. "vor-import 2026-11-23 13-05-00.nohands". Die letzten
+    drei bleiben. Wer zurück will, importiert einfach diese Datei.
 
 Unterstützen
 ------------

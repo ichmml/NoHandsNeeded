@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Parole imparate ({0}), se
 Eigene Begriffe ({0})	Termini personali ({0})
 Makros ({0})	Macro ({0})
 Passwörter ({0})	Password ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Per parole uguali vale il contatore più alto. Una macro con lo stesso nome viene sostituita. Per una password con lo stesso nome e utente vince quella modificata o usata più di recente.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Per parole uguali vale il contatore più alto. Una macro con lo stesso nome viene sostituita. Per una password con lo stesso nome e utente vince quella modificata o usata più di recente. Le impostazioni vengono riprese e valgono subito. Prima lo stato attuale viene salvato automaticamente.
 Übernehmen	Applica
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Indirizzi email imparati: indirizzo<TAB>numero
 Makroleiste öffnen	Apri barra delle macro
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	Con PIN, blocca automaticamente dopo
 nie	mai
  Minuten	 minuti
 Sichern und auf anderen PC übertragen	Backup e trasferimento su un altro PC
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Metti in un file le parole imparate, le sequenze di parole, i numeri, i termini personali, le macro e, se vuoi, le password. Importalo sull'altro PC e tutto viene unito.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Metti in un file le parole imparate, le sequenze di parole, i numeri, i termini personali, le macro e, se vuoi, le password. Importalo sull'altro PC e tutto viene unito. Anche le impostazioni sono incluse e valgono subito dopo l'importazione.
 Daten exportieren …	Esporta dati …
 Daten importieren …	Importa dati …
 Verschieben und Größe	Spostamento e dimensione
@@ -502,3 +502,8 @@ nichts gefunden	non trovato nulla
 ✕ Suche beenden	✕ Termina ricerca
 Namen tippen, die Liste wird kleiner	Scrivi un nome, la lista si accorcia
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Un tocco vale per il tasto successivo, due tocchi lo spengono di nuovo.
+Größe, Farben, Kürzel, Sprachen …	Dimensioni, colori, scorciatoie, lingue …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Impostazioni (dimensioni, colori, scorciatoie, lingue …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Nota: il salvataggio automatico prima non è riuscito.
+Einstellungen übernommen	Impostazioni applicate
+Der vorherige Stand liegt hier:\n	Lo stato precedente si trova qui:\n

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Tastiera su schermo, Versione 1.2.01
+Tastiera su schermo, Versione 1.2.02
 
 Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che
 è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a
@@ -430,7 +430,13 @@ Impostazioni → "Backup e trasferimento su un altro PC".
     più di recente.
   - L'ultima cartella usata viene ricordata. Comoda è una cartella visibile da entrambi i PC
     (chiavetta USB, cartella cloud).
-  - Dimensioni e posizione non vengono trasferite, tanto sono diverse da PC a PC.
+  - Anche le impostazioni (dimensioni, colori, tempo di sosta, scorciatoie, lingue ecc.)
+    vengono incluse. Con l'importazione vengono riprese e salvate subito, senza riavvio. Se
+    la posizione salvata è fuori dagli schermi dell'altro PC, la tastiera passa allo schermo
+    principale.
+  - Prima di ogni importazione la tastiera salva automaticamente lo stato attuale (senza
+    password) nella cartella dei dati, sotto "sicherungen". Restano gli ultimi tre. Per
+    tornare indietro basta importare quel file.
 
 Sostegno
 --------

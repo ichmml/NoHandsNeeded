@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Nauczone słowa ({0}), ci
 Eigene Begriffe ({0})	Własne pojęcia ({0})
 Makros ({0})	Makra ({0})
 Passwörter ({0})	Hasła ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Przy takich samych słowach liczy się wyższy licznik. Makro o tej samej nazwie zostaje zastąpione. Przy haśle o tej samej nazwie i użytkowniku wygrywa to ostatnio zmienione lub użyte.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Przy takich samych słowach liczy się wyższy licznik. Makro o tej samej nazwie zostaje zastąpione. Przy haśle o tej samej nazwie i użytkowniku wygrywa to ostatnio zmienione lub użyte. Ustawienia zostają przejęte i działają od razu. Najpierw obecny stan jest automatycznie zapisywany.
 Übernehmen	Zastosuj
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Nauczone adresy e-mail: adres<TAB>liczba
 Makroleiste öffnen	Otwórz pasek makr
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	Z PIN-em blokuj automatycznie po
 nie	nigdy
  Minuten	 minutach
 Sichern und auf anderen PC übertragen	Kopia zapasowa i przeniesienie na inny komputer
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Spakuj nauczone słowa, ciągi słów, liczby, własne pojęcia, makra i w razie potrzeby hasła do jednego pliku. Zaimportuj go na drugim komputerze, a wszystko zostanie połączone.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Spakuj nauczone słowa, ciągi słów, liczby, własne pojęcia, makra i w razie potrzeby hasła do jednego pliku. Zaimportuj go na drugim komputerze, a wszystko zostanie połączone. Ustawienia też są dołączane i obowiązują od razu po imporcie.
 Daten exportieren …	Eksportuj dane …
 Daten importieren …	Importuj dane …
 Verschieben und Größe	Przesuwanie i rozmiar
@@ -502,3 +502,8 @@ nichts gefunden	nic nie znaleziono
 ✕ Suche beenden	✕ Zakończ wyszukiwanie
 Namen tippen, die Liste wird kleiner	Wpisz nazwę, lista się skróci
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Jedno dotknięcie działa na następny klawisz, dwa dotknięcia znowu go wyłączają.
+Größe, Farben, Kürzel, Sprachen …	Rozmiar, kolory, skróty, języki …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Ustawienia (rozmiar, kolory, skróty, języki …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Uwaga: automatyczna kopia przed importem się nie udała.
+Einstellungen übernommen	Ustawienia przejęte
+Der vorherige Stand liegt hier:\n	Poprzedni stan jest tutaj:\n

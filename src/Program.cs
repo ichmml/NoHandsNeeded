@@ -1218,6 +1218,7 @@ namespace Tastatur
                 }
                 if (f.Custom) b.Files[Backup.CustomFile] = custom;
                 if (f.Macros) b.Files[Backup.MacroFile] = MacroStore.Serialize(_macros);
+                if (f.SettingsIncluded) b.Files[Backup.SettingsFile] = _settings.ToText();
                 if (f.VaultIncluded) b.Files[Backup.VaultFile] = Vault.Serialize(_vault.Entries);
                 string password = f.Password;
                 using (var d = new SaveFileDialog
@@ -1259,6 +1260,8 @@ namespace Tastatur
                 try
                 {
                     var report = new List<string>();
+                    string safety = SafetyBackup();
+                    if (safety == null) report.Add(L.T("Hinweis: Die automatische Sicherung vorher hat nicht geklappt."));
                     if (f.Words)
                     {
                         int nw = 0;
@@ -1301,16 +1304,76 @@ namespace Tastatur
                             report.Add(L.F("{0} neue Passwörter, {1} aktualisiert", added, updated));
                         }
                     }
+                    if (f.SettingsIncluded && b.HasSettings)
+                    {
+                        ApplyImportedSettings(Settings.FromText(b.Files[Backup.SettingsFile]));
+                        report.Add(L.T("Einstellungen übernommen"));
+                    }
                     LoadLanguages();
                     _keyboard.UpdateBand();
                     _settings.BackupFolder = System.IO.Path.GetDirectoryName(path);
                     _settings.Save();
+                    if (safety != null) report.Add(L.T("Der vorherige Stand liegt hier:\n") + safety);
                     Log.Write("Sicherung importiert: " + string.Join("; ", report));
                     MessageBox.Show(L.T("Fertig.\n\n") + string.Join("\n", report), L.T("Daten importieren"));
                 }
                 catch (Exception e) { MessageBox.Show(L.T("Hat nicht geklappt: ") + e.Message, L.T("Daten importieren")); }
                 finally { b.Files.Clear(); }
             }
+        }
+
+        /// <summary>
+        /// Jetzigen Stand vor einem Import sichern (ohne Passwörter, unverschlüsselt) in den Datenordner,
+        /// die letzten drei bleiben. Liefert den Pfad oder null.
+        /// </summary>
+        private string SafetyBackup()
+        {
+            try
+            {
+                SaveLearning();
+                var b = new Backup { Computer = Environment.MachineName };
+                foreach (var c in LearnedCodesOnDisk()) { var st = StoreFor(c); if (st.WordCount > 0) b.Files[Backup.LearnFile(c)] = st.ToText(); }
+                b.Files[Backup.NumbersFile] = _langSet.Numbers.ToText(true, false);   // ohne PINs und Kartennummern
+                if (_langSet.Emails.Count > 0) b.Files[Backup.EmailsFile] = _langSet.Emails.ToText();
+                b.Files[Backup.CustomFile] = ReadCustomWords();
+                b.Files[Backup.MacroFile] = MacroStore.Serialize(_macros);
+                b.Files[Backup.SettingsFile] = _settings.ToText();
+                string folder = System.IO.Path.Combine(Settings.DataDir, Backup.SafetyFolder);
+                System.IO.Directory.CreateDirectory(folder);
+                string file = System.IO.Path.Combine(folder, Backup.SafetyFileName(DateTime.Now));
+                b.Save(file, null);
+                b.Files.Clear();
+                Backup.PruneSafety(folder, Backup.SafetyKeep);
+                Log.Write("Sicherung vor dem Import: " + file);
+                return file;
+            }
+            catch (Exception e) { Log.Write("Sicherung vor dem Import fehlgeschlagen: " + e.Message); return null; }
+        }
+
+        /// <summary>Importierte Einstellungen übernehmen, speichern und sofort anwenden (ohne Neustart).</summary>
+        private void ApplyImportedSettings(Settings incoming)
+        {
+            string oldUi = _settings.UiLanguage;
+            bool oldAutostart = _settings.Autostart;
+            _settings.CopyFrom(incoming);
+            _settings.Save();
+            if (_settings.UiLanguage != oldUi) ApplyUiLanguage();   // öffnet das Einstellungsfenster auch neu
+            else if (_settingsForm != null && !_settingsForm.IsDisposed)
+            {
+                // Einstellungsfenster neu öffnen, sonst zeigt es die alten Werte (erst nach dem Klick, aus dem der Import kam)
+                var old = _settingsForm;
+                _settingsForm = null;
+                old.BeginInvoke((Action)(() => { old.Close(); ShowSettings(); }));
+            }
+            if (_settings.Autostart != oldAutostart) Settings.ApplyAutostart(_settings.Autostart);
+            _langSet.MinNewCount = _settings.LearnMinNew;
+            _langSet.NumbersEnabled = _settings.LearnNumbers; _langSet.EmailsEnabled = _settings.LearnEmails; _langSet.IbansEnabled = _settings.LearnIban; NumberRules.AllowSecret = _settings.LearnSecretNumbers;
+            if (!_settings.VaultEnabled) { _vaultShown = false; _offer = null; }
+            _keyboard.ApplySettings(); _mini.ApplySettings();
+            _keyboard.RestoreSavedBounds();   // liegt die Position außerhalb der Bildschirme, kommt die Tastatur auf den Hauptbildschirm
+            ApplyTaskbarButton();
+            ApplyHotkeys();
+            Log.Write("Einstellungen aus der Sicherung übernommen");
         }
 
         public void OpenVaultEditor()

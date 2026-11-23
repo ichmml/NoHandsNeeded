@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.2.01
+Bildschirmtastatur, Version 1.2.02
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -416,7 +416,13 @@ Einstellungen → "Sichern und auf anderen PC übertragen".
     gewinnt das, das zuletzt geändert oder benutzt wurde.
   - Der zuletzt benutzte Ordner wird gemerkt. Praktisch ist ein Ordner, den beide PCs sehen
     (USB-Stick, Cloud-Ordner).
-  - Größe und Position werden nicht übertragen, die passen ja je PC anders.
+  - Die Einstellungen (Größe, Farben, Verweilzeit, Kürzel, Sprachen usw.) kommen auch mit.
+    Beim Import werden sie sofort übernommen und gespeichert, ohne Neustart. Liegt die
+    gespeicherte Position auf dem anderen PC außerhalb der Bildschirme, kommt die Tastatur
+    auf den Hauptbildschirm.
+  - Vor jedem Import sichert die Tastatur den jetzigen Stand automatisch (ohne Passwörter)
+    im Datenordner unter "sicherungen". Die letzten drei bleiben. Wer zurück will,
+    importiert einfach diese Datei.
 
 Unterstützen
 ------------

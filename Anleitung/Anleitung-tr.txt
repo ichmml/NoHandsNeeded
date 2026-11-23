@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Ekran klavyesi, Sürüm 1.2.01
+Ekran klavyesi, Sürüm 1.2.02
 
 Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
 yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız
@@ -401,7 +401,12 @@ Ayarlar → "Yedekle ve başka bilgisayara aktar".
     Aynı ad ve kullanıcıya sahip bir parolada en son değiştirilen veya kullanılan kazanır.
   - Son kullanılan klasör hatırlanır. İki bilgisayarın da gördüğü bir klasör pratiktir (USB
     bellek, bulut klasörü).
-  - Boyut ve konum aktarılmaz, zaten her bilgisayarda farklıdır.
+  - Ayarlar (boyut, renkler, bekleme süresi, kısayollar, diller vb.) da aktarılır. İçe
+    aktarırken hemen alınır ve kaydedilir, yeniden başlatma gerekmez. Kayıtlı konum diğer
+    bilgisayarda ekranların dışındaysa klavye ana ekrana gelir.
+  - Her içe aktarmadan önce klavye mevcut durumu (parolalar olmadan) veri klasöründe
+    "sicherungen" altına otomatik olarak yedekler. Son üçü saklanır. Geri dönmek için bu
+    dosyayı içe aktarman yeterli.
 
 Destek
 ------

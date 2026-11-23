@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Выученные сло
 Eigene Begriffe ({0})	Свои термины ({0})
 Makros ({0})	Макросы ({0})
 Passwörter ({0})	Пароли ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Для одинаковых слов побеждает больший счётчик. Макрос с тем же именем заменяется. Для пароля с тем же именем и пользователем побеждает последний изменённый или использованный.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Для одинаковых слов побеждает больший счётчик. Макрос с тем же именем заменяется. Для пароля с тем же именем и пользователем побеждает последний изменённый или использованный. Настройки переносятся и действуют сразу. Перед этим текущее состояние автоматически сохраняется.
 Übernehmen	Применить
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Выученные адреса e-mail: адрес<TAB>количество
 Makroleiste öffnen	Открыть панель макросов
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	С PIN блокировать автомати�
 nie	никогда
  Minuten	 минут
 Sichern und auf anderen PC übertragen	Резервная копия и перенос на другой компьютер
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Сложить выученные слова, последовательности слов, числа, свои термины, макросы и по желанию пароли в один файл. Импортировать на другом компьютере, и всё объединится.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Сложить выученные слова, последовательности слов, числа, свои термины, макросы и по желанию пароли в один файл. Импортировать на другом компьютере, и всё объединится. Настройки тоже сохраняются и действуют сразу после импорта.
 Daten exportieren …	Экспорт данных …
 Daten importieren …	Импорт данных …
 Verschieben und Größe	Перемещение и размер
@@ -502,3 +502,8 @@ nichts gefunden	ничего не найдено
 ✕ Suche beenden	✕ Закончить поиск
 Namen tippen, die Liste wird kleiner	Набери название, список станет короче
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Одно касание действует на следующую клавишу, два касания снова её выключают.
+Größe, Farben, Kürzel, Sprachen …	Размер, цвета, сочетания клавиш, языки …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Настройки (размер, цвета, сочетания клавиш, языки …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Внимание: автоматическая копия перед импортом не удалась.
+Einstellungen übernommen	Настройки применены
+Der vorherige Stand liegt hier:\n	Предыдущее состояние находится здесь:\n

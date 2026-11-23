@@ -2,7 +2,7 @@
 
 **English** · [Deutsch](README.de.md)
 
-Current version: **1.2.01**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Current version: **1.2.02**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 An on-screen keyboard for Windows, built for people who use the PC without their hands,
 for example with a mouth controller (Quadstick), a head mouse or eye tracking.
@@ -24,7 +24,7 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 - **Learns as you write:** new words, favourite words, typical word sequences, your own spelling and numbers such as a birth date, phone number, customer number or IBAN (only valid ones), suggested right after the first time. Optionally also from your own texts (folder with .txt, .md, .docx, mails). Only statistics are stored, everything stays on the PC.
 - **Remembers e-mail addresses:** type one once, next time it is suggested after 3 letters. In e-mail and user name fields the addresses appear right away.
 - **Password vault:** in password fields your saved passwords appear at the top, one click types them. Newly typed passwords can be saved with one click, secure passwords can be generated. Encrypted with Windows (DPAPI), optional PIN. Never in the word suggestions, never through the clipboard.
-- **Back up and transfer:** export learned data, custom terms, macros and, if you like, the passwords as one `.nohands` file and import it on your second PC. With passwords always encrypted (AES-256), importing merges instead of overwriting.
+- **Back up and transfer:** export learned data, custom terms, macros, settings and, if you like, the passwords as one `.nohands` file and import it on your second PC. With passwords always encrypted (AES-256), importing merges instead of overwriting and applies the settings right away. The previous state is backed up automatically first.
 - **Dwell click:** a key triggers when you stay on it briefly.
 - **Sticky modifier keys:** tap Ctrl, Alt, Shift, Win or AltGr once for the next key, twice to switch it off again. Shift stays on across arrow keys for selecting. AltGr sits right next to the space bar.
 - **Editable special characters** in the bottom row: ! ? : - by default.

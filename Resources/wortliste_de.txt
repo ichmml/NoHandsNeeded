@@ -3469,6 +3469,7 @@ Achilles	322
 Achillesferse	252
 Achim	369
 Achims	186
+achja	363
 Achsabstand	172
 Achse	397
 Achsel	273
@@ -3483,6 +3484,7 @@ Achsenmächte	225
 Achslager	166
 Achslast	213
 Achslasten	179
+achso	384
 acht	498
 achtbar	210
 achtbare	211
@@ -12724,6 +12726,7 @@ Auflösungen	290
 Auflösungserscheinungen	225
 Auflösungsvermögen	220
 Auflösungsvertrag	193
+aufm	394
 aufmache	250
 aufmachen	389
 aufmachend	234
@@ -12784,6 +12787,7 @@ aufmöbeln	188
 aufmüpfig	226
 aufmüpfige	192
 aufmüpfigen	228
+aufn	334
 aufnahm	341
 Aufnahme	461
 Aufnahmeantrag	227
@@ -15822,6 +15826,7 @@ auslöstet	239
 Auslösung	295
 Auslösungen	198
 auslüften	203
+ausm	368
 ausmachbar	250
 ausmachbare	250
 ausmachbarem	250
@@ -18027,6 +18032,7 @@ Backkunst	162
 Backlinks	256
 Backmischung	223
 Backmischungen	204
+Backofen	342
 Backofens	198
 Backoffice	218
 Backpacker	248
@@ -22318,6 +22324,7 @@ beklopptes	200
 beknackt	256
 beknackte	242
 beknackten	235
+bekomm	358
 bekomme	457
 bekommen	542
 bekommend	295
@@ -28474,6 +28481,7 @@ bissigen	253
 bissiger	249
 bisst	227
 bist	561
+biste	326
 Bistum	360
 Bistums	318
 Bistümer	288
@@ -29396,6 +29404,7 @@ blütenweiß	168
 blütenweißen	166
 Blütezeit	333
 Boa	319
+boah	379
 Bob	421
 Bobbahn	197
 Bobfahren	168
@@ -37776,6 +37785,7 @@ drauflos	275
 draufschlagen	205
 Draufsicht	224
 draufzahlen	231
+draus	386
 draußen	482
 drechsel	242
 drechseln	200
@@ -51321,6 +51331,7 @@ esoterisches	192
 Espenlaub	217
 Esperanto	275
 Espresso	351
+ess	355
 Essay	379
 Essayist	236
 Essayisten	202
@@ -54200,6 +54211,7 @@ Fehlzeiten	267
 Fehlzündung	175
 Fehlzündungen	189
 feier	437
+Feierabend	391
 Feierabendbier	250
 Feierabendverkehr	225
 feiere	315
@@ -54233,6 +54245,7 @@ Feierstimmung	164
 Feierstunde	286
 Feierstunden	182
 feiert	436
+Feiertag	387
 Feiertage	378
 Feiertagen	365
 Feiertages	212
@@ -59683,6 +59696,7 @@ Fressnapf	249
 fresst	224
 Fresszellen	174
 Frettchen	281
+freu	407
 Freud	374
 Freude	487
 Freuden	353
@@ -60460,6 +60474,8 @@ fuchtel	259
 fuchteln	213
 fuchtelt	219
 fuchtelte	207
+fuck	429
+fucking	387
 Fuder	218
 Fug	279
 Fugen	342
@@ -61693,6 +61709,7 @@ fürchteten	311
 fürchtetest	261
 fürchtetet	261
 füreinander	337
+fürn	352
 fürs	482
 Fürsorge	348
 Fürsorgen	193
@@ -61792,6 +61809,7 @@ Gabler	311
 Gablung	209
 Gablungen	209
 Gabriel	442
+gabs	370
 gabst	237
 gabt	173
 Gabun	263
@@ -64554,6 +64572,7 @@ Gehsteig	287
 Gehsteige	212
 Gehsteigen	188
 geht	600
+gehts	441
 gehuldigt	244
 gehungert	236
 Gehupe	179
@@ -65468,6 +65487,7 @@ gelittenem	225
 gelittenen	225
 gelittener	225
 gelittenes	225
+gell	342
 gelle	245
 gellen	186
 gellend	186
@@ -70818,6 +70838,7 @@ Gibraltar	341
 Gibraltars	196
 gibst	403
 gibt	606
+gibts	463
 Gicht	299
 Giebel	320
 Giebeln	238
@@ -70949,6 +70970,7 @@ ging	541
 ginge	409
 gingen	469
 ginget	295
+gings	336
 gingst	236
 Ginkgo	257
 Ginko	168
@@ -74395,6 +74417,7 @@ Gästezimmer	320
 Gästezimmern	202
 Gäule	207
 Gödel	231
+gönn	327
 gönne	335
 gönnen	392
 gönnend	237
@@ -74677,6 +74700,7 @@ habilitiert	231
 habilitierte	263
 habilitierten	171
 Habitus	314
+habs	418
 Habsburg	323
 Habsburger	321
 Habsburgerinnen	166
@@ -74862,6 +74886,7 @@ hagerstem	164
 hagersten	164
 hagerster	164
 hagerstes	164
+haha	436
 Hahn	429
 Hahnenfuß	191
 Hahnenkamm	225
@@ -79383,6 +79408,7 @@ hexte	220
 hexten	220
 hextest	220
 hextet	220
+hey	493
 Hi	456
 hie	322
 Hieb	314
@@ -81241,6 +81267,7 @@ Hofdichter	178
 Hofdienst	177
 Hofeinfahrt	225
 Hofes	345
+hoff	363
 hoffe	508
 hoffen	467
 hoffend	236
@@ -82065,6 +82092,7 @@ Hugos	257
 Huhn	379
 Huhnes	167
 Huhns	205
+huhu	306
 huldige	194
 huldigen	299
 huldigt	276
@@ -82533,6 +82561,7 @@ Händlern	356
 Händlernetz	190
 Händlers	293
 Hänfling	176
+häng	340
 hänge	380
 Hängebrücke	269
 Hängebrücken	203
@@ -86571,6 +86600,7 @@ Janina	318
 Januar	503
 Januars	216
 Januarwoche	185
+jap	398
 Japan	459
 Japaner	397
 Japanerin	292
@@ -87531,6 +87561,8 @@ Kachel	246
 Kacheln	295
 Kachelofen	263
 Kachelöfen	223
+Kacke	402
+kacken	349
 Kadaver	299
 Kadavern	208
 Kadavers	167
@@ -89450,6 +89482,7 @@ Kelvin	311
 Kempten	361
 Kenia	368
 Kenias	262
+kenn	433
 Kenndaten	207
 kenne	499
 Kennedy	382
@@ -103003,6 +103036,7 @@ Lieferzeit	284
 Lieferzeiten	260
 liefest	295
 liefre	295
+lieg	308
 liege	429
 Liegefläche	199
 Liegeflächen	170
@@ -103809,6 +103843,7 @@ Lokomotiven	314
 Lokomotivführer	287
 Lokomotivführers	171
 Loks	297
+lol	440
 Lolita	295
 Lolitas	187
 Lollobrigida	184
@@ -104731,6 +104766,7 @@ lösbarem	295
 lösbaren	218
 lösbares	182
 Lösbarkeit	180
+lösch	341
 Löschangriff	203
 Löschanlage	169
 Löscharbeiten	267
@@ -107136,6 +107172,7 @@ Meerwasser	314
 Meerwassers	200
 Meeting	381
 Meetings	337
+mega	430
 Megabit	229
 Megabyte	260
 Megafon	261
@@ -108405,6 +108442,7 @@ migriert	226
 migrierten	173
 Migräne	346
 Mikado	268
+Mikro	372
 Mikroalgen	168
 Mikrobe	186
 Mikroben	289
@@ -110796,6 +110834,7 @@ Mohn	322
 Mohr	358
 Mohren	275
 Mohrenkopf	229
+moin	390
 Moiré	182
 mokieren	190
 mokiert	222
@@ -113989,6 +114028,7 @@ naivst	237
 naivstem	237
 naivster	237
 naivstes	237
+naja	483
 Name	514
 Namen	537
 namenlos	267
@@ -114812,6 +114852,7 @@ necken	273
 Neckermann	275
 neckt	231
 neckte	178
+nee	435
 Neffe	373
 Neffen	368
 Negation	279
@@ -114854,6 +114895,7 @@ negierte	162
 Negligee	187
 Negligé	216
 Negro	293
+nehm	407
 nehme	471
 nehmen	545
 nehmend	248
@@ -114926,6 +114968,8 @@ Nelke	264
 Nelken	295
 Nelkenrevolution	177
 Nelkenöl	171
+nem	462
+nen	502
 nenn	387
 nennbar	295
 nennbare	295
@@ -115016,6 +115060,7 @@ Nepals	232
 Nepp	224
 Neptun	315
 Neptuns	213
+ner	450
 Nero	347
 Neros	238
 Nerv	371
@@ -116227,6 +116272,7 @@ Niveaus	304
 nivellieren	200
 nivelliert	208
 Nivellierung	218
+nix	490
 Nixdorf	267
 Nixe	259
 Nixen	235
@@ -117011,6 +117057,7 @@ Nutella	351
 Nuten	248
 Nutte	364
 Nutten	368
+nutz	337
 nutzbar	370
 nutzbare	302
 nutzbaren	294
@@ -117931,6 +117978,7 @@ Obszönität	231
 Obszönitäten	214
 obwohl	518
 obzwar	184
+och	393
 Ochs	306
 Ochsen	325
 ocker	274
@@ -118103,6 +118151,7 @@ oft	548
 oftmals	434
 oh	523
 Oheim	231
+ohh	338
 Ohio	353
 Ohm	325
 ohmsche	189
@@ -118176,6 +118225,7 @@ Ohrstöpseln	181
 Ohrwurm	328
 Ohrwürmer	267
 Ohrwürmern	180
+ok	516
 okay	497
 okkult	178
 okkulte	252
@@ -121074,6 +121124,7 @@ Penissen	224
 Penisses	259
 Penisvergrößerung	197
 Penizillin	163
+pennen	323
 Penner	355
 Pennerin	200
 Pennerinnen	200
@@ -122533,6 +122584,7 @@ Pipeline	352
 Pipelines	283
 Pipette	240
 Pipetten	206
+Pipi	323
 Pippi	318
 Piquet	204
 Pirat	344
@@ -126642,6 +126694,7 @@ Pufferzone	277
 Pufferzonen	184
 puffre	176
 Puffs	230
+puh	378
 Pulk	255
 Pulle	281
 Pulli	349
@@ -128552,12 +128605,15 @@ rauschtet	209
 Rauschunterdrückung	167
 Rauschzustand	196
 rausgefahren	213
+rausgekommen	338
 rausgesucht	305
 rausgeworfen	328
 rausgeworfene	173
 rausgeworfenem	173
 rausgeworfenen	173
 rausgeworfener	173
+rauskommen	360
+rauskommt	372
 rauslasse	168
 rauslassen	323
 rauslassend	168
@@ -128577,6 +128633,7 @@ raustem	210
 rausten	210
 rauster	210
 raustes	210
+rauszuholen	303
 raut	173
 raute	312
 rauten	268
@@ -130726,6 +130783,7 @@ reinstes	238
 reinvestieren	188
 reinvestiert	212
 reinwaschen	226
+reinziehen	331
 Reis	414
 Reisanbau	191
 reise	490
@@ -133702,7 +133760,9 @@ Rundwegs	164
 Rune	298
 Runen	313
 runter	464
+runtergeladen	312
 runtergeschraubt	195
+runterladen	345
 runterrutschen	194
 runterzufahren	194
 runzelig	215
@@ -133970,6 +134030,7 @@ Rötung	270
 Rötungen	218
 Rübe	309
 Rüben	315
+rüber	416
 Rübezahl	231
 rückabwickeln	180
 Rückabwicklung	246
@@ -136556,6 +136617,7 @@ Schiefertafeln	173
 Schieferöl	165
 schiefes	231
 schiefgegangen	266
+schiefgehen	327
 Schieflage	301
 Schieflagen	191
 schiefst	271
@@ -141980,6 +142042,7 @@ segnete	273
 segneten	185
 Segnung	279
 Segnungen	267
+seh	446
 Sehbehinderung	232
 sehe	518
 sehen	569
@@ -143211,6 +143274,7 @@ Serviette	281
 Servietten	295
 Servolenkung	260
 Servomotoren	169
+servus	346
 Sesam	289
 Sesamstraße	277
 Sesamöl	226
@@ -143365,6 +143429,7 @@ Sherry	299
 Shirley	320
 Shogun	251
 Shop	450
+shoppen	370
 Shops	372
 Shorts	350
 Show	481
@@ -143937,6 +144002,7 @@ sieh	423
 siehe	503
 siehst	465
 sieht	557
+siehts	344
 Siel	235
 Siele	183
 Sielen	178
@@ -145662,6 +145728,7 @@ sorgte	410
 sorgten	371
 sorgtest	295
 sorgtet	295
+sorry	468
 Sorte	405
 Sorten	402
 Sortieranlage	172
@@ -145734,6 +145801,7 @@ Souveränitäten	220
 Souveränitätsrechte	181
 Souveräns	215
 soviel	449
+sowas	498
 soweit	496
 Soweto	230
 sowie	569
@@ -153893,6 +153961,7 @@ Supervisorin	189
 Superwaffe	203
 Superwahljahr	200
 Superzahl	234
+supi	306
 Suppe	399
 Suppen	311
 Suppengemüse	164
@@ -157426,6 +157495,7 @@ Thunfische	200
 Thunfisches	174
 Thunfischs	174
 Thurgau	325
+thx	312
 Thymian	296
 Thyristor	169
 Thyristoren	173
@@ -157957,6 +158027,7 @@ titulierte	228
 titulierten	203
 Titulierung	189
 Tivoli	307
+tja	455
 Toast	357
 Toastbrot	274
 toasten	225
@@ -160584,6 +160655,7 @@ tuschte	184
 tuschten	184
 tuschtest	184
 tuschtet	184
+Tussi	312
 tust	412
 tut	519
 tute	186
@@ -178029,6 +178101,7 @@ vertagtes	167
 vertagtest	265
 vertagtet	265
 Vertagung	262
+vertan	321
 vertauschbare	191
 vertauschbarem	191
 vertauschbaren	191
@@ -186686,6 +186759,7 @@ Weißstörche	209
 weißt	483
 Weißtanne	219
 Weißtannen	186
+weißte	311
 Weißwasser	291
 Weißwein	331
 Weißweine	244
@@ -187152,6 +187226,7 @@ wenigstens	498
 wenigster	264
 wenn	651
 wenngleich	381
+wenns	414
 wennschon	206
 wer	586
 werbe	358
@@ -189302,6 +189377,7 @@ Wirbelwind	275
 Wirbelwinde	163
 wirbt	377
 wird	650
+wirds	395
 wirf	335
 wirfst	331
 wirft	446
@@ -190699,6 +190775,7 @@ worüber	399
 Wotan	286
 wovon	433
 wovor	328
+wow	471
 wozu	443
 Wrack	356
 Wracks	286
@@ -198813,6 +198890,7 @@ zürnte	191
 überlebtes	280
 überlebtest	280
 überlebtet	280
+überleg	355
 überlege	392
 überlegen	454
 überlegendem	295
@@ -198954,6 +199032,7 @@ zürnte	191
 übermütige	196
 übermütigen	200
 übermütiger	165
+übern	324
 Übernacht	210
 übernachte	226
 übernachten	374

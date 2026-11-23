@@ -27,7 +27,7 @@ Gelernte Wörter ({0}), Wortfolgen ({1}), Zahlen ({2})	Mots appris ({0}), suites
 Eigene Begriffe ({0})	Termes personnels ({0})
 Makros ({0})	Macros ({0})
 Passwörter ({0})	Mots de passe ({0})
-Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte.	Pour les mêmes mots, le compteur le plus élevé l'emporte. Une macro du même nom est remplacée. Pour un mot de passe avec le même nom et utilisateur, celui modifié ou utilisé le plus récemment l'emporte.
+Bei gleichen Wörtern zählt der höhere Zähler. Ein Makro mit gleichem Namen wird ersetzt. Bei einem Passwort mit gleichem Namen und Benutzer gewinnt das zuletzt geänderte oder benutzte. Die Einstellungen werden übernommen und gelten sofort. Vorher wird der jetzige Stand automatisch gesichert.	Pour les mêmes mots, le compteur le plus élevé l'emporte. Une macro du même nom est remplacée. Pour un mot de passe avec le même nom et utilisateur, celui modifié ou utilisé le plus récemment l'emporte. Les paramètres sont repris et s'appliquent tout de suite. L'état actuel est d'abord sauvegardé automatiquement.
 Übernehmen	Appliquer
 Gelernte E-Mail-Adressen: Adresse<TAB>Anzahl	Adresses e-mail apprises : adresse<TAB>nombre
 Makroleiste öffnen	Ouvrir la barre de macros
@@ -352,7 +352,7 @@ Mit PIN automatisch sperren nach	Avec code PIN, verrouiller automatiquement apr�
 nie	jamais
  Minuten	 minutes
 Sichern und auf anderen PC übertragen	Sauvegarder et transférer vers un autre PC
-Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt.	Mettre dans un fichier les mots appris, les suites de mots, les nombres, les termes personnels, les macros et, si tu veux, les mots de passe. L'importer sur l'autre PC, et tout est fusionné.
+Gelernte Wörter, Wortfolgen, Zahlen, eigene Begriffe, Makros und auf Wunsch die Passwörter in eine Datei packen. Auf dem anderen PC importieren, dann wird alles zusammengeführt. Die Einstellungen kommen auch mit und gelten nach dem Import sofort.	Mettre dans un fichier les mots appris, les suites de mots, les nombres, les termes personnels, les macros et, si tu veux, les mots de passe. L'importer sur l'autre PC, et tout est fusionné. Les paramètres sont inclus et s'appliquent dès l'importation.
 Daten exportieren …	Exporter les données …
 Daten importieren …	Importer les données …
 Verschieben und Größe	Déplacement et taille
@@ -502,3 +502,8 @@ nichts gefunden	rien trouvé
 ✕ Suche beenden	✕ Arrêter la recherche
 Namen tippen, die Liste wird kleiner	Tape un nom, la liste se réduit
 Einmal tippen gilt für die nächste Taste, zweimal tippen schaltet sie wieder aus.	Un appui vaut pour la touche suivante, deux appuis la désactivent.
+Größe, Farben, Kürzel, Sprachen …	Taille, couleurs, raccourcis, langues …
+Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Paramètres (taille, couleurs, raccourcis, langues …)
+Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Remarque : la sauvegarde automatique préalable n'a pas fonctionné.
+Einstellungen übernommen	Paramètres appliqués
+Der vorherige Stand liegt hier:\n	L'état précédent se trouve ici :\n

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klawiatura ekranowa, Wersja 1.2.01
+Klawiatura ekranowa, Wersja 1.2.02
 
 Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego
 powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład
@@ -411,7 +411,13 @@ Ustawienia → „Kopia zapasowa i przeniesienie na inny komputer”.
     to ostatnio zmienione lub użyte.
   - Ostatnio użyty folder jest zapamiętywany. Wygodny jest folder widoczny dla obu
     komputerów (pendrive, folder w chmurze).
-  - Rozmiar i pozycja nie są przenoszone, i tak różnią się na każdym komputerze.
+  - Ustawienia (rozmiar, kolory, czas zatrzymania, skróty, języki itd.) też są dołączane.
+    Przy imporcie zostają od razu przejęte i zapisane, bez ponownego uruchamiania. Jeśli
+    zapisana pozycja leży poza ekranami drugiego komputera, klawiatura przechodzi na ekran
+    główny.
+  - Przed każdym importem klawiatura automatycznie zapisuje obecny stan (bez haseł) w
+    folderze danych w "sicherungen". Zostają trzy ostatnie. Aby wrócić, wystarczy
+    zaimportować ten plik.
 
 Wsparcie
 --------
