@@ -13,9 +13,9 @@ namespace Tastatur
             Console.WriteLine("\n--- 1.2.02: Einstellungen sichern und Alltagssprache ---");
 
             // Einstellungen als Text und zurück
-            var a = new Settings { Theme = "hell", DwellMs = 1234, HotkeyShow = "NumPlus", ActiveLanguages = "de,fr", WidthPercent = 44, X = 50000, Y = 50000, BackupFolder = @"C:\Fremd" };   // i18n-ok
+            var a = new Settings { AutoFadePercent = 55, Theme = "hell", DwellMs = 1234, HotkeyShow = "NumPlus", ActiveLanguages = "de,fr", WidthPercent = 44, X = 50000, Y = 50000, BackupFolder = @"C:\Fremd" };   // i18n-ok
             var b = Settings.FromText(a.ToText());
-            Check(b.Theme == "hell" && b.DwellMs == 1234 && b.HotkeyShow == "NumPlus" && b.ActiveLanguages == "de,fr" && Math.Abs(b.WidthPercent - 44) < 0.01, "Einstellungen: Text hin und zurück");   // i18n-ok
+            Check(b.AutoFadePercent == 55 && b.Theme == "hell" && b.DwellMs == 1234 && b.HotkeyShow == "NumPlus" && b.ActiveLanguages == "de,fr" && Math.Abs(b.WidthPercent - 44) < 0.01, "Einstellungen: Text hin und zurück");   // i18n-ok
             Check(b.FileVersion == Settings.CurrentVersion, "Einstellungen aus der Sicherung: Version aktuell");
             var old = Settings.FromText("einstellungen_version = 5\nfenster_breite_prozent = 50\n");
             Check(Math.Abs(old.WidthPercent - 50) < 0.01 && old.DwellMs == new Settings().DwellMs, "alte Sicherung: fehlende Werte bekommen den Standard");
