@@ -94,6 +94,16 @@ Více obrazovek: klávesnici lze přetáhnout na každou obrazovku, i když maj�
   pro kulaté tlačítko.
 V nastavení může mít lišta návrhů i dva řádky s vlastní velikostí písma.
 
+Průhledná nad textovými poli
+----------------------------
+Když klávesnice zakrývá místo, kam píšeš (např. okno Gmailu vpravo dole), po chvíli zprůhlední
+(výchozí 40 %). Jakmile je místo volné, vrátí se do normálu. Když je myš na klávesnici, platí
+vlastní krytí (výchozí 75 %), abys viděl klávesy i text zároveň.
+Nastavení → „Průhledná nad textovými poli“: zap/vyp, jen kurzor nebo celé pole, obě krytí,
+programy bez této funkce a protokol v protokoll.txt.
+Rozpoznání přes usnadnění přístupu Windows (UI Automation). Funguje v Chrome, Edge, Firefoxu
+a většině programů, ne v některých starších programech nebo hrách.
+
 Klávesy
 -------
 Fn (vlevo dole): druhá vrstva s F1 až F12, Home, End, Page Up/Down, speciálními znaky.

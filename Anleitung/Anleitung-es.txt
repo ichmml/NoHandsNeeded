@@ -104,6 +104,17 @@ Varias pantallas: el teclado se puede arrastrar a cualquier pantalla, también s
 En los ajustes, la barra de sugerencias también puede tener dos filas, con su propio tamaño
 de letra.
 
+Transparente sobre campos de texto
+----------------------------------
+Si el teclado tapa el lugar donde escribes (p. ej. la ventana de Gmail abajo a la derecha), tras
+un momento se vuelve más transparente (40 % por defecto). Cuando el lugar queda libre, vuelve a
+la normalidad. Con el ratón sobre el teclado se aplica otra opacidad (75 % por defecto), para ver
+teclas y texto a la vez.
+Ajustes → "Transparente sobre campos de texto": activar/desactivar, solo el cursor o todo el
+campo, ambas opacidades, programas excluidos y un registro en protokoll.txt.
+La detección usa la accesibilidad de Windows (UI Automation). Funciona en Chrome, Edge, Firefox
+y la mayoría de programas, no en algunos programas antiguos o juegos.
+
 Teclas
 ------
 Fn (abajo a la izquierda): segundo nivel con F1 a F12, Inicio, Fin, Re Pág/Av Pág, caracteres

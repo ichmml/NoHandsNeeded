@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Nastavení (velikost, bar
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Upozornění: automatická záloha předtím se nepovedla.
 Einstellungen übernommen	Nastavení převzato
 Der vorherige Stand liegt hier:\n	Předchozí stav je tady:\n
+Durchsichtig über Textfeldern	Průhledná nad textovými poli
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Když klávesnice zakrývá pole, do kterého právě píšeš (např. okno Gmailu), zprůhlední. Jakmile je pole zase volné, vrátí se do normálu.
+Über Textfeldern durchsichtig werden	Zprůhlednit nad textovými poli
+nur der Cursor	jen kurzor
+das ganze Textfeld	celé textové pole
+Durchsichtig, wenn verdeckt ist:	Průhledná, když je zakrytý:
+Deckkraft über dem Textfeld	Krytí nad textovým polem
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Krytí nad textovým polem, dokud je myš na klávesnici
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Nikdy nepřekročí normální krytí. 100 % znamená: normálně, dokud je myš na klávesnici.
+Nicht in diesen Programmen (z. B. winword, excel):	Ne v těchto programech (např. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Zapisovat rozpoznaná textová pole do protokolu

@@ -154,6 +154,19 @@ sentence start. Back in the window you simply keep writing.
 With dwell click, Backspace, Delete and the arrows repeat as long as you stay on them.
 All other keys only trigger again after you have left the key once.
 
+Transparent over text fields
+----------------------------
+If the keyboard covers the spot where you are typing (e.g. the Gmail window at the bottom
+right), it becomes more transparent after a moment (default 40 %). Once the spot is free again,
+it goes back to normal. While you point at the keyboard with the mouse, a separate opacity
+applies (default 75 %), so you see keys and text at the same time. At 100 % it is normal then.
+Settings → "Transparent over text fields": on/off, whether only the cursor (with two lines of
+margin) or the whole text field counts, both opacities, programs without this feature
+(e.g. winword, excel) and a log of detected fields in protokoll.txt.
+Detection uses the Windows accessibility interface (UI Automation). Chrome, Edge, Firefox and
+most Windows programs report their text field, some older programs or games do not.
+There the keyboard simply stays as it is.
+
 Macros
 ------
 Tap "Macros": the macros appear at the top instead of the word suggestions.

@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Paramètres (taille, coul
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Remarque : la sauvegarde automatique préalable n'a pas fonctionné.
 Einstellungen übernommen	Paramètres appliqués
 Der vorherige Stand liegt hier:\n	L'état précédent se trouve ici :\n
+Durchsichtig über Textfeldern	Transparent au-dessus des champs de texte
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Si le clavier couvre le champ dans lequel tu écris (p. ex. la fenêtre Gmail), il devient plus transparent. Dès que le champ est libre, il redevient normal.
+Über Textfeldern durchsichtig werden	Devenir transparent au-dessus des champs de texte
+nur der Cursor	seulement le curseur
+das ganze Textfeld	tout le champ de texte
+Durchsichtig, wenn verdeckt ist:	Transparent quand ceci est couvert :
+Deckkraft über dem Textfeld	Opacité au-dessus du champ de texte
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Opacité au-dessus du champ de texte tant que la souris est sur le clavier
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Elle ne dépasse jamais l'opacité normale. 100 % signifie : normal tant que la souris est sur le clavier.
+Nicht in diesen Programmen (z. B. winword, excel):	Pas dans ces programmes (p. ex. winword, excel) :
+Erkannte Textfelder ins Protokoll schreiben	Écrire les champs de texte détectés dans le journal

@@ -106,6 +106,18 @@ Plusieurs écrans : le clavier peut être déplacé sur n'importe quel écran, m
 Dans les paramètres, la barre de suggestions peut aussi avoir deux lignes, avec sa propre
 taille de police.
 
+Transparent au-dessus des champs de texte
+-----------------------------------------
+Si le clavier couvre l'endroit où tu écris (p. ex. la fenêtre Gmail en bas à droite), il devient
+plus transparent après un instant (40 % par défaut). Dès que l'endroit est libre, il redevient
+normal. Quand la souris est sur le clavier, une opacité à part s'applique (75 % par défaut),
+pour voir les touches et le texte en même temps.
+Paramètres → « Transparent au-dessus des champs de texte » : activé/désactivé, seulement le
+curseur ou tout le champ, les deux opacités, les programmes exclus et un journal dans
+protokoll.txt. La détection passe par l'accessibilité de Windows (UI Automation). Fonctionne
+dans Chrome, Edge, Firefox et la plupart des programmes, pas dans certains anciens programmes
+ou jeux.
+
 Touches
 -------
 Fn (en bas à gauche) : deuxième niveau avec F1 à F12, Début, Fin, Page préc./suiv.,

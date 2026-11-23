@@ -77,6 +77,7 @@ namespace Tastatur
         private readonly Vault _vault;
         private string _vaultError;
         private readonly PasswordWatcher _pwWatcher = new PasswordWatcher();
+        private readonly TextFieldWatcher _fieldWatcher = new TextFieldWatcher();
         private bool _vaultShown;
         private string _offer;                 // gerade getipptes Passwort, das gespeichert werden könnte
         private string _offerTitle, _offerProcess;
@@ -237,6 +238,8 @@ namespace Tastatur
             _watcher.AddOwnWindow(_mini.Handle);
             _watcher.Start();
             try { _pwWatcher.Start(); } catch (Exception e) { Log.Write("Passwortfeld-Erkennung nicht verfügbar: " + e.Message); }
+            _keyboard.FieldWatcher = _fieldWatcher;
+            try { _fieldWatcher.Start(); } catch (Exception e) { Log.Write("Textfeld-Erkennung nicht verfügbar: " + e.Message); }
 
             if (_settings.Autostart) Settings.ApplyAutostart(true); // Pfad aktuell halten, falls die .exe verschoben wurde
 
@@ -1427,6 +1430,7 @@ namespace Tastatur
             _timer.Stop();
             SaveLearning();
             _pwWatcher.Dispose();
+            _fieldWatcher.Dispose();
             if (_physHook != null) _physHook.Dispose();
             if (_vaultEditor != null && !_vaultEditor.IsDisposed) _vaultEditor.Close();
             if (_learnedForm != null && !_learnedForm.IsDisposed) _learnedForm.Close();

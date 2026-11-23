@@ -348,6 +348,54 @@ namespace Tastatur
 
         /// <summary>Echte Tastendrücke für die rote Anzeige (null = aus).</summary>
         public PhysicalKeys Physical;
+
+        // ---------- Über Textfeldern durchsichtig ----------
+
+        /// <summary>Erkennt das Textfeld mit dem Fokus (setzt das Hauptprogramm).</summary>
+        public TextFieldWatcher FieldWatcher;
+        private readonly FadeState _fade = new FadeState();
+        private DateTime _fadeAt;
+
+        private void UpdateAutoFade(DateTime now)
+        {
+            var w = FieldWatcher;
+            bool on = w != null && _settings.AutoFadeOn;
+            if (w != null) w.Configure(on, _settings.AutoFadeCaret, _settings.AutoFadeExclude, _settings.AutoFadeLog);
+            double elapsed = _fadeAt == default(DateTime) ? Timer1Ms : (now - _fadeAt).TotalMilliseconds;
+            _fadeAt = now;
+            if (_drag != DragMode.None) return;   // beim Verschieben regelt das Ziehen die Deckkraft
+
+            var bounds = Bounds;
+            bool mouseOver = bounds.Contains(Cursor.Position);
+            FieldInfo f = on ? w.Latest : null;
+            if (f != null && (now - f.At).TotalMilliseconds > AutoFade.StaleMs) f = null;   // Abfrage hängt: normal bleiben
+            bool overlap = false;
+            if (f != null)
+            {
+                Rectangle area = _settings.AutoFadeCaret && !f.Caret.IsEmpty ? AutoFade.CaretArea(f.Caret, 2) : f.Field;
+                overlap = !area.IsEmpty && area.IntersectsWith(bounds);
+            }
+            bool covered = _fade.Update(overlap, f != null, mouseOver, now);
+
+            int normal = _settings.OpacityPercent;
+            int target = AutoFade.TargetPercent(on, covered, mouseOver, normal, _settings.AutoFadePercent, _settings.AutoFadeHoverPercent);
+            double cur = Opacity * 100.0;
+            double span = Math.Max(5, normal - Math.Min(_settings.AutoFadePercent, _settings.AutoFadeHoverPercent));
+            double next = AutoFade.Approach(cur, target, elapsed, span);
+            if (Math.Abs(next - cur) >= 0.5 || (next == target && cur != target)) Opacity = next / 100.0;
+        }
+        private const double Timer1Ms = 30;
+
+        protected override void OnVisibleChanged(EventArgs e)
+        {
+            base.OnVisibleChanged(e);
+            if (!Visible)
+            {
+                _fade.Reset();
+                if (FieldWatcher != null) FieldWatcher.Configure(false, _settings.AutoFadeCaret, _settings.AutoFadeExclude, _settings.AutoFadeLog);
+                if (_drag == DragMode.None) Opacity = _settings.OpacityPercent / 100.0;
+            }
+        }
         private static readonly Color PhysicalRed = Color.FromArgb(215, 45, 45);
 
         /// <summary>Gibt es die echte Taste auf der gerade sichtbaren Tastatur?</summary>
@@ -385,7 +433,7 @@ namespace Tastatur
         {
             _theme = Theme.Get(_settings.Theme);
             BackColor = _theme.Background;
-            Opacity = _settings.OpacityPercent / 100.0;
+            if (!_fade.Covered) Opacity = _settings.OpacityPercent / 100.0;   // verdeckt: der Tick blendet zum neuen Wert
             if (LayoutCodeSource != null) SetLayout(LayoutCodeSource());
             if (KeyLayouts.BottomChars != _settings.BottomChars) { KeyLayouts.BottomChars = _settings.BottomChars; ApplyLayout(); }   // sofort, ohne Neustart
             _fontMain = null;
@@ -1583,6 +1631,7 @@ namespace Tastatur
             var now = DateTime.UtcNow;
 
             if (++_topmostCounter >= 66) { _topmostCounter = 0; ReassertTopmost(); }
+            UpdateAutoFade(now);
             // Eingabefeld: Strich blinkt, Klartext läuft ab
             if (_settings.ShowInputField && (now - _blinkAt).TotalMilliseconds >= 530)
             {

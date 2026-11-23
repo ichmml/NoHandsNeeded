@@ -533,3 +533,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Settings (size, colours, 
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Note: the automatic backup beforehand did not work.
 Einstellungen übernommen	Settings applied
 Der vorherige Stand liegt hier:\n	Your previous state is here:\n
+Durchsichtig über Textfeldern	Transparent over text fields
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	If the keyboard covers the field you are typing in (e.g. the Gmail window), it becomes more transparent. Once the field is free again, it goes back to normal.
+Über Textfeldern durchsichtig werden	Become transparent over text fields
+nur der Cursor	only the cursor
+das ganze Textfeld	the whole text field
+Durchsichtig, wenn verdeckt ist:	Transparent when this is covered:
+Deckkraft über dem Textfeld	Opacity over the text field
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Opacity over the text field while the mouse is on the keyboard
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	It never goes above the normal opacity. 100 % means: normal while the mouse is on the keyboard.
+Nicht in diesen Programmen (z. B. winword, excel):	Not in these programs (e.g. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Write detected text fields to the log

@@ -99,6 +99,17 @@ Kilka ekranów: klawiaturę można przeciągnąć na każdy ekran, także gdy ek
   samo dotyczy okrągłego przycisku.
 W ustawieniach pasek podpowiedzi może mieć też dwa wiersze, z własnym rozmiarem czcionki.
 
+Przezroczysta nad polami tekstowymi
+-----------------------------------
+Jeśli klawiatura zasłania miejsce, w którym piszesz (np. okno Gmaila w prawym dolnym rogu),
+po chwili staje się bardziej przezroczysta (domyślnie 40 %). Gdy miejsce jest znowu wolne, wraca
+do normy. Gdy mysz jest na klawiaturze, obowiązuje osobne krycie (domyślnie 75 %), żeby widzieć
+jednocześnie klawisze i tekst.
+Ustawienia → „Przezroczysta nad polami tekstowymi”: wł./wył., tylko kursor lub całe pole, oba
+krycia, programy bez tej funkcji i protokół w protokoll.txt.
+Rozpoznawanie przez ułatwienia dostępu Windows (UI Automation). Działa w Chrome, Edge, Firefox
+i większości programów, nie w niektórych starszych programach lub grach.
+
 Klawisze
 --------
 Fn (na dole po lewej): druga warstwa z F1 do F12, Home, End, Page Up/Down, znaki specjalne.

@@ -95,6 +95,16 @@ Birden çok ekran: klavye, ölçekleri farklı olsa bile (ör. %125 ve %100) her
   ana ekranın sağ altında belirir. Aynısı yuvarlak düğme için de geçerlidir.
 Ayarlarda öneri çubuğu kendi yazı boyutuyla iki satırlı da olabilir.
 
+Metin alanlarının üzerinde saydam
+---------------------------------
+Klavye yazdığın yeri kapatırsa (ör. sağ alttaki Gmail penceresi), kısa süre sonra daha saydam
+olur (varsayılan %40). Yer tekrar boşalınca normale döner. Fare klavyenin üzerindeyken ayrı bir
+opaklık geçerlidir (varsayılan %75), böylece tuşları ve metni aynı anda görürsün.
+Ayarlar → "Metin alanlarının üzerinde saydam": aç/kapat, yalnızca imleç ya da tüm alan, iki
+opaklık, bu özelliğin kapalı olduğu programlar ve protokoll.txt içinde günlük.
+Algılama Windows erişilebilirlik arabirimiyle (UI Automation) yapılır. Chrome, Edge, Firefox ve
+çoğu programda çalışır, bazı eski programlarda veya oyunlarda çalışmaz.
+
 Tuşlar
 ------
 Fn (sol alt): F1-F12, Home, End, Page Up/Down ve özel karakterler içeren ikinci katman.

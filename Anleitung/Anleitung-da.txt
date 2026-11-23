@@ -95,6 +95,17 @@ Flere skærme: tastaturet kan trækkes til enhver skærm, også når skærmene e
   gælder den runde knap.
 I indstillingerne kan forslagsbjælken også have to linjer med egen skriftstørrelse.
 
+Gennemsigtig over tekstfelter
+-----------------------------
+Dækker tastaturet stedet, hvor du skriver (f.eks. Gmail-vinduet nederst til højre), bliver det
+efter et øjeblik mere gennemsigtigt (standard 40 %). Når stedet er frit igen, bliver det normalt.
+Peger du med musen på tastaturet, gælder en egen gennemsigtighed (standard 75 %), så du ser
+taster og tekst på samme tid.
+Indstillinger → "Gennemsigtig over tekstfelter": til/fra, kun markøren eller hele tekstfeltet,
+begge værdier, programmer uden funktionen og en log i protokoll.txt.
+Genkendelse via Windows' hjælpefunktioner (UI Automation). Virker i Chrome, Edge, Firefox og de
+fleste programmer, ikke i visse ældre programmer eller spil.
+
 Taster
 ------
 Fn (nederst til venstre): andet niveau med F1 til F12, Home, End, Page Up/Down, specialtegn.

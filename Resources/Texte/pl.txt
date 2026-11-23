@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Ustawienia (rozmiar, kolo
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Uwaga: automatyczna kopia przed importem się nie udała.
 Einstellungen übernommen	Ustawienia przejęte
 Der vorherige Stand liegt hier:\n	Poprzedni stan jest tutaj:\n
+Durchsichtig über Textfeldern	Przezroczysta nad polami tekstowymi
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Jeśli klawiatura zasłania pole, w którym piszesz (np. okno Gmaila), staje się bardziej przezroczysta. Gdy pole jest znowu wolne, wraca do normy.
+Über Textfeldern durchsichtig werden	Stawaj się przezroczysta nad polami tekstowymi
+nur der Cursor	tylko kursor
+das ganze Textfeld	całe pole tekstowe
+Durchsichtig, wenn verdeckt ist:	Przezroczysta, gdy zasłonięty jest:
+Deckkraft über dem Textfeld	Krycie nad polem tekstowym
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Krycie nad polem tekstowym, gdy mysz jest na klawiaturze
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Nigdy nie przekracza normalnego krycia. 100 % oznacza: normalnie, gdy mysz jest na klawiaturze.
+Nicht in diesen Programmen (z. B. winword, excel):	Nie w tych programach (np. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Zapisuj wykryte pola tekstowe w protokole

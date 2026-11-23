@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Настройки (ра�
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Внимание: автоматическая копия перед импортом не удалась.
 Einstellungen übernommen	Настройки применены
 Der vorherige Stand liegt hier:\n	Предыдущее состояние находится здесь:\n
+Durchsichtig über Textfeldern	Прозрачность над текстовыми полями
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Если клавиатура закрывает поле, в котором ты пишешь (например, окно Gmail), она становится прозрачнее. Когда поле снова свободно, она возвращается к норме.
+Über Textfeldern durchsichtig werden	Становиться прозрачной над текстовыми полями
+nur der Cursor	только курсор
+das ganze Textfeld	всё текстовое поле
+Durchsichtig, wenn verdeckt ist:	Прозрачная, когда закрыт:
+Deckkraft über dem Textfeld	Непрозрачность над текстовым полем
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Непрозрачность над текстовым полем, пока мышь на клавиатуре
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Никогда не больше обычной непрозрачности. 100 % означает: обычно, пока мышь на клавиатуре.
+Nicht in diesen Programmen (z. B. winword, excel):	Не в этих программах (например, winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Записывать найденные текстовые поля в журнал

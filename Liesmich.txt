@@ -95,6 +95,19 @@ Mehrere Bildschirme: Die Tastatur lässt sich auf jeden Bildschirm ziehen, auch 
   sie unten rechts auf dem Hauptbildschirm. Gleiches gilt für den runden Knopf.
 Die Vorschlagsleiste kann in den Einstellungen auch zweizeilig sein, mit eigener Schriftgröße.
 
+Durchsichtig über Textfeldern
+-----------------------------
+Verdeckt die Tastatur die Stelle, an der du gerade schreibst (z. B. das Gmail-Fenster unten
+rechts), wird sie nach kurzer Zeit durchsichtiger (Standard 40 %). Ist die Stelle wieder frei,
+wird sie wieder normal. Zeigst du mit der Maus auf die Tastatur, gilt eine eigene Deckkraft
+(Standard 75 %), damit du Tasten und Text gleichzeitig siehst. Bei 100 % ist sie dann normal.
+Einstellungen → "Durchsichtig über Textfeldern": an/aus, ob nur der Cursor (mit zwei Zeilen
+Rand) oder das ganze Textfeld zählt, beide Deckkräfte, Programme ohne diese Funktion
+(z. B. winword, excel) und ein Protokoll der erkannten Felder in protokoll.txt.
+Erkannt wird über die Windows-Bedienungshilfen (UI Automation). Chrome, Edge, Firefox und die
+meisten Windows-Programme melden ihr Textfeld, manche ältere Programme oder Spiele nicht.
+Dort bleibt die Tastatur einfach wie sie ist.
+
 Tasten
 ------
 Fn (unten links): zweite Ebene mit F1 bis F12, Pos1, Ende, Bild auf/ab, Sonderzeichen.

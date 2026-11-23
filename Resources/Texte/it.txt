@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Impostazioni (dimensioni,
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Nota: il salvataggio automatico prima non è riuscito.
 Einstellungen übernommen	Impostazioni applicate
 Der vorherige Stand liegt hier:\n	Lo stato precedente si trova qui:\n
+Durchsichtig über Textfeldern	Trasparente sopra i campi di testo
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Se la tastiera copre il campo in cui stai scrivendo (es. la finestra di Gmail), diventa più trasparente. Quando il campo è di nuovo libero, torna normale.
+Über Textfeldern durchsichtig werden	Diventa trasparente sopra i campi di testo
+nur der Cursor	solo il cursore
+das ganze Textfeld	l'intero campo di testo
+Durchsichtig, wenn verdeckt ist:	Trasparente quando è coperto:
+Deckkraft über dem Textfeld	Opacità sopra il campo di testo
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Opacità sopra il campo di testo mentre il mouse è sulla tastiera
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Non supera mai l'opacità normale. 100 % significa: normale mentre il mouse è sulla tastiera.
+Nicht in diesen Programmen (z. B. winword, excel):	Non in questi programmi (es. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Scrivi i campi di testo rilevati nel registro

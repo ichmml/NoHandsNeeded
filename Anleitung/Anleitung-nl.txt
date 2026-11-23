@@ -97,6 +97,17 @@ Meerdere schermen: het toetsenbord kan naar elk scherm worden gesleept, ook als 
   rechtsonder op het hoofdscherm. Hetzelfde geldt voor de ronde knop.
 De suggestiebalk kan in de instellingen ook twee regels hebben, met een eigen lettergrootte.
 
+Doorzichtig boven tekstvelden
+-----------------------------
+Bedekt het toetsenbord de plek waar je typt (bijv. het Gmail-venster rechtsonder), dan wordt
+het na een moment doorzichtiger (standaard 40 %). Is de plek weer vrij, dan wordt het weer
+normaal. Wijs je met de muis naar het toetsenbord, dan geldt een eigen dekking (standaard 75 %),
+zodat je toetsen en tekst tegelijk ziet.
+Instellingen → "Doorzichtig boven tekstvelden": aan/uit, alleen de cursor of het hele
+tekstveld, beide dekkingen, programma's zonder deze functie en een logboek in protokoll.txt.
+Herkenning via de Windows-toegankelijkheid (UI Automation). Werkt in Chrome, Edge, Firefox en
+de meeste programma's, niet in sommige oudere programma's of games.
+
 Toetsen
 -------
 Fn (linksonder): tweede laag met F1 tot F12, Home, End, Page Up/Down, speciale tekens.

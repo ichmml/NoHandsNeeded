@@ -92,6 +92,24 @@ namespace Tastatur
             Slider(L.T("Deckkraft runder Knopf (eingeklappt)"), 20, 100, 5, s.MiniOpacityPercent, v => v + " %", v => s.MiniOpacityPercent = v);
             Choice(L.T("Farbschema"), new[] { "dunkel", "hell" }, s.Theme, v => s.Theme = v, new[] { L.T("dunkel"), L.T("hell") }); // i18n-ok
 
+            Heading(L.T("Durchsichtig über Textfeldern"));
+            Note(L.T("Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal."));
+            Check(L.T("Über Textfeldern durchsichtig werden"), s.AutoFadeOn, v => s.AutoFadeOn = v);
+            var fadeModes = new[] { L.T("nur der Cursor"), L.T("das ganze Textfeld") };
+            Choice(L.T("Durchsichtig, wenn verdeckt ist:"), fadeModes, s.AutoFadeCaret ? fadeModes[0] : fadeModes[1], v => s.AutoFadeCaret = v == fadeModes[0]);
+            Slider(L.T("Deckkraft über dem Textfeld"), 10, 100, 5, s.AutoFadePercent, v => v + " %", v => s.AutoFadePercent = v);
+            Slider(L.T("Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist"), 10, 100, 5, s.AutoFadeHoverPercent, v => v + " %", v => s.AutoFadeHoverPercent = v);
+            Note(L.T("Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal."));
+            _panel.Controls.Add(new Label { Text = L.T("Nicht in diesen Programmen (z. B. winword, excel):"), AutoSize = true, Margin = new Padding(4, 6, 4, 0) });
+            var exclBox = new TextBox { Text = s.AutoFadeExclude, Width = 560, Margin = new Padding(4, 2, 4, 6) };
+            exclBox.TextChanged += (o, e) =>
+            {
+                string v = AutoFade.NormalizeExclusions(exclBox.Text);
+                if (v != s.AutoFadeExclude) { s.AutoFadeExclude = v; Changed(); }
+            };
+            _panel.Controls.Add(exclBox);
+            Check(L.T("Erkannte Textfelder ins Protokoll schreiben"), s.AutoFadeLog, v => s.AutoFadeLog = v);
+
             Heading(L.T("Bedienung"));
             Check(L.T("Verweilklick (Taste löst nach Verweilzeit aus)"), s.DwellEnabled, v => s.DwellEnabled = v);
             Slider(L.T("Verweilzeit"), 200, 3000, 100, s.DwellMs, v => (v / 1000.0).ToString("0.0") + " s", v => s.DwellMs = v);

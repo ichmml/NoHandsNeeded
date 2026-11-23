@@ -533,3 +533,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Einstellungen (Größe, F
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Hinweis: Die automatische Sicherung vorher hat nicht geklappt.
 Einstellungen übernommen	Einstellungen übernommen
 Der vorherige Stand liegt hier:\n	Der vorherige Stand liegt hier:\n
+Durchsichtig über Textfeldern	Durchsichtig über Textfeldern
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.
+Über Textfeldern durchsichtig werden	Über Textfeldern durchsichtig werden
+nur der Cursor	nur der Cursor
+das ganze Textfeld	das ganze Textfeld
+Durchsichtig, wenn verdeckt ist:	Durchsichtig, wenn verdeckt ist:
+Deckkraft über dem Textfeld	Deckkraft über dem Textfeld
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.
+Nicht in diesen Programmen (z. B. winword, excel):	Nicht in diesen Programmen (z. B. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Erkannte Textfelder ins Protokoll schreiben

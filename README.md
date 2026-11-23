@@ -34,6 +34,7 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 - **Shows real key presses** (e.g. from the Quadstick) in red on the keyboard.
 - **Macros:** text snippets, key sequences and starting programs, all with one click. Record them instead of programming.
 - **Global shortcuts**, for example for a Quadstick key.
+- **Transparent over text fields:** If the keyboard covers the spot where you type (e.g. the Gmail window), it fades by itself and comes back afterwards. Detection via UI Automation, opacity adjustable.
 - **Move and resize freely**, also by staying on a key, across several screens with different scaling.
 - Works **offline**, nothing is sent.
 

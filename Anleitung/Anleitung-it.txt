@@ -103,6 +103,17 @@ Più schermi: la tastiera si può trascinare su qualsiasi schermo, anche se gli 
 Nelle impostazioni la barra dei suggerimenti può avere anche due righe, con una propria
 dimensione del carattere.
 
+Trasparente sopra i campi di testo
+----------------------------------
+Se la tastiera copre il punto in cui stai scrivendo (es. la finestra di Gmail in basso a destra),
+dopo un attimo diventa più trasparente (predefinito 40 %). Quando il punto è di nuovo libero,
+torna normale. Con il mouse sulla tastiera vale un'opacità a parte (predefinito 75 %), così vedi
+tasti e testo insieme.
+Impostazioni → "Trasparente sopra i campi di testo": attivo/disattivo, solo il cursore o l'intero
+campo, entrambe le opacità, programmi esclusi e un registro in protokoll.txt.
+Il rilevamento usa l'accessibilità di Windows (UI Automation). Funziona in Chrome, Edge, Firefox
+e nella maggior parte dei programmi, non in alcuni programmi vecchi o giochi.
+
 Tasti
 -----
 Fn (in basso a sinistra): secondo livello con F1-F12, Home, Fine, Pag su/giù, caratteri

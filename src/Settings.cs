@@ -46,6 +46,14 @@ namespace Tastatur
         // Deckkraft des runden Mini-Knopfs (eingeklappt)
         public int MiniOpacityPercent = 100;
 
+        // Über Textfeldern durchsichtig (1.2.02)
+        public bool AutoFadeOn = true;
+        public bool AutoFadeCaret = true;               // true = nur Cursor, false = ganzes Textfeld
+        public int AutoFadePercent = 40;                // Deckkraft, solange die Tastatur das Feld verdeckt
+        public int AutoFadeHoverPercent = 75;           // dasselbe, wenn die Maus auf der Tastatur ist
+        public string AutoFadeExclude = "";             // Programme ohne diese Funktion, z. B. "winword, excel"
+        public bool AutoFadeLog = false;                // erkannte Textfelder ins Protokoll
+
         // globale Kürzel ("" = aus)
         public string HotkeyShow = "Pause";
         public string HotkeyMacros = "NumMinus";
@@ -313,6 +321,12 @@ namespace Tastatur
                 case "farbschema": Theme = v == "hell" ? "hell" : "dunkel"; break;
                 case "vorschlag_zeilen": SuggestionRows = Math.Max(1, Math.Min(2, I(v, SuggestionRows))); break;
                 case "vorschlag_schrift_prozent": SuggestionFontPercent = Math.Max(20, Math.Min(70, I(v, SuggestionFontPercent))); break;
+                case "durchsichtig_ueber_textfeld": AutoFadeOn = B(v, AutoFadeOn); break;
+                case "durchsichtig_modus": AutoFadeCaret = v != "textfeld"; break;
+                case "durchsichtig_deckkraft_prozent": AutoFadePercent = Math.Max(10, Math.Min(100, I(v, AutoFadePercent))); break;
+                case "durchsichtig_deckkraft_maus_prozent": AutoFadeHoverPercent = Math.Max(10, Math.Min(100, I(v, AutoFadeHoverPercent))); break;
+                case "durchsichtig_ausnahmen": AutoFadeExclude = AutoFade.NormalizeExclusions(v); break;
+                case "durchsichtig_protokoll": AutoFadeLog = B(v, AutoFadeLog); break;
                 case "mini_deckkraft_prozent": MiniOpacityPercent = Math.Max(20, Math.Min(100, I(v, MiniOpacityPercent))); break;
                 case "kuerzel_einblenden": HotkeyShow = v; break;
                 case "kuerzel_makros": HotkeyMacros = v; break;
@@ -386,6 +400,13 @@ namespace Tastatur
             sb.AppendLine("mini_y = " + MiniY);
             sb.AppendLine("farbschema = " + Theme);
             sb.AppendLine("mini_deckkraft_prozent = " + MiniOpacityPercent);
+            sb.AppendLine("# Über Textfeldern durchsichtig. Modus: cursor oder textfeld. Ausnahmen: Programmnamen, z. B. winword, excel");
+            sb.AppendLine("durchsichtig_ueber_textfeld = " + Yn(AutoFadeOn));
+            sb.AppendLine("durchsichtig_modus = " + (AutoFadeCaret ? "cursor" : "textfeld"));
+            sb.AppendLine("durchsichtig_deckkraft_prozent = " + AutoFadePercent);
+            sb.AppendLine("durchsichtig_deckkraft_maus_prozent = " + AutoFadeHoverPercent);
+            sb.AppendLine("durchsichtig_ausnahmen = " + AutoFadeExclude);
+            sb.AppendLine("durchsichtig_protokoll = " + Yn(AutoFadeLog));
             sb.AppendLine("# Globale Kürzel, z. B. F13 oder Strg+Alt+Shift+G, leer = aus");
             sb.AppendLine("kuerzel_einblenden = " + HotkeyShow);
             sb.AppendLine("kuerzel_makros = " + HotkeyMacros);

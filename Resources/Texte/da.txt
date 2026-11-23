@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Indstillinger (størrelse
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Bemærk: Den automatiske sikkerhedskopi forinden lykkedes ikke.
 Einstellungen übernommen	Indstillinger overtaget
 Der vorherige Stand liegt hier:\n	Den tidligere tilstand ligger her:\n
+Durchsichtig über Textfeldern	Gennemsigtig over tekstfelter
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Hvis tastaturet dækker feltet, du skriver i (f.eks. Gmail-vinduet), bliver det mere gennemsigtigt. Når feltet er frit igen, bliver det normalt igen.
+Über Textfeldern durchsichtig werden	Bliv gennemsigtig over tekstfelter
+nur der Cursor	kun markøren
+das ganze Textfeld	hele tekstfeltet
+Durchsichtig, wenn verdeckt ist:	Gennemsigtig, når dette er dækket:
+Deckkraft über dem Textfeld	Gennemsigtighed over tekstfeltet
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Gennemsigtighed over tekstfeltet, mens musen er på tastaturet
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Det bliver aldrig mere end den normale gennemsigtighed. 100 % betyder: normal, mens musen er på tastaturet.
+Nicht in diesen Programmen (z. B. winword, excel):	Ikke i disse programmer (f.eks. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Skriv fundne tekstfelter i loggen

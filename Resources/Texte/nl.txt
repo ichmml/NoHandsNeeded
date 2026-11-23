@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Instellingen (grootte, kl
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Let op: de automatische back-up vooraf is niet gelukt.
 Einstellungen übernommen	Instellingen overgenomen
 Der vorherige Stand liegt hier:\n	De vorige stand staat hier:\n
+Durchsichtig über Textfeldern	Doorzichtig boven tekstvelden
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Bedekt het toetsenbord het veld waarin je typt (bijv. het Gmail-venster), dan wordt het doorzichtiger. Is het veld weer vrij, dan wordt het weer normaal.
+Über Textfeldern durchsichtig werden	Doorzichtig worden boven tekstvelden
+nur der Cursor	alleen de cursor
+das ganze Textfeld	het hele tekstveld
+Durchsichtig, wenn verdeckt ist:	Doorzichtig als dit bedekt is:
+Deckkraft über dem Textfeld	Dekking boven het tekstveld
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Dekking boven het tekstveld zolang de muis op het toetsenbord is
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Het wordt nooit meer dan de normale dekking. 100 % betekent: normaal zolang de muis op het toetsenbord is.
+Nicht in diesen Programmen (z. B. winword, excel):	Niet in deze programma's (bijv. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Herkende tekstvelden in het logboek schrijven

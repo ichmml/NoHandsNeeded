@@ -507,3 +507,14 @@ Einstellungen (Größe, Farben, Kürzel, Sprachen …)	Ayarlar (boyut, renkler, 
 Hinweis: Die automatische Sicherung vorher hat nicht geklappt.	Not: Önceden otomatik yedekleme yapılamadı.
 Einstellungen übernommen	Ayarlar alındı
 Der vorherige Stand liegt hier:\n	Önceki durum burada:\n
+Durchsichtig über Textfeldern	Metin alanlarının üzerinde saydam
+Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal.	Klavye yazdığın alanı kapatırsa (ör. Gmail penceresi) daha saydam olur. Alan tekrar boşalınca normale döner.
+Über Textfeldern durchsichtig werden	Metin alanlarının üzerinde saydamlaş
+nur der Cursor	yalnızca imleç
+das ganze Textfeld	tüm metin alanı
+Durchsichtig, wenn verdeckt ist:	Şu kapandığında saydam:
+Deckkraft über dem Textfeld	Metin alanı üzerindeki opaklık
+Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Fare klavyedeyken metin alanı üzerindeki opaklık
+Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Normal opaklığı asla geçmez. %100: fare klavyedeyken normal demektir.
+Nicht in diesen Programmen (z. B. winword, excel):	Bu programlarda değil (ör. winword, excel):
+Erkannte Textfelder ins Protokoll schreiben	Algılanan metin alanlarını günlüğe yaz

@@ -29,6 +29,7 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 - **Zeigt echte Tastendrücke** (z. B. vom Quadstick) rot auf der Tastatur an.
 - **Makros:** Textbausteine, Tastenfolgen und Programme starten, alles mit einem Klick. Man kann sie aufnehmen statt programmieren.
 - **Globale Kürzel**, zum Beispiel für eine Taste am Quadstick.
+- **Durchsichtig über Textfeldern:** Verdeckt die Tastatur die Stelle, an der man schreibt (z. B. das Gmail-Fenster), wird sie von selbst durchsichtiger und danach wieder normal. Erkennung über UI Automation, Deckkraft einstellbar.
 - **Frei verschieben und skalieren**, auch durch langes Draufbleiben auf einer Taste, über mehrere Bildschirme mit unterschiedlicher Skalierung.
 - Läuft **offline**, nichts wird gesendet.
 
