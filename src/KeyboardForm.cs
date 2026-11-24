@@ -997,6 +997,21 @@ namespace Tastatur
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            // Fehler beim Zeichnen nie bis zum Absturz durchreichen: protokollieren, Bild auslassen
+            try { PaintKeyboard(e); }
+            catch (Exception ex) { PaintFailed(ex); }
+        }
+
+        private DateTime _lastPaintLog;
+        private void PaintFailed(Exception ex)
+        {
+            if ((DateTime.UtcNow - _lastPaintLog).TotalSeconds < 10) return;   // Protokoll nicht fluten
+            _lastPaintLog = DateTime.UtcNow;
+            Log.Write("Fehler beim Zeichnen der Tastatur: " + ex);
+        }
+
+        private void PaintKeyboard(PaintEventArgs e)
+        {
             UpdateCaptureExclusion();   // vor dem Zeichnen: Klartext nie in Bildschirmfotos
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
@@ -1063,7 +1078,8 @@ namespace Tastatur
                     var rr = new RectangleF(c.X - rad, c.Y - rad, rad * 2, rad * 2);
                     using (var p = new Pen(Color.FromArgb(120, _theme.Text), 3f)) g.DrawEllipse(p, rr);
                     double f = _dwellDrag.DropProgress(DateTime.UtcNow);
-                    if (f > 0) using (var p = new Pen(_theme.Locked, 6f)) g.DrawArc(p, rr, -90, (float)(360 * f));
+                    f = SafeArc.Fraction(f, 1);
+                    if (f > 0) using (var p = new Pen(_theme.Locked, 6f)) SafeArc.Draw(g, p, rr, -90, 360 * f);
                 }
             }
         }
@@ -1071,12 +1087,12 @@ namespace Tastatur
         /// <summary>Ring, der anzeigt, dass gleich das Verschieben startet.</summary>
         private void DrawDragRing(Graphics g, RectangleF r, double frac)
         {
+            frac = SafeArc.Fraction(frac, 1);
             if (frac <= 0) return;
-            frac = Math.Min(1, frac);
             float rad = Math.Min(r.Width, r.Height) * 0.36f;
             var c = new PointF(r.X + r.Width / 2, r.Y + r.Height / 2);
             var rr = new RectangleF(c.X - rad, c.Y - rad, rad * 2, rad * 2);
-            using (var p = new Pen(_theme.Locked, Math.Max(3f, _rowH * 0.07f))) g.DrawArc(p, rr, -90, (float)(360 * frac));
+            using (var p = new Pen(_theme.Locked, Math.Max(3f, _rowH * 0.07f))) SafeArc.Draw(g, p, rr, -90, 360 * frac);
         }
 
         private Color KeyColor(Target t, Color normal)
@@ -1106,7 +1122,7 @@ namespace Tastatur
             if (_pressTarget != null && Same(_pressTarget, t))
             {
                 double ms = (now - _pressAt).TotalMilliseconds;
-                if (ms > PressRingDelayMs) DrawDragRing(g, t.Rect, (ms - PressRingDelayMs) / Math.Max(1, _settings.LongPressMs - PressRingDelayMs));
+                if (ms > PressRingDelayMs) DrawDragRing(g, t.Rect, SafeArc.Fraction(ms - PressRingDelayMs, _settings.LongPressMs - PressRingDelayMs));
             }
             // langes Verweilen: nach dem Verweilbalken füllt sich der Ring bis zum Verschieben
             if (_settings.DwellEnabled && _dwellDragPossible && Same(_hover, t) && _drag == DragMode.None)
@@ -1115,12 +1131,11 @@ namespace Tastatur
                 bool dragKey = IsDragKey(t);
                 double from = dragKey ? 0 : _settings.DwellMs;
                 double to = dragKey ? _settings.DwellMs : _settings.EffectiveDwellDragMs;
-                if (ms > from) DrawDragRing(g, t.Rect, (ms - from) / Math.Max(1, to - from));
+                if (ms > from) DrawDragRing(g, t.Rect, SafeArc.Fraction(ms - from, to - from));
             }
             if (!_settings.DwellEnabled || !_armed || !Same(_hover, t) || t.Tool == ToolKind.Drag) return;
-            double frac = (now - _hoverSince).TotalMilliseconds / _settings.DwellMs;
+            double frac = SafeArc.Fraction((now - _hoverSince).TotalMilliseconds, _settings.DwellMs);
             if (frac <= 0) return;
-            frac = Math.Min(1, frac);
             var r = t.Rect;
             float bh = Math.Max(3f, _rowH * 0.08f);
             using (var b = new SolidBrush(_theme.Accent))

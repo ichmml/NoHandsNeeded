@@ -6,6 +6,45 @@ namespace Tastatur
     [Flags]
     internal enum Edge { None = 0, Left = 1, Right = 2, Top = 4, Bottom = 8 }
 
+    /// <summary>Kreisbögen sicher zeichnen. GDI+ wirft bei winzigen Bögen, leeren Rechtecken oder NaN
+    /// eine "OutOfMemoryException" (1.2.03: Absturz beim Verweilen auf kleinen Tasten).</summary>
+    internal static class SafeArc
+    {
+        /// <summary>Prüft Rechteck und Winkel; liefert den begrenzten Winkel oder false, wenn nichts zu zeichnen ist.</summary>
+        public static bool Prepare(RectangleF r, double sweep, out float sweepOut)
+        {
+            sweepOut = 0;
+            if (!Finite(r.X) || !Finite(r.Y) || !Finite(r.Width) || !Finite(r.Height)) return false;
+            if (r.Width < 2f || r.Height < 2f) return false;
+            if (double.IsNaN(sweep) || double.IsInfinity(sweep)) return false;
+            if (sweep > 360) sweep = 360;
+            if (sweep < -360) sweep = -360;
+            if (Math.Abs(sweep) < 1.0) return false;   // winzige Bögen bringen GDI+ zum Absturz
+            sweepOut = (float)sweep;
+            return true;
+        }
+
+        /// <summary>Anteil 0..1 aus Zeit, NaN und Unendlich werden zu 0.</summary>
+        public static double Fraction(double done, double total)
+        {
+            if (double.IsNaN(done) || double.IsNaN(total) || double.IsInfinity(done) || double.IsInfinity(total)) return 0;
+            if (total < 1) total = 1;
+            double f = done / total;
+            if (double.IsNaN(f) || f <= 0) return 0;
+            return Math.Min(1, f);
+        }
+
+        public static void Draw(Graphics g, Pen p, RectangleF r, float start, double sweep)
+        {
+            float s;
+            if (g == null || p == null || !Prepare(r, sweep, out s)) return;
+            try { g.DrawArc(p, r, start, s); }
+            catch (Exception ex) { Log.Write("Bogen nicht gezeichnet: " + ex.GetType().Name + " " + r + " " + s); }
+        }
+
+        private static bool Finite(float v) { return !float.IsNaN(v) && !float.IsInfinity(v); }
+    }
+
     /// <summary>Rechenteil für Verschieben und Größe ändern, ohne Windows testbar.</summary>
     internal static class Geometry
     {

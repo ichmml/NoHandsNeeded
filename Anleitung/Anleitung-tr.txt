@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Ekran klavyesi, Sürüm 1.2.02
+Ekran klavyesi, Sürüm 1.2.03
 
 Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
 yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız

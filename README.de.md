@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-Aktuelle Version: **1.2.02**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Aktuelle Version: **1.2.03**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
 zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.

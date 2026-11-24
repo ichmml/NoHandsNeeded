@@ -13,6 +13,11 @@ namespace Tastatur
         [STAThread]
         private static void Main(string[] args)
         {
+            // Unerwartete Fehler protokollieren statt den .NET-Fehlerdialog zu zeigen
+            // (der ist mit Mundsteuerung kaum zu bedienen und beendet sonst die Tastatur)
+            Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
+            Application.ThreadException += (s, e) => Crash.Handle(e.Exception, false);
+            AppDomain.CurrentDomain.UnhandledException += (s, e) => Crash.Handle(e.ExceptionObject as Exception, e.IsTerminating);
             if (LockScreen.IsLockMode(args))
             {
                 // Sperrbildschirm: eigene, abgespeckte Tastatur (eigener Desktop, eigenes Mutex)
@@ -33,6 +38,25 @@ namespace Tastatur
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new AppContext());
             }
+        }
+    }
+
+    /// <summary>Unbehandelte Fehler: ins Protokoll statt Absturz-Dialog (1.2.03).</summary>
+    internal static class Crash
+    {
+        private static int _count;
+        private static DateTime _first = DateTime.UtcNow;
+
+        public static void Handle(Exception ex, bool terminating)
+        {
+            try
+            {
+                Log.Write((terminating ? "Schwerer Fehler (Programm endet): " : "Unbehandelter Fehler, Tastatur läuft weiter: ") + ex);
+                // Läuft derselbe Fehler in einer Schleife, nicht endlos weitermachen
+                if ((DateTime.UtcNow - _first).TotalSeconds > 60) { _first = DateTime.UtcNow; _count = 0; }
+                if (++_count > 50) { Log.Write("Zu viele Fehler in kurzer Zeit, Tastatur wird beendet."); Environment.Exit(1); }
+            }
+            catch { }
         }
     }
 

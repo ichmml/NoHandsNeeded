@@ -109,6 +109,12 @@ namespace Tastatur
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            try { PaintMini(e); }
+            catch (Exception ex) { Log.Write("Fehler beim Zeichnen des Mini-Knopfs: " + ex.Message); }
+        }
+
+        private void PaintMini(PaintEventArgs e)
+        {
             var t = Theme.Get(_settings.Theme);
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
@@ -121,8 +127,8 @@ namespace Tastatur
                 g.DrawString("⌨", f, tb, r, sf);
             if (_settings.DwellEnabled && _armed)
             {
-                float frac = (float)Math.Min(1, (DateTime.UtcNow - _hoverSince).TotalMilliseconds / _settings.DwellMs);
-                using (var p = new Pen(t.Accent, 4)) g.DrawArc(p, r, -90, 360 * frac);
+                double frac = SafeArc.Fraction((DateTime.UtcNow - _hoverSince).TotalMilliseconds, _settings.DwellMs);
+                using (var p = new Pen(t.Accent, 4)) SafeArc.Draw(g, p, r, -90, 360 * frac);
             }
         }
     }
