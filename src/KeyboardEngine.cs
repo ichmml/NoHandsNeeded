@@ -618,7 +618,7 @@ namespace Tastatur
                         _lastWordAtSentence = _wordAtSentence;
                         _trailing.Clear();
                     }
-                    if (c == '.' || c == '!' || c == '?' || c == '\n') _prevWord = null;   // neuer Satz: keine Wortfolge über Satzgrenzen
+                    if (c == '.' || c == '!' || c == '?') _prevWord = null;   // neuer Satz: keine Wortfolge über Satzgrenzen (Absatz allein beendet sie nicht)
                     if (_lastWord != null)
                     {
                         if (c == '\n' || _trailing.Length >= MaxTrailing) ForgetLastWord();
@@ -1141,6 +1141,16 @@ namespace Tastatur
                 }
                 else _lastChar = _trailing[_trailing.Length - 1];
             }
+            else if (_history.Length > 0)
+            {
+                // weiter zurück als bis zum letzten Wort (z. B. Rücktaste gehalten): Zustand aus dem bekannten Text neu aufbauen
+                Replay(_history.ToString());
+                if (_word.Length > 0)
+                {
+                    var h = WordReopened;
+                    if (h != null && !_passwordMode) h(_word.ToString(), _prevWord);
+                }
+            }
             else
             {
                 _sentenceStart = false;
@@ -1152,6 +1162,29 @@ namespace Tastatur
         {
             var mods = ActiveMods();
             _out.SendVk(vk, mods);
+            TrackSpecial(vk, mods);
+        }
+
+        /// <summary>
+        /// Taste kam von außen (Quadstick, echte Tastatur) und ist schon im Fenster angekommen.
+        /// Rücktaste, Enter und Leerzeichen werden mitgezählt, damit das Wort und die Vorschläge oben
+        /// stehen bleiben. false = unbekannte Taste, dann vergisst der Aufrufer das Wort wie bisher.
+        /// </summary>
+        public bool ExternalKey(ushort vk, Modifiers held)
+        {
+            if (_passwordMode || _shiftForNav) return false;
+            if ((held & (Modifiers.Ctrl | Modifiers.Alt | Modifiers.Win)) != 0) return false;
+            if (vk != InputSender.VK_BACK && vk != InputSender.VK_RETURN && vk != InputSender.VK_SPACE) return false;
+            _deadPending = '\0';
+            _autoSpaced = false; _punctSpaced = '\0';
+            if (vk == InputSender.VK_SPACE) TrackText(" ");
+            else TrackSpecial(vk, Modifiers.None);
+            Fire();
+            return true;
+        }
+
+        private void TrackSpecial(ushort vk, Modifiers mods)
+        {
             if (vk == InputSender.VK_BACK && mods == Modifiers.None)
             {
                 if (_history.Length > 0) _history.Length--;
@@ -1161,7 +1194,7 @@ namespace Tastatur
             {
                 if (_word.Length > 0) FinishWord();
                 TrackNumber('\n');
-                _prevWord = null;
+                // Wort davor bleibt für die Wortfolgen ("Grüße" + Absatz: "Morten"), nur Satzzeichen beenden sie
                 _word.Clear();
                 ForgetLastWord();
                 CheckEmailChunk(); AddHistory("\n");

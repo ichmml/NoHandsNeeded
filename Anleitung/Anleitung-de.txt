@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.2.04
+Bildschirmtastatur, Version 1.2.04.1
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -147,9 +147,11 @@ leuchtet sie auf der Bildschirmtastatur rot, solange sie unten ist, und noch 1,5
 danach. Strg+Shift für Wispr Flow sieht man also, solange man hält. Was die
 Bildschirmtastatur selbst tippt, leuchtet nicht. Die Tasten werden nur angezeigt, nicht
 gespeichert und nicht protokolliert.
-Nach einem echten Tastendruck vergisst die Tastatur das angefangene Wort, weil dort jetzt
-eingefügter oder diktierter Text stehen kann. Shift oder Strg allein ändern nichts, Strg+Shift
-schon. Die Kürzel-Tasten (Pause, Ziffernblock -) zählen nicht.
+Rücktaste, Enter und Leerzeichen vom Quadstick zählt die Tastatur mit: Das Wort und die
+Vorschläge oben bleiben stehen, und nach "Liebe Grüße" plus zwei Absätzen kommt weiter der
+Name als nächstes Wort. Nach anderen echten Tasten vergisst die Tastatur das angefangene
+Wort, weil dort jetzt eingefügter oder diktierter Text stehen kann. Shift oder Strg allein
+ändern nichts, Strg+Shift schon. Die Kürzel-Tasten (Pause, Ziffernblock -) zählen nicht.
 Einstellungen → Bedienung: an/aus und Dauer des Nachleuchtens.
 
 Eigene Fenster (Tresor, Passwort-Eintrag, PIN, Makros, Export/Import): Die Tastatur bleibt

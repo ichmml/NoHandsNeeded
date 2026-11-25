@@ -6,14 +6,14 @@ using System.Reflection;
 [assembly: AssemblyCopyright("MDM3D")]
 [assembly: AssemblyVersion("1.2.0.4")]
 [assembly: AssemblyFileVersion("1.2.0.4")]
-[assembly: AssemblyInformationalVersion("1.2.04")]
+[assembly: AssemblyInformationalVersion("1.2.04.1")]
 
 namespace Tastatur
 {
     internal static class AppInfo
     {
         /// <summary>Versionsnummer, wie sie überall angezeigt wird.</summary>
-        public const string Version = "1.2.04";
+        public const string Version = "1.2.04.1";
 
         /// <summary>Name des Programms (bis 1.01 hieß es Bildschirmtastatur bzw. Tastatur).</summary>
         public const string Name = "NoHandsNeeded";

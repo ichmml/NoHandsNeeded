@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.2.04
+On-screen keyboard, Version 1.2.04.1
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or
@@ -133,9 +133,11 @@ Real key presses: if you press a key on the Quadstick (or a normal keyboard), it
 red on the on-screen keyboard while it is held and for 1.5 seconds after. So you can see
 Ctrl+Shift for Wispr Flow as long as you hold it. What the on-screen keyboard types itself
 does not light up. Keys are only shown, never stored or logged.
-After a real key press the keyboard forgets the word you started, because pasted or
-dictated text may be there now. Shift or Ctrl alone change nothing, Ctrl+Shift does.
-The shortcut keys (Pause, numpad -) do not count.
+Backspace, Enter and Space from the Quadstick are followed: the word and the suggestions
+at the top stay, and after "Best regards" plus two new lines your name is still offered as
+the next word. After other real keys the keyboard forgets the word you started, because
+pasted or dictated text may be there now. Shift or Ctrl alone change nothing, Ctrl+Shift
+does. The shortcut keys (Pause, numpad -) do not count.
 Settings → Operation: on/off and how long keys keep glowing.
 
 Own windows (vault, password entry, PIN, macros, export/import): the keyboard stays

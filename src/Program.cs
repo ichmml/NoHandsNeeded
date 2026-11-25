@@ -223,7 +223,7 @@ namespace Tastatur
             }));
             _watcher.ClickOutside += root => _keyboard.BeginInvoke((Action)(() => OnClickOutside(root)));
 
-            // echte Tastendrücke (Quadstick): rot anzeigen, angefangenes Wort vergessen
+            // echte Tastendrücke (Quadstick): rot anzeigen, Rücktaste/Enter/Leerzeichen mitzählen, sonst angefangenes Wort vergessen
             _keyboard.Physical = _physical;
             try
             {
@@ -745,13 +745,14 @@ namespace Tastatur
             {
                 bool first = !_physical.IsDown(vk);
                 _physical.Down(vk, now);
-                if (first)
+                if (!isMod && !_hotkeyVks.Contains(PhysicalKeys.Normalize(vk)))
                 {
-                    var mods = _physical.HeldMods;
-                    if (!isMod && !_hotkeyVks.Contains(PhysicalKeys.Normalize(vk)))
-                        _engine.ResetWord(false);   // eingefügter oder diktierter Text ist unbekannt
-                    // keine Statuszeile mehr für echte Tasten (8.5), nur das rote Aufleuchten auf der Tastatur
+                    // Rücktaste, Enter und Leerzeichen vom Quadstick mitzählen (auch gehalten mit Wiederholung),
+                    // damit das Wort oben stehen bleibt. Alles andere: eingefügter oder diktierter Text ist unbekannt
+                    if (!_engine.ExternalKey(PhysicalKeys.Normalize(vk), _physical.HeldMods) && first)
+                        _engine.ResetWord(false);
                 }
+                // keine Statuszeile mehr für echte Tasten (8.5), nur das rote Aufleuchten auf der Tastatur
             }
             else if (_physical.Up(vk, now))
             {

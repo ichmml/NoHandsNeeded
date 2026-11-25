@@ -14,6 +14,7 @@ namespace Tastatur
         public ushort Vk;                       // für Sondertasten
         public Modifiers Mod;                   // für Sondertasten Strg/Alt/Shift/Win
         public float Width = 1f;
+        public bool Bold;                       // Satzzeichen unten: fett und größer, damit Punkt und Komma gut zu unterscheiden sind
 
         // wird beim Layouten gesetzt
         public System.Drawing.RectangleF Rect;
@@ -194,7 +195,7 @@ namespace Tastatur
             rows.Add(r2);
 
             var r3 = new List<KeyDef> { M(Label("⇧ Shift"), Modifiers.Shift, 1.5f) };
-            r3.AddRange(Row(sp.Bottom));
+            r3.AddRange(MarkBold(Row(sp.Bottom)));
             r3.Add(S("↑", InputSender.VK_UP));
             r3.Add(M(Label("⇧ Shift"), Modifiers.Shift, 1.5f));
             rows.Add(r3);
@@ -236,6 +237,14 @@ namespace Tastatur
             return list;
         }
 
+        /// <summary>Satzzeichen-Tasten (Punkt, Komma, Bindestrich ...) fett darstellen. Buchstaben und Ziffern bleiben normal.</summary>
+        private static List<KeyDef> MarkBold(List<KeyDef> row)
+        {
+            foreach (var k in row)
+                if (k.Kind == KeyKind.Char && !string.IsNullOrEmpty(k.Normal) && !k.Normal.Any(char.IsLetterOrDigit)) k.Bold = true;
+            return row;
+        }
+
         private static List<KeyDef> BottomRow(string toggleLabel)
         {
             var r = new List<KeyDef> {
@@ -248,7 +257,7 @@ namespace Tastatur
             };
             if (toggleLabel != null) r.Add(new KeyDef { Kind = KeyKind.LayoutToggle, Label = toggleLabel, Width = 0.75f });
             r.Add(Aa(1.25f));
-            foreach (var p in BottomCharPairs()) r.Add(C(p[0], p[1]));
+            foreach (var p in BottomCharPairs()) { var k = C(p[0], p[1]); k.Bold = true; r.Add(k); }
             r.Add(S("←", InputSender.VK_LEFT, 0.75f)); r.Add(S("↓", InputSender.VK_DOWN, 0.75f)); r.Add(S("→", InputSender.VK_RIGHT, 0.75f));
             r.Add(new KeyDef { Kind = KeyKind.Drag, Label = "✥", Width = 0.75f });
             return r;

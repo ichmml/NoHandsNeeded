@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-Aktuelle Version: **1.2.04**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Aktuelle Version: **1.2.04.1**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
 zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.
@@ -28,7 +28,7 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 - **Wort löschen** (⌫ Wort, direkt unter der Rücktaste): löscht das ganze letzte Wort mit einem Druck, jeder weitere Druck das Wort davor.
 - **Korrekturvorschläge bei Tippfehlern:** Aus "hasu" wird mit einem Klick "Haus". Die Korrektur steht orange markiert vorn in der Leiste, ersetzt wird nie automatisch. Substantive stehen groß in den Vorschlägen, Wörter wie essen/Essen kommen in beiden Schreibweisen.
 - **Merkt sich das angefangene Wort pro Fenster:** Fenster wechseln und zurück, einfach weiterschreiben.
-- **Zeigt echte Tastendrücke** (z. B. vom Quadstick) rot auf der Tastatur an.
+- **Zeigt echte Tastendrücke** (z. B. vom Quadstick) rot auf der Tastatur an. Rücktaste, Enter und Leerzeichen vom Quadstick lassen das Wort und die Vorschläge oben stehen.
 - **Makros:** Textbausteine, Tastenfolgen und Programme starten, alles mit einem Klick. Man kann sie aufnehmen statt programmieren.
 - **Globale Kürzel**, zum Beispiel für eine Taste am Quadstick.
 - **Durchsichtig über Textfeldern:** Verdeckt die Tastatur die Stelle, an der man schreibt (z. B. das Gmail-Fenster), wird sie von selbst durchsichtiger und danach wieder normal. Erkennung über UI Automation, Deckkraft einstellbar.

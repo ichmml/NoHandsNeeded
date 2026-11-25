@@ -71,7 +71,7 @@ namespace Tastatur
         private List<BandItem> _band = new List<BandItem>();
         private Theme _theme;
 
-        private Font _fontMain, _fontSmall, _fontTool, _fontBand;
+        private Font _fontMain, _fontSmall, _fontTool, _fontBand, _fontBold, _fontSmallBold, _fontToolBold;
         private float _rowH;
         private RectangleF _grip, _bandRect;
 
@@ -935,10 +935,15 @@ namespace Tastatur
             float band = Math.Max(8f, _rowH * _settings.SuggestionFontPercent / 100f);
             if (_fontMain != null && Math.Abs(_fontMain.Size - main) < 0.5f && Math.Abs(_fontBand.Size - band) < 0.5f) return;
             if (_fontMain != null) { _fontMain.Dispose(); _fontSmall.Dispose(); _fontTool.Dispose(); _fontBand.Dispose(); }
+            if (_fontBold != null) { _fontBold.Dispose(); _fontSmallBold.Dispose(); _fontToolBold.Dispose(); }
             _fontMain = new Font("Segoe UI", main, FontStyle.Regular, GraphicsUnit.Pixel);
             _fontSmall = new Font("Segoe UI", Math.Max(7f, _rowH * 0.2f), FontStyle.Regular, GraphicsUnit.Pixel);
             _fontTool = new Font("Segoe UI", Math.Max(8f, _rowH * 0.3f), FontStyle.Regular, GraphicsUnit.Pixel);
             _fontBand = new Font("Segoe UI", band, FontStyle.Regular, GraphicsUnit.Pixel);
+            // Satzzeichen unten: fett und ein gutes Stück größer (Punkt und Komma sonst kaum zu unterscheiden)
+            _fontBold = new Font("Segoe UI", main * 1.35f, FontStyle.Bold, GraphicsUnit.Pixel);
+            _fontSmallBold = new Font("Segoe UI", Math.Max(8f, _rowH * 0.25f), FontStyle.Bold, GraphicsUnit.Pixel);
+            _fontToolBold = new Font("Segoe UI", Math.Max(8f, _rowH * 0.3f), FontStyle.Bold, GraphicsUnit.Pixel);
         }
 
         // ---------- Zeichnen ----------
@@ -1184,12 +1189,12 @@ namespace Tastatur
                     string main = _engine.OutputFor(k);
                     if (main.Length == 0) main = k.Normal;
                     var color = _engine.AltGr != ModState.Off && k.AltGr == null ? db : tb;
-                    DrawFit(g, main, _fontMain, color, t.Rect, center);
+                    DrawFit(g, main, k.Bold ? _fontBold : _fontMain, color, t.Rect, center);
 
                     // kleine Zweitbelegung oben links, AltGr unten rechts
                     bool caseKey = k.Normal.Length == 1 && char.IsLetter(k.Normal[0]) && k.Shifted.Length == 1 && char.IsUpper(k.Shifted[0]);
                     if (!caseKey && k.Shifted != k.Normal && _engine.AltGr == ModState.Off)
-                        g.DrawString(_engine.Shift != ModState.Off ? k.Normal : k.Shifted, _fontSmall, db, t.Rect.X + 4, t.Rect.Y + 2);
+                        g.DrawString(_engine.Shift != ModState.Off ? k.Normal : k.Shifted, k.Bold ? _fontSmallBold : _fontSmall, k.Bold ? tb : db, t.Rect.X + 4, t.Rect.Y + 2);
                     if (k.AltGr != null && _engine.AltGr == ModState.Off)
                     {
                         var sz = g.MeasureString(k.AltGr, _fontSmall);
@@ -1289,7 +1294,7 @@ namespace Tastatur
                 case ToolKind.Esc:
                     label = "Esc"; break;
                 case ToolKind.Macro:
-                    font = _fontTool;
+                    font = _fontToolBold;
                     if (_recording) { label = L.T("■ Stopp"); fill = red; text = Color.White; }
                     else if (_macroMode) { label = L.T("✕ Zurück"); outline = _theme.Accent; }
                     else label = L.T("Makros");
