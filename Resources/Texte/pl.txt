@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Krycie nad p
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Nigdy nie przekracza normalnego krycia. 100 % oznacza: normalnie, gdy mysz jest na klawiaturze.
 Nicht in diesen Programmen (z. B. winword, excel):	Nie w tych programach (np. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Zapisuj wykryte pola tekstowe w protokole
+Wort	Słowo
+Bei Tippfehlern Korrektur vorschlagen	Proponuj poprawkę przy literówkach

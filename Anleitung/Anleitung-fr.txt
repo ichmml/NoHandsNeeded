@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Clavier virtuel, Version 1.2.03
+Clavier virtuel, Version 1.2.04
 
 Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est
 exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent
@@ -181,6 +181,22 @@ début de phrase. De retour dans la fenêtre, tu continues simplement à écrire
 Avec le clic par survol, Retour arrière, Suppr et les flèches se répètent tant qu'on reste
 dessus. Toutes les autres touches ne se déclenchent de nouveau qu'après avoir quitté la
 touche une fois.
+
+Effacer le mot (« ⌫ Mot », juste sous la touche Retour arrière) : efface tout le dernier mot,
+avec l'espace et la ponctuation qui suivent. Chaque nouvel appui efface le mot précédent.
+Avec le clic par maintien, cela continue tant qu'on reste sur la touche. Si l'on vient de
+sélectionner du texte avec Maj et les flèches, la touche efface seulement la sélection.
+Si le clavier ne connaît pas le texte (après un clic dans la fenêtre, une saisie vocale ou un
+autre clavier), il envoie Ctrl+Maj+flèche gauche puis Retour arrière. Cela marche dans
+presque tous les programmes.
+
+Corrections proposées : après une faute de frappe comme « maison » tapé « maisno », le bon mot
+apparaît en premier dans la barre de suggestions, sur fond orange et marqué ≈. Un clic
+remplace tout le mot. Sans clic, rien ne se passe, le clavier ne change jamais rien tout seul.
+Il reconnaît une lettre fausse (surtout la touche voisine), une lettre oubliée ou doublée et
+deux lettres inversées.
+Après l'espace, la correction du mot précédent reste affichée jusqu'à ce qu'on continue.
+Désactiver : Paramètres → Utilisation → « Proposer une correction en cas de faute de frappe ».
 
 Macros
 ------

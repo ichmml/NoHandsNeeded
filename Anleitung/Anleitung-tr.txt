@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Ekran klavyesi, Sürüm 1.2.03
+Ekran klavyesi, Sürüm 1.2.04
 
 Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
 yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız
@@ -163,6 +163,21 @@ Pencereye dönünce yazmaya devam edersin.
 
 Bekleyerek tıklamada geri silme, Delete ve oklar üzerinde kaldıkça tekrarlanır. Diğer tüm
 tuşlar ancak tuştan bir kez ayrıldıktan sonra yeniden tetiklenir.
+
+Kelime sil ("⌫ Kelime", geri silme tuşunun hemen altında): son kelimeyi arkasındaki boşluk ve
+noktalama işaretleriyle birlikte tamamen siler. Her yeni basış bir önceki kelimeyi siler.
+Bekleyerek tıklamada tuşun üzerinde kaldıkça devam eder. Hemen önce Shift ve ok tuşlarıyla
+bir şey seçildiyse, tuş yalnızca seçimi siler.
+Klavye metni bilmiyorsa (pencereye tıkladıktan, sesle yazdıktan veya başka bir klavyeden
+sonra) Ctrl+Shift+sol ok ve ardından geri silme gönderir. Bu neredeyse tüm programlarda
+çalışır.
+
+Düzeltme önerileri: "evm" gibi bir yazım hatasından sonra uygun kelime ("evim") öneri
+çubuğunda en başta, turuncu arka planla ve ≈ işaretiyle görünür. Bir tıklama tüm kelimeyi
+değiştirir. Tıklamazsanız hiçbir şey olmaz, klavye hiçbir şeyi kendiliğinden değiştirmez.
+Yanlış harf (özellikle komşu tuş), eksik veya çift harf ve yer değiştirmiş iki harf tanınır.
+Boşluktan sonra önceki kelimenin düzeltmesi, yazmaya devam edene kadar görünür kalır.
+Kapatmak için: Ayarlar → Kullanım → "Yazım hatalarında düzeltme öner".
 
 Makrolar
 --------

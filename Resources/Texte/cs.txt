@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Krytí nad t
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Nikdy nepřekročí normální krytí. 100 % znamená: normálně, dokud je myš na klávesnici.
 Nicht in diesen Programmen (z. B. winword, excel):	Ne v těchto programech (např. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Zapisovat rozpoznaná textová pole do protokolu
+Wort	Slovo
+Bei Tippfehlern Korrektur vorschlagen	Při překlepu navrhnout opravu

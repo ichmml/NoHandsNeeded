@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Skærmtastatur, Version 1.2.03
+Skærmtastatur, Version 1.2.04
 
 Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det,
 tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et
@@ -163,6 +163,22 @@ Tilbage i vinduet skriver du bare videre.
 
 Med dvæleklik gentages Backspace, Delete og pilene, så længe du bliver på dem. Alle andre
 taster udløses først igen, når du har forladt tasten én gang.
+
+Slet ord ("⌫ Ord", lige under tilbagetasten): sletter hele det sidste ord sammen med
+mellemrum og tegn efter det. Hvert nyt tryk sletter ordet før. Med dvæleklik fortsætter det,
+så længe man bliver på tasten. Har man lige markeret noget med Shift og piletasterne, sletter
+tasten kun markeringen.
+Kender tastaturet ikke teksten (efter et klik i vinduet, efter taleinput eller et andet
+tastatur), sender det Ctrl+Shift+venstre pil og derefter tilbagetast. Det virker i næsten
+alle programmer.
+
+Rettelsesforslag: efter en tastefejl som "hsu" står det passende ord ("hus") forrest i
+forslagslinjen, med orange baggrund og mærket med ≈. Et klik erstatter hele ordet. Uden klik
+sker der ingenting, tastaturet ændrer aldrig noget af sig selv.
+Det genkender et forkert bogstav (især nabotasten), et manglende eller dobbelt bogstav og to
+ombyttede bogstaver.
+Efter mellemrummet bliver rettelsen til ordet før stående, til man skriver videre.
+Slå fra: Indstillinger → Betjening → "Foreslå rettelse ved tastefejl".
 
 Makroer
 -------

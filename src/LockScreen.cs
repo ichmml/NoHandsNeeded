@@ -159,6 +159,8 @@ namespace Tastatur
     {
         public List<string> Suggest(string typed, string prev, int max, bool capitalize) { return new List<string>(); }
         public List<string> SuggestNumbers(string typed, int max) { return new List<string>(); }
+        public List<string> Corrections(string typed, int max, bool capitalize, bool wholeWord) { return new List<string>(); }
+        public bool Knows(string word) { return true; }
     }
 
     /// <summary>

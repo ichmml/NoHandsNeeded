@@ -30,6 +30,8 @@ namespace Tastatur
         public int SuggestionCount = 5;
         public bool AutoCapitalize = true;
         public bool AutoSpaceAfterSuggestion = true;
+        /// <summary>Bei Tippfehlern passende Wörter als Korrektur vorschlagen (nie automatisch ersetzen).</summary>
+        public bool CorrectionSuggestions = true;
         public bool AutoSpaceAfterPunctuation = true;
         public bool OpenAtMouse = true;                 // beim Kürzel dort öffnen, wo die Maus ist
         public string MousePlace = "unten-mitte";
@@ -304,6 +306,7 @@ namespace Tastatur
                 case "anzahl_vorschlaege": SuggestionCount = Math.Max(1, Math.Min(8, I(v, SuggestionCount))); break;
                 case "satzanfang_gross": AutoCapitalize = B(v, AutoCapitalize); break;
                 case "leerzeichen_nach_vorschlag": AutoSpaceAfterSuggestion = B(v, AutoSpaceAfterSuggestion); break;
+                case "korrekturvorschlaege": CorrectionSuggestions = B(v, CorrectionSuggestions); break;
                 case "leerzeichen_nach_satzzeichen": AutoSpaceAfterPunctuation = B(v, AutoSpaceAfterPunctuation); break;
                 case "an_maus_oeffnen": OpenAtMouse = B(v, OpenAtMouse); break;
                 case "an_maus_lage":
@@ -390,6 +393,7 @@ namespace Tastatur
             sb.AppendLine("vorschlag_schrift_prozent = " + SuggestionFontPercent);
             sb.AppendLine("satzanfang_gross = " + Yn(AutoCapitalize));
             sb.AppendLine("leerzeichen_nach_vorschlag = " + Yn(AutoSpaceAfterSuggestion));
+            sb.AppendLine("korrekturvorschlaege = " + Yn(CorrectionSuggestions));
             sb.AppendLine("leerzeichen_nach_satzzeichen = " + Yn(AutoSpaceAfterPunctuation));
             sb.AppendLine("an_maus_oeffnen = " + Yn(OpenAtMouse));
             sb.AppendLine("# an_maus_lage: unten-mitte, unten-rechts, unten-links, oben-mitte, oben-rechts, oben-links");

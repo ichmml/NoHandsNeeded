@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klávesnice na obrazovce, Verze 1.2.03
+Klávesnice na obrazovce, Verze 1.2.04
 
 Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato
 klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním
@@ -160,6 +160,22 @@ návratu do okna prostě píšeš dál.
 
 S klikem setrváním se Backspace, Delete a šipky opakují, dokud na nich zůstáváš. Všechny
 ostatní klávesy se spustí znovu, až když klávesu jednou opustíš.
+
+Smazat slovo („⌫ Slovo“, přímo pod klávesou Backspace): smaže celé poslední slovo i s mezerou
+a interpunkcí za ním. Každé další stisknutí smaže slovo před ním. Při klikání setrváním to
+pokračuje, dokud zůstanete na klávese. Pokud jste předtím něco označili klávesou Shift a
+šipkami, klávesa smaže jen označený text.
+Když klávesnice text nezná (po kliknutí do okna, po hlasovém zadávání nebo z jiné
+klávesnice), pošle Ctrl+Shift+šipka vlevo a potom Backspace. To funguje téměř ve všech
+programech.
+
+Návrhy oprav: po překlepu, třeba „pse“ místo „pes“, je odpovídající slovo na začátku lišty
+návrhů, s oranžovým pozadím a označené ≈. Kliknutí nahradí celé slovo. Bez kliknutí se nic
+nestane, klávesnice nikdy nic nemění sama.
+Pozná špatné písmeno (hlavně sousední klávesu), chybějící nebo zdvojené písmeno a dvě
+prohozená písmena.
+Po mezeře zůstane oprava předchozího slova zobrazená, dokud nepíšete dál.
+Vypnutí: Nastavení → Ovládání → „Při překlepu navrhnout opravu“.
 
 Makra
 -----

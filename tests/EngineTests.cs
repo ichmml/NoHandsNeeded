@@ -156,6 +156,7 @@ namespace Tastatur
             V1202Tests.Run(args[0], Check);
             V1203FadeTests.Run(Check);
             V1203Tests.Run(Check);
+            V1204Tests.Run(args[0], Check);
 
             Console.WriteLine(fails == 0 ? "\nAlle Tests bestanden." : "\n" + fails + " Fehler.");
             return fails;

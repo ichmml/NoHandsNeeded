@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Fare klavyed
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Normal opaklığı asla geçmez. %100: fare klavyedeyken normal demektir.
 Nicht in diesen Programmen (z. B. winword, excel):	Bu programlarda değil (ör. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Algılanan metin alanlarını günlüğe yaz
+Wort	Kelime
+Bei Tippfehlern Korrektur vorschlagen	Yazım hatalarında düzeltme öner

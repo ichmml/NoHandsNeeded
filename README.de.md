@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-Aktuelle Version: **1.2.03**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Aktuelle Version: **1.2.04**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
 zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.
@@ -25,6 +25,8 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 - **Sonderzeichen unten einstellbar:** von Haus aus ! ? : -, in den Einstellungen änderbar.
 - **Getipptes Wort oben links in Rot**, Buchstabe für Buchstabe, auch mit Sonderzeichen ("s!add" bleibt stehen). Neue Wörter merkt sie sich mit einem Klick, Passwörter erscheinen als Punkte (👁 zeigt sie kurz). Im eigenen Tresor-Fenster sieht man ein neues Passwort beim Tippen im Klartext.
 - **Groß/Klein-Taste** (abc ↑ / ABC ↓), die das letzte Wort nachträglich groß- oder kleinschreibt.
+- **Wort löschen** (⌫ Wort, direkt unter der Rücktaste): löscht das ganze letzte Wort mit einem Druck, jeder weitere Druck das Wort davor.
+- **Korrekturvorschläge bei Tippfehlern:** Aus "hasu" wird mit einem Klick "Haus". Die Korrektur steht orange markiert vorn in der Leiste, ersetzt wird nie automatisch. Substantive stehen groß in den Vorschlägen, Wörter wie essen/Essen kommen in beiden Schreibweisen.
 - **Merkt sich das angefangene Wort pro Fenster:** Fenster wechseln und zurück, einfach weiterschreiben.
 - **Zeigt echte Tastendrücke** (z. B. vom Quadstick) rot auf der Tastatur an.
 - **Makros:** Textbausteine, Tastenfolgen und Programme starten, alles mit einem Klick. Man kann sie aufnehmen statt programmieren.

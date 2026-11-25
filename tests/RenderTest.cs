@@ -91,6 +91,8 @@ namespace Tastatur
             Shot(Path.Combine(dir, "i_lang2.png"), 1536, 432, s => { s.SuggestionRows = 2; }, (f, e) => { f.KnownWord = w => true; typeIn(e, "donaudampfschifffahrtsgesellschaft"); f.UpdateBand(); });
             Shot(Path.Combine(dir, "i_pw.png"), 1536, 432, s => { }, (f, e) => { e.PasswordMode = true; typeIn(e, "geheim7"); f.OverrideBand = () => new System.Collections.Generic.List<BandItem> { new BandItem { Label = "⚿ Gmail", Color = Color.FromArgb(230,160,40) }, new BandItem { Label = "+ Neues Passwort" } }; f.UpdateBand(); });
             Shot(Path.Combine(dir, "i_pwklar.png"), 1536, 432, s => { }, (f, e) => { e.PasswordMode = true; typeIn(e, "geheim7"); f.ToggleReveal(); f.UpdateBand(); });
+            Shot(Path.Combine(dir, "k_korrektur.png"), 1536, 432, s => { }, (f, e) => { e.ResetWord(false); typeIn(e, "hasu"); f.UpdateBand(); });
+            Shot(Path.Combine(dir, "k_korrektur_hell.png"), 1100, 380, s => { s.Theme = "hell"; }, (f, e) => { e.ResetWord(false); typeIn(e, "gruesse"); f.UpdateBand(); });
             Shot(Path.Combine(dir, "e_aufnahme.png"), 1100, 380, s => { }, (f, e) => { f.Recording = true; f.ShowStatus("Aufnahme läuft: einfach tippen, dann ■ Stopp"); });
         }
     }

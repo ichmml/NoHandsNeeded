@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Dekking bove
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Het wordt nooit meer dan de normale dekking. 100 % betekent: normaal zolang de muis op het toetsenbord is.
 Nicht in diesen Programmen (z. B. winword, excel):	Niet in deze programma's (bijv. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Herkende tekstvelden in het logboek schrijven
+Wort	Woord
+Bei Tippfehlern Korrektur vorschlagen	Bij typfouten een correctie voorstellen

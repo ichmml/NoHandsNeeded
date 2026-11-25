@@ -12,6 +12,11 @@ namespace Tastatur
         List<string> Suggest(string typed, string prev, int max, bool capitalize);
         /// <summary>Gelernte Zahlen, deren Ziffern so anfangen.</summary>
         List<string> SuggestNumbers(string typed, int max);
+        /// <summary>Korrekturvorschläge bei einem Tippfehler (leer, wenn das Getippte passt).
+        /// wholeWord: das Wort ist fertig getippt, nur ganze Wörter vorschlagen und nur bei einem klaren Treffer.</summary>
+        List<string> Corrections(string typed, int max, bool capitalize, bool wholeWord);
+        /// <summary>Kennt die Tastatur das Wort?</summary>
+        bool Knows(string word);
     }
 
     /// <summary>Wörter ohne Akzente vergleichen: "zolw" findet "żółw", "cafe" findet "café".</summary>
@@ -82,6 +87,44 @@ namespace Tastatur
     internal class Predictor : ISuggester
     {
         public List<string> SuggestNumbers(string typed, int max) { return new List<string>(); }
+
+        public bool Knows(string word) { Scored sc; return string.IsNullOrEmpty(word) || TryGet(word, out sc); }
+
+        public List<string> Corrections(string typed, int max, bool capitalize, bool wholeWord)
+        {
+            var res = new List<string>();
+            var fixes = FixesFor(typed, max, wholeWord);
+            if (fixes == null) return res;
+            foreach (var c in fixes)
+            {
+                string w = Shape(c.Word, typed, capitalize);
+                if (!res.Contains(w)) res.Add(w);
+                if (res.Count >= max) break;
+            }
+            return res;
+        }
+
+        /// <summary>
+        /// Korrekturen für das Getippte, das beste zuerst. Null, wenn das Getippte in Ordnung ist:
+        /// das Wort ist bekannt, oder es gibt genug Wörter, die so anfangen.
+        /// </summary>
+        public List<Scored> FixesFor(string typed, int max, bool wholeWord)
+        {
+            if (!Correction.Plausible(typed) || _keys == null) return null;
+            int floor = Correction.MinScore;
+            if (wholeWord) { if (Knows(typed)) return null; }
+            else if (HasPrefix(typed))
+            {
+                // Es gibt Wörter, die so anfangen. Nur wenn die alle selten sind und eine Korrektur
+                // deutlich häufiger ist, war es wohl doch ein Tippfehler ("Hasue" -> "Hause").
+                if (typed.Length < 4 || Knows(typed)) return null;
+                var c = Candidates(typed, 1);
+                int bc = c.Count > 0 ? c[0].Freq : 0;
+                if (bc >= 430) return null;
+                floor = Math.Max(floor, bc + 120);
+            }
+            return Correction.Pick(FixCandidates(typed, max + 2, wholeWord), floor, wholeWord);
+        }
 
         private string[] _words;     // Originalschreibweise
         private string[] _keys;      // kleingeschrieben, sortiert
@@ -248,15 +291,94 @@ namespace Tastatur
             return result;
         }
 
-        /// <summary>Wort im Grundwortschatz nachschlagen (Groß-/Kleinschreibung egal).</summary>
+        /// <summary>Gibt es Wörter, die so anfangen (auch ohne Akzente verglichen)?</summary>
+        public bool HasPrefix(string typed)
+        {
+            if (_keys == null || string.IsNullOrEmpty(typed)) return false;
+            string p = typed.ToLowerInvariant();
+            int i = LowerBound(p);
+            if (i < _keys.Length && _keys[i].StartsWith(p, StringComparison.Ordinal)) return true;
+            if (_foldKeys == null || _foldKeys.Length == 0 || !TextFold.IsPlain(p)) return false;
+            int lo = 0, hi = _foldKeys.Length;
+            while (lo < hi) { int mid = (lo + hi) / 2; if (string.CompareOrdinal(_foldKeys[mid], p) < 0) lo = mid + 1; else hi = mid; }
+            return lo < _foldKeys.Length && _foldKeys[lo].StartsWith(p, StringComparison.Ordinal);
+        }
+
+        /// <summary>
+        /// Wörter, die bis auf einen Tippfehler zum Getippten passen: ein Buchstabe falsch (Nachbartaste
+        /// zählt weniger), zu viel, fehlt oder vertauscht, dazu ae/oe/ue/ss statt ä/ö/ü/ß.
+        /// Punkte = Häufigkeit minus Abzug für die Art des Fehlers. Sortiert, das beste zuerst.
+        /// </summary>
+        public List<Scored> FixCandidates(string typed, int max, bool wholeWord)
+        {
+            var best = new Dictionary<int, int>();
+            if (_keys == null || string.IsNullOrEmpty(typed)) return new List<Scored>();
+            string t = typed.ToLowerInvariant();
+            foreach (var v in Correction.Variants(t))
+            {
+                if (v.Text.Length < 2 || v.Text == t) continue;
+                int i = LowerBound(v.Text);
+                int n = 0, bi = -1, bs = int.MinValue;
+                for (; i < _keys.Length && _keys[i].StartsWith(v.Text, StringComparison.Ordinal) && n < 3000; i++, n++)
+                {
+                    int extra = _keys[i].Length - v.Text.Length;
+                    if (wholeWord && extra > 0) break;   // ganze Wörter: nur genau gleich lange (die stehen vorn)
+                    // fertige Wörter leicht bevorzugen, lange Ergänzungen weniger
+                    int sc = _freq[i] - v.Cost - 8 * extra + (extra == 0 ? 15 : 0);
+                    if (sc > bs) { bs = sc; bi = i; }
+                }
+                int old;
+                if (bi >= 0 && (!best.TryGetValue(bi, out old) || bs > old)) best[bi] = bs;
+            }
+            return best.OrderByDescending(x => x.Value).Take(max).Select(x => new Scored(_words[x.Key], x.Value)).ToList();
+        }
+
+        /// <summary>Wort im Grundwortschatz nachschlagen (Groß-/Kleinschreibung egal).
+        /// Gibt es das Wort in beiden Schreibweisen (essen/Essen), zählt die genau passende, sonst die häufigere.</summary>
         public bool TryGet(string word, out Scored result)
         {
             result = new Scored();
             if (_keys == null || string.IsNullOrEmpty(word)) return false;
             string k = word.ToLowerInvariant();
             int i = LowerBound(k);
-            if (i < _keys.Length && _keys[i] == k) { result = new Scored(_words[i], _freq[i]); return true; }
+            bool found = false;
+            for (; i < _keys.Length && _keys[i] == k; i++)
+            {
+                if (_words[i] == word) { result = new Scored(_words[i], _freq[i]); return true; }
+                if (!found || _freq[i] > result.Freq) { result = new Scored(_words[i], _freq[i]); found = true; }
+            }
+            return found;
+        }
+
+        /// <summary>Steht das Wort genau so (mit dieser Groß-/Kleinschreibung) in der Liste?</summary>
+        public bool HasExact(string word)
+        {
+            if (_keys == null || string.IsNullOrEmpty(word)) return false;
+            string k = word.ToLowerInvariant();
+            for (int i = LowerBound(k); i < _keys.Length && _keys[i] == k; i++)
+                if (_words[i] == word) return true;
             return false;
+        }
+
+        /// <summary>Gibt es das Wort in mehreren Schreibweisen (essen und Essen)?</summary>
+        public bool HasSeveralForms(string word)
+        {
+            if (_keys == null || string.IsNullOrEmpty(word)) return false;
+            string k = word.ToLowerInvariant();
+            int i = LowerBound(k);
+            return i + 1 < _keys.Length && _keys[i] == k && _keys[i + 1] == k;
+        }
+
+        /// <summary>
+        /// Richtige Schreibweise für ein klein getipptes Wort, das die Liste nur großgeschrieben kennt
+        /// ("zeit" -> "Zeit"). Null, wenn das Wort so in Ordnung ist oder unbekannt.
+        /// </summary>
+        public string CapitalFormOf(string word)
+        {
+            if (string.IsNullOrEmpty(word) || !char.IsLower(word[0]) || HasExact(word)) return null;
+            Scored sc;
+            if (!TryGet(word, out sc) || !char.IsUpper(sc.Word[0])) return null;
+            return sc.Word.Substring(1) == word.Substring(1) ? sc.Word : null;
         }
 
         public List<string> Suggest(string typed, string prev, int max, bool capitalize)

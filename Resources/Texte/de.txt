@@ -544,3 +544,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Deckkraft ü
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.
 Nicht in diesen Programmen (z. B. winword, excel):	Nicht in diesen Programmen (z. B. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Erkannte Textfelder ins Protokoll schreiben
+Wort	Wort
+Bei Tippfehlern Korrektur vorschlagen	Bei Tippfehlern Korrektur vorschlagen

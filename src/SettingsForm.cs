@@ -126,6 +126,7 @@ namespace Tastatur
             Slider(L.T("Schriftgröße Vorschläge und Makros"), 20, 70, 5, s.SuggestionFontPercent, v => v + " %", v => s.SuggestionFontPercent = v);
             Check(L.T("Satzanfang automatisch groß"), s.AutoCapitalize, v => s.AutoCapitalize = v);
             Check(L.T("Leerzeichen nach Vorschlag einfügen"), s.AutoSpaceAfterSuggestion, v => s.AutoSpaceAfterSuggestion = v);
+            Check(L.T("Bei Tippfehlern Korrektur vorschlagen"), s.CorrectionSuggestions, v => s.CorrectionSuggestions = v);
             Check(L.T("Leerzeichen nach . , ! ? : von selbst einfügen"), s.AutoSpaceAfterPunctuation, v => s.AutoSpaceAfterPunctuation = v);
             Check(L.T("Getipptes Wort oben links zeigen (rot)"), s.ShowInputField, v => s.ShowInputField = v);
             var pwOpts = new[] { L.T("im Klartext"), L.T("Punkte mit 👁"), L.T("immer nur Punkte") };

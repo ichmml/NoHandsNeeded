@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Teclado en pantalla, Versión 1.2.03
+Teclado en pantalla, Versión 1.2.04
 
 ¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está
 hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick
@@ -177,6 +177,23 @@ inicio de frase. Al volver a la ventana sigues escribiendo sin más.
 
 Con el clic por permanencia, Retroceso, Supr y las flechas se repiten mientras sigues
 encima. Todas las demás teclas solo vuelven a activarse tras salir una vez de la tecla.
+
+Borrar palabra («⌫ Palabra», justo debajo de la tecla Retroceso): borra toda la última palabra
+junto con el espacio y la puntuación que la siguen. Cada pulsación más borra la palabra
+anterior. Con el clic por permanencia sigue mientras uno se queda en la tecla. Si justo antes
+se seleccionó algo con Mayús y las flechas, la tecla borra solo la selección.
+Si el teclado no conoce el texto (después de un clic en la ventana, de una entrada por voz o
+de otro teclado), envía Ctrl+Mayús+flecha izquierda y luego Retroceso. Eso funciona en casi
+todos los programas.
+
+Correcciones sugeridas: tras un error como «csaa» en vez de «casa», la palabra correcta
+aparece primero en la barra de sugerencias, con fondo naranja y marcada con ≈. Un clic
+reemplaza toda la palabra. Sin clic no pasa nada, el teclado nunca cambia nada por su cuenta.
+Reconoce una letra equivocada (sobre todo la tecla vecina), una letra que falta o está
+repetida y dos letras intercambiadas.
+Después del espacio la corrección de la palabra anterior sigue visible hasta seguir
+escribiendo.
+Desactivar: Ajustes → Manejo → «Sugerir una corrección ante errores de escritura».
 
 Macros
 ------

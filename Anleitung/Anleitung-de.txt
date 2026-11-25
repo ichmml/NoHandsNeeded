@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.2.03
+Bildschirmtastatur, Version 1.2.04
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -167,6 +167,28 @@ Satzanfang. Zurück im Fenster schreibt man einfach weiter.
 
 Beim Verweilklick wiederholen sich Löschen, Entf und die Pfeile, solange man drauf bleibt.
 Alle anderen Tasten lösen erst wieder aus, wenn man die Taste einmal verlassen hat.
+
+Wort löschen ("⌫ Wort", direkt unter der Rücktaste): löscht das ganze letzte Wort samt
+Leerzeichen und Satzzeichen dahinter. Jeder weitere Druck löscht das Wort davor, beim
+Verweilklick geht es weiter, solange man drauf bleibt. Hat man vorher mit Shift und den
+Pfeilen etwas markiert, löscht die Taste nur die Markierung.
+Kennt die Tastatur den Text nicht (nach einem Klick ins Fenster, nach Spracheingabe oder
+einer anderen Tastatur), schickt sie Strg+Shift+Pfeil links und dann die Rücktaste. Das
+klappt in fast allen Programmen.
+
+Korrekturvorschläge: Bei einem Tippfehler wie "hasu" steht vorn in der Vorschlagsleiste das
+passende Wort ("Haus"), orange hinterlegt und mit ≈ markiert. Ein Klick ersetzt das ganze
+Wort. Ohne Klick passiert nichts, die Tastatur ändert nie von selbst etwas.
+Erkannt werden ein falscher Buchstabe (vor allem die Nachbartaste), ein fehlender oder
+doppelter Buchstabe, zwei vertauschte Buchstaben und ae, oe, ue, ss statt ä, ö, ü, ß.
+Nach dem Leerzeichen bleibt die Korrektur für das Wort davor stehen, bis man weiterschreibt.
+Abschalten: Einstellungen → Bedienung → "Bei Tippfehlern Korrektur vorschlagen".
+
+Groß und klein in den Vorschlägen: Substantive stehen groß in der Leiste, auch wenn man klein
+anfängt ("zei" bringt "Zeit"). Wörter, die es in beiden Schreibweisen gibt (essen und Essen,
+leben und Leben), kommen zweimal, nach "beim" steht dann "Essen" vorn. Schreibt man ein
+Substantiv klein, etwa mit Wispr Flow, lernt die Tastatur daraus keine Kleinschreibung. Wer
+ein Wort wirklich klein haben will, nimmt die Groß/Klein-Taste, das merkt sie sich.
 
 Makros
 ------

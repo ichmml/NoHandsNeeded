@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Gennemsigtig
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Det bliver aldrig mere end den normale gennemsigtighed. 100 % betyder: normal, mens musen er på tastaturet.
 Nicht in diesen Programmen (z. B. winword, excel):	Ikke i disse programmer (f.eks. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Skriv fundne tekstfelter i loggen
+Wort	Ord
+Bei Tippfehlern Korrektur vorschlagen	Foreslå rettelse ved tastefejl

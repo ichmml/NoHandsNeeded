@@ -162,7 +162,7 @@ namespace Tastatur
         /// <summary>Steht am Ende des Getippten eine gültige IBAN? Dann melden. Liefert true, wenn ja.</summary>
         private bool CheckIban(char ender = '\0')
         {
-            if (_passwordMode) return false;
+            if (_passwordMode || _replaying) return false;
             string h = _history.ToString();
             if (ender != '\0' && h.Length > 0 && h[h.Length - 1] == ender) h = h.Substring(0, h.Length - 1);   // Zeichen, das die Zahl beendet hat
             int end = h.Length;
@@ -210,7 +210,7 @@ namespace Tastatur
 
         private void CheckEmailChunk()
         {
-            if (_passwordMode) return;
+            if (_passwordMode || _replaying) return;
             string e = EmailRules.Extract(CurrentChunk);
             if (e == null) return;
             var h = EmailFinished; if (h != null) h(e);
@@ -412,7 +412,7 @@ namespace Tastatur
             if (_numIban) return;
             _lastNumWord = followedByWord;
             var h = NumberFinished;
-            if (h != null && !_passwordMode) h(n, followedByWord);
+            if (h != null && !_passwordMode && !_replaying) h(n, followedByWord);
         }
 
         /// <summary>Zahl abschließen, c ist das Zeichen, das sie beendet hat.</summary>
@@ -513,9 +513,9 @@ namespace Tastatur
         private void FinishWord()
         {
             string w = _word.ToString();
-            if (w.Length >= 15 && char.IsLetter(w[0]) && char.IsLetter(w[1]) && char.IsDigit(w[2])) CheckIban();   // IBAN ohne Leerzeichen
+            if (!_replaying && w.Length >= 15 && char.IsLetter(w[0]) && char.IsLetter(w[1]) && char.IsDigit(w[2])) CheckIban();   // IBAN ohne Leerzeichen
             var h = WordFinished;
-            if (h != null && !_passwordMode) h(w, _prevWord, _wordAtSentence);
+            if (h != null && !_passwordMode && !_replaying) h(w, _prevWord, _wordAtSentence);
             _prevBefore = _prevWord;
             _prevWord = w;
         }
@@ -587,6 +587,7 @@ namespace Tastatur
 
         private void AddHistory(string s)
         {
+            if (_history.Length == 0) _histStartSentence = _word.Length > 0 ? _wordAtSentence : _sentenceStart;
             _history.Append(s);
             if (_history.Length > MaxHistory) _history.Remove(0, _history.Length - MaxHistory);
         }
@@ -647,7 +648,166 @@ namespace Tastatur
                 if (ns.Count > 0) { _numSuggestions = ns; return new List<string>(ns); }
             }
             _numSuggestions = new List<string>();
-            return _predictor.Suggest(w, _prevWord, _settings.SuggestionCount * _settings.SuggestionRows, cap);
+            var list = _predictor.Suggest(w, _prevWord, max, cap);
+            AddCorrections(list, w, cap, max);
+            return list;
+        }
+
+        // ---------- Korrekturvorschläge ----------
+
+        private readonly HashSet<string> _corrections = new HashSet<string>(StringComparer.Ordinal);
+        private bool _correctLast;   // Korrektur gilt für das fertige Wort davor (nach dem Leerzeichen)
+
+        /// <summary>Ist dieser Vorschlag eine Korrektur eines Tippfehlers?</summary>
+        public bool IsCorrection(string word) { return word != null && _corrections.Contains(word); }
+
+        /// <summary>
+        /// Bei einem Tippfehler die Korrektur vorn in die Vorschläge. Direkt nach einem unbekannten Wort und
+        /// Leerzeichen bleibt ein eindeutiger Treffer stehen, bis weitergeschrieben wird.
+        /// </summary>
+        private void AddCorrections(List<string> list, string w, bool cap, int max)
+        {
+            _corrections.Clear();
+            _correctLast = false;
+            if (!_settings.CorrectionSuggestions || _passwordMode || _numIban) return;
+            List<string> fixes;
+            if (w.Length > 0)
+                fixes = _predictor.Corrections(w, 2, cap, false);
+            else if (_lastWord != null && _trailing.ToString() == " " && !_predictor.Knows(_lastWord))
+            {
+                fixes = _predictor.Corrections(_lastWord, 1, _settings.AutoCapitalize && _lastWordAtSentence, true);
+                _correctLast = fixes.Count > 0;
+            }
+            else return;
+            int at = 0;
+            foreach (var f in fixes)
+            {
+                if (f == w || (_correctLast && f == _lastWord)) continue;
+                list.Remove(f);
+                list.Insert(at++, f);
+                _corrections.Add(f);
+            }
+            if (list.Count > max) list.RemoveRange(max, list.Count - max);
+        }
+
+        /// <summary>Korrektur für das Wort vor dem Leerzeichen übernehmen: Wort samt Leerzeichen neu tippen.</summary>
+        private void ReplaceLastWord(string word)
+        {
+            string old = _lastWord, trail = _trailing.ToString();
+            int p = 0;
+            while (p < old.Length && p < word.Length && old[p] == word[p]) p++;
+            _out.SendBackspaces(old.Length - p + trail.Length);
+            _out.SendText(word.Substring(p) + trail);
+            if (_history.Length >= old.Length + trail.Length)
+            {
+                _history.Length -= old.Length + trail.Length;
+                _history.Append(word).Append(trail);
+            }
+            // falsches Wort nicht lernen, richtiges schon
+            var ro = WordReopened; if (ro != null) ro(old, _prevBefore);
+            var wf = WordFinished; if (wf != null) wf(word, _prevBefore, _lastWordAtSentence);
+            _lastWord = word;
+            if (_prevWord == old) _prevWord = word;
+            _corrections.Clear(); _correctLast = false;
+            if (Shift == ModState.Once) Shift = ModState.Off;
+            Fire();
+        }
+
+        // ---------- Wort löschen ----------
+
+        private bool _histStartSentence;   // stand der Anfang von _history am Satzanfang?
+        private bool _replaying;           // Zustand wird aus _history neu aufgebaut: keine Ereignisse
+
+        /// <summary>
+        /// Ganzes letztes Wort löschen, samt Leerzeichen und Satzzeichen dahinter. Weitere Drücke löschen
+        /// das Wort davor. Kennt die Tastatur den Text nicht (Klick ins Fenster, andere Tastatur, Spracheingabe),
+        /// markiert sie das Wort links vom Cursor mit Strg+Shift+Pfeil links und löscht es.
+        /// </summary>
+        public void DeleteWord()
+        {
+            _deadPending = '\0';
+            _autoSpaced = false; _punctSpaced = '\0';
+            Ctrl = Alt = Win = AltGr = ModState.Off;
+            if (Shift != ModState.Locked) Shift = ModState.Off;
+
+            if (_shiftForNav)
+            {
+                // gerade mit Shift + Pfeilen markiert: die Markierung löschen
+                _shiftForNav = false;
+                _out.SendVk(InputSender.VK_BACK, Modifiers.None);
+                ForgetAll();
+                Fire();
+                return;
+            }
+
+            string h = _history.ToString();
+            int n = WordLengthAtEnd(h);
+            if (n == 0)
+            {
+                _out.SendVk(InputSender.VK_LEFT, Modifiers.Ctrl | Modifiers.Shift);
+                _out.SendVk(InputSender.VK_BACK, Modifiers.None);
+                ForgetAll();
+                Fire();
+                return;
+            }
+
+            // fertiges Wort gelöscht: nicht mehr lernen (wie beim Löschen mit der Rücktaste)
+            if (_word.Length == 0 && _lastWord != null && h.EndsWith(_lastWord + _trailing, StringComparison.Ordinal)
+                && n == _lastWord.Length + _trailing.Length)
+            {
+                var ro = WordReopened; if (ro != null && !_passwordMode) ro(_lastWord, _prevBefore);
+            }
+            _out.SendBackspaces(n);
+            Replay(h.Substring(0, h.Length - n));
+            Fire();
+        }
+
+        /// <summary>
+        /// Wie viele Zeichen am Ende von text zum letzten Wort gehören: Leerzeichen und Satzzeichen
+        /// dahinter, das Wort selbst. Endet der Text mit einem Zeilenumbruch, nur dieser. 0 = leer.
+        /// </summary>
+        public static int WordLengthAtEnd(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return 0;
+            int i = text.Length;
+            if (text[i - 1] == '\n') return 1;
+            while (i > 0 && (text[i - 1] == ' ' || text[i - 1] == '\t')) i--;
+            while (i > 0 && !IsWordChar(text[i - 1]) && !char.IsWhiteSpace(text[i - 1])) i--;   // Satzzeichen
+            int end = i;
+            while (i > 0 && IsWordChar(text[i - 1])) i--;
+            if (i == end)
+            {
+                // nur Satzzeichen oder Leerzeichen: die löschen
+                return text.Length - i == 0 ? 1 : text.Length - i;
+            }
+            return text.Length - i;
+        }
+
+        private void ForgetAll()
+        {
+            _word.Clear(); ForgetLastWord(); _prevWord = _prevBefore = null;
+            DropNumber();
+            _history.Clear();
+            _sentenceStart = false;
+            _lastChar = '\0';
+            _corrections.Clear(); _correctLast = false;
+        }
+
+        /// <summary>Zustand (Wortpuffer, letztes Wort, Satzanfang) aus dem übrigen Text neu aufbauen, ohne zu lernen.</summary>
+        private void Replay(string text)
+        {
+            bool start = _histStartSentence;
+            _word.Clear(); ForgetLastWord(); _prevWord = _prevBefore = null;
+            DropNumber(); _numIban = false;
+            _history.Clear();
+            _sentenceStart = start;
+            _wordAtSentence = false;
+            _lastChar = '\0';
+            _replaying = true;
+            try { TrackText(text); }
+            finally { _replaying = false; }
+            if (text.Length == 0) _sentenceStart = start;
+            _histStartSentence = start;
         }
 
         // ---------- Groß/Klein (Aa) ----------
@@ -745,6 +905,13 @@ namespace Tastatur
 
         public void Press(KeyDef k)
         {
+            if (k.Kind == KeyKind.DeleteWord)
+            {
+                // vor allem anderen: DeleteWord muss wissen, ob gerade mit Shift + Pfeilen markiert wurde
+                if (_passwordMode) { PressInPasswordField(k); ReleaseOnce(); Fire(); return; }
+                DeleteWord();
+                return;
+            }
             // Nach dem Markieren mit Shift + Pfeilen: die nächste andere Taste kommt wieder ohne Shift
             if (_shiftForNav && !IsNavKey(k) && !(k.Kind == KeyKind.Modifier && k.Mod == Modifiers.Shift))
             {
@@ -850,6 +1017,23 @@ namespace Tastatur
                 return true;
             }
             if (k.Kind == KeyKind.CaseToggle) return true;
+            if (k.Kind == KeyKind.DeleteWord)
+            {
+                // Passwort: was ich getippt habe, bis zum letzten Leerzeichen löschen. Sonst Strg+Shift+Pfeil links.
+                if (_secretValid && _secret.Length > 0)
+                {
+                    int n = WordLengthAtEnd(_secret.ToString());
+                    _out.SendBackspaces(n);
+                    _secret.Length -= n;
+                }
+                else
+                {
+                    _out.SendVk(InputSender.VK_LEFT, Modifiers.Ctrl | Modifiers.Shift);
+                    _out.SendVk(InputSender.VK_BACK, Modifiers.None);
+                    _secretValid = false;
+                }
+                return true;
+            }
             if (k.Kind == KeyKind.Special)
             {
                 var mods = ActiveMods();
@@ -1013,6 +1197,7 @@ namespace Tastatur
         public void PressSuggestion(string word)
         {
             _deadPending = '\0';
+            if (_correctLast && _word.Length == 0 && _lastWord != null && _corrections.Contains(word)) { ReplaceLastWord(word); return; }
             if (_num.Length > 0 && _numSuggestions.Contains(word)) { PressNumberSuggestion(word); return; }
             _num.Clear(); _pendingPlz = null; _lastNum = null;   // angefangene Zahl wird durch ein Wort ersetzt
             string typed = _word.ToString();

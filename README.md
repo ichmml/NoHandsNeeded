@@ -2,7 +2,7 @@
 
 **English** · [Deutsch](README.de.md)
 
-Current version: **1.2.03**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Current version: **1.2.04**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 An on-screen keyboard for Windows, built for people who use the PC without their hands,
 for example with a mouth controller (Quadstick), a head mouse or eye tracking.
@@ -30,6 +30,8 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 - **Editable special characters** in the bottom row: ! ? : - by default.
 - **Typed word in red at the top left**, letter by letter, also with special characters ("s!add" stays). New words are remembered with one click, passwords appear as dots (👁 shows them briefly). In the keyboard's own vault window a new password is shown in plain text while typing.
 - **Case key** (abc ↑ / ABC ↓) that capitalizes or lowercases the last word afterwards.
+- **Delete word** (⌫ Word, right below Backspace): deletes the whole last word with one press, each further press the word before.
+- **Correction suggestions for typos:** "teh" becomes "the" with one click. The correction is shown first in the bar, marked orange, and is never applied automatically. German nouns are suggested with a capital letter, words like essen/Essen appear in both forms.
 - **Remembers the started word per window:** switch windows and back, and simply keep writing.
 - **Shows real key presses** (e.g. from the Quadstick) in red on the keyboard.
 - **Macros:** text snippets, key sequences and starting programs, all with one click. Record them instead of programming.

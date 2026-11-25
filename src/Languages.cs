@@ -237,6 +237,31 @@ namespace Tastatur
             _active.AddRange(predictors.Where(p => p != null));
             _custom = custom;
             SetMode(_mode);
+            foreach (var st in _stores.Values) FixStoredForms(st);
+        }
+
+        private Predictor PredictorFor(string code)
+        {
+            return _active.FirstOrDefault(p => p.Code == code);
+        }
+
+        /// <summary>
+        /// Klein geschriebene Form eines Worts, das die Wortliste nur großgeschrieben kennt ("zeit"):
+        /// dann die richtige Schreibweise ("Zeit"). Null = Schreibweise passt.
+        /// So lernt die Tastatur keine falsche Kleinschreibung, wenn ich (oder Wispr Flow) ein Substantiv klein schreibe.
+        /// </summary>
+        public string ListFormFor(string code, string word)
+        {
+            var p = PredictorFor(code);
+            return p == null ? null : p.CapitalFormOf(word);
+        }
+
+        /// <summary>Früher falsch gelernte Kleinschreibung korrigieren. Mit der Groß/Klein-Taste gewählte bleibt.</summary>
+        public int FixStoredForms(LearningStore st)
+        {
+            if (st == null) return 0;
+            string code = st.Code;
+            return st.FixForms(w => ListFormFor(code, w));
         }
 
         /// <summary>Reihum: jede aktive Sprache, dann (wenn erlaubt) alle gemischt.</summary>
@@ -340,7 +365,14 @@ namespace Tastatur
             return NumbersEnabled ? Numbers.Suggest(typed, max, 1) : new List<string>();   // Nummern gleich ab dem ersten Mal
         }
 
-        public void SetStore(string code, LearningStore store) { _stores[code] = store; }
+        public void SetStore(string code, LearningStore store)
+        {
+            _stores[code] = store;
+            if (store == null) return;
+            if (string.IsNullOrEmpty(store.Code)) store.Code = code;
+            store.ListForm = w => ListFormFor(code, w);
+            FixStoredForms(store);
+        }
         public IEnumerable<LearningStore> Stores { get { return _stores.Values; } }
 
         public LearningStore Store(string code)
@@ -415,18 +447,76 @@ namespace Tastatur
         private static double BuiltInPairBonus(Predictor p, string prev, ref string form, bool keepForm)
         {
             if (p.Pairs == null || prev == null) return 0;
-            foreach (var x in p.Pairs.NextOf(prev))
+            var next = p.Pairs.NextOf(prev);
+            // genau diese Schreibweise folgt oft (beim Essen, wir essen): Bonus nur für sie
+            foreach (var x in next)
+                if (string.Equals(x.Word, form, StringComparison.Ordinal)) return Math.Min(250, 100 + 6 * x.Freq);
+            foreach (var x in next)
                 if (string.Equals(x.Word, form, StringComparison.OrdinalIgnoreCase))
                 {
+                    // gibt es beide Schreibweisen in der Liste, bekommt nur die passende den Bonus
+                    if (p.HasExact(x.Word) && p.HasExact(form)) return 0;
                     if (!keepForm) form = x.Word;
                     return Math.Min(250, 100 + 6 * x.Freq);
                 }
             return 0;
         }
 
+        /// <summary>
+        /// Gelernte Schreibweise auf einen Kandidaten anwenden? Nicht, wenn die Liste beide Schreibweisen
+        /// als eigene Wörter hat (essen/Essen): dann bleibt jede, wie sie ist, und nur die gelernte bekommt den Bonus.
+        /// </summary>
+        private static bool AppliesTo(Predictor p, LearnedWord lw, string candidate)
+        {
+            if (lw == null) return false;
+            if (string.Equals(lw.Form, candidate, StringComparison.Ordinal)) return true;
+            return !(p.HasExact(lw.Form) && p.HasExact(candidate));
+        }
+
+        /// <summary>Schlüssel zum Zusammenfassen: gleiche Wörter einmal, außer beide Schreibweisen sind echte Wörter.</summary>
+        private string MergeKey(string word)
+        {
+            foreach (var p in Current()) if (p.HasSeveralForms(word) && p.HasExact(word)) return word;
+            return word.ToLowerInvariant();
+        }
+
         public List<string> Suggest(string typed, int max, bool capitalize)
         {
             return Suggest(typed, null, max, capitalize);
+        }
+
+        /// <summary>Korrekturvorschläge abschalten (Einstellung).</summary>
+        public bool CorrectionsEnabled = true;
+
+        /// <summary>
+        /// Korrekturvorschläge bei Tippfehlern aus den aktuellen Sprachen. Leer, wenn eine Sprache,
+        /// das Gelernte oder die eigenen Begriffe das Getippte kennen.
+        /// </summary>
+        public List<string> Corrections(string typed, int max, bool capitalize, bool wholeWord)
+        {
+            var res = new List<string>();
+            if (!CorrectionsEnabled || !Correction.Plausible(typed)) return res;
+            if (_custom != null && (wholeWord ? _custom.Knows(typed) : _custom.HasPrefix(typed))) return res;
+            foreach (var st in _stores.Values)
+            {
+                if (wholeWord) { var lw = st.Get(typed); if (lw != null) return res; }
+                else if (st.WithPrefix(typed).Concat(st.WithPrefixFolded(typed)).Any(lw => lw.Count >= MinNewCount)) return res;
+            }
+            var all = new List<Scored>();
+            foreach (var p in Current())
+            {
+                var f = p.FixesFor(typed, max, wholeWord);
+                if (f == null) return res;   // diese Sprache kennt das Wort
+                all.AddRange(f);
+            }
+            foreach (var c in all.OrderByDescending(x => x.Freq))
+            {
+                string w = Predictor.Shape(c.Word, typed, capitalize);
+                if (!res.Contains(w)) res.Add(w);
+                if (res.Count >= max) break;
+            }
+            if (wholeWord && res.Count > 1) res.RemoveRange(1, res.Count - 1);
+            return res;
         }
 
         /// <summary>
@@ -436,13 +526,14 @@ namespace Tastatur
         public List<string> Suggest(string typed, string prev, int max, bool capitalize)
         {
             typed = typed ?? "";
-            var merged = new Dictionary<string, Scored>(StringComparer.OrdinalIgnoreCase);
+            var merged = new Dictionary<string, Scored>(StringComparer.Ordinal);
             Action<string, double> add = (word, score) =>
             {
                 if (word == typed) return;   // schon fertig getippt
                 Scored old;
                 int sc = (int)Math.Round(score);
-                if (!merged.TryGetValue(word, out old) || sc > old.Freq) merged[word] = new Scored(word, sc);
+                string key = MergeKey(word);
+                if (!merged.TryGetValue(key, out old) || sc > old.Freq) merged[key] = new Scored(word, sc);
             };
 
             foreach (var p in Current())
@@ -455,6 +546,7 @@ namespace Tastatur
                     if (st != null)
                     {
                         var lw = st.Get(c.Word);
+                        if (!AppliesTo(p, lw, c.Word)) lw = null;
                         if (lw != null) { score += 40 * Ln(lw.Count); form = lw.Form; }
                         int pc = st.PairCountOf(prev, c.Word);
                         if (pc > 0) score += 120 + 50 * Ln(pc);
@@ -478,6 +570,7 @@ namespace Tastatur
                         if (st != null)
                         {
                             var lw = st.Get(nx.Word);
+                            if (!AppliesTo(p, lw, nx.Word)) lw = null;
                             if (lw != null) { score += 40 * Ln(lw.Count); if (lw.Count >= MinNewCount) { form = lw.Form; own = true; } }
                             int pc = st.PairCountOf(prev, nx.Word);
                             if (pc > 0) { score += 120 + 50 * Ln(pc); add(form, score); continue; }
@@ -494,7 +587,7 @@ namespace Tastatur
                     foreach (var nx in p.Pairs.NextOf(prev))
                     {
                         string form = nx.Word;
-                        if (st != null) { var lw = st.Get(nx.Word); if (lw != null && lw.Count >= MinNewCount) form = lw.Form; }
+                        if (st != null) { var lw = st.Get(nx.Word); if (lw != null && lw.Count >= MinNewCount && AppliesTo(p, lw, nx.Word)) form = lw.Form; }
                         add(form, 780 + 1.2 * nx.Freq);
                     }
                 }

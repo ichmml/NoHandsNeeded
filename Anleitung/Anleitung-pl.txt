@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klawiatura ekranowa, Wersja 1.2.03
+Klawiatura ekranowa, Wersja 1.2.04
 
 Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego
 powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład
@@ -169,6 +169,22 @@ zdania. Po powrocie do okna po prostu piszesz dalej.
 
 Przy kliknięciu przez zatrzymanie Backspace, Delete i strzałki powtarzają się, dopóki na
 nich zostajesz. Wszystkie inne klawisze działają ponownie dopiero po opuszczeniu klawisza.
+
+Usuń słowo („⌫ Słowo”, tuż pod klawiszem Backspace): usuwa całe ostatnie słowo razem ze spacją
+i znakami interpunkcyjnymi za nim. Każde kolejne naciśnięcie usuwa słowo przed nim. Przy
+kliknięciu przez zatrzymanie działa dalej, dopóki kursor jest na klawiszu. Jeśli przed chwilą
+coś zaznaczono klawiszem Shift i strzałkami, klawisz usuwa tylko zaznaczenie.
+Jeśli klawiatura nie zna tekstu (po kliknięciu w okno, po wprowadzaniu głosowym albo z innej
+klawiatury), wysyła Ctrl+Shift+strzałka w lewo, a potem Backspace. Działa to prawie we
+wszystkich programach.
+
+Propozycje poprawek: po literówce, np. „dmo” zamiast „dom”, pasujące słowo stoi na początku
+paska podpowiedzi, na pomarańczowym tle i oznaczone ≈. Kliknięcie zastępuje całe słowo. Bez
+kliknięcia nic się nie dzieje, klawiatura nigdy sama niczego nie zmienia.
+Rozpoznawane są: zła litera (zwłaszcza sąsiedni klawisz), brakująca lub podwójna litera oraz
+dwie zamienione litery.
+Po spacji poprawka poprzedniego słowa zostaje widoczna, dopóki nie zaczniesz pisać dalej.
+Wyłączanie: Ustawienia → Obsługa → „Proponuj poprawkę przy literówkach”.
 
 Makra
 -----

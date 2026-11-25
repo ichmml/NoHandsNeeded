@@ -11,6 +11,7 @@ namespace Tastatur
     {
         public string Form;     // bevorzugte Schreibweise
         public int Count;
+        public bool Chosen;     // Schreibweise bewusst mit der Groß/Klein-Taste gewählt
     }
 
     /// <summary>
@@ -29,6 +30,12 @@ namespace Tastatur
 
         public string Code = "";
         public bool Dirty;
+
+        /// <summary>
+        /// Richtige Schreibweise laut Wortliste, wenn ein Substantiv klein getippt wurde ("zeit" -> "Zeit"),
+        /// sonst null. Setzt die Sprachverwaltung. So lernt die Tastatur keine falsche Kleinschreibung.
+        /// </summary>
+        public Func<string, string> ListForm;
 
         public int WordCount { get { return _words.Count; } }
         public int PairCount { get { return _next.Values.Sum(d => d.Count); } }
@@ -55,14 +62,21 @@ namespace Tastatur
         {
             if (!IsLearnable(word)) return;
             string k = Key(word);
+            string listForm = ListForm != null ? ListForm(word) : null;   // "zeit" klein getippt, richtig ist "Zeit"
             LearnedWord lw;
             if (!_words.TryGetValue(k, out lw))
             {
-                lw = new LearnedWord { Form = word, Count = 0 };
+                lw = new LearnedWord { Form = listForm ?? word, Count = 0 };
                 _words[k] = lw;
                 _sortedKeys = null;
             }
-            else if (!atSentenceStart) lw.Form = word;   // am Satzanfang groß geschrieben sagt nichts über die Schreibweise
+            // am Satzanfang groß geschrieben sagt nichts über die Schreibweise, und ein klein getipptes
+            // Substantiv (listForm gesetzt) ändert die gelernte Schreibweise nicht
+            else if (!atSentenceStart && listForm == null)
+            {
+                if (lw.Form != word) lw.Chosen = false;
+                lw.Form = word;
+            }
             lw.Count += weight;
             if (prev != null && IsLearnable(prev))
             {
@@ -110,9 +124,26 @@ namespace Tastatur
             if (!IsLearnable(word)) return;
             string k = Key(word);
             LearnedWord lw;
-            if (_words.TryGetValue(k, out lw)) lw.Form = word;
-            else { _words[k] = new LearnedWord { Form = word, Count = 0 }; _sortedKeys = null; }
+            if (_words.TryGetValue(k, out lw)) { lw.Form = word; lw.Chosen = true; }
+            else { _words[k] = new LearnedWord { Form = word, Count = 0, Chosen = true }; _sortedKeys = null; }
             Dirty = true;
+        }
+
+        /// <summary>
+        /// Gelernte Schreibweisen prüfen: falsche Kleinschreibung (fix liefert die richtige) korrigieren,
+        /// bewusst gewählte bleiben. Liefert die Zahl der Korrekturen.
+        /// </summary>
+        public int FixForms(Func<string, string> fix)
+        {
+            int n = 0;
+            foreach (var lw in _words.Values)
+            {
+                if (lw.Chosen) continue;
+                string f = fix(lw.Form);
+                if (f != null && f != lw.Form) { lw.Form = f; n++; }
+            }
+            if (n > 0) Dirty = true;
+            return n;
         }
 
         public LearnedWord Get(string word)
@@ -201,8 +232,8 @@ namespace Tastatur
             foreach (var kv in o._words)
             {
                 LearnedWord lw;
-                if (!_words.TryGetValue(kv.Key, out lw)) { _words[kv.Key] = new LearnedWord { Form = kv.Value.Form, Count = kv.Value.Count }; added++; }
-                else if (kv.Value.Count > lw.Count) { lw.Count = kv.Value.Count; lw.Form = kv.Value.Form; }
+                if (!_words.TryGetValue(kv.Key, out lw)) { _words[kv.Key] = new LearnedWord { Form = kv.Value.Form, Count = kv.Value.Count, Chosen = kv.Value.Chosen }; added++; }
+                else if (kv.Value.Count > lw.Count) { lw.Count = kv.Value.Count; if (!lw.Chosen || kv.Value.Chosen) { lw.Form = kv.Value.Form; lw.Chosen = kv.Value.Chosen; } }
             }
             foreach (var kv in o._next)
             {
@@ -225,7 +256,11 @@ namespace Tastatur
             sb.Append("# ").Append(L.T("Gelernte Wörter der Bildschirmtastatur")).Append(" (").Append(Code).Append(")\n");
             sb.Append("# ").Append(L.T("w <TAB> Wort <TAB> Anzahl   und   f <TAB> Wort <TAB> Folgewort <TAB> Anzahl")).Append("\n");
             foreach (var w in _words.Values.OrderByDescending(x => x.Count))
-                sb.Append("w\t").Append(w.Form).Append('\t').Append(w.Count.ToString(CultureInfo.InvariantCulture)).Append('\n');
+            {
+                sb.Append("w\t").Append(w.Form).Append('\t').Append(w.Count.ToString(CultureInfo.InvariantCulture));
+                if (w.Chosen) sb.Append("\tgewählt"); // i18n-ok
+                sb.Append('\n');
+            }
             foreach (var kv in _next)
                 foreach (var n in kv.Value)
                     sb.Append("f\t").Append(kv.Key).Append('\t').Append(n.Key).Append('\t').Append(n.Value.ToString(CultureInfo.InvariantCulture)).Append('\n');
@@ -248,7 +283,7 @@ namespace Tastatur
                 var p = line.Split('\t');
                 int c;
                 if (p[0] == "w" && p.Length >= 3 && int.TryParse(p[2], NumberStyles.Integer, CultureInfo.InvariantCulture, out c) && p[1].Length > 0)
-                    s._words[Key(p[1])] = new LearnedWord { Form = p[1], Count = c };
+                    s._words[Key(p[1])] = new LearnedWord { Form = p[1], Count = c, Chosen = p.Length >= 4 && p[3] == "gewählt" }; // i18n-ok
                 else if (p[0] == "f" && p.Length >= 4 && int.TryParse(p[3], NumberStyles.Integer, CultureInfo.InvariantCulture, out c))
                 {
                     Dictionary<string, int> d;

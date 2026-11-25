@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Opacidad sob
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Nunca supera la opacidad normal. 100 % significa: normal mientras el ratón está en el teclado.
 Nicht in diesen Programmen (z. B. winword, excel):	No en estos programas (p. ej. winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Escribir los campos de texto detectados en el registro
+Wort	Palabra
+Bei Tippfehlern Korrektur vorschlagen	Sugerir una corrección ante errores de escritura

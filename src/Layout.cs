@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Tastatur
 {
-    internal enum KeyKind { Char, Special, Modifier, Caps, AltGr, Space, CaseToggle, Drag, LayoutToggle, FnToggle }
+    internal enum KeyKind { Char, Special, Modifier, Caps, AltGr, Space, CaseToggle, Drag, LayoutToggle, FnToggle, DeleteWord }
 
     internal class KeyDef
     {
@@ -40,6 +40,12 @@ namespace Tastatur
         private static KeyDef Aa(float w)
         {
             return new KeyDef { Kind = KeyKind.CaseToggle, Label = "Aa", Width = w };
+        }
+
+        /// <summary>Löscht das ganze letzte Wort.</summary>
+        private static KeyDef DeleteWord(float w)
+        {
+            return new KeyDef { Kind = KeyKind.DeleteWord, Label = "⌫ " + Label("Wort"), Width = w };
         }
 
         /// <summary>Beschriftung der Sondertasten in der Sprache der Oberfläche.</summary>
@@ -175,9 +181,11 @@ namespace Tastatur
             r0.Add(S("⌫", InputSender.VK_BACK, 2f));
             rows.Add(r0);
 
-            var r1 = new List<KeyDef> { S(Label("Tab ⇥"), InputSender.VK_TAB, 1.5f) };
+            // Tab und Entf etwas schmaler, damit "Wort löschen" direkt unter die Rücktaste passt
+            var r1 = new List<KeyDef> { S(Label("Tab ⇥"), InputSender.VK_TAB, 1f) };
             r1.AddRange(Row(sp.Top));
-            r1.Add(S(Label("Entf"), InputSender.VK_DELETE, 1.5f));
+            r1.Add(DeleteWord(1f));
+            r1.Add(S(Label("Entf"), InputSender.VK_DELETE, 1f));
             rows.Add(r1);
 
             var r2 = new List<KeyDef> { new KeyDef { Kind = KeyKind.Caps, Label = "⇪", Width = 1.5f } };
@@ -259,7 +267,7 @@ namespace Tastatur
                 S(Label("Bild ↑"), InputSender.VK_PRIOR, 1.5f), S(Label("Bild ↓"), InputSender.VK_NEXT, 1.5f),
                 S(Label("Einfg"), InputSender.VK_INSERT, 1.5f), S(Label("Menü"), InputSender.VK_APPS, 1.5f),
                 S("Esc", InputSender.VK_ESCAPE, 1.5f), S(Label("Entf"), InputSender.VK_DELETE, 1.5f),
-                S("⌫", InputSender.VK_BACK, 3f)
+                S("⌫", InputSender.VK_BACK, 1.5f), DeleteWord(1.5f)
             });
 
             rows.Add(new List<KeyDef> {

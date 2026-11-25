@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Tastiera su schermo, Versione 1.2.03
+Tastiera su schermo, Versione 1.2.04
 
 Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che
 è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a
@@ -176,6 +176,23 @@ l'inizio della frase. Tornato nella finestra, continui semplicemente a scrivere.
 
 Con il clic a sosta, Backspace, Canc e le frecce si ripetono finché ci resti sopra. Tutti gli
 altri tasti si attivano di nuovo solo dopo aver lasciato il tasto una volta.
+
+Cancella parola («⌫ Parola», subito sotto il tasto Backspace): cancella tutta l'ultima parola
+insieme allo spazio e alla punteggiatura che la seguono. Ogni ulteriore pressione cancella la
+parola precedente. Con il clic a sosta continua finché si resta sul tasto. Se poco prima si è
+selezionato qualcosa con Maiusc e le frecce, il tasto cancella solo la selezione.
+Se la tastiera non conosce il testo (dopo un clic nella finestra, dopo l'input vocale o
+un'altra tastiera), invia Ctrl+Maiusc+freccia sinistra e poi Backspace. Funziona in quasi
+tutti i programmi.
+
+Correzioni proposte: dopo un errore di battitura come «csaa» al posto di «casa», la parola
+giusta compare per prima nella barra dei suggerimenti, su sfondo arancione e segnata con ≈.
+Un clic sostituisce tutta la parola. Senza clic non succede nulla, la tastiera non cambia mai
+niente da sola.
+Riconosce una lettera sbagliata (soprattutto il tasto vicino), una lettera mancante o doppia
+e due lettere invertite.
+Dopo lo spazio la correzione della parola precedente resta visibile finché non si continua.
+Disattivare: Impostazioni → Uso → «Proponi una correzione in caso di errori di battitura».
 
 Macro
 -----

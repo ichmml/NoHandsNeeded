@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.2.03
+On-screen keyboard, Version 1.2.04
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or
@@ -166,6 +166,28 @@ margin) or the whole text field counts, both opacities, programs without this fe
 Detection uses the Windows accessibility interface (UI Automation). Chrome, Edge, Firefox and
 most Windows programs report their text field, some older programs or games do not.
 There the keyboard simply stays as it is.
+
+Delete word ("⌫ Word", right below Backspace): deletes the whole last word together with the
+space and punctuation after it. Each further press deletes the word before. With dwell
+clicking it keeps going as long as you stay on the key. If you selected something with Shift
+and the arrow keys just before, the key only deletes the selection.
+If the keyboard does not know the text (after a click into the window, after voice input or
+another keyboard), it sends Ctrl+Shift+Left and then Backspace. That works in almost all
+programs.
+
+Correction suggestions: after a typo such as "teh" the matching word ("the") is shown first in
+the suggestion bar, with an orange background and marked with ≈. A click replaces the whole
+word. Without a click nothing happens, the keyboard never changes anything on its own.
+It recognises a wrong letter (especially a neighbouring key), a missing or doubled letter,
+two swapped letters, and in German ae, oe, ue, ss instead of ä, ö, ü, ß.
+After the space the correction for the previous word stays until you type on.
+Turn it off: Settings → Operation → "Suggest corrections for typos".
+
+Upper and lower case in German suggestions: nouns are suggested with a capital letter even if
+you start in lower case ("zei" gives "Zeit"). Words that exist in both forms (essen and Essen)
+appear twice. If you type a noun in lower case, for example with voice input, the keyboard
+does not learn the lower case form. To really keep a word in lower case, use the case key,
+the keyboard remembers that.
 
 Macros
 ------

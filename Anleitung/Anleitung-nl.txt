@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Schermtoetsenbord, Versie 1.2.03
+Schermtoetsenbord, Versie 1.2.04
 
 Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit
 toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een
@@ -168,6 +168,22 @@ zinsbegin. Terug in het venster typ je gewoon verder.
 
 Bij aanwijsklik herhalen Backspace, Delete en de pijlen zich zolang je erop blijft.
 Alle andere toetsen gaan pas weer af als je de toets een keer hebt verlaten.
+
+Woord wissen ("⌫ Woord", direct onder Backspace): wist het hele laatste woord, samen met de
+spatie en leestekens erachter. Elke volgende druk wist het woord daarvoor. Met de
+aanwijsklik gaat het door zolang je op de toets blijft. Heb je net met Shift en de pijltjes
+iets geselecteerd, dan wist de toets alleen de selectie.
+Kent het toetsenbord de tekst niet (na een klik in het venster, na spraakinvoer of een ander
+toetsenbord), dan stuurt het Ctrl+Shift+pijl links en daarna Backspace. Dat werkt in bijna
+alle programma's.
+
+Correctievoorstellen: na een typfout zoals "hiusje" staat het passende woord ("huisje")
+vooraan in de voorstelbalk, oranje gekleurd en gemarkeerd met ≈. Een klik vervangt het hele
+woord. Zonder klik gebeurt er niets, het toetsenbord verandert nooit zelf iets.
+Herkend worden een verkeerde letter (vooral de buurtoets), een ontbrekende of dubbele
+letter en twee verwisselde letters.
+Na de spatie blijft de correctie voor het vorige woord staan tot je verder typt.
+Uitzetten: Instellingen → Bediening → "Bij typfouten een correctie voorstellen".
 
 Macro's
 -------

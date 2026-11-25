@@ -600,6 +600,7 @@ namespace Tastatur
 
         private static readonly KeyDef EscKey = new KeyDef { Kind = KeyKind.Special, Label = "Esc", Vk = InputSender.VK_ESCAPE, Width = 1 };
         private static readonly Color TypedRed = Color.FromArgb(220, 40, 40);
+        private static readonly Color CorrectionColor = Color.FromArgb(240, 160, 30);
 
         private void RefreshBand()
         {
@@ -678,7 +679,8 @@ namespace Tastatur
             foreach (var s in _engine.Suggestions())
             {
                 string w = s;
-                list.Add(new BandItem { Label = w, Do = () => _engine.PressSuggestion(w) });
+                bool fix = _engine.IsCorrection(w);   // Korrekturvorschlag bei einem Tippfehler: farbig markiert
+                list.Add(new BandItem { Label = w, Color = fix ? CorrectionColor : (Color?)null, Badge = fix ? "≈" : null, Do = () => _engine.PressSuggestion(w) });
             }
             return list;
         }
@@ -865,8 +867,8 @@ namespace Tastatur
                 {
                     float kw = k.Width * unit;
                     k.Rect = new RectangleF(x + gap / 2, y + gap / 2, kw - gap, _rowH - gap);
-                    bool rep = k.Kind == KeyKind.Special && (k.Vk == InputSender.VK_BACK || k.Vk == InputSender.VK_DELETE
-                        || (k.Vk >= InputSender.VK_LEFT && k.Vk <= InputSender.VK_DOWN));
+                    bool rep = k.Kind == KeyKind.DeleteWord || (k.Kind == KeyKind.Special && (k.Vk == InputSender.VK_BACK || k.Vk == InputSender.VK_DELETE
+                        || (k.Vk >= InputSender.VK_LEFT && k.Vk <= InputSender.VK_DOWN)));
                     _targets.Add(new Target { Key = k, Rect = k.Rect, Repeatable = rep });
                     x += kw;
                 }

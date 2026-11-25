@@ -518,3 +518,5 @@ Deckkraft über dem Textfeld, solange die Maus auf der Tastatur ist	Непроз
 Mehr als die normale Deckkraft wird es nie. 100 % heißt: mit der Maus auf der Tastatur ganz normal.	Никогда не больше обычной непрозрачности. 100 % означает: обычно, пока мышь на клавиатуре.
 Nicht in diesen Programmen (z. B. winword, excel):	Не в этих программах (например, winword, excel):
 Erkannte Textfelder ins Protokoll schreiben	Записывать найденные текстовые поля в журнал
+Wort	Слово
+Bei Tippfehlern Korrektur vorschlagen	Предлагать исправление при опечатках

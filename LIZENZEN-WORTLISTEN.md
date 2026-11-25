@@ -99,3 +99,16 @@ Wortfolgen unter **CC BY-SA 4.0**. Wer sie weitergibt oder verändert, nennt die
 derselben Lizenz weiter.
 
 Der Programmcode steht unabhängig davon unter der MIT-Lizenz (siehe `LICENSE`).
+
+## Groß- und Kleinschreibung der deutschen Liste (ab Version 1.2.04)
+
+`tools/fix_case_de.py` zählt in echten Texten, wie oft ein Wort mitten im Satz groß und wie oft
+klein geschrieben wird. Danach steht ein Wort in der Liste so, wie es meistens geschrieben wird
+(zeit wird Zeit), und Wörter, die es in beiden Schreibweisen gibt (essen und Essen), stehen
+zweimal drin. Die Folgewörter der Wortfolgen bekommen dieselbe Schreibweise. Übernommen werden
+nur Zählungen, kein Text.
+
+Gezählt in:
+- **Common Voice** (Mozilla), deutsche Sätze aus `server/data/de/`, **CC0 1.0**.
+- **Universal Dependencies**: UD_German-HDT und UD_German-GSD (**CC BY-SA 4.0**) und
+  UD_German-PUD (**CC BY-SA 3.0**), https://github.com/UniversalDependencies
