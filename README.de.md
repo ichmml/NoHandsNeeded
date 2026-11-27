@@ -2,7 +2,7 @@
 
 [English](README.md) · **Deutsch**
 
-Aktuelle Version: **1.2.04.1**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Aktuelle Version: **1.2.04.2**. Download unter [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 Eine Bildschirmtastatur für Windows, gebaut für Menschen, die den PC ohne Hände bedienen,
 zum Beispiel mit einer Mundsteuerung (Quadstick), Kopfmaus oder Augensteuerung.
@@ -24,7 +24,8 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 - **Sondertasten für die nächste Taste:** Strg, Alt, Shift, Win und AltGr einmal antippen gilt für die nächste Taste, zweimal antippen schaltet sie wieder aus. Shift bleibt zum Markieren über mehrere Pfeiltasten an. AltGr sitzt direkt rechts neben der Leertaste.
 - **Sonderzeichen unten einstellbar:** von Haus aus ! ? : -, in den Einstellungen änderbar.
 - **Getipptes Wort oben links in Rot**, Buchstabe für Buchstabe, auch mit Sonderzeichen ("s!add" bleibt stehen). Neue Wörter merkt sie sich mit einem Klick, Passwörter erscheinen als Punkte (👁 zeigt sie kurz). Im eigenen Tresor-Fenster sieht man ein neues Passwort beim Tippen im Klartext.
-- **Groß/Klein-Taste** (abc ↑ / ABC ↓), die das letzte Wort nachträglich groß- oder kleinschreibt.
+- **Groß/Klein-Taste** (abc ↑ / ABC ↓), die das letzte Wort nachträglich groß- oder kleinschreibt. Geht auch per Kürzel (Ziffernblock Stern), sogar bei eingeklappter Tastatur.
+- **Farben und Schrift:** sechs fertige Farbschemas (Standard, Hell, Dunkel, Hoher Kontrast, Blau, Grün) als große Kacheln, dazu eigene Farben für jeden Bereich über eine Palette mit großen Farbfeldern. Warnung bei schlecht lesbaren Farben. Alle Beschriftungen auf Wunsch fett, ab Werk an.
 - **Wort löschen** (⌫ Wort, direkt unter der Rücktaste): löscht das ganze letzte Wort mit einem Druck, jeder weitere Druck das Wort davor.
 - **Korrekturvorschläge bei Tippfehlern:** Aus "hasu" wird mit einem Klick "Haus". Die Korrektur steht orange markiert vorn in der Leiste, ersetzt wird nie automatisch. Substantive stehen groß in den Vorschlägen, Wörter wie essen/Essen kommen in beiden Schreibweisen.
 - **Merkt sich das angefangene Wort pro Fenster:** Fenster wechseln und zurück, einfach weiterschreiben.
@@ -37,19 +38,21 @@ Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“.
 
 ## Quadstick
 
-Zwei globale Kürzel sind voreingestellt und funktionieren auch, wenn ein anderes Programm vorne ist:
+Drei globale Kürzel sind voreingestellt und funktionieren auch, wenn ein anderes Programm vorne ist:
 
 | Taste | Funktion |
 |---|---|
 | Pause | Tastatur ein- und ausblenden |
 | Ziffernblock Minus | Makroleiste öffnen |
+| Ziffernblock Stern | Groß/Klein für das letzte Wort (wie die Aa-Taste) |
 
 So sieht die Belegung im Quadstick-Konfigurationsblatt aus:
 
 ![Beispiel Quadstick-Belegung](Resources/quadstick_beispiel.png)
 
 In der gelben Spalte den gewünschten Eingang wählen (z. B. `mp_triple_puff`), dann die Konfiguration
-auf den Quadstick laden. F13 bis F24 kann der Quadstick nicht senden.
+auf den Quadstick laden. Für Groß/Klein die Zeile `kb_keypad_asterisk` genauso belegen.
+F13 bis F24 kann der Quadstick nicht senden.
 
 ## Installation
 

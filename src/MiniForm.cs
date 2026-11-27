@@ -16,6 +16,14 @@ namespace Tastatur
         private Point _downScreen, _offset;
 
         public event Action ExpandRequested;
+        private DateTime _flashUntil;
+
+        /// <summary>Kurz aufblinken (z. B. Groß/Klein-Kürzel ohne bekanntes Wort).</summary>
+        public void Flash()
+        {
+            _flashUntil = DateTime.UtcNow.AddMilliseconds(720);
+            Invalidate();
+        }
 
         public MiniForm(Settings settings)
         {
@@ -115,7 +123,7 @@ namespace Tastatur
 
         private void PaintMini(PaintEventArgs e)
         {
-            var t = Theme.Get(_settings.Theme);
+            var t = Theme.For(_settings);
             var g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
             g.Clear(t.Background);
@@ -125,10 +133,12 @@ namespace Tastatur
             using (var tb = new SolidBrush(t.Text))
             using (var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center })
                 g.DrawString("⌨", f, tb, r, sf);
+            if (KeyboardForm.BlinkOn(DateTime.UtcNow, _flashUntil))
+                using (var p = new Pen(t.Pressed, 6)) g.DrawEllipse(p, r);
             if (_settings.DwellEnabled && _armed)
             {
                 double frac = SafeArc.Fraction((DateTime.UtcNow - _hoverSince).TotalMilliseconds, _settings.DwellMs);
-                using (var p = new Pen(t.Accent, 4)) SafeArc.Draw(g, p, r, -90, 360 * frac);
+                using (var p = new Pen(t.Dwell, 4)) SafeArc.Draw(g, p, r, -90, 360 * frac);
             }
         }
     }

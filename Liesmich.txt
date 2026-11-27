@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Bildschirmtastatur, Version 1.2.04.1
+Bildschirmtastatur, Version 1.2.04.2
 
 Warum NoHandsNeeded? Der Name ist Englisch und heißt „keine Hände nötig“. Genau dafür ist
 die Tastatur gebaut: für alle, die den PC ohne Hände bedienen, zum Beispiel mit einem
@@ -108,6 +108,31 @@ Erkannt wird über die Windows-Bedienungshilfen (UI Automation). Chrome, Edge, F
 meisten Windows-Programme melden ihr Textfeld, manche ältere Programme oder Spiele nicht.
 Dort bleibt die Tastatur einfach wie sie ist.
 
+Farben und Schrift
+------------------
+Einstellungen → "Farben und Schrift". Ein Klick auf eine der großen Kacheln stellt das
+Farbschema um, die Tastatur ändert sich sofort:
+  Standard (das bisherige dunkle Schema), Hell, Dunkel (fast schwarz), Hoher Kontrast
+  (Gelb auf Schwarz), Blau und Grün.
+Darunter "Eigene Farben": Für jeden Bereich gibt es ein Farbfeld. Ein Klick darauf öffnet
+eine Palette mit 24 großen Farbfeldern, ein Klick auf eine Farbe übernimmt sie. "Weitere
+Farben …" öffnet den normalen Windows-Farbdialog für jede beliebige Farbe. Einstellbar sind
+Hintergrund, Tasten, Tastenbeschriftung, Sondertasten (Shift, Enter, Löschen, Aa, Makro …),
+Vorschlagsleiste, Vorschlagstext, Makro-Knöpfe, Verweilen (der Balken, der sich beim
+Verweilen füllt, und die Hervorhebung unter der Maus) und die gedrückte Taste. Ausgangspunkt
+ist immer das gerade gewählte Schema, man muss also nur ändern, was einem nicht gefällt.
+Ist eine Beschriftung auf ihrem Hintergrund schlecht lesbar (Kontrast unter 4,5 : 1), steht
+darunter ein roter Hinweis. Verboten ist es nicht. "Auf Standard zurücksetzen" holt das
+bisherige Schema zurück.
+Makros, denen man im Makro-Editor eine eigene Farbe gegeben hat, behalten diese Farbe. Alle
+anderen bekommen die Farbe für Makro-Knöpfe.
+
+Fette Schrift (ab Werk an): Alle Tastenbeschriftungen, die Vorschläge und die Makro-Knöpfe
+sind so dick wie die Satzzeichen unten. Damit ist die Tastatur auch aus etwas Entfernung und
+in klein gut lesbar. Lange Beschriftungen werden bei Bedarf etwas kleiner, aber nie dünner.
+Wer die normale Schrift lieber mag, nimmt den Haken "Fette Schrift" heraus.
+Farben und Schrift gehören zu den Einstellungen und kommen beim Exportieren mit.
+
 Tasten
 ------
 Fn (unten links): zweite Ebene mit F1 bis F12, Pos1, Ende, Bild auf/ab, Sonderzeichen.
@@ -138,6 +163,10 @@ Groß/Klein-Taste (neben der Leertaste): ändert die Schreibweise des letzten Wo
     oder Enter. Wörter aus Spracheingabe (z. B. Wispr Flow) oder einer anderen Tastatur
     kennt sie nicht.
     GANZ GROSS geht über die Feststelltaste ⇪.
+    Auch per Kürzel: Ziffernblock * (Standard, heißt in der Tastatur "NumMal") macht dasselbe
+    wie die Taste, auch wenn die Tastatur eingeklappt ist. Mehrmals drücken wechselt weiter
+    hin und her. Ist kein Wort bekannt, ändert sich nichts, die Aa-Taste bzw. der runde
+    Knopf blinkt nur kurz. Siehe "Globale Kürzel und Quadstick".
 
 Am Satzanfang (nach . ! ? und Leerzeichen oder nach Enter) wird der nächste Buchstabe
 automatisch groß. Abschaltbar in den Einstellungen.
@@ -387,6 +416,7 @@ Globale Kürzel und Quadstick
 Diese Kürzel funktionieren auch, wenn ein anderes Programm vorne ist:
   Pause            Tastatur ein-/ausblenden
   Ziffernblock -   Makroleiste öffnen (heißt in der Tastatur "NumMinus")
+  Ziffernblock *   Groß/Klein für das letzte Wort, wie die Aa-Taste (heißt "NumMal")
 Zusätzlich kann jedes Makro ein eigenes Kürzel bekommen (im Makro-Editor).
 In den Einstellungen steht bei jedem Kürzel, ob es aktiv ist (grüner Haken) oder nicht
 (rot, mit Grund).
@@ -418,6 +448,7 @@ Quadstick-Taste belegen:
   Im Quadstick-Konfigurationsblatt (Google-Tabelle) je Kürzel eine Zeile, Beispiel:
       kb_pause          normal    <Eingang>
       kb_keypad_minus   normal    <Eingang>
+      kb_keypad_asterisk normal   <Eingang>     (für Groß/Klein)
   1. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff).
   2. Konfiguration wie gewohnt auf den Quadstick laden.
   3. Mit "Kürzel testen" prüfen.
@@ -440,8 +471,8 @@ Sichern und auf den zweiten PC übertragen
 -----------------------------------------
 Einstellungen → "Sichern und auf anderen PC übertragen".
   - "Daten exportieren …": Haken setzen, was mit soll (gelernte Wörter, Wortfolgen und
-    Zahlen, eigene Begriffe, Makros, Einstellungen, Passwörter aus dem Tresor). Dann einen
-    Ordner wählen.
+    Zahlen, eigene Begriffe, Makros, Einstellungen samt Farben, Passwörter aus dem Tresor).
+    Dann einen Ordner wählen.
     Es entsteht eine Datei wie "NoHandsNeeded 2026-11-08.nohands".
   - Sind Passwörter dabei, braucht die Sicherung ein eigenes Passwort (mindestens 8 Zeichen).
     Die Datei ist dann verschlüsselt (AES-256), ohne dieses Passwort kommt niemand ran, auch

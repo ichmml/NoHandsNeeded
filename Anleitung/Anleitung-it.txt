@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Tastiera su schermo, Versione 1.2.04.1
+Tastiera su schermo, Versione 1.2.04.2
 
 Perché NoHandsNeeded? In inglese significa «non servono le mani». È proprio per questo che
 è nata questa tastiera: per chi usa il PC senza le mani, ad esempio con un joystick a
@@ -114,6 +114,25 @@ campo, entrambe le opacità, programmi esclusi e un registro in protokoll.txt.
 Il rilevamento usa l'accessibilità di Windows (UI Automation). Funziona in Chrome, Edge, Firefox
 e nella maggior parte dei programmi, non in alcuni programmi vecchi o giochi.
 
+Colori e carattere
+------------------
+Impostazioni → "Colori e carattere". Un clic su uno dei grandi riquadri cambia lo schema,
+la tastiera cambia subito: Standard (il precedente schema scuro), Chiaro, Scuro (quasi nero),
+Contrasto elevato (giallo su nero), Blu e Verde.
+Sotto, "Colori personalizzati": ogni area ha un campo colore. Un clic apre una tavolozza con
+24 grandi colori, un clic su un colore lo applica. "Altri colori …" apre la normale finestra
+dei colori di Windows. Si possono impostare sfondo, tasti, scritte, tasti speciali, barra dei
+suggerimenti, testo dei suggerimenti, pulsanti macro, sosta (la barra che si riempie e
+l'evidenziazione sotto il mouse) e il tasto premuto. Si parte sempre dallo schema scelto.
+Se una scritta è poco leggibile (contrasto sotto 4,5 : 1), compare un avviso rosso.
+"Ripristina predefiniti" riporta lo schema precedente. Le macro con un colore proprio
+nell'editor lo mantengono.
+
+Carattere grassetto (attivo di serie): tutte le scritte, i suggerimenti e i pulsanti macro
+sono spessi come la punteggiatura in basso. Le scritte lunghe diventano un po' più piccole se
+serve, mai più sottili. Togli la spunta "Carattere grassetto" per il carattere normale.
+Colori e carattere fanno parte delle impostazioni e vengono esportati.
+
 Tasti
 -----
 Fn (in basso a sinistra): secondo livello con F1-F12, Home, Fine, Pag su/giù, caratteri
@@ -146,6 +165,9 @@ parola.
     tastiera e le dimentica dopo un clic nella finestra, un cambio di finestra o Invio. Non
     conosce le parole dalla dettatura (ad es. Wispr Flow) o da un'altra tastiera.
     TUTTO MAIUSCOLO: con il tasto Bloc Maiusc ⇪.
+    Anche con scorciatoia: tastierino * (predefinito, si chiama "NumMal") fa lo stesso del
+    tasto, anche con la tastiera ridotta. Se nessuna parola è nota, il tasto Aa o il pulsante
+    rotondo lampeggia solo brevemente.
 
 A inizio frase (dopo . ! ? e spazio, o dopo Invio) la lettera successiva diventa
 automaticamente maiuscola. Disattivabile nelle impostazioni.
@@ -390,6 +412,7 @@ Scorciatoie globali e Quadstick
 Queste scorciatoie funzionano anche quando un altro programma è in primo piano:
   Pausa            mostra/nascondi la tastiera
   tastierino -     apri la barra delle macro (nella tastiera si chiama "NumMinus")
+  tastierino *     maiuscole/minuscole dell'ultima parola, come il tasto Aa ("NumMal")
 Inoltre ogni macro può avere una propria scorciatoia (nell'editor delle macro).
 Nelle impostazioni accanto a ogni scorciatoia si vede se è attiva (spunta verde) o no
 (rosso, con motivo).
@@ -423,6 +446,7 @@ Assegnare un tasto del Quadstick:
   esempio:
       kb_pause          normal    <ingresso>
       kb_keypad_minus   normal    <ingresso>
+      kb_keypad_asterisk normal   <ingresso>    (per maiuscole/minuscole)
   1. Nella colonna gialla scegli l'ingresso desiderato (ad es. mp_triple_puff).
   2. Carica la configurazione sul Quadstick come al solito.
   3. Verifica con "Prova scorciatoie".

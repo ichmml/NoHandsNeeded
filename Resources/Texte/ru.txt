@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Не в этих програ
 Erkannte Textfelder ins Protokoll schreiben	Записывать найденные текстовые поля в журнал
 Wort	Слово
 Bei Tippfehlern Korrektur vorschlagen	Предлагать исправление при опечатках
+Beschriftung auf Makro-Knöpfen	Надписи на кнопках макросов
+Beschriftung auf Sondertasten	Надписи на специальных клавишах
+Beschriftung auf Tasten	Надписи на клавишах
+Blau	Синяя
+Dunkel	Тёмная
+Eigene Farben	Свои цвета
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Достаточно одного щелчка по схеме, клавиатура сразу меняется.
+Farben und Schrift	Цвета и шрифт
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Жирный шрифт (все надписи такие же толстые, как знаки препинания)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Для регистра букв назначьте так же строку kb_keypad_asterisk.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Выберите цвет для каждой области. За основу берётся выбранная сейчас схема.
+Gedrückte Taste	Нажатая клавиша
+Groß/Klein (letztes Wort)	Регистр (последнее слово)
+Grün	Зелёная
+Hallo	Привет
+Hell	Светлая
+Hintergrund der Tastatur	Фон клавиатуры
+Hoher Kontrast	Высокий контраст
+Makro-Knöpfe	Кнопки макросов
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Специальные клавиши (Shift, Enter, Backspace, Aa, Макрос …)
+Standard	Стандартная
+Tastenbeschriftung	Надписи на клавишах
+Verweilen (Fortschritt und Hervorhebung)	Наведение (прогресс и подсветка)
+Vorschlagsleiste	Панель подсказок
+Vorschlagstext auf der Leiste	Текст подсказок на панели
+Vorschlagstext	Текст подсказок
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Работает как клавиша Aa для последнего набранного слова, даже когда клавиатура свёрнута. Если слово неизвестно, клавиша Aa только коротко мигает.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Плохо читается (контраст ниже 4,5 : 1): 
+Farbe wählen	Выбрать цвет
+Weitere Farben …	Другие цвета …

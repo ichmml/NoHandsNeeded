@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Clavier virtuel, Version 1.2.04.1
+Clavier virtuel, Version 1.2.04.2
 
 Pourquoi NoHandsNeeded ? En anglais, cela veut dire « pas besoin des mains ». C'est
 exactement pour cela que ce clavier a été conçu : pour toutes les personnes qui utilisent
@@ -118,6 +118,26 @@ protokoll.txt. La détection passe par l'accessibilité de Windows (UI Automatio
 dans Chrome, Edge, Firefox et la plupart des programmes, pas dans certains anciens programmes
 ou jeux.
 
+Couleurs et police
+------------------
+Paramètres → « Couleurs et police ». Un clic sur l'une des grandes vignettes change le
+thème, le clavier change tout de suite : Standard (l'ancien thème sombre), Clair, Sombre
+(presque noir), Contraste élevé (jaune sur noir), Bleu et Vert.
+En dessous, « Couleurs personnalisées » : chaque zone a un champ de couleur. Un clic ouvre
+une palette de 24 grandes couleurs, un clic sur une couleur l'applique. « Plus de couleurs … »
+ouvre la boîte de couleurs normale de Windows. On peut régler le fond, les touches, le texte
+des touches, les touches spéciales, la barre de suggestions, le texte des suggestions, les
+boutons de macro, le survol (la barre qui se remplit et la surbrillance sous la souris) et la
+touche enfoncée. Le point de départ est toujours le thème choisi.
+Si un texte est peu lisible (contraste inférieur à 4,5 : 1), un avertissement rouge
+apparaît. « Rétablir par défaut » remet l'ancien thème. Les macros qui ont leur propre
+couleur dans l'éditeur la gardent.
+
+Police grasse (activée par défaut) : toutes les touches, suggestions et boutons de macro sont
+aussi épais que la ponctuation en bas. Les textes longs deviennent un peu plus petits si
+besoin, jamais plus fins. Décocher « Police grasse » pour la police normale. Couleurs et
+police font partie des paramètres et sont incluses dans l'export.
+
 Touches
 -------
 Fn (en bas à gauche) : deuxième niveau avec F1 à F12, Début, Fin, Page préc./suiv.,
@@ -149,6 +169,9 @@ Touche majuscule/minuscule (à côté de la barre d'espace) : change la casse du
     les oublie après un clic dans la fenêtre, un changement de fenêtre ou Entrée. Elle ne
     connaît pas les mots issus de la saisie vocale (par ex. Wispr Flow) ou d'un autre clavier.
     TOUT EN MAJUSCULES : avec la touche Verr. Maj ⇪.
+    Aussi par raccourci : pavé numérique * (par défaut, appelé « NumMal ») fait la même chose
+    que la touche, même clavier replié. Si aucun mot n'est connu, la touche Aa ou le bouton
+    rond clignote juste un instant.
 
 En début de phrase (après . ! ? et un espace, ou après Entrée), la lettre suivante passe
 automatiquement en majuscule. Désactivable dans les paramètres.
@@ -405,6 +428,7 @@ Raccourcis globaux et Quadstick
 Ces raccourcis fonctionnent même quand un autre programme est au premier plan :
   Pause                afficher/masquer le clavier
   pavé numérique -     ouvrir la barre des macros (appelé « NumMinus » dans le clavier)
+  pavé numérique *     majuscules/minuscules du dernier mot, comme la touche Aa (« NumMal »)
 De plus, chaque macro peut avoir son propre raccourci (dans l'éditeur de macros).
 Dans les paramètres, chaque raccourci indique s'il est actif (coche verte) ou non (rouge,
 avec la raison).
@@ -438,6 +462,7 @@ Affecter une touche du Quadstick :
   exemple :
       kb_pause          normal    <entrée>
       kb_keypad_minus   normal    <entrée>
+      kb_keypad_asterisk normal   <entrée>      (pour majuscules/minuscules)
   1. Dans la colonne jaune, choisir l'entrée voulue (par ex. mp_triple_puff).
   2. Charger la configuration sur le Quadstick comme d'habitude.
   3. Vérifier avec « Tester les raccourcis ».

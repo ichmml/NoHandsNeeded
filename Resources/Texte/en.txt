@@ -546,3 +546,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Not in these programs (e.g. w
 Erkannte Textfelder ins Protokoll schreiben	Write detected text fields to the log
 Wort	Word
 Bei Tippfehlern Korrektur vorschlagen	Suggest corrections for typos
+Beschriftung auf Makro-Knöpfen	Labels on macro buttons
+Beschriftung auf Sondertasten	Labels on special keys
+Beschriftung auf Tasten	Labels on keys
+Blau	Blue
+Dunkel	Dark
+Eigene Farben	Custom colours
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	One click on a scheme is enough, the keyboard changes right away.
+Farben und Schrift	Colours and font
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Bold font (all key labels as thick as the punctuation marks)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	For upper/lower case, assign the row kb_keypad_asterisk the same way.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Pick a colour for each area. The starting point is the scheme selected right now.
+Gedrückte Taste	Pressed key
+Groß/Klein (letztes Wort)	Upper/lower case (last word)
+Grün	Green
+Hallo	Hello
+Hell	Light
+Hintergrund der Tastatur	Keyboard background
+Hoher Kontrast	High contrast
+Makro-Knöpfe	Macro buttons
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Special keys (Shift, Enter, Backspace, Aa, Macro …)
+Standard	Standard
+Tastenbeschriftung	Key labels
+Verweilen (Fortschritt und Hervorhebung)	Dwell (progress and highlight)
+Vorschlagsleiste	Suggestion bar
+Vorschlagstext auf der Leiste	Suggestion text on the bar
+Vorschlagstext	Suggestion text
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Works like the Aa key on the last word you typed, even when the keyboard is collapsed. If no word is known, the Aa key just blinks briefly.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Hard to read (contrast below 4.5 : 1): 
+Farbe wählen	Choose colour
+Weitere Farben …	More colours …

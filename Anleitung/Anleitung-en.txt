@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-On-screen keyboard, Version 1.2.04.1
+On-screen keyboard, Version 1.2.04.2
 
 Why NoHandsNeeded? Because that is exactly what this keyboard is built for: using the PC
 without your hands, for example with a mouth joystick like the Quadstick, a head mouse or
@@ -96,6 +96,27 @@ Several screens: the keyboard can be dragged to any screen, also when the screen
   The same applies to the round button.
 In the settings the suggestion bar can also have two rows, with its own font size.
 
+Colours and font
+----------------
+Settings → "Colours and font". One click on one of the large tiles switches the colour
+scheme, the keyboard changes right away: Standard (the previous dark scheme), Light, Dark
+(almost black), High contrast (yellow on black), Blue and Green.
+Below that, "Custom colours": every area has a colour field. A click opens a palette with 24
+large colour fields, one click on a colour applies it. "More colours …" opens the normal
+Windows colour dialog for any colour. You can set background, keys, key labels, special keys
+(Shift, Enter, Backspace, Aa, Macro …), suggestion bar, suggestion text, macro buttons, dwell
+(the bar that fills while dwelling and the highlight under the mouse) and the pressed key.
+The starting point is always the scheme selected right now, so you only change what you
+don't like. If a label is hard to read on its background (contrast below 4.5 : 1), a red
+note appears. It is not forbidden. "Reset to default" brings back the previous scheme.
+Macros that got their own colour in the macro editor keep it, all others use the colour for
+macro buttons.
+
+Bold font (on by default): all key labels, suggestions and macro buttons are as thick as the
+punctuation marks at the bottom, so the keyboard is easy to read from a distance and when
+small. Long labels get a bit smaller if needed, but never thinner. Untick "Bold font" for the
+normal font. Colours and font belong to the settings and are included in an export.
+
 Keys
 ----
 Fn (bottom left): second layer with F1 to F12, Home, End, Page up/down, special characters.
@@ -125,6 +146,9 @@ Case key (next to the space bar): changes the case of the last word.
     forgets them after a click into the window, a window switch or Enter. It does not know
     words from voice input (e.g. Wispr Flow) or another keyboard.
     ALL CAPS: use the Caps Lock key ⇪.
+    Also by shortcut: numpad * (default, called "NumMal" in the keyboard) does the same as
+    the key, even when the keyboard is collapsed. Pressing it again keeps switching. If no
+    word is known, nothing changes, the Aa key or the round button just blinks briefly.
 
 At the start of a sentence (after . ! ? and a space, or after Enter) the next letter is
 capitalized automatically. Can be turned off in the settings.
@@ -381,6 +405,7 @@ Global shortcuts and Quadstick
 These shortcuts also work when another program is in front:
   Pause            show/hide the keyboard
   numpad -         open the macro bar (called "NumMinus" in the keyboard)
+  numpad *         upper/lower case of the last word, like the Aa key (called "NumMal")
 In addition every macro can get its own shortcut (in the macro editor).
 In the settings each shortcut shows whether it is active (green tick) or not (red, with
 the reason).
@@ -410,6 +435,7 @@ Assigning a Quadstick key:
   In the Quadstick configuration sheet (Google spreadsheet) one line per shortcut, example:
       kb_pause          normal    <input>
       kb_keypad_minus   normal    <input>
+      kb_keypad_asterisk normal   <input>       (for upper/lower case)
   1. Choose the input you want in the yellow column (e.g. mp_triple_puff).
   2. Load the configuration onto the Quadstick as usual.
   3. Check with "Test shortcuts".
@@ -442,9 +468,10 @@ Settings → "Back up and transfer to another PC".
     recently wins.
   - The last folder used is remembered. A folder both PCs can see is handy (USB stick,
     cloud folder).
-  - Settings (size, colours, dwell time, shortcuts, languages etc.) are included too.
-    Importing applies and saves them right away, no restart needed. If the saved position
-    lies outside the screens of the other PC, the keyboard moves to the main screen.
+  - Settings (size, colours, dwell time, shortcuts, languages etc.) are included. Importing
+    applies and saves them right away, no restart needed. Only the backup folder stays the one
+    of each PC. If the saved position lies outside the screens of the other PC, the keyboard
+    moves to the main screen.
   - Before every import the keyboard automatically backs up the current state (without
     passwords) in the data folder under "sicherungen". The last three are kept. To go back,
     simply import that file.

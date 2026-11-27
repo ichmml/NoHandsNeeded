@@ -38,7 +38,7 @@ namespace Tastatur
 
     internal static class HotkeyIds
     {
-        public const int Show = 2, Macros = 3, Language = 4, MacroBase = 100;
+        public const int Show = 2, Macros = 3, Language = 4, Case = 5, MacroBase = 100;
     }
 
     internal class HotkeyStatus

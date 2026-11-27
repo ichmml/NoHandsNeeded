@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Schermtoetsenbord, Versie 1.2.04.1
+Schermtoetsenbord, Versie 1.2.04.2
 
 Waarom NoHandsNeeded? Dat is Engels voor „geen handen nodig”. Precies daarvoor is dit
 toetsenbord gemaakt: voor iedereen die de pc zonder handen bedient, bijvoorbeeld met een
@@ -108,6 +108,25 @@ tekstveld, beide dekkingen, programma's zonder deze functie en een logboek in pr
 Herkenning via de Windows-toegankelijkheid (UI Automation). Werkt in Chrome, Edge, Firefox en
 de meeste programma's, niet in sommige oudere programma's of games.
 
+Kleuren en lettertype
+---------------------
+Instellingen → "Kleuren en lettertype". Eén klik op een van de grote tegels wisselt het
+kleurenschema, het toetsenbord verandert meteen: Standaard (het vorige donkere schema),
+Licht, Donker (bijna zwart), Hoog contrast (geel op zwart), Blauw en Groen.
+Daaronder "Eigen kleuren": elk gebied heeft een kleurvak. Een klik opent een palet met 24
+grote kleurvakken, één klik op een kleur neemt die over. "Meer kleuren …" opent het gewone
+Windows-kleurvenster. Instelbaar zijn achtergrond, toetsen, toetstekst, speciale toetsen,
+suggestiebalk, suggestietekst, macroknoppen, aanwijzen (de balk die volloopt en de markering
+onder de muis) en de ingedrukte toets. Uitgangspunt is altijd het gekozen schema.
+Is een tekst slecht leesbaar (contrast onder 4,5 : 1), dan verschijnt een rode melding.
+"Terug naar standaard" haalt het vorige schema terug. Macro's met een eigen kleur uit
+de macro-editor houden die kleur.
+
+Vet lettertype (standaard aan): alle toetsteksten, suggesties en macroknoppen zijn zo dik
+als de leestekens onderaan. Lange teksten worden zo nodig iets kleiner, maar nooit dunner.
+Vinkje "Vet lettertype" weg voor de gewone letter. Kleuren en lettertype gaan mee bij het
+exporteren.
+
 Toetsen
 -------
 Fn (linksonder): tweede laag met F1 tot F12, Home, End, Page Up/Down, speciale tekens.
@@ -137,6 +156,9 @@ Hoofdlettertoets (naast de spatiebalk): verandert de schrijfwijze van het laatst
     zijn getypt en vergeet ze na een klik in het venster, een vensterwissel of Enter.
     Woorden uit spraakinvoer (bijv. Wispr Flow) of een ander toetsenbord kent hij niet.
     ALLES HOOFDLETTERS: met de Caps Lock-toets ⇪.
+    Ook met een sneltoets: numeriek * (standaard, heet "NumMal") doet hetzelfde als de toets,
+    ook als het toetsenbord ingeklapt is. Is er geen woord bekend, dan knippert de Aa-toets
+    of de ronde knop alleen even.
 
 Aan het begin van een zin (na . ! ? en spatie of na Enter) wordt de volgende letter
 automatisch een hoofdletter. Uit te zetten in de instellingen.
@@ -378,6 +400,7 @@ Globale sneltoetsen en Quadstick
 Deze sneltoetsen werken ook als een ander programma vooraan staat:
   Pause            toetsenbord tonen/verbergen
   numeriek -       macrobalk openen (heet in het toetsenbord "NumMinus")
+  numeriek *       hoofd-/kleine letters van het laatste woord, zoals de Aa-toets ("NumMal")
 Daarnaast kan elke macro een eigen sneltoets krijgen (in de macro-editor).
 In de instellingen staat bij elke sneltoets of hij actief is (groen vinkje) of niet (rood,
 met reden).
@@ -409,6 +432,7 @@ Quadstick-toets toewijzen:
   In het Quadstick-configuratieblad (Google-spreadsheet) per sneltoets één regel, voorbeeld:
       kb_pause          normal    <ingang>
       kb_keypad_minus   normal    <ingang>
+      kb_keypad_asterisk normal   <ingang>      (voor hoofd-/kleine letters)
   1. In de gele kolom de gewenste ingang kiezen (bijv. mp_triple_puff).
   2. De configuratie zoals gewoonlijk op de Quadstick laden.
   3. Met "Sneltoetsen testen" controleren.

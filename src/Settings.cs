@@ -39,7 +39,11 @@ namespace Tastatur
         public bool Autostart = false;
         public bool StartCollapsed = false;
         public int MiniX = -1, MiniY = -1;
-        public string Theme = "dunkel"; // i18n-ok
+        public string Theme = Tastatur.Theme.Default;
+        /// <summary>Eigene Farben pro Bereich, z. B. "hintergrund=#1C1D22;tasten=#363942" (gilt bei Theme = "eigen").</summary>
+        public string CustomColors = "";
+        /// <summary>1.2.04.2: alle Tastenbeschriftungen fett wie die Satzzeichen.</summary>
+        public bool BoldFont = true;
 
         // Vorschlagsleiste
         public int SuggestionRows = 1;              // 1 oder 2
@@ -60,6 +64,8 @@ namespace Tastatur
         public string HotkeyShow = "Pause";
         public string HotkeyMacros = "NumMinus";
         public string HotkeyLanguage = "";
+        public string HotkeyCase = DefaultHotkeyCase;     // Groß/Klein für das letzte Wort (wie die Aa-Taste)
+        public const string DefaultHotkeyCase = "NumMal";
 
         // Sprachen
         public string ActiveLanguages = "de,en";        // Reihenfolge = Reihenfolge beim Umschalten
@@ -98,7 +104,7 @@ namespace Tastatur
         public int ResizeBorder = 12;                   // Greifzone am Rand in Pixel
 
         /// <summary>Version der Datei, für einmalige Umstellungen alter Werte.</summary>
-        public const int CurrentVersion = 6;
+        public const int CurrentVersion = 7;
         public int FileVersion = CurrentVersion;
 
         public int EffectiveDwellDragMs { get { return DwellDragMs > 0 ? Math.Max(DwellDragMs, DwellMs + 300) : DwellMs * 2; } }
@@ -243,7 +249,22 @@ namespace Tastatur
                 // 1.2.01: Passwort beim Tippen im Klartext. Wer "immer nur Punkte" gewählt hatte, behält das.
                 PasswordPlain = PasswordReveal;
             }
+            if (FileVersion < 7)
+            {
+                // 1.2.04.2: neues Kürzel für Groß/Klein. Nur anlegen, wenn die Taste nicht schon anders vergeben ist.
+                if (HotkeyCase == DefaultHotkeyCase && (SameCombo(HotkeyCase, HotkeyShow) || SameCombo(HotkeyCase, HotkeyMacros) || SameCombo(HotkeyCase, HotkeyLanguage)))
+                    HotkeyCase = "";
+            }
             FileVersion = CurrentVersion;
+        }
+
+        /// <summary>Zwei Kürzel meinen dieselbe Taste ("NumMal" = "Num*").</summary>
+        internal static bool SameCombo(string a, string b)
+        {
+            if (string.IsNullOrWhiteSpace(a) || string.IsNullOrWhiteSpace(b)) return false;
+            var ka = KeyCombo.Parse(a); var kb = KeyCombo.Parse(b);
+            if (ka == null || kb == null) return string.Equals(a.Trim(), b.Trim(), StringComparison.OrdinalIgnoreCase);
+            return string.Equals(ka.ToString(), kb.ToString(), StringComparison.OrdinalIgnoreCase);
         }
 
         /// <summary>Link im Standardbrowser öffnen (nur https).</summary>
@@ -321,7 +342,9 @@ namespace Tastatur
                 case "eingeklappt_starten": StartCollapsed = B(v, StartCollapsed); break;
                 case "mini_x": MiniX = I(v, MiniX); break;
                 case "mini_y": MiniY = I(v, MiniY); break;
-                case "farbschema": Theme = v == "hell" ? "hell" : "dunkel"; break;
+                case "farbschema": Theme = Tastatur.Theme.IsKnown(v) ? v : Tastatur.Theme.Default; break;
+                case "farben_eigen": CustomColors = Tastatur.Theme.NormalizeCustom(v); break;
+                case "fette_schrift": BoldFont = B(v, BoldFont); break;
                 case "vorschlag_zeilen": SuggestionRows = Math.Max(1, Math.Min(2, I(v, SuggestionRows))); break;
                 case "vorschlag_schrift_prozent": SuggestionFontPercent = Math.Max(20, Math.Min(70, I(v, SuggestionFontPercent))); break;
                 case "durchsichtig_ueber_textfeld": AutoFadeOn = B(v, AutoFadeOn); break;
@@ -334,6 +357,7 @@ namespace Tastatur
                 case "kuerzel_einblenden": HotkeyShow = v; break;
                 case "kuerzel_makros": HotkeyMacros = v; break;
                 case "kuerzel_sprache": HotkeyLanguage = v; break;
+                case "kuerzel_grossklein": HotkeyCase = v; break;
                 case "sprachen_aktiv": ActiveLanguages = v; break;
                 case "sprache": LanguageMode = v.ToLowerInvariant(); break;
                 case "sprache_gemischt_anbieten": OfferMix = B(v, OfferMix); break;
@@ -402,7 +426,11 @@ namespace Tastatur
             sb.AppendLine("eingeklappt_starten = " + Yn(StartCollapsed));
             sb.AppendLine("mini_x = " + MiniX);
             sb.AppendLine("mini_y = " + MiniY);
+            sb.AppendLine("# Farbschema: dunkel (Standard), hell, nacht (Dunkel), kontrast, blau, gruen oder eigen");
             sb.AppendLine("farbschema = " + Theme);
+            sb.AppendLine("# Eigene Farben (bei farbschema = eigen): hintergrund, tasten, beschriftung, sondertasten, leiste, leiste_text, makros, verweilen, gedrueckt");
+            sb.AppendLine("farben_eigen = " + CustomColors);
+            sb.AppendLine("fette_schrift = " + Yn(BoldFont));
             sb.AppendLine("mini_deckkraft_prozent = " + MiniOpacityPercent);
             sb.AppendLine("# Über Textfeldern durchsichtig. Modus: cursor oder textfeld. Ausnahmen: Programmnamen, z. B. winword, excel");
             sb.AppendLine("durchsichtig_ueber_textfeld = " + Yn(AutoFadeOn));
@@ -415,6 +443,7 @@ namespace Tastatur
             sb.AppendLine("kuerzel_einblenden = " + HotkeyShow);
             sb.AppendLine("kuerzel_makros = " + HotkeyMacros);
             sb.AppendLine("kuerzel_sprache = " + HotkeyLanguage);
+            sb.AppendLine("kuerzel_grossklein = " + HotkeyCase);
             sb.AppendLine("# Sprachen");
             sb.AppendLine("sprachen_aktiv = " + ActiveLanguages);
             sb.AppendLine("sprache = " + LanguageMode);

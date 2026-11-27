@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Ikke i disse programmer (f.ek
 Erkannte Textfelder ins Protokoll schreiben	Skriv fundne tekstfelter i loggen
 Wort	Ord
 Bei Tippfehlern Korrektur vorschlagen	Foreslå rettelse ved tastefejl
+Beschriftung auf Makro-Knöpfen	Tekst på makroknapper
+Beschriftung auf Sondertasten	Tekst på specialtaster
+Beschriftung auf Tasten	Tekst på taster
+Blau	Blå
+Dunkel	Mørk
+Eigene Farben	Egne farver
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Et klik på et skema er nok, tastaturet skifter med det samme.
+Farben und Schrift	Farver og skrift
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Fed skrift (alle tastetekster lige så tykke som tegnsætningen)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	For store/små bogstaver tildeles linjen kb_keypad_asterisk på samme måde.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Vælg en farve for hvert område. Udgangspunktet er det skema, der er valgt nu.
+Gedrückte Taste	Trykket tast
+Groß/Klein (letztes Wort)	Store/små bogstaver (sidste ord)
+Grün	Grøn
+Hallo	Hej
+Hell	Lys
+Hintergrund der Tastatur	Tastaturets baggrund
+Hoher Kontrast	Høj kontrast
+Makro-Knöpfe	Makroknapper
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Specialtaster (Shift, Enter, Slet, Aa, Makro …)
+Standard	Standard
+Tastenbeschriftung	Tastetekst
+Verweilen (Fortschritt und Hervorhebung)	Dvæl (fremskridt og fremhævning)
+Vorschlagsleiste	Forslagslinje
+Vorschlagstext auf der Leiste	Forslagstekst på linjen
+Vorschlagstext	Forslagstekst
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Virker som Aa-tasten på det sidst skrevne ord, også når tastaturet er klappet sammen. Er intet ord kendt, blinker Aa-tasten bare kort.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Svært at læse (kontrast under 4,5 : 1): 
+Farbe wählen	Vælg farve
+Weitere Farben …	Flere farver …

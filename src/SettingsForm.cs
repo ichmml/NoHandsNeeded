@@ -90,7 +90,8 @@ namespace Tastatur
             Heading(L.T("Aussehen"));
             Slider(L.T("Deckkraft Tastatur"), 30, 100, 5, s.OpacityPercent, v => v + " %", v => s.OpacityPercent = v);
             Slider(L.T("Deckkraft runder Knopf (eingeklappt)"), 20, 100, 5, s.MiniOpacityPercent, v => v + " %", v => s.MiniOpacityPercent = v);
-            Choice(L.T("Farbschema"), new[] { "dunkel", "hell" }, s.Theme, v => s.Theme = v, new[] { L.T("dunkel"), L.T("hell") }); // i18n-ok
+
+            AddColors();
 
             Heading(L.T("Durchsichtig über Textfeldern"));
             Note(L.T("Verdeckt die Tastatur das Feld, in dem du gerade schreibst (z. B. das Gmail-Fenster), wird sie durchsichtiger. Ist das Feld wieder frei, wird sie wieder normal."));
@@ -254,6 +255,8 @@ namespace Tastatur
             AddHotkey(HotkeyIds.Show, L.T("Tastatur ein-/ausblenden"), () => s.HotkeyShow, v => s.HotkeyShow = v);
             AddHotkey(HotkeyIds.Macros, L.T("Makroleiste öffnen"), () => s.HotkeyMacros, v => s.HotkeyMacros = v);
             AddHotkey(HotkeyIds.Language, L.T("Sprache wechseln"), () => s.HotkeyLanguage, v => s.HotkeyLanguage = v);
+            AddHotkey(HotkeyIds.Case, L.T("Groß/Klein (letztes Wort)"), () => s.HotkeyCase, v => s.HotkeyCase = v);
+            Note(L.T("Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz."));
             _hotkeyWarning = new Label { AutoSize = true, ForeColor = Color.Firebrick, MaximumSize = new Size(600, 0), Margin = new Padding(4, 6, 4, 6) };
             _panel.Controls.Add(_hotkeyWarning);
             AddButton(L.T("Kürzel testen"), () => _host.OpenKeyTest());
@@ -524,8 +527,111 @@ namespace Tastatur
                     _panel.Controls.Add(pic);
                 }
                 Note(L.T("So sieht die Belegung im Quadstick-Blatt aus. In der gelben Spalte den gewünschten Eingang wählen (z. B. mp_triple_puff), dann die Konfiguration auf den Quadstick laden."));
+                Note(L.T("Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen."));
             }
             catch { }
+        }
+
+        // ---------- Farben und Schrift (1.2.04.2) ----------
+
+        private readonly List<Action> _colorRefresh = new List<Action>();
+        private Label _contrastWarning;
+
+        private void AddColors()
+        {
+            Heading(L.T("Farben und Schrift"));
+            Note(L.T("Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort."));
+            var tiles = new FlowLayoutPanel { AutoSize = true, FlowDirection = FlowDirection.LeftToRight, WrapContents = true, MaximumSize = new Size(640, 0), Margin = new Padding(0, 2, 0, 6) };
+            foreach (var key in Theme.Presets) tiles.Controls.Add(ThemeTile(key));
+            _panel.Controls.Add(tiles);
+
+            _panel.Controls.Add(new Label { Text = L.T("Eigene Farben"), AutoSize = true, Font = new Font("Segoe UI", 12f, FontStyle.Bold), Margin = new Padding(4, 10, 4, 0) });
+            Note(L.T("Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema."));
+            foreach (var area in Theme.Areas) AddColorRow(area);
+
+            _contrastWarning = new Label { AutoSize = true, ForeColor = Color.Firebrick, Font = new Font("Segoe UI", 12f, FontStyle.Bold), MaximumSize = new Size(600, 0), Margin = new Padding(4, 6, 4, 6) };
+            _panel.Controls.Add(_contrastWarning);
+            AddButton(L.T("Auf Standard zurücksetzen"), () => { _s.Theme = Theme.Default; _s.CustomColors = ""; Changed(); RefreshColors(); });
+
+            Check(L.T("Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)"), _s.BoldFont, v => _s.BoldFont = v);
+            RefreshColors();
+        }
+
+        private void RefreshColors()
+        {
+            foreach (var r in _colorRefresh) r();
+            var bad = Theme.For(_s).LowContrast();
+            _contrastWarning.Text = bad.Count == 0 ? "" : L.T("⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): ") + string.Join(", ", bad);
+            _contrastWarning.Visible = bad.Count > 0;
+        }
+
+        /// <summary>Große Kachel mit kleiner Vorschau des Schemas.</summary>
+        private Control ThemeTile(string key)
+        {
+            var b = new Button { Width = 196, Height = 104, Margin = new Padding(4), FlatStyle = FlatStyle.Flat, Text = "", TabStop = true };
+            b.FlatAppearance.BorderSize = 0;
+            b.AccessibleName = Theme.PresetLabel(key);
+            b.Paint += (o, e) =>
+            {
+                var t = Theme.Get(key);
+                var g = e.Graphics;
+                g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+                g.Clear(t.Background);
+                bool sel = _s.Theme == key;
+                using (var font = new Font("Segoe UI", 15f, FontStyle.Bold, GraphicsUnit.Pixel))
+                using (var tb = new SolidBrush(t.Text))
+                {
+                    // Vorschlagsleiste
+                    var bar = new Rectangle(8, 8, b.Width - 16, 22);
+                    using (var sb = new SolidBrush(t.Suggestion)) g.FillRectangle(sb, bar);
+                    using (var st = new SolidBrush(t.SuggestionText)) g.DrawString(L.T("Hallo"), font, st, bar.X + 4, bar.Y + 1);
+                    // drei Tasten
+                    string[] keys = { "A", ".", "⇧" };
+                    for (int i = 0; i < 3; i++)
+                    {
+                        var kr = new Rectangle(8 + i * 46, 36, 42, 32);
+                        using (var kb = new SolidBrush(i == 2 ? t.KeySpecial : t.Key)) g.FillRectangle(kb, kr);
+                        using (var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center })
+                            g.DrawString(keys[i], font, tb, kr, sf);
+                        if (i == 0) using (var db = new SolidBrush(t.Dwell)) g.FillRectangle(db, kr.X + 3, kr.Bottom - 5, kr.Width * 2 / 3, 3);
+                    }
+                    using (var lf = new Font("Segoe UI", 14f, FontStyle.Bold, GraphicsUnit.Pixel))
+                        g.DrawString(Theme.PresetLabel(key), lf, tb, 8, 74);
+                }
+                if (sel)
+                    using (var p = new Pen(Color.FromArgb(255, 170, 0), 6)) g.DrawRectangle(p, 3, 3, b.Width - 7, b.Height - 7);
+            };
+            b.Click += (o, e) => { _s.Theme = key; Changed(); RefreshColors(); };
+            _colorRefresh.Add(() => b.Invalidate());
+            return b;
+        }
+
+        private void AddColorRow(string area)
+        {
+            var row = new FlowLayoutPanel { AutoSize = true, FlowDirection = FlowDirection.LeftToRight, WrapContents = false, Margin = new Padding(0, 2, 0, 2) };
+            var swatch = new Button { Width = 120, Height = 44, FlatStyle = FlatStyle.Flat, Margin = new Padding(4), Text = "" };
+            swatch.FlatAppearance.BorderColor = Color.Gray;
+            swatch.FlatAppearance.BorderSize = 2;
+            var label = new Label { Text = Theme.AreaLabel(area), AutoSize = true, MaximumSize = new Size(460, 0), Margin = new Padding(6, 14, 4, 0) };
+            swatch.AccessibleName = label.Text;
+            Action upd = () => swatch.BackColor = Theme.For(_s).GetArea(area);
+            upd();
+            _colorRefresh.Add(upd);
+            swatch.Click += (o, e) =>
+            {
+                Color picked;
+                if (!ColorPickerDialog.Pick(this, Theme.AreaLabel(area), Theme.For(_s).GetArea(area), out picked)) return;
+                // erste eigene Farbe: alle anderen Bereiche vom aktuellen Schema übernehmen
+                var t = Theme.For(_s);
+                t.SetArea(area, picked);
+                _s.CustomColors = t.ToCustom();
+                _s.Theme = Theme.Custom;
+                Changed();
+                RefreshColors();
+            };
+            row.Controls.Add(swatch);
+            row.Controls.Add(label);
+            _panel.Controls.Add(row);
         }
 
         private void AddButton(string text, Action click)

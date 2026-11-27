@@ -334,6 +334,14 @@ namespace Tastatur
             if (_keyboard.MacroMode) _keyboard.CloseMacroBar(); else _keyboard.OpenMacroBar();
         }
 
+        /// <summary>Kürzel (z. B. Ziffernblock Stern): Groß/Klein für das letzte Wort, auch eingeklappt. Der Fokus bleibt, wo er ist.</summary>
+        private void HotkeyCase()
+        {
+            if (_keyboard.ToggleCaseFromHotkey()) return;
+            if (_mini.Visible) _mini.Flash();
+            Log.Write("Groß/Klein-Kürzel: kein Wort bekannt, nichts geändert");
+        }
+
         private ContextMenu BuildTrayMenu()
         {
             return new ContextMenu(new[]
@@ -545,6 +553,7 @@ namespace Tastatur
             _hotkeys.Add(HotkeyIds.Show, L.T("Tastatur ein-/ausblenden"), _settings.HotkeyShow, HotkeyToggle);
             _hotkeys.Add(HotkeyIds.Macros, L.T("Makroleiste öffnen"), _settings.HotkeyMacros, HotkeyMacros);
             _hotkeys.Add(HotkeyIds.Language, L.T("Sprache wechseln"), _settings.HotkeyLanguage, () => { if (!_keyboard.Visible) Expand(); CycleLanguage(); });
+            _hotkeys.Add(HotkeyIds.Case, L.T("Groß/Klein (letztes Wort)"), _settings.HotkeyCase, HotkeyCase);
             for (int i = 0; i < _macros.Count; i++)
             {
                 var m = _macros[i];
@@ -552,7 +561,7 @@ namespace Tastatur
             }
             // Tasten der globalen Kürzel erzeugen keinen Text: sie vergessen das Wort nicht
             var vks = new HashSet<ushort>();
-            foreach (var combo in new[] { _settings.HotkeyShow, _settings.HotkeyMacros, _settings.HotkeyLanguage }.Concat(_macros.Select(x => x.Hotkey)))
+            foreach (var combo in new[] { _settings.HotkeyShow, _settings.HotkeyMacros, _settings.HotkeyLanguage, _settings.HotkeyCase }.Concat(_macros.Select(x => x.Hotkey)))
             {
                 try
                 {

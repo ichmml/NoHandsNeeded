@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Niet in deze programma's (bij
 Erkannte Textfelder ins Protokoll schreiben	Herkende tekstvelden in het logboek schrijven
 Wort	Woord
 Bei Tippfehlern Korrektur vorschlagen	Bij typfouten een correctie voorstellen
+Beschriftung auf Makro-Knöpfen	Tekst op macroknoppen
+Beschriftung auf Sondertasten	Tekst op speciale toetsen
+Beschriftung auf Tasten	Tekst op toetsen
+Blau	Blauw
+Dunkel	Donker
+Eigene Farben	Eigen kleuren
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Eén klik op een schema is genoeg, het toetsenbord verandert meteen.
+Farben und Schrift	Kleuren en lettertype
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Vet lettertype (alle toetsteksten zo dik als de leestekens)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Wijs voor hoofd-/kleine letters de regel kb_keypad_asterisk op dezelfde manier toe.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Kies per gebied een kleur. Uitgangspunt is het schema dat nu gekozen is.
+Gedrückte Taste	Ingedrukte toets
+Groß/Klein (letztes Wort)	Hoofd-/kleine letters (laatste woord)
+Grün	Groen
+Hallo	Hallo
+Hell	Licht
+Hintergrund der Tastatur	Achtergrond van het toetsenbord
+Hoher Kontrast	Hoog contrast
+Makro-Knöpfe	Macroknoppen
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Speciale toetsen (Shift, Enter, Backspace, Aa, Macro …)
+Standard	Standaard
+Tastenbeschriftung	Toetstekst
+Verweilen (Fortschritt und Hervorhebung)	Aanwijzen (voortgang en markering)
+Vorschlagsleiste	Suggestiebalk
+Vorschlagstext auf der Leiste	Suggestietekst op de balk
+Vorschlagstext	Suggestietekst
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Werkt zoals de Aa-toets op het laatst getypte woord, ook als het toetsenbord ingeklapt is. Is er geen woord bekend, dan knippert de Aa-toets alleen even.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Slecht leesbaar (contrast onder 4,5 : 1): 
+Farbe wählen	Kleur kiezen
+Weitere Farben …	Meer kleuren …

@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Pas dans ces programmes (p. e
 Erkannte Textfelder ins Protokoll schreiben	Écrire les champs de texte détectés dans le journal
 Wort	Mot
 Bei Tippfehlern Korrektur vorschlagen	Proposer une correction en cas de faute de frappe
+Beschriftung auf Makro-Knöpfen	Texte des boutons de macro
+Beschriftung auf Sondertasten	Texte des touches spéciales
+Beschriftung auf Tasten	Texte des touches
+Blau	Bleu
+Dunkel	Sombre
+Eigene Farben	Couleurs personnalisées
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Un clic sur un thème suffit, le clavier change tout de suite.
+Farben und Schrift	Couleurs et police
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Police grasse (toutes les touches aussi épaisses que la ponctuation)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Pour majuscules/minuscules, configurez la ligne kb_keypad_asterisk de la même façon.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Choisissez une couleur pour chaque zone. Le point de départ est le thème choisi actuellement.
+Gedrückte Taste	Touche enfoncée
+Groß/Klein (letztes Wort)	Majuscules/minuscules (dernier mot)
+Grün	Vert
+Hallo	Bonjour
+Hell	Clair
+Hintergrund der Tastatur	Fond du clavier
+Hoher Kontrast	Contraste élevé
+Makro-Knöpfe	Boutons de macro
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Touches spéciales (Maj, Entrée, Retour, Aa, Macro …)
+Standard	Standard
+Tastenbeschriftung	Texte des touches
+Verweilen (Fortschritt und Hervorhebung)	Survol (progression et surbrillance)
+Vorschlagsleiste	Barre de suggestions
+Vorschlagstext auf der Leiste	Texte des suggestions sur la barre
+Vorschlagstext	Texte des suggestions
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Agit comme la touche Aa sur le dernier mot tapé, même quand le clavier est replié. Si aucun mot n'est connu, la touche Aa clignote juste un instant.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Peu lisible (contraste inférieur à 4,5 : 1) : 
+Farbe wählen	Choisir une couleur
+Weitere Farben …	Plus de couleurs …

@@ -2,7 +2,7 @@
 
 **English** · [Deutsch](README.de.md)
 
-Current version: **1.2.04.1**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
+Current version: **1.2.04.2**. Download under [Releases](https://github.com/ichmml/nohandsneeded/releases).
 
 An on-screen keyboard for Windows, built for people who use the PC without their hands,
 for example with a mouth controller (Quadstick), a head mouse or eye tracking.
@@ -29,7 +29,8 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 - **Sticky modifier keys:** tap Ctrl, Alt, Shift, Win or AltGr once for the next key, twice to switch it off again. Shift stays on across arrow keys for selecting. AltGr sits right next to the space bar.
 - **Editable special characters** in the bottom row: ! ? : - by default.
 - **Typed word in red at the top left**, letter by letter, also with special characters ("s!add" stays). New words are remembered with one click, passwords appear as dots (👁 shows them briefly). In the keyboard's own vault window a new password is shown in plain text while typing.
-- **Case key** (abc ↑ / ABC ↓) that capitalizes or lowercases the last word afterwards.
+- **Case key** (abc ↑ / ABC ↓) that capitalizes or lowercases the last word afterwards. Also works by shortcut (numpad asterisk), even with the keyboard collapsed.
+- **Colours and font:** six ready-made colour schemes (Standard, Light, Dark, High contrast, Blue, Green) as large tiles, plus custom colours for every area from a palette with large colour fields. Warning for hard-to-read colours. All labels bold if you like, on by default.
 - **Delete word** (⌫ Word, right below Backspace): deletes the whole last word with one press, each further press the word before.
 - **Correction suggestions for typos:** "teh" becomes "the" with one click. The correction is shown first in the bar, marked orange, and is never applied automatically. German nouns are suggested with a capital letter, words like essen/Essen appear in both forms.
 - **Remembers the started word per window:** switch windows and back, and simply keep writing.
@@ -42,19 +43,21 @@ Manual in 11 languages: [English](Anleitung/Anleitung-en.txt) · [Deutsch](Anlei
 
 ## Quadstick
 
-Two global shortcuts are preset and also work when another program is in front:
+Three global shortcuts are preset and also work when another program is in front:
 
 | Key | Function |
 |---|---|
 | Pause | show/hide the keyboard |
 | Numpad minus | open the macro bar |
+| Numpad asterisk | upper/lower case of the last word (like the Aa key) |
 
 This is what the assignment looks like in the Quadstick configuration sheet:
 
 ![Example Quadstick assignment](Resources/quadstick_beispiel.png)
 
 Choose the input you want in the yellow column (e.g. `mp_triple_puff`), then load the configuration
-onto the Quadstick. The Quadstick cannot send F13 to F24.
+onto the Quadstick. For upper/lower case assign the row `kb_keypad_asterisk` the same way.
+The Quadstick cannot send F13 to F24.
 
 ## Installation
 

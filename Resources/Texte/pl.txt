@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Nie w tych programach (np. wi
 Erkannte Textfelder ins Protokoll schreiben	Zapisuj wykryte pola tekstowe w protokole
 Wort	Słowo
 Bei Tippfehlern Korrektur vorschlagen	Proponuj poprawkę przy literówkach
+Beschriftung auf Makro-Knöpfen	Napisy na przyciskach makr
+Beschriftung auf Sondertasten	Napisy na klawiszach specjalnych
+Beschriftung auf Tasten	Napisy na klawiszach
+Blau	Niebieski
+Dunkel	Ciemny
+Eigene Farben	Własne kolory
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Wystarczy jedno kliknięcie w schemat, klawiatura od razu się zmienia.
+Farben und Schrift	Kolory i czcionka
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Pogrubiona czcionka (wszystkie napisy tak grube jak znaki interpunkcyjne)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Dla wielkich/małych liter przypisz w ten sam sposób wiersz kb_keypad_asterisk.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Wybierz kolor dla każdego obszaru. Punktem wyjścia jest aktualnie wybrany schemat.
+Gedrückte Taste	Wciśnięty klawisz
+Groß/Klein (letztes Wort)	Wielkie/małe litery (ostatnie słowo)
+Grün	Zielony
+Hallo	Cześć
+Hell	Jasny
+Hintergrund der Tastatur	Tło klawiatury
+Hoher Kontrast	Wysoki kontrast
+Makro-Knöpfe	Przyciski makr
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Klawisze specjalne (Shift, Enter, Backspace, Aa, Makro …)
+Standard	Standardowy
+Tastenbeschriftung	Napisy na klawiszach
+Verweilen (Fortschritt und Hervorhebung)	Najechanie (postęp i podświetlenie)
+Vorschlagsleiste	Pasek podpowiedzi
+Vorschlagstext auf der Leiste	Tekst podpowiedzi na pasku
+Vorschlagstext	Tekst podpowiedzi
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Działa jak klawisz Aa na ostatnio wpisane słowo, także gdy klawiatura jest zwinięta. Jeśli żadne słowo nie jest znane, klawisz Aa tylko krótko mignie.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Słabo czytelne (kontrast poniżej 4,5 : 1): 
+Farbe wählen	Wybierz kolor
+Weitere Farben …	Więcej kolorów …

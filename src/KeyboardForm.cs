@@ -431,12 +431,12 @@ namespace Tastatur
 
         public void ApplySettings()
         {
-            _theme = Theme.Get(_settings.Theme);
+            _theme = Theme.For(_settings);
             BackColor = _theme.Background;
             if (!_fade.Covered) Opacity = _settings.OpacityPercent / 100.0;   // verdeckt: der Tick blendet zum neuen Wert
             if (LayoutCodeSource != null) SetLayout(LayoutCodeSource());
             if (KeyLayouts.BottomChars != _settings.BottomChars) { KeyLayouts.BottomChars = _settings.BottomChars; ApplyLayout(); }   // sofort, ohne Neustart
-            _fontMain = null;
+            UpdateFonts();
             RefreshBand();
             Invalidate();
         }
@@ -572,6 +572,47 @@ namespace Tastatur
             _macroMode = false;
             RefreshBand();
             Invalidate();
+        }
+
+        private bool _flashBlink;   // Aufblinken (an/aus) statt kurzem Aufleuchten
+
+        /// <summary>
+        /// Globales Kürzel für Groß/Klein (1.2.04.2): wirkt wie die Aa-Taste, ohne den Fokus zu ändern.
+        /// Ist kein Wort bekannt, wird nichts verändert und die Aa-Taste blinkt kurz. Liefert true, wenn umgestellt wurde.
+        /// </summary>
+        public bool ToggleCaseFromHotkey()
+        {
+            if (_engine.PasswordMode || !_engine.CanToggleCase)
+            {
+                FlashCaseKey();
+                if (Visible) ShowStatus(L.T("Kein Wort bekannt: Die Taste wirkt auf das letzte Wort, das mit dieser Tastatur getippt wurde"), 3000);
+                return false;
+            }
+            _engine.ToggleCase();
+            var t = _targets.Find(x => x.Key != null && x.Key.Kind == KeyKind.CaseToggle);
+            if (t != null) { _flash = t; _flashBlink = false; _flashUntil = DateTime.UtcNow.AddMilliseconds(140); }
+            RefreshBand();
+            Invalidate();
+            return true;
+        }
+
+        /// <summary>Aa-Taste ein paarmal aufblinken lassen (z. B. wenn das Kürzel nichts tun kann).</summary>
+        public void FlashCaseKey()
+        {
+            var t = _targets.Find(x => x.Key != null && x.Key.Kind == KeyKind.CaseToggle);
+            if (t == null) return;
+            _flash = t;
+            _flashBlink = true;
+            _flashUntil = DateTime.UtcNow.AddMilliseconds(720);
+            Invalidate();
+        }
+
+        /// <summary>Beim Aufblinken: im Wechsel an und aus (je 120 ms).</summary>
+        internal static bool BlinkOn(DateTime now, DateTime until)
+        {
+            double left = (until - now).TotalMilliseconds;
+            if (left <= 0) return false;
+            return ((int)(left / 120)) % 2 == 1 || left > 600;
         }
 
         public void ShowStatus(string text, int ms = 2500)
@@ -933,18 +974,24 @@ namespace Tastatur
         {
             float main = Math.Max(8f, _rowH * 0.36f);
             float band = Math.Max(8f, _rowH * _settings.SuggestionFontPercent / 100f);
-            if (_fontMain != null && Math.Abs(_fontMain.Size - main) < 0.5f && Math.Abs(_fontBand.Size - band) < 0.5f) return;
+            bool boldAll = _settings.BoldFont;
+            if (_fontMain != null && Math.Abs(_fontMain.Size - main) < 0.5f && Math.Abs(_fontBand.Size - band) < 0.5f && _fontMain.Bold == boldAll) return;
             if (_fontMain != null) { _fontMain.Dispose(); _fontSmall.Dispose(); _fontTool.Dispose(); _fontBand.Dispose(); }
             if (_fontBold != null) { _fontBold.Dispose(); _fontSmallBold.Dispose(); _fontToolBold.Dispose(); }
-            _fontMain = new Font("Segoe UI", main, FontStyle.Regular, GraphicsUnit.Pixel);
-            _fontSmall = new Font("Segoe UI", Math.Max(7f, _rowH * 0.2f), FontStyle.Regular, GraphicsUnit.Pixel);
-            _fontTool = new Font("Segoe UI", Math.Max(8f, _rowH * 0.3f), FontStyle.Regular, GraphicsUnit.Pixel);
-            _fontBand = new Font("Segoe UI", band, FontStyle.Regular, GraphicsUnit.Pixel);
+            // 1.2.04.2: auf Wunsch alles so fett wie die Satzzeichen (Buchstaben, Ziffern, Sondertasten, Vorschläge, Makros)
+            var style = LabelStyle(boldAll);
+            _fontMain = new Font("Segoe UI", main, style, GraphicsUnit.Pixel);
+            _fontSmall = new Font("Segoe UI", Math.Max(7f, _rowH * 0.2f), style, GraphicsUnit.Pixel);
+            _fontTool = new Font("Segoe UI", Math.Max(8f, _rowH * 0.3f), style, GraphicsUnit.Pixel);
+            _fontBand = new Font("Segoe UI", band, style, GraphicsUnit.Pixel);
             // Satzzeichen unten: fett und ein gutes Stück größer (Punkt und Komma sonst kaum zu unterscheiden)
             _fontBold = new Font("Segoe UI", main * 1.35f, FontStyle.Bold, GraphicsUnit.Pixel);
             _fontSmallBold = new Font("Segoe UI", Math.Max(8f, _rowH * 0.25f), FontStyle.Bold, GraphicsUnit.Pixel);
             _fontToolBold = new Font("Segoe UI", Math.Max(8f, _rowH * 0.3f), FontStyle.Bold, GraphicsUnit.Pixel);
         }
+
+        /// <summary>Schriftstil der Beschriftung: fett, wenn eingeschaltet.</summary>
+        internal static FontStyle LabelStyle(bool bold) { return bold ? FontStyle.Bold : FontStyle.Regular; }
 
         // ---------- Zeichnen ----------
 
@@ -1104,7 +1151,7 @@ namespace Tastatur
 
         private Color KeyColor(Target t, Color normal)
         {
-            if (Same(_flash, t) && DateTime.UtcNow < _flashUntil) return _theme.Accent;
+            if (Same(_flash, t) && DateTime.UtcNow < _flashUntil && (!_flashBlink || BlinkOn(DateTime.UtcNow, _flashUntil))) return _theme.Pressed;
             if (Same(_hover, t)) return _theme.KeyHover;
             return normal;
         }
@@ -1145,7 +1192,7 @@ namespace Tastatur
             if (frac <= 0) return;
             var r = t.Rect;
             float bh = Math.Max(3f, _rowH * 0.08f);
-            using (var b = new SolidBrush(_theme.Accent))
+            using (var b = new SolidBrush(_theme.Dwell))
                 g.FillRectangle(b, r.X + rad / 2, r.Bottom - bh - 2, (float)((r.Width - rad) * frac), bh);
         }
 
@@ -1335,11 +1382,11 @@ namespace Tastatur
                 return;
             }
             Color fill = _theme.Suggestion;
-            if (item.Color.HasValue) fill = Blend(_theme.Suggestion, item.Color.Value, _settings.Theme == "hell" ? 0.35f : 0.5f); // i18n-ok
-            else if (_macroMode && !item.Dim) fill = _theme.Key;
+            if (item.Color.HasValue) fill = Blend(_theme.Suggestion, item.Color.Value, _theme.IsLight ? 0.35f : 0.5f);
+            else if (_macroMode && !item.Dim) fill = _theme.MacroKey;
             DrawBox(g, t, item.Dim ? fill : KeyColor(t, fill), null);
-            var textColor = item.TextColor ?? (item.Dim ? _theme.TextDim : _theme.Text);
-            if (item.TextColor.HasValue && _settings.Theme != "hell") textColor = Color.FromArgb(255, 90, 90);   // auf dunkel heller rot // i18n-ok
+            var textColor = item.TextColor ?? (item.Dim ? Theme.Blend(_theme.SuggestionText, fill, 0.42f) : _macroMode ? _theme.Text : _theme.SuggestionText);
+            if (item.TextColor.HasValue && !_theme.IsLight) textColor = Color.FromArgb(255, 90, 90);   // auf dunkel heller rot
             string label = item.Label;
             // getipptes Wort: nie mit … kürzen, notfalls wird nur die Schrift kleiner (das Feld ist schon so breit wie möglich)
             using (var b = new SolidBrush(textColor))
@@ -1545,6 +1592,7 @@ namespace Tastatur
         {
             if (!IsClickable(t)) return;
             _flash = t;
+            _flashBlink = false;
             _flashUntil = DateTime.UtcNow.AddMilliseconds(140);
 
             if (t.Key != null && t.Key.Kind == KeyKind.CaseToggle && !_engine.CanToggleCase)
@@ -1662,8 +1710,8 @@ namespace Tastatur
             }
             if (_captureExcluded && !WantCaptureExclusion) { UpdateCaptureExclusion(); RefreshBand(); Invalidate(); }
 
-            bool redraw = _flash != null && now >= _flashUntil;
-            if (redraw) _flash = null;
+            bool redraw = _flash != null && (now >= _flashUntil || _flashBlink);
+            if (_flash != null && now >= _flashUntil) { _flash = null; _flashBlink = false; }
             if (_status != null && now >= _statusUntil) { _status = null; redraw = true; }
             if (Physical != null && _settings.ShowPhysicalKeys && (_physicalWasActive | (_physicalWasActive = Physical.Active(now, _settings.PhysicalGlowMs)))) redraw = true;
 

@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Teclado en pantalla, Versión 1.2.04.1
+Teclado en pantalla, Versión 1.2.04.2
 
 ¿Por qué NoHandsNeeded? En inglés significa «no hacen falta las manos». Para eso está
 hecho este teclado: para quienes usan el PC sin las manos, por ejemplo con un joystick
@@ -115,6 +115,25 @@ campo, ambas opacidades, programas excluidos y un registro en protokoll.txt.
 La detección usa la accesibilidad de Windows (UI Automation). Funciona en Chrome, Edge, Firefox
 y la mayoría de programas, no en algunos programas antiguos o juegos.
 
+Colores y fuente
+----------------
+Ajustes → "Colores y fuente". Un clic en uno de los mosaicos grandes cambia el esquema,
+el teclado cambia al instante: Estándar (el esquema oscuro anterior), Claro, Oscuro (casi
+negro), Alto contraste (amarillo sobre negro), Azul y Verde.
+Debajo, "Colores propios": cada zona tiene un campo de color. Un clic abre una paleta con 24
+colores grandes, un clic en un color lo aplica. "Más colores …" abre el diálogo de colores
+normal de Windows. Se pueden ajustar fondo, teclas, texto de las teclas, teclas especiales,
+barra de sugerencias, texto de sugerencias, botones de macro, permanencia (la barra que se
+llena y el resaltado bajo el ratón) y la tecla pulsada. Siempre se parte del esquema elegido.
+Si un texto es difícil de leer (contraste inferior a 4,5 : 1), aparece un aviso rojo.
+"Restablecer predeterminados" recupera el esquema anterior. Las macros con color propio del editor lo
+conservan.
+
+Fuente en negrita (activada de serie): todas las teclas, sugerencias y botones de macro son
+tan gruesos como los signos de puntuación de abajo. Los textos largos se hacen algo más
+pequeños si hace falta, nunca más finos. Quita la marca "Fuente en negrita" para la fuente
+normal. Colores y fuente forman parte de los ajustes y se exportan.
+
 Teclas
 ------
 Fn (abajo a la izquierda): segundo nivel con F1 a F12, Inicio, Fin, Re Pág/Av Pág, caracteres
@@ -147,6 +166,9 @@ palabra.
     teclado y las olvida tras un clic en la ventana, un cambio de ventana o Intro. No conoce
     palabras del dictado (p. ej. Wispr Flow) ni de otro teclado.
     TODO MAYÚSCULAS: con la tecla Bloq Mayús ⇪.
+    También con atajo: teclado numérico * (por defecto, se llama "NumMal") hace lo mismo que
+    la tecla, también con el teclado plegado. Si no se conoce ninguna palabra, la tecla Aa o
+    el botón redondo solo parpadea un momento.
 
 Al principio de una frase (tras . ! ? y espacio, o tras Intro) la siguiente letra pasa
 automáticamente a mayúscula. Se puede desactivar en los ajustes.
@@ -392,6 +414,7 @@ Atajos globales y Quadstick
 Estos atajos funcionan aunque otro programa esté delante:
   Pausa               mostrar/ocultar el teclado
   teclado numérico -  abrir la barra de macros (en el teclado se llama "NumMinus")
+  teclado numérico *  mayúsculas/minúsculas de la última palabra, como la tecla Aa ("NumMal")
 Además, cada macro puede tener su propio atajo (en el editor de macros).
 En los ajustes, cada atajo indica si está activo (marca verde) o no (rojo, con el motivo).
 
@@ -421,6 +444,7 @@ Asignar una tecla del Quadstick:
   ejemplo:
       kb_pause          normal    <entrada>
       kb_keypad_minus   normal    <entrada>
+      kb_keypad_asterisk normal   <entrada>     (para mayúsculas/minúsculas)
   1. En la columna amarilla elige la entrada deseada (p. ej. mp_triple_puff).
   2. Carga la configuración en el Quadstick como siempre.
   3. Compruébalo con "Probar atajos".

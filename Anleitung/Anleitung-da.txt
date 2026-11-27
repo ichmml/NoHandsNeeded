@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Skærmtastatur, Version 1.2.04.1
+Skærmtastatur, Version 1.2.04.2
 
 Hvorfor NoHandsNeeded? Det er engelsk for „ingen hænder nødvendige“. Det er præcis det,
 tastaturet er lavet til: alle, der bruger pc'en uden hænder, for eksempel med et
@@ -106,6 +106,24 @@ begge værdier, programmer uden funktionen og en log i protokoll.txt.
 Genkendelse via Windows' hjælpefunktioner (UI Automation). Virker i Chrome, Edge, Firefox og de
 fleste programmer, ikke i visse ældre programmer eller spil.
 
+Farver og skrift
+----------------
+Indstillinger → "Farver og skrift". Et klik på en af de store fliser skifter farveskema,
+tastaturet skifter med det samme: Standard (det tidligere mørke skema), Lys, Mørk (næsten
+sort), Høj kontrast (gul på sort), Blå og Grøn.
+Nedenunder "Egne farver": hvert område har et farvefelt. Et klik åbner en palet med 24 store
+farvefelter, et klik på en farve tager den i brug. "Flere farver …" åbner Windows' normale
+farvevindue. Du kan indstille baggrund, taster, tastetekst, specialtaster, forslagslinje,
+forslagstekst, makroknapper, dvæl (bjælken der fyldes og fremhævningen under musen) og den
+trykkede tast. Udgangspunktet er altid det valgte skema.
+Er en tekst svær at læse (kontrast under 4,5 : 1), vises en rød besked. "Nulstil til
+standard" henter det tidligere skema tilbage. Makroer med egen farve fra makroeditoren
+beholder den.
+
+Fed skrift (slået til fra start): alle tastetekster, forslag og makroknapper er lige så tykke
+som tegnsætningen nederst. Lange tekster bliver om nødvendigt lidt mindre, aldrig tyndere.
+Fjern fluebenet "Fed skrift" for normal skrift. Farver og skrift kommer med ved eksport.
+
 Taster
 ------
 Fn (nederst til venstre): andet niveau med F1 til F12, Home, End, Page Up/Down, specialtegn.
@@ -135,6 +153,9 @@ Store/små-tast (ved siden af mellemrumstasten): ændrer skrivemåden af det sid
     glemmer dem efter et klik i vinduet, et vinduesskift eller Enter. Den kender ikke ord fra
     taleindtastning (f.eks. Wispr Flow) eller et andet tastatur.
     KUN STORE BOGSTAVER: med Caps Lock-tasten ⇪.
+    Også med genvej: numerisk * (standard, hedder "NumMal") gør det samme som tasten, også
+    når tastaturet er klappet sammen. Er intet ord kendt, blinker Aa-tasten eller den runde
+    knap bare kort.
 
 I starten af en sætning (efter . ! ? og mellemrum eller efter Enter) bliver næste bogstav
 automatisk stort. Kan slås fra i indstillingerne.
@@ -367,6 +388,7 @@ Globale genveje og Quadstick
 Disse genveje virker også, når et andet program er forrest:
   Pause            vis/skjul tastaturet
   numerisk -       åbn makrobjælken (hedder "NumMinus" i tastaturet)
+  numerisk *       store/små bogstaver i sidste ord, som Aa-tasten ("NumMal")
 Derudover kan hver makro få sin egen genvej (i makroeditoren).
 I indstillingerne står der ved hver genvej, om den er aktiv (grønt flueben) eller ej (rød,
 med årsag).
@@ -396,6 +418,7 @@ Tildel en Quadstick-tast:
   I Quadsticks konfigurationsark (Google-regneark) én linje pr. genvej, eksempel:
       kb_pause          normal    <indgang>
       kb_keypad_minus   normal    <indgang>
+      kb_keypad_asterisk normal   <indgang>     (for store/små bogstaver)
   1. Vælg den ønskede indgang i den gule kolonne (f.eks. mp_triple_puff).
   2. Indlæs konfigurationen på Quadsticken som sædvanlig.
   3. Tjek med "Test genveje".

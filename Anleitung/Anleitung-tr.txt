@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Ekran klavyesi, Sürüm 1.2.04.1
+Ekran klavyesi, Sürüm 1.2.04.2
 
 Neden NoHandsNeeded? İngilizcede „ellere gerek yok“ demek. Bu klavye tam da bunun için
 yapıldı: bilgisayarı elleri olmadan kullanan herkes için, örneğin Quadstick gibi bir ağız
@@ -105,6 +105,25 @@ opaklık, bu özelliğin kapalı olduğu programlar ve protokoll.txt içinde gü
 Algılama Windows erişilebilirlik arabirimiyle (UI Automation) yapılır. Chrome, Edge, Firefox ve
 çoğu programda çalışır, bazı eski programlarda veya oyunlarda çalışmaz.
 
+Renkler ve yazı tipi
+--------------------
+Ayarlar → "Renkler ve yazı tipi". Büyük kutulardan birine tek tık şemayı değiştirir,
+klavye hemen değişir: Standart (önceki koyu şema), Açık, Koyu (neredeyse siyah), Yüksek
+kontrast (siyah üzerine sarı), Mavi ve Yeşil.
+Altında "Kendi renklerim": her alanın bir renk kutusu var. Tıklayınca 24 büyük renkli bir
+palet açılır, bir renge tıklamak onu uygular. "Diğer renkler …" Windows'un normal renk
+penceresini açar. Arka plan, tuşlar, tuş yazısı, özel tuşlar, öneri çubuğu, öneri yazısı,
+makro düğmeleri, bekleme (dolan çubuk ve fare altındaki vurgu) ve basılan tuş ayarlanabilir.
+Başlangıç noktası her zaman seçili şemadır.
+Bir yazı zor okunuyorsa (kontrast 4,5 : 1'in altında) kırmızı bir uyarı çıkar.
+"Varsayılana sıfırla" önceki şemayı geri getirir. Düzenleyicide kendi rengi olan makrolar onu
+korur.
+
+Kalın yazı (varsayılan olarak açık): tüm tuş yazıları, öneriler ve makro düğmeleri alttaki
+noktalama işaretleri kadar kalındır. Uzun yazılar gerekirse biraz küçülür, asla incelmez.
+Normal yazı için "Kalın yazı" işaretini kaldırın. Renkler ve yazı tipi ayarlara dahildir ve
+dışa aktarılır.
+
 Tuşlar
 ------
 Fn (sol alt): F1-F12, Home, End, Page Up/Down ve özel karakterler içeren ikinci katman.
@@ -134,6 +153,9 @@ Büyük/küçük harf tuşu (boşluk tuşunun yanında): son kelimenin yazılı�
     pencereye bir tıklamadan, pencere değişiminden veya Enter'dan sonra unutur. Sesli
     girişten (ör. Wispr Flow) veya başka bir klavyeden gelen kelimeleri bilmez.
     TAMAMEN BÜYÜK HARF: Caps Lock tuşu ⇪ ile.
+    Kısayolla da olur: sayısal * (varsayılan, "NumMal" diye geçer) tuşla aynı işi yapar,
+    klavye küçültülmüş olsa bile. Bilinen bir kelime yoksa Aa tuşu veya yuvarlak düğme sadece
+    kısaca yanıp söner.
 
 Cümle başında (. ! ? ve boşluktan sonra veya Enter'dan sonra) sonraki harf otomatik olarak
 büyük olur. Ayarlardan kapatılabilir.
@@ -365,6 +387,7 @@ Genel kısayollar ve Quadstick
 Bu kısayollar başka bir program öndeyken de çalışır:
   Pause                  klavyeyi göster/gizle
   sayısal tuş takımı -   makro çubuğunu aç (klavyede "NumMinus" diye geçer)
+  sayısal tuş takımı *   son kelimenin büyük/küçük harfi, Aa tuşu gibi ("NumMal")
 Ayrıca her makro kendi kısayolunu alabilir (makro düzenleyicisinde).
 Ayarlarda her kısayolun etkin olup olmadığı görünür (yeşil işaret) ya da değil (kırmızı,
 nedeniyle).
@@ -393,6 +416,7 @@ Quadstick tuşu atama:
   Quadstick yapılandırma sayfasında (Google tablosu) kısayol başına bir satır, örnek:
       kb_pause          normal    <giriş>
       kb_keypad_minus   normal    <giriş>
+      kb_keypad_asterisk normal   <giriş>       (büyük/küçük harf için)
   1. Sarı sütunda istediğin girişi seç (ör. mp_triple_puff).
   2. Yapılandırmayı her zamanki gibi Quadstick'e yükle.
   3. "Kısayolları test et" ile kontrol et.

@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	No en estos programas (p. ej.
 Erkannte Textfelder ins Protokoll schreiben	Escribir los campos de texto detectados en el registro
 Wort	Palabra
 Bei Tippfehlern Korrektur vorschlagen	Sugerir una corrección ante errores de escritura
+Beschriftung auf Makro-Knöpfen	Texto de los botones de macro
+Beschriftung auf Sondertasten	Texto de las teclas especiales
+Beschriftung auf Tasten	Texto de las teclas
+Blau	Azul
+Dunkel	Oscuro
+Eigene Farben	Colores propios
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Basta un clic en un esquema, el teclado cambia al instante.
+Farben und Schrift	Colores y fuente
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Fuente en negrita (todas las teclas tan gruesas como los signos de puntuación)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Para mayúsculas/minúsculas asigna la fila kb_keypad_asterisk de la misma forma.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Elige un color para cada zona. El punto de partida es el esquema elegido ahora.
+Gedrückte Taste	Tecla pulsada
+Groß/Klein (letztes Wort)	Mayúsculas/minúsculas (última palabra)
+Grün	Verde
+Hallo	Hola
+Hell	Claro
+Hintergrund der Tastatur	Fondo del teclado
+Hoher Kontrast	Alto contraste
+Makro-Knöpfe	Botones de macro
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Teclas especiales (Mayús, Intro, Retroceso, Aa, Macro …)
+Standard	Estándar
+Tastenbeschriftung	Texto de las teclas
+Verweilen (Fortschritt und Hervorhebung)	Permanencia (progreso y resaltado)
+Vorschlagsleiste	Barra de sugerencias
+Vorschlagstext auf der Leiste	Texto de sugerencias en la barra
+Vorschlagstext	Texto de sugerencias
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Funciona como la tecla Aa con la última palabra escrita, también con el teclado plegado. Si no se conoce ninguna palabra, la tecla Aa solo parpadea un momento.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Difícil de leer (contraste inferior a 4,5 : 1): 
+Farbe wählen	Elegir color
+Weitere Farben …	Más colores …

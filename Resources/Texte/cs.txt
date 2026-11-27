@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Ne v těchto programech (nap�
 Erkannte Textfelder ins Protokoll schreiben	Zapisovat rozpoznaná textová pole do protokolu
 Wort	Slovo
 Bei Tippfehlern Korrektur vorschlagen	Při překlepu navrhnout opravu
+Beschriftung auf Makro-Knöpfen	Popisky tlačítek maker
+Beschriftung auf Sondertasten	Popisky speciálních kláves
+Beschriftung auf Tasten	Popisky kláves
+Blau	Modrá
+Dunkel	Tmavá
+Eigene Farben	Vlastní barvy
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Stačí jedno kliknutí na schéma, klávesnice se hned změní.
+Farben und Schrift	Barvy a písmo
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Tučné písmo (všechny popisky kláves tak silné jako interpunkce)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Pro velká/malá písmena přiřaďte stejně řádek kb_keypad_asterisk.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Vyberte barvu pro každou oblast. Výchozím bodem je právě vybrané schéma.
+Gedrückte Taste	Stisknutá klávesa
+Groß/Klein (letztes Wort)	Velká/malá písmena (poslední slovo)
+Grün	Zelená
+Hallo	Ahoj
+Hell	Světlá
+Hintergrund der Tastatur	Pozadí klávesnice
+Hoher Kontrast	Vysoký kontrast
+Makro-Knöpfe	Tlačítka maker
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Speciální klávesy (Shift, Enter, Backspace, Aa, Makro …)
+Standard	Standardní
+Tastenbeschriftung	Popisky kláves
+Verweilen (Fortschritt und Hervorhebung)	Setrvání (průběh a zvýraznění)
+Vorschlagsleiste	Lišta návrhů
+Vorschlagstext auf der Leiste	Text návrhů na liště
+Vorschlagstext	Text návrhů
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Funguje jako klávesa Aa na naposledy napsané slovo, i když je klávesnice sbalená. Není-li známo žádné slovo, klávesa Aa jen krátce blikne.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Špatně čitelné (kontrast pod 4,5 : 1): 
+Farbe wählen	Vybrat barvu
+Weitere Farben …	Další barvy …

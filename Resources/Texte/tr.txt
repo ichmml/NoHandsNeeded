@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Bu programlarda değil (ör. 
 Erkannte Textfelder ins Protokoll schreiben	Algılanan metin alanlarını günlüğe yaz
 Wort	Kelime
 Bei Tippfehlern Korrektur vorschlagen	Yazım hatalarında düzeltme öner
+Beschriftung auf Makro-Knöpfen	Makro düğmelerindeki yazı
+Beschriftung auf Sondertasten	Özel tuşlardaki yazı
+Beschriftung auf Tasten	Tuşlardaki yazı
+Blau	Mavi
+Dunkel	Koyu
+Eigene Farben	Kendi renklerim
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Bir şemaya tek tık yeterli, klavye hemen değişir.
+Farben und Schrift	Renkler ve yazı tipi
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Kalın yazı (tüm tuş yazıları noktalama işaretleri kadar kalın)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Büyük/küçük harf için kb_keypad_asterisk satırını aynı şekilde atayın.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Her alan için ayrı bir renk seçin. Başlangıç noktası şu an seçili olan şemadır.
+Gedrückte Taste	Basılan tuş
+Groß/Klein (letztes Wort)	Büyük/küçük harf (son kelime)
+Grün	Yeşil
+Hallo	Merhaba
+Hell	Açık
+Hintergrund der Tastatur	Klavye arka planı
+Hoher Kontrast	Yüksek kontrast
+Makro-Knöpfe	Makro düğmeleri
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Özel tuşlar (Shift, Enter, Geri, Aa, Makro …)
+Standard	Standart
+Tastenbeschriftung	Tuş yazısı
+Verweilen (Fortschritt und Hervorhebung)	Bekleme (ilerleme ve vurgu)
+Vorschlagsleiste	Öneri çubuğu
+Vorschlagstext auf der Leiste	Çubuktaki öneri yazısı
+Vorschlagstext	Öneri yazısı
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Klavye küçültülmüş olsa bile son yazılan kelimede Aa tuşu gibi çalışır. Bilinen bir kelime yoksa Aa tuşu sadece kısaca yanıp söner.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Okunması zor (kontrast 4,5 : 1'in altında): 
+Farbe wählen	Renk seç
+Weitere Farben …	Diğer renkler …

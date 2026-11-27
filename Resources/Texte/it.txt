@@ -520,3 +520,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Non in questi programmi (es. 
 Erkannte Textfelder ins Protokoll schreiben	Scrivi i campi di testo rilevati nel registro
 Wort	Parola
 Bei Tippfehlern Korrektur vorschlagen	Proponi una correzione in caso di errori di battitura
+Beschriftung auf Makro-Knöpfen	Testo dei pulsanti macro
+Beschriftung auf Sondertasten	Testo dei tasti speciali
+Beschriftung auf Tasten	Testo dei tasti
+Blau	Blu
+Dunkel	Scuro
+Eigene Farben	Colori personalizzati
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Basta un clic su uno schema, la tastiera cambia subito.
+Farben und Schrift	Colori e carattere
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Carattere grassetto (tutte le scritte spesse come la punteggiatura)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Per maiuscole/minuscole assegna allo stesso modo la riga kb_keypad_asterisk.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Scegli un colore per ogni area. Si parte dallo schema scelto in questo momento.
+Gedrückte Taste	Tasto premuto
+Groß/Klein (letztes Wort)	Maiuscole/minuscole (ultima parola)
+Grün	Verde
+Hallo	Ciao
+Hell	Chiaro
+Hintergrund der Tastatur	Sfondo della tastiera
+Hoher Kontrast	Contrasto elevato
+Makro-Knöpfe	Pulsanti macro
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Tasti speciali (Shift, Invio, Backspace, Aa, Macro …)
+Standard	Standard
+Tastenbeschriftung	Testo dei tasti
+Verweilen (Fortschritt und Hervorhebung)	Sosta (avanzamento ed evidenziazione)
+Vorschlagsleiste	Barra dei suggerimenti
+Vorschlagstext auf der Leiste	Testo dei suggerimenti sulla barra
+Vorschlagstext	Testo dei suggerimenti
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Funziona come il tasto Aa sull'ultima parola digitata, anche con la tastiera ridotta. Se nessuna parola è nota, il tasto Aa lampeggia solo brevemente.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Poco leggibile (contrasto sotto 4,5 : 1): 
+Farbe wählen	Scegli colore
+Weitere Farben …	Altri colori …

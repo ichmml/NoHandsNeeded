@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klawiatura ekranowa, Wersja 1.2.04.1
+Klawiatura ekranowa, Wersja 1.2.04.2
 
 Dlaczego NoHandsNeeded? Po angielsku znaczy to „ręce niepotrzebne”. Właśnie do tego
 powstała ta klawiatura: dla wszystkich, którzy obsługują komputer bez rąk, na przykład
@@ -110,6 +110,25 @@ krycia, programy bez tej funkcji i protokół w protokoll.txt.
 Rozpoznawanie przez ułatwienia dostępu Windows (UI Automation). Działa w Chrome, Edge, Firefox
 i większości programów, nie w niektórych starszych programach lub grach.
 
+Kolory i czcionka
+-----------------
+Ustawienia → „Kolory i czcionka”. Jedno kliknięcie w jeden z dużych kafelków zmienia
+schemat, klawiatura zmienia się od razu: Standardowy (dotychczasowy ciemny), Jasny, Ciemny
+(prawie czarny), Wysoki kontrast (żółty na czarnym), Niebieski i Zielony.
+Poniżej „Własne kolory”: każdy obszar ma pole koloru. Kliknięcie otwiera paletę 24 dużych
+kolorów, kliknięcie w kolor go ustawia. „Więcej kolorów …” otwiera zwykłe okno kolorów
+Windows. Można ustawić tło, klawisze, napisy, klawisze specjalne, pasek podpowiedzi, tekst
+podpowiedzi, przyciski makr, najechanie (pasek, który się wypełnia, i podświetlenie pod
+myszą) oraz wciśnięty klawisz. Punktem wyjścia jest zawsze wybrany schemat.
+Gdy napis jest słabo czytelny (kontrast poniżej 4,5 : 1), pojawia się czerwona uwaga.
+„Przywróć domyślne” przywraca poprzedni schemat. Makra z własnym kolorem z edytora go
+zachowują.
+
+Pogrubiona czcionka (domyślnie włączona): wszystkie napisy, podpowiedzi i przyciski makr są
+tak grube jak znaki interpunkcyjne na dole. Długie napisy w razie potrzeby się zmniejszają,
+ale nigdy nie są cieńsze. Odznacz „Pogrubiona czcionka”, aby wrócić do zwykłej. Kolory
+i czcionka są częścią ustawień i trafiają do eksportu.
+
 Klawisze
 --------
 Fn (na dole po lewej): druga warstwa z F1 do F12, Home, End, Page Up/Down, znaki specjalne.
@@ -140,6 +159,9 @@ Klawisz wielkości liter (obok spacji): zmienia pisownię ostatniego słowa.
     zapomina je po kliknięciu w okno, zmianie okna lub Enter. Nie zna słów z wprowadzania
     głosowego (np. Wispr Flow) ani z innej klawiatury.
     WSZYSTKO WIELKIMI: klawiszem Caps Lock ⇪.
+    Także skrótem: klaw. numeryczna * (domyślnie, nazywa się „NumMal”) działa jak klawisz,
+    także przy zwiniętej klawiaturze. Gdy żadne słowo nie jest znane, klawisz Aa lub okrągły
+    przycisk tylko krótko mignie.
 
 Na początku zdania (po . ! ? i spacji albo po Enter) następna litera robi się automatycznie
 wielka. Można to wyłączyć w ustawieniach.
@@ -375,6 +397,7 @@ Skróty globalne i Quadstick
 Te skróty działają też, gdy na pierwszym planie jest inny program:
   Pause                 pokaż/ukryj klawiaturę
   klaw. numeryczna -    otwórz pasek makr (w klawiaturze nazywa się „NumMinus”)
+  klaw. numeryczna *    wielkie/małe litery ostatniego słowa, jak klawisz Aa („NumMal”)
 Dodatkowo każde makro może mieć własny skrót (w edytorze makr).
 W ustawieniach przy każdym skrócie widać, czy jest aktywny (zielony znaczek), czy nie
 (czerwony, z powodem).
@@ -404,6 +427,7 @@ Przypisanie klawisza Quadsticka:
   W arkuszu konfiguracji Quadsticka (arkusz Google) jeden wiersz na skrót, przykład:
       kb_pause          normal    <wejście>
       kb_keypad_minus   normal    <wejście>
+      kb_keypad_asterisk normal   <wejście>     (dla wielkich/małych liter)
   1. W żółtej kolumnie wybierz wejście (np. mp_triple_puff).
   2. Załaduj konfigurację na Quadsticka jak zwykle.
   3. Sprawdź przez „Testuj skróty”.

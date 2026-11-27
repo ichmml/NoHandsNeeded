@@ -1,6 +1,6 @@
 NoHandsNeeded
 =============
-Klávesnice na obrazovce, Verze 1.2.04.1
+Klávesnice na obrazovce, Verze 1.2.04.2
 
 Proč NoHandsNeeded? Anglicky to znamená „ruce nejsou potřeba“. Přesně k tomu je tato
 klávesnice určená: pro všechny, kdo ovládají počítač bez rukou, například ústním
@@ -104,6 +104,24 @@ programy bez této funkce a protokol v protokoll.txt.
 Rozpoznání přes usnadnění přístupu Windows (UI Automation). Funguje v Chrome, Edge, Firefoxu
 a většině programů, ne v některých starších programech nebo hrách.
 
+Barvy a písmo
+-------------
+Nastavení → „Barvy a písmo“. Jedno kliknutí na jednu z velkých dlaždic přepne schéma,
+klávesnice se hned změní: Standardní (dosavadní tmavé), Světlá, Tmavá (skoro černá), Vysoký
+kontrast (žlutá na černé), Modrá a Zelená.
+Pod tím „Vlastní barvy“: každá oblast má pole s barvou. Kliknutí otevře paletu 24 velkých
+barev, kliknutí na barvu ji použije. „Další barvy …“ otevře běžné okno barev Windows.
+Nastavit lze pozadí, klávesy, popisky, speciální klávesy, lištu návrhů, text návrhů,
+tlačítka maker, setrvání (pruh, který se plní, a zvýraznění pod myší) a stisknutou klávesu.
+Výchozím bodem je vždy zvolené schéma.
+Je-li popisek špatně čitelný (kontrast pod 4,5 : 1), objeví se červené upozornění.
+„Obnovit výchozí“ vrátí dosavadní schéma. Makra s vlastní barvou z editoru si ji ponechají.
+
+Tučné písmo (ve výchozím stavu zapnuté): všechny popisky, návrhy a tlačítka maker jsou tak
+silné jako interpunkce dole. Dlouhé popisky se v případě potřeby trochu zmenší, ale nikdy
+neztenčí. Odškrtněte „Tučné písmo“ pro běžné písmo. Barvy a písmo jsou součástí nastavení
+a exportují se.
+
 Klávesy
 -------
 Fn (vlevo dole): druhá vrstva s F1 až F12, Home, End, Page Up/Down, speciálními znaky.
@@ -133,6 +151,9 @@ Klávesa velikosti písmen (vedle mezerníku): mění zápis posledního slova.
     je po kliknutí do okna, přepnutí okna nebo Enteru. Nezná slova z hlasového zadávání
     (např. Wispr Flow) ani z jiné klávesnice.
     VŠE VELKÝMI: klávesou Caps Lock ⇪.
+    Také zkratkou: numerická * (výchozí, jmenuje se „NumMal“) dělá totéž co klávesa, i když
+    je klávesnice sbalená. Není-li známo žádné slovo, klávesa Aa nebo kulaté tlačítko jen
+    krátce blikne.
 
 Na začátku věty (po . ! ? a mezeře nebo po Enteru) bude další písmeno automaticky velké.
 Lze vypnout v nastavení.
@@ -360,6 +381,7 @@ Globální zkratky a Quadstick
 Tyto zkratky fungují, i když je vepředu jiný program:
   Pause            zobrazit/skrýt klávesnici
   numerická -      otevřít lištu maker (v klávesnici se jmenuje „NumMinus“)
+  numerická *      velká/malá písmena posledního slova, jako klávesa Aa („NumMal“)
 Navíc může každé makro dostat vlastní zkratku (v editoru maker).
 V nastavení je u každé zkratky vidět, zda je aktivní (zelené zaškrtnutí), nebo ne (červeně,
 s důvodem).
@@ -389,6 +411,7 @@ Přiřazení klávesy Quadsticku:
   V konfiguračním listu Quadsticku (tabulka Google) jeden řádek na zkratku, příklad:
       kb_pause          normal    <vstup>
       kb_keypad_minus   normal    <vstup>
+      kb_keypad_asterisk normal   <vstup>       (pro velká/malá písmena)
   1. Ve žlutém sloupci vyber požadovaný vstup (např. mp_triple_puff).
   2. Nahraj konfiguraci do Quadsticku jako obvykle.
   3. Ověř pomocí „Otestovat zkratky“.

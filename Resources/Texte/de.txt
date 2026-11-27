@@ -546,3 +546,33 @@ Nicht in diesen Programmen (z. B. winword, excel):	Nicht in diesen Programmen (z
 Erkannte Textfelder ins Protokoll schreiben	Erkannte Textfelder ins Protokoll schreiben
 Wort	Wort
 Bei Tippfehlern Korrektur vorschlagen	Bei Tippfehlern Korrektur vorschlagen
+Beschriftung auf Makro-Knöpfen	Beschriftung auf Makro-Knöpfen
+Beschriftung auf Sondertasten	Beschriftung auf Sondertasten
+Beschriftung auf Tasten	Beschriftung auf Tasten
+Blau	Blau
+Dunkel	Dunkel
+Eigene Farben	Eigene Farben
+Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.	Ein Klick auf ein Schema genügt, die Tastatur ändert sich sofort.
+Farben und Schrift	Farben und Schrift
+Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)	Fette Schrift (alle Tastenbeschriftungen so dick wie die Satzzeichen)
+Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.	Für Groß/Klein die Zeile kb_keypad_asterisk genauso belegen.
+Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.	Für jeden Bereich einzeln eine Farbe wählen. Ausgangspunkt ist das gerade gewählte Schema.
+Gedrückte Taste	Gedrückte Taste
+Groß/Klein (letztes Wort)	Groß/Klein (letztes Wort)
+Grün	Grün
+Hallo	Hallo
+Hell	Hell
+Hintergrund der Tastatur	Hintergrund der Tastatur
+Hoher Kontrast	Hoher Kontrast
+Makro-Knöpfe	Makro-Knöpfe
+Sondertasten (Shift, Enter, Löschen, Aa, Makro …)	Sondertasten (Shift, Enter, Löschen, Aa, Makro …)
+Standard	Standard
+Tastenbeschriftung	Tastenbeschriftung
+Verweilen (Fortschritt und Hervorhebung)	Verweilen (Fortschritt und Hervorhebung)
+Vorschlagsleiste	Vorschlagsleiste
+Vorschlagstext auf der Leiste	Vorschlagstext auf der Leiste
+Vorschlagstext	Vorschlagstext
+Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.	Wirkt wie die Aa-Taste auf das zuletzt getippte Wort, auch wenn die Tastatur eingeklappt ist. Ist kein Wort bekannt, blinkt die Aa-Taste nur kurz.
+⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 	⚠ Schlecht lesbar (Kontrast unter 4,5 : 1): 
+Farbe wählen	Farbe wählen
+Weitere Farben …	Weitere Farben …
